@@ -1,0 +1,904 @@
+Game Lists: Gear, Spells, & More
+This section serves as a reference for the common equipment and abilities you will encounter in Skyrim. Use it to understand the gear in your starting kit and the treasures you might find on your adventures.
+
+Armor & Clothing List
+Armor is more than just protection; it defines your character's style and strategy. Each set provides Damage Reduction (DR) but also comes with unique properties. Choosing your armor is a trade-off between resilience, mobility, and other powerful benefits. This list covers the common types found in Skyrim; unique, enchanted, or legendary variants may exist at your GM's discretion.
+Clothing & Robes
+Favored by mages and civilians, clothing offers no physical protection but is essential for enhancing magical power or social standing.
+Name
+Category
+DR
+Properties & Notes
+Common Clothes
+Clothing
+0
+No special properties.
+Tavern Clothes
+Clothing
+0
+Gregarious: You have a +1 bonus to your Guile Target Number on social rolls in inns and taverns.
+Fine Clothes
+Clothing
+0
+Well-Dressed: Grants a +2 bonus to your Guile Target Number on persuasion rolls in civilized, formal settings.
+Blacksmith's Apron
+Clothing
+0
+Artisan: Grants a +1 bonus to your Might Target Number on all Smith-related checks.
+Mage Robes
+
+
+
+
+
+
+Novice Robes
+Clothing
+0
+Magicka Font: Grants +2 to your maximum FP.
+Apprentice Robes
+Clothing
+0
+School Attunement: Choose one school of magic (e.g., Destruction). The FP cost of all Novice and Apprentice spells from that school is reduced by 1 (to a minimum of 1).
+Adept Robes
+Clothing
+0
+Greater Attunement: As Apprentice Robes, but also reduces the cost of Adept spells from your chosen school by 1.
+Expert Robes
+Clothing
+0
+Potent Casting: Spells from your chosen school are more powerful. Spells deal +3 damage (or Healing/Effect)
+Master Robes
+Clothing
+0
+Magical Supremacy: Combines the benefits of Adept and Expert robes for your chosen school (reduced FP cost and increased potency).
+
+Light Armor
+For those who value speed and subtlety. Light armor allows for greater mobility and often complements a stealthy or agile playstyle.
+Name
+Category
+DR
+Properties & Notes
+Fur Armor
+Light Armor
+1
+Nordic Insulation: You take 1 less damage from all magical sources of frost.
+Hide Armor
+Light Armor
+1
+Rugged: No special properties. The common, reliable baseline for light armor.
+Leather Armor
+Light Armor
+1
+Supple: Advantage on Sneak rolls, making it a quiet choice for aspiring rogues.
+Studded Armor
+Light Armor
+1
+Reinforced: This armor is tougher than it looks. Grants +1 to your maximum HP.
+Elven Armor
+Light Armor
+2
+Moon-Blessed: This lightweight armor is attuned to magic. Grants +1 to your maximum FP.
+Chitin Armor
+Light Armor
+2
+Noxious Resilience: You have Advantage on rolls to resist poisons.
+Scaled Armor
+Light Armor
+2
+Brutish: A heavier, noisier alternative. Provides a -1 penalty to Sneak rolls, but grants an additional +1 HP.
+Glass Armor
+Light Armor
+3
+Crystalline Resonance: So light it barely counts as armor. You are considered "unarmored" for the purposes of spells like Oakflesh.
+Stalhrim Armor
+Light Armor
+3
+Enchantment Affinity: Any magical enchantment placed on this armor has its numerical effect increased by 1 (e.g., a +1 damage enchantment becomes +2).
+Dragonscale Armor
+Light Armor
+4
+Dragon's Bane: You have resistance to the Thu'um. You take half damage from all dragon breath attacks.
+
+Heavy Armor
+For the warrior who wades into battle. Heavy armor offers the ultimate protection but is noisy and can hinder spellcasting. (Note: A flat penalty to your Sneak Target Number is generally less severe than having Disadvantage.)
+Name
+Category
+DR
+Properties & Notes
+Iron Armor
+Heavy Armor
+2
+Clumsy & Loud: You have Disadvantage on all Sneak rolls while wearing this armor.
+Banded Iron Armor
+Heavy Armor
+2
+Tougher: A reinforced version of standard Iron. Grants +1 to your maximum HP. Disadvantage on all sneak rolls
+Imperial Armor
+Heavy Armor
+2
+Legion Discipline: The commanding presence of this armor grants a +1 bonus to your Guile Target Number on Intimidation checks. Disadvantage on all sneak rolls
+Steel Armor
+Heavy Armor
+3
+Soldier's Standard: A solid, well-made suit. Imposes a flat -2 penalty to your Sneak Target Number (this is better than Disadvantage).
+Bonemold Armor
+Heavy Armor
+3
+Ash Resistance: You have Advantage on rolls to resist negative effects from ash or blight, and you take 1 less damage from fire. Imposes a flat -2 penalty to your Sneak Target Number
+Steel Plate Armor
+Heavy Armor
+4
+Masterwork: The pinnacle of standard smithing. Imposes only a -1 penalty to your Sneak Target Number.
+Dwarven Armor
+Heavy Armor
+4
+Dwemer Resilience: Ancient and incredibly durable. You are immune to poisons and have advantage on rolls to resist diseases. Imposes only a -1 penalty to your Sneak Target Number.
+Orcish Armor
+Heavy Armor
+4
+Intimidating Presence: The brutal design grants a +2 bonus to your Guile Target Number on Intimidation rolls. Disadvantage on all sneak rolls
+Ebony Armor
+Heavy Armor
+5
+Night's Embrace: This rare armor is surprisingly quiet for its weight. It imposes no penalty on Sneak rolls.
+Stalhrim Armor
+Heavy Armor
+5
+Enchantment Affinity: Any magical enchantment placed on this armor has its numerical effect increased by 1 (e.g., a +1 DR enchantment becomes +2). Imposes only a -1 penalty to your Sneak Target Number.
+Dragonplate Armor
+Heavy Armor
+6
+Dragon's Bane: Forged from the bones of dragons. You take half damage from all dragon breath attacks. Disadvantage on all sneak rolls
+Daedric Armor
+Heavy Armor
+6
+Terrifying Visage: A suit of literal demon-metal. You cause Fear in one low-level enemy at the start of combat. (they must make a guile roll) However, it is deeply unsettling to commoners, giving you a -2 penalty on all non-Intimidation social rolls. Imposes only a -1 penalty to your Sneak Target Number.
+
+
+
+Shields
+A shield is used actively by Bracing as a Minor Action. A braced shield reduces the damage of the next attack that hits you.
+Shield Name
+Category
+Bracing Bonus
+Properties & Notes
+Hide Shield
+Light Shield
++1 DR
+The reliable standard for any warrior.
+Iron Shield
+Light Shield
++1 DR
+Bashing Shield: Your Shield Bash action costs 0 FP.
+Steel Shield
+Standard Shield
++2 DR
+Bashing Shield: Your Shield Bash action costs 0 FP.
+Elven Shield
+Standard Shield
++2 DR
+Arcane Guard: When you brace, you also gain +1 DR against spells until your next turn.
+Dwarven Shield
+Heavy Shield
++3 DR
+Shield Wall: The ultimate in active defense. Bracing does not use up your minor action. 
+Orcish Shield
+Heavy Shield
++3 DR
+Spiked Shield: When you use the Brace action and are hit by a melee attack, the attacker takes 1 damage.
+Ebony Shield
+Heavy Shield
++4 DR
+Absorbing:When you use the Brace action and are hit by a spell, you regain 1 FP.
+Daedric Shield
+Heavy Shield
++5 DR
+Daedric Ward: When you brace, you also gain resistance to elemental damage, reducing elemental damage by half.
+Dragon shield
+Heavy Shield
+ +5 DR
+Dragonguard: when you brace, +2DR against Dragons.
+
+
+Weapon List
+A weapon's Damage is a fixed number, but its true value lies in its unique properties. The type of weapon you choose—be it a sword, mace, or axe—determines how you fight, offering distinct tactical advantages. The material it's made from determines its raw power.
+Weapon Properties by Type
+Swords (Finesse): Balanced and precise. On a Critical Success (a roll of 1), sword attacks deal an additional +2 damage.
+Maces (Bone Breaker): Brutal and heavy. Mace attacks ignore 1 point of the target's Damage Reduction.
+War Axes (Hack & Slash): Vicious and sharp. When you hit with a Power Attack, the target also takes 1 Bleed damage at the start of their next turn.
+Daggers (Assassin's Blade): Fast and concealable. Dagger attacks deal triple (x3) damage on a successful attack from Sneak (instead of the usual double).
+
+One-Handed Weapons
+Governed by the Might Stat.
+All one-handed weapons fall into one of four categories, each with a unique property that defines its combat style. The material the weapon is crafted from determines its base damage and may grant additional powerful effects.
+Weapon Properties by Type
+Swords (Finesse): Balanced and precise. On a Critical Success (a roll of 1), sword attacks deal an additional +2 damage.
+Maces (Bone Breaker): Brutal and heavy. Mace attacks ignore 1 point of the target's Damage Reduction.
+War Axes (Hack & Slash): Vicious and sharp. When you hit with a Power Attack, the target also takes 1 Bleed damage at the start of their next turn.
+Daggers (Assassin's Blade): Fast and concealable. Dagger attacks deal triple (x3) damage on a successful attack from Sneak (instead of the usual double).
+
+Tier 1: Basic Materials 4dmg
+Weapon Name
+Damage
+Properties & Notes
+Iron Dagger
+3
+Assassin's Blade. The baseline for a concealed weapon.
+Iron Sword
+4
+Finesse. A common blade for bandits and mercenaries.
+Iron War Axe
+5
+Hack & Slash. A crude but effective weapon.
+Iron Mace
+5
+Bone Breaker. Simple, heavy, and gets the job done.
+
+
+Tier 2: Soldier's Steel 6dmg
+Weapon Name
+Damage
+Properties & Notes
+Steel Dagger
+4
+Assassin's Blade. Well-crafted and reliable.
+Steel Sword
+6
+Finesse. The standard-issue weapon of a professional soldier.
+Steel War Axe
+7
+Hack & Slash. A significant improvement over iron.
+Steel Mace
+7
+Bone Breaker. The guard's choice for putting down trouble.
+
+
+Tier 3: The Racial Styles 9dmg
+At this tier, craftsmanship diverges, offering distinct tactical advantages.
+Weapon Name
+Damage
+Properties & Notes
+Elven Dagger
+6
+Assassin's Blade. Lightweight: Grants -1 to your initiative roll at the start of combat.
+Elven Sword
+8
+Finesse. Lightweight: Grants -1 to your initiative roll at the start of combat.
+Dwarven War Axe
+9
+Hack & Slash. Staggering Force: These weapons are exceptionally dense. When you hit with a Power Attack, the target is staggered and loses their next Major Action.
+Dwarven Mace
+9
+Bone Breaker. Staggering Force: These weapons are exceptionally dense. When you hit with a Power Attack, the target is staggered and loses their next Major Action..
+Orcish Dagger
+7
+Assassin's Blade. Brutal: This weapon is heavy and vicious. Its Power Attacks deal an additional +1 damage.
+Orcish War Axe
+9
+Hack & Slash. Orcish weapons are heavier and focus on raw power over finesse, granting them higher base damage than their counterparts.
+Orcish Mace
+9
+Bone Breaker. A brutal, high-damage option.
+
+
+Tier 4: Exotic Materials 12 dmg
+Weapon Name
+Damage
+Properties & Notes
+Glass Dagger
+8
+Assassin's Blade. Razor Sharp: The weapon's property is enhanced. Its sneak attacks now deal quadruple (x4) damage.
+Glass Sword
+10
+Finesse. Razor Sharp: The weapon's property is enhanced. Its Critical Successes deal +3 damage instead of +2.
+Glass War Axe
+11
+Hack & Slash. Razor Sharp: The weapon's property is enhanced. Its Power Attack bleed now deals 2 damage.
+
+
+Tier 5: Legendary Materials 16 dmg
+Weapon Name
+Damage
+Properties & Notes
+Ebony Dagger
+12
+Assassin's Blade. Masterfully crafted for a silent, deadly strike.
+Ebony Sword
+14
+Finesse. A rare and coveted blade, the choice of Jarls and their housecarls.
+Ebony War Axe
+15
+Hack & Slash. Weighted perfectly for devastating chops.
+Ebony Mace
+15
+Bone Breaker. A dense, terrifyingly effective bludgeon.
+Daedric Dagger
+12
+Assassin's Blade. Soul Trap: As a free action when you hit, you can spend 3 FP to cast Soul Trap on the target.
+Daedric Sword
+15
+Finesse. Soul Trap: As a free action when you hit, you can spend 3 FP to cast Soul Trap on the target.
+Daedric Mace
+16
+Bone Breaker. Soul Trap: As a free action when you hit, you can spend 3 FP to cast Soul Trap on the target.
+Dragonbone Dagger
+12
+Assassin's Blade. Dragonslayer: This weapon deals an additional +2 damage against dragons.
+Dragonbone Sword
+16
+Finesse. Dragonslayer: This weapon deals an additional +2 damage against dragons.
+
+
+
+Two-Handed Weapons
+Governed by the Might Stat.
+These immense weapons require two hands to wield, trading the defensive option of a shield for overwhelming offensive power. Each of the three types excels in a different method of destruction, and their properties are enhanced versions of their one-handed counterparts.
+Weapon Properties by Type
+Greatswords (Finesse): Surprisingly swift for their size. On a Critical Success (a roll of 1), you may immediately make a second attack against the same target as a free action.
+Warhammers (Skullcrusher): Designed to shatter armor and bone. These weapons ignore 2 points of the target's Damage Reduction.
+Battleaxes (Deep Wounds): Leave grievous injuries. When you hit with a Power Attack, the target takes 2 Bleed damage at the start of their next turn.
+
+Tier 1: Basic Materials 6dmg
+Weapon Name
+Damage
+Properties & Notes
+Iron Greatsword
+6
+Finesse. The cheapest and most common two-handed weapon.
+Iron Battleaxe
+7
+Deep Wounds. Favored by bandits and raiders.
+Iron Warhammer
+8
+Bonebreaker. Skullcrusher): ignore 2 points of the target's Damage Reduction
+
+
+Tier 2: Soldier's Steel 9dmg
+Weapon Name
+Damage
+Properties & Notes
+Steel Greatsword
+9
+Finesse. The standard weapon for a heavy infantry soldier.
+Steel Battleaxe
+10
+Deep Wounds. Well-balanced and reliable.
+Steel Warhammer
+11
+Skullcrusher. Ignores 2 points of DR.
+
+
+Tier 3: The Racial Styles 12dmg
+Craftsmanship at this level provides powerful, culturally-specific advantages.
+Weapon Name
+Damage
+Properties & Notes
+Elven Greatsword
+11
+Finesse. Lightweight: Built for speed, it grants +1 to your initiative roll at the start of combat.
+Dwarven Battleaxe
+13
+Deep Wounds. Staggering Force: These weapons are exceptionally dense. When you hit with a Power Attack, the target is staggered and loses their next Major Action.
+Dwarven Warhammer
+14
+Skullcrusher. Staggering Force: These weapons are exceptionally dense. When you hit with a Power Attack, the target is staggered and loses their next Major Action..
+Orcish Greatsword
+13
+Finesse. Brutal: This weapon is heavy and vicious. Its Power Attacks deal an additional +1 damage.
+Orcish Battleaxe
+13
+Deep Wounds. Orcish weapons are heavier, granting higher base damage than their counterparts.
+Orcish Warhammer
+14
+Skullcrusher. The quintessential Orcish weapon for breaking shield walls.
+
+
+
+Tier 4: Exotic Materials 16dmg
+Weapon Name
+Damage
+Properties & Notes
+Glass Greatsword
+15
+Finesse. Razor Sharp: The weapon's property is enhanced. The free attack from a Critical Success deals an additional +1 damage.
+Glass Battleaxe
+15
+Deep Wounds. Razor Sharp: The weapon's property is enhanced. Its Power Attack bleed now deals 3 damage.
+Glass Warhammer
+16
+Skullcrusher. Razor Sharp: The crystalline head is shaped to shatter armor more effectively. It now ignores 3 points of DR.
+
+
+Tier 5: Legendary Materials 20dmg
+Weapon Name
+Damage
+Properties & Notes
+Ebony Greatsword
+17
+Finesse. A perfectly balanced blade of volcanic glass, desired by the greatest warriors.
+Ebony Battleaxe
+17
+Deep Wounds. An executioner's weapon, capable of cleaving through the thickest armor.
+Ebony Warhammer
+18
+Skullcrusher. Incredibly dense and powerful.
+Daedric Greatsword
+20
+Finesse. Soul Trap: As a free action when you hit, you can spend 3 FP to cast Soul Trap on the target.
+Daedric Battleaxe
+20
+Deep Wounds. Soul Trap: As a free action when you hit, you can spend 3 FP to cast Soul Trap on the target.
+Daedric Warhammer
+22
+Skullcrusher. Soul Trap: As a free action when you hit, you can spend 3 FP to cast Soul Trap on the target.
+Dragonbone Greatsword
+22
+Finesse. Dragonslayer: This weapon deals an additional +2 damage against dragons.
+Dragonbone Battleaxe
+24
+Deep Wounds. Dragonslayer: This weapon deals an additional +2 damage against dragons.
+
+
+
+Archery
+Governed by the Agility Stat.
+Ranged combat is an art form, and the archer's instrument is key to their style. Bows and crossbows are not interchangeable; they offer a fundamental choice between speed, power, range, and tactical flexibility.
+Shared Ranged Properties
+The following properties can be found on various types of both bows and crossbows, reflecting the specific craftsmanship or intended use of the weapon.
+Lightweight: The weapon is designed for stealth. It imposes no penalty on Sneak rolls.
+Heavy Draw: The weapon requires significant strength, trading speed for power. It grants +1 Damage but imposes a -1 penalty to your initiative roll.
+Long Range: The weapon is exceptionally well-suited for sniping. You have Advantage on attack rolls against targets at the furthest possible range.
+Skirmisher: The weapon is maneuverable in close quarters. You do not have Disadvantage when firing at a target in melee range.
+Savage: The weapon is crude but vicious. On a Critical Success, the target also takes 2 Bleed damage at the start of their next turn.
+Envenomed: The weapon is crafted from toxic materials. You may apply a poison to it as a Free Action instead of a Minor Action.
+
+Bows
+Bows are the traditional weapon of the hunter and skirmisher, valuing speed and a continuous stream of arrows over raw power. They are versatile tools for those who need to adapt quickly on the battlefield.
+Bow-Exclusive Property
+Quick Draw: The weapon is balanced and swift. Using the Eagle Eye perk (spending FP to aim for a bonus) costs 0 FP.
+
+Tier 1: Found & Foraged
+Weapon Name
+Damage
+Properties & Notes
+Long Bow
+4
+Quick Draw. A basic bow made from yew, common throughout Skyrim.
+Forsworn Bow
+5
+Savage. A brutal bow crafted from bone and sinew, favored by the savage natives of the Reach.
+
+Tier 2: Hunter & Soldier
+Weapon Name
+Damage
+Properties & Notes
+Hunting Bow
+6
+Quick Draw, Lightweight. The preferred weapon of hunters and poachers across the holds.
+Imperial Bow
+7
+Quick Draw, Skirmisher. The standard-issue weapon of the Imperial Legion, designed for disciplined volley fire and close support.
+Ancient Nord Bow
+8
+Heavy Draw. An old, heavy weapon found in Draugr-infested tombs. Still surprisingly potent.
+
+Tier 3: The Racial Styles
+Weapon Name
+Damage
+Properties & Notes
+Falmer Bow
+9
+Envenomed. A disturbing weapon made from chaurus chitin. It seems to glisten with a faint, toxic sheen.
+Elven Bow
+9
+Quick Draw, Lightweight. Grants +1 to your initiative roll at the start of combat. A masterpiece of Aldmeri craftsmanship.
+Orcish Bow
+10
+Heavy Draw, Brutal (+1 Power Attack Damage). A powerful, brutish weapon requiring immense strength.
+Dwarven Bow
+10
+Long Range, Staggering Force. An incredibly heavy, mechanical bow of Dwemer design. When you use the Power Shot perk, the target is knocked prone.
+
+Tier 4 & 5: Legendary Materials
+Weapon Name
+Damage
+Properties & Notes
+Glass Bow
+12
+Quick Draw, Razor Sharp (+1 Bleed). Fires crystalline-tipped arrows that splinter on impact, causing a bleed.
+Ebony Bow
+14
+Quick Draw, Long Range. The pinnacle of conventional bowyer craftsmanship, perfect for a master sniper.
+Daedric Bow
+16
+Quick Draw, Soul Trap. A terrifying weapon that pulses with dark energy. As a free action when you hit, you can spend 3 FP to cast Soul Trap.
+Dragonbone Bow
+16
+Quick Draw, Dragonslayer (+2 Dmg vs Dragons). A bow of immense power, crafted from the bones of a dragon.
+
+
+
+
+Crossbows
+Crossbows are mechanical weapons of immense power, favored by engineers and dedicated hunters like the Dawngu-ard. They sacrifice speed for armor penetration and staggering force, making every shot count.
+Crossbow-Exclusive Properties
+Reload: A slow weapon that must be reloaded as a Minor Action after each shot. All crossbows have this property.
+Piercing Bolt: The weapon fires with immense force. Its attacks ignore 1 point of the target's Damage Reduction.
+Breaching: The ultimate in armor penetration. The weapon ignores 3 points of the target's Damage Reduction.
+Bayonet: The crossbow is fitted with a small blade. If an enemy is in melee range, you can use the crossbow to make a melee attack with a Damage of 2.
+Weighted: The weapon is heavy and difficult to aim on the move. You have Disadvantage on attack rolls if you moved during the same turn. However, if you do not move, your shots deal +1 damage.
+
+Tier 1: Basic Materials
+Weapon Name
+Damage
+Properties & Notes
+Wood Crossbow
+5
+Piercing Bolt, Reload. A crude, homemade crossbow often found in the hands of bandits and poachers.
+
+
+Tier 2: Standard Issue
+Weapon Name
+Damage
+Properties & Notes
+Steel Crossbow
+9
+Piercing Bolt, Reload. A well-made and reliable weapon, made famous by the Dawnguard. A true soldier's weapon.
+Hunter's Crossbow
+7
+Piercing Bolt, Reload, Envenomed. A lighter, specialized crossbow designed for taking down beasts. Poisons can be applied as a Free Action.
+
+Tier 3: The Racial Styles
+Weapon Name
+Damage
+Properties & Notes
+Elven Crossbow
+11
+Piercing Bolt, Reload, Skirmisher. An elegant and lightweight design. You do not have Disadvantage when firing at a target in melee range.
+Orcish Crossbow
+12
+Piercing Bolt, Reload, Weighted. A brutally powerful weapon that rewards a stable firing position with extra damage.
+Dwarven Crossbow
+12
+Piercing Bolt, Reload, Staggering Force. Hits with such power that you can spend 3 FP on a successful shot to stagger the target, even without the Power Shot perk.
+
+Tier 4: Exotic & Enhanced Designs
+Weapon Name
+Damage
+Properties & Notes
+Glass Crossbow
+14
+Piercing Bolt (Ignores 2 DR), Reload. The bolts are fletched for an exceptionally flat trajectory, making them better at punching through armor.
+Enhanced Dwarven Crossbow
+16
+Piercing Bolt, Reload, Staggering Force, Bayonet. A masterpiece of Dwemer mechanics, upgraded with a small blade for self-defense.
+
+Tier 5: Legendary Materials
+Weapon Name
+Damage
+Properties & Notes
+Ebony Crossbow
+18
+Piercing Bolt (Ignores 2 DR), Reload, Long Range. Forged from volcanic glass, this crossbow is the ultimate sniper's tool, granting Advantage on shots at the furthest range.
+Daedric Crossbow
+20
+Piercing Bolt (Ignores 2 DR), Reload, Soul Trap. A terrifying weapon that hums with dark power. As a free action when you hit, you can spend 2 FP to cast Soul Trap.
+Dragonbone Crossbow
+20
+Breaching (Ignores 3 DR), Reload, Dragonslayer (+2 Dmg vs Dragons). The ultimate dragon-hunting weapon, capable of punching a bolt through the toughest of scales.
+
+
+
+General Items & Consumables
+This list covers the common potions, poisons, and miscellaneous items an adventurer might find or craft in Skyrim. Using a potion or applying a poison in combat is typically a Minor Action.
+Potions (Restorative)
+Potion Name
+Rarity
+Effect
+Potion of Minor Healing
+Common
+Drink to immediately restore 4 HP.
+Potion of Healing
+Common
+Drink to immediately restore 8 HP.
+Potion of Plentiful Healing
+Uncommon
+Drink to immediately restore 12 HP.
+Potion of Vigorous Healing
+Rare
+Drink to immediately restore 16 HP.
+Potion of Ultimate Healing
+Super Rare
+Drink to immediately restore 20 HP.
+Potion of Minor Magicka
+Common
+Drink to immediately restore 4 FP.
+Potion of Magicka
+Common
+Drink to immediately restore 8 FP.
+Potion of Plentiful Magicka
+Uncommon
+Drink to immediately restore 12 FP.
+Potion of Focus
+Rare
+Drink to immediately restore 16 FP.
+Potion of Ultimate Magika
+Rare
+Drink to immediately restore 20 FP
+Cure Disease Potion
+Uncommon
+Cures all non-magical diseases affecting you.
+Cure Poison Potion
+Uncommon
+Immediately ends the effects of any non-magical poison.
+
+Potions (Enhancement)
+Potion Name
+Rarity
+Effect
+Potion of Fortify Might
+Uncommon
+Drink to gain a +2 bonus to your Might Target Number for 3 rounds.
+Potion of Fortify Agility
+Uncommon
+Drink to gain a +2 bonus to your Agility Target Number for 3 rounds.
+Potion of Resist Fire
+Uncommon
+For 3 rounds, you take half damage from all sources of fire.
+Potion of Resist Frost
+Uncommon
+For 3 rounds, you take half damage from all sources of frost.
+Potion of Resist Shock
+Uncommon
+For 3 rounds, you take half damage from all sources of shock.
+Potion of Invisibility
+Rare
+Drink to become invisible for 3 rounds or until you perform a hostile action.
+
+Poisons
+Applying a poison is a Minor Action unless you have a perk that says otherwise.
+Poison Name
+Rarity
+Effect
+Weak Poison
+Common
+Apply to a weapon. The next successful hit with that weapon deals an additional 2 poison damage.
+Frostbite Spider Venom
+Common
+Apply to a weapon. The next successful hit forces the target to make a Might roll or become Slowed (cannot use Minor Action for movement) for their next turn.
+Damage Magicka Poison
+Uncommon
+Apply to a weapon. The next successful hit deals no extra damage, but the target loses 5 FP.
+Paralysis Poison
+Rare
+Apply to a weapon. The next successful hit forces the target to make a Might roll or become Paralyzed, losing their next turn completely.
+
+Equipment & Miscellaneous
+Item Name
+Category
+Effect
+Lockpick
+Equipment
+A thin piece of metal used to pick locks. A single lockpick breaks on any failed Lockpicking attempt unless you have a perk that prevents it.
+Torch
+Equipment
+Provides bright light in a 20-foot radius for one hour (real time). Can be used as a clumsy weapon (Damage 1, can set flammable things alight).
+Rope (50 feet)
+Equipment
+A standard adventurer's tool for climbing, securing items, or setting traps.
+Animal Pelt
+Material
+The hide of a beast. Can be sold to merchants or used for crafting.
+Ore (Iron, etc.)
+Material
+A chunk of raw ore. Can be sold or used for crafting.
+Alchemy Ingredients
+Material
+Flowers, fungi, and other components used to create potions and poisons with the Alchemy skill.
+Gold (Septim)
+Currency
+The standard currency of the Empire.
+Soul Gem (Petty)
+Miscellaneous
+A magical crystal used to trap the souls of lesser creatures (wolves, mudcrabs, etc.). 
+White Souls:(From beasts and lesser creatures) Can be used to recharge one magic item by half of its total charges rounded up.
+Soul Gem (Greater)
+Miscellaneous
+A magical crystal that can trap the souls of powerful creatures and humanoids.
+White Souls: (From beasts and lesser creatures) Can be used to recharge one magic item.
+Black Souls: (From humanoid races) Are potent and seen by many as a dark perversion of magic. A black soul can be used to recharge a magic item twice before being expended. However, using a black soul carries two great risks:
+Social Stigma: Recharging or using an item with a black soul is a dark act. If witnessed by a lawful or good-aligned NPC (a guard, priest, or common citizen), you may be treated with suspicion, reported to the authorities, or even attacked by zealous individuals.
+Catastrophe: When you roll a Critical Failure (a 20) while using an item charged with a black soul, you trigger a Soul Catastrophe. The vengeful soul lashes out, and the GM will determine the dire consequences.
+Sweetroll
+Food
+A delicious pastry. Someone might have stolen it.
+
+
+
+
+The Art of the Forge: Striking for Perfection
+A warrior's skill is paramount, but the quality of their steel can turn a good warrior into a legend. While any smith can shoe a horse or mend a pot, only true artisans can unlock the potential hidden within a blade or a breastplate. This system allows players to invest in their chosen equipment through a high-stakes, high-reward process where a master's touch can forge a common weapon into a priceless artifact. Each swing of the smith's hammer is a gamble, a test of skill against the stubbornness of metal and fate.
+The Core Mechanic: Improvement Slots & The Smith's Roll
+Every piece of equipment (weapon, armor, or shield) has a set number of Improvement Slots, determined by its material tier. These slots represent the item's inherent potential for reinforcement and refinement.
+When a player wishes to upgrade an item, they must pay the required Gold and Material costs. The GM then makes a single d20 roll for the blacksmith, representing their effort in that moment. The outcome determines the quality of the improvement.
+Weapons: A successful improvement grants a permanent bonus to the weapon's base Damage.
+Armor & Shields: A successful improvement grants a permanent bonus to the item's base Damage Reduction (DR).
+Improvement Slots by Material Tier
+Material Tier
+Examples
+Max Improvement Slots
+Tier 1: Basic
+Iron, Fur, Hide, Wood
+2 Slots
+Tier 2: Standard
+Steel, Leather, Imperial
+3 Slots
+Tier 3: Racial
+Elven, Dwarven, Orcish
+4 Slots
+Tier 4: Exotic
+Glass, Stalhrim
+5 Slots
+Tier 5: Legendary
+Ebony, Daedric, Dragon
+6 Slots
+
+
+The Upgrade Process: Finding a Smith
+Players must pay a blacksmith for their services. However, a smith's skill determines the quality of their work and the likelihood of achieving a truly masterful result. A smith's expertise is represented by their Might Score, which serves as their Target Number (TN) for the upgrade roll.
+Blacksmith Skill Tiers
+Smith Tier
+Title
+Might Score (TN)
+Apprentice
+Village Smith
+12
+Adept
+Hold Smith
+15
+Master
+Legendary Smith
+18
+
+
+The "Striking for Perfection" Table
+After the costs are paid, the GM rolls 1d20 against the smith's Might TN. The result determines the outcome.
+Roll Result
+Outcome
+Effect on the Item
+Slot Consumed?
+1
+Critical Success
+Masterwork Improvement. The smith achieves a legendary result. The item gains a massive +3 to its base stat (Damage or DR).
+Yes (1 Slot)
+Roll is ≤ (TN / 2)
+Exceptional Success
+Exceptional Improvement. The work is of remarkable quality. The item gains a significant +2 to its base stat.
+Yes (1 Slot)
+Roll is under TN
+Standard Success
+Standard Improvement. A solid, professional job. The item gains a reliable +1 to its base stat.
+Yes (1 Slot)
+Roll is Over TN
+Simple Failure
+Wasted Effort. The smith fails to improve the item. The gold and materials are consumed, but no bonus is gained.
+No
+20
+Critical Failure
+Flawed Attempt. A critical error in the forging process ruins the potential. The item gains no bonus, but the attempt is botched and wastes the material.
+Yes (1 Slot)
+
+
+Costs of Improvement
+Each upgrade attempt requires Gold for the smith's labor and Materials for the work itself. Costs are determined by the item's material tier and the quality level being achieved (i.e., which upgrade number this is).
+Gold Cost per Upgrade
+Quality Being Forged
+Tier 1
+Tier 2
+Tier 3
+Tier 4
+Tier 5
+Fine (+1)
+50g
+100g
+200g
+400g
+800g
+Superior (+2)
+150g
+300g
+600g
+1200g
+2400g
+Exquisite (+3)
+-
+750g
+1500g
+3000g
+6000g
+Flawless (+4)
+-
+-
+3000g
+6000g
+12000g
+Epic (+5)
+-
+-
+-
+10000g
+20000g
+Legendary (+6)
+-
+-
+-
+-
+35000g
+
+Material Cost per Upgrade
+Each upgrade attempt requires one primary material component corresponding to the item's tier.
+Item Material Tier
+Required Material
+Iron, Basic Wood
+1 Iron Ingot
+Steel, Imperial
+1 Steel Ingot
+Fur, Hide, Leather
+1 Leather Strip per original DR point
+Elven
+1 Refined Moonstone
+Dwarven
+1 Dwarven Metal Ingot
+Orcish
+1 Orichalcum Ingot
+Glass
+1 Refined Malachite
+Stalhrim
+1 Stalhrim Ore
+Ebony
+1 Ebony Ingot
+Daedric
+1 Ebony Ingot + 1 Daedra Heart
+Dragonbone/Scale
+1 Dragon Bone/Scale
+
+
+Example of Play: Forging a Legend
+A player takes their standard Dwarven War Axe (Dmg 3, Tier 3, 4 slots) to Balimund in Riften, an Adept Smith with a Might of 15.
+First Upgrade (Attempting "Fine"):
+The Cost: The player pays the "Fine" cost for a Tier 3 item: 200 Gold and 1 Dwarven Metal Ingot.
+The Roll: The GM rolls a d20 for Balimund. The roll is a 6.
+The Outcome: A 6 is less than or equal to half of Balimund's TN (15 / 2 = 7.5). This is an Exceptional Success! The axe gains a +2 Damage bonus. It is now a Dwarven War Axe (Exceptional) with a new base Damage of 5. It has used 1 of its 4 slots. The player is thrilled with their powerful new weapon.
+Second Upgrade (Attempting "Superior"):
+Feeling lucky, the player returns later for another upgrade.
+The Cost: They pay the "Superior" cost: 600 Gold and 1 Dwarven Metal Ingot.
+The Roll: The GM rolls a 20.
+The Outcome: A Critical Failure. Balimund curses as the hammer strike goes awry, folding a flaw into the metal. The axe gains no bonus, but the Improvement Slot is consumed. The axe remains Dmg 5, but now only has 2 slots remaining. The player lost gold, a valuable ingot, and a precious chance to improve their weapon further. The gamble did not pay off.
+
+Services: The Arcane Enchanter
+Enchanting is the art of binding a specific magical effect to a physical object. When you commission an item, you are the architect. You don't pick from a list; you describe a Concept—a spell you know, a legend you heard, or a need you have—and the Enchanter binds a soul to make it reality.
+The Process
+The Vessel: A non-magical item. This can be anything: a sword, a ring, a helmet, or a pair of boots.
+The Soul: A filled Soul Gem. This is the fuel.
+Petty Soul Gems (White Souls): Used for minor enchantments.
+Grand Soul Gems (White Souls): Used for powerful enchantments.
+Black Souls (In Grand Gems): Used for the most potent magics, but carry a terrible risk.
+
+
+The Vision: You tell the GM what you want the item to do.
+Active Enchantments: Casting & Striking
+You can bind the essence of a specific Spell (like Fireball, Soul Trap, or Paralyze) to an item. You decide how that power manifests:
+Method A: The Conduit (Casting)
+The item acts as a battery for the spell. You can point the item and "fire" the spell as if you were a mage, using the item's charges instead of your own magicka.
+Creative Freedom: You can enchant a Ring to cast Invisibility, a Shield to cast Healing, or a Sword to cast Lightning Bolt.
+Method B: The Strike (On-Hit)
+Weapons Only. The magic is fused into the material. It releases its energy the moment it pierces armor. This creates weapons that burn, freeze, drain life, or trap souls with every swing.
+Passive Enchantments: Fortification
+Enchantments on armor and jewelry can be constant. They rewrite the limits of your own body.
+Fortify Attribute: Gloves that guide your hands (Agility), boots that lend you the strength of a giant (Might), or a circlet that sharpens your mind (Guile).
+Expand Reserves: A chest piece that holds extra vitality (Health) or a ring that stores magical potential (Focus).
+Regeneration: Rare. You bind a spirit of restoration to the item. It knits your flesh or restores your stamina constantly.
+
+
+
