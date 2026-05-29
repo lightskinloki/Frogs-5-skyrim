@@ -1,0 +1,69 @@
+The Living City Template
+This is a systems-based template for creating dynamic, persistent, and mechanically integrated cities and towns for your TTRPG. It is built on three pillars: Structure, Inhabitants, and Events.
+
+Pillar 1: Structure (The Foundation)
+This defines the city's identity and the opportunities it presents.
+1. City Profile:
+Name & High Concept: (e.g., Whiterun - The neutral, central trade hub built around a divine forge.)
+Size & Scale: (Choose one)
+Village (e.g., Riverwood): 1 Inn, 1 General Store/Smithy, 1 Unique Location.
+Town (e.g., Falkreath): 1-2 Inns, a dedicated Smithy and Alchemist, 1-2 Unique Locations, a Jarl's Longhouse.
+City (e.g., Solitude): Multiple Inns and shops, multiple Unique Locations, a Castle, distinct districts (e.g., Market District, Temple District).
+
+
+Atmosphere & Core Conflict: (e.g., Prosperous but tense due to the Civil War; a constant stream of travelers vs. a wary local populace.)
+2. Points of Interest (Player-Facing Services):
+Essential Services: (List the names and proprietors of Inns, Smithies, Alchemists, General Stores).
+Unique Locations: (List the names and key NPCs of unique places like a Bard's College, a Temple, a Fletcher, a Court Wizard's lab, etc.).
+Regional Favor: Each settlement has a unique reputation and a preferred way of solving problems. Performing actions that align with a settlement's values can earn the party Favor. Gaining Favor might unlock unique rewards: a discount at a local shop, a private audience with the Jarl, or a crucial piece of information from a wary local. Conversely, acting against their values can earn Disdain, potentially raising prices or making NPCs uncooperative.
+Riften: Values cunning, street smarts, and pragmatism. Favor is gained through successful persuasion, bribery, and finding clever, non-violent solutions. Disdain is earned by being naive, resorting to brutish intimidation, or getting caught breaking the law.
+Whiterun: Values honor, tradition, and martial prowess. Favor is gained by upholding promises, showing respect to the Companions, and solving problems with direct, honorable combat. Disdain is earned through deceit, cowardice, or disrespecting local traditions.
+Solitude: Values law, order, and loyalty to the Empire. Favor is gained by assisting the city guard, reporting crimes, showing deference to Imperial officials, and supporting the arts. Disdain is earned through open support for the Stormcloaks, public disorder, and disrespecting authority.
+Falkreath: Values grim determination, tradition, and respect for the dead. Favor is gained by completing tasks with quiet professionalism, honoring graves, and eliminating supernatural threats. Disdain is earned through frivolous behavior, necromancy, and disrespecting the town's somber nature.
+Markarth: Values strength, wealth, and security. Favor is gained by solving problems with decisive force, intimidating rivals, and protecting the city's lucrative silver mines. Disdain is earned by showing weakness, sympathizing with the Forsworn, or challenging the authority of the Silver-Blood family.
+Windhelm: Values Nord tradition, loyalty to the Stormcloak cause, and ancestor worship. Favor is gained by aiding the Stormcloaks, showing prowess in honorable combat, and respecting Nord customs. Disdain is earned by supporting the Empire, showing sympathy to non-Nords (especially Elves), or relying heavily on "weak" magic.
+Morthal: Values superstition and rooting out hidden dangers. Favor is gained by taking local beliefs seriously, investigating supernatural mysteries, and using magic to expose truths (Alteration, Restoration). Disdain is earned by mocking their superstitions or using "dark" magic like Conjuration or Illusion.
+Dawnstar: Values resilience and hard work. Favor is gained by protecting the town's mines and ships, helping its citizens with practical problems, and enduring hardship without complaint. Disdain is earned through laziness, cowardice, or disrupting the town's industry.
+Winterhold: Values survival and community. The townsfolk are wary of the College's power. Favor is gained by helping the local Nords, bringing in outside supplies, and showing a healthy skepticism of overwhelming magic. Disdain is earned by siding with the College against the townsfolk or displaying reckless magical power.
+Helgen: Values Imperial discipline and vigilance. As a military garrison, Favor is gained by following orders, demonstrating martial skill, and reporting any potential threats to the fort's security. Disdain is earned through insubordination, chaotic behavior, and suspected espionage.
+
+
+
+Pillar 2: Inhabitants (The Persistent World)
+This section introduces 2-3 unique, persistent NPCs who have their own goals and are not directly tied to the main quest. Their personal stories evolve over time, reacting to the players' actions and the state of the world.
+Persistent NPC Template:
+Name & Role: (e.g., Brenuin, the city drunkard).
+Core Motivation: (What do they want more than anything? e.g., "Just one more bottle of Argonian Ale.")
+Current State (Initial): (What are they doing when the players first meet them? e.g., "Begging for a coin outside the Bannered Mare.")
+Potential Evolution (Choose 1 or create your own):
+Positive: If the players help them (give him gold, persuade the innkeeper to give him a tab), his state changes on their next visit. (e.g., "Brenuin is now sober, sweeping the floors of the inn for his keep. He thanks the players and gives them a rumor he overheard.")
+Negative: If the players ignore or harm them, his state worsens. (e.g., "Brenuin is gone. The guards mention they found him frozen in an alley after a particularly cold night.")
+Neutral/Quest: Their situation presents a small, non-essential side quest. (e.g., "Brenuin asks the players to retrieve his family locket from a pawn shop, promising them his 'treasure' in return—a surprisingly valuable enchanted ring he stole and hid long ago.")
+
+
+
+Pillar 3: Events (The Dynamic World)
+This system introduces dynamic events that can happen while the players are in the city, making it feel alive and unpredictable. Before a "downtime" day in the city, or when the players enter, roll a d20 and consult the table below.
+City Events Table (d20):
+Market Day: The central plaza is bustling with a traveling Khajiit caravan. For today only, they are selling a selection of rare alchemical ingredients and one minor, randomly generated enchanted item not normally available in town.
+Guard Shakedown: The city guard is on high alert due to a recent incident (related to the main quest). They are questioning strangers, and all Intimidation or Deception rolls against guards are made with Disadvantage for the day.
+Public Festival: A religious festival is underway, honoring one of the Divines. The city's temple is crowded. Players have an opportunity to interact with the High Priest and other important citizens in a social setting, gaining Advantage on Persuasion rolls made there.
+Local Brawl: A massive tavern brawl erupts at the main inn, spilling into the street. The players can intervene, ignore it, or even join in. Intervening on the winning side could earn them a loyal (if drunk) ally for the evening.
+Whispers of a Stranger: A mysterious, hooded figure has been seen in the alleys, asking questions about the players or the main quest. They are an agent of a rival faction or the main villain, trying to gather intelligence.
+Quiet Day: The city is calm and uneventful. This is a perfect opportunity for the players to pursue their own goals, interact with the Persistent NPCs, or engage in downtime.
+Plague Scare: A sickness is spreading through the poorer quarters. The temple and the apothecary are overwhelmed. Any attempt to buy healing potions or services today will be met with long lines and limited supply. A character with Restoration might be asked to help.
+Bard's Tale: A famous traveling bard is performing at the inn tonight, singing a song that contains a cryptic clue or a piece of forgotten lore directly related to the main quest.
+Vigilantes in the Streets: A group of zealous "Vigilants of Stendarr" have arrived in town, loudly proclaiming their intent to hunt down any Daedra worshippers, vampires, or werewolves. This could be a problem for certain players or their allies.
+Jarl's Decree: A town crier is announcing a new decree from the Jarl. It might be a new tax, a curfew, or a bounty on a specific type of monster, directly impacting the players' plans or finances.
+Duel of Honor: Two local nobles or warriors are preparing for a public duel in the city square to settle a dispute. The players can watch, place bets, or even be asked to act as a "second" for one of the duelists, earning their favor.
+Thieves Guild Activity: The players witness a blatant act of theft by a shadowy figure who then vanishes into the crowd. Later, they might be approached by a Guild member who either warns them to stay quiet or tries to recruit them.
+Imperial/Stormcloak Patrol: A military patrol is marching through the city, reinforcing the Core Conflict. They may be recruiting new soldiers or harassing citizens who support the opposing faction, creating a tense atmosphere.
+A Desperate Plea: An NPC (a child, an elderly person, a frantic merchant) approaches the party directly, mistaking them for someone else or begging them for help with a problem tangentially related to the main quest (e.g., "You have to help! My brother went up to the barrow to find the miners himself!").
+Sudden Storm: A fierce, unnatural storm rolls in, forcing everyone indoors. The inns are packed, and travel is impossible for the next few hours. This is a perfect time for an "all-suspects-in-one-room" social encounter.
+Famous Visitor: A renowned figure (a legendary warrior, a powerful mage, a high-ranking politician) is visiting the Jarl. Their presence adds a layer of complexity or opportunity to the players' interactions at the longhouse.
+Wild Animal on the Loose: A dangerous animal (a wolf, a sabre cat, a escaped bear from a failed menagerie) has gotten inside the city walls. The guards are struggling to contain it, creating chaos in the streets.
+Scout's Return: A badly wounded scout stumbles into the city, collapsing in the main square. Before passing out, they deliver a dire warning or a crucial piece of intelligence related to the dangers outside the city (the main quest).
+Public Execution: A criminal is being executed in the town square. This grim event draws a large crowd and serves as a stark reminder of the Jarl's justice (or cruelty).
+Prophetic Dream: One of the players has a strange, vivid dream given to them by the GM. The dream contains a symbolic and confusing premonition about the main quest's final confrontation, giving them a puzzle to solve.
+
+
