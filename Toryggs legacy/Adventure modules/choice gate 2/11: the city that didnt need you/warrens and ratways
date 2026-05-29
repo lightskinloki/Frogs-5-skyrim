@@ -1,0 +1,495 @@
+THE RATWAY & THE WARRENS: ESBERN'S RESCUE
+Standalone Dungeon Module — Riften Underground Party Tier: Expert (AP 10) | Estimated Runtime: 2-3 hours
+
+DUNGEON DASHBOARD
+Function: The party descends into Riften's sewers to rescue a paranoid fugitive from a Thalmor kill squad. Along the way they navigate Thieves Guild territory, discover the forgotten people beneath the city, find evidence of Thalmor operations that reframe the entire geopolitical landscape, and recover Blades intelligence that teases Sky Haven Temple.
+The Clock: The Thalmor hit squad entered the Ratway approximately 30 minutes before the party. They are methodically searching door to door. Esbern's reinforced door will hold for roughly 1 hour of in-game time. The party does not need to rush blindly — but lingering in the Ragged Flagon for an hour of shopping will get Esbern killed.
+Pacing Tool: After every scene the party spends significant time in, roll a d6. On a 1-2, the party hears a distant BOOM echo through the tunnels — the mercs breaching another door. This is atmospheric pressure, not a mechanical timer. Use it to keep them moving.
+Light: The Ratway has intermittent torchlight — enough to see by in the main corridors, pitch dark in side passages. The Warrens have almost no light. Characters without darkvision or a light source fight with Disadvantage in the Warrens.
+Danger Level (Short Rest): TN 7 (Exposed) throughout. TN 3 (Suicidal) once the Thalmor are alerted to the party's presence.
+
+MAP OVERVIEW
+The dungeon has three layers, each deeper and darker than the last:
+LAYER 1: THE RATWAY (Sewers)
+├── Scene 1: The Descent (Entry + Guild Sentries)
+└── Scene 2: The Ragged Flagon (Thieves Guild Hub)
+
+LAYER 2: THE WARRENS (Sub-Sewers)
+└── Scene 3: The Forgotten (Destitute + Dead Blade + Thalmor Intel)
+
+LAYER 3: THE VAULTS (Deepest Level)
+├── Scene 4: The Ratway Race (Thalmor Combat)
+└── Scene 5: Esbern's Bunker (Reward + Lore Dump)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCENE 1: THE DESCENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Function: Party enters the Ratway and encounters the Thieves Guild's outer security, establishing the tone and getting directions deeper.
+Location: The sewer entrance beneath Riften's lower marketplace. Accessible through a grate near the canal or a wooden door in the foundation of the marketplace platform.
+THE ROOM (Read Aloud)
+"The staircase drops you below the canal level into a low-ceilinged tunnel of ancient stonework slick with condensation and canal runoff. The air is thick — wet stone, rotting food, and something acrid underneath that catches in your throat. Torches are jammed into iron brackets at irregular intervals, casting uneven orange light that makes the shadows move.
+Ahead, the tunnel splits. The left fork is wider and better-lit — you can hear distant voices, the clink of glass, a woman laughing. The right fork is narrow and dark, descending steeply. A crude sign is nailed to the wall at the junction: a painted tankard pointing left, and a painted skull pointing right.
+Sitting on an overturned barrel at the junction is a wiry Breton man with a crossbow across his knees. He watches you come down the stairs with the flat, patient expression of someone who has watched a lot of people come down those stairs."
+Then improvise from: The drip of water echoing. Rats skittering at the edges of torchlight. The distant sound of the Flagon is warm and inviting — fiddle music, raised voices. The right fork smells worse and the air is colder.
+WHAT'S IN THIS ROOM
+The junction sign (tankard left, skull right): What they see: A crude wooden sign with painted symbols. If they investigate: The tankard points to the Ragged Flagon (Scene 2). The skull points deeper — the Warrens (Scene 3) and the Vaults beyond. The paint on the skull is fresher. Someone re-painted it recently. Why planted here: Navigation. Players need to understand the layout immediately.
+The sentry on the barrel (Dirge): What they see: A wiry Breton man with a crossbow, watching them. If they investigate: He's the Guild's outer security. He decides who passes. See NPC block below. Why planted here: The Guild controls this chokepoint. He's the first social gate.
+The sounds from the left fork: What they see: Warm light, voices, music. If they investigate: The Ragged Flagon. Going there is safe but costs time (see Dungeon Clock). Why planted here: Establishes the Flagon as an option and creates the time-pressure choice.
+The cold air from the right fork: What they see: Darkness, descending tunnel, worse smell. If they investigate: Direct route to the Warrens. Faster to Esbern but skips the Guild's information. Why planted here: Gives the party a bypass option if they want to rush.
+THE PEOPLE
+DIRGE (Guild Sentry) Voice: Flat, bored, Breton accent. Speaks in short sentences. Doesn't waste words on people he doesn't respect. Body language: Doesn't stand when they approach. Stays seated. Crossbow stays across his knees. Attitude: Neutral-to-hostile. He doesn't know them. He doesn't care about them. Cooperates for: Gold (50+), name-dropping Brynjolf, or mentioning Maven. Pisses him off: Threats, showing weapons, mentioning the Dark Brotherhood, acting like they own the place.
+Opening line: "That's far enough. The Flagon's left. You want a drink, you pay the house tax — ten gold a head. You want the Warrens..." He looks at the skull sign. "Nobody wants the Warrens."
+If asked about:
+Topic
+Response
+The old man (Esbern)
+"There's a hermit down in the Vaults. Been there longer than I've had this post. Pays his rent. Doesn't bother anyone. Why?"
+Strangers / visitors today
+His eyes narrow. "Four of them. Elves. Well-armed. Came through maybe half an hour ago. Paid double and told me to forget their faces." A beat. "I took the gold. I didn't forget."
+The Warrens
+"Skooma den. Sick people. Argonians who can't afford the docks. You go down there, don't touch anything, don't drink anything, and don't make promises to anyone."
+The Thieves Guild
+"I don't know what you're talking about." Said with zero conviction.
+The Thalmor
+"I said four elves. You want to call them something, that's your business. They went right. Down toward the Vaults."
+
+THE MOVES
+ANY PC → GETTING PAST DIRGE
+What they want: Access to the Ratway. What's required: Payment, persuasion, or force.
+Pay the tax (10 gold/head) └─→ Dirge pockets the coin, jerks his thumb left. "Flagon's through there. Behave." └─→ If they ask to go RIGHT: "Skull side's free. I'm not charging people to walk into misery."
+Intimidate (Might or Guile, Hard -2) ├─ SUCCESS → Dirge stands slowly. "Fine. Go wherever you want. But Brynjolf hears about this." └─ FAILURE → Dirge levels the crossbow. "Try that again." Does not fire unless attacked. Reinforcements from the Flagon arrive in 2 rounds if fighting starts.
+Mention the elves went toward the old man └─→ Dirge's expression changes. Not concern — calculation. "If those four are heading for the hermit, that's his problem. Unless you're offering to make it mine." └─→ He'll sell Esbern's exact location for 100 gold: "Bottom of the Vaults. Reinforced door, three locks. Can't miss it — it's the only door down there that isn't rotting."
+ORION → GUILD INTELLIGENCE (if he identifies himself carefully)
+What he wants: Information about Grelod's pipeline. What's required: Proving he's Brotherhood or Guild-adjacent.
+Show the Black Sacrament token (Guile, Standard) ├─ SUCCESS → Dirge goes very still. Nods once. "You want the Flagon. Ask for Delvin. Tell him the Night Mother sent a friend." └─ FAILURE → Dirge doesn't recognize the token or doesn't trust Orion's presentation. "I don't know what that is." Shuts down.
+EXIT
+Party can proceed LEFT to the Ragged Flagon (Scene 2) or RIGHT/DOWN to the Warrens (Scene 3). Key info available: The Thalmor are 30 minutes ahead. They went toward the Vaults. Esbern's location is buyable. Likely next: Scene 2 (Flagon) if they want information, Scene 3 (Warrens) if they want speed.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCENE 2: THE RAGGED FLAGON
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Function: Party gathers intelligence from the Thieves Guild. Orion can learn about Grelod's pipeline. Everyone can learn about the Thalmor presence and buy supplies. This scene costs TIME on the Esbern clock.
+Location: A massive underground cistern converted into a tavern. The Ragged Flagon sits beneath the canal, built into the old sewer infrastructure. Water channels run along the edges. The ceiling is vaulted stone. It is warm, lit by dozens of lanterns, and significantly more civilized than the tunnels outside.
+THE ROOM (Read Aloud)
+"The tunnel opens into a vast underground cistern. Lantern light reflects off black water in channels that ring the chamber. At the center, on a raised stone platform, someone has built a tavern — actual tables, actual chairs, a bar made from a repurposed merchant's counter, and shelves of bottles behind it. A fire burns in a stone pit, and the smoke curls up through a vent in the ceiling.
+A dozen people occupy the space. Most are drinking. Some are playing cards. A Dunmer woman behind the bar is pouring mead with the practiced efficiency of someone who has been doing this for twenty years. Near the fire, a broad-shouldered Nord with red hair sits in a high-backed chair like it's a throne, listening to a younger man report something in a low voice.
+The conversation doesn't stop when you enter, but it quiets. Eyes track you. Hands move to belt-lines. After a long five seconds of assessment, the room collectively decides you're not guards and returns to its business."
+Then improvise from: The warmth after the cold tunnels. The smell of actual food — bread, stew, something roasting. The sound of water flowing in the channels. Playing cards snapping on wood.
+WHAT'S IN THIS ROOM
+The red-haired Nord by the fire (Brynjolf): What they see: A broad-shouldered man sitting like a king in a sewer. If they investigate: Brynjolf runs the Thieves Guild's Riften operation. He is Maven's primary criminal lieutenant. He knows about Grelod's pipeline. Why planted here: He's the social boss of this scene. Information comes through him.
+The Dunmer bartender (Vekel the Man): What they see: A professional bartender. If they investigate: Vekel sells drinks, potions, and rumor. He's the easiest NPC to talk to. Why planted here: Low-stakes social entry point. Information about the Warrens and the Vaults.
+The younger man reporting to Brynjolf: What they see: Someone delivering information. If they investigate: This is Delvin Mallory. If Orion was directed here by Dirge, Delvin is his contact. Why planted here: Connects to Orion's Guild intelligence thread.
+THE PEOPLE
+BRYNJOLF (Guild Master) Voice: Warm, expansive, friendly in the way a shark is friendly. Scottish-coded accent. Calls everyone "lad" or "lass." Body language: Relaxed, open posture. Never stands unless he wants to intimidate. Drink always in hand. Attitude: Amused. The Obsidian Lanterns are famous. Their name is on the wall upstairs. Cooperates for: Mutual benefit, entertainment, anything that inconveniences Maven's enemies. Pisses him off: Moralizing about theft. Threatening his people. Mentioning the Guild's name out loud.
+Opening line: "Well, well. The Obsidian Lanterns, in the flesh. Or... most of them." He counts heads. Notices Kyboh's absence but doesn't press. "What brings Riften's heroes to its least reputable establishment? And don't say 'the ambiance.'"
+If asked about:
+Topic
+Response
+The Thalmor / the elves
+"Aye, they came through. Four of them. Paid well, said nothing, went down. They're after the old scholar in the Vaults. Been expecting this for years, honestly. Poor bastard."
+Esbern
+"Esbern. Quiet old man. Pays his rent in gold coins that are decades old. Never causes trouble. Buys food from my people and retreats to his hole. Whatever he did to make the Thalmor want him dead, he did it a long time ago."
+Grelod the Kind
+His expression doesn't change, but his eyes do. "Grelod is a pillar of this community. Beloved by all. A living saint." The words are perfect. The delivery is rehearsed. He's reciting a press release.
+Grelod (pressed harder, Guile TN 16)
+He leans forward. "Grelod is an investment. Her orphanage produces... talent. Talent that we train, employ, and compensate fairly. If someone is asking about disrupting that arrangement, I'd want to know who's asking and why."
+The Warrens
+"The Warrens are where Riften puts the people it doesn't want to look at. Argonians, addicts, the sick, the mad. We don't bother them. They don't bother us. If you're going down there, bring coin — not for spending. For giving. It buys good will, and good will is the only currency that works below the Flagon."
+Helping with the Thalmor
+"I'm not sending my people against Justiciar kill squads, lass. That's not theft — that's war. But I'll tell you this for free: the elves went through the Warrens to reach the Vaults. They left a mess. You'll see it."
+
+DELVIN MALLORY (Guild Fence / Intel Broker) Voice: Cockney-coded, gravelly, conspiratorial. Talks out of the side of his mouth. Body language: Fidgets. Picks at his nails. Never makes eye contact for more than a second. Attitude: Professional. If Orion has the token, Delvin treats him as a colleague. Cooperates for: Brotherhood credentials, gold, interesting information. Pisses him off: Being patronized. Being lied to (he can tell — Guile 16).
+Opening line (if Orion presents the token): Delvin looks at the nightshade. Looks at Orion. Nods once, very small. "Alright. What does the family need?"
+If asked about:
+Topic
+Response
+Grelod's operation
+"Grelod runs a training program. Kids come in orphans, they come out with skills. Best pickpockets in the Rift start at Honorhall. Brynjolf handles placement. Maven handles protection. It's clean. Efficient."
+Constance Michel
+"The assistant? Quiet girl. Does the actual caring-for-children bit while Grelod does the... other bit. Scared of her own shadow. Scared of Grelod more. We told her years ago — keep your mouth shut, keep your job, keep breathing. She keeps her mouth shut."
+The orphanage layout
+"Two floors. Main hall downstairs — that's the public face. Kitchen, dining room, dormitory for the little ones. Upstairs is Grelod's quarters, the training room, and storage. One entrance, front door. Back window in the kitchen opens onto the canal. Grelod locks the training room at night with a Master-level lock."
+Honorhall's guard schedule
+"No guards. Grelod doesn't need them. She IS the security. The kids are too afraid to run and too trained to disobey. The Guild checks in once a week — that's Thursdays. Don't hit it on a Thursday."
+
+THE MOVES
+ORION → GRELOD INTELLIGENCE
+What he wants: The full picture of Honorhall. What's required: Brotherhood token or 200 gold.
+Present the Black Sacrament token to Delvin └─→ Delvin provides everything in his topic table above. Free. Professional courtesy. └─→ Parting line: "One thing. When it's done — however it's done — the Guild needs the pipeline to continue. Constance takes over. The kids keep training. If that arrangement holds, nobody asks questions. If it doesn't..." He shrugs. "Maven asks questions. You don't want Maven asking questions."
+What Orion receives:
+Category
+Information
+Layout
+Full orphanage floor plan with entry points
+Security
+No guards. Master-lock training room. Guild visit Thursdays.
+Constance
+Scared, compliant, won't report anything. Guild has her silenced.
+Warning
+Maven's pipeline must continue or the Lanterns make an enemy.
+
+✓ ORION'S GRELOD INTELLIGENCE COMPLETE. He has the layout, the schedule, and the political constraints.
+ANY PC → BUYING SUPPLIES
+Vekel sells: healing potions (50g each, limit 3), lockpicks (5g each), one dose of Sleeping Tree Sap (100g — powerful sedative, Might TN 14 to resist or fall unconscious for 1 hour).
+GM NOTE: Every 15 minutes of real-time the party spends in the Flagon, roll the Pacing d6. On 1-2, a BOOM echoes from below. On a 3, Vekel says: "That's the third door they've kicked in. Your scholar friend is running out of doors."
+EXIT
+Party has Flagon intelligence. Time is passing. Proceed to Scene 3 (the Warrens) via the descending tunnel behind the Flagon. Key info gained: Thalmor 30 min ahead, Esbern's location confirmed, Grelod intelligence (if Orion pursued it), the Warrens are populated and the Thalmor left a mess going through. Likely next: Scene 3 (The Warrens).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCENE 3: THE FORGOTTEN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Function: Party passes through the Warrens — Riften's lowest level of humanity — and discovers a dead Blades agent carrying Sky Haven Temple intelligence AND a Thalmor dispatch case containing operational orders that reveal the scope of the Dominion's true agenda. The Thalmor mercs came through here and left damage.
+Location: Below the Ragged Flagon. The Warrens are not a tavern or a guild hall — they are a shantytown built into abandoned sewer infrastructure. Makeshift shelters of salvaged wood and canvas line the tunnels. The air is thick with skooma smoke, unwashed bodies, and despair.
+THE ROOM (Read Aloud)
+"The tunnel descends sharply and the light dies. What torches exist here are guttering tallow candles wedged into cracks in the stone. The ceiling is lower. The walls are wet.
+People live here. You see them in the dim light — shapes huddled against the walls under layers of rags. An Argonian woman sits against a pillar, staring at nothing, her scales dull and flaking. Two Nord men share a skooma pipe in a doorway, their eyes glassy. A child — human, maybe eight — darts between shelters carrying a clay jug of water.
+The tunnel ahead shows fresh damage. A wooden door has been kicked off its hinges. A shelf of meagre possessions has been swept to the floor. Someone came through here fast and violent and did not care what they broke.
+Against the far wall, slumped in an alcove between two shelters, is a body. Not a Warren resident — the clothes are too good. Travel-worn leathers, a courier's satchel, and a short sword still in its scabbard. The body is fresh. Hours old. The throat has been cut with surgical precision."
+Then improvise from: The smell is overpowering — skooma sweet-smoke, urine, rot. The quiet. People down here don't talk much. The child with the water jug stops to stare at the party with enormous eyes, then runs.
+
+Orion takes the argonian into the shadows making her think hes buying her for sex, then uses ice spike to spear her through the head and pin her to the wall he then turned invisible and engorged himself.
+
+Alfonso infected a skomma addict, he also gained one max hp.
+WHAT'S IN THIS ROOM
+The kicked-in door and scattered belongings: What they see: Fresh damage. Someone forced their way through. If they investigate: Thalmor mercs. They searched this shelter and moved on. The resident — an old Argonian man — is sitting in the wreckage of his home, bleeding from a cut on his head where they struck him. He'll talk (see Stands-In-Shadows below). Why planted here: Establishes Thalmor brutality in the party's direct experience.
+The dead body in the alcove (Caius Varro, Blades agent): What they see: A fresh corpse with a courier's satchel. Not a Warren resident. If they investigate: This is a Blades agent who was trying to reach Esbern. The Thalmor found him first. His satchel contains critical lore. See detailed breakdown below. Why planted here: The Blades lore teaser and the emotional stakes of what happens when the Thalmor catch someone.
+The Argonian woman staring at nothing: What they see: A sick Argonian. If they investigate: Skooma addiction, late stage. She won't respond to conversation. She represents what happens to people down here — she's atmosphere, not a quest.
+The child with the water jug: What they see: A human child, maybe eight, carrying water between shelters. If they investigate: This is Mila. She is not an orphan — her mother is sick in one of the shelters. She fetches water from a leaking pipe. She saw the Thalmor come through and hid. She can describe them and which way they went (deeper, toward the Vaults). She is terrified but functional. She does not want money. She wants to know if her mother will be okay. Why planted here: Humanizes the Warrens. Gives directions. Saijah or Danica (if she's with them) may want to help the mother.
+THE PEOPLE
+STANDS-IN-SHADOWS (Injured Argonian Elder) Voice: Slow, raspy, Argonian sibilance. Speaks carefully. Pain in every word. Body language: Sitting in the wreckage of his shelter. Pressing a rag to his head wound. Attitude: Wary but not hostile. The Thalmor just hit him. Anyone who isn't them is an improvement. Cooperates for: Healing, kindness, gold (even 10g is a fortune down here). Pisses him off: Pity without action. Being ignored.
+Opening line: "If you are with the golden ones, I have nothing else to give you. If you are not..." He looks up. His eyes are sharp despite the blood. "Then you should know what they took."
+If asked about:
+Topic
+Response
+What happened
+"Four of them. Altmer. Armored under their cloaks. They came through like a flood. Kicked doors. Hit anyone who didn't move fast enough. Searched every shelter. They were looking for someone specific."
+What they took
+"They found the courier first. The Imperial in the leathers. He tried to run. They caught him in three steps. The tall one held him while the leader cut his throat. Then they took a book from his bag — a leather journal. They left the rest."
+The book they took
+"Small. Brown leather. The courier was clutching it when they found him. The tall elf pried it from his fingers after he was dead and said something in Aldmeris. Sounded pleased."
+The courier
+"He came down two days ago. Quiet. Paid for shelter. He was waiting for something. He asked me once if I knew of an 'old scholar' in the Vaults. I told him I did. He seemed relieved." He pauses. "He should not have waited."
+The Thalmor's direction
+"Deeper. Toward the Vaults. They moved fast after the courier. They know where they are going now."
+
+MILA (Warren Child) Voice: Small, quick, scared. Speaks in rushes then goes quiet. Body language: Peeks from behind a pillar. Won't come close unless someone crouches to her level. Attitude: Terrified. But brave enough to talk if treated gently.
+Opening line: "Are you... are you the Lanterns? The people on the sign at the gate?"
+If asked about:
+Topic
+Response
+The Thalmor
+"The tall ones. They wore gold under their cloaks. One of them had a staff that hummed. They went that way." Points deeper. "They were mean. They hit the old lizard man."
+Her mother
+"She's sick. She coughs all the time. The temple people don't come down here." If Saijah or anyone offers healing, Mila's face transforms — hope is physically painful to watch on a child who has learned not to hope.
+The dead man
+"He was nice. He gave me bread yesterday. Now he's..." She can't finish the sentence.
+
+THE INVESTIGATION: CAIUS VARRO'S SATCHEL
+The dead Blades agent's satchel contains two critical items:
+ITEM 1: Caius's Letter to Esbern (undelivered)
+A sealed letter. The seal is a stylized diamond shape — the mark of the Blades.
+"Esbern — I have found it. Sky Haven Temple is real. The Karthspire entrance is intact, hidden behind a Forsworn camp in the Reach. Alduin's Wall is inside — the complete prophecy, carved in stone by the Akaviri themselves. Everything we theorized is confirmed. The Wall describes a Shout that can force a dragon from the sky. But there is more — the Wall depicts something we did not expect. A council. A gathering of heroes who are not Dragonborn. The Akaviri foresaw a world where the Dragonborn fails. They prepared for it. We need to reach the Temple. I am coming to you. We go together. — C.V."
+What this gives the party:
+Category
+Information
+Location
+Sky Haven Temple, accessed through the Karthspire in the Reach
+Contents
+Alduin's Wall — a complete prophecy carved in stone
+The Shout
+A Shout exists that can ground dragons (Dragonrend)
+The Revelation
+The Akaviri prepared for a world without the Dragonborn — the party's exact situation
+Emotional weight
+The man who found this died ten feet from delivering it
+
+ITEM 2: Thalmor Operational Dispatch (dropped during the search)
+
+Saijah went with mila to save her mom, alfonso was called alfonso infected the last person infected with strain 1.0 and she was cured and became an asymptomatic carrier healed to full health also spreading his disease.  and then he was allowed to see through her memories and taste the infection. Saijah and alfosno bought mila from her mom who was the infected person for 100 gold. Bjorn will have strong feelings about this. Milas mom is a prostitute so the infection will spread. They gave undone danicas work.
+
+
+The Thalmor took Caius's journal but missed a folded sheaf of papers that had slipped under the courier's body during the struggle. It is a Thalmor dispatch case — oiled leather, sealed with the Aldmeri eagle. The seal is broken (Caius intercepted it).
+Inside: three documents in Aldmeris with a partial Common translation in Caius's handwriting. This is what the Thalmor are actually doing. Read the following to the players slowly. Let it land.
+Document 1: Operational Order — "Directive: Controlled Neglect"
+Caius's translation notes: "Orders from Elenwen to all field commanders. Re: the Dagon cult activity at the Eldergleam and the Throat of the World."
+"Do not engage Dagonist operatives unless they directly threaten Dominion assets. The corruption of Skyrim's root network and the destabilization of Snow-Throat serve our strategic objectives. A weakened Tower is easier to unbind than a healthy one. Let the cultists do the foundational work. We will harvest the result."
+Document 2: Strategic Assessment — "The Tower Protocol: Phase 2"
+Caius's translation notes: "This is the real plan. Gods help us."
+"With the deactivation of White-Gold and Red Mountain, only two primary Towers remain active in the northern theater: Snow-Throat (Throat of the World) and Crystal-Like-Law (destroyed, but its echo persists in the Summerset archives). The unbinding of Snow-Throat will eliminate the final metaphysical anchor stabilizing the mortal plane in Skyrim."
+"To be clear for field personnel: the objective is not conquest. Conquest preserves the structure of the world. The objective is dissolution. The mortal plane is a prison constructed by the trickster god Lorkhan to trap the divine spirits of the Mer in flesh. Every Tower is a bar in that cage. Every Tower we unbind brings us closer to liberation — the restoration of the Mer to their original, divine state of pure spirit."
+"The cost to the mortal races is total. The dissolution of the mortal plane ends physical existence for all beings bound to it. This is not a side effect. This is the intended outcome. The races of Man were created BY the prison. When the prison falls, they cease to exist. We do not mourn architecture."
+Document 3: Field Intelligence — "Asset Report: Skyrim"
+Caius's translation notes: "They're tracking everyone. Including the Wardens."
+A list of tracked individuals and assets. Most names are in Aldmeris, but Caius has translated several:
+"Obsidian Lanterns — Priority observation. Dragon-killers. Politically unstable. The Imperial woman (Caelus) is leverage against her father. The vampire is a biological weapon. The Khajiit is neutralized (confirm). The elf-priestess is a Kynareth conduit — monitor for Tower Protocol implications. Recommend: continued surveillance. Do not engage until Heat Level warrants."
+"Krusp Fanck — Independent Dragon Cult hunter. Effective but uncontrollable. Recommend: terminate if he interferes with Directive operations."
+"Esbern — Last known Blade. Location: Riften Ratway. Extraction team deployed. He has been searching for Alduin's Wall. He cannot be allowed to find it. The Wall contains information about Dragonrend. If the Lanterns acquire Dragonrend, our Dragon capture program becomes untenable."
+THE MOVES
+ANY PC → INVESTIGATING CAIUS'S BODY
+What they want: Information. What's required: Looking at the body and the satchel.
+Examine the body (no roll needed) └─→ Throat cut. Single stroke. Professional. He didn't suffer long but he saw it coming — his hand is still reaching for the satchel.
+Search the satchel (no roll needed) └─→ Find the letter to Esbern and the dropped Thalmor dispatch case. Both are critical quest items.
+Read the Thalmor documents (Magic TN 14 to translate the untranslated Aldmeris portions) ├─ SUCCESS → Full translation of all three documents. The party now knows the Tower Protocol. ├─ FAILURE → They get Caius's partial translations (the Common text above). Still devastating, just incomplete. └─→ Esbern can translate the rest in Scene 5 if they bring them to him.
+SAIJAH or DANICA → MILA'S MOTHER
+What they want: To help a sick woman. What's required: Any healing magic or a potion.
+Heal the mother (any Restoration spell or potion) └─→ The woman — Nord, mid-thirties, emaciated — gasps and sits up. She's been sick for weeks. Canal fever, not plague. Treatable. She clutches Mila and weeps. Mila stares at the healer like they hung the moons. └─→ No mechanical reward. The reward is Mila's face.
+TRIGGERED EVENT: THE THIRD BOOM
+Setup: The pacing d6 has been rolling. By now, the party should have heard 1-2 distant impacts.
+Trigger: Entering the tunnel that descends from the Warrens to the Vaults.
+"As you enter the downward tunnel, a BOOM shakes dust from the ceiling. Closer this time. Much closer. You hear a muffled voice — clipped, authoritative, speaking Aldmeris — and then the splintering crash of another door being forced. The echoes bounce off the stone, making it impossible to tell exactly how far ahead they are. But they are ahead. And they are getting closer to the bottom."
+What the party now knows:
+The Thalmor are in the Vaults
+They are breaching doors systematically
+Esbern's door is next or near-next
+If they pursue: → Scene 4 (The Ratway Race) If they don't: The Thalmor breach Esbern's door. He dies. The Dragonstone quest dies with him.
+EXIT
+Party has Blades intelligence (Sky Haven Temple, Alduin's Wall, Dragonrend) and Thalmor intelligence (Tower Protocol, Controlled Neglect, the asset tracking list). They know the Thalmor are close to Esbern. Key items: Caius's letter, Thalmor dispatch case. Orion: Grelod intelligence (from Scene 2) ✓ Hook planted: Sky Haven Temple for a future arc. Likely next: Scene 4 (The Ratway Race) — urgently.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCENE 4: THE RATWAY RACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Function: The party fights or outmaneuvers a Thalmor kill squad in the claustrophobic Vaults to reach Esbern's door before they breach it.
+Location: The Ratway Vaults — the deepest level. Narrow stone corridors, low ceilings, standing water on the floor. Near-total darkness except for the Thalmor wizard's magelight.
+THE ROOM (Read Aloud)
+"The tunnel levels out into a corridor barely wide enough for two people abreast. The ceiling is low — anyone over six feet has to duck. Standing water covers the floor to ankle depth, cold and black. There is no light here except what you brought.
+Ahead, maybe sixty feet, you see it: a cold blue-white glow moving in the dark. Magelight. And in that light, four figures. Three are armored — you catch the glint of golden-hued metal beneath dark cloaks. They stand in a wedge formation facing a heavy iron-banded door. The fourth stands behind them, staff raised, the magelight hovering above their head.
+The leader — tall, lean, wearing a hooded cloak over gilded armor — presses a gauntleted hand against the door and speaks a word of power. The door shudders. Frost crackles across its surface. He's trying to freeze the lock mechanism to shatter it.
+He hasn't seen you yet. The darkness behind them is absolute. You have seconds."
+Then improvise from: The sound of their boots in the shallow water — every step splashes. The hum of the wizard's staff. The creak of Esbern's door under magical assault. The cold — it's freezing down here.
+THE ARENA
+[PARTY] .................. 60 ft .................. [THALMOR] 2za 3me 4arric 9ava 12nic 
+                                                       │
+ ┌──────────────────────────────────────────────────────┤
+ │  CORRIDOR (10 ft wide, ankle-deep water)              │
+ │                                                        │
+ │  [Alcove A]     [Collapsed      [Alcove B]    [DOOR]  │
+ │  (left wall)     section]       (right wall)   ═══╗   │
+ │                 (rubble pile)                   J J ║   │
+ │                                                 J W ║   │
+ └──────────────────────────────────────────────────────┘
+-6
+J = Justiciar (×3)    W = Wizard (×1)    DOOR = Esbern's reinforced door
+/7 20/ /29                                 /
+Alcove A (left wall, 30 ft from party): A shallow recess. One person can take full cover here. Contains a rusted iron valve connected to old sewer pipes in the wall. 
+If turned (Might TN 14): Releases a torrent of stagnant canal water down the corridor toward the Thalmor. All creatures in the corridor must make Agility TN 14 or be knocked prone and pushed 10 feet. The water also extinguishes the magelight.
+Collapsed Section (center, 40 ft from party): A pile of rubble from a partial ceiling collapse. Provides half cover. Difficult terrain — costs double movement to cross.
+Alcove B (right wall, 50 ft from party): Another shallow recess. One person can take full cover. Contains a wooden support beam holding up a cracked section of ceiling.
+If destroyed (10 HP, DR 0): A section of ceiling collapses onto the area directly in front of Esbern's door. Anyone in that area takes 12 damage (Agility TN 14 for half) and the area becomes impassable rubble. This separates the Thalmor from the door but also blocks the party's direct path — they'd need to clear the rubble (Might TN 14, takes 2 rounds) or find another way around.
+Standing Water: Ankle-deep throughout. Lightning spells deal +2 bonus damage to anyone standing in the water. The Thalmor wizard knows this.
+THE ENEMIES
+JUSTICIAR SOLDIER ×3 HP: _____ / 30 each DR: 6 (Elven Armor + Shield)
+Stat
+Score
+Might
+17
+Agility
+15
+Magic
+13
+Guile
+8
+
+ATTACKS (one per turn):
+Attack
+Range
+Effect
+Elven Mace
+Melee
+10 damage
+Shield Bash
+Melee
+6 damage + target is Staggered (loses Minor Action next turn)
+
+PASSIVE — Spell-Breaker Wall: If two Justiciars stand adjacent with shields raised, they grant each other Resistance to Magic (half damage from spells). They are trained to form this wall immediately when magic is detected.
+BEHAVIOR: They form a shield wall protecting the Wizard. If engaged in melee, one peels off to fight while two maintain the wall. They do not chase — they hold position. Their job is to buy the Wizard time to breach the door.
+THALMOR WIZARD (Squad Leader) HP: _____ / 50 DR: 4 (Elven Robes + Ward)
+Stat
+Score
+Magic
+18
+Agility
+16
+Guile
+13
+Might
+8
+
+ATTACKS (one per turn):
+Attack
+Range
+Effect
+Lightning Bolt
+60 ft
+12 damage (+2 if target in water). Target loses 5 FP.
+Frost Lance
+40 ft
+10 damage. Target's movement halved for 1 round.
+Silence Ward
+20 ft radius
+Creates a zone of silence for 2 rounds. No spells with verbal components. No Shouts.
+
+PASSIVE — Magelight: Illuminates a 30 ft radius around the Wizard. If extinguished (water valve, darkness spell), the Thalmor fight with Disadvantage for 1 round while the Wizard recasts it.
+PASSIVE — Door Breaker: If the Wizard is not engaged in combat, he spends his turn working on Esbern's door. The door has 3 lock stages. Each uninterrupted turn, he breaks one stage. After 3 uninterrupted turns, the door opens and Esbern dies.
+BEHAVIOR: The Wizard does NOT want to fight the party. He wants to open the door. He will only engage the party with spells if they attack first or get within 20 feet. If forced to fight, he opens with Silence Ward (to shut down magic users), then Lightning Bolt (exploiting the water). He stays behind the Justiciar wall at all times.
+HOW PLAYERS WIN THIS
+OBVIOUS (Brute Force): Charge down the corridor and fight them. The Justiciars form a wall, the Wizard hits from behind with Lightning (boosted by water). Costly but straightforward. The corridor is narrow enough that only 2 PCs can engage the wall at once.
+SMART (Environmental): Use Alcove A's water valve to knock the Thalmor prone and kill the magelight, then close the distance in darkness. Use Alcove B's support beam to collapse the ceiling between the Wizard and the door, forcing him to engage the party instead of breaching the lock.
+BRILLIANT (Combined Arms): One PC uses stealth (the darkness is absolute behind the Thalmor's magelight) to reach Alcove A and trigger the water valve while the rest attack from the front. The prone, blinded Thalmor are easy targets. Or: a ranged PC destroys the support beam from cover behind the rubble pile while melee PCs engage the wall, trapping the Wizard under the collapse.
+DESPERATE (If things go badly): If the Wizard breaches the door, he enters Esbern's bunker. Esbern has one final defense — a fire rune trap on the inner door. It deals 15 damage to the first person through. The Wizard takes it. He's wounded. The party has one more chance to reach him before he kills Esbern.
+WHEN THEY DIE
+"The last Justiciar falls face-first into the black water. The Wizard's staff clatters against the stone. The magelight flickers and dies, plunging the corridor into darkness broken only by your own light. In the sudden silence, you hear breathing from behind the iron door. Ragged. Terrified. Alive."
+LOOT:
+Item
+Notes
+3× Elven Mace (Superior)
+Sellable. 200g each.
+3× Elven Shield
+Sellable. 150g each.
+1× Glass Staff of Lightning
+Wizard's weapon. Deals Lightning Bolt damage. 3 charges/day. Worth 1500g or very useful to a mage.
+1× Thalmor Master Key
+Opens any standard Thalmor lock. Will be relevant in Falkreath or future Thalmor encounters.
+1× Sealed Orders (on Wizard's body)
+Addressed to "Strike Team Kestrel." Orders: "Terminate target ESBERN. Recover all documents pertaining to ALDUIN'S WALL or the DRAGONSTONE. Burn everything else. Leave no witnesses. — By order of Third Emissary Rulindil."
+
+ROUND TRACKER:
+Rnd
+Wizard HP
+J1 HP
+J2 HP
+J3 HP
+Door Stage
+Notes
+1
+/50
+/30
+/30
+/30
+0/3
+
+
+2
+/50
+/30
+/30
+/30
+/3
+
+
+3
+/50
+/30
+/30
+/30
+/3
+
+
+4
+/50
+/30
+/30
+/30
+/3
+
+
+5
+/50
+/30
+/30
+/30
+/3
+
+
+6
+/50
+/30
+/30
+/30
+/3
+
+
+
+EVERY ROUND REMEMBER:
+Standing water: Lightning deals +2 damage
+Wizard works on door if not engaged (track door stages)
+Spell-Breaker Wall: Adjacent Justiciars halve magic damage
+Darkness: No light behind the magelight. Stealth approaches from the rear have Advantage.
+SCALING: If party struggles: One Justiciar slips in the water and goes prone (free attack of opportunity). The wizard's Silence Ward fizzles on a bad roll. If party breezes through: The Wizard already broke one door stage before combat started (they only have 2 turns, not 3). A fifth Thalmor — wounded, left behind in the Warrens — arrives from behind the party in Round 3.
+AFTER THE FIGHT: The corridor is clear. Esbern's door stands. The key from the dead drop fits the final lock. → Scene 5.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCENE 5: ESBERN'S BUNKER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Function: Esbern delivers the Dragonstone quest, provides Dragon Cult expertise (including Forelhost context Alfonso needs), and plants the Sky Haven Temple seed. This is the reward scene — information, not combat.
+Location: A cramped, reinforced chamber at the bottom of the Ratway Vaults. One room. No exits except the door the party just came through.
+THE ROOM (Read Aloud)
+"The key turns. Three locks disengage. The door swings inward on oiled hinges — the only well-maintained thing in the entire Ratway.
+Inside is a room no larger than a prison cell, and it has been one for thirty years. Every surface is covered. Maps pinned to the walls with iron nails — Skyrim, Cyrodiil, Akavir, places you don't recognize. Charcoal diagrams of dragon skeletons annotated in a cramped, obsessive hand. Stacks of books rising from the floor like stalagmites, some open, some marked with strips of cloth. A cot. A chamber pot. A small desk buried under papers. A cold plate of bread and cheese that hasn't been touched.
+An old man stands in the center of this paper fortress. He is perhaps seventy. His beard is long and grey and wild. His eyes are red-rimmed and enormous behind the lenses of a pair of cracked reading spectacles. He holds a dagger in one shaking hand and a lit torch in the other — ready to burn everything rather than let it be taken.
+He stares at you. He is trying to decide if you are here to kill him or save him. The dagger shakes. The torch does not."
+Then improvise from: The smell of old paper and candle wax. The absolute silence — deepest point of the Ratway, no sound reaches here. The organized chaos of a brilliant mind in a very small space.
+WHAT'S IN THIS ROOM
+The maps on the walls: What they see: Maps of Skyrim with dozens of locations marked. If they investigate: Dragon burial mounds. Esbern has been mapping them for thirty years using historical records, folklore, and reports from agents. But the map is incomplete — he needs the Dragonstone to finish it. Why planted here: Visual setup for the Dragonstone quest.
+The charcoal dragon diagrams: What they see: Anatomical drawings of dragon skeletons with annotations. If they investigate: Esbern has been studying dragon physiology through bones and historical texts. His notes reference "tonal vulnerabilities" — frequencies that could disrupt a dragon's connection to Akatosh. This is theoretical. He needs Alduin's Wall to confirm. Why planted here: Establishes Esbern's expertise. He's not just a scared old man — he's the foremost living expert on dragons.
+The stack of books marked with cloth strips: What they see: Flagged reference texts. If they investigate (Magic or Guile TN 12): Historical accounts of Dragon Priest tombs, including entries on Forelhost. Esbern has annotated the margins. If Alfonso asks about Forelhost specifically, Esbern lights up — see Moves below. Why planted here: The bridge between Alfonso's Meadery lead and Esbern's expertise.
+The cold bread and cheese: What they see: An untouched meal. If they investigate: He's been too scared to eat since his agent (Caius) failed to arrive. He knows something went wrong. Why planted here: Human detail. This man has been terrified and alone.
+THE PEOPLE
+ESBERN (Last of the Blades) Voice: Educated, precise, rapid when excited, halting when afraid. He speaks like a lecturer who forgot he has an audience — then suddenly remembers and gets self-conscious. Germanic cadence. Body language: Nervous hands. Adjusts his spectacles constantly. When he talks about dragons, the fear vanishes and academic passion takes over — he stands straighter, gestures broadly, his eyes focus. Attitude: Terrified → Grateful → Urgently passionate (in that order, over the course of the conversation). Cooperates for: Anyone willing to fight dragons. Anyone who brings news of Caius. Pisses him off: Dismissing the dragon threat. Suggesting surrender. Being told to calm down.
+Opening line (once he realizes they're not Thalmor): The dagger lowers. The torch stays up. "You... you're the Lanterns. The ones from Kynesgrove. From the Pale." His voice cracks. "Is Caius with you? My agent — he was supposed to be here two days ago. Imperial man, courier's leathers, carried a—" He sees their faces. He reads the answer before they speak. The torch lowers. He sits on the cot. "Ah."
+If they give him Caius's letter: "[He reads it in silence. His hands stop shaking. When he looks up, his eyes are wet but his voice is steady.]" "He found it. He found Alduin's Wall. And they killed him for it." A long breath. "Then we must go ourselves. Before the Thalmor reach it first."
+If asked about:
+Topic
+Response
+The Blades
+"We were the Dragonguard. Akaviri warriors sworn to hunt dragons and serve the Dragonborn. After the Great War, the Thalmor hunted us to extinction. I am the last. Thirty years in this hole, waiting for the world to need me again. It does now."
+Why the Thalmor want him dead
+"Because I know things they don't want anyone to know. I know about the Towers. I know about their protocol to unmake the world. And I know about Alduin's Wall — a prophecy carved in stone by the Akaviri that tells how to defeat Alduin without a Dragonborn."
+The Dragonstone
+"A map. A complete map of every dragon burial mound in Skyrim, carved into a stone tablet by the ancient Nords. It's in Bleak Falls Barrow, overlooking Riverwood. With it, we stop reacting and start hunting. We find the mounds BEFORE the dragons rise."
+Alduin's Wall / Sky Haven Temple
+"Sky Haven Temple is the last Blades sanctuary. Hidden in the Karthspire, in the Reach. Alduin's Wall is inside — a massive stone carving that depicts the defeat of Alduin in the Merethic Era. It describes a Shout called Dragonrend, which forces a dragon out of the sky and into mortality. It is the key to everything."
+The Tower Protocol (if they show him the documents)
+His face goes grey. He reads them twice. "I knew they wanted to unbind the Towers. I didn't know they'd formalized it as military doctrine." He taps Document 2. "This is a genocide order. Not of a people — of a plane of existence. They want to dissolve reality itself." He looks at the party. "Do you understand? The dragons want to enslave the world. The Dagon cult wants to burn it. The Thalmor want to erase it. Of the three, the Thalmor are the ones with a plan that could actually work."
+Forelhost
+[His eyes sharpen. Academic hunger takes over.] "Forelhost. The Last Redoubt. You want to know about Forelhost?" He pulls a book from a stack without looking. "During the Dragon War, when the ancient Nords overthrew their Dragon Priest masters, most priests surrendered or fled. Not Rahgot. Rahgot retreated to Forelhost with his entire congregation — thousands of people. When the Nord army besieged the fortress, Rahgot ordered mass suicide. Every man, woman, and child drank poison rather than submit to a world without dragons. Rahgot sealed himself in the inner sanctum and entered a death-sleep." He pauses. "The Nords never breached the inner sanctum. They simply sealed the fortress and left. The dead are still inside. All of them."
+Antoine / the plague maker
+"A living Dragon Cult alchemist operating out of Forelhost? That is... deeply concerning. If he has access to Rahgot's sanctum, he has access to the biological resources of a mass grave — thousands of preserved corpses, alchemical reagents cultivated in a sealed environment for thousands of years. It would be the perfect laboratory."
+
+THE MOVES
+ALFONSO → FORELHOST INTELLIGENCE
+What he wants: Context for the plague architect he's hunting. What's required: Asking Esbern about Forelhost.
+Ask Esbern about Forelhost └─→ Esbern provides the historical context (mass suicide, Rahgot's death-sleep, sealed inner sanctum). └─→ If Alfonso describes the pathogen: Esbern nods slowly. "An artificial plague cultivated in a sealed, sterile environment rich in preserved organic material and ancient alchemical reagents. Forelhost is not just a tomb. It is a laboratory that has been incubating for four thousand years."
+What Alfonso receives:
+Category
+Information
+History
+Mass suicide. Thousands of preserved dead. Rahgot in death-sleep.
+The Lab
+Forelhost is a sealed biome — perfect for cultivating pathogens.
+Warning
+The inner sanctum was never breached by the Nords. Whatever is inside has been undisturbed for millennia.
+Antoine's advantage
+He has a four-thousand-year-old bioweapons laboratory that nobody else knows how to enter.
+
+✓ ALFONSO'S FORELHOST CONTEXT COMPLETE. He now has the historical framework for the dungeon.
+DAVINIA → THE BIG PICTURE
+What she wants: To understand the strategic landscape. What's required: Showing Esbern the Thalmor documents and/or asking about the dragon threat.
+Show documents + ask about priorities └─→ Esbern lays it out: "You have three enemies. The Dragon Cult wants to resurrect Alduin and enslave the world under dragon rule. The Dagon cult wants to corrupt the Eldergleam and unmake the natural order. The Thalmor want to dissolve reality itself." "The Dragon Cult is the immediate threat — dragons are rising NOW. The Dagon cult is the escalating threat — their corruption is spreading. The Thalmor are the existential threat — their plan, if completed, ends everything." "You need the Dragonstone to fight the dragons. You need to reach Sky Haven Temple to learn Dragonrend. And you need to do both before the Thalmor find the Wall first and destroy it."
+ESBERN → JOINING THE PARTY (Conditional)
+Esbern will not stay in the Ratway. The Thalmor found him. His bunker is compromised. He needs to move.
+If the party offers to take him: └─→ "I am old. I am not a fighter. But I have spent thirty years preparing for this moment and I will not waste it dying in a sewer. Take me somewhere safe — an inn, a safehouse, anywhere the Thalmor won't look — and I will be your Dragon Cult expert. Every piece of intelligence I have is yours."
+Where to put him: Esbern can stay at the Bee and Barb (risky — public), be sent to a Warden safehouse (if one exists), or travel with the party (he is a liability in combat but invaluable for lore). This is the party's decision.
+EXIT
+Party has rescued Esbern. They possess:
+Caius's letter (Sky Haven Temple location, Alduin's Wall, Dragonrend) ✓
+Thalmor dispatch case (Tower Protocol, Controlled Neglect, asset tracking) ✓
+Esbern's expertise (Dragon Cult lore, Forelhost context, strategic overview) ✓
+Quest hook: The Dragonstone in Bleak Falls Barrow ✓
+Quest hook: Sky Haven Temple in the Karthspire ✓
+Thalmor loot (weapons, staff, master key, kill orders) ✓
+Orion: Grelod intelligence from the Flagon ✓
+Emotional weight: Caius died ten feet from delivering his message. Mila's mother was healed. The Warrens exist. The Thalmor want to end the world.
+The party ascends from the Ratway carrying more knowledge than they went in with — and all of it is terrifying.
+→ Return to Riften surface. The Three Fires await their choice.
+
