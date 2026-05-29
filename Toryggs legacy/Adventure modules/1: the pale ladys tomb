@@ -1,0 +1,786 @@
+ The Pale Lady's Tomb
+A Skyrim One-Shot Adventure for 5-6 Players (Novice Tier)
+Estimated Play Time: 4-5 hours
+ Party Size: 5-6 players
+ Difficulty: Novice Tier (0 AP)
+ Reward: 500 Gold per player, enchanted items, and 1 Advancement Point
+
+Adventure Summary
+The players are hired by Jarl Korir of Winterhold to investigate the recently unsealed Frostmere Barrow, where an ancient Draugr Queen known as the Pale Lady has awakened. Local miners have gone missing, strange blue lights have been seen in the night, and frost spreads unnaturally across the land. The Jarl offers a handsome reward to brave souls willing to enter the barrow and end the threat.
+This is a classic dungeon crawl adventure designed to introduce new players to the 5-section dungeon structure, resource management, and heroic fantasy gameplay.
+
+Part I: The Frozen Hearth Inn (The Hook)
+Arriving in Winterhold
+Read Aloud:
+ "The road to Winterhold is a cold one, even by Skyrim's standards. As you crest the final ridge, the sight before you is sobering. A once great city is now a desperate village clinging to a crumbling cliff face. Most of the city collapsed into the sea decades ago during the Great Collapse, and what remains feels like a town holding its breath, waiting for the next disaster.
+The wind howls constantly, carrying the smell of sea salt and the bite of eternal winter. Guard towers stand undermanned, their braziers flickering weakly against the grey sky. The few citizens you pass on the street move quickly, heads down, speaking in hushed tones. There's a tension in the air that has nothing to do with the weather—this is a community on edge.
+A guard at the town's edge straightens as you approach, his hand instinctively moving to his sword hilt before he recognizes you as armed travelers rather than a threat. 'New faces,' he says, his voice rough from cold. 'If you're here looking for work, head to the Frozen Hearth. The innkeeper's been trying to hire anyone with a weapon and the nerve to use it. Gods know we need all the help we can get.'"
+Initial Interaction:
+ If the party asks what's wrong, the guard shakes his head: "Not my place to say. But... miners went missing three days ago. Strange lights near the old barrow. Ground's freezing solid where it shouldn't. Talk to Dagny at the inn. She'll fill you in."
+He gestures toward a sturdy building with smoke rising from its chimney—one of the few structures that looks well-maintained.
+
+Entering the Frozen Hearth Inn
+Read Aloud:
+ "The warmth of the Frozen Hearth hits you like a wave as you push through the heavy wooden door, but the comfort is undermined by the atmosphere inside. The common room is perhaps a third full—a poor showing for midday in what should be a trading town. The few patrons present sit in small, quiet clusters, speaking in hushed whispers and casting nervous glances toward the windows.
+A group of miners occupies one corner table, their tools lying unused beside them. They're not drinking—just sitting, staring into their mugs with the hollow-eyed look of men who've stopped working but don't know what else to do. An elderly Nord woman rocks slowly near the fire, muttering prayers to Kyne under her breath. Even the fire seems subdued, as if the fear in the room has dampened its warmth.
+Behind the bar stands a stout Nord woman with silver-streaked hair and sharp eyes. She's wiping down the counter with mechanical precision, but you can see the tension in her shoulders, the way her gaze flicks to the door every time it opens. When she sees you—clearly armed, clearly capable—her expression shifts from weary resignation to cautious hope.
+She sets down her rag and approaches your table with purposeful strides. 'Welcome to the Frozen Hearth,' she says, and despite her obvious exhaustion, her voice is steady and professional. 'I'm Dagny Stormmane, proprietor of this establishment.' She glances at the quiet, frightened patrons, then back to you. 'I'm also the Jarl's cousin, and right now, I'm the one trying to save this town from dying of fear. You look like you can handle yourselves. Please tell me you're not just passing through.'"
+
+The Quest Giver: Dagny Stormmane
+Stats: Guile 14, Might 12, Magic 8, Agility 10
+Dagny is the inn's owner and the Jarl's cousin. She's been tasked with finding capable adventurers because the local guard is undermanned and overwhelmed.
+GM's Toolkit: Roleplaying Dagny
+Physical Presence:
+ Dagny is a woman in her early fifties who moves with the efficiency of someone who's spent decades running a business in a harsh land. Her hands are calloused from years of work—tapping kegs, chopping firewood, handling rough customers. She wears practical clothing: a heavy wool dress with a leather apron, sturdy boots, and a knife on her belt (this is Winterhold—everyone goes armed). Her silver hair is pulled back in a severe bun, and her face shows the deep lines of someone who's weathered many storms.
+Despite her exhaustion, she maintains rigid control over her demeanor. This is a woman who refuses to show weakness in front of her customers. But if you look closely, you can see the cracks: the dark circles under her eyes suggest she hasn't slept properly in days, and her hands occasionally tremble slightly before she clasps them together to still them.
+Demeanor:
+ Professional, direct, and desperately trying to maintain hope. She's past the point of pleasantries—her town is dying, and she needs solutions, not sympathy. She treats the party as potential saviors, yes, but also as professionals being hired for a job. This is a transaction, but one she desperately needs to succeed.
+Key Dialogue Prompts:
+Opening (if party seems interested):
+ "Three days ago, a mining crew broke through into Frostmere Barrow—an old tomb about two hours north of here. They found a burial chamber. That very night, five miners vanished. Just... gone."
+She pauses, collecting herself.
+"Since then, we've seen strange blue lights dancing around the barrow at night. The ground for a hundred yards around it has turned to permafrost—solid ice, killing all the vegetation. In three days, it's spread fifty feet. If this continues, it'll reach Winterhold within a fortnight."
+If asked about theories:
+ "The old folks whisper about the Pale Lady—an ancient Draugr Queen whose tomb was sealed by the ancient Nords centuries ago. I always thought it was just a story to scare children. But those lights are real. That unnatural cold is real. Five good people are gone." Her voice hardens. "I don't care if it's Draugr, demons, or a cursed ice storm. It needs to stop."
+If asked about the Jarl:
+ "Jarl Korir is... doing what he can. But Winterhold's guard is spread thin—we lost most of our city to the Collapse, and most of our soldiers with it. The few guards we have are needed here to keep order and watch the College." She says 'College' with a mixture of bitterness and resignation. "The Jarl authorized me to hire outside help. Someone who can go into that barrow and end this threat."
+If asked about payment:
+ "The Jarl is offering five hundred gold pieces per person. It's a substantial sum—nearly everything the hold can afford right now. But if this isn't stopped..." She gestures to the quiet, frightened inn. "There won't be a Winterhold left to protect. The miners, the merchants, the farmers—they're already talking about leaving. Another week of this, and we'll be a ghost town."
+If asked about the missing miners:
+ "All locals. Experienced men who'd worked those hills for years. Torsten, Vignar, Kjeld, Brandr, and Jorik. Jorik was Bersi's brother—you might meet Bersi on the road if you take the job. He and his family fled their farm yesterday. It was closest to the barrow."
+Her voice softens slightly.
+"These weren't fools who stumbled into danger drunk. They were careful, professional. Whatever's in that barrow... if they couldn't escape, it's dangerous."
+If party seems hesitant:
+ Dagny doesn't beg, but her professionalism cracks slightly:
+"Look, I know how this sounds. Ancient tomb, missing miners, unnatural cold—every part of this screams 'certain death.' But you're here. You're armed. You're clearly not farmers or fishermen. This is what you do, isn't it? You walk into the places other people fear?"
+A pause.
+"Someone has to. If not you, then who? The guards? They're barely holding the town together. The College?" She laughs bitterly. "They're too busy in their towers to care about 'mundane' problems. You're all we have."
+If party accepts:
+ Dagny's relief is visible, though she tries to maintain her composure:
+"Thank you. Truly." She pulls out a sealed letter bearing the Jarl's seal. "This is official authorization from Jarl Korir. It'll get you past any guard checkpoints and into the barrow legally. The hold recognizes you as agents working on official business."
+She leans in slightly, lowering her voice:
+"The fastest route is north along the main road. About an hour out, you might encounter Bersi and his family—they're refugees heading south. Be kind to them if you can. They've lost everything."
+She straightens.
+"Come back alive. Winterhold needs a reason to hope."
+
+What Dagny Provides
+The Contract:
+Payment: 500 gold per person upon successful completion
+Authority: Official authorization from Jarl Korir (a sealed letter)
+Legitimacy: They are recognized as agents of the hold
+Urgency: The supernatural cold is spreading approximately 50 feet per day
+Information About the Threat:
+The barrow was sealed by ancient Nords centuries ago
+Local legends speak of the Pale Lady—a powerful sorceress who made a pact with ice spirits
+The miners were experienced professionals who knew the dangers
+The unnatural cold and blue lights began immediately after the tomb was breached
+If not stopped, the cold will reach Winterhold in approximately two weeks
+Practical Support:
+Free rooms at the Frozen Hearth before they depart
+She'll provide basic supplies (rope, torches, rations) at no cost
+She'll arrange for their gear to be stored safely while they're gone
+She can direct them to Birna's Oddments for additional supplies if needed
+
+GM Guidance: Running Your First Tavern Scene
+Pacing:
+ Don't rush this scene. This is where players learn about the quest, ask questions, and decide whether to accept. Give them time to talk among themselves, consult with Dagny, and discuss their approach.
+Player-Driven Conversation:
+ Let players lead the questions. Dagny will answer honestly from her perspective—she wants them to succeed, so she won't hide information that might help them.
+Tone:
+ This should feel serious but not hopeless. Winterhold is in trouble, but there's still a chance to fix it. The party is that chance.
+Other NPCs:
+ If players want to talk to the miners or other patrons, they can learn:
+The miners saw "pale blue light" spilling from cracks in the barrow the night their friends vanished
+No one has gone near the barrow since—even hunters avoid the area
+The College of Winterhold has been informed but has offered no help ("typical mages")
+Some believe this is divine punishment for the Collapse
+
+Part II: The Journey to Frostmere Barrow
+The barrow is a 2-hour trek through increasingly hostile terrain. This section teaches players about travel encounters, skill checks, and resource management.
+The Path Through the Blizzard
+Environmental Description:
+ "The road north from Winterhold begins as a well-maintained trade route, but the farther you travel, the more the landscape changes. The wind picks up, carrying an unnatural bite that seems to cut through even the warmest furs. The sky darkens with heavy clouds despite it being midday, and a light snow begins to fall—not the gentle snow of a winter's day, but a harsh, stinging snow that feels almost malicious.
+After about an hour, you notice the first signs of the unnatural cold Dagny described. Trees that should be green and healthy are instead coated in frost. Small animals lie frozen by the roadside, caught mid-flight or mid-step. The very air seems to crystallize with each breath you take."
+GM Note: This is a good place to start the FP drain. Characters lose 1 FP per hour while in the affected area. Make sure players understand this is happening and why.
+
+Encounter 1: Ice Wraiths (Combat Tutorial)
+Trigger: About 30 minutes into the journey, before the refugees.
+Read Aloud:
+ "The snowfall suddenly intensifies, and through the swirling white, you see movement. Two serpentine forms emerge from the storm—Ice Wraiths, their translucent bodies writhing through the air like frozen lightning. They seem to be drawn to your warmth, their eyeless heads turning toward you with predatory focus. With a sound like shattering glass, they dive toward you."
+Enemies:
+ 2x Ice Wraith (Novice Tier TL 1 Skirmisher) DACY2 ME13 U14 M16 K18
+Stats: 
+Might: 13, Agility: 15, Magic: 10, Guile: 8
+HP: 8/8, DR: 1, Damage: 4 (Frost Bite)
+Abilities:
+Incorporeal: Takes half damage from non-magical weapons
+Frost Aura: Any character who starts their turn adjacent to an Ice Wraith takes 1 frost damage
+Evasive: Advantage on Agility saves to avoid area effects
+Tactics:
+ Ice Wraiths are fast, evasive creatures that dart in to bite, then retreat. They try to surround targets and use their Frost Aura to wear down enemies caught between them. They flee if reduced to 5 HP or less. PICK UP HERE FOR PARKS.
+Loot (Per Wraith):
+20 gold 
+1x Frost Salts (alchemical ingredient)
+Total Encounter Rewards:
+40 gold (20 per player for 2 players, 13 per player for 3, etc.)
+2x Frost Salts
+GM Guidance:
+ This is the party's first real combat. Keep it simple and straightforward. Describe attacks cinematically, encourage players to narrate their own actions, and make sure everyone understands the turn order and basic mechanics. The Ice Wraiths should feel threatening but not overwhelming—this is a tutorial encounter.
+If players struggle, have the Ice Wraiths flee when bloodied. If they dominate easily, have one flee and return with a third during the refugee encounter (creating a timed pressure situation).
+(parksgroup left off here)
+
+Encounter 2: The Desperate Refugees (Skill Check Tutorial)
+Trigger: About halfway to the barrow, after the Ice Wraith encounter.
+Read Aloud:
+ "As you round a bend in the road, you see a cart stuck in a snowdrift ahead. A Nord man in his forties is trying desperately to push it free while a woman in heavy furs comforts a young boy wrapped in blankets in the cart bed. The man's hands are bleeding from the cold, and his breath comes in ragged gasps. The boy is shivering violently, his lips tinged blue.
+The man looks up as you approach, and for a moment, hope flashes across his face before being replaced by desperation. 'Please,' he calls out, his voice cracking. 'Please, my son—he's sick. We need to get him to Winterhold, but the cart—the wheel—' He gestures helplessly at the stuck wagon."
+The NPCs:
+Bersi: Nord farmer, Jorik's brother, early 40s, desperate and terrified
+Helga: Bersi's wife, protective mother, trying to stay calm for her son
+Erik: Their son, age 8, running a dangerous fever after touching the supernatural cold
+What Happened:
+ Bersi's farm was the closest to Frostmere Barrow. Last night, the supernatural cold reached his homestead. They woke to find frost covering everything—even the inside of their mouths when they breathed. Erik touched a frozen wall and has been feverish ever since. They're fleeing to Winterhold, but their overloaded cart got stuck.
+The Skill Challenge (Teaching Multiple Approaches)
+Players can attempt multiple skill checks to help the refugees. This teaches them that problems can have multiple solutions and that success isn't all-or-nothing.
+Option 1: Treat Erik's Fever
+Medicine/Magic (Standard Difficulty): Stabilize the boy's condition with medical knowledge or healing magic
+Success: Erik's fever breaks. He's weak but stable.
+Failure: The boy remains feverish but doesn't worsen. He'll survive to reach Winterhold, but barely.
+Option 2: Free the Cart
+Might (Standard Difficulty): Use raw strength to lift and push the cart free
+Alternatively: Multiple characters working together can gain Advantage
+Success: The cart is freed and ready to move.
+Failure: The cart stays stuck, but players can try a different approach (use ropes, find leverage, etc.)
+Option 3: Emergency Shelter
+Survival (Standard Difficulty): Build a windbreak and start a fire to warm the family
+Success: The family can rest safely for an hour before continuing their journey.
+Failure: The shelter is poor, but provides some protection.
+Consequences and Rewards
+Full Success (2+ Checks Passed):
+Gratitude: Bersi is overwhelmed with relief and gratitude
+Reward 1: Potion of Frost Resistance (Helga had been saving it)
+Reward 2: Bersi's Map—a hand-drawn map showing a "hidden back entrance" to the barrow through a collapsed mining tunnel (allows party to skip Section 1: Guardian encounter)
+Information: Bersi shares what he knows about the barrow and his missing brother Jorik
+Partial Success (1 Check Passed):
+Gratitude: The family is thankful
+Reward: Potion of Frost Resistance only
+Information: Bersi shares basic information about the barrow
+Minimal Success (No Checks Passed, But They Tried):
+Gratitude: The family survives and appreciates the attempt
+No Rewards: But Bersi's final words haunt them: "Please... find my brother. His name is Jorik. If he's... if he's still in there, bring him home."
+If Ignored Completely:
+The party proceeds to the barrow
+On their return, they learn Erik died on the road to Winterhold
+This teaches consequences without being punitive—they can still complete the adventure
+Bersi's Information (If Earned)
+About Jorik:
+ "My brother was one of the miners. Jorik. Good man, careful, not reckless. He'd worked those hills for fifteen years. When they broke through into that chamber, he sent a runner back to town immediately—said they'd found something important and wanted the Jarl's permission before going deeper. That night, they all disappeared."
+About the Barrow:
+ "The old stories say the Pale Lady was a sorceress from before the Dragon War. Made a pact with ice spirits for eternal life. The ancient Nords had to seal her in with wards and stone. My grandmother used to say the seals would hold as long as the land respected the dead. The miners didn't mean any disrespect—they were just doing their job."
+About the Cold:
+ "It's not normal winter cold. Things freeze instantly—I saw a bird fall from the sky, frozen solid before it hit the ground. And the blue lights... they move like they're alive. Watching. Hunting."
+The Map (If Earned):
+ "Jorik mentioned an old collapsed tunnel on the barrow's east side. Said it was unstable, but if you're careful and know where to look, you might be able to get in that way. Might be safer than the main entrance." (Mechanical benefit: Allows party to bypass Section 1 combat)
+
+Environmental Escalation
+Read Aloud (As They Approach the Barrow):
+ "As you continue north, the signs of supernatural corruption become impossible to ignore. Trees stand frozen like sculptures of ice, their branches snapping under their own weight. The ground beneath your feet is hard as stone, covered in a thick layer of frost that crunches with every step. The temperature has dropped dramatically—your breath comes out in thick white clouds, and exposed skin begins to ache with cold.
+In the distance, perhaps half a mile ahead, you see a dark shape rising from the frozen landscape: Frostmere Barrow. Even from here, you can see the unnatural blue-white light pulsing from within, visible through cracks in the ancient stone. It looks less like a tomb and more like a wound in the earth, bleeding cold and malice into the world.
+As if sensing your approach, the light pulses more intensely. You feel it in your bones—a deep, unnatural cold that has nothing to do with winter and everything to do with the undead."
+GM Note: The FP drain is now in full effect (1 FP per hour). Make sure players understand this is the "aura" of the Pale Lady's awakening. Fire magic is reduced by 1 damage here. Frost attacks deal +1 damage.
+
+Part III: Frostmere Barrow - The Five Section Dungeon
+Approaching the Barrow
+Read Aloud:
+ "Frostmere Barrow rises from the frozen landscape like a wound in the earth. What should be ancient stone and packed dirt is now covered in a thick sheet of unnatural ice. Blue-white light pulses from within, visible through cracks in the structure and the recently excavated entrance. The very air around you seems to crystallize with each breath, and you can feel an oppressive weight pressing down—the sensation of something ancient, powerful, and utterly wrong stirring within.
+The miners' entrance yawns open like a mouth full of icicles. Fresh excavation marks are visible around the opening, and you can see where their tools lie scattered and abandoned—picks, shovels, and lanterns dropped in haste or terror. A wooden support beam has been erected inside the entrance, but it's now covered in frost and looks dangerously unstable.
+Beyond the threshold, you can see the faint blue glow coming from deeper within. The darkness seems to pulse with it, like a slow, terrible heartbeat."
+GM Note: If the party has Bersi's map, they can choose to use the collapsed eastern tunnel instead, bypassing Section 1. If they do, proceed directly to Section 2 after a Standard Agility check to navigate the unstable passage safely.
+
+Environmental Effect: Supernatural Cold
+The Barrow's Curse:
+ The Pale Lady's awakening has created an aura of unnatural cold that permeates the entire barrow. This has the following effects:
+FP Drain: All characters lose 1 FP per hour spent inside the barrow (this is in addition to any cold damage taken in combat)
+Weakened Fire: All fire-based damage (spells, enchanted weapons, torches used as weapons) deals -1 damage (minimum 1)
+Empowered Frost: All frost-based damage (enemy attacks, environmental hazards) deals +1 damage
+Visibility: The blue light provides dim illumination throughout the barrow—enough to see, but everything has an eerie, ghostly quality
+GM Note: Track time carefully. If the party takes multiple long rests or spends excessive time exploring, the FP drain can become a serious resource management issue. This is intentional—it creates time pressure.
+
+Section 1: The Excavated Entrance (Guardian)
+Description:
+ "You step through the miners' entrance into a circular chamber carved from dark stone. The walls are covered in ancient Nordic runes that seem to glow faintly with frost-light, and the floor is a solid sheet of ice that makes every step treacherous. The room is perhaps thirty feet across, with two passages leading deeper into the barrow: one to the north, one to the east.
+But what draws your attention immediately is not the passages or the runes—it's the evidence of sudden, terrible violence. Mining tools lie scattered across the floor—a pickaxe embedded in the ice, a lantern shattered against the wall, a lunch pail spilled and frozen solid. There are scuff marks in the frost, as if someone was dragged toward the northern passage.
+And there, floating slowly through the chamber like malevolent snow, are two figures. They were once men—you can tell by their shapes and the tattered remains of miners' clothes clinging to their translucent, frost-blue forms. Their faces are twisted in expressions of eternal agony, mouths open in silent screams. They turn toward you, and you hear a sound like wind through ice: 'Turn back... join us... so cold...'"
+Encounter: The Frost-Bound Spirits 3d 7p 9k 17j 19me
+Enemies:
+ 2x Frost-Bound Spirit (Novice Tier TL 2 Brute)
+Stats:
+Might: 15, Agility: 13, Magic: 10, Guile: 8
+HP: 6/15, DR: 4, Damage: 6 (Frost Touch)
+Abilities:
+Chilling Touch: On a successful melee attack (Might vs. target's Might), the target must make a Might roll or be Slowed for 1 round (cannot use their Minor Action for movement)
+Incorporeal: Takes half damage from non-magical weapons
+Weakness (Fire): Takes +2 damage from all fire-based attacks and spells (note: fire is reduced by 1 in the barrow, but these creatures' weakness offsets that to +1 net bonus)
+Tactics:
+ The Frost-Bound Spirits float directly toward the nearest living target, their frost-blue forms leaving trails of icy mist. They attempt to freeze targets in place with their Chilling Touch, then continue to attack the immobilized victim. They fight with mindless, tragic determination—echoes of the miners they once were, now twisted into guardians of the tomb that killed them.
+They moan constantly as they fight: "So cold... why didn't you save us... join us... join us..." This is unnerving but not a mechanical effect.
+Special Note: These are the spirits of two of the five missing miners. If the party defeats them with fire or radiant damage, they fade peacefully with whispered thanks. If defeated with other damage types, they shatter like ice, leaving only frost on the ground.
+Loot and Clues
+Loot (Per Spirit):
+Gold: 20 gold (1d20) - their remaining pay from the mining company
+Components: 1x Frost Salts each (valuable alchemical reagent)
+Consumable: 1x Potion of Minor Healing (one of the spirits carries this—perhaps they grabbed it before being turned)
+Total Encounter Loot:
+40 gold total (divided among party)
+2x Frost Salts
+1x Potion of Minor Healing
+Environmental Clues (Investigation):
+Clue 1: The Abandoned Tools (Automatic)
+ The mining tools show signs of sudden abandonment. A bowl of stew is frozen solid, the spoon still in it. Tools are scattered in panic, not set down carefully. This happened fast.
+Clue 2: The Runes (Standard Guile or Magic Roll)
+ A character who examines the runes and succeeds on a Standard Guile or Magic roll can translate them. They're ancient Nordic warnings:
+"Here lies the Queen of Frost, sealed by the Breath of Heroes. Let no mortal disturb her eternal sleep, for her curse spreads like winter's grasp. She who made pacts with the Cold Below. She who sought immortality through ice. She who was bound by the Thu'um of our ancestors."
+The Implication: The Pale Lady was sealed here by ancient Nordic heroes using the Voice (Thu'um). The seals have failed.
+Clue 3: The Drag Marks (Standard Guile Roll)
+ A successful Guile roll to examine the floor reveals drag marks leading to the northern passage. At least three people were dragged deeper into the barrow while still struggling. The marks abruptly stop about twenty feet into the passage—as if whatever was dragging them simply... vanished.
+
+GM Guidance: Reading Combat Flow
+Pacing Combat:
+ Watch your players, not just the HP totals. If they're engaged and tactical, let the fight play out naturally. If they seem overwhelmed or frustrated, have the spirits flee when reduced to 5 HP each (they phase through the walls and vanish).
+Describing Hits:
+ Make combat cinematic. When a player rolls a successful attack:
+"Your sword passes through the spirit's chest, and for a moment, you see the ghostly image of the man he once was—a miner named Vignar—before he shrieks and solidifies slightly, becoming more vulnerable."
+"Your fire spell strikes true, and the spirit screams—not in pain, but in what sounds like relief. The frost holding its form together begins to melt, and you hear a whispered 'thank you' as it dissipates into steam."
+Letting Players Describe Killing Blows:
+ When a player reduces an enemy to 0 HP, ask them: "How do you finish it?" Let them describe their victory. This makes them feel heroic and invested.
+The Incorporeal Trait:
+ Make sure players understand that non-magical weapons deal half damage. This is a teaching moment—mundane weapons aren't always enough. If no one in the party has magical weapons or spells, consider having a magical weapon visible in the next room, or let them discover that fire (even from torches) works well due to the spirits' weakness.
+
+Section 2: The Hall of Riddles (Puzzle/Problem-Solving)
+The North Passage Leads Here.
+Description:
+ "The northern passage opens into a long, rectangular hall that feels older than the entrance chamber—this is original construction, not miner excavations. The hall is perhaps sixty feet long and twenty feet wide, its ceiling supported by six stone pillars carved to resemble ancient Nordic warriors. Each pillar holds a different weapon: a dagger, a sword, an axe, a bow, a shield, and a staff. They're positioned in a line along the hall, three on each side, facing each other like silent sentinels.
+The floor is covered in a layer of frost that glitters in the blue light, and you can see your breath misting in the cold air. At the far end of the hall stands a massive stone door, sealed tight, with no visible handles or keyholes. Above the door, carved in ancient Nordic runes, is an inscription."
+Read Aloud (The Inscription):
+ A character who can read Nordic runes (or makes a Standard Magic roll) can translate the inscription:
+"Honor the way of the ancient warriors. Light the path of the true Nord."
+Below the inscription are six stone circles set into the door, currently dark and unlit.
+The Puzzle: The Path of the Warrior
+The Solution:
+ The six statues must be activated in the correct order to represent the traditional stages of a Nord warrior's life:
+Dagger (a child's first blade, given at age 7)
+Sword (the weapon of youth, for hunting and proving oneself)
+Axe (the tool of adulthood, for work and war)
+Bow (the hunter's wisdom, requiring patience and skill)
+Shield (the protector's duty, defending family and hold)
+Staff (the elder's magic, wisdom replacing strength)
+How to Activate:
+ Each statue has a stone pressure plate at its base. Stepping on the plate causes the statue's eyes to glow blue and one of the stone circles on the door to light up. The party must activate them in the correct order.
+Failure Consequence:
+ Activating them in the wrong order triggers ancient defensive magic:
+First Failure: The glowing circles reset. Everyone in the room takes 3 frost damage as the temperature plummets suddenly.
+Second Failure: Same effect, another 3 frost damage, circles reset.
+Third Failure: The door opens, but they've alerted every creature in the barrow. All future encounters have +1 additional enemy (or enemies have Advantage on initiative).
+Hints for Players (Graduated Difficulty)
+Hint Tier 1: Obvious Observation (Automatic)
+ The weapons are clearly meant to represent stages of life, not just random armaments. The inscription mentions "the way of ancient warriors," implying a progression.
+Hint Tier 2: Standard Guile Roll
+ A character examining the statues more closely notices that the dagger and sword show significantly more wear and touch-marks than the axe and shield, suggesting they're meant to come first. The staff is positioned last, near the door, as if guarding the final step.
+Hint Tier 3: Hard (-2) Guile Roll
+ A character searching the hall thoroughly finds a small stone tablet hidden behind one of the pillars. It contains a poem in Nordic:
+"First the child's fang to hunt the hare,
+ Then youth's bright steel to prove their worth,
+ The grown one's blade to split the wood,
+ The patient string to feed their kin,
+ The father's wall to guard the hall,
+ The elder's branch when strength has fled."
+This explicitly describes the order.
+Alternative Solution: Bypass the Puzzle
+Magic Approach (Very Hard -4 Magic Roll):
+ A skilled mage can attempt to dispel the magical lock entirely, bypassing the puzzle. Success opens the door immediately. Failure triggers the same frost damage as a wrong answer and wastes time.
+Brute Force Approach (Very Hard -4 Might Roll):
+ The party can attempt to break down the stone door through sheer strength. Success causes the door to crack and break open (loudly, alerting creatures deeper in the barrow). Failure means the door holds, and they must try another approach.
+Loot and Rewards
+Behind the Door:
+ Once opened (by any method), the passage beyond contains a small alcove with offerings left by ancient Nord warriors:
+Ancient Nord Greatsword: A well-preserved two-handed sword with Nordic engravings (+1 damage compared to standard Greatsword, 2H weapon, 5 damage total)
+Gold: 100 gold in ancient Nordic coins
+Scroll of Lesser Ward: A defensive spell scroll that can create a magical barrier
+Hidden Alcove (Standard Guile Roll to Find):
+ One of the pillars has a hidden compartment. Inside:
+50 additional gold
+1x Potion of Stamina
+Total Section Loot:
+Ancient Nord Greatsword (magical weapon)
+150 gold total
+Scroll of Lesser Ward
+Potion of Stamina
+
+Section 3: The Collapsed Mining Tunnel (Setback/Exploration)
+The East Passage Leads Here.
+Description:
+ "The eastern passage slopes downward into what was clearly the miners' working area. The walls here are rougher, showing recent excavation marks, and you can see where wooden support beams have been hastily erected. Mining equipment is scattered everywhere—pickaxes, shovels, wheelbarrows full of rubble, coils of rope, and dimmed lanterns.
+But the passage ahead has partially collapsed. A wall of rubble and broken support beams blocks what was once the main tunnel, and the remaining structure looks dangerously unstable. Timbers creak ominously, and small cascades of loose stone occasionally fall from above.
+More disturbing are the three shimmering, man-shaped forms floating near the collapse. Like the spirits you encountered earlier, these are twisted remnants of the missing miners—but these are weaker, less distinct, appearing as columns of freezing air more than recognizable forms. They drift through the rubble like searching ghosts, their presence causing frost to spread across the stones."
+Encounter: Frozen Apparitions
+Enemies:
+ 3x Frozen Apparition (Novice Tier TL 1 Skirmisher)
+Stats:
+Might: 14, Agility: 12, Magic: 10, Guile: 8
+HP: 12, DR: 3, Damage: 4 (Frost Tendrils)
+Abilities:
+Frost Aura: Any character who starts their turn adjacent to a Frozen Apparition takes 1 frost damage
+Incorporeal: Takes half damage from non-magical weapons
+Tactics:
+ These lesser spirits are not as intelligent as their stronger kin. They swarm the closest intruders mindlessly, using their Frost Aura to wear down opponents in melee. They cluster together, making area-effect spells particularly effective.
+They whisper fragments of memories as they attack: "...so dark..." "...can't find the way..." "...Jorik, where are you..."
+The Setback: The Collapsed Tunnel
+After defeating the apparitions, the party faces the real challenge of this section: the tunnel is blocked, and the direct route is impassable.
+The Problem:
+ The main tunnel they need is completely blocked by rubble and unstable support beams. They have three options:
+Option 1: Clear the Rubble (Very Hard -4 Might Check, 1 Hour)
+ The party can attempt to carefully clear the rubble and shore up the supports. This is extremely difficult and time-consuming.
+Success: They clear a path, but the noise and time (1 hour = 1 FP drain) alerts everything in the barrow. All future encounters have enemies with Advantage on initiative.
+Failure: The tunnel collapses further, dealing 2d6 damage to the character attempting it and making this route permanently impassable.
+Option 2: Find the Hidden Passage (Standard Guile Check)
+ A character searching carefully can find what the miners discovered before they died—a natural fissure in the wall behind some equipment that leads to an older section of the barrow.
+Success: They find the passage and can squeeze through carefully (requires a Standard Agility check to navigate safely).
+Failure: They don't notice the passage initially but can try again or attempt another option.
+Option 3: Blast Through with Magic (Hard -2 Magic Check)
+ A mage can attempt to use destructive magic to clear the rubble forcefully.
+Success: A controlled blast clears the rubble, though it's loud and alerts the barrow.
+Failure: The uncontrolled blast causes a partial collapse, dealing 3d6 damage to everyone in the area and making the route impassable.
+GM Note: Option 2 (finding the hidden passage) is the "intended" solution and should be the most rewarding. It's a test of perception and careful exploration, not brute force.
+Loot and Clues
+Jorik's Body (One of the Apparitions):
+ If the party defeats the apparitions and searches carefully, they can identify which one was Jorik (Bersi's brother) by the mining company badge on his ghostly form. On his body:
+Mining Journal: Leather-bound notebook with his observations
+Potion of Frost Resistance: In his belt pouch
+30 gold: His life savings
+Mining Journal Contents:
+ The journal describes their discovery in shaky handwriting:
+"Day 47: Broke through into an ancient chamber today. Torstein wanted to push forward immediately, but I convinced everyone to wait and get the Jarl's permission. There's a throne in there... and someone sitting on it. Can't tell if it's a statue or... something else. The temperature in that room is wrong. Unnatural. We're setting up camp here tonight and sending word to town in the morning."
+The final entry, written in panicked script:
+"Something's wrong. Vignar was on watch, and he started screaming. The cold—it's moving. Coming from the throne room. It's ALIVE. We need to—"
+The entry ends abruptly.
+Mining Supplies:
+ Scattered around the area:
+50 feet of Rope
+6 Torches
+Mining Tools (could be improvised weapons, 3 damage)
+50 gold worth of tools and equipment
+Other Victim's Possessions:
+ The other two apparitions carry:
+20 gold each (40 total)
+1x Potion of Minor Healing
+Personal effects: Letters to family, lucky charms (worth 10 gold to a sentimental collector)
+Total Section Loot:
+120 gold
+Jorik's Mining Journal (quest item)
+Potion of Frost Resistance
+Potion of Minor Healing
+Rope, torches, and supplies
+Personal effects (10 gold value)
+The Hidden Passage:
+ If found, it leads directly to Section 4 (the throne room), bypassing any further obstacles.
+
+GM Guidance: Environmental Storytelling
+Making the Setback Matter:
+ This section teaches players that not every obstacle is solved through combat. The real challenge comes after the fight—how do they proceed?
+Rewarding Creativity:
+ If players come up with a solution you didn't anticipate (using magic to freeze the rubble solid, summoning help, using the rope creatively), reward it! Set a difficulty and let them try.
+The Journal as Motivation:
+ Jorik's journal should hit hard emotionally, especially if the party met Bersi. These were real people with families, and they died terrified. This makes the upcoming confrontation with the Pale Lady feel personal.
+
+Parks group stopped here 
+
+Section 4: The Throne Room (Boss Fight)
+Both Passages Lead Here.
+Read Aloud:
+ "You emerge into a vast circular chamber carved from black stone. The ceiling soars thirty feet above you, supported by pillars of ice that seem to have grown naturally from the floor, reaching toward the darkness above like frozen fingers. The air itself seems frozen here—you can barely breathe, and each inhalation burns your lungs with cold.
+At the far end of the chamber, elevated on a stone dais, sits a throne of white stone veined with blue ice. And upon that throne sits a figure of terrible, inhuman beauty.
+She was once a woman—you can tell by the shape of her, the ancient Nordic armor she wears, the crown of ice resting on her brow. But whatever mortality she once possessed is long gone. Her skin is pale as fresh snow, bloodless and perfect like carved marble. Her hair falls in white waves past her shoulders, and it moves despite the still air, as if stirred by an invisible wind. Her eyes burn with cold blue fire, and when she looks at you, you feel that gaze like frostbite on your soul.
+An ancient sword of pure ice rests across her lap, its blade emanating waves of cold that distort the air.
+She stands slowly, gracefully, and speaks in a voice like wind over frozen lakes: 'Mortals. You dare enter my tomb uninvited? You dare disturb my rest?' The temperature plummets. 'Then you shall join my servants. You shall guard my sleep for eternity.'"
+Environmental Hazard: Slick Ice Floor
+The entire chamber floor is covered in magically smooth ice. Any character who moves more than 15 feet in a single turn must make an Agility roll or fall prone. Falling prone wastes their Minor Action to stand up.
+GM Note: This creates tactical decisions—do you move slowly and safely, or rush to engage and risk falling?
+The Pale Lady's Guardians 6da 8me 12ka 18pat 20jor 
+As the Pale Lady stands, two alcoves in the walls grind open, and two Draugr Guardians step forth—desiccated corpses in rusted Nordic armor, their eyes glowing with the same cold blue light as their queen.
+Enemies: 
+The Pale Lady (Novice Tier TL 3 Boss)
+2x Draugr Guardian (Novice Tier TL 1 Brute)
+Boss: The Pale Lady
+Stats:
+Might: 16, Agility: 14, Magic: 10, Guile: 8
+HP: 22/40, DR: 5 (Ancient Nordic Armor), Damage: 8 (Frost Sword)
+Abilities: katies orc ate her former self caniballism initiated. 
+Two Attacks: As her Major Action, the Pale Lady can make two sword attacks against one or two targets within reach.
+Frost Aura: Any character who starts their turn within 10 feet of the Pale Lady takes 2 frost damage. This represents the supernatural cold emanating from her undead form.
+Ice Storm (Once Per Combat): As a Major Action, the Pale Lady calls down a devastating blizzard. She makes a Magic roll against all targets in a 20-foot radius centered on a point she can see. On a success, targets take 10 frost damage. Targets can make an Agility roll to halve the damage (taking 5 instead).
+Undead Resilience: The Pale Lady is immune to fear, poison, disease, and effects that target the living.
+Phase Transition (When Reduced to 20 HP or Less):
+ When the Pale Lady is bloodied, she becomes desperate and changes tactics:
+She immediately uses her Ice Storm ability (even if already used)
+Her movement is no longer hindered by the ice (she glides across it supernaturally)
+She focuses all attacks on whoever dealt the most damage to her
+Tactics:
+Phase 1 (40-21 HP): The Queen's Wrath
+ The Pale Lady advances slowly from her throne, projecting regal menace. She uses her Two Attacks to focus on the most heavily armored character, attempting to overwhelm them with sustained damage. She positions herself to maximize her Frost Aura, trying to catch multiple party members in its radius.
+The Draugr Guardians move to flank and intercept anyone trying to reach the Pale Lady directly, creating a defensive line.
+Phase 2 (20-1 HP): Desperate Fury
+ When bloodied, the Pale Lady's composure shatters. She unleashes her Ice Storm immediately, targeting as many party members as possible. After this, she fights recklessly, using Two Attacks each round against whoever has dealt the most damage to her, ignoring tactical positioning in favor of pure offense.
+If reduced to 5 HP or less, she attempts to retreat to her throne and may try to bargain (see Optional Roleplay below).
+Draugr Guardians
+Stats (Each):
+Might: 14, Agility: 12, Magic: 8, Guile: 10
+HP: 9, DR: 3 (Rusted Nordic Armor), Damage: 4 (Ancient Nord War Axe)
+Abilities:
+Undead Resilience: Immune to fear, poison, disease
+Tactics:
+ The Draugr Guardians act as a defensive line, positioning themselves between the party and the Pale Lady. They focus on whoever tries to approach their queen, using their bodies to block and their axes to punish anyone who gets past them. They fight until destroyed, showing no fear or self-preservation.
+Optional Roleplay: The Pale Lady's Offer
+If the party has dealt significant damage but hasn't finished the fight, or if they attempt to negotiate, the Pale Lady may speak:
+The Pale Lady's Monologue:
+ "Stop! Please... I was not always this. Once, I was Ismara Ice-Born, daughter of Jarl Yngvarr. I sought immortality to protect my people from the Dragon Cult. The ice spirits promised eternal life... but I did not understand the cost."
+She gestures to her undead form.
+"I am bound to this place, trapped between life and death. I cannot leave. I cannot rest. I can only... endure. The miners broke my seals. I did not want to hurt them, but my curse... it spreads. It hunts. I cannot control it."
+Her voice breaks slightly.
+"If you destroy me, the curse will end. The cold will recede. But I will be... truly gone. Not alive. Not undead. Just... nothing. Is there no other way?"
+Player Options:
+Option 1: Mercy Kill (Continue the Fight)
+ The party can express sympathy but explain that she must be stopped. She accepts this with dignity: "Then make it swift. I have been cold for so long..." The fight continues, but she doesn't use Ice Storm again—she's accepted her fate.
+Option 2: Seek a Cure (Hard Guile or Magic Check)
+ The party can attempt to convince her that they'll seek a way to break her curse without destroying her. This requires a Hard (-2) Guile or Magic check and a genuine plan (consulting the College, seeking Daedric intervention, etc.).
+Success: The Pale Lady agrees to re-seal herself using her own magic, promising to wait while they seek a cure. The cold stops spreading immediately. This provides an alternative resolution and a potential future quest hook.
+Failure: She doesn't believe them and attacks with renewed fury.
+Option 3: Destruction (Standard Response)
+ The party simply finishes the fight without negotiation.
+GM Note: This roleplay moment is optional and depends on your table. If your players prefer straightforward heroic action, skip it and have the Pale Lady fight to the death. If they enjoy moral complexity, this moment adds depth.
+Loot (After Victory)
+The Pale Lady's Equipment:
+Frostbane Blade: The enchanted sword she wields. Nordic longsword that deals +2 damage against undead and ice creatures (6 damage total, 1H weapon)
+The Pale Lady's Crown: An ice-blue circlet that grants the wearer:
+Cold Immunity: Take no damage from cold/frost sources
+Frostbite Spell (1/day): Cast Frostbite (deals 4 frost damage to one target, no FP cost)
+Draugr Guardian Loot (Each):
+Ancient Nord War Axe: 1H weapon, 4 damage
+Banded Iron Armor: DR 2 (if players need better armor)
+Gold: 30 gold each (60 total from both)
+Total Boss Fight Loot:
+Frostbane Blade (powerful magical weapon)
+The Pale Lady's Crown (powerful magical item)
+2x Ancient Nord War Axe
+2x Banded Iron Armor
+60 gold
+The Immediate Effect:
+ As the Pale Lady falls (or re-seals herself), the supernatural cold begins to recede immediately. The blue light fades, the ice starts to melt slowly, and the oppressive weight lifts. The spirits of the five miners appear briefly—whole, peaceful—and bow to the party in gratitude before fading into light.
+
+Section 5: The Treasure Chamber (Reward & Closure)
+Behind the throne, a previously hidden passage opens.
+Read Aloud:
+ "As the Pale Lady falls, you hear a deep grinding sound. Behind her throne, a section of wall slides open, revealing a hidden chamber beyond. The air that flows out is still cold but no longer malevolent—this is the cold of centuries, not of curses.
+Within lies the Pale Lady's burial vault, untouched for hundreds of years. The chamber is modest compared to the throne room—perhaps twenty feet square—but what it contains is breathtaking. Gold glitters in piles along the walls, ancient weapons rest on stone pedestals, and magical artifacts glow faintly with residual power. This was Ismara Ice-Born's personal treasury, sealed away when she was bound to her throne."
+The Treasure Hoard
+Gold:
+3,000 gold pieces in ancient Nordic coins
+Divided among party: 500 gold each for 6 players, 600 each for 5 players, 750 each for 4 players
+Additional Magical Items:
+Boots of Sure Footing: Fine leather boots that grant the wearer Advantage on all rolls to avoid falling or slipping. Particularly useful in icy environments or during chases.
+Ancient Nordic War Horn: A carved horn decorated with dragon motifs. When blown as a Minor Action, grants all allies within 30 feet +2 to their next attack roll. Can be used once per combat.
+Scrolls and Potions:
+2x Potion of Greater Healing: Heals 12 HP each
+3x Potion of Frost Resistance: Grants resistance to cold damage for 1 hour
+Scroll of Greater Ward: Creates a powerful magical barrier
+Historical Artifacts:
+ Ancient Nord burial goods, ceremonial weapons, jewelry, and ritual items. Worth approximately 200 additional gold if sold to collectors or museums.
+Personal Items:
+ A locked wooden chest (Standard Guile to pick, or break it open) contains:
+Ismara's personal journal (details her transformation and regrets)
+A portrait miniature of her family (worth 50 gold, or priceless to the right person)
+A silver locket containing a lock of hair
+Total Treasure Value:
+3,000-3,750 gold (depending on party size)
+Boots of Sure Footing
+Ancient Nordic War Horn
+2x Potion of Greater Healing
+3x Potion of Frost Resistance
+Scroll of Greater Ward
+200 gold worth of artifacts
+Personal items
+The Journal (Optional Lore)
+If players read Ismara's journal, they learn her tragic story:
+"I was a fool. The Dragon Cult marched on our hold, and I sought power to defend my people. The ice spirits offered immortality, strength beyond mortal limits. I accepted, thinking I could protect everyone forever.
+But immortality is not life. It is the absence of death, which is not the same thing. I cannot eat, cannot sleep, cannot feel warmth or joy or love. I can only... exist. And worse, my curse spreads to those around me. The very people I wanted to protect, I now endanger.
+The Greybeards came. They used the Voice to seal me here, protecting the world from my curse. I begged them to destroy me, but they said my death would release even more corruption. So here I remain, trapped on this throne, slowly freezing everything around me.
+If you are reading this, I am either truly dead or you have found a way to end my suffering. Either way... thank you."
+
+GM Guidance: The Importance of Treasure
+Make Finding Treasure Feel Earned:
+ Don't just list the items—describe the party discovering them. Let them examine the war horn, try on the boots, read the journal. This is their reward for hours of gameplay. Give them time to appreciate it.
+Let Players Discuss:
+ After cataloging the treasure, pause. Let the party decide who gets what items. These conversations create memorable character moments and party dynamics.
+Don't Rush the Resolution:
+ This is the victory lap. The tension is over, the threat is ended. Let the party savor their success before moving to the epilogue.
+
+Part IV: Returning to Winterhold
+The Journey Back  
+They seduced ismara and the one who did stayed behind out of the town while the others lied and said they got rid of the pest in the tomb 
+Read Aloud:
+ "As you make your way back toward Winterhold, you can see the change immediately. The unnatural frost is receding, melting away under the natural sunlight. Trees that were frozen solid are beginning to drip and thaw. The air, while still cold, has lost its malevolent bite. The landscape looks... normal again. Like waking from a nightmare into an ordinary winter morning.
+You pass Bersi's abandoned farm. The ice that covered the buildings is melting, running in rivulets from the roof. It's still abandoned, but it no longer looks cursed. Just... empty. Waiting for its family to return."
+Optional Encounter:
+ If the party helped Bersi's family and saved Erik, they might encounter the family on the road heading back to reclaim their farm. Bersi is overwhelmed with gratitude, especially if they bring news or proof of Jorik's death. He offers them free lodging at his farm anytime they pass through the region.
+
+The Return to the Frozen Hearth
+Read Aloud:
+ "When you enter Winterhold, the change in atmosphere is remarkable. People are outside, moving with purpose instead of fear. The guard at the gate greets you with a genuine smile—the first you've seen on anyone's face here. 'You did it,' he says simply. 'The cold stopped spreading this morning. The blue lights are gone. Whatever was in that barrow... you ended it.'
+The Frozen Hearth is transformed. The common room is packed with locals celebrating, and when you enter, someone shouts, 'It's them! The ones who went to the barrow!' The room erupts in cheers."
+Dagny's Gratitude
+Dagny pushes through the crowd, and for the first time, you see her smile—a genuine, relieved smile that makes her look ten years younger.
+"You did it. I didn't dare hope, but you actually did it." She produces a heavy coin purse bearing the Jarl's seal. "Five hundred gold each, as promised. The Jarl will want to thank you personally tomorrow, but tonight..." She gestures to the celebrating crowd. "Tonight, you're heroes."
+Payment: 500 gold per character, as promised.
+Additional Rewards:
+Free room and board at the Frozen Hearth for one week
+Standing invitation: "You're always welcome here. Any time you pass through Winterhold, you have a home at the Frozen Hearth."
+Reputation: The party is now known in Winterhold. Guards will recognize them, merchants will offer fair prices, and locals will treat them with respect.
+Optional: Meeting Jarl Korir
+If the party wishes to meet the Jarl:
+Read Aloud:
+ "Jarl Korir receives you in his longhouse the next morning. He's a stern-faced Nord with the bearing of a traditional warrior, but his gratitude is genuine.
+'You've saved my hold,' he says simply. 'The College sits in its tower and watches, doing nothing. The Empire sends promises but no aid. You... you acted. You walked into that cursed place and ended a threat that could have destroyed us.'
+He stands and clasps each of your forearms in the traditional Nord warrior's greeting.
+'You have the gratitude of Winterhold, and you have my personal respect. If you ever need aid in this hold—if you ever need sanctuary, supplies, or simply a place to rest—you have it. You are Friends of Winterhold.'"
+Mechanical Benefit: The party gains Advantage on all social rolls with Nord NPCs in Winterhold Hold for future adventures. This is a tangible, lasting benefit that rewards their heroism.
+
+Experience Gained
+Each player gains 1 Advancement Point for completing the adventure.
+GM Note: Track this carefully. When players reach 4-5 AP total (Expert Tier), they'll be ready for Act II of the campaign—the Royal Summons from High King Torygg.
+
+Part V: The Traveling Merchant
+Old Bjorn's Approach
+Timing: After the celebrations have died down, preferably the next morning when the party is planning their next move.
+Read Aloud:
+ "As you're finishing breakfast at the Frozen Hearth, discussing where to head next, a weathered Nord man in his sixties approaches your table. He has the build of someone who's spent a lifetime doing physical work—strong shoulders, callused hands—but he carries himself with an easy, relaxed confidence. His clothes are practical traveling gear, well-maintained but showing miles of use, and a sturdy walking staff leans against his shoulder.
+'Pardon the interruption,' he says with a friendly nod, his voice warm and surprisingly charismatic. 'Couldn't help but overhear you lot talking about your next destination. Name's Bjorn—Old Bjorn, most folks call me. I run a cart up and down Skyrim, trading goods, moving cargo, that sort of thing.'
+He gestures to your weapons and the respectful glances from other patrons.
+'The roads aren't safe for a lone merchant these days. Bandits, wildlife, worse. I was planning to head [wherever the party mentioned going, or toward a major city like Whiterun or Riften if they didn't specify]. Seems like we're heading the same direction. I can't pay you gold for protection, but I can provide travel, company, and help set up camp along the way, and I know every inn and safe campsite from here to the Rift. Good company and safe passage—seems like it would benefit us both, what do you say?'"
+
+Old Bjorn - The Unassuming Companion
+What Players Can Learn (If They Ask):
+About His Background:
+ "I was a fisherman for most of my life—worked the waters around Riften for thirty-odd years. Good, honest work. But a man gets curious, you know? Wanted to see more of Skyrim than the same stretch of river. So I saved up, bought a cart, and started hauling goods between holds. Been doing it for about five years now."
+About His Business:
+ "I carry whatever needs carrying—ore from Dawnstar to Whiterun, furs from Winterhold to Solitude, food supplies to wherever they're needed. Small operations, nothing fancy, but it keeps me fed and on the road. I like meeting people, seeing new places. Beats staring at the same fishing hole every day."
+About the Dangers:
+ "Used to be you could travel alone without too much worry, but these past few years? Bandits getting bolder, wildlife more aggressive, and strange things stirring that are better left undisturbed." He shrugs. "A man my age needs to be smart about it. You lot clearly know how to handle yourselves, and I'd rather travel with capable people than end up frozen in a barrow somewhere."
+About His Cart:
+ "She's not much to look at, but she's sturdy. Enclosed wagon, keeps the weather out. Room for cargo and sleeping space if we need to camp somewhere that's not near an inn. I've got a good horse—Dawnstar breed, steady as stone. Her name is Mable"
+His Personality:
+Pragmatic and grounded
+Surprisingly charismatic and easy to talk to
+Good storyteller (knows local legends and gossip from every hold)
+Treats everyone equally with respect
+Never seems flustered or worried
+Has an almost supernatural talent for being in the right place at the right time
+
+The Mechanical Benefit
+If the party agrees to travel with Bjorn: THE PARKS GROUP CHOUSE TO GO TO WINDHELM, WE MUST CAREFULLY HANDLE THIS. THIS GROUP PLAYS EXCEPETIONALLY SLOW SO WE WILL HAVE TO ALTER THE WAY WE DESIGN ADVENTURES AND ENCOUNTERS FOR THEM IT NEEDS TO BE MUCH MORE FREE FLOW VIBEY CREATIVE COMBAT SOLUTIONS INSTEAD OF MATH. WE WILL NOT TAKE THE PARKS GROUP THROUGH TORYGGS LEGACY THAT WOULD TAKE 7 YEARS. THEY DID 2 ROUNDS OF COMBAT IN 4 HOURS. IT IS NOT SUSTAINABLE THEY PLAY VERY SLOWLY AND WITH MY USUSAL LEVEL OF DETAIL THEY ARE GETTING BOGGED DOWN. WE WILL DESIGN A 5 SESSION MINI CAMPAIGN AROUND THEM NOT KILLING ISMARA AND RELEASING HER FROM HER MAGICAL TOMB SHE WAS BOUND TO. HER POWER HAS INCREASED SIGNIFIGANTLY SHE IS NOW UNBOUND AND UNRESTRAINED. WE WILL REDESIGN HER AS A MASTER TIER BOSS WHO BELIEVES THE PLAYERS HAVE VOLUNTARILY ENTERED INTO HER SERVICE. THEY WILL OF COURSE PLOT TO KILL HER BUT THAT IS IN FACT WHAT THE CAMPAIGN WILL BE ABOUT.
+Free Lodging and Food: While traveling with Bjorn, the party doesn't need to track food rations or pay for inns. He covers these costs as part of the arrangement.
+Safe Travel: Bjorn knows safe camping spots, alternate routes, and which inns are trustworthy. Long Rests while traveling with him are always safe unless the party deliberately chooses dangerous locations.
+Convenient Destinations: Bjorn always seems to be heading wherever the party wants to go next. If they change destinations, he'll say something like, "Actually, I've got a delivery that way. Works for me!"
+Rumors and Hooks: As a traveling merchant, Bjorn hears gossip from every hold. He can naturally provide adventure hooks: "Heard some interesting talk at the last inn—seems the Jarl of Whiterun is having giant problems..."
+
+GM Note: The Hidden Truth
+For the GM Only (Do Not Share with Players):
+Old Bjorn is the unawakened Dragonborn. He possesses a Dragon Soul that remains dormant because he never attended his execution at Helgen—the event that would have triggered his awakening.
+His "Luck" Is Actually Fate:
+ The reason Bjorn always seems to be heading where the party needs to go, why he's never been killed by bandits despite traveling alone, why people instinctively trust him, why he's lived to old age in a dangerous world—all of this is his dormant Dragon Soul subtly influencing reality around him. Fate itself arranges for him to be in the right place at the right time.
+Players Won't Know:
+ To the party, Bjorn is just a convenient NPC who provides fast travel and logistics support. They'll think he's a "game mechanic NPC" that lets them skip boring travel sequences. They have no reason to suspect he's anything more than a friendly, competent merchant.
+The Long Game:
+ Bjorn will travel with the party throughout Act I, becoming a recurring companion and friend. He'll witness their adventures, provide support, and become part of the group's dynamic. When Act II begins (after the party reaches Expert Tier), High King Torygg will formally hire Bjorn as the Wardens' dedicated cart driver, making his presence official.
+Much, much later (Act IV), the party will discover the truth about who Bjorn really is, and that discovery will change everything.
+But for now? He's just a friendly merchant who makes travel easier.
+
+GM's Scaling Notes
+For 5 Players Instead of 6
+Encounter Adjustments:
+Ice Wraiths (Part II): Remove 1 Ice Wraith (fight only 1)
+Section 1 Guardian: Remove 1 Frost-Bound Spirit (fight only 1)
+Section 3 Setback: Remove 1 Frozen Apparition (fight only 2)
+Section 4 Boss Fight: Remove 1 Draugr Guardian (Pale Lady fights with only 1 guardian)
+Treasure Adjustments:
+Gold rewards scale automatically (600 gold per player instead of 500)
+If the Party Struggles
+Environmental Relief:
+Allow them to find a Brazier or Campfire in Section 2 that provides temporary relief from FP drain (1 hour respite)
+Reduce the Pale Lady's HP by 5-10 points (to 30-35 HP)
+Give the Pale Lady only ONE attack per Major Action instead of two
+Additional Resources:
+Have Dagny provide 2x Potion of Frost Resistance before they depart
+Place a cache of healing potions in Section 2 (behind the puzzle door)
+Allow them to take a Short Rest after Section 3 without additional FP drain
+Tactical Hints:
+Have Bjorn (if traveling with them) mention that "fire tends to work well against ice creatures" before they enter
+If a player is about to make a catastrophically bad decision, allow a Standard Guile roll to "sense" it's a bad idea
+If the Party Dominates
+Increase Difficulty:
+Add 1 more enemy to each combat encounter
+Give the Pale Lady a third ability: Summon Ice Wall - As a Minor Action, create a 10-foot wall of ice that blocks line of sight and movement (can be destroyed, 15 HP)
+Increase the supernatural cold effect to 2 FP loss per hour instead of 1
+Have defeated enemies rise again as Ice Wraiths after 3 rounds (one-time resurrection)
+Tactical Adjustments:
+Have the Draugr Guardians use Pack Tactics (Advantage when adjacent to an ally)
+Give the Pale Lady more intelligent positioning (she retreats when surrounded, uses terrain)
+Add environmental hazards: falling icicles (3 damage, Agility roll to avoid) triggered randomly
+
+Appendix: Quick Reference Tables
+Enemy Quick Reference
+Ice Wraith
+HP: 14, DR: 2, Damage: 4
+Incorporeal, Frost Aura (1 damage), Evasive
+Tactics: Hit and run, surround targets
+Frost-Bound Spirit
+HP: 20, DR: 4, Damage: 6
+Chilling Touch (Slows), Incorporeal, Fire Weakness (+2)
+Tactics: Freeze targets, focus fire
+Frozen Apparition
+HP: 12, DR: 3, Damage: 4
+Frost Aura (1 damage), Incorporeal
+Tactics: Swarm mindlessly
+Draugr Guardian
+HP: 12, DR: 3, Damage: 4
+Undead Resilience
+Tactics: Protect the Pale Lady, defensive line
+The Pale Lady
+HP: 40, DR: 5, Damage: 8
+Two Attacks, Frost Aura (2 damage, 10ft), Ice Storm (once)
+Tactics: Phase 1 - Methodical assault, Phase 2 - Desperate fury
+
+Loot Summary by Section
+Ice Wraiths (Part II):
+40 gold total
+2x Frost Salts
+Refugees (Part II):
+Potion of Frost Resistance
+Bersi's Map (optional, allows skipping Section 1)
+Information about Jorik
+Section 1 (Guardian):
+40-60 gold
+2x Frost Salts
+2x Potion of Minor Healing
+Section 2 (Puzzle):
+Ancient Nord Greatsword (+1 damage)
+150 gold
+Scroll of Lesser Ward
+Potion of Stamina
+Section 3 (Setback):
+120 gold
+Jorik's Mining Journal
+Potion of Frost Resistance
+Potion of Minor Healing
+Rope, torches, supplies
+Section 4 (Boss Fight):
+Frostbane Blade (+2 vs undead/ice)
+The Pale Lady's Crown (Cold Immunity, Frostbite 1/day)
+2x Ancient Nord War Axe
+2x Banded Iron Armor
+60 gold
+Section 5 (Treasure Vault):
+3,000 gold (500-750 per player)
+Boots of Sure Footing
+Ancient Nordic War Horn
+2x Potion of Greater Healing
+3x Potion of Frost Resistance
+Scroll of Greater Ward
+200 gold in artifacts
+Quest Reward:
+500 gold per player from Jarl Korir
+1 Advancement Point per player
+"Friends of Winterhold" reputation
+Grand Total Per Player (6-player party):
+Approximately 900-1,000 gold
+Share of magical items
+1 AP
+Reputation benefit
+
+Appendix: NPC Quick Reference
+Dagny Stormmane
+Role: Quest giver, innkeeper, Jarl's cousin
+Motivation: Save Winterhold from collapse
+Demeanor: Professional, exhausted, desperate for results
+Key Trait: Maintains composure despite fear
+Voice: Direct, no-nonsense, emotionally controlled
+Bersi & Family
+Role: Refugees, emotional stakes, optional helpers
+Motivation: Survive and reach safety
+Demeanor: Desperate, terrified, protective
+Key Trait: Bersi is Jorik's brother (personal connection)
+Voice: Panicked but earnest
+Jarl Korir
+Role: Authority figure, quest validator
+Motivation: Protect his hold
+Demeanor: Stern, traditional, grateful when saved
+Key Trait: Distrusts the College of Winterhold
+Voice: Formal, warrior-like, respectful to strength
+Old Bjorn
+Role: Traveling companion, logistics NPC
+Secret: Unawakened Dragonborn (GM only)
+Motivation: Travel Skyrim, help capable people
+Demeanor: Friendly, pragmatic, charismatic
+Key Trait: Unnaturally lucky and well-liked
+Voice: Warm, conversational, storyteller
+The Pale Lady (Ismara Ice-Born)
+Role: Tragic antagonist
+Motivation: Unable to control her curse
+Demeanor: Regal but desperate, trapped
+Key Trait: Was once a protector who sought power
+Voice: Cold, ancient, but with hints of lost humanity
+
+Appendix: Themes and Tone
+Core Themes
+Heroism Without Prophecy:
+ The party isn't chosen by fate or prophecy. They're just capable people who chose to help when no one else would. This makes their heroism more meaningful.
+The Cost of Power:
+ The Pale Lady's story is a cautionary tale about seeking power for good reasons but not understanding the price. She wanted to protect her people and became the thing they needed protection from.
+Ordinary People in Extraordinary Danger:
+ The miners were just doing their job. Bersi's family was just living their lives. The horror comes from normal people being caught in supernatural events beyond their control.
+Hope in Dark Times:
+ Winterhold is a broken city that's suffered tremendous loss (the Great Collapse). The party's success shows that hope still exists, that heroes can still emerge.
+Tone Guidelines
+Heroic but Grounded:
+ The party should feel competent and capable, but not invincible. Challenges should be difficult but fair. Victory should feel earned.
+Horror Elements:
+ The frozen miners, the spreading cold, the Pale Lady's tragic transformation—these create atmosphere without being gratuitous. Use description to build dread.
+Respect the Stakes:
+ If the party fails or leaves, Winterhold will suffer. If they ignore the refugees, people die. Consequences matter, but they shouldn't be punitive—just real.
+Moments of Lightness:
+ Not everything should be grim. Bjorn's friendly banter, Dagny's relief at their success, the celebration at the inn—these moments of humanity make the dark parts more impactful.
+
+Conclusion: Your First Adventure
+"The Pale Lady's Tomb" is designed to be an excellent introduction to both this campaign and tabletop roleplaying in general. It teaches:
+The tavern hook (how adventures begin)
+Travel encounters (world exploration)
+Skill checks (multiple solutions to problems)
+Dungeon structure (the 5-section formula)
+Combat tactics (positioning, abilities, teamwork)
+Resource management (FP drain, consumables, preparation)
+Moral complexity (the Pale Lady's optional negotiation)
+Rewarding heroism (treasure, reputation, story impact)
+But most importantly, it should be fun. It's a heroic fantasy adventure where brave people face impossible odds and emerge victorious, saving a town from a supernatural threat.
+The world is dangerous. Dragons are beginning to stir. Ancient evils are awakening. The Dragonborn has not answered destiny's call.
+But you? You walked into that barrow when no one else would. You faced the Pale Lady and ended her curse. You gave Winterhold hope.
+You're heroes.
+And Skyrim needs you.
+
+GM's Final Note:
+Take your time with this adventure. Let players make choices, explore, and roleplay. Don't rush to the next combat or puzzle—give them space to breathe and inhabit their characters.
+Watch your players' engagement. If they're struggling, ease up. If they're dominating, increase the challenge. Your goal isn't to "win" against them—it's to create a memorable story together.
+And when Old Bjorn offers to travel with them at the end? Let them think it's just a convenient game mechanic. Let them believe he's just there to handle boring logistics.
+They'll learn the truth eventually. But for now, he's just a friendly merchant with impossibly good luck.
+Good luck, and may your dice roll in your favor.
+Welcome to Skyrim. Welcome to heroism.
+Welcome to Torygg's Legacy.
+
+
