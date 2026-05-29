@@ -1,0 +1,306 @@
+Appendix C: GM's Quick Reference Tables
+Difficulty Modifiers
+Apply this modifier to a player's Target Number for a specific roll.
+Difficulty
+Modifier
+Example
+Very Easy
++4
+Persuading a friend to help you.
+Easy
++2
+Intimidating a cowardly bandit; climbing a knotted rope.
+Standard
++0
+The default for most actions.
+Hard
+-2
+Picking a rusty lock in the dark; persuading a hostile Jarl.
+Very Hard
+-4
+Swimming upstream in a powerful current.
+Nearly Impossible
+-6
+Calming a raging dragon with words alone.
+
+
+Common Task Rolls (GM Reference)
+Use these as a baseline for determining which stat governs which actions.
+Task Description
+Relevant Stat
+Strength & Endurance
+
+
+Lift a heavy portcullis
+Might
+Win an arm-wrestling match
+Might
+Resist a powerful poison
+Might
+Agility & Stealth
+
+
+Sneak past a sleeping guard
+Agility
+Disarm a simple tripwire
+Agility
+Leap across a 10-foot chasm
+Agility
+Magic & Knowledge
+
+
+Identify a common potion
+Magic / Guile
+Decipher simple runes
+Magic
+Resist a fear spell
+Guile
+Social & Cunning
+
+
+Get a good price from a merchant
+Guile
+Notice a hidden detail (passive)
+Guile
+Spot a liar
+Guile
+
+
+
+Quick NPC Stat Guidelines
+When you need to create an NPC on the fly, use this scale to assign their four Stat Scores. An NPC's Stat Score is the number they must roll under to succeed at a task. This scale represents their level of competence and natural aptitude.
+16 (Expert): An expert in their field, one of the best in the hold. Reserved for figures like a master blacksmith, a shrewd guild merchant, or a veteran guard captain.
+14 (Skilled): A seasoned professional with notable talent and experience. This represents most key characters, such as a city guard, a court mage, or a successful trader.
+12 (Proficient): Competent and reliable, clearly trained in their role. A good baseline for caravan guards, guild artisans, and experienced innkeepers.
+10 (Average): The standard for a common citizen with no special training. This applies to most farmers, laborers, and background characters in tasks related to their daily life.
+8 (Novice): Represents a clear weakness, clumsiness, or lack of natural talent in a particular area. This is the score for a burly warrior's Guile, a frail scholar's Might, or a character who is simply bad at something.
+6 (Untrained): Represents complete inexperience. An NPC with this score is attempting something they have likely never done before. This is the score for a common farmer trying to cast a spell or a court fop attempting to lift a heavy portcullis.
+
+Scaled Monster Stats (Summary)
+This table provides a comprehensive summary for creating an enemy on the fly. Cross-reference the enemy's Threat Level (TL) with the party's current Tier to find all of its core statistics. An enemy's Stat Scores are now scaled by both Tier and TL, making bosses inherently more skilled than minions.
+How to Use the "Stat Scores" Column:
+The scores are listed as Primary/Secondary/Tertiary/Dump. Assign the Primary score to the enemy's main stat based on its Archetype (e.g., Might for a Brute), and distribute the other three scores as you see fit. 
+This table is the mathematical backbone for the GM. It aligns the enemy statistics with the player's AP Tier, ensuring that combat remains dangerous as the players grow from local mercenaries into mythic heroes.
+How to Use This Table
+Determine Party Tier: Calculate the average AP of your players.
+Select Threat Level (TL):
+TL 1 (Minion): Bandits, Wolves, Skeletons. (Spawn in groups).
+TL 2 (Elite): Bandit Chiefs, Trolls, Mages. (Spawn singly or with minions).
+TL 3 (Boss): Dragon Priests, Dragons, Vampire Lords. (Solo threat).
+
+
+Assign Stats: Use the P/S/T/D array. Assign the highest number to their main attribute (e.g., Might for a Bear, Magic for a Wizard) and the lowest to their weakness.
+
+SCALED MONSTER STATISTICS
+Party Tier
+Threat Level (TL)
+Role
+Stat Array (P / S / T / D)
+HP
+Damage
+DR
+NOVICE
+TL 1
+Minion
+14 / 12 / 10 / 8
+10
+4
+0-2
+(0 - 3 AP)
+TL 2
+Elite
+15 / 13 / 10 / 8
+25
+6
+3
+Local Heroes
+TL 3
+BOSS
+16 / 14 / 10 / 8
+60
+8
+4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+APPRENTICE
+TL 1
+Minion
+15 / 13 / 11 / 8
+20
+6
+2-3
+(3 - 6 AP)
+TL 2
+Elite
+16 / 14 / 11 / 8
+45
+9
+5
+Regional
+TL 3
+BOSS
+17 / 15 / 11 / 8
+100
+12
+6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ADEPT
+TL 1
+Minion
+16 / 14 / 12 / 8
+35
+9
+4
+(6 - 9 AP)
+TL 2
+Elite
+17 / 15 / 12 / 8
+70
+12
+7
+Hold Champions
+TL 3
+BOSS
+18 / 16 / 12 / 8
+180
+16
+9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXPERT
+TL 1
+Minion
+17 / 15 / 13 / 8
+50
+12
+6
+(9 - 12 AP)
+TL 2
+Elite
+18 / 16 / 13 / 8
+100
+16
+9
+Legendary
+TL 3
+BOSS
+19 / 17 / 13 / 8
+300
+20
+11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MASTER
+TL 1
+Minion
+18 / 16 / 14 / 8
+80
+16
+8
+(15+ AP)
+TL 2
+Elite
+19 / 17 / 14 / 8
+150
+20
+12
+Mythic
+TL 3
+BOSS
+20 / 18 / 14 / 8
+500+
+30+
+15
+
+
+STAT ARRAY KEY
+P (Primary): The creature's main offensive/defensive stat (e.g., Might for a Warrior). They almost never fail this roll.
+S (Secondary): Their backup skill (e.g., Agility for a Warrior).
+T (Tertiary): A minor skill.
+D (Dump): Their weakness (e.g., Magic for a Warrior). Players should target this stat with spells or maneuvers.
+DAMAGE & DR RULES
+Base Damage: This is the flat damage dealt by a standard attack.
+Power Attacks: Add +2 Damage.
+Critical Hits: Multiply Total Damage by x2.
+
+
+Damage Reduction (DR): This is subtracted from every incoming hit.
+Boss DR: Bosses rely on high DR to ignore "chip damage" from weak attacks. Players must use Power Attacks, Sunder Armor, or Magic to penetrate these defenses.
+
+
+BOSS MECHANICS (TL 3)
+To ensure Bosses feel epic and survive high-damage player parties, apply these traits:
+Villain Actions: Bosses take 1 Major Action on their turn, plus 1 Villain Action at the end of every second player's turn (e.g., Tail Swipe, Bellow, Teleport).
+Phase Bars: Divide the Boss's Total HP into 2 or 3 "Bars." Damage does not carry over between bars. When a bar breaks, the Boss sheds status effects and changes tactics.
+
+
+
+Environmental Damage & Effects
+Hazard
+Damage / Effect
+Falling (10-20 feet)
+2 damage, knocked prone.
+Falling (20+ feet)
+5 damage, knocked prone.
+Normal Fire
+2 damage per turn while in contact.
+Freezing Water
+Make a Might roll each round or lose 1 FP.
+Poison Gas
+2 damage per turn while in the cloud.
+Blinding Light / Darkness
+Disadvantage on all Agility rolls.
+Loud Noise
+Disadvantage on all Guile rolls related to perception.
+
+
+
