@@ -1,0 +1,170 @@
+Legendary Hero Sheet: Krusp Fanck
+
+High Concept: The Ashen Blade
+Race: Reachman (Native)
+Standing Stone: The Swordmaiden (Custom)
+Power Level: Legendary Hero (20 AP Build)
+
+I. Core Mechanics
+Stat Scores (Target Numbers):
+Might: 17
+Agility: 10
+Magic: 14
+Guile: 13
+Resources:
+Health Points (HP): 85/44 (Legendary Hero Fiat; Player build equivalent: 16)
+Focus Points (FP): 18 (x2) 36
+Passive Damage Reduction (DR): 14 (Can be increased to 18 with Stoneflesh)
+
+II. Skills & Perks
+One-Handed (Master - Primary)
+Fighting Stance: Make an extra attack as a Minor Action for 1 FP.
+Savage Strike: Power Attacks deal +2 bonus damage instead of +1.
+Dual Flurry: the FP cost of your Fighting Stance perk is reduced to 0.
+Paralyzing Strike: Once per combat, on a Power Attack can spend 4 FP to paralyze a non-boss enemy for their next turn.
+
+
+Heavy Armor (Expert)
+Well Fitted: +2 max HP (factored into Combat Prowess bonus).
+Tower of Strength: You cannot be staggered or knocked down.
+Conditioning: Your total Damage Reduction from armor is increased by 1.
+
+
+Restoration (Adept)
+Respite: Healing spells also restore 1 FP.
+Necromage: All spells are more effective against undead (+2 damage, enhanced effects).
+
+
+Alteration (Apprentice) (Acquired via Arcane Studies bonus)
+Mage Armor: (N/A - Wears heavy armor).
+Known Spells: Stoneflesh (Grants DR 4 for 3 FP).
+
+
+Combat & Arcane Prowess Bonuses:
+Adept Combat Prowess (1H): +2 Max HP.
+Adept Armor Prowess (HA): +2 Max HP.
+Expert Combat Prowess (1H): +2 Max FP.
+Expert Armor Prowess (HA): +2 Max FP.
+
+
+
+III. Abilities & Techniques
+Racial Ability: Old Blood
+The ancient blood of the Reach runs through you, giving you a unique spiritual attunement. You have Advantage on ALL ROLLS made against Aedra, Daedra, and the Undead. (This includes attack rolls, resistance rolls, and skill checks).
+Standing Stone Benefit: Arcane Edge
+As a free action when you make a weapon attack, you may spend 1 FP to coat your blade in elemental energy. The attack deals an additional +2 damage of a chosen type (fire, frost, or shock) and is considered magical for that strike.
+Master's Form: "Ashen Obliteration"
+Style: Might
+Description: Krusp becomes the judgment of the Divines incarnate. A single, cataclysmic strike that erases armor, flesh, and hope.
+Cost: 3 FP + 2 HP (2 FP technique + 1 FP Power Attack).
+Activation: Major Action.
+Movement: Move up to 15 feet in a straight line (does not use Minor Action).
+Roll: Might 15 (Advantage vs Aedra/Daedra/Undead).
+On Failure: Knocked prone.
+On Success:
+31 damage vs undead (13 base + 4 Devastating + 6 Powerful + 2 silver + 2 Arcane Fire + 2 Savage).
++2 on nat 1 (Finesse) → 33.
+Ignore braced shield DR.
+Sunder Armor x3 (target DR –3 permanent).
+Post-Use: Next Might roll –2; Disadv vs prone until next turn.
+
+IV. Equipment
+Primary Weapon: "The Dawnblade"
+Type: Master-crafted Silver Longsword (One-Handed)
+Base Damage: 4 (+9) 13
+Properties: Finesse (On a roll of 1, deals +2 bonus damage).
+Special: As a silver weapon, it deals an additional +2 damage to Undead.
+Enchantment: Vampire's Bane (8/8 charges): A solar explosion erupts around a target, dealing 5 damage to them and 2 damage to anyone nearby. This damage is doubled against undead targets.
+
+Armor: Custom Steel Plate
+Type: Heavy Armor
+Base DR: 4 (+8) 12
+Notes: Modified with silver inlays around the joints and etched with subtle protective runes. A testament to a lifetime of hunting the unnatural. (no sneak penalty)
+Enchantment: Greater Ward (6/6 charges): As a Minor Action, you create a master's ward, granting Damage Reduction 8 against spells until your next turn.
+
+No Shield: Krusp keeps his off-hand free for casting Restoration and Alteration spells.
+
+Item: Ring Of Focus: Doubles Wearers total FP (same makers mark as kyboh’s gloves inlaid on the obsidian jewel)
+
+V. Combat Profile & Tactics 
+At a Glance: Krusp is a walking fortress and a definitive alpha-strike predator. His combat style is a fusion of overwhelming resilience and a single, cataclysmic offensive strike designed to decapitate a supernatural threat before it can act. He is a one-man army, capable of anchoring a battle line, absorbing legendary amounts of punishment, and executing the most dangerous foe on the field.
+Common Actions (Calculated from Final Sheet):
+Standard Attack: Rolls against Might 17. Damage: 13. (vs. Undead: 15).
+Arcane Edge Attack (1 FP): Rolls against Might 17. Damage: 15. (vs. Undead w/ Fire: 17).
+Power Attack (1 FP): Rolls against Might 17. Damage: 15 (13 + 2 from Savage Strike). (vs. Undead: 17).
+Arcane Power Attack (2 FP): Rolls against Might 17. Damage: 17. (vs. Undead w/ Fire: 19).
+Sun Fire (2 FP): Rolls against Magic 14. Damage: 3. (vs. Undead: 5, due to Necromage).
+Fighting Stance (0 FP): After his first attack, he can make two additional attacks with his Minor Actions, thanks to Dual Flurry reducing the cost to zero.
+Tactical Approach:
+Phase 1 (The Wall): Krusp's first action in any combat is to cast Stoneflesh (3 FP), raising his passive DR from a formidable 14 to a near-impenetrable 18. He will then move to intercept the most dangerous foe, using his body as a literal shield for the party. His Tower of Strength perk means he cannot be moved or staggered; he is the anchor upon which the battle will turn.
+Phase 2 (The Judgment): On his next turn, he will identify the single greatest supernatural threat. He will unleash "Ashen Obliteration." His Old Blood ability (Advantage) mitigates the risk of the Reckless Assault penalty, making this devastating strike terrifyingly consistent. This is his definitive solution to a singular, powerful enemy, designed to shatter it in one blow.
+Phase 3 (The Attrition): After his alpha strike is spent, he becomes a relentless attrition fighter. Thanks to Dual Flurry, his Fighting Stance costs 0 FP, allowing him to make two full-damage attacks every single turn without expending resources. He will use Arcane Edge to bypass resistances and Witch-Hunter's Riposte to punish any enemy foolish enough to focus on him, all while using his massive FP pool for Restoration spells to keep himself and his allies in the fight.
+
+VI. Roleplaying Profile 
+Core Motivation: "I swore an oath to stand between the innocent and the seductive whispers of the Princes, to be the shield that my own family never had."
+Key Principle: "Daedric power is a lie."
+Personality:
+Calm & Welcoming: Krusp possesses a quiet warmth. He is not boisterous or overly social, but his presence is reassuring. He will greet the party with a simple, genuine nod and a warm, "It is good to meet you." He listens intently when others speak, making them feel heard and respected.
+Principled, Not Preachy: His moral code is an internal compass, not a weapon to be used against others. He will express disagreement with a simple, firm "That is not my way," but he will not lecture or condemn. His disappointment in the party's choices comes from a place of genuine sorrow and concern, not arrogance.
+A Professional's Kindness: His kindness is expressed through action. He will be the first to offer a healing spell to a wounded ally, to stand guard on the most dangerous watch, or to share his rations. He sees protecting his companions—even new ones—as part of the job, and he does his job with unwavering dedication.
+The Weight of the Past: While he is kind, he is not naive. There is a deep-seated weariness in his eyes, the look of a man who has seen too much tragedy. He does not speak of his past unless directly asked, and even then, his answers will be short and heavy with unspoken grief. He is a good man who was forged in a terrible fire.
+Unwavering Protector: His heroism is not flashy. It is the simple, grim act of placing his body between a threat and a victim, every single time, without hesitation. He is the immovable wall upon which evil breaks. This is the action that demonstrates his true character, far more than any words could.
+
+1. The Off-Screen Event: The Drawing Out
+(Occurs simultaneously with Kyboh’s vision, as Krusp marches into the dark)
+Context: Krusp walks away from Kynesgrove. His body aches from the strain of holding the line against a god. He pushed his restoration magic and his focus past the point of safety. The ring on his finger vibrates, reacting to the overload.
+The Narrative:
+"Krusp grips the hilt of Dawnbringer. The ring seizes around his finger, the obsidian band heating up, searing the enchantment into his skin.
+The world vanishes. He stands in the White Void.
+The Titan stands at the Anvil. In his massive tongs, he holds a glowing ingot of dark, ancient Bronze—the metal of the Reach. He thrusts the metal into the heart of a white-hot forge until it glows with a blinding, liquid heat.
+He places the ingot on the anvil. He raises his hammer.
+CLANG.
+The hammer hits with precise, rhythmic force, driving the metal outward. CLANG. The ingot flattens. CLANG. It spreads across the face of the anvil. The Titan works the metal, hammering it wider, thinner, expanding the surface area until the bronze covers the entire horizon in a shimmering, radiant sheet.
+Krusp watches the bronze grow. He sees his essence expanding, becoming vast enough to cover a kingdom.
+He feels a physical stretching in his chest. His ribs creak as they expand. His reservoir of magicka, his capacity for focus, floods outward to fill the new space. He feels immense. He feels a sudden, intoxicating abundance of spirit.
+The Titan quenches the metal. It holds its new shape—vast, radiant, and impressive. The Titan points North. To the Maker.
+Krusp stands in the mud of Eastmarch. He looks at his hands. He feels the sheer volume of power thrumming in his veins. He thinks: 'I am strong enough now. I can hold the line alone.'
+He mistakes surface area for mass. He believes the Titan added to him. In truth, the Titan hammered him thin."
+
+2. The Artifact: Ring of the Titan’s Eye
+Name: Ring of the Titan’s Eye (Tier 2 - Expanded)
+Passive Effect: Soul Inflation. The wearer’s Maximum Focus Points (FP) are permanently Doubled.
+The Hidden Flaw: Spiritual Tension. The soul is stretched tight. While the wearer has immense capacity, the structural integrity of the spirit is compromised. It is easier to cut, easier to shape, and easier to break.
+
+3. The Breadcrumbs: Kyboh’s Future Discovery
+(When Kyboh eventually arrives at Hjolmar’s Forge)
+Hjolmar's Dialogue:
+"Ah, Delta. The Kinetic Drive. You are here."
+(He looks at the gloves, then looks North, where Krusp went.)
+"You missed Alpha. The Capacitor. He was here just hours ago. The ring functioned perfectly. It hammered his essence out, doubling its volume."
+(Hjolmar smiles, an obsessive, clinical smile.)
+"He believes he has become greater. He is mistaken. I created the ring to make him malleable. A stretched soul is easier to separate. He is prepped for the Echo... though he seemed intent on using his new capacity to crusade against the dark. It matters not. Thin glass shatters just as well as thick."
+
+
+Addendum: Roleplaying Krusp Fanck, The Ashen Blade (Finalized)
+This guide details Krusp's character as he appears in "Echoes of a Fallen King," and provides the framework for his off-screen journey and final, tragic return.
+I. The Core Philosophy: "Daedric Power is a Lie"
+This is the scar on his soul, the truth he learned from the ashes of his family. He believes Daedric "gifts" are merely traps, and those who bargain with them are fools or victims. This is not a dogma he preaches, but a grim reality he lives by. It is the lens through which he will view the party's choices, not with anger, but with a deep, sorrowful recognition.
+II. Voice, Demeanor, & Presence (During "Echoes of a Fallen King")
+Voice: Low, calm, and economical. He speaks with the quiet authority of someone who has survived horrors others cannot imagine, yet his tone is infused with a gentle warmth.
+Demeanor: He is kind and welcoming. He is not boisterous or overly social, but his presence is reassuring. He will greet the party with a simple, genuine nod and a warm, "It is good to meet you." He listens intently when others speak, making them feel heard and respected. He is here to assess the party, but he is hoping to find allies, not liabilities.
+Presence: He is an immovable object, but a protective one. In a room of chattering courtiers, he is the point of absolute stillness. In combat, he is the shield wall. His confidence is not arrogance; it is the quiet certainty of a man who knows his purpose and his capabilities.
+III. Combat Persona: The Unmovable Wall
+In a fight, Krusp's kindness is set aside, replaced by the focused, grim efficiency of a master hunter. He demonstrates his philosophy through action.
+The Protector's Stance: His first instinct is to protect the innocent. When the miner breaks cover at Kynesgrove, Krusp's self-sacrifice is an automatic, instinctual act. It is the physical manifestation of his core oath.
+The Judgment: He will identify the greatest supernatural threat and use his alpha-strike, "Ashen Obliteration," to attempt to end it in a single, cataclysmic blow. This is his tool for delivering final judgment on the monsters that prey on mortals. His Old Blood ability (Advantage) makes this terrifyingly consistent.
+The Spellblade's Rhythm: His use of Arcane Edge and Restoration spells is practical and seamless. He is a self-sufficient, one-man army, able to sustain himself and his allies while relentlessly pressing the attack with two full-damage strikes per turn.
+IV. The Schism: The Drawing of the Line
+
+ORION AND ALFONSO ATE A GUY INFRONT OF HIM SO HES JUST GONNA LEAVE AT THIS POINT AND WARN THEM THAT IF THEY START GOING AFTER INNOCENTS AND HE FINDS OUT HE WILL COME AFTER THEM AND END THEM.
+V. The Tragic Arc (GM's Eyes Only): The Parallel Journey and the Final Sacrifice
+This is Krusp's story after he leaves the party. He becomes the "other hero" of Skyrim, whose deeds the party will only hear about through rumors and secondhand accounts.
+Act III: The Parallel Path: While the party is on their "Road of Wisdom," Krusp is on his own "Road of Steel." He is also hunting Dragon Priests, not for knowledge, but to proactively eliminate threats. He, too, will eventually discover the "mortal limit"—the fact that even his immense power is not enough to stop Alduin. He, too, will learn of the Elder Scroll and the need for a Dragonborn.
+Act IV: The Convergence: Krusp does not accompany the party to the Time-Wound. He arrives there at the same time, having followed his own path of investigation. This is the moment of their reunion. He sees the party, perhaps now marked as False Dragonborns themselves, or standing with the unawakened Bjorn. He sees that they have all arrived at the same impossible choice he has.
+The Breaking Point & The Ultimate Sacrifice: He has spent the entire campaign holding to his one rule. Now, faced with the apocalypse and the knowledge that the Aedric path may fail or be unavailable, he makes his final, tragic choice. To uphold his oath to protect the innocent (everyone in Skyrim), he must violate his core principle (never bargain with the dark). He, the man who walked away from Daedric pacts, will be the one to propose or undertake the soul-carving ritual. He will become a False Dragonborn.
+The Payoff: This is where his final, heartbreaking line is delivered. When a party member asks him how he can do this, after everything he stands for, he responds with the tragic logic of a true hero:
+"Daedric power is a lie... and since I must lie to the universe itself to save it, this power is my only option."
+He embraces the lie to serve the truth of his oath. He becomes the monster to stop the apocalypse, making his earlier departure from the "compromised" party a moment of profound, tragic irony.
+
+He likes davinia thinks shes interesting and a good leader. He likes danica she is a holy woman. He likes saijah she is kind. He is neutral toward kyboh he is demanding and prying and needlessly evasive. He does not like alfonso or orion, he witnessed them consume a cultist after interrogating him during the battle of kynsegrove. He knows that orion is a vampire and that alfonso is something worse, there wasnt even a body. It was all he could do to distract the hostages from the grizzly sight behind them they just watched a fellow hostage get killed by the cultists. Krusp did not want them to face the trauma of watching their rescuers consume a living person. His departure after the slaying of the dragon is now fully justified. He stays his hand from killing the two vampires only because they have been chartered by the king and he is giving davinia a chance to prove her leadership is effective. He is going to trust she can keep them in line. He will angrily warn them that if they do not get themselves under control, if they terrorize skyrim they dawnbringer will taste their unholy blood and he will kill them himself. He warns danica that she is in grave danger as long as she stays with these people. That she must watch carefully that davinia can not protect her if she can not control those two. He warns her to watch carefully and not to get to invested. Then he leaves without telling them where he is going. [he walks to windhelm, finds out ulfric the jarl is out then rides for solitude to report back to the high king]
+
