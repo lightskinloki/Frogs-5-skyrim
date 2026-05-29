@@ -1,0 +1,1064 @@
+Player's Guide to Adventure in Skyrim
+Welcome, traveler, to the frost-covered lands of Skyrim! You are about to embark on an adventure filled with ancient ruins, fearsome beasts, and untold treasures. This guide will provide you with the knowledge to forge your legend.
+
+The Core Rule: The Roll of the Dice
+This system is simple and relies on a single 20-sided die (d20). Everything you do, from swinging a battleaxe to persuading a Jarl, is resolved with a roll of the dice.
+When you attempt an action where the outcome is uncertain, you will roll a d20. Your goal is to roll low.
+Your Target Number
+To succeed, you must roll equal to or under your relevant Stat Score. That Stat Score is your Target Number.
+If you are trying to lift a heavy portcullis, you will roll against your Might.
+If you are trying to disarm a trap, you will roll against your Agility.
+If you are trying to identify a magic rune, you will roll against your Magic.
+If you are trying to lie to a guard, you will roll against your Guile.
+The Five Possible Outcomes
+Every roll has five potential outcomes, ranging from spectacular success to disastrous failure. Let's look at each one.
+Example In Action:
+Let's say your character, a mighty warrior named Bjorn, has a Might score of 16. His Target Number for kicking down a door is 16. He rolls the d20...
+Critical Success (A roll of 1)
+The Result: You succeed brilliantly and gain an extra advantage. (x2 damage in combat)
+Bjorn's Kick: He rolls a 1! The door doesn't just open; it flies off its hinges and smashes into a bandit on the other side, knocking them flat.
+
+Clean Success (A roll that is UNDER your Target Number)
+The Result: You succeed at your action without any negative side effects.
+Bjorn's Kick: He rolls a 9 (which is under 16). With a satisfying crunch, the door splinters and swings open, clearing the way. Simple and effective.
+
+Success with a Complication (A roll that is EXACTLY your Target Number)
+The Result: You get what you want, but with a twist or a cost. The GM will introduce an unexpected complication.
+Bjorn's Kick: He rolls a 16 (exactly his Might score). The door breaks open, but the noise is so loud that it alerts the entire dungeon to their presence. Or perhaps he succeeds, but the effort wrenches his shoulder, and he'll be at a disadvantage on his next physical action. "Yes, but..." is the rule here.
+
+Simple Failure (A roll that is OVER your Target Number)
+The Result: You fail to achieve your goal, but nothing catastrophic happens.
+Bjorn's Kick: He rolls an 18 (which is over 16). His boot thuds solidly against the ancient oak, but the door holds firm. The attempt fails, and his turn might be wasted, but he's not in any worse of a position.
+
+Critical Failure (A roll of 20)
+The Result: You fail in the worst way possible, making the situation actively worse.
+Bjorn's Kick: He rolls a 20! He puts all his might into the kick, but his foot slips on a loose stone. He stumbles, falls backward, and his trusty axe clatters loudly across the floor, sliding just out of his reach. He has failed, made noise, and lost his weapon.
+
+Character Creation: Forging Your Legend
+For this one-shot adventure, character creation is fast and straightforward. Follow these steps to create your hero.
+Step 1: Choose Your Race
+Before fate guides you to a Standing Stone, you are born of a certain people. Your race determines your appearance, your innate talents, and how some in the world may see you.
+Choose ONE of the ten races below. Each provides a small bonus to one of your Stat Scores and a unique racial ability.
+Race
+Stat Bonus
+Racial Ability
+Nord
++1 Might
+Frost Resistance: You take 1 less damage from all sources of frost or ice magic. Additionally, once per adventure, when you are hit by an attack that deals frost damage, you can use your reaction to halve the damage against that single attack.
+Breton
++1 Magic
+Dragonskin: Once per adventure, when a hostile spell hits you, you may use this ability to take only half damage.
+Imperial
++1 Guile
+Voice of the Emperor: Once per adventure, you can use your Major Action to force a single humanoid enemy to stop fighting for one round.
+Redguard
++1 Agility
+Adrenaline Rush: Once per adventure, you can use this ability as a free action to immediately regain 10 FP.
+High Elf
++1 Magic
+Highborn: You are born with a deeper well of magicka. You gain +2 to your maximum FP.
+Wood Elf
++1 Agility
+Command Animal: Once per adventure, you can make a non-hostile wild animal an ally for one combat encounter.
+Dark Elf
++1 Magic
+Ancestor's Wrath: Once per adventure, you can surround yourself with fire for 3 rounds. Each time an enemy hits you with a melee attack, they take 1 fire damage and catch fire, taking an additional 2 fire damage at the start of their next turn.
+Orc
++1 Might
+Berserker Rage: Once per adventure, for 3 rounds, you may enter a rage. While raging, all of your successful melee attacks are automatically considered Critical Successes
+Khajiit
++1 Agility
+Claws: Your unarmed attacks are considered a One-Handed weapon with the Finesse property. Their damage is 2, increasing by +1 at the Apprentice, Adept, Expert, and Master tiers of play. They also gain the Hack & Slash property at the Adept tier and are considered Magical at the Master tier.
+Argonian
++1 Guile
+Histskin: Once per adventure, as a Major Action, you can trigger your Histskin. You regain 1 HP at the start of each of your turns for the rest of the encounter, and 2 HP per turn once you have 2 skills at the expert level. 
+
+
+
+Step 2: Choose Your Standing Stone
+In Skyrim, they say your fate is written in the stars. The constellation you are born under grants you a unique blessing and sets you upon a certain path. First, choose a Standing Stone to be your sign. This choice determines your starting four Stat Scores and grants you a Unique Benefit.
+Might: Your physical power, melee prowess, and hardiness. Used for swinging heavy weapons and wearing heavy armor.
+Agility: Your speed, precision, stealth, and skill with a bow. Used for dodging, sneaking, and aiming.
+Magic: Your connection to the arcane arts and your raw magical power. Used for casting spells of all kinds.
+Guile: Your cleverness, worldly knowledge, and force of personality. Used for persuasion, lockpicking, and cunning tactics.
+Choose ONE of the thirteen Standing Stones below. The stats listed are your Target Numbers—the numbers you must roll equal to or under for the entire game.
+
+The Guardian Stones
+These are the most common signs, guiding the three primary paths of an adventurer.
+Standing Stone
+Archetype
+Might
+Agility
+Magic
+Guile
+Unique Benefit
+The Warrior
+Path of Steel
+16
+12
+4
+8
+Fighter’s Rush: Once per combat, after taking damage, you can choose to gain 3 FP.
+The Thief
+Path of Shadows
+8
+16
+4
+12
+Fleet Footed: You can use "Dodge" (impose disadvantage on one enemy attacking you this round) for 2 FP at any time. This ability does not use your Minor Action.
+The Mage
+Path of Sorcery
+4
+8
+16
+12
+Magicka Font: Your FP is calculated as your Magic Score +4.
+
+The Serpent, Lord, and Lady
+These signs bless their children with resilience and cunning in the face of danger.
+Standing Stone
+Archetype
+Might
+Agility
+Magic
+Guile
+Unique Benefit
+The Lord
+The Knight
+15
+8
+6
+11
+Knight's Ward: You are naturally resistant to hostile forces. You gain +1 to your armor's Damage Reduction and once per adventure, you may re-roll a failed roll against a spell.
+The Lady
+The Stalwart
+12
+10
+10
+8
+Lady's Favor: You are blessed with superior vitality. You start with +2 maximum HP.
+The Serpent
+The Deceiver
+8
+14
+4
+14
+Serpent's Kiss: Once per combat, you can use your Major Action to make a special ranged attack. On a successful Guile roll, you spit a venom that paralyzes a target, causing them to lose their next Major and Minor Action.
+
+The Steed, Shadow, and Tower
+These signs favor those who rely on subterfuge, speed, and infiltration.
+Standing Stone
+Archetype
+Might
+Agility
+Magic
+Guile
+Unique Benefit
+The Steed
+The Vanguard
+14
+14
+4
+8
+Unburdened: You suffer no penalties for wearing Heavy Armor. You have no disadvantage on Sneak rolls. In addition, once per turn, you may move without using your Minor Action.
+The Shadow
+The Assassin
+8
+17
+4
+11
+Shadow Form: Once per adventure, you may declare yourself perfectly invisible for 3 rounds or until you perform a hostile action. No roll is required.
+The Tower
+The Infiltrator
+7
+12
+4
+17
+Infiltrator's Edge: Your talent for bypassing security is unmatched. You may re-roll any single failed Lockpicking or Trap Disarming attempt once per dungeon. Additionally, once per adventure, you may declare that you have found a "secret passage," allowing the party to bypass one non-boss encounter or puzzle entirely.
+
+The Apprentice, Atronach, and Ritual
+These signs are for those who delve deep into the mysteries of the arcane, for better or worse.
+Standing Stone
+Archetype
+Might
+Agility
+Magic
+Guile
+Unique Benefit
+The Apprentice
+Glass Cannon
+6
+8
+17
+9
+Arcane Instability: Your body is a natural conduit for magicka, but it takes a physical toll. You have -2 maximum HP, your connection to the arcane is so strong that you regenerate 1 FP at the start of each of your turns in combat.
+The Atronach
+The Conduit
+4
+6
+18
+12
+Spell Absorption: Once per combat, if you are the target of a hostile spell, you can choose to negate its effect and regain FP equal to its cost. However, your natural FP recovery is poor; you do not regain FP during a short rest.
+The Ritual
+The Summoner
+6
+6
+15
+13
+Ritual Power: Once per adventure, you may cast an empowered Raise Zombie spell for 0 FP. This casting automatically succeeds and reanimates a corpse as a "Ritual Guardian."
+Ritual Guardian: Use the standard stats for a Revenant (full strength) instead of a normal Zombie. It lasts for the duration of the encounter. It does not use the revenant's special ability
+
+The Lover
+This sign is for those who walk all paths at once, masters of none but capable of anything.
+Standing Stone
+Archetype
+Might
+Agility
+Magic
+Guile
+Unique Benefit
+The Lover
+Jack-of-All-Trades
+10
+10
+10
+10
+Lover's Comfort: You are adaptable and learn quickly. You may choose four Apprentice skills instead of the usual three.
+
+
+
+Optional Rule: Custom Standing Stone (Point-Buy)
+For players who have a specific character concept in mind that no Standing Stone quite captures, this optional rule allows full customization of your starting stats at the cost of your Stone Benefit.
+The Rules:
+You have 40 points to distribute freely across your four stats: Might, Agility, Magic, and Guile.
+No single stat may exceed 20.
+No single stat may fall below 4.
+You receive no Standing Stone Benefit. The unique ability listed on every Stone is part of what you give up for full creative control.
+You still choose a Race and receive its stat bonus normally.
+You still choose your Skills and calculate your HP and FP as normal.
+A Word of Warning:
+Putting 20 in a single stat is not as powerful as it sounds. Difficulty modifiers can still punish even your best rolls, and the points you spend reaching 20 in one stat will leave your remaining three stats painfully low. A character built this way will be exceptional at one thing and genuinely helpless at almost everything else. That is a valid and interesting character concept — just go in with open eyes.
+When to Use This:
+The thirteen Standing Stones are designed to cover every major archetype in Skyrim. If you look at them and one fits your concept, take it — the Stone Benefit is genuinely powerful and you will miss it. Point-buy exists for the player who has already decided exactly who their character is and wants their numbers to reflect that.
+
+
+Step 3: Choose Your Skills & Perks
+Next, you will define your character's specific talents. In this system, your proficiency is represented by Skill Tiers, which grant you powerful special abilities called Perks. For this first adventure, you will build your character as follows:
+Choose ONE skill from the list below to be your Adept skill. This is your signature talent.
+Choose THREE skills to be your Apprentice skills. These are your secondary talents.
+(Players under the Lover Stone choose FOUR Apprentice skills).
+All other skills are considered Novice, meaning you can use their basic functions but have no special Perks. The Expert and Master tiers are included as goals for future adventures, showing the path your hero can walk if their legend continues.
+
+Skill & Perk List
+Combat Skills
+One-Handed
+Governing Stat: Might
+Novice: You can effectively fight with daggers, swords, maces, and war axes.
+Apprentice: Fighting Stance: You may spend 3 FP to make an additional attack with your one-handed weapon as a Minor Action.
+Adept: Savage Strike: When you spend FP to make a Power Attack with a one-handed weapon, it deals +3 damage instead of +2.
+Expert: Dual Flurry: While wielding two one-handed weapons, the FP cost of your Fighting Stance perk is reduced to 0.
+Master: Paralyzing Strike: Once per combat, when you hit with a one-handed Power Attack, you can spend 9 FP to perform a paralyzing strike. If the target is hit, they are paralyzed and cannot act on their next turn.
+Two-Handed
+Governing Stat: Might
+Novice: You can effectively fight with greatswords, battleaxes, and warhammers.
+Apprentice: Cleave: When you successfully hit an enemy, you can spend 3 FP to deal half damage to another enemy standing directly next to your target within 5 feet distance.
+Adept: Devastating Charge: As a Major Action, you may also expend your Minor Action to make a single, focused attack. This attack is made with a +2 bonus to your Might score for the roll and deals +2 damage on a successful hit. You cannot move during a turn in which you use this ability.
+Expert: Devastating Blow: Your two-handed Power Attacks are unstoppable. They now deal +3 damage instead of +1, after you make a two-handed Power Attack, you become an anchor on the battlefield; you cannot be staggered or knocked prone until the start of your next turn.
+Master: Sweep: Once per combat, you may spend 9 FP to make a single attack roll against ALL enemies in melee range in front of you.
+Archery
+Governing Stat: Agility
+Novice: You can effectively use bows and crossbows.
+Apprentice: Eagle Eye: You can spend 3 FP to aim as a Minor Action. Your next bow attack this turn is made with a +2 bonus to your Agility score for that roll only.
+Adept: Power Shot: You can spend 3 FP when you hit with a bow to slow your target, causing them to lose their next Minor Action.
+Expert: Quick Shot: You can draw and fire your bow 30% faster. You can now make a Power Shot (spending 3 FP to slow target) as a Minor Action.
+Master: Bullseye: Once per combat, you can spend 9 FP to aim for a vital point. On a successful hit, your arrow deals double damage.
+
+Armor Skills
+Heavy Armor
+Governing Stat: Might
+Novice: You are proficient with Iron, Steel, and other heavy armors, gaining their full Damage Reduction bonus.
+Apprentice: Well Fitted: The weight and bulk of your armor are like a second skin. You gain +2 maximum HP.
+Adept: Tower of Strength: Once per combat, you can choose to automatically resist being staggered or knocked down.
+Expert: Conditioning: Your body is accustomed to the weight and rigidity of heavy armor. Your total Damage Reduction from armor is increased by 1.
+Master: Reflect Blows: Once per adventure, when a non-boss enemy hits you with a melee attack, you can declare you are reflecting the blow. You take no damage, and the enemy takes the damage it would have dealt.
+Light Armor
+Governing Stat: Agility
+Novice: You are proficient with Hide, Leather, and other light armors, gaining their full Damage Reduction bonus.
+Apprentice: Unhindered: You are used to moving in your armor. You gain +2 maximum FP.
+Adept: Wind Walker: Your stamina (FP) regenerates. Once per combat, you can regain 6 FP as a free action.
+Expert: Agile Defender: You have learned to turn a solid hit into a glancing blow. For 3 FP, when you are hit by a physical attack, you may take only half damage.
+Master: Deft Movement: Once per combat, you can spend 15 FP to effortlessly dodge all incoming physical attacks for one round. You take no damage from melee or ranged attacks until your next turn.
+
+Magic Skills
+Destruction
+Governing Stat: Magic
+Novice: You can cast Novice Destruction spells (e.g., Flames, Sparks) 
+Apprentice: You can cast Apprentice Destruction spells (e.g., Firebolt). Perk - Impact: When you cast a Destruction spell, you can spend 3 additional FP to slow the target, making them lose their next Minor Action.
+Adept: You can cast Adept Destruction spells (e.g., Fireball). Perk - Augmented Elements: All of your Destruction spells deal +1 damage.
+Expert: You can cast Expert Destruction spells (e.g., Incinerate). Perk - Expert Destruction: The FP cost of all your Destruction spells is reduced by 2.
+Master: You can cast Master Destruction spells (e.g., Fire Storm). These have powerful, adventure-altering effects. Perk - Master of the Elements: Once per adventure, for 1 round, all your Destruction spells cost 0 FP to cast.
+Restoration
+Governing Stat: Magic
+Novice: You can cast Novice spells (Lesser Ward, Healing). 
+Apprentice: You can cast Apprentice Restoration spells. Respite: When one of your Restoration spells restores HP to a target (including yourself), it also restores 1 FP to them.
+Adept: You can cast Adept Restoration spells (Heal Other, Steadfast Ward). Perk - Necromage: All of your spells are more effective against undead. They deal +2 damage (if harmful) or heal/turn for a greater effect.
+Expert: You can cast Expert Restoration spells. Avoid Death: The first time your HP would be reduced to 0 in an adventure, you automatically cast a healing spell on yourself, Your HP is reset to 5, regardless of how much damage you took.. This does not cost FP.
+Master: Guardian's Ward Once per adventure, for 0 FP, you can create a large 30-foot circle on the ground that lasts for 5 rounds. While within the circle: Allies who receive healing from any Restoration spell or effect regain an additional 2 HP, and Undead creatures take an additional 2 damage from any source.
+Alteration
+Governing Stat: Magic
+Novice: You can cast Novice Alteration spells (e.g., Oakflesh, Magelight).
+Apprentice:  You can cast Apprentice Alteration spells (e.g., Stoneflesh, Detect Life) Perk - Mage Armor: Your "flesh" spells (Oakflesh, Stoneflesh, etc.) are twice as effective if you are not wearing any physical armor (e.g., Oakflesh now provides DR 4 instead of DR 2).
+Adept: You can cast Adept Alteration spells (e.g., Ironflesh, Waterbreathing). Perk - Magic Resistance: You have learned to alter your own form to resist magic. You gain a permanent +1 Damage Reduction against all spells.
+Expert: You can cast Expert Alteration spells (e.g., Ebonyflesh, Paralyze). Perk - Stability: Your mastery over the physical world is potent. Enemies have Disadvantage on their rolls to resist your Alteration spells.
+Master: You can cast Master Alteration spells (e.g., Dragonhide, Mass Paralysis). Perk - Atronach: You can twist reality to absorb incoming spells. Once per encounter, when targeted by a hostile spell, you can make a reaction to do a Magic roll. On a success, you negate the spell's effects and regain FP equal to its base cost.
+Illusion
+Governing Stat: Magic
+Novice: You can cast Novice Illusion spells (e.g., Fury, Courage).
+Apprentice: You can cast Apprentice Illusion spells (e.g., Fear, Muffle). Perk - Animage: Your mind-affecting spells (Fury, Calm, Fear, etc.) now work on animal-type enemies more effectively, Advantage when casting on an animal.
+Adept: You can cast Adept Illusion spells (e.g., Frenzy, Invisibility). Perk - Kindred Mage: Your mind-affecting spells are more potent against people. Humanoid enemies have a -2 penalty to their Guile Target Number to resist your Illusion spells.
+Expert: You can cast Expert Illusion spells (e.g., Rout, Pacify). Perk - Quiet Casting: Your mastery of subtlety is unmatched. All spells you cast, from any school of magic, are completely silent and do not risk breaking stealth.
+Master: You can cast Master Illusion spells (e.g., Harmony, Mayhem). Perk - Master of the Mind: Your power now touches all consciousness. Your Illusion spells now work on all types of enemies, including undead, Daedra, and automatons.
+Conjuration
+Governing Stat: Magic
+Novice: You can cast Novice Conjuration spells (e.g., Conjure Familiar, Bound Dagger).
+Apprentice: You can cast Apprentice Conjuration spells (e.g., Conjure Flame Atronach, Soul Trap). Perk - Mystic Binding: Your Bound Weapon spells are enhanced. The weapons they create deal an additional +1 damage.
+Adept: You can cast Adept Conjuration spells (e.g., Conjure Frost Atronach, Bound Battleaxe). Perk - Soul Stealer: Your Bound Weapons are enchanted with a devouring spirit. When you kill an enemy with a Bound Weapon, you automatically cast Soul Trap on them for 0 FP.
+Expert: You can cast Expert Conjuration spells (e.g., Conjure Storm Atronach, Dread Zombie). Perk - Twin Souls: You have mastered the art of summoning. You may have two summoned or reanimated creatures active at the same time.
+Master: You can cast Master Conjuration spells (e.g., Flame Thrall, Dremora Lord). Perk - Elemental Potency: Your summoned Atronachs (Flame, Frost, Storm) are significantly more powerful, appearing larger and more menacing. All of their attacks and abilities deal +2 damage and they gain +2 DR.
+
+Utility Overhaul: Sneak
+The art of remaining unseen, striking from the shadows, and moving like a ghost.
+Core Mechanic: The Hidden State
+Being Hidden: You are Hidden when you succeed on an Agility Roll to move unseen.
+The Benefit: While Hidden, enemies cannot target you.
+The Strike: An attack made while Hidden has Advantage.
+Breaking Stealth: You lose the Hidden status immediately after you attack, cast a spell, or if an enemy succeeds on a Guile roll to find you.
+The Sneak Skill Tree
+Governing Stat: Agility
+Novice: You can attempt to become Hidden as a Minor Action by making an Agility Roll.
+Apprentice: Silent Roll (Evasion & Awareness)
+Combat (Reaction): When an enemy detects you, you may use your Reaction and spend 3 FP to immediately move to a new location and make a new Agility Roll. If successful, you remain Hidden.
+Utility (Vigilant): While you are Hidden, your senses are heightened. You have Advantage on all Guile rolls to spot enemies, traps, or hidden doors. You are the eyes of the party.
+Adept: Deadly Aim (Assassination & Safety)
+Combat (Lethality): Any successful attack made while Hidden is automatically a Critical Success.
+Note: Per weapon properties, Daggers deal triple (x3) damage on a Sneak Attack Critical.
+
+
+Utility (Light Foot): You do not trigger pressure plates or tripwires while Sneaking. You can safely scout dangerous hallways and disable mechanisms without risk.
+Expert: Shadow Warrior (Combat Stealth & Sabotage)
+Combat (Vanish): As a Minor Action, you can spend 6 FP to make an Agility Roll to become Hidden, even if you are currently being observed by an enemy.
+Utility (Ghost Hand): You can interact with the environment without revealing your position. Picking a lock, opening a door, looting a chest, or pulling a lever does not break your Hidden status, provided you do not attack.
+Master: Invisibility 
+Active Ability: Once per combat (or scene), you can spend 15 FP to become Invisible for 3 rounds.
+Combat Benefit: You are automatically Hidden even in plain sight. Attacking breaks invisibility.
+Utility Benefit: While Invisible, you are undetectable by nonmagical sensors or scent. You leave no footprints and make no sound, allowing you to bypass even magical defenses.
+Lockpicking
+Governing Stat: Guile
+Novice: You can attempt to pick Novice and Apprentice level locks.
+Apprentice: Quick Hands: You are adept at your craft. You may re-roll a single failed Lockpicking attempt per adventure.
+Adept: Wax Key: You can create a copy of a key you have seen. Once per adventure, if you have successfully picked a lock, you can create a key for it, allowing you to bypass it automatically later.
+Expert: Treasure Hunter: Your keen eye finds more. Whenever the GM determines loot, you find 50% more gold or an extra minor item.
+Master: Unbreakable: Your skill is legendary. You no longer need lockpicks. You may attempt to open any non-magical lock with just your hands and a bit of wire.
+Speech
+Governing Stat: Guile
+Novice: You can engage in conversations and basic bartering.
+Apprentice: Persuasion: Once per social encounter, you can choose to make your Guile roll with a +2 bonus to your Target Number, making success more likely.
+Adept: Intimidation: You can use your Major Action in combat to make a Guile roll against a weak-willed enemy. If successful, they are terrified and lose their next Major Action.
+Expert: Bribery: You know who to talk to and how much coin to spread. You can bribe guards to ignore crimes you have committed, with the cost determined by the GM.
+Master: Investor: You can invest 500 gold in a shop. For the rest of the adventure (and any subsequent ones), you get a permanent discount and a better relationship with that merchant, as well as a chance for a “return on investment” bonus when that merchant is visited.
+
+Step 4: Calculate Your Resources
+Your hero's survivability and special abilities are measured by two key resources: Health Points (HP) and Focus Points (FP). These are not flat numbers; they are calculated directly from your Stat Scores, making your choice of Standing Stone even more important.
+Health (HP): Your Body
+Health represents your physical toughness and your ability to withstand damage. It is directly tied to your Might score.
+Your starting HP is calculated with this formula:
+Health (HP) = 8 + (MIGHT Score ÷ 4) (Round down)
+Focus Points (FP): Your Spirit
+Focus represents a combination of your stamina for physical feats and your magicka for spellcasting. It is a single pool fueled by both your Agility and Magic scores.
+Your starting FP is calculated with this formula:
+Focus Points (FP) = (AGILITY Score + MAGIC Score) ÷ 2 (Add first, then divide. Round down)
+
+Examples in Action:
+A Warrior-born character (Might 16, Agility 12, Magic 4):
+HP: 8 + (16 / 4) = 12 HP
+FP: (12 + 4) / 2 = 16 / 2 = 8 FP
+This character is tough but has a smaller pool for special moves.
+
+A Mage-born character (Might 4, Agility 8, Magic 16):
+HP: 8 + (4 / 4) = 9 HP
+FP: (8 + 16) / 2 = 24 / 2 = 12 FP
+This character is fragile but has a large reserve of power for spells.
+
+A Steed-born character (Might 14, Agility 14, Magic 4):
+HP: 8 + (14 / 4 = 3.5, rounded down to 3) = 11 HP
+FP: (14 + 4 ) = 18 / 2 = 9 FP
+This character is a balanced fighter, tough and with a decent energy pool.
+
+Remember: These are your starting values! Perks like Well Fitted (+2 HP) or Unhindered (+2 FP), and Standing Stone benefits like The Lady or The Mage, are applied after these calculations to find your final totals.
+
+Step 5: Gear Up!
+Your starting equipment is determined by the path you've chosen. To get you into the adventure quickly, select ONE of the following starting kits. Choose the kit that best matches your Standing Stone and skill choices.
+
+Choose Your Starting Kit
+The Warrior's Kit
+For those who face their foes head-on with steel and fury.
+Weapon: A Steel Greatsword.
+Armor: A suit of Steel Armor.
+Consumable: One Potion of Minor Healing.
+Coin: 25 Gold.
+The Skirmisher's Kit
+For those who prefer to strike from the shadows or from a distance.
+Weapons: A Longbow with 20 Steel Arrows and a Steel Dagger.
+Armor: A suit of Leather Armor.
+Equipment: 3 Lockpicks.
+Consumable: One vial of Weak Poison (Apply to a weapon)).
+Coin: 25 Gold.
+The Mage's Kit
+For those who command the arcane arts to vanquish their enemies.
+Weapon: An Iron Dagger.
+Armor: A set of Apprentice Robes (No Damage Reduction).
+Consumable: Two Potions of Minor Magicka.
+Coin: 50 Gold.
+
+Standard Adventurer's Pack
+Everyone receives these essential items, regardless of the kit they choose:
+A Backpack
+A Bedroll
+A Waterskin
+A Tinderbox
+One Torch
+3 days worth of Rations
+With this final step, your character is complete. You have your stats, your skills, your gear, and a destiny to fulfill. Your adventure in Skyrim awaits
+
+Character Progression: Forging Your Legend
+Your legend is not forged in a single day. As you complete perilous adventures and overcome great challenges, your skills will sharpen and your power will grow. This system uses a milestone-based progression. Instead of tracking experience points, you earn Advancement Points (AP) for completing your objectives.
+Earning Advancement Points
+The path to power is simple: succeed. At the end of a successful adventure (a one-shot), every player gains 1 Advancement Point. You can spend your AP immediately or save it for more expensive upgrades.
+Spending Advancement Points
+You can spend your accumulated AP on any of the options from the list below. This is how you customize your hero's growth, choosing to deepen your specializations or broaden your talents.
+Cost (AP)
+Upgrade Option & Description
+1 AP
+Skill Training: Promote two Novice skills to the Apprentice tier.
+1 AP
+Skill Focus: Promote one Apprentice skill to the Adept tier.
+1 AP
+Resource Training: Permanently increase your maximum HP by 2 or your maximum FP by 2.
+2 AP
+Skill Specialization: Promote one Adept skill to the Expert tier.
+3 AP
+Skill Mastery: Promote one Expert skill to the Master tier. (A long-term goal).
+3 AP
+Stat Increase: Increase one of your four core Stat Scores by 1. A stat cannot be raised above 18 by this method. (This is a major, long-term investment).
+
+
+Special Progression Paths
+Characters who dedicate themselves to mastering either the arcane or martial disciplines unlock unique benefits as their power grows. These benefits trigger when you spend AP to advance a relevant skill; they do not apply during initial character creation.
+Combat Prowess
+A warrior's focused dedication to their combat style hones their body and instincts to a razor's edge.
+The Adept Benefit: When you first reach the Adept tier in any Combat Skill (One-Handed, Two-Handed, Archery), your body becomes tougher. You gain a permanent +2 bonus to your maximum HP.
+The Expert Benefit: When you first reach the Expert tier in any Combat Skill, your stamina becomes legendary. You gain a permanent +2 bonus to your maximum FP.
+The Master Benefit: When you first reach the Master tier in any Combat Skill, you have achieved true mastery of the battlefield. You may choose one other Combat or Armor skill where you are an Apprentice. That skill is immediately promoted to Adept for free.
+Arcane Studies
+A mage's focused study in one school of magic naturally unlocks a basic understanding of others. The free promotions granted by this rule cannot advance a skill beyond the Adept tier.
+The Adept Benefit: When you first reach the Adept tier in any magic skill, you may choose one of your Novice magic skills. That skill is immediately promoted to Apprentice for free.
+The Expert Benefit: When you first reach the Expert tier in any magic skill, you may choose one of your Apprentice magic skills. That skill is immediately promoted to Adept for free.
+The Master Benefit: When you first reach the Master tier in any magic skill, you may choose another one of your Apprentice magic skills. That skill is immediately promoted to Adept for free.
+
+The Master's Form - Forging Your Signature Technique
+As your mastery of combat grows, you learn to express your will through steel. This system allows you to create a signature combat technique that is uniquely yours—a move that evolves and gains new facets as you achieve new heights of martial prowess.
+The Creation Process
+All techniques are built over time, gaining power at each new tier of martial skill: Adept, Expert, and Master.
+I. The Foundation (Adept Tier)
+Your journey begins when you first reach Adept Tier in any Combat Skill (One-Handed, Two-Handed, or Archery). This skill becomes the technique's Primary Skill.
+1. Choose Your Martial Style:
+Your technique's core concept determines its Governing Stat. This choice is permanent and unlocks a unique list of Effects that you can purchase.
+The Style of Might (Governed by Might): Techniques of overwhelming power, brute force, and heavy impact. You break guards, shatter armor, and send foes flying.
+The Style of Agility (Governed by Agility): Techniques of blinding speed, precision, and fluid movement. You bleed foes with a dozen cuts, bypass their defenses, and are never where they expect you to be.
+The Style of Guile (Governed by Guile): Techniques of cunning feints, tactical exploitation, and psychological warfare. You turn your opponent's strength against them and control the flow of battle.
+2. Build Your "Budget":
+At this first stage of creation, you gain a "budget" to build your technique. You must choose one of the following budget options:
+Option A: Select ONE Major Drawback to unlock ONE Major Effect.
+Option B: Select TWO Minor Drawbacks to unlock TWO Minor Effects.
+You can choose from the Universal Drawback list or the list specific to your chosen Martial Style.
+II. The Evolution (Expert and Master Tiers)
+Your technique grows with you. Each time you reach a new milestone, you gain a new budget of drawbacks to add more effects. The choices you make at each tier are permanent additions; your final technique is the cumulative total of all Drawbacks and Effects you have selected.
+Reaching Expert Tier in your technique's Primary Skill: You gain another budget. You may add one Major Drawback OR two Minor Drawbacks to your technique to unlock the corresponding number of new Effects from your chosen Style's list.
+Reaching Master Tier in your technique's Primary Skill: You gain your final budget, adding one Major Drawback OR two Minor Drawbacks to unlock the final Effects for your technique.
+Diversifying Your Training: Each time you reach Adept Tier in a different Combat Skill, you may add one Minor Drawback (Universal or Style-Specific) to unlock one additional Minor Effect from your Style.
+Mastery of Defense: Each time you reach Expert Tier in an Armor Skill (Heavy or Light), you may add one Minor Drawback (Universal or Style-Specific) to unlock one additional Minor Effect (Universal or Style-Specific).
+
+Drawback & Effect Lists
+(A) = Adept Tier required, (E) = Expert Tier required, (M) = Master Tier required
+Universal Drawbacks (Available to All Styles)
+Universal Minor Drawbacks
+Name
+Description
+Focus Cost (Minor)
+The technique costs 3 FP to use.
+Situational Opener
+Can only be used on an enemy at or above 50% HP.
+Situational Finisher
+Can only be used on an enemy below 50% HP.
+Telegraphed
+Your next action after using this technique has Disadvantage.
+Range Limitation
+The technique can only be used on an adjacent enemy.
+
+Universal Major Drawbacks
+Name
+Description
+Focus Cost (Major)
+The technique costs 6 FP to use.
+Exhausting Effort
+The technique can only be used once per combat.
+Total Commitment
+Using this technique consumes both your Major and Minor Action for the turn.
+Blood Price
+The technique costs 2 HP to use, paid before the roll. This damage cannot be reduced.
+
+Style-Specific Drawbacks & Effects
+The Style of Might: Reckless Power
+Might-Specific Drawbacks
+Type
+Name
+Description
+Minor
+Over-Exertion
+After the technique, your next Might roll has a Hard (-2) penalty.
+Minor
+Unbalanced Stance
+Until your next turn, you have Disadvantage on rolls to resist being knocked prone.
+Major
+Reckless Assault
+The technique's roll is made with a Hard (-2) penalty. On a failure, you are knocked prone.
+Major
+Lowered Guard
+Until your next turn, all attacks made against you have Advantage.
+
+Might Effect List
+Type
+Name
+Effect
+Minor
+Powerful Strike (A)
+The technique deals +2 bonus damage.
+Minor
+Forceful Blow (A)
+On a hit, you can push the target 5 feet in any direction.
+Minor
+Guard Break (A)
+For this attack, ignore a braced shield's bonus DR.
+Minor
+Intimidating Roar (A)
+On a hit, the target has Disadvantage on its next attack roll.
+Major
+Devastating Strike (A)
+The technique deals +4 bonus damage.
+Major
+Stunning Blow (A)
+The technique Staggers the target on a successful hit.
+Major
+Unstoppable Charge (E)
+You may move up to 15 feet in a straight line before making the attack. This movement does not use your Minor Action.
+Major
+World-Breaker (M)
+Your attack is an unstoppable force. The technique applies the Sunder Armor effect three times on a successful hit, permanently reducing the target's DR by 3.
+
+The Style of Agility: Speed Has a Cost
+Agility-Specific Drawbacks
+Type
+Name
+Description
+Minor
+Winded
+After the technique, your next Agility roll has a Hard (-2) penalty.
+Minor
+Predictable Path
+You cannot use your Minor Action to move during the turn you use this technique.
+Major
+All-or-Nothing
+On a failure, you deal no damage and are Staggered.
+Major
+Exposed Flank
+After the technique resolves, the next enemy to attack you automatically hits.
+
+Agility Effect List
+Type
+Name
+Effect
+Minor
+Precise Strike (A)
+The technique ignores 1 point of the target's armor DR.
+Minor
+Rapid Movement (A)
+You instantly move 15 feet before or after the attack.
+Minor
+Lingering Wound (A)
+The technique inflicts Bleeding (1 dmg/round) for two rounds.
+Minor
+Swift Guard (A)
+After the technique, you gain +1 DR until your next turn.
+Major
+Flurry of Blows (A)
+The technique deals +3 bonus damage and ignores 1 point of the target's armor DR.
+Major
+Sidestep (A)
+You instantly move 30 feet. The next melee attack against you has Disadvantage.
+Major
+Hamstring (E)
+The technique inflicts Slowed for two rounds on a successful hit.
+Major
+Overwhelming Barrage (M)
+This keystone enhances, not replaces, other effects. When you use this technique, you declare if you will attempt 1, 2, or 3 strikes, setting the difficulty. Bonuses from other effects (e.g., Flurry of Blows) apply ONLY to the first strike. Subsequent strikes deal base weapon damage. 1 Strike: Standard Roll. 2 Strikes: Hard (-2) Roll. 3 Strikes: Very Hard (-4) Roll.
+
+The Style of Guile: A Blade's Edge of Cunning
+Guile-Specific Drawbacks
+Type
+Name
+Description
+Minor
+Enraging Taunt
+The target of your technique must target you with its next attack, if able.
+Minor
+Mental Fatigue
+After the technique, your next Guile roll has a Hard (-2) penalty.
+Major
+Calculated Risk
+The technique's roll is made with a Hard (-2) penalty. On a failure, the target immediately gets a free basic attack against you.
+Major
+Unsettling Presence
+For the rest of the combat, your allies have a -2 penalty to their Guile rolls to resist fear.
+
+Guile Effect List
+Type
+Name
+Effect
+Minor
+Feint (A)
+No damage, but your next attack against this target has Advantage.
+Minor
+Disorient (A)
+Half damage, but the target has a -2 penalty to their next roll.
+Minor
+Taunt (A)
+No damage, but the target must target you with its next attack, if able.
+Minor
+Tactical Reposition (A)
+No damage. You or an ally may immediately move 15 feet.
+Major
+Expose Weakness (A)
+Half damage. Until your next turn, all attacks against the target have Advantage.
+Major
+Riposte (A)
+This technique is a Reaction. When an enemy misses you with a melee attack, you may use your reaction to perform this technique.
+Major
+Disarm (E)
+On a successful hit, the target must make a Might roll or drop their weapon.
+Major
+Perfect Opening (M)
+You turn your enemy's catastrophic failure into an opportunity for your entire party. This technique is a Reaction. When an enemy targets you with an attack and rolls a Critical Failure (a 20), you may use this technique. Your immediate counter-attack is an automatic Critical Success, and until the start of your next turn, you and all of your allies have Advantage on all rolls made against that enemy.
+
+
+
+Advanced Magic: The Art of Dual Casting
+
+
+Dual Casting allows a mage to weave two spells together into a single release.
+The Golden Rule: Proficiency Over Power
+To weave two spells together, you must have mastered the basics of that tier. You must be one Skill Tier higher than the spell you wish to Dual Cast.
+Novice Spells: Requires Apprentice Skill.
+Apprentice Spells: Requires Adept Skill.
+Adept Spells: Requires Expert Skill.
+Expert Spells: Requires Master Skill.
+Master Spells: Impossible to Dual Cast via normal means.
+Method 1: The Standard Dual Cast (Immediate Release)
+
+
+This sacrifices mobility for raw magical output in a single turn.
+Cost: Pay the combined FP cost of both spells immediately.
+Action: This consumes your Major Action AND your Minor Action. You cannot move, dodge, or drink a potion.
+Effect:
+Resonance (Same Spell x2): The spell deals Double Damage or has Double Duration.
+Fusion (Two Different Spells): Both spell effects apply to the target simultaneously.
+Method 2: The Infinite Overcharge (The Living Bomb)
+
+
+A mage may choose to hold a Dual Cast spell, feeding more magicka into the weave turn after turn. There is no limit to how long this can be held, but the mage becomes a walking powder keg.
+The Ritual:
+Turn 1: Pay the combined FP cost. Spend Major and Minor actions. You do not release the spell. You are now Charging.
+Subsequent Turns: You must spend your Major Action and Minor action to maintain the hold. For every full turn you hold the spell, the Multiplier increases by +1. When you are ready, you must spend your Minor action to release the spell.
+Turn 1 (Cast): Base Dual Cast (2x Damage).
+Turn 2 (Hold): 3x Damage + Impact (Stagger).
+Turn 3 (Hold): 4x Damage + Impact.
+Turn 4 (Hold): 5x Damage + Impact... (Infinite Scaling).
+The Vulnerability: Absolute Focus
+While Charging, you cannot move, cast other spells, or use Reactions. You are completely reliant on your allies to protect you.
+Catastrophic Failure: If you take ANY damage (even 1 point) while Charging, concentration breaks immediately. There is no Saving Throw.
+The Detonation: The spell explodes centered on you. You take the full, accumulated damage/effect of the spell you were building. If the spell had a status effect (Paralyze, Fear), it applies to you.
+Item Synergy: Catalysts
+A mage may use items to facilitate a Dual Cast, but the rules for interaction are strict. Item synergy dual casts MAY NOT BE CHARGED.
+1. Staves (Resonance Only)
+Staves are rigid tools; they cannot be woven into complex new patterns.
+Restriction: You can only Dual Cast with a staff if the spell in your hand matches the spell in the staff (e.g., Staff of Fireballs + Fireball spell).
+Effect: This counts as Resonance. You gain Double Damage/Effect.
+Cost: You pay FP for the hand-cast spell only. The Staff loses a charge.
+2. Scrolls (The Forbidden Loophole)
+Scrolls contain completed magical formulas written by ancient masters. They are the only way to bypass the "Skill Tier" limit.
+The Mechanic: You cast a spell from one hand and read a matching Scroll with the other.
+The Master Exception: This is the only way to Dual Cast a Master Spell. If you are a Master of Destruction, you can cast Fire Storm (25 FP) and read a Scroll of Fire Storm simultaneously.
+Cost: FP for the spell + The Scroll is destroyed.
+Effect: Resonance. The effects are doubled. (Note: A Dual Cast Master Spell is a city-leveling event).
+Summary Table
+Casting Type
+Requirements
+Action
+Effect
+Standard Dual
+Tier + 1
+Major + Minor
+2x Damage/Effect.
+Overcharge
+Tier + 1
+Multi-Turn Hold
++1x Damage per turn + Stagger. Zero Tolerance for Damage.
+Staff Dual
+Tier + 1 / Matching Spell
+Major + Minor
+2x Damage (Half FP cost).
+Scroll Dual
+Spell Known + Scroll
+Major + Minor
+2x Damage (Allows Master Spells).
+
+
+
+
+Advanced Magic: Arcane Augmentation
+The Art of Upcasting
+While Dual Casting allows a mage to double their output by using both hands, Augmentation is the subtle art of forcing more magicka into a single spell frame than it was designed to hold. It is inefficient and dangerous, but it allows a skilled mage to turn a simple flame into an inferno without sacrificing their mobility.
+The Golden Rule: The Proficiency Tax
+To Augment a spell, you must cast it with the power of a higher Skill Tier. You must actually know how to cast spells of that higher tier to attempt this.
+Example: You cannot force a Novice spell to hit with Expert power unless you are actually an Expert in that school.
+The Cost of Power
+Augmentation is expensive. You pay the standard cost of the target tier, plus a "tax" of 1 FP for every step up you take.
+Casting At...
+Total FP Cost
+You Pick...
+Apprentice Power
+3 FP
+1 Augment
+Adept Power
+6 FP
+2 Augments
+Expert Power
+8 FP
+3 Augments
+Master Power
+12 FP
+4 Augments
+
+The Effect
+When you Augment a spell, two things happen:
+Pay the Cost: Consult the table above. Pay the Standard FP Cost of the Target Rank, plus an additional 1 FP per Rank increased. (e.g., Jumping 3 Ranks adds +3 FP to the cost).
+Customization: For every Tier you jumped, you may apply one Augment from your known list.
+
+The Augmentation Syllabus
+Unlike standard spells which are bought with AP, Augments are principles of magical physics. You begin your journey knowing only the Fundamental Principle. To learn more, you must study at the College of Winterhold, find ancient Spell Tomes in dungeons, or be taught by a Master Wizard.
+The Fundamental Principle (Known by All)
+Amplify: Increase the primary numerical effect (Damage, Healing, or DR) by +3.
+The Advanced Principles (Learned at the College)
+Commonly taught to Apprentices and Adepts who study at Winterhold.
+Extend: Increase the duration of the spell by +1 Round.
+Reach: Increase the range of the spell by 30 feet. (Touch spells become Ranged).
+Reinforce: Increase the HP of a Summoned Creature or Ward by +10.
+The High Mysteries (Hidden Knowledge)
+Found only in rare texts or taught by the highest ranking Wizards.
+Pierce: The spell ignores 2 points of the enemy's Damage Reduction (DR).
+Chain: The spell hits the primary target, then jumps to a second target within 10 feet for Half Effect.
+Linger: The spell leaves a magical residue on the floor. Any creature entering the space takes 3 Damage (or Healing) per turn.
+The Forbidden Physics (Legendary)
+Secret techniques known only to Archmages, Dragon Priests, and Daedric Princes.
+Dominate: The target suffers a -2 Penalty to their Resistance Roll.
+Subtle: The spell makes no sound and has no travel time. It is undetectable until impact.
+Lock: The spell physically binds the target. They are Slowed (Lose Minor Action) for 1 round.
+Impact: The spell hits with kinetic force. The target is Pushed 5 feet away.
+
+
+How to Play: The Adventure Begins
+With your character forged, you are ready for adventure. Here are the core rules you'll need to know to survive the dangers of Skyrim.
+Combat: Steel and Spells
+Combat is fast, dangerous, and resolved in turns.
+Turns: At the start of a fight, everyone rolls a d20. The highest roll goes first, continuing in descending order.
+Actions: On your turn, you get one Major Action and one Minor Action.
+Major Actions: Attacking an enemy, Casting a spell, Drinking a potion.
+Minor Actions: Moving to a different location, Drawing a weapon, Bracing with a shield.
+
+Attacking & Damage
+To attack, declare your target and roll against the relevant stat (Might for melee, Agility for bows). If you succeed, you deal damage. A weapon's damage is a fixed number listed in its description.
+Defense: Staying Alive
+Your primary defense is your armor, which provides Damage Reduction (DR). When you are hit by an attack, subtract your armor's DR from the incoming damage. DR is applied to each instance of Damage.
+Example: A bandit hits you for 4 damage. You are wearing Steel Armor (DR 2), so you only lose 2 HP.
+Shields
+If you have a shield, you can use your Minor Action to brace.
+Bracing: Reduce the damage of the next attack that hits you by an additional 2 points.
+Standard Shield Stats: Damage Reduction 2.
+Special Combat Actions
+Beyond a simple attack, you can use your turn to perform a variety of special maneuvers. These are your keys to victory against tougher foes.
+Cast a Spell (Major Action): Every spell has an FP cost. You must spend the FP and then succeed on a Magic roll to cast it.
+
+Power Attack (Major Action): Before you roll a melee attack, you can spend 3 FP to add +2 damage if your attack hits. (Stackable)(Some perks can improve this).
+
+Sunder Armor (Melee only)(Major Action): When facing a heavily armored foe, you can try to break their defenses. Make a MELEE attack roll against your Target Number. On a success, you deal no damage, but the target's DR is permanently reduced by 1. This can be done multiple times.
+Critical Success (Roll of 1): You reduce the target's DR by 1 AND deal 1 damage.
+Critical Failure (Roll of 20): You overextend and have Disadvantage on your next attack roll.
+Durability & Repair
+The reduction of Damage Reduction (DR) from a Sunder Armor action is permanent until the armor is repaired or replaced.
+On Enemies: An enemy's armor, once sundered, remains damaged for all future encounters.
+On Players: Damaged player armor can be repaired in two ways:
+Blacksmith Repair: A blacksmith can restore the armor to its original full DR for a cost determined by the GM.
+Field Repair: During a Short Rest, a character may perform a field repair. This restores the item's DR to a maximum of 2. If the armor's original DR was less than 2, it is restored to its original value.
+
+Dodge (Minor Action): You can spend 2 FP to focus on evasion. The next enemy that attacks you this round does so with Disadvantage (they roll two dice and take the worse result).
+Shield Bash (Major Action): If you have a shield, you can spend 2 FP and make a Might roll. If you succeed, your target is staggered and loses their next Major Action.
+Shield Counter (Reaction): Requires Bracing. When hit by melee, spend 2 FP and roll Might. On success, target is Exposed (Advantage on next hit against them).
+
+
+Shield Mastery
+Shields offer more than just protection; they are tools for controlling the flow of battle. These actions require a shield.
+1. Shield Bash (Major Action + 2 FP)
+Use this to stop an enemy's momentum.
+The Action: You trade your attack to slam the edge of your shield into the enemy.
+The Roll: Standard Might check.
+Success: The target is Staggered (Loses their next Major Action).
+Tactical Use: This is a 1-for-1 trade. You sacrifice your damage to prevent a Boss from casting a spell or landing a Power Attack.
+2. Shield Counter (Reaction + 2 FP)
+Use this to create an opening for your allies.
+Condition: You must be actively Bracing (using your Minor Action).
+Trigger: When a melee attack hits your shield.
+The Roll: Standard Might check.
+Success: You catch the blow and knock the enemy's guard wide open. The target is Exposed (The next melee attack against them has Advantage).
+Tactical Use: This rewards defensive play. By holding the line, you set up your rogue or warrior to land a devastating strike on their turn.
+Resistance Rolls: Some spells and abilities inflict a status effect rather than dealing direct damage. When a character successfully uses such an ability, the target must often resist it. This is resolved with a Resistance Roll. The target (whether player or enemy) rolls a d20 against one of their own Stat Scores, as specified by the ability. If they roll equal to or under their Stat, they resist. If they roll over, they suffer the full effect.
+The Rules of Engagement
+Combat in Skyrim is sticky and dangerous. Once you are within melee reach (5 feet) of an enemy, you are Engaged. You cannot simply walk away without consequence.
+Leaving Combat (Disengaging)
+To move away from an Engaged enemy, you must use your Minor Action to Move. However, the enemy will try to stop you. You have two choices:
+1. The Reckless Retreat
+The Action: You simply turn and run using your Minor Action. You save your Major Action for attacking or healing.
+The Cost: You lower your guard. The enemy gets a Free Attack against you immediately. (The GM rolls to hit; if successful, you take damage as you leave).
+2. The Tactical Withdrawal
+You spend your Major Action to force an opening. Choose one of the methods below. You must succeed on the roll to move safely.
+Failure: If you fail the roll, you fail to create space. You still use your Minor Action to move away, but you Take the Free Attack as you leave.
+The Shove (Might): You use brute force to throw the enemy back.
+Roll: Standard Might.
+Success Effect: You take no damage. The enemy is Pushed 5 feet directly away from you. This clears the space for you to move or for an ally to step in.
+
+
+The Slip (Agility): You duck under a blade or roll past a guard.
+Roll: Standard Agility.
+Success Effect: You take no damage. You may move through the enemy's space if necessary to escape.
+
+
+The Feint (Guile): You trick the enemy into blocking the wrong way.
+Roll: Standard Guile.
+Success Effect: You take no damage. The enemy is momentarily confused and cannot take Reactions until the start of their next turn.
+
+
+Sunder Armor (Melee Only)
+Breaking armor requires leverage and physical force. Sunder Armor is a Major Action that can only be performed with a Melee Weapon while Engaged with the target. Archers and Mages must rely on their own methods to bypass defenses.
+
+Archery: The Called Shot
+Requires a Bow or Crossbow.
+Ranged combat is about precision. When making a ranged attack as your Major Action, you may declare a Called Shot. This applies a penalty to your Agility Target Number (making the shot harder) in exchange for a specific effect. You must declare the shot before rolling.
+The Called Shot Menu
+Difficulty
+TN Penalty
+Shot Name
+Effect
+Hard
+-4
+The Leg Shot
+Target is Slowed (Loses next Minor Action).
+
+
+
+
+The Distraction
+Target suffers Disadvantage on their next Attack.
+Very Hard
+-6
+The Pin
+Target is Restrained (Movement 0). Must use Action to free themselves.
+
+
+
+
+The Hand Shot
+Target drops one held item (Shield or Potion, but NOT main Weapon).
+Nearly Impossible
+-8
+The Throat Shot
+Target is Silenced (Cannot cast Spells/Shout) for 1 round.
+
+
+
+
+The Sever
+Cut a specific rope/chain at range (Environmental Trigger).
+Impossible
+-10
+The Gap Shot
+Attack Ignores Damage Reduction (DR).
+
+
+
+
+The Disarm
+Target drops their Main Weapon.
+Mythic
+-12
+The Eye Shot
+Target is Blinded (Permanent Disadvantage) for the encounter.
+
+
+
+
+The Execution
+If Target is at 10 HP or less, they die instantly. (No damage roll).
+
+Weapon Specific Mobility
+Bows (Skirmisher): You may split your Minor Action (Move). You can move half your distance, shoot, and then move the remaining distance.
+Crossbows (Heavy): You cannot split movement. You must stop to fire.
+
+Rest & Recovery: Catching Your Breath
+Even the mightiest heroes need to rest. When the fight is over and the dungeon is quiet, you have two ways to recover your strength.
+Short Rest
+A Short Rest is a quick, one-hour pause to bind your wounds and refocus your mind.
+Benefit: At the end of a Short Rest, you regain half of your maximum HP and FP, rounded down. You may also perform minor tasks like field repairing sundered armor.
+The Risk: Resting in a dangerous, unsecured location is a gamble. Your GM will know if your chosen resting spot is safe. If it isn't, your rest might be interrupted by wandering monsters or other threats, and you will gain no benefits. Choose your resting spots wisely.
+Long Rest
+A Long Rest is a full night (at least 8 hours) of proper, uninterrupted sleep in a safe and secure location.
+Benefit: At the end of a Long Rest, you regain all of your lost HP and FP. Any of your "once per adventure" abilities are also refreshed and ready to use again.
+Requirement: You can only take a Long Rest in a Secure Location, such as a room you've rented at an inn, a friendly NPC's home, or a dungeon you have completely cleared of all dangers. You cannot take a Long Rest in the middle of a dangerous, unexplored area.
+
+Status Effects Explained
+This list defines the common status effects that can be inflicted on characters and enemies during an adventure.
+Bleeding
+A creature that is Bleeding takes damage at the start of their turn. This effect Stacks Intensity. If a creature is hit multiple times by a Bleed-causing weapon, the damage numbers are added together (e.g., 3 hits for 1 bleed each = 3 damage at the start of their turn). 
+Calm
+A creature that is Calm becomes non-hostile for the duration of the effect. They will not initiate attacks or take aggressive actions. The effect typically ends if the creature is attacked.
+Encased
+The target is completely trapped. While encased, they are immune to all damage but cannot take any actions. This effect lasts for a set number of rounds.
+Fear
+A creature affected by Fear is terrified and must spend their turn moving away from the source of the fear by the safest available route.
+Frenzy
+A creature in a Frenzy is overcome with rage and must use their turn to attack the nearest creature, whether it is a friend or foe.
+Invisible
+A creature that is Invisible cannot be seen by normal means. This effect lasts for a set duration or ends immediately if the creature attacks, or takes any hostile action.
+Paralyzed
+The target is completely immobilized and helpless. They cannot perform a Major Action, a Minor Action, or move on their turn.
+Slowed
+The target's movements or reaction times are hindered. They lose their next Minor Action.
+Staggered
+The target is thrown off-balance by a powerful blow or effect. They lose their next Major Action.
+
+Example Character: A Legend in the Making
+Let's see how all these steps come together to create a complete character. We'll build Kaelen, the Breton Knight.
+Step 1: Choose Your Race
+Kaelen is a Breton, known for her people's innate connection to the arcane.
+Stat Bonus: +1 to her final Magic score.
+Racial Ability: Dragonskin (Once per adventure, take half damage from a hostile spell).
+
+Step 2: Choose Your Standing Stone
+She was born under The Lord stone, destined for a life of resilience and command.
+Base Stats: Might 15, Agility 8, Magic 6, Guile 11.
+Applying Racial Bonus: Her Magic score increases by 1.
+Final Stats: Might 15, Agility 8, Magic 7, Guile 11.
+Stone Benefit: Knight's Ward (+1 to her armor's Damage Reduction, and once per adventure she can re-roll a failed roll against a spell).
+
+Step 3: Choose Skills & Perks
+Kaelen's training makes her a formidable, front-line warrior. To match her chosen gear, she focuses on two-handed combat.
+Adept Skill: Two-Handed (Adept Perk: Great Critical Charge)
+Apprentice Skills: Heavy Armor (Apprentice Perk: Well Fitted), Restoration (Apprentice Perk: Respite), and Speech (Apprentice Perk: Persuasion).
+
+Step 4: Calculate Resources
+Kaelen's stats and perks determine her survivability.
+Health (HP): The formula is 8 + (Might / 4). For Kaelen, that's 8 + (15 / 4 = 3) = 11 HP. Her Well Fitted perk from Heavy Armor adds +2, for a final total of 13 HP.
+Focus Points (FP): The formula is (Agility / 2) + (Magic / 2). For Kaelen, that's (8 / 2) + (7 / 2 = 3) = 4 + 3 = 7 FP.
+
+Step 5: Gear Up!
+Kaelen is a warrior through and through, so she takes The Warrior's Kit.
+Weapon: Steel Greatsword 
+Armor: Steel Armor
+Consumable: Potion of Minor Healing
+Coin: 25 Gold
+She also receives the Standard Adventurer's Pack.
+
+
+Final Character Snapshot: Kaelen the Knight
+HP: 13
+FP: 7
+Damage Reduction: 4 (3 from Steel Armor + 1 from her Knight's Ward benefit)
+Primary Attack: Kaelen wields her greatsword, rolling against her Might of 15 to hit for 5 damage.
+Signature Moves: She can use her Dragonskin to shrug off a powerful spell, activate Great Critical Charge after moving, and use Persuasion to get her way in town.
+Now, Kaelen is ready to adventure! When she swings her greatsword, she'll roll to get a 15 or under. When she tries to intimidate a bandit, she'll roll against her Guile of 11.
+You are now ready. A new legend is about to be written in the annals of Skyrim. What will yours be?
+
+GALLERY:
+NORD
+
+BRETON
+IMPERIAL 
+REDGUARD 
+HIGH ELF 
+WOOD ELF 
+DARK ELF 
+ORC 
+KHAJIIT 
+ARGONIAN 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+STANDING STONES:
+ THE WARRIOR STONE 
+THE THIEF STONE 
+THE MAGE STONE 
+THE LORD STONE 
+THE LADY STONE 
+THE SERPENT STONE 
+THE STEED STONE 
+THE SHADOW STONE 
+THE TOWER STONE 
+THE APPRENTICE STONE 
+THE ATRONACH STONE 
+THE RITUAL STONE 
+THE LOVER STONE 
+
+
+
+REVISIONS FOR ADDITION:
+
+
+
+
+
+
+
+
