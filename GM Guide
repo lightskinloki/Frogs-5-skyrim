@@ -1,0 +1,402 @@
+Skyrim GM Guide
+This guide provides the tools and advice you need to run adventures in the world of Skyrim using this system. Your role is to be the storyteller, the referee, and the world itself. Your goal is to create a fun, fast-paced, and memorable experience for your players.
+1. The GM's Mindset: The Spirit of the Game
+This system is built for heroic, narrative-driven action, not for gritty, granular simulation. Keep these principles in mind:
+Keep the Pace High: This is designed for one-shots. Don't get bogged down in minutiae. If a rule is slowing things down, make a ruling and move on. The goal is to get from the tavern to the dungeon boss and the reward in a single session.
+Say "Yes, but..." or "Yes, and...": When a player wants to do something creative, try to enable it. Instead of a flat "no," introduce a complication or an interesting consequence. This is the core of the "Success with a Complication" rule.
+Fail Forward: A failed roll shouldn't stop the story cold. Instead of "you fail to pick the lock," make it "you fail to pick the lock silently, and you hear the Draugr on the other side stir." Failure should introduce new challenges, not end the adventure.
+Be a Fan of the Characters: You are not playing against the players. Your job is to present exciting challenges that allow their characters to be awesome. Celebrate their victories and make their struggles feel meaningful.
+
+2. Setting Difficulties: When a Stat Isn't Enough
+Sometimes, a player's action isn't against a passive object; it's against a difficult circumstance. For these situations, you can apply a bonus or penalty to the player's Target Number for that specific roll.
+Very Easy: +4 to TN. (Success is highly likely).
+Easy: +2 to TN. (The task is routine or simple).
+Standard: +0 to TN. (The default difficulty for most adventuring tasks).
+Hard: -4 to TN. (The task requires training, specialized tools, or is performed under duress).
+Very Hard: -6 to TN. (The task is improbable for the average person).
+Nearly Impossible: -8 to TN. (The task requires luck or mastery).
+Impossible: -12 to TN. (The task is not possible for an average person to even attempt.)
+Opposed Checks: When a player's action is directly opposed by an NPC (like arm-wrestling or sneaking past a guard), both roll against their relevant stats. If the player succeeds their roll AND the NPC fails theirs, the player succeeds. If both succeed, the one who rolled lower (further from their target number) wins.
+Managing the Enchanter: The Mathematics of Magic
+When a player commissions a magic item using the rules in the Items list, your role is to sanity-check their request against the power of the soul they provide. You say "Yes" to the concept, then check the Soul Gem to determine the numbers.
+Your Role: Say "Yes" to the concept, then check the Soul Gem to determine the numbers.
+The Golden Rule: Use the Spell List to determine damage. If they want a "Ring of Fireballs," it does the damage of the Fireball spell. The Soul Gem determines if the item is powerful enough to hold that spell.
+1. Binding Spells (Damage & Effect)
+When a player binds a spell to an item (either to Cast it or Strike with it), the Soul Gem limits the Tier of the spell they can use.
+Petty Soul: Supports Novice spell effects (e.g., Flames - 1 Damage).
+Grand Soul (White): Supports Apprentice & Adept spell effects (e.g., Fireball - 5 Damage).
+Black Soul: Supports Expert spell effects (e.g., Incinerate - 8 Damage). Note: Using an item bound with a Black Soul triggers a catastrophe check on a Nat 20 failure.
+2. Stat Bonuses (Target Numbers)
+Petty Soul: +1 to Stat Score.
+Grand Soul (White): +2 to Stat Score.
+Black Soul: +3 to Stat Score.
+(Reminder: The absolute hard cap for any Stat Score is 22. No combination of items can push a player beyond this).
+3. Pools (HP/FP)
+Petty Soul: +2 Max.
+Grand Soul (White): +4 Max.
+Black Soul: +6 Max.
+4. Regeneration (The Hard Caps)
+Regeneration breaks the economy of the game. It is restricted to high-level souls.
+Health Regen (HP)
+Petty: Impossible.
+Grand (White/Black): +1 HP at the start of the turn.
+Hard Cap: A player can never regen more than 2 HP per turn total, even if they wear multiple items.
+Focus Regen (FP)
+Petty: Impossible.
+Grand (White): +1 FP at the start of the turn.
+Black Soul: +2 FP at the start of the turn.
+Hard Cap: A player can never regen more than 5 FP per turn total.
+
+Advanced Rulings: The Soul Catastrophe Table
+When a player rolls a Critical Failure (a 20) while using an item charged with a black soul, they trigger a Soul Catastrophe. The GM should immediately roll a d20 and consult the table below to determine the specific, dire consequences. (you must keep track of who is using an item charged with a Black Soul.
+Soul Catastrophe Table (Roll 1d20)
+d20 Roll
+Result
+Effect
+1-4
+Spiritual Drain
+The vengeful soul drains your energy as it escapes. The item is immediately depleted of all charges, and the wielder loses 10 FP.
+5-8
+Arcane Backlash
+The soul twists the spell's energy. The spell fails and is instead cast directly upon the wielder with full effect.
+9-12
+Failed Possession
+The soul surges from the item and attempts to possess the wielder. It fails, but the spiritual struggle leaves the wielder Paralyzed for their next turn.
+13-16
+Soul Wound
+The soul's anguish leaves a temporary wound on the wielder's spirit. The wielder must choose to reduce their maximum HP by 2 or their maximum FP by 2. This penalty lasts until they complete a Long Rest.
+17-20
+Item Annihilation
+The soul's rage is so great that it shatters its prison. The magic item (the staff, etc.) cracks and disintegrates into worthless dust, completely destroyed.
+
+
+
+3. Building and Running Combat Encounters
+Combat should be fast, evocative, and easy to manage. This framework allows you to create challenging encounters that scale as your players grow from competent heroes into mythic legends. The core principle is that enemies are built just like characters: they have Might, Agility, Magic, and Guile scores, which they use to perform all their actions.
+A. The Tiered Threat System
+Every creature has a Threat Level (TL) from 1 (Minion) to 3 (Boss). Its power scales based on the party's current Tier of play. The creation process is now unified into a single, powerful table.
+Step 1: Determine the Party's Tier
+First, determine the party's Tier based on their average Advancement Points (AP).
+Novice Tier (0-3 AP): Competent local heroes.
+Apprentice Tier (3-6 AP): Regional up-and-comers.
+Adept Tier (6-9 AP): Well-known hold champions.
+Expert Tier (9-12 AP): Legendary heroes of Skyrim.
+Master Tier (15+ AP): Mythic, world-saving legends.
+Step 2: Generate the Enemy's Complete Stats
+Cross-reference the enemy's Threat Level (TL) with the Party's Tier to find all of its core statistics.
+How to Use the "Stat Scores" Column:
+The scores are listed as Primary/Secondary/Tertiary/Dump. Assign the Primary score to the enemy's main stat based on its Archetype (e.g., Might for a Brute), and distribute the other three scores as you see fit.
+Scaled Monster Creation Table
+TL
+Party Tier
+Stat Scores (P/S/T/D)
+HP Range
+Base Dmg
+Base DR
+1
+Novice (0 AP)
+14/12/10/8
+8-16
+4
+2-4
+
+
+Apprentice (1-2 AP)
+15/13/11/8
+14-22
+6
+3-5
+
+
+Adept (3-4 AP)
+16/14/12/8
+18-28
+8
+4-6
+
+
+Expert (5-6 AP)
+17/15/13/8
+24-34
+10
+5-7
+
+
+Master (7+ AP)
+18/16/14/8
+28-42
+12
+6-8
+2
+Novice (0 AP)
+15/13/10/8
+16-26
+6
+3-5
+
+
+Apprentice (1-2 AP)
+16/14/11/8
+24-38
+8
+4-6
+
+
+Adept (3-4 AP)
+17/15/12/8
+34-50
+10
+5-7
+
+
+Expert (5-6 AP)
+18/16/13/8
+44-64
+12
+6-8
+
+
+Master (7+ AP)
+19/17/14/8
+58-80
+15
+7-9
+3
+Novice (0 AP)
+16/14/10/8
+35-50
+8
+5-7
+
+
+Apprentice (1-2 AP)
+17/15/11/8
+48-65
+10
+7-9
+
+
+Adept (3-4 AP)
+18/16/12/8
+65-85
+13
+9-11
+
+
+Expert (5-6 AP)
+19/17/13/8
+85-110
+16
+11-13
+
+
+Master (7+ AP)
+20/18/14/8
+110-150
+20
+13-15
+
+
+B. Encounter Balancing Made Clear
+The balancing formula remains simple: the total Threat Level of all enemies should be roughly equal to the number of Player Characters.
+C. Example Monster Stat Blocks (Built with the Correct System)
+Bandit Marauder (TL 1 Brute) GM Note: For this bandit, we're using a specific weapon (Steel War Axe, Dmg 3) instead of the table's Base Dmg of 4 to give the encounter a specific flavor. The table provides a baseline, but feel free to customize enemy gear!
+Novice Tier Version (Party has 0 AP)
+Stats:
+Might: 14, Agility: 12, Magic: 8, Guile: 10
+HP: 12, DR: 3
+Damage: 3 (Steel War Axe, Hack & Slash)
+Abilities & Tactics: Has Power Attack (+2 damage once per combat). Charges the nearest enemy to use it as soon as possible.
+Loot: Steel War Axe, Hide Armor (DR 1), 2d6 Gold.
+Expert Tier Version (Party has 5-6 AP)
+Stats:
+Might: 17, Agility: 15, Magic: 8, Guile: 13
+HP: 30, DR: 6
+Damage: 5 (Ebony War Axe, Hack & Slash)
+Abilities & Tactics: Has Power Attack (+4 damage once per combat) and Battle Cry (Minor Action to give an ally Advantage). Uses Battle Cry to support its leader, then charges a vulnerable target.
+Loot: Ebony War Axe, Scaled Armor (DR 2), 2d20 Gold.
+Troll (TL 3 Brute)
+Novice Tier Version (Party has 0 AP)
+Stats:
+Might: 16, Agility: 14, Magic: 8, Guile: 10
+HP: 45, DR: 6
+Base Damage: 8 (Claws)
+Abilities & Tactics: Has Regeneration 4 (heals 4 HP/turn unless hit by fire), Two Attacks, and Fire Weakness (+2 damage from fire). Attacks relentlessly, using its high Might to resist effects.
+Loot: Troll Fat, 1 Humanoid Skull.
+Expert Tier Version (Party has 5-6 AP)
+Stats:
+Might: 19, Agility: 17, Magic: 8, Guile: 13
+HP: 100, DR: 12
+Base Damage: 16 (Claws)
+Abilities & Tactics: Has Greater Regeneration 8, Frenzied Assault (three attacks), Fire Weakness (+4 damage from fire), and Stomp (Minor Action, forces adjacent enemies to make an Agility roll with a Hard (-2) penalty or be knocked prone). Uses Stomp to control the field before focusing its assault on a prone target.
+Loot: Troll Fat (x3), 1 Humanoid Skull, a half-digested enchanted ring.
+
+
+4. Rewards & Character Progression
+Since this system is designed for disconnected, episodic adventures, a traditional XP system is too slow. Instead, we use a milestone-based Advancement Point (AP) system that rewards the completion of a story.
+
+Cost (AP)
+Upgrade Option & Description
+1 AP
+Skill Training: Promote two Novice skills to the Apprentice tier.
+1 AP
+Skill Focus: Promote one Apprentice skill to the Adept tier.
+1 AP
+Resource Training: Permanently increase your maximum HP by 2 or your maximum FP by 2.
+2 AP
+Skill Specialization: Promote one Adept skill to the Expert tier.
+3 AP
+Skill Mastery: Promote one Expert skill to the Master tier. (A long-term goal).
+3 AP
+Stat Increase: Increase one of your four core Stat Scores by 1. A stat cannot be raised above 18 by this method. (This is a major, long-term investment).
+
+
+Special Progression Paths
+Characters who dedicate themselves to mastering either the arcane or martial disciplines unlock unique benefits as their power grows. These benefits trigger when you spend AP to advance a relevant skill; they do not apply during initial character creation.
+Combat Prowess
+A warrior's focused dedication to their combat style hones their body and instincts to a razor's edge.
+The Adept Benefit: When you first reach the Adept tier in any Combat Skill (One-Handed, Two-Handed, Archery), your body becomes tougher. You gain a permanent +2 bonus to your maximum HP.
+The Expert Benefit: When you first reach the Expert tier in any Combat Skill, your stamina becomes legendary. You gain a permanent +2 bonus to your maximum FP.
+The Master Benefit: When you first reach the Master tier in any Combat Skill, you have achieved true mastery of the battlefield. You may choose one other Combat or Armor skill where you are an Apprentice. That skill is immediately promoted to Adept for free.
+Arcane Studies
+A mage's focused study in one school of magic naturally unlocks a basic understanding of others. The free promotions granted by this rule cannot advance a skill beyond the Adept tier.
+The Adept Benefit: When you first reach the Adept tier in any magic skill, you may choose one of your Novice magic skills. That skill is immediately promoted to Apprentice for free.
+The Expert Benefit: When you first reach the Expert tier in any magic skill, you may choose one of your Apprentice magic skills. That skill is immediately promoted to Adept for free.
+The Master Benefit: When you first reach the Master tier in any magic skill, you may choose another one of your Apprentice magic skills. That skill is immediately promoted to Adept for free.
+
+Progression in Practice:
+After 1 Adventure (1 AP): A player will typically spend their first point to either promote their main Apprentice skill to Adept or broaden their base by promoting two Novice skills to Apprentice.
+After 2 Adventures (2 AP): A player might have an Adept skill and an Apprentice skill. They could save their second point, combining it with their first, to promote their Adept skill straight to Expert.
+A Veteran Character (5 AP earned): A long-running character might have spent their points as follows:
+1 AP to get their main skill to Adept.
+1 AP to get two utility skills to Apprentice.
+2 AP to get their main skill to Expert.
+1 AP to increase their max HP by 2.
+
+Guiding Player-Created Martial Techniques
+As martial characters reach the Adept, Expert, and Master tiers in their combat skills, they unlock the ability to create and evolve their own signature techniques. The complete rules for this player-facing system, called "The Master's Form," are found in the Player's Guide.
+Your role as the GM is not to dictate the technique, but to facilitate its creation using the following principles:
+Encourage Thematic Concepts: Help the player translate their cool idea ("a whirlwind of strikes," "an unstoppable charge") into a specific Martial Style (Agility, Might, etc.). The name and description are as important as the mechanics.
+Verify the Budget: Ensure the player's choices are valid. If they choose two Minor Drawbacks, they can only select two Minor Effects. If they choose one Major Drawback, they can only select one Major Effect.
+Trust the System: The Drawback-for-Effect system is designed to be balanced. A powerful technique will always have significant costs or risks. Trust that a player's choices will create a balanced move, and focus on making it feel awesome in the game.
+Be a Fan: When a player finally unleashes their Master-tier "World-Breaker" technique, describe the devastating impact. When they use their "Perfect Opening," describe the enemy's shocked expression. These moves are the ultimate reward for a player's dedication to their character's path—celebrate them.
+
+
+Awarding Loot
+Rewards in this system are handled in two ways: Incidental Loot dropped by enemies, and the Major Treasure found at the adventure's conclusion.
+Incidental Loot: Most of the gold, basic potions, and mundane equipment the party finds will come directly from the bodies of their defeated foes, as detailed in their monster stat blocks.
+Major Treasure: The significant magical items and large sums of gold are the ultimate prize for completing the adventure, typically found in Section 5. Use the following framework to budget the total rewards for an adventure based on the Party's Tier.
+Rewards Framework by Adventure Tier
+Tier
+AP Range
+Gold / Player
+Magical Items
+Novice
+0 AP
+400-600 Gold
+1-2 Moderate Items (Apprentice-perk level).
+Apprentice
+1-2 AP
+700-1000 Gold
+1 Powerful Item (Adept-perk) & 1-2 Moderate Items.
+Adept
+3-4 AP
+1200-1600 Gold
+1-2 Powerful Items (Adept-perk) & 1 Rare Item (Expert-perk).
+Expert
+5-6 AP
+2000-2500 Gold
+2-3 Rare Items (Expert-perk level).
+Master
+7+ AP
+3000+ Gold
+1 Legendary Artifact & multiple Rare Items.
+
+
+Managing the Forge: Running the Upgrade System
+The full rules for improving equipment are detailed in the items file for player reference. As the GM, your role is to bring this system to life by managing the blacksmiths who make it possible.
+The Smith's Roll: The Core Mechanic
+When a player pays the Gold and Material cost to upgrade an item, you will make a d20 roll for the blacksmith against their Might Score (TN). The outcome is determined by the "Striking for Perfection" table in the items file.
+Blacksmith NPCs and Their Skill
+Not all smiths are equal. A smith's skill determines their Might TN and thus their chances of producing exceptional work. Use this table as a guideline for the blacksmiths in your world.
+Smith Tier
+Title
+Might Score (TN)
+Roleplaying Cue
+Apprentice
+Village Smith
+12
+A reliable but basic smith. Can handle repairs and simple jobs. Might be nervous about working on rare materials. (e.g., Alvor in Riverwood)
+Adept
+Hold Smith
+15
+A true professional and master of common materials. The backbone of a city's industry. Confident and skilled. (e.g., Adrianne in Whiterun, Balimund in Riften)
+Master
+Legendary Smith
+18
+A rare artisan whose name is spoken with reverence. Their work is considered art. They may be reclusive, highly selective, or require a quest to earn their services. (e.g., Eorlund Gray-Mane)
+
+GM's Role and Best Practices
+Make Master Smiths a Goal: Legendary smiths should be rare. Finding Eorlund Gray-Mane at the Skyforge or gaining access to the forges within an Orc stronghold should feel like a significant accomplishment for the party. Their services are a major reward in themselves.
+Control Material Scarcity: While Iron and Steel Ingots may be common, rare materials like Ebony Ingots, Refined Malachite, and especially Daedra Hearts should be treated as major treasure. Award them as loot in high-level dungeons or make them the object of quests. This makes a Daedric item upgrade feel truly earned.
+Roleplay the Gamble: The moment of the roll should be dramatic. Describe the smith's process: the heating of the forge, the careful selection of tools, the beads of sweat. Describe the hammer strikes. When you roll, let the tension build before you announce the result. A Critical Success should be met with a cry of triumph from the smith; a Critical Failure with a curse and a look of shame. This turns a simple roll into a memorable scene.
+
+5. Adventure Structure: The One-Shot Model
+A simple and effective structure for a Skyrim one-shot is the classic "Tavern to Tomb."
+The Hook (The Tavern): The players meet in an inn. An NPC (a worried Jarl, a desperate farmer, a mysterious stranger) offers them a job: clear a nearby ruin, rescue a kidnapped person, retrieve a lost family heirloom.
+The Journey (Travel): Getting to the dungeon can be an encounter itself. This is a good place for a social encounter (a toll-collector on a bridge) or a simple combat encounter (a wolf pack on the road).
+The Dungeon (The Tomb): Use the 5-Section Structure. Don't think of these as literal rooms, but as narrative beats that can apply to a dungeon crawl, a wilderness trek, or a city investigation.
+Section 1: The Approach & Guardian
+Purpose: To set the scene and present the first obstacle, confirming the danger.
+What It Is: The journey to the location, the dungeon's entrance chamber, or the first encounter with the threat. This section establishes the theme and enemy types.
+Section 2: The Puzzle or Social Challenge
+Purpose: To test the party's wits, not just their weapons, and provide a change of pace.
+What It Is: A single, focused non-combat challenge. This could be a riddle, a complex trap, a moral dilemma with an NPC, or a navigation puzzle.
+Section 3: The Exploration & Setback
+Purpose: To deepen the mystery and raise the stakes as the party explores the adventure's core.
+What It Is: A series of interconnected areas, a branching path, or a sequence of clues. This section often ends with a complication: the way forward is blocked, a key item is guarded, or an ally is captured.
+Section 4: The Climax & Confrontation
+Purpose: To provide the dramatic final confrontation against the adventure's primary antagonist.
+What It Is: The boss's throne room, the ritual chamber, or the site of the final showdown. This is the big fight the adventure has been building towards.
+Section 5: The Reward & Resolution
+Purpose: To provide a satisfying payoff and conclude the story.
+What It Is: The treasure vault, the rescued captive's debrief, or the discovery of the quest's main prize. This section provides both material reward and narrative closure.
+
+6. Rest, Recovery, and Respite
+Even the mightiest heroes need to rest. Recovery is a vital part of the adventure loop, allowing players to catch their breath and prepare for the dangers ahead. This system uses two types of rests: the risky Short Rest and the safe Long Rest.
+Short Rest: A Moment's Peace
+A Short Rest is a brief pause taken in the field—a moment to bind wounds, drink some water, and refocus. A Short Rest is only for recovery and roleplaying; no crafting or other complex tasks can be performed.
+Duration: About one hour.
+Benefit: Characters regain half of their maximum HP and FP, rounded down.
+The Dangers of a Short Rest: The Location Danger Roll
+Resting in an unsecured location is inherently risky. After the players declare a Short Rest in a dangerous area (like a dungeon or the wilderness), the GM determines the location's Danger Level, a Target Number representing how likely an interruption is.
+The GM then secretly rolls a d20. If the roll is under the location's Danger Level, the rest is interrupted.
+Interruption: The party is ambushed or an event forces them to move. They do not regain any HP or FP. Furthermore, if the interruption is a combat encounter, the party is Surprised and cannot take any actions during the first round of combat.
+Setting the Danger Level (GM Tool)
+Use this table as a guideline to set the Danger Level for a Short Rest.
+Danger Level
+Description & Example
+TN 15 (Secure)
+A fully cleared room with a single, barricaded entrance. An interruption is highly unlikely.
+TN 11 (Risky)
+A cleared room, but with multiple unexplored exits, or a sheltered camp just off a main road. An interruption is possible.
+TN 7 (Exposed)
+A central chamber in a dungeon, an open campsite in the wilderness, or a room where enemies have recently been. An interruption is likely.
+TN 3 (Suicidal)
+In direct line-of-sight of a known enemy patrol route or in a boss's antechamber. An interruption is almost certain.
+
+Long Rest: A Proper Recovery
+A Long Rest is a full night of safe, comfortable sleep. This is where characters truly recover from their ordeals.
+Duration: At least 8 hours.
+Benefit: Characters regain all of their lost HP and FP. All "once per adventure" abilities are refreshed.
+Requirement: A Long Rest can only be taken in a Secure Location.
+What is a Secure Location?
+A Secure Location is a place where the party can reasonably expect not to be attacked while they sleep. A Location Danger Roll is not required. Secure locations include:
+A rented room at an inn.
+A friendly NPC's home.
+A player-owned house or base.
+A dungeon that has been completely and verifiably cleared of all threats, with the entrance barricaded.
+Players cannot take a Long Rest in the middle of an active, unexplored dungeon or in the open wilderness.
+
+
+
