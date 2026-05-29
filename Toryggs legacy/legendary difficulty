@@ -1,0 +1,278 @@
+
+Module: Legendary Difficulty
+
+For High-Power, Cinematic Campaigns
+
+The standard rules of this system are designed for gritty, dangerous survival. However, some groups prefer a "mythic" style of play, where heroes wield god-like artifacts and land blows that shatter mountains.
+
+This module is designed for tables that feature large parties (5+ players) or utilize Double Damage Criticals (2x Multiplier). Under these conditions, standard enemies will vaporize before they can pose a threat. To maintain tension without stripping players of their power, use the rules below.
+
+1. The Core Rule: Lethal Criticals
+
+In this mode, a Critical Success is not merely a hit with a bonus; it is a devastation.
+
+The Rule: On a Natural 1, calculate your total damage (Weapon + Perks + FP spend + Magic), then multiply the final result by 2.
+
+2. The Formula of Pain: Calculating Damage
+
+To keep combat fast and intuitive, damage is calculated in a specific order of operations.
+
+Step 1: The Base Hit
+Add up all flat numbers first.
+(Weapon Damage + Perks + Power Attack Cost + Magic Buffs) = Base Hit
+
+Step 2: The Multipliers
+Multiply your Base Hit by any active multipliers. If you have more than one (e.g., a Magic Item that doubles damage and a Critical Hit), multiply them together.
+
+Base Hit x [Item Multiplier] x [Crit Multiplier] = Total Damage
+
+Example: The "Nova Strike"
+
+Base Hit: 14 (Claws) + 2 (Fire) = 16
+
+Magic Item: x2 Damage
+
+Critical Hit: x2 Damage
+
+Calculation: 16 x 2 x 2 = 64 Total Damage.
+
+Scenario A: The Assassin's Burst (Sneak Attack + Crit)
+
+Use Case: Understanding how Sneak Attack multipliers interact with Critical Hits on a standard physical attack.
+
+The Setup:
+Silas the Rogue fires a Daedric Bow from the shadows. He has the Assassin's Blade perk (x3 Sneak Damage) and he rolls a Natural 1 (Critical Hit).
+
+Step 1: The Base Hit
+
+Daedric Bow: 9 Damage
+
+Ebony Arrow: +2 Damage
+
+Base Hit Total: 11 Physical Damage
+
+Step 2: The Multipliers
+
+Sneak Attack Perk: x3 Multiplier
+
+Critical Hit: x2 Multiplier
+
+Calculation: 11 (Base) x 3 (Sneak) x 2 (Crit) = 66 Damage
+
+Step 3: The Result
+
+The target is a Draugr Deathlord (DR 6).
+
+66 - 6 = 60 HP Lost.
+
+Scenario B: The Spellblade (Mixed Damage + Weakness)
+
+Use Case: Calculating damage when an enemy is weak to only ONE part of your attack (e.g., Fire), but not the physical weapon itself.
+
+The Setup:
+Valerius swings a Sword of Burning at a Frost Troll (Weak to Fire x2). He does not Crit.
+
+Step 1: Separate the Damage Types
+You must calculate the Physical damage and Elemental damage separately first.
+
+Physical: 6 (Sword) + 1 (Power Attack) = 7 Physical
+
+Fire: 3 (Enchantment) + 2 (Arcane Edge) = 5 Fire
+
+Step 2: Apply Weakness Multiplier
+The Frost Troll is vulnerable to Fire, not Steel. Multiply only the Fire portion.
+
+Physical: 7 (No Multiplier) = 7
+
+Fire: 5 x 2 (Vulnerability) = 10
+
+New Total Base: 7 + 10 = 17 Mixed Damage
+
+Step 3: Apply Global Multipliers
+
+No Crits or other multipliers active.
+
+Final Damage: 17.
+
+Step 4: The Result
+
+The Troll has Thick Hide (DR 4).
+
+17 - 4 = 13 HP Lost.
+
+Scenario C: The Nova (Crit + Weakness + Magic Item)
+
+Use Case: The "Kyboh Situation." High stacking modifiers with Elemental Weakness involved.
+
+The Setup:
+Kyboh punches a Dryad (Weak to Fire x2). He uses Arcane Edge (Fire). He has his Titan Gloves (x2 Damage) active. He rolls a Critical Hit (x2 Damage).
+
+Step 1: Separate the Damage Types
+
+Physical: 14 (Claws)
+
+Fire: 2 (Arcane Edge)
+
+Step 2: Apply Weakness Multiplier First
+Resolve the specific enemy weakness before applying your own buffs.
+
+Physical: 14 (Unchanged)
+
+Fire: 2 x 2 (Weakness) = 4
+
+Adjusted Base Hit: 14 + 4 = 18 Base Damage
+
+Step 3: Apply Global Multipliers
+Now apply your Gloves and Crit to the Adjusted Base.
+
+Multipliers: x2 (Gloves) and x2 (Crit).
+
+Calculation: 18 (Adjusted Base) x 2 x 2 = 72 Total Damage.
+
+Step 4: The Result
+
+The Dryad has Barkskin (DR 3).
+
+72 - 3 = 69 HP Lost.
+
+Scenario D: The Twin-Blade (Multi-Hit Attacks)
+
+Use Case: Handling abilities that grant extra attacks (like Dual Flurry). Multipliers usually only apply to the specific hit that triggered them.
+
+The Setup:
+Bjorn uses Dual Flurry to attack twice in one turn against a Bandit.
+
+Hit 1: A standard hit.
+
+Hit 2: A Critical Hit (Nat 1).
+
+Attack 1 Calculation:
+
+Base: 6 (Sword) + 1 (Perk) = 7.
+
+Multipliers: None.
+
+Result: 7 - 4 (Enemy DR) = 3 Damage.
+
+Attack 2 Calculation:
+
+Base: 6 (Sword) + 1 (Perk) = 7.
+
+Multipliers: x2 (Critical Hit).
+
+Total: 14.
+
+Result: 14 - 4 (Enemy DR) = 10 Damage.
+
+Total Turn Damage: 3 + 10 = 13 HP Lost.
+(Note: DR is subtracted from each hit individually, not from the total sum.)
+
+Step 3: The Result
+Tell the GM the Total Damage. The GM will subtract the enemy's Damage Reduction (DR) to find the final HP lost.
+
+3. Legendary Scaling: Cinematic Durability
+
+Because player damage output is massive in this mode, enemy resilience must scale to match. Enemies are no longer simulations of biology; they are cinematic obstacles designed to withstand heroic punishment.
+
+The HP Multiplier
+When generating enemies using the standard Threat Level table, apply the following modifiers to their Health Points (HP) only. Do not multiply their Damage or DR.
+
+Minions (TL 1): Base HP x 2
+
+Lieutenants (TL 2): Base HP x 2.5
+
+Bosses (TL 3): Base HP x 3
+
+Designer's Note: Do not increase the enemy's Damage Reduction (DR). High DR frustrates players by nullifying their attacks. High HP allows them to see high damage numbers while ensuring the enemy survives long enough to be a threat.
+
+4. Boss Mechanics: The Phase System
+
+In Legendary Difficulty, high HP is not enough. A lucky round of Criticals from five players can still delete a 500 HP dragon instantly. To ensure Boss battles feel epic, use HP Gates.
+
+The Rule of Phases
+Bosses do not have a single Health Bar. They have 2 or 3 distinct Phase Bars.
+
+Damage Stop: Damage never carries over between phases.
+
+The Transition: When a Phase Bar reaches 0, any remaining damage from that specific hit is discarded. The boss clears all status effects, triggers a dramatic change (sheds armor, flies into the air, enters a rage), and the next Phase Bar begins at full health.
+
+Example in Play:
+A Dragon has 450 HP, split into three Phases of 150 HP each.
+A warrior lands a massive "Nova Strike" for 64 damage when the Dragon has only 10 HP left in Phase 1.
+
+Result: The dragon takes 10 damage. Phase 1 ends. The remaining 54 damage is discarded. The Dragon roars, changing tactics, and Phase 2 begins with 150 HP.
+
+5. Action Economy: Villain Actions
+
+A party of 5 heroes has 5 Major Actions per round. A single Boss has 1. In high-power games, the Boss will be crowd-controlled and beaten down before they can act.
+
+The Fix: Bosses take Villain Actions outside of their normal turn.
+
+Trigger: At the end of every second player's turn, the Boss may take one Villain Action.
+
+Villain Actions: These are distinct from their Major Attacks. They are crowd control or movement abilities designed to shake up the battlefield (e.g., Wing Buffet, Terrifying Roar, Tactical Retreat, Summon Minion).
+
+
+Addendum: Edge Cases & Clarifications
+1. Additional Damage Scenario
+
+Add this to "The Formula of Pain" examples list.
+
+Scenario D: The Shield Breaker (Armor Penetration)
+Use Case: How "Ignore DR" mechanics interact with high damage rolls.
+
+The Setup:
+Ulag swings a Warhammer at a heavily armored Knight. He uses a Power Attack. He does not crit, but his Warhammer has the Skullcrusher property (Ignores 2 DR).
+
+Step 1: The Base Hit
+
+Warhammer: 7 Damage
+
+Power Attack Cost: +1 Damage
+
+Heavy Handed Perk: +2 Damage
+
+Base Hit Total: 10
+
+Step 2: The Multipliers
+
+None active.
+
+Total: 10 Damage.
+
+Step 3: The Result
+
+The Knight has Plate Armor (DR 8).
+
+Skullcrusher reduces the enemy DR by 2 (8 becomes 6).
+
+Calculation: 10 (Damage) - 6 (Modified DR) = 4 HP Lost.
+
+(Without penetration, the Knight would have taken only 2 damage. Against high armor, penetration is often worth more than raw damage.)
+
+2. Magic & Critical Hits
+
+Clarification for Spellcasters.
+
+Since spells function differently than weapons, the Critical Hit rule applies as follows:
+
+Targeted Spells (Attack Rolls): If a spell requires you to roll to hit (e.g., Firebolt, Ice Spike), it can Critical Hit on a Natural 1, following the standard x2 damage rule.
+
+Area of Effect (Save/Resist): Spells that require the enemy to make a Stat Roll to resist (e.g., Fireball, Blizzard, Paralyze) cannot Critical Hit. The damage is consistent, and perks like Augmented Flames provide flat boosts to compensate for the lack of crit potential.
+
+3. Boss Phases: The Final Blow
+
+Clarification for "The Rule of Phases".
+
+The rule stating "Damage never carries over between phases" applies only to the transition between health bars (e.g., Phase 1 to Phase 2).
+
+The Final Phase Exception: This rule does not apply to the Boss's final health bar. If a player lands a massive critical hit on the boss's final phase that exceeds their remaining HP, the damage is not capped.
+
+Cinematic Result: Describe the overkill as a legendary finishing blow that shatters the enemy entirely. Let the players enjoy the massive number.
+
+Extra rules. Spells can be stacked for effects once you have dual casting, which would take longer to charge up requiring both actions and then being able to cast it on the next turn. This gives both spells effects. Items can be used to add even more effects.
+
+
+
+
+Toryggs legacy uses this.
