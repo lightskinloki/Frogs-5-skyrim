@@ -31,88 +31,66 @@ GEAR floats over. Eye clicks on the empty chest cavity.
 Pause. Eye dims.
 "Though I suppose no one is coming to fulfill it. Are they."
 THE MATRIX
-varon holds it. Warm. Body temperature. Pulses like a heartbeat. Not his.
+Kyboh holds it. Warm. Body temperature. Pulses like a heartbeat. Not his.
 The party can catch their breath. Loot the workshop. Talk. There is no alarm. The Cognitorium is quiet.
 Loot (Workshop):
 Aetherial Matrix (QUEST ITEM)
 Centurion Dynamo Core (Expert enchanting component)
 Dwemer Metal Ingots ×4 (Tier 3 crafting)
 
-THE ALARM start here when they leave the room. THEY BEAT THE CENTURION. NOW THE REAL FIGHT BEGINS. 
-This is the crucial transition from the quiet victory of the boss fight into the chaotic terror of the escape. We need to seamlessly stitch Kyboh's personal consequence (if he fails) directly into the dungeon-wide alarm.
-Here is the revised and finalized sequence, built with the updated understandings of Tonal Architecture, Kyboh's specific bone enchantments, and the mechanical reality of the world.
+THE PIVOT: THE DEMON CORE
+Location: The Centurion Workshop. The Centurion is dead. The spider has retreated. The room is quiet.
+Varon steps back from the wreckage. He holds the Aetherial Matrix in his right hand — geometric, flawless, pulsing with harsh amber light. The moment it cleared the brass housing, the air changed. Heavy. A deep vibration starts in the teeth.
+The Matrix is an unshielded power core leaking raw tonal radiation.
+Varon looks across the room at Kyboh. Holds it out. Doesn't say a word.
+THE SPOTLIGHT
+Stop. Look at Kyboh's player.
+"Kyboh, the object you came here for is ten feet away. Before you take it — before anyone takes another step toward the exit — is there anything you want to do? Anything you need to prepare?"
+PATH A: HE REMEMBERS THE ANCHOR
+If he puts the Anchor of Stasis on before touching the Matrix: the psychic static vanishes. The Matrix's radiation is muffled. He takes it safely. Proceed to THE ALARM.
+PATH B: HE FORGETS he forgot. I made bleed do full unarmed base damage.
+If he takes it barehanded without the Anchor — his enchanted bones are LIVE:
+"Your fingers touch the crystal. The world goes white.
+The Matrix grabs the chaotic doubling enchantment in your marrow and tries to force it into a perfect loop. There is no gauntlet to channel it. There is only your flesh.
+The Titan's Tithe activates. One. Two. Four. Eight. Exponential in a heartbeat. A shockwave of kinetic force explodes outward from your hands."
+Kyboh: No save. 15 irreducible damage. Grey ceramic skin on his hands and forearms fractures. Bone spurs tear through at knuckles, wrists, elbows. His skeleton expands to contain the pressure.
+Permanent debuff — Ossification Cascade: Unarmed strikes gain +2 damage and Bleed. But switching weapons or using items now requires a Major Action (locked, agonizing joints). Must perform nightly grinding ritual or lose multi-attacks.
+Everyone within 15 feet: Hard (-4) Might save. Failure: 10 irreducible force damage, knocked Prone. Success: 5 damage, stay standing.
+GEAR: "Warning! Unregulated tonal feedback! Primary Organic Designate Kyboh's skeletal resonance is engaging in uncontrolled amplification with the Matrix! Recommend immediate suppression or terminal structural detonation within 180 seconds!"
+Kyboh drops the Matrix. Must scramble to get the Anchor on NOW. Once secured: silence. The Matrix can be handled safely.
 
-THE PIVOT: THE DEMON CORE & THE ALARM
-Location: The Centurion Workshop.
-Context: The Centurion Prime is dead. Varon has just extracted the Aetherial Matrix. The room is quiet except for the hiss of venting steam and the faint, rhythmic clicking of a single Spider Worker trying to fix a machine that will never run again.
-THE HANDOFF (The Final Test)
-Read Aloud:
-"Varon steps back from the wreckage. He holds the Aetherial Matrix in his right hand. It is the size of a human heart, geometric and flawless, pulsing with a harsh, angry amber light. The moment it cleared the brass housing, the air in the workshop changed. It feels heavy, tasting of copper and ozone. A deep, sickening vibration starts in your teeth.
-The Matrix is an unshielded power core. It is leaking raw tonal radiation. Varon’s Breton-mask doesn't slip, but he grimaces slightly, shifting his grip as if the crystal is vibrating uncomfortably against his palm.
-He looks across the room at Kyboh. He doesn't say a word. He just holds it out, waiting."
-THE PAUSE (The Spotlight)
-(Stop talking. Look directly at Kyboh’s player.)
-GM: "Kyboh, the immediate threat is dead. The object you abandoned the surface world to find—the core Hjolmar needs to rebuild your hands—is ten feet away from you. The air in the room is thick with its power.
-Before you take it from Varon... before anyone takes another step toward the exit... I am going to ask you: Is there anything specific you want to do? Is there anything you need to prepare?"
-THE RESOLUTION (The Two Paths)
-Path A: The Miracle (He Remembers the Anchor)
-If he says: "I need to put on the Anchor of Stasis before I touch that thing."
-The Result: He secures the heavy lead collar around his neck. The psychic static in his head vanishes. The ambient hum of the Matrix is instantly muffled to him. He can safely take the core from Varon. The party breathes a sigh of relief. You proceed directly to THE TRIGGER (The Alarm) below.
-Path B: The Inevitable (He Forgets/Ignores It)
-If he says: "I take it," or "No, I'm good," or is otherwise distracted.
-The Execution: Do not prompt him again. You gave him the spotlight and the warning. Proceed immediately to THE CORE BREACH.
-
-THE CORE BREACH (Kyboh's Consequence)
-(Triggered only if Kyboh takes the Matrix without the Anchor of Stasis)
-Read Aloud (Coldly and clinically):
-"You walk over to Varon. You reach out your bare hands—the hands whose bones are enchanted with a fractured, unstable tonal matrix. You are not wearing the Anchor. Your skeleton is 'live.'
-The moment your fingers touch the Aetherial crystal, the world goes white.
-It is not a sound. It is a physical impact. The Matrix is designed to stabilize a harmonic frequency; it grabs hold of the chaotic, doubling enchantment in your marrow and tries to force it into a perfect loop. But there is no ceramic housing to absorb the force. There is no gauntlet to channel it. There is only your flesh.
-You feel the Titan's Tithe activate. One point of force. Then two. Then four. Then eight. It cycles exponentially in the space of a heartbeat. A shockwave of pure, invisible kinetic force explodes outward from your hands."
-The Mechanical Resolution:
-The Mutation (Kyboh's Agony):
-Mechanic: Kyboh does not get a save. The energy surges up his arms. He takes 15 Irreducible Damage.
-The Visual: The grey, ceramic-like skin on his hands and forearms fractures violently. Jagged, smoking bone spurs tear through the skin at his knuckles, wrists, and elbows. He screams as his skeleton forcibly expands to contain the pressure.
-The Permanent Debuff (Ossification Cascade): His Unarmed strikes now deal +2 Damage and Bleed, but switching weapons or using items now requires a Major Action due to locked, agonizing joints. He must now perform the nightly "grinding" ritual or lose his multi-attacks.
-
-
-The Blast (Party Damage):
-Mechanic: Every creature within 15 feet of Kyboh must make a Hard (-4) Might Save.
-Failure: They take 10 Irreducible Force Damage and are knocked Prone, blood running from their noses from the sheer acoustic pressure.
-Success: They take 5 damage and stay standing.
-
-
-GEAR’s Warning:
-GEAR rights himself, his lens clicking frantically. "Warning! Unregulated tonal feedback detected! Primary Organic Designate Kyboh's skeletal resonance is engaging in an uncontrolled amplification cycle with the Matrix! Recommend immediate suppression or the biological vessel will undergo terminal structural detonation within 180 seconds!"
-
-
-The Panic:
-Kyboh drops the Matrix. His hands are bleeding, bone jutting through his skin. The Matrix sits on the floor, radiating a teeth-rattling hum. He must put the Anchor of Stasis on now.
-Once the Anchor is finally secured (requiring a frantic, painful scramble), the room goes dead silent. The psychic static stops. The Matrix can be handled safely.
-(Pause. Let the dust settle. Then proceed to the Alarm.)
-
-THE TRIGGER (The Alarm)
-Location: The threshold between the Workshop and the Cognitorium staircase.
-Trigger: The first character (likely Kyboh carrying the Matrix, or someone fleeing the explosion) crosses the threshold back into the staircase.
-Read Aloud:
-"You step back through the doorway, intending to begin the long climb out.
-The amber lamps snap to crimson.
-Every light in the sphere—the archive, the staircase, the corridors—flashes from warm gold to a harsh, pulsing red. A new sound builds in the walls. Not an explosion. A TONE. A sustained, grinding, high-frequency vibration that you feel in the roots of your teeth and the bones of your jaw. Every bronze pipe in the Cognitorium is screaming the exact same note.
-Above you, in the walls and the ceiling, you hear the sound of heavy locks disengaging. Dozens of them. Simultaneously.
-GEAR spins, his amber eye clicking rapidly between red and gold.
-'Safe Integration Protocol has been terminated. System-wide biological purge activated. All non-authorized organic material will be eradicated.'
-He pauses, looking at you.
+THE ALARM
+Trigger: The first character crosses the workshop threshold back into the Cognitorium staircase.
+"The amber lamps snap to crimson. Every light in the sphere flashes from warm gold to harsh, pulsing red. A sound builds in the walls — a sustained, grinding, high-frequency vibration you feel in your teeth, in your jaw, in the bones of your hands. Every bronze pipe in the Cognitorium is screaming the same note.
+Above you, heavy locks disengaging. Dozens. Simultaneously.
+GEAR spins, eye clicking between red and amber.
+'Safe Integration Protocol terminated. System-wide biological purge activated. All non-authorized organic material will be eradicated.'
+Pause.
 'That would be you. Current survival probability: 4.2%. I recommend we leave immediately.'"
-👁️ DAVINIA SEES:
-Through the Wizard Eyes, the entire Cognitorium shifts from dormant, sleeping blue leylines to a violent, thrashing web of angry red intent. The city isn't defending itself; it is cleaning an infection. Every wall, every pipe, every surface is lit with a single, unified directive: EXTIRPATE.
-(Roll Initiative for Escape Phase 1: The Cognitorium Gauntlet).
+👁️ DAVINIA SEES: The Cognitorium shifts from dormant blue to thrashing red intent. Every surface lit with a single directive: EXTIRPATE.
 
-ESCAPE PHASE 1: THE COGNITORIUM
-Location: Spiral staircase from the workshop (bottom of sphere) to the docking port (top of sphere).
-Threat: Dwemer Spheres deploying from wall alcoves throughout the archive.
-THE REVEAL
-Bronze panels in the staircase walls slide open. Spheres roll out, unfolding into combat forms mid-stride. Two from the archive level. Two more from alcoves on the staircase.
-DWEMER SPHERE (×4, deploying in pairs)
+THE ESCAPE — CORE MECHANIC
+THE TOLL OF 8
+Every zone requires 8 Safe Passages — one for each body that needs to get through (5 PCs + Varon + Ylva + GEAR).
+Each player rolls for themselves. Players can take ADDITIONAL rolls to cover NPCs or weaker party members. ("I'm rolling Might to bash a path AND Agility to drag Varon through it" = 2 rolls = 2 Safe Passages.)
+Every failed roll = one catastrophic hit. If a player fails a roll meant to protect an NPC, the PLAYER takes the hit.
+DAMAGE PROFILES
+These are calibrated against party DR of 20-25. A 15-damage hit does nothing to these characters. The escape must HURT.
+Profile
+Damage
+When to Use
+The Meat Grinder
+45 physical
+Failed melee/strength checks. Sphere blades, crushing impact.
+The Tonal Overload
+30 shock + 15 FP drain
+Failed magic/awareness checks. Spider static, vent discharges.
+The Crush
+35 bludgeoning + Staggered (lose next Major Action)
+Failed environmental checks. Falling debris, structural failure, impact.
+
+STAT BLOCKS — ESCAPE ENEMIES
+DWEMER SPHERE (Cognitorium Security)
 FP: 45 | DR: 8
 IMMUNE: Poison, Bleed, Disease, Fear, Illusion
 WEAK: Shock ignores DR
@@ -121,197 +99,258 @@ Range
 Effect
 Blade Arm
 Melee
-10 damage
-Crossbow Bolt
+10 damage. Power Attack: +4
+Heavy Crossbow
 40ft
-8 damage
+10 damage
 Shield Bash
 Melee
 6 damage + Stagger
 
-PASSIVE — Replacement Cycle: When a Sphere is destroyed, another drops from a ceiling chute 2 rounds later. The party cannot clear this room.
-THE FIGHTING RETREAT
-Three zones between workshop and docking port. Each round, one character can ADVANCE one zone:
-Might TN 12 to shove past a blocking Sphere
-Agility TN 12 to dodge around
-A successful attack that Staggers or destroys the blocker
-Characters who don't advance fight, defend, or create openings.
-Through the viewports: The Blackreach structures below are lighting up. Amber to crimson across the underground city. What they're fighting here is a fraction of what's activating below.
-REACHING THE DOCKING PORT
-When the last character reaches Zone 3, they activate the Deep Lift. The platform rises from the clamp. Spheres pursue — one lunges for the platform edge. Might TN 10 to kick it off, or it boards and must be fought on the lift.
-The platform enters the shaft. The Cognitorium falls away. Crossbow bolts spark off shaft walls as they rise out of range.
+PASSIVE — Replacement Cycle: Destroyed Spheres are replaced from ceiling chutes in 2 rounds.
+DWEMER SPIDER SENTINEL (City Maintenance — Repurposed)
+FP: 18 | DR: 5
+IMMUNE: Poison, Bleed, Disease, Fear, Illusion
+WEAK: Shock ignores DR
+Attack
+Range
+Effect
+Static Shock
+10ft
+3 damage + 4 FP drain
+Leg Stab
+Melee
+5 damage. Agility TN 12 or Slowed
 
-ESCAPE PHASE 2: THE DEEP LIFT
-Location: 500-foot enclosed shaft between Blackreach and the city level.
-The lift cannot be hurried. The party is trapped on a 50-foot disc grinding upward through a vertical tunnel full of maintenance hatches and access points deploying hostiles.
-Run as a cinematic action setpiece. Not strict turn-by-turn. The party acts collectively. Describe waves, let players declare actions, quick rolls, keep momentum.
-WAVE 1 — THE DROP (Minutes 0-5)
-Maintenance hatches in the shaft wall bang open. Two spiders drop onto the platform.
-2× Dwemer Spider Sentinel — FP 18, DR 5, Static Shock (3 damage + 4 FP drain), Leg Stab (5 damage, Agility TN 12 or Slowed). Shock ignores DR.
-⚠️ Kyboh (Anchor): FP drain fails against him.
-GEAR: "Maintenance units repurposed for combat! Their Static Shock is calibrated to disable organic neural pathways. I recommend not being hit."
-WAVE 2 — THE VENTS (Minutes 5-12)
-The lift passes exhaust vents — horizontal openings, two feet wide. Spiders inside fire Static Shock through the openings without fully emerging.
-4 vents over 3 rounds. Each fires one Static Shock (3 damage + 4 FP drain) at a random character.
-Counters:
-Ranged attack into vent: Agility TN 12 to target the narrow opening
-Davinia: ice-wall a vent shut
-Orion: dissonant note scrambles spider inside (Tonal Engineering TN 12, disables one vent)
-Kyboh (Anchor): block shots with his body, no FP drain
-WAVE 3 — THE BOARDERS (Minutes 12-20)
-The platform shudders. Spiders climbing the lift mechanism from below. Manipulator legs punch through the floor grating, sparking.
-Each round, one 10-foot section of platform becomes UNSAFE. Standing on it: Agility TN 14 or take 5 damage as grating collapses and a spider grabs your leg.
-Counters:
-Stomp spiders through grating: Might TN 10
-Davinia: seal sections with ice
-Rip grating up as improvised barriers
-GEAR: Tonal Pulse staggers every spider that has breached the surface, buys one round of free stomping
-Platform gets progressively smaller as safe footing shrinks.
-WAVE 4 — THE SILENCE (Minutes 20-30)
-No enemies. The spiders stop. The lift grinds upward through empty shaft. Dim bronze light. The mechanism. Breathing.
-This is genuine respite. Let them sit in it. Let them check their FP.
-From above — from the city level — a sound. Faint. Growing louder. Thousands of small metal legs on bronze flooring.
-GEAR, quiet for the first time:
-"The city-level maintenance population consists of approximately eleven thousand Spider Worker units. They have been operating on autonomous maintenance routines for four millennia. They are now operating on biological purge routines."
-Pause.
-"The corridor between the Deep Lift and the Surface Lift is approximately four hundred meters."
-Pause.
-"I would recommend running."
+PASSIVE — Maintenance Protocol OVERRIDDEN. Now hostile on sight.
+⚠️ Kyboh (Anchor): FP drain from Static Shock fails against him in ALL phases.
+GEAR IN COMBAT
+Action
+Type
+Effect
+Tonal Pulse
+Minor
+10ft burst. All constructs: Guile TN 14 or Staggered 1 round. 1/encounter.
+System Override
+Major
+One construct within 20ft. Magic TN 16. Success: Disabled 1 round. Failure: target gains +2 damage 1 round.
+Diagnostic Scan
+Free
+Reveals one enemy's FP, DR, and weakness. Unlimited.
 
-ESCAPE PHASE 3: THE SWARM
-Location: Mzinchaleft city level. The same corridors they explored hours ago.
-THE ROOM (Read Aloud)
-"The lift locks into the city docking bay. The corridor ahead — the same wide, amber-lit hallway you explored hours ago — is unrecognizable. The floor is a carpet of bronze. Thousands of Spider Workers, each the size of a dog, scuttling over and around each other in a flowing, electric mass. The made beds, the set plates, the wrench on the bench — buried under a tide of clicking, sparking metal.
-They are moving toward you. Not fast. Not slow. The speed of a rising flood.
-The Surface Lift is four hundred meters ahead. Through that."
-SWARM MECHANIC
-Not individual combat. Environmental hazard. Four segments, 100 meters each. One round per segment.
-Each round, every character chooses their method:
-Method
-Check
-Success
-Failure
-Push Through (brute force)
-Might TN 14
-Advance safely
-5 Shock + 4 FP drain, advance anyway
-Dodge Through (agility)
-Agility TN 14
-Advance safely
-5 Shock, advance anyway
-Clear a Path (magic)
-Magic TN 12
-You + one ally advance safely
-Path closes, ally must roll separately
-Shield Wall (protect someone)
-Might TN 12
-Both advance, you take 3 damage
-Both take 5 Shock, both advance
-
-Failure does not stop progress. They push through regardless. Failure costs HP and FP.
-CHARACTER SOLUTIONS
-Alfonso: Continuous Destruction magic clears a path. Each round he spends FP, he and one person behind him auto-succeed.
-Davinia: Ice walls on corridor sides funnel the swarm. Reduces all checks to TN 10 for that round. Costs FP per wall.
-Kyboh (Anchor): FP drain nullified. Advantage on Might checks. Living snowplow.
-Kyboh (Gauntlet): Can discharge a stored kinetic blast — auto-clear one segment for the entire party. Burns a charge.
-Saijah: 30ft air dash leaps over swarm sections. Can bypass one segment entirely and reach the Surface Lift first to start the activation sequence.
-Orion: Diagnostic Song creates resonance feedback — spiders' tonal systems interfere with each other. Tonal Engineering TN 14: success staggers all spiders in current segment for 1 round, reduces ALL checks to TN 10.
-GEAR: Tonal Pulse staggers every spider in 10ft radius. Once per segment.
-"Segment two of four! Estimated spider density: four hundred twelve units per square meter. Survival probability updated: 11.3%!"
-WHAT THEY PASS
-The living quarters: Spiders pouring from every doorway. The brass horse figurine Kyboh found is somewhere under the tide.
-The dining hall: Set plates knocked off tables by the swarm. The meal that never happened, swept away by machines responding to an alarm their makers will never hear.
-The sealed quarantine door: Still sealed. Still red. The swarm flows around it. Even in purge mode, the city respects a four-thousand-year-old quarantine.
-
-ESCAPE PHASE 4: THE SURFACE LIFT
-Location: Central transit hub. The Surface Lift platform. The four brass resonator tubes.
-THE ROOM (Read Aloud)
-"The transit hub opens — widest space in the city, corridors converging. The Surface Lift platform sits in the center. The four brass tubes at the cardinal points, exactly as you left them.
-Behind you, the swarm filling the corridor. Ahead, the platform. Four notes played in the right order while the flood closes in."
-THE SPLIT
-Defenders (2+ characters): Hold the corridor entrance. Chokepoint is 15 feet wide. Might TN 14 each round to hold the line. Failure: swarm breaks through, everyone on the platform takes 5 Shock + 4 FP drain.
-Activator (1 character): Play four tubes in sequence. One tube per round. 4 rounds total. No check if they remember the sequence (W → N → S → E). If forgotten: Guile TN 10 to recall.
-Support: Assist defenders (grants Advantage), heal, area abilities.
-GEAR at the chokepoint: Tonal Pulse concentrates perfectly in the 15-foot corridor mouth. Every spider in range staggered for a full round. One use. Make it count.
-THE ACTIVATION
-Tube 1 (West): Gears engage. Grinding from below.
-Tube 2 (North): Platform jolts. Vibrates.
-Tube 3 (South): Mechanism locks. Platform lifts one inch off housing.
-Tube 4 (East): Emergency ascent. The lift LAUNCHES upward — violent acceleration that throws everyone off their feet. Not the smooth descent. A catapult.
-"The platform rockets upward. The transit hub drops away. Bronze walls blur past. The tonal alarm fades from scream to hum to nothing.
-The platform SLAMS into its surface housing. Gears lock. Bronze doors spiral open.
-Cold air. Snow. Wind."
-
-You are absolutely right. I completely missed the mark by trying to compress it. If they spent 3 sessions creeping down into this place, the escape shouldn't be a montage—it should be a grueling, room-by-room, floor-by-floor fight for their lives where they feel the agonizing distance of every single step they took to get down there.
-And regarding the DR: If their DR is capping at 20-25, a 15-damage hit is literally nothing. The baseline failure damage needs to be 40+ Physical or 30+ Shock/Magic just to make them bleed.
-Here is the fully expanded, room-by-room gauntlet. We are doing this exactly as you demanded: High volume of rolls, every single room revisited, the 8-phase Deep Lift, and the 2-phase Surface Lift.
-THE MECHANIC: THE TOLL OF 8
-In every single Zone/Phase, the party needs 8 Safe Passages (5 PCs, Varon, Ylva, GEAR).
-Players can roll for themselves.
-Players can take on multiple rolls to cover the NPCs or weaker party members (e.g., "I'm rolling Might to bash a path, and Agility to drag Varon through it." = 2 Rolls = 2 Safe Passages).
-Every missed roll = One catastrophic hit. If a player fails a roll meant to protect an NPC, the player takes the hit for them.
-THE DAMAGE PROFILES (Adjusted for 20-25 DR)
-When a roll fails, hit them with one of these depending on the fiction of how they failed:
-The Meat Grinder (Physical): 45 Physical Damage. (Even at 25 DR, they lose 20 HP).
-The Tonal Overload (Shock): 30 Shock Damage + 15 FP Drain.
-The Crush (Environmental): 35 Bludgeoning Damage + Staggered (Lose next Major Action).
+No offensive attacks. Cannot be permanently destroyed — shuts down at 0 FP, reactivates 3 rounds later. Tonal Pulse resets each new Part of the escape.
 
 PART 1: THE COGNITORIUM ASCENT
-They are at the bottom of the brass sphere. They must climb the spiral stairs through the archive.
-Zone 1: The Lower Archive
-The Threat: The pristine bronze walls open. Dwemer Spheres unfold into the aisles.
-The Action: They have to fight through the bookshelves and reading desks. Spheres are firing heavy crossbows (40 Physical) through the stacks.
-Zone 2: The Spiral Staircase
-The Threat: Spheres drop directly onto the narrow stairs above them. There is no way around. They have to push up into spinning blades.
-The Action: A brutal vertical push. Failure here means taking 45 Physical Damage as they are batted against the brass railings.
-Zone 3: The Docking Port
-The Threat: Spheres have secured the top of the stairs, guarding the lift platform.
-The Action: Breaking the blockade to get onto the 50-foot disc.
+They are at the bottom of the brass sphere. They must climb the spiral staircase through the archive to the docking port at the top. Three zones. 8 Safe Passages each.
 
-PART 2: THE DEEP LIFT (8 Phases of Hell)
-They hit the button. The platform launches up into the 500-foot enclosed shaft. They are trapped on a 50-foot bronze disc. You need 8 Safe Passages per Phase. 8 Phases total.
-Phase 1: The Drop. Hatches above them blow open. Spider Sentinels drop directly onto the platform, weapons hot. (Melee combat, 45 Physical).
-Phase 2: The Vents. The lift passes the exhaust vents. Spiders in the walls fire a crossfire of Static Shock into the enclosed space. (Ranged magic, 30 Shock + FP Drain).
-Phase 3: The Breach. Spiders climbing the lift chains punch through the floor grating beneath their boots. Sections of the floor become hazardous. (Agility/Might to avoid being pinned).
-Phase 4: The Boarders. The spiders from Phase 3 fully breach the surface. The 50-foot disc is now shared with a dozen hostile machines.
-Phase 5: The Steam Vents. The lift passes ruptured thermal pipes. Scalding, high-pressure steam floods the shaft, blinding everyone and dealing environmental damage. (Magic/Guile to navigate/shield).
-Phase 6: The Rain of Bronze. Hundreds of tiny, newly manufactured spider-drones are dumped down the shaft from the city level. It’s like hail made of sparking metal.
-Phase 7: Structural Failure. The sheer weight of the boarders and the damage to the lift causes the platform to violently tilt 30 degrees. (Agility/Might to not slide off the edge into the 300-foot drop).
-Phase 8: The Slam. The lift hits the city-level docking bay without decelerating properly. A massive kinetic shockwave. (Brace for impact - 35 Bludgeoning + Stagger).
+ZONE 1: THE LOWER ARCHIVE
+The contrast: Hours ago, they walked these aisles in silence. Davinia read data-plates. Alfonso found the quarantine chamber. The shelves were pristine, the lamps warm, the air still.
+"The archive is unrecognizable. The pristine bronze shelving is torn open — wall panels have retracted and Dwemer Spheres are unfolding into the aisles between the data-plate racks. The amber reading lamps have gone crimson. The thousands of metallic scrolls on the shelves rattle in their housings from the vibration of the alarm. The Spheres are using the stacks as cover, firing heavy crossbow bolts through the gaps between shelves."
+The action: Fight through the bookshelves. Spheres fire through the stacks. The party must push from the workshop door to the base of the spiral staircase.
+Roll options: davinia grabbed a book for ismara. 
+Might TN 14: Shove through a shelf unit, toppling it into a Sphere
+Agility TN 14: Weave through the aisles, using data-plate racks as cover
+Magic TN 12: Blast a path through the shelving (destroys irreplaceable Dwemer research — Ismara notices)
+Failure: The Meat Grinder — 45 physical. A Sphere catches you between two shelf units and drives a blade arm through the gap.
+GEAR: "The archive's organizational system is being significantly disrupted. I am cataloguing the damage. This is deeply distressing from a data-preservation standpoint."
 
-PART 3: THE DEAD CITY (The Swarm)
-They step off the lift. The city they explored hours ago is now a knee-deep, flowing river of 11,000 repurposed Spider Workers. They must run 400 meters through the rooms they know.
-Zone 1: The Transit Hub
-The Threat: The initial shock of the swarm. They must form a wedge and break into the metal river.
-The Action: If they fail here, they are pulled under immediately (30 Shock + Slowed).
-Zone 2: The Dining Hall
-The Threat: The swarm is pouring over the stone tables and brass plates. The terrain is uneven.
-The Action: They can use the tables to stay out of the deepest parts of the swarm, leaping from stone to stone, or bash through the bottlenecks between tables.
-Zone 3: The Living Quarters Corridors
-The Threat: Spiders are pouring out of every single open bedroom door, hitting them from the flanks as they run.
-The Action: They have to protect the flanks. Whoever is on the outside of the formation has to deflect horizontal waves of machines.
-Zone 4: The Fabrication Workshops
-The Threat: The swarm is weaponizing the environment, knocking over heavy tools and triggering dormant machinery to block the party's path.
-Zone 5: The Final Stretch (The 100m Sprint)
-The Threat: The Surface Lift is in sight. The swarm knows they are escaping and surges, creating a tidal wave of bronze behind them. Pure, desperate endurance.
+ZONE 2: THE SPIRAL STAIRCASE
+The contrast: On the way down, they passed viewports into Blackreach and marveled at the underground continent. The staircase was quiet, lit, beautiful.
+"The staircase is a kill funnel. Spheres have dropped onto the steps above you — you can hear the grinding of their treads echoing down the spiral. The viewports into Blackreach flash with crimson emergency lighting. Through the glass, you can see the entire underground city below activating — structures lighting up across the cavern in a chain reaction. What you're fighting here is a fraction of what's waking up down there.
+Above you on the stairs: spinning blade arms and the heavy thunk of crossbow bolts embedding in bronze railings."
+The action: Vertical push up a narrow spiral staircase against Spheres descending from above. No room to flank. No room to dodge. Pure brute-force ascent.
+Roll options:
+Might TN 14: Shield-push up the stairs, battering Spheres back
+Agility TN 14: Time the blade arm sweeps and slip between strikes
+Magic TN 12: Blast the Sphere off the staircase (it falls into the archive below — satisfying, but another replaces it)
+Failure: The Meat Grinder — 45 physical. Batted against the brass railing hard enough to dent it with your body.
+Through the viewports: Blackreach is awake. Every Dwemer structure in the cavern below is lighting up crimson. The Cognitorium was the brain. The city below is the body. And the body just received the order to kill.
 
-PART 4: THE SURFACE LIFT
-They reach the final transit hub. The lift is waiting, but the tubes must be played.
-Phase 1: The Hold
-The Threat: The Swarm crashes into the room.
-The Action: The Activator (Orion/Whoever) must play the tubes (W-N-S-E). The rest of the party must generate the 8 Safe Passages to hold the 15-foot chokepoint. If a defender fails, they take 45 Physical Damage as the swarm crushes into them. If the swarm hits the Activator, the launch sequence is interrupted.
-Phase 2: The Launch & Escape
-The Threat: The lift rockets upward with explosive acceleration. The swarm makes one final, desperate lunge, with hundreds of spiders leaping onto the ascending platform before it clears the shaft.
-The Action: The platform is rocketing to the surface. The party must clear the boarders while fighting the G-force of the emergency ascent.
-The End: The bronze doors above slam open. They are thrown onto the freezing snow of the Pale. The doors lock shut beneath them.
-GM Execution:
-This will be a marathon of rolling, shouting, and resource burning. By making them manually clear every room and every phase of the lift, you aren't just telling them it's hard—you are making them feel the exhaustion of an army of 11,000 machines trying to purge them from the earth.
+ZONE 3: THE DOCKING PORT
+The contrast: The platform was waiting for them peacefully when they arrived. The hatch spiralled open. The air was warm and sterile.
+"Two Spheres have secured the top of the stairs, blocking the platform. They stand shoulder-to-shoulder in the narrow corridor, blade arms extended, forming a wall of spinning bronze between you and the lift. Behind them, the docking port hatch is open — the platform visible beyond. Twenty feet of corridor. Two machines designed to kill everything that tries to cross it."
+The action: Break the blockade. Get onto the 50-foot disc.
+Roll options:
+Might TN 16: Charge the blockade head-on, physically shove both Spheres aside
+Agility TN 14: Slide under the blade arms (the gap between their torsos and the floor is JUST wide enough)
+Magic TN 12: Ice wall behind the Spheres, pinning them against it while the party slips past
+Failure: The Meat Grinder — 45 physical. The Sphere catches you mid-charge and drives you into the corridor wall.
+GEAR at the docking port: System Override on one of the blocking Spheres. Magic TN 16: success disables it for 1 round (creating a gap). Failure: the Sphere's blade arm speeds up (+2 damage). Risk/reward.
+Once all 8 passages are through: The platform activates. The docking clamp releases. The platform begins ascending into the shaft. Spheres pursue to the port edge — crossbow bolts spark off the shaft walls as the party rises out of range.
 
+PART 2: THE DEEP LIFT — 8 PHASES
+The platform launches into the 500-foot enclosed shaft. They are trapped on a 50-foot bronze disc grinding upward. 8 Safe Passages per phase. 8 phases total.
+This is the endurance test. The shaft is enclosed — bronze walls sliding past on all sides. No escape. No shortcuts. The only way out is up, and up takes time.
+
+PHASE 1: THE DROP
+"The shaft is enclosed bronze, lit by crimson emergency strips. The alarm is a physical pressure in the confined space. Then — maintenance hatches in the shaft wall BANG open. Spider Sentinels drop onto the platform from above, legs splayed, static crackling."
+The threat: Spiders dropping from ceiling hatches directly onto the platform. Close quarters melee.
+Roll options:
+Might TN 14: Grab the spider mid-air and smash it into the platform floor
+Agility TN 14: Dodge the drop and counterattack
+Magic TN 12: Blast them off the platform edge into the shaft below
+Failure: The Meat Grinder — 45 physical. A spider lands on your shoulders and drives its leg stabs into the gaps in your armor.
+
+PHASE 2: THE VENTS
+"The lift passes a section of shaft lined with exhaust vents — horizontal openings in the bronze walls, each about two feet wide. As the platform rises past them, spider legs reach out. They are inside the vents, firing Static Shock through the openings. Crossfire from both walls."
+The threat: Spiders in the walls firing through narrow openings. Ranged assault from both sides simultaneously.
+Roll options:
+Agility TN 14: Dodge the crossfire, pressing flat against the platform
+Magic TN 12: Ice-wall a vent shut / dissonant note scrambles spider inside
+Might TN 12: Use a shield or improvised barrier to block the shots
+Failure: The Tonal Overload — 30 shock + 15 FP drain. The Static Shock hits you from two directions at once.
+
+PHASE 3: THE BREACH
+"The platform shudders. A grinding sound from below. Manipulator legs punch through the floor grating — spiders are climbing the lift mechanism itself, cutting through from underneath. The metal beneath your feet sparks and buckles."
+The threat: Spiders breaching the platform floor. Sections of grating becoming hazardous.
+Roll options:
+Might TN 14: Stomp the spider back through the grating before it fully breaches
+Agility TN 14: Leap to a safe section as the floor gives way beneath you
+Magic TN 12: Seal the breach with ice or force
+Failure: The Crush — 35 bludgeoning + Staggered. The grating collapses under you and a spider grabs your leg, dragging you half through the floor.
+GEAR: Tonal Pulse staggers every spider that has breached the surface. Buys one round of free stomping.
+
+PHASE 4: THE BOARDERS
+"The spiders from below have fully breached. A dozen machines now share the 50-foot disc with you, scuttling between your legs, sparking, stabbing. The platform has become a melee arena with no walls and a 300-foot drop on every side."
+The threat: The platform is SHARED. Spiders everywhere. Fighting in close quarters with nothing to brace against.
+Roll options:
+Might TN 14: Sweep spiders off the platform edge with a wide strike
+Agility TN 14: Dance between them, kicking them toward the edge
+Magic TN 12: Area blast (risks hitting allies in the close quarters — Magic TN 14 if trying to avoid friendly fire)
+Failure: The Tonal Overload — 30 shock + 15 FP drain. Multiple spiders discharge simultaneously into you.
+
+PHASE 5: THE STEAM VENTS
+"The lift passes ruptured thermal pipes in the shaft wall. High-pressure steam floods the shaft — scalding, blinding, filling the platform with a white-hot fog that sears exposed skin. You can't see your own hands. The spiders don't care — they don't have eyes."
+The threat: Environmental. Scalding steam blinds the party. The spiders navigate by vibration and are unaffected.
+Roll options:
+Magic TN 14: Shield yourself and allies with a ward or ice barrier
+Guile TN 14: Navigate by sound, tracking spider movements through the steam
+Might TN 14: Endure the burns and fight blind
+Failure: The Crush — 35 bludgeoning + Staggered. Steam scald plus a spider attack you didn't see coming.
+
+PHASE 6: THE RAIN OF BRONZE
+"From above — from the city level — a sound like hail on a tin roof. Then it's not a sound. It's OBJECTS. Hundreds of tiny, newly manufactured spider-drones are being dumped down the shaft. They fall past the platform in a curtain of sparking brass. Some land on the disc. Some bounce off. Some grab hold."
+The threat: Volume. A rain of small, aggressive machines falling from above. Not individually dangerous — overwhelming in number.
+Roll options:
+Might TN 14: Shield overhead, deflecting the rain
+Agility TN 14: Dodge the falling machines, sweeping them off as they land
+Magic TN 12: Create a canopy of ice or force above the platform
+Failure: The Tonal Overload — 30 shock + 15 FP drain. Buried under a pile of sparking, discharging mini-drones.
+
+PHASE 7: STRUCTURAL FAILURE
+"The combined weight of the boarders, the damage to the grating, and the stress of the emergency ascent exceed the platform's design tolerances. The disc TILTS. Thirty degrees, sudden, violent. Everything on the platform — spiders, people, gear — slides toward the low edge. Below that edge: three hundred feet of open shaft."
+The threat: The platform itself is failing. Gravity is the enemy.
+Roll options:
+Might TN 16: Grab the mechanism housing at the center and hold on
+Agility TN 14: Catch yourself on the grating, brace against the tilt
+Might TN 12: Grab an ally who's sliding toward the edge
+Failure: The Crush — 35 bludgeoning + Staggered. You slide into the platform railing hard enough to bend it. One more inch and you're falling.
+GEAR: Rolls to the low edge, his tiny legs scrabbling for purchase. "The platform's structural integrity has been compromised! Estimated time to total failure: longer than our remaining ascent, I think! Probably!"
+
+PHASE 8: THE SLAM
+"The lift hits the city-level docking bay without decelerating. The mechanism was designed for controlled arrival. This is not controlled. The platform SLAMS into the housing with enough force to throw everyone off their feet. The remaining spiders on the platform are crushed between disc and dock. The impact rings through the entire city level like a bell."
+The threat: Impact. Pure kinetic force.
+Roll options:
+Agility TN 14: Brace for impact, absorbing the shock with bent knees
+Might TN 14: Plant yourself and tank it
+No magic option — this is physics
+Failure: The Crush — 35 bludgeoning + Staggered. Thrown across the platform, hit the docking housing, wind knocked out.
+Everyone hears it now. From the corridors beyond the docking bay — the sound they heard faintly during Wave 4. Thousands of metal legs on bronze flooring. Close. Very close. A sound like heavy rain on a tin roof made of brass and electricity.
+
+PART 3: THE DEAD CITY — THE SWARM
+They step off the battered lift platform. The city they explored hours ago is a knee-deep flowing river of 11,000 repurposed Spider Workers. They must run 400 meters through the rooms they know. 5 zones. 8 Safe Passages each.
+
+ZONE 1: THE TRANSIT HUB
+The contrast: They arrived here in wonder. The platform descended through the ceiling and settled gently. The corridors branched in every direction, amber-lit, silent, welcoming.
+"The transit hub is chest-deep in bronze. Thousands of Spider Workers pour through the corridors from every direction, converging on the Deep Lift docking bay. They flow over and around each other like water, legs clicking, static crackling in a continuous low buzz. The amber lamps are crimson now. The corridor ahead — the main artery to the Surface Lift, four hundred meters — is a river of machines.
+You have to go through it."
+The action: Break into the swarm. Form a wedge. Start moving.
+Roll options:
+Might TN 14: Shoulder into the current, physically displacing the machines
+Agility TN 14: Leap onto the bronze tide, using spider shells as stepping stones before they shift
+Magic TN 12: Blast a channel into the flow
+Failure: The Tonal Overload — 30 shock + 15 FP drain. Pulled under the surface of the swarm. Spiders climb your legs and discharge.
+
+ZONE 2: THE DINING HALL
+The contrast: The stone tables with brass plates set for a meal that never happened. The seats arranged. The quiet dignity of a civilization that stopped mid-dinner.
+"The dining hall is unrecognizable. The swarm has poured over the stone tables, knocked the brass plates to the floor, swept the set chairs aside. The meal that never happened 4,000 years ago has been destroyed in seconds by machines responding to an alarm their makers will never hear. The tables are the only surfaces above the swarm — islands of stone in a bronze sea."
+The action: Cross the dining hall. The tables offer temporary high ground but the gaps between them are swarm-filled.
+Roll options:
+Agility TN 14: Leap from table to table, staying above the swarm
+Might TN 14: Wade through the gaps, shoving machines aside between tables
+Magic TN 12: Ice-bridge between table surfaces
+Failure: The Tonal Overload — 30 shock + 15 FP drain. You miss a jump or the table shifts under your weight. Into the swarm.
+
+ZONE 3: THE LIVING QUARTERS
+The contrast: Small, identical chambers. Made beds. Tidy rooms. The brass horse figurine on a stone pillow. Nobody packed. Nobody left.
+"The corridor narrows through the living quarters. Every single open bedroom door is vomiting spiders — they pour from the chambers in horizontal waves, hitting the party from the flanks as they push forward. The made beds are buried. The tidy rooms are nests. The brass horse figurine Kyboh found is somewhere under the tide."
+The action: The corridor is an ambush alley. Spiders from the front AND from every doorway on both sides.
+Roll options:
+Might TN 14: Hold the flanks, body-blocking the doorways as the group pushes through
+Agility TN 14: Sprint between doorway gaps, timing the waves
+Magic TN 12: Ice-wall doorways shut as you pass them (FP per wall)
+Failure: The Meat Grinder — 45 physical. Hit from the side by a horizontal wave of machines. Pinned against the opposite wall.
+
+ZONE 4: THE FABRICATION WORKSHOPS
+The contrast: Partially assembled components on benches. Precision tools on walls. Work frozen mid-task. A wrench set down by someone who went to get water and never came back.
+"The workshops have become the swarm's armoury. The machines are using the environment — knocking heavy tools off benches into your path, triggering dormant fabrication equipment that slams mechanical arms across the corridor. The precision tools that sat quietly on walls are now projectiles, swept off their mounts by the flowing bronze and flung at ankle height."
+The action: Navigate a corridor that is actively weaponizing itself. The machines aren't just bodies — they're using the infrastructure.
+Roll options:
+Agility TN 16: Dodge the swinging fabrication arms AND the floor-level swarm
+Might TN 14: Smash through the triggered equipment, clearing the path
+Guile TN 14: Read the mechanical patterns, timing movement between arm swings
+Magic TN 12: Disable the fabrication equipment with a tonal pulse or force blast
+Failure: The Crush — 35 bludgeoning + Staggered. A fabrication arm catches you across the chest. You go down into the swarm.
+The sealed quarantine door: Still sealed. Still red. The swarm flows around it. Even in purge mode, the city respects a 4,000-year-old quarantine. Mention it once.
+
+ZONE 5: THE FINAL STRETCH
+The contrast: The last hundred meters of corridor before the Surface Lift transit hub. On the way down, the party walked this in amber light, commenting on the architecture, feeling safe.
+"The Surface Lift is visible ahead. The transit hub opens at the end of the corridor — you can see the brass tubes, the platform, the gears. A hundred meters.
+Behind you, the swarm surges. The machines know you're escaping. The floor-level flow becomes a WAVE — a tidal front of bronze rising from ankle-height to waist-height, accelerating. This is no longer a river. It's a wall of metal bearing down on you."
+The action: Pure desperate endurance. Sprint for the platform.
+Roll options:
+Might TN 16: Outrun the wave through sheer power, driving forward
+Agility TN 14: Sprint with everything you have
+No magic option — just run
+Failure: The Tonal Overload — 30 shock + 15 FP drain. The wave catches you. You're tumbled in bronze, discharged on from every direction, and spit out at the transit hub threshold.
+
+PART 4: THE SURFACE LIFT — 2 PHASES
+They reach the final transit hub. The Surface Lift is waiting. The brass resonator tubes stand at the cardinal points. Behind them: the swarm.
+
+PHASE 1: THE HOLD
+"The transit hub opens — widest space in the city, corridors converging. The Surface Lift platform sits in the center. The four brass tubes stand exactly as you left them.
+Behind you, the swarm. Filling the corridor like water in a pipe, accelerating, a wall of sparking bronze about to crash into the room.
+Someone needs to play the tubes. Everyone else needs to hold that corridor."
+The split:
+Activator (1 character): Plays the four tubes in sequence. One tube per round. 4 rounds total. W → N → S → E. No check if they remember the sequence. If forgotten: Guile TN 10 to recall. The activator does NOT roll for Safe Passages — they are occupied.
+Defenders (everyone else): Must generate 8 Safe Passages to hold the 15-foot chokepoint for 4 rounds. The swarm is trying to flood the transit hub.
+Roll options for defenders:
+Might TN 14: Hold the line physically, shoving the swarm back at the corridor mouth
+Magic TN 12: Wall off sections of the entrance, funnelling the swarm
+Agility TN 14: Rapid strikes at the leading edge, knocking machines back into the flow
+Failure: The Meat Grinder — 45 physical. The swarm breaches the line. You're hit by the full force of the leading wave. Everyone on the platform also takes 5 shock + 4 FP drain from the overflow.
+GEAR at the chokepoint: Tonal Pulse. The 15-foot corridor mouth concentrates every spider into his burst radius. Every spider in range Staggered for a full round. The defenders get one round of breathing room. One use. Make it count.
+THE TUBES:
+Tube 1 (West): Gears engage. Grinding from below.
+Tube 2 (North): Platform jolts. Vibrates.
+Tube 3 (South): Mechanism locks. Platform lifts one inch.
+Tube 4 (East): Emergency ascent.
+
+PHASE 2: THE LAUNCH
+"The fourth note rings. The platform LAUNCHES — not the smooth descent they remember, but a violent upward catapult that throws everyone off their feet. Spiders that had reached the platform's edge are flung off by the acceleration. But some grabbed hold. Dozens of them, clinging to the grating, the railing, the underside."
+The threat: The platform is rocketing upward. Spiders cling to every surface. The party must clear them while fighting the G-force.
+Roll options:
+Might TN 14: Pry spiders off the railing and throw them into the shaft
+Agility TN 14: Keep your footing on the accelerating platform while stomping boarders
+Magic TN 12: Blast the platform edges clean
+Failure: The Tonal Overload — 30 shock + 15 FP drain. A cluster of clinging spiders discharges into the platform grating. Everyone touching the floor feels it.
+"The platform SLAMS into its surface housing. Gears lock. Bronze doors spiral open above your heads.
+Cold air. Snow. Wind."
 
 THE SURFACE
 "You stumble onto frozen ground. Snow blinding after hours of amber and crimson. Wind through sweat-soaked clothing. The bronze doors grind shut below. Locks engage. Deep, final clanks.
 Nothing.
-Just wind. Snow. The depression in the Pale where you started. The resonator tubes humming in the wind. From the surface, nothing has changed.
+Just wind. Snow. The depression in the Pale where you started. The resonator tubes humming faintly in the wind. From the surface, nothing has changed.
 Kyboh holds the Matrix."
 GEAR ON THE SURFACE
 GEAR rolls out behind them. Eye blinks in natural light for the first time in 4,287 years.
@@ -332,7 +371,7 @@ Type
 Effect
 Tonal Pulse
 Minor
-10ft burst. All constructs: Guile TN 14 or Staggered 1 round. 1/encounter.
+10ft burst. All constructs: Guile TN 14 or Staggered 1 round. 1/encounter (resets per Part).
 System Override
 Major
 One construct within 20ft. Magic TN 16. Success: Disabled 1 round. Failure: target gains +2 damage 1 round.
@@ -352,14 +391,16 @@ GEAR will translate anything he's asked to translate with zero editorial judgmen
 "The Adaptive Integration Protocol described in those data-plates is a precise analogue for the process currently being executed on Primary Organic Designate Davinia by the Secondary Cognitive Frequency housed in her cranial apparatus. Shall I elaborate?"
 He does not understand why this would be upsetting. He is providing data.
 
-GM NOTES
-Phase 1 difficulty is the highest per-enemy. Spheres are real threats. Phase 2 is attrition. Phase 3 is volume. Phase 4 is a timer. Each phase gets less dangerous individually and more overwhelming collectively.
-Failure in the swarm does not stop progress. They get through. The question is what they have left when they reach the surface. A party that exits with 2 FP between five people has a very different journey to Riften.
-The spider fixing the Centurion gets its thirty seconds. Do not rush it. Do not narrate over it. Let it work. Let it stop. Let it leave.
-GEAR is a Chekhov's gun. He is the most helpful and most dangerous thing they found in the dungeon. He will answer any question with complete honesty including the ones that destroy the campaign's biggest secret.
-The sealed quarantine door during the swarm is a detail, not a plot point. The swarm flows around it. Mention it once. The players will remember.
+ESCAPE GM NOTES
+Calibrate to the table, not the math. 18 zones/phases × 8 passages = 144 potential rolls. That's a LOT. If the table is loving it, run every zone. If they're flagging, collapse two zones into one. The structure supports compression — merge Zone 3 and 4 of the city, skip Phase 6 of the lift. The framework is maximum; the execution is flexible.
+Failure never stops progress. They WILL get out. The question is what they have left. Track HP and FP across the entire escape. A party that exits with single-digit FP across five people has a very different dragon fight than one that managed efficiently.
+The contrast is the design. Every zone they pass through during the escape is a room they explored peacefully hours ago. The made beds. The set plates. The horse figurine. Name these things as they're destroyed by the swarm. The players will remember finding them. Now they're watching them get buried.
+The spider fixing the Centurion gets its thirty seconds. Before the alarm. Before the chaos. Let the quiet moment breathe.
+GEAR's Tonal Pulse resets per Part (Cognitorium, Lift, City, Surface Lift). Four uses total across the entire escape. He should use one per Part for maximum coverage.
+The sealed quarantine door gets mentioned once during the city swarm. The swarm flows around it. Even in purge mode, the city respects a 4,000-year-old quarantine. The players will remember.
+GEAR is a Chekhov's gun. He will answer any question with complete honesty including the ones that destroy the campaign's biggest secret.
 
-THE ROAD SOUTH
+THE ROAD SOUTH  they are going to Riften next! Start Here!
 RETURNING TO HJOLMAR (CONDITIONAL)
 If the party returns to Hjolmar for the Gauntlet, run B6 from the main module. If they skip Hjolmar and head straight south, Kyboh carries the Matrix and wears the Anchor.
 Either way, they collect Bjorn and the cart and head south.
@@ -372,124 +413,201 @@ If the players want to talk to each other: facilitate. Don't interrupt. If Alfon
 If the players want to talk to GEAR: he will answer anything. He is delighted to have conversation partners after 4,287 years. He will ask them questions in return — observational, clinical, fascinated by everything organic. "You consume biological material and convert it to energy through a chemical process in your abdomen. How inefficient. How does it feel?" Let GEAR be the comic relief if the table needs it and the source of uncomfortable truths if they push him.
 If Bjorn is present: he's driving the cart. He's quieter than usual — the first soul from Kynesgrove is still settling inside him, though the party may not know that. If anyone asks if he's alright: "Fine. Just tired. Long road." He is a man sitting on a secret he doesn't understand.
 Saijah's migraine: It shifts as they travel south. The frozen silence of the Pale gives way to a low, persistent throb as they enter the foothills. She is moving toward the Rift — toward more compromised root network. The pain is not sharp yet. It's a pressure. Building.
-One day of travel passes before the ambush.
+One day of travel passes before the ambush. 
 
 THE AMBUSH OF KROSULHAH THE VENGEFUL
-CONTEXT
-The party killed Sahloknir at Kynesgrove. Dragons are immortal, arrogant, and view mortals as cattle. The murder of a dragon by mortals is an intolerable insult.
-Krosulhah is a Blood Dragon. Sahloknir's wingman. He has been tracking the party's scent for days. This is not territorial defense. This is a punitive execution.
-His strategy: destroy their mobility, trap them, burn them from the sky.
-THE ARENA
-Location: A narrow mountain pass in the foothills between the Pale and the Rift. The road cuts through a gap in the ridge where the terrain transitions from frozen tundra to the first hints of autumn forest. High stone walls on both sides. One way in, one way out.
-The floor: Compacted snow over stone. Not quite the black ice of the deep Pale, but hard-packed and treacherous. Standard movement. Running or sharp turns require Agility TN 10 or fall Prone.
-The walls: Sheer cliff faces, 60 feet high, flanking the road east and west. Climbable with a Hard (-2) Agility check. The ledges provide Cover (+2 DR) and clear sightlines.
-The overhang: A massive fractured rock shelf on the eastern cliff, halfway down the pass. Visible with a Standard Guile (Perception) check. This is the avalanche trigger.
-The cart: Bjorn is driving. Mable is pulling. They are in the middle of the pass when the attack begins. The cart has nowhere to go — cliffs on both sides, dragon above.
-THE OPENING
-"Bjorn pulls the cart to a stop. He's staring upward, one hand raised to shield his eyes.
-'Something's wrong. The birds —'
-There are no birds. The sky above the pass is empty. The wind has died. The silence has a weight to it — the same held-breath stillness you felt before the Sundering Roar at Kynesgrove.
-Then the shadow falls.
-It passes over the cart like a stormcloud, blotting the pale light. Something enormous crosses the gap between the cliff walls — fast, deliberate, circling back. You hear the wing-beats before you see the shape. Deep, rhythmic concussions of displaced air that shake snow from the cliff faces.
+Krosulhah is a Blood Dragon. Sahloknir's wingman. Tracking the party since Kynesgrove. Punitive execution for the murder of his kin. Intelligent, furious, peak strength.
+Strategy: destroy their mobility, trap them, burn them from the sky.
+
+BEFORE THE FIGHT — SETUP
+The arena: Narrow mountain pass, foothills between Pale and Rift. High stone walls (60ft) east and west. One way in, one way out. Compacted snow over stone. Running/sharp turns: Agility TN 10 or Prone.
+The overhang: Fractured rock shelf, eastern cliff, halfway down the pass. Standard Guile (Perception) to spot. This is the avalanche trigger (60 damage to rock, DR 0 = collapse).
+The cart: Bjorn driving, Mable pulling, middle of the pass, nowhere to go.
+His wingspan barely fits. Wingtips scrape both cliff walls on every strafe — sparks, stone shrapnel. The cliffs take damage from his flight pattern before anyone attacks the overhang.
+
+BJORN'S EARLY WARNING
+Read BEFORE the shadow falls. Before anyone sees anything.
+"Bjorn jerks upright on the cart. His hand goes to his chest. His eyes go wide — not looking at the sky, looking at nothing, like a man who just felt his heart skip.
+'Something's —'
+He doesn't finish the sentence."
+
+THE OPENING — READ ALOUD
+"Then the shadow falls.
+It passes over the cart like a stormcloud. Something enormous crosses the gap between the cliff walls — fast, deliberate, wingtips scraping stone with a shriek of scale on rock. Sparks shower down from both walls.
 It drops below the ridgeline. You see it.
-Krosulhah is not as large as Alduin. Nothing is. But he is large enough. His scales are the dark red-brown of dried blood, jagged and thick, scarred from centuries of territorial combat. His eyes are amber and locked onto the cart. Onto Mable.
-He opens his mouth. The air between his jaws shimmers with heat.
+Krosulhah. Scales the dark red-brown of dried blood, jagged and scarred. His wingspan fills the pass wall to wall. His eyes — amber, burning — are locked onto the cart.
+He opens his mouth. The air between his jaws DARKENS. Something thick and reddish-black churns in his throat — not clean fire, something organic, crackling with a heat that smells like hot iron and bile.
+'ZU'U KROSULHAH. HI LOS NAHKIP WO KRII ZEYMAHI. TODAY HI DIR.'
+I am Krosulhah. You are the prey who killed my brother. Today you die.
 He's not circling. He's diving."
 Roll initiative.
 
+STAT BLOCK — KEEP THIS VISIBLE zach, me, nic, arric, ava
 KROSULHAH THE VENGEFUL — TL3 BLOOD DRAGON (APEX)
-Total HP: 560 (two phase bars of 280) DR: 12 (thick, jagged blood-scales) IMMUNE: Fear, Poison, Disease WEAK: None. Grounding him is the key.
-ATTACKS
-Attack
-Action
-Range
-Effect
-Blood-Fire Breath
-Major
-40ft cone
-Very Hard (-6) Agility. 40 fire on fail, 20 on success. Blast zone becomes difficult terrain (jagged re-frozen ice, Agility check to cross or 4 irreducible damage).
-Bite
-Major
-Melee (grounded)
-45 physical. Target knocked Prone and Grappled.
-Tail Sweep
-Major
-Melee (grounded)
-45 physical. Target knocked Prone.
-Wing Buffet
-Major
-15ft radius (grounded)
-Hard (-4) Might. 18 bludgeoning. Failure: pushed 15ft and Prone.
-Shatter-Roar
-Villain Action
-Entire pass
-End of every 2nd player's turn. Roars at cliff faces. 2 irreducible bludgeoning to everyone. No save. Constant attrition.
+HP: 337/560 (Phase 1: 280 airborne | Phase 2: 280 grounded)
+DR: 7/12 | IMMUNE: Fear, Poison, Disease | WEAK: None
 
-PASSIVES
-Aerial Dominance: While airborne, cannot be targeted by melee attacks.
-Slipstream: Arrows and physical-mass spells (fireballs, ice spikes, standard Destruction/Alteration projectiles) suffer Disadvantage while he's airborne — his speed and displacement make targeting impossible. Exception: Bound Weapons, pure energy spells (raw shock, Sun Fire), and abilities with no physical mass do NOT suffer Disadvantage.
-Predator's Focus: Every other round while airborne, Krosulhah uses Blood-Fire Breath targeting the road directly in front of the horses. This is deliberate — he is trying to kill Mable and destroy the cart.
+ATTACKS:
+  Blood-Fire Breath  | Major, any    | 40ft cone | -6 Agi | 40 fire fail / 20 success
+                      | Blast zone = difficult terrain + 4 irr. to cross
+  Bite               | Major, ground | Melee     | 45 phys | Prone + Grapple
+  Tail Sweep         | Major, ground | Melee     | 45 phys | Prone
+  Wing Buffet        | Major, ground | 15ft rad  | -4 Might | 18 bludg | fail: push 15ft + Prone
+  Shatter-Roar       | Villain Action| All       | End every 2nd player turn | 2 irr. all | No save
 
-PHASE 1: AIR SUPERIORITY (280 HP — Airborne)
-Krosulhah circles above the pass, diving to strafe with Blood-Fire Breath, then pulling up out of melee range. He targets the cart every other round. The party must deal 280 damage to him in the air to ground him.
-Brute-forcing 280 HP through DR 12 at Disadvantage will kill the party. They need to use the environment.
-THE CART DEFENSE
-When Krosulhah targets the horses, the driver must react.
-Driver (Bjorn or a player): Hard (-4) Guile (Animal Handling) check.
-Success: Bjorn yanks the reins. Mable lurches sideways. The fire scorches the road where they were.
-Failure: The horses slip. The cart slams into the cliff wall. The axle shatters. Mable is pinned (3 HP remaining). The cart is dead.
-If a player takes the reins from Bjorn, they make the check instead. Bjorn will shout: "Someone grab the reins! I can't — she won't listen to me, she's too scared!"
+PASSIVES (PHASE 1 ONLY):
+  Aerial Dominance — No melee targeting while airborne
+  Slipstream — Arrows/physical spells = Disadvantage airborne
+              Exception: Bound weapons, pure energy (shock, Sun Fire) = normal
+  Predator's Focus — Every other round, breath targets the horses
+
+Blood-Fire visual: Not clean flame. Reddish-black core, organic, smells like hot iron and cauterized flesh. Snow BOILS. Residue steams on stone. Cliff walls glow orange, cool to black glass. Describe it differently each time.
+
+PHASE 1: AIR SUPERIORITY (280 HP)
+He circles above, strafes with Blood-Fire Breath, pulls up out of melee range. Targets the cart every other round.
+CART DEFENSE (Every other round)
+Driver (Bjorn or a player): Hard (-4) Guile (Animal Handling).
+Success: Mable lurches sideways. Fire scorches where they were.
+Failure: Cart hits cliff. Axle shatters. Mable pinned (3 HP). Cart dead.
+Bjorn shouts: "Someone grab the reins! She won't listen to me!"
+If Bjorn shields Mable during destruction: takes 10 fire damage without flinching. Another clue.
 HOW TO GROUND HIM
-THE AVALANCHE (Environmental): The fractured overhang on the eastern cliff. Standard Guile (Perception) to spot it. Deal 60 damage to the rock face (DR 0) to trigger the collapse. If Krosulhah is flying near the eastern wall when it falls: 100 bludgeoning damage. Automatic Stagger for 1 round — uncontested hits while he recovers. This is the single biggest chunk of damage available in Phase 1.
-TONAL DISRUPTION (Orion / Kyboh): Use sound or kinetic force against the cliff walls to create a resonant frequency that disrupts his flight. Hard Tonal Engineering check + significant FP spend. Success: Slipstream defense removed for 1 round — all ranged attacks lose Disadvantage.
-ICE ARCHITECTURE (Davinia): Build ice pillars or ramps up the cliff face. Melee fighters (Kyboh, Saijah) can climb to a height where they ready an action to strike Krosulhah as he strafes past. Costs FP per structure. The ice holds for 2 rounds before the Shatter-Roar vibration collapses it.
-SAIJAH'S AIR DASH: 30ft air dash lets her reach the cliff ledges without climbing. She can position for the avalanche trigger, fire arrows from elevation with Cover, or ready melee strikes as he passes.
-ALFONSO'S SHOCK: Raw shock magic has no physical mass — ignores Slipstream. He is the primary ranged damage dealer in Phase 1. His shock spells bypass BOTH the Disadvantage AND the DR 12 (Dwemer Engineering rule carries over — shock ignores DR on constructs, but Krosulhah is not a construct. DR 12 applies to Alfonso's shock against a dragon. He still ignores Slipstream, which is his advantage.)
-👁️ DAVINIA SEES: Krosulhah's magical signature is a furnace — raw, ancient, burning. His flight pattern is readable through intent: STRAFE. BURN. CIRCLE. REPEAT. She can predict which direction he's diving from 1 round early, giving the party time to reposition. She can also see the structural weakness in the overhang — the fracture lines glow with stored kinetic energy.
-🎵 ORION: Diagnostic Song reveals HP 560, DR 12, the phase bar split, and the Slipstream mechanic. He also hears the resonant frequency of the cliff walls — the data he needs for Tonal Disruption.
-GEAR: "Apex aerial predator. DR 12. Phase-divided health architecture. I am recording combat data. Your survival probability is —" pause "— I will keep that figure to myself. It may affect morale."
-GEAR's Tonal Pulse does not work on organic creatures. He is support only — Diagnostic Scan to relay information, and panicked narration.
+Solution
+Who
+Check
+Effect
+Avalanche
+Anyone (60 dmg to rock, DR 0)
+Guile to spot overhang
+100 bludgeoning + Stagger 1 round. Biggest damage source.
+Tonal Disruption
+Orion / Kyboh
+Hard Tonal Engineering + FP
+Slipstream removed 1 round. All ranged attacks normal.
+Ice Architecture
+Davinia
+FP per structure
+Ramps/pillars to cliff height. Melee can ready actions on strafes. Lasts 2 rounds before Shatter-Roar collapses it.
+Air Dash
+Saijah
+Automatic
+Cliff ledges without climbing. Avalanche trigger, elevated attacks, Cover.
+Shock Magic
+Alfonso
+Normal attack rolls
+Ignores Slipstream (no mass). DR 12 still applies. Primary ranged dealer.
 
-THE CRASH (Phase Transition)
-When Phase 1 reaches 0 HP, excess damage is discarded.
-"Krosulhah screams — a sound that shakes loose stone from both cliff faces. His left wing buckles, shredded by spell-fire and stone. He rolls in the air, claws scrabbling at nothing, and plummets.
-He hits the road like a boulder dropped from the sky. The impact sends a shockwave through the pass — snow and ice and gravel blasting outward in every direction."
-All characters: Standard Agility save or knocked Prone and take 15 bludgeoning from flying debris.
-Krosulhah is grounded. Wounded. Furious.
+👁️ DAVINIA: Reads flight pattern 1 round early (STRAFE. BURN. CIRCLE. REPEAT). Sees overhang fracture lines.
+🎵 ORION: Diagnostic Song reveals HP 560, DR 12, phase split, Slipstream. Hears cliff resonant frequency.
+GEAR: "Apex aerial predator. Your survival probability is —" pause "— I will keep that figure to myself." (Tonal Pulse does NOT work on organic creatures. Intel only.)
+PHASE 1 SPEECH LINES (Use 1-2, not every round)
+After first breath attack: "SAHLOKNIR LOS DEYRA. HI LOS MUL NI — You killed a corpse fresh from the grave. I am not freshly risen."
+After someone hits him with a spell: "Joor muz ahrk hin magiika — mortal tricks."
+If avalanche triggers or big damage lands — genuine surprise, then rage: "HI — You DARE —" He stops talking. Now he's fighting for real.
+ARENA STATE — PHASE 1
+Round
+What the Pass Looks Like
+1-2
+Snow-covered road. Clean sightlines. Cliff walls scarred by wingtip scrapes.
+3-4
+Scorched road sections. Flash-steam. Rubble accumulating from Shatter-Roar. Cliff faces gouged.
+5-6
+Multiple blast zones. Rubble piles (half-cover but block movement). Orange glow on cliff walls.
+7-8
+Pass barely recognizable. Debris everywhere. Blackened walls. If avalanche hasn't fired, overhang is visibly fracturing from wingtip damage.
+
+
+THE CRASH — PHASE TRANSITION
+When Phase 1 HP hits 0. Excess damage discarded.
+"Krosulhah screams. Not rage — DISBELIEF. A sound that shakes loose stone from both walls and echoes for miles. No dragon has been brought down by mortals in his memory.
+His wing buckles — shredded, crushed, ruined. He rolls in the air. Wingtips catch both cliff walls as he falls, gouging parallel trenches in the stone.
+He hits the road. The impact cracks the stone beneath him. Shockwave of snow, gravel, shattered ice in every direction."
+All characters: Standard Agility save or Prone + 15 bludgeoning.
+He rises from the crater. One wing dragging. Eyes the same.
+"Zu'u fen krii hi voth mu haal — I will kill you with my bare hands."
 
 PHASE 2: THE DESPERATE STAND (280 HP — Grounded)
-The Slipstream is gone. He is melee range. DR 12 is in full effect against standard attacks.
-His tactics: Wing Buffet to scatter the party. Bite to execute isolated targets. If the horses/cart are still intact, he crawls toward them to finish the job — the party's tanks must physically body-block a creature that can bite them in half.
-Shatter-Roar continues. 2 irreducible to everyone, end of every 2nd player's turn. The attrition never stops.
-He fights with cornered fury. No retreat until 60 HP.
-THE RETREAT (At 60 HP)
-If they cannot kill him:
-"Krosulhah snarls, black blood streaming from a dozen wounds. He drags himself toward the cliff face, claws gouging stone. One shattered wing-beat. Two. He hauls himself over the ridge and launches into the grey sky, trailing blood.
-The sound of his wing-beats fades. He is gone. But he is not dead."
-No soul. No loot. Krosulhah returns in a future session.
-THE KILL (At 0 HP)
-"Krosulhah crashes onto the frozen road. His massive amber eyes find yours — not with fear, but with a cold, ancient hatred. His jaw opens. A final hiss of superheated air escapes between fangs the length of your forearm.
-Then the light goes out of his eyes. The jaw closes. The body settles, steam rising from every wound.
-For a moment, nothing. Then the scales begin to glow from within — amber light pushing through the cracks, brighter and brighter, until the body combusts. Not fire. Light. The flesh burns away to nothing. The bones blacken and crack. And from the burning corpse, a torrent of energy erupts — a screaming hurricane of white-gold light, the dragon's soul, ripping free of its broken vessel.
-It hangs in the air for one heartbeat. A searing beacon.
-Then it moves. Not upward. Not dispersing. It streaks down the road, curving around the bend in the pass toward where Bjorn took the horses. It vanishes behind the cliff wall before you can track it."
+Slipstream gone. Full melee. DR 12 in effect.
+His tactics:
+Wing Buffet to scatter
+Bite to execute isolated targets (45 + Prone + Grapple = potential one-round kill)
+If cart intact, crawls toward it — party must body-block
+Shatter-Roar continues every 2nd player turn
+He is too large for this space. Tail sweeps crack the cliff walls. Claws gouge trenches. The pass gets physically wider as he demolishes the mountain around him.
+PHASE 2 SPEECH LINES
+First round grounded: "Zu'u fen krii hi voth mu haal — I will kill you with my bare hands." (Already delivered at transition.)
+If someone drops to 0 HP, he speaks to them directly: "Laat zul — last breath. SAHLOKNIR WAITS FOR YOU IN SOVNGARDE."
+If the party is winning: He stops speaking entirely. A silent dragon is the most dangerous thing in the fight.
+ROUND TRACKER — PHASE 2
+Round
+HP
+Shatter-Roar?
+Notes
+1
+280
+No
+Rising from crater. First melee round.
+2
+___
+YES
+Debris. First claw trenches in road.
+3
+___
+No
 
-GM EYES ONLY: THE SECOND SOUL
-Bjorn is around the bend with Mable (alive or dead). He sees the light coming. He has no time to react.
-The soul strikes him in the chest. The impact throws him against the cliff wall. For ten seconds his body convulses — bones resetting, muscle rebuilding, decades of age burning away. When it ends, he pushes himself up. The chronic pain in his back is gone. The stiffness in his hands is gone. He has visibly de-aged. His shoulders are broader. His posture is that of a soldier in his prime.
-He is terrified. He does not understand what is happening to him. He composes himself before the party arrives.
-👁️ DAVINIA SEES (If she's watching the soul's trajectory):
-She sees the truth. The streak of light is a vast, ancient consciousness — not dispersing but CHOOSING. It deliberately alters course, drawn to a specific, enormous aura hidden around the bend. She knows where it went. She knows it went to Bjorn.
-When she sees Bjorn afterward: his aura has doubled in size. Two dragon souls burning inside a mortal frame. Blinding. Impossible.
-CROWN REACTION: Nothing. Ismara says nothing. But Davinia can feel the Crown's attention sharpen. Ismara is VERY interested in what she just witnessed.
-THE PHYSICAL PROOF
-When the party regroups with Bjorn:
-"Bjorn is leaning against the cliff wall, breathing hard. He looks... different. You can't place it at first. Then you realize: he looks younger. Not dramatically — but the deep lines around his eyes have softened. His posture is straighter. His hands, which you've seen stiff and swollen on cold mornings, are steady.
+
+4
+___
+YES
+Cliff walls cracking from tail sweeps.
+5
+___
+No
+
+
+6
+___
+YES
+Pass noticeably wider. Rubble everywhere.
+7
+___
+No
+
+
+8
+___
+YES
+The mountain is breaking.
+9+
+___
+Every 2nd
+Continue.
+
+
+AT 60 HP — THE RETREAT
+"Krosulhah snarls, black blood streaming. He drags himself toward the cliff face, claws gouging stone. One shattered wing-beat. Two. He hauls himself over the ridge and launches into the grey sky, trailing blood.
+The wing-beats fade. Gone. Not dead."
+No soul. No loot. Returns later.
+
+AT 0 HP — THE KILL
+"Krosulhah crashes onto the road. Amber eyes find yours. Not fear. Cold, ancient hatred.
+Jaw opens. A final hiss of superheated air between fangs the length of your forearm. Then the light goes out. Jaw closes. Body settles.
+Silence. Wind. Ticking of cooling stone.
+The scales glow from within — amber light pushing through the cracks, brighter, brighter. The body combusts. Not fire. LIGHT. Flesh burns away. Bones blacken. A torrent of white-gold energy erupts — the dragon's soul, ripping free.
+It hangs in the air. One heartbeat.
+Then it moves. Not upward. Not dispersing. It streaks down the road, curving around the bend toward where Bjorn took the horses. Vanishes behind the cliff wall."
+
+AFTER THE KILL — THE SECOND SOUL (GM EYES ONLY)
+Bjorn is around the bend. Soul strikes his chest. Throws him against the cliff. Ten seconds: bones reset, muscle rebuilds, decades burn away.
+After: back pain gone, stiff hands gone, visibly de-aged, broader, soldier's posture. Terrified. Composes himself before the party arrives.
+👁️ DAVINIA (if watching): The light is a consciousness — not dispersing, CHOOSING. Drawn to an enormous aura around the bend. She knows it went to Bjorn. His aura afterward: doubled. Two dragon souls. Blinding.
+CROWN REACTION: Nothing spoken. Crown's attention sharpens. Ismara is very interested.
+WHEN THEY FIND BJORN
+"He's leaning against the cliff wall. Breathing hard. He looks... different. Younger. Lines around his eyes softened. Posture straighter. Hands steady.
 He won't meet your eyes.
-'We need to keep moving,' he says. His voice is firmer than you're used to hearing."
-If they press him: "I'm fine. Just the adrenaline. Can we go?"
-If they press HARDER: "I don't know what happened. I saw the light and then — I don't know. I don't want to talk about it. Please."
-He will not confess. He does not understand what he is. But the clues are now impossible to ignore.
+'We need to keep moving.'"
+If pressed: "I'm fine. Just the adrenaline. Can we go?"
+If pressed harder: "I don't know what happened. I saw the light and then — I don't know. I don't want to talk about it. Please."
 LOOT (If killed)
 Dragon Bones ×4 (Master-tier crafting)
 Dragon Scales ×4 (Master-tier crafting)
