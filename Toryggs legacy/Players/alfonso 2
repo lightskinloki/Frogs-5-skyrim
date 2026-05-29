@@ -1,0 +1,191 @@
+ALFONSO DUET — THE CARRION SAINT
+Master Architecture Document (Updated)
+
+I. CURRENT STATE
+Alfonso is a lich. Not a traditional lich — not the dusty, skeletal, Mannimarco-school variety. He is a Lich of Peryite, an oxymoron made flesh (or rather, made empty). His soul is housed in an iron dagger that has reshaped itself into a corroded rapier. His body is an empty vessel — undying but not immortal, immune to physical destruction but tethered to a piece of iron that is actively rusting.
+He carries the Jagged Crown of Namira on his skull — a Daedric artifact forged from the bones of dragons, infused with Namira's hunger through the sacrifice of his ability to ever feel sated. Two divine frequencies war inside a body that no longer contains the soul they're fighting over. The soul is in the blade. The blade is decaying. The clock is ticking.
+What He Is: A Vrykolas. Not a vampire. No connection to Molag Bal. A new form of being empowered by the symbiotic alliance of Namira (consumption, entropy, decay) and Peryite (pestilence, order, natural cycles). A biological paradox — a walking plague vector that cannot be killed by conventional means but can be destroyed by time, corrosion, and the limits of iron.
+What He Was: A vampire. A member of the College of Winterhold (disgraced). An alchemist. A cannibal. A plague-bearer. Something that ate people throughout the entire campaign without apology or hesitation.
+What He Wants To Become: The Vrykolas Lord. The avatar of a new, synthesized faith that proves the superiority of living rot over frozen undeath. The King of the Compost. The thing that grows in the grave.
+The Problem: His lich transformation may have locked him out of the path he was on. The Apotheosis required consuming two hearts — a Dragon Priest's and a Vampire Lord's. His body is no longer him. He can't eat with his mouth in any way that matters. The soul that would absorb the power is in a piece of rusting iron, not in the flesh that does the chewing. Whether the Vrykolas Lord form is still achievable, and what "consumption" means for a being whose soul is external, is the central design question of his arc going forward.
+
+II. THE THEOLOGICAL FOUNDATION
+The Core Conflict: Entropy vs. Order
+The fundamental disconnect between Alfonso's two patrons is their view on the purpose of suffering.
+Namira — The Void of the Stomach: Nihilistic entropy. She represents the ancient darkness, the psychological urge to recoil, the biological reality of rot. Her goal is return to nothingness. Decomposition. To eat is to destroy; to be eaten is to vanish. Her adherents are secretive, self-loathing cannibals hiding in crypts, wanting to be forgotten by the world so they can indulge in peace.
+Peryite — The Garden of the Gut: Natural order. Often mistaken for a chaotic plague god, he is actually a god of balance. A forest fire clears brush; a plague clears overpopulation. He is the cosmic janitor. His goal is management — maintaining a perfect equilibrium of life and death. His adherents are dutiful, organised, and evangelistic. They view themselves as soldiers or farmers of bacteria.
+How They View Each Other
+Namira's cult views Peryite's cult:
+"You ruin the meat." Afflicted are spoiled food — filled with pus and toxins. Waste of good flesh.
+"You are too loud." Coughing, vomiting, visible plagues draw guards and Vigilants.
+"You serve a weak dragon." Namira is primal. Peryite's bureaucratic obsession with order is petty.
+Peryite's cult views Namira's cult:
+"You are gluttonous parasites." They eat without purpose. No grand plan, no natural order. Just hunger.
+"You end the cycle." Cannibals kill the host immediately, stopping the spread. Dead ends for good plagues.
+"You are disordered." Namira cultists are disorganised wretches. The Taskmaster despises disorganisation.
+Alfonso's Synthesis
+Alfonso's role is to prove these two flaws are puzzle pieces. The cults are dying because they are separate.
+The Peryite Problem: The cultists' plague is too strong for their mortal bodies. They're coughing up their lungs faster than they can infect others. Bad vectors. No durability. Alfonso's Solution (Namira's Gift): Cannibalism grants regeneration. By eating the flesh of the fallen, the Peryite cultist gains vitality to survive their own disease. Sustainable vectors.
+The Namira Problem: The cannibals are hunted and weak. Scavengers, not predators. No defence except hiding. Alfonso's Solution (Peryite's Gift): Disease grants offense. By harbouring plague, the cannibal becomes a weapon. They don't just hide — they wither enemies with a touch. The disease marinates the meat while it's still alive.
+The Liturgy of the Vrykolas
+The Body is a Temple of Filth. "Do not let the disease consume you; consume the world to feed the disease. The flesh of the enemy fuels the garden in your blood."
+The Cycle of the Mouth. "We bite to infect. We wait for the rot to ripen. We bite again to consume. Transmission and Digestion are the two hands of the new God."
+The Rejection of Stasis. "The Vampire freezes the blood (Molag Bal). We churn it. We are not the statue that stands forever; we are the fungus that breaks the statue down to build something new."
+
+III. THE RUSTING CLOCK
+The Iron Phylactery
+Alfonso poured his soul into his family's iron dagger during the camp between Mzinchaleft and Riften. The iron reshaped itself into a corroded rapier as the enchantment remade the weapon. His body became an empty vessel — no health points, no wounds, no physical damage that can reach the thing that matters.
+He is the weakest possible lich. Not immortal. Undying. His body can't be hurt, but his rapier can be damaged, can rust, can corrode.
+The Mechanic:
+Passive — The Empty Vessel: Alfonso's physical body has no HP. He is immune to conventional damage, poisons, and diseases. Blades pass through his shifting, rotting mass without effect.
+The Weakness — The Tethered Soul: His "HP" is the Rust Level of the rapier. Sunder actions against the blade, exposure to corrosive elements, or channelling high-tier magic all increase the Rust Level.
+The Death Condition: If the Rust Level reaches maximum, the blade shatters, and Alfonso is permanently destroyed.
+The Cost — Diminished Hunger: The rigid order of his Peryite-given phylactery has restricted his connection to Namira. He no longer feels the "high" of consumption. Feeding only serves to physically stabilise his husk. Namira's presence is felt only as a dull, gnawing void that can never be filled.
+The Acceleration
+Every time Alfonso channels massive power through the rapier — the triple-charge beam attacks, the corridor-clearing blasts — the rust spreads. The blade paid for Krosulhah. It will pay for every future act of supreme violence.
+The next time the rust advances significantly, it will begin to spread to Alfonso's body. The empty vessel will start to tarnish — his skin darkening, his joints stiffening, the iron corruption migrating from the blade to the flesh. Not death. Degradation. The slow process of becoming the thing he's tethered to: a corroding piece of metal in the shape of a man.
+Peryite's Influence: Peryite does not mock Alfonso about the rust. Instead, Alfonso feels a profound sense of divine approval radiating from his patron toward the efficiency of the degradation process. The Taskmaster appreciates the mechanical perfection of entropy operating on schedule. The rust is natural. The rust is ordered. The rust is exactly how things should work. This drives Alfonso insane — his own god approves of his death.
+
+IV. IMPENDING DEADLINES & PRESSURES
+The Alchemical Arms Race (Riften — Immediate)
+When Alfonso investigates the Black-Briar Meadery, his Magic 19 allows him to analyse the residue. He finds Forelhost Strain 1.0 — a clinical, cold, highly efficient bioweapon designed by Antoine of Forelhost for industrial sabotage.
+This is not Alfonso's work. It is better than Alfonso's work. It is cleaner, more targeted, more controlled. And when Alfonso examines it, he feels Peryite's divine approval radiating toward the efficiency of Antoine's design. His patron is nodding approvingly at someone else's plague.
+Alfonso must prove that his "Living Rot" — the chaotic integration of Namira's hunger — is the superior evolution of pestilence, not just a messy alternative to Antoine's clean science.
+The Looming Theft: Alfonso knows Ulag the Breaker is infected with his strain. Eventually, Antoine will harvest that infection from Ulag to create Strain 2.0. Alfonso is in a race to perfect his synthesis before his rival can refine it.
+The Afflicted Conclave (Windhelm — Mid-Term)
+Alfonso needs the ancient Peryite scriptures hidden in the Gray Quarter to understand the theological and mathematical mechanics of his Vrykolas state. The Windhelm cultists are Peryite purists who will see his Namira-tainted lichdom as blasphemous mutation. He must conquer or convert them to claim the knowledge that could stabilise his rusting soul.
+
+V. THE THREE PATHS (REVISED)
+These are not linear quests. They exist simultaneously. The order of pursuit shapes the outcome.
+Path 1: The Path of Knowledge — "The Search for Scripture"
+Status: Available. Unchanged by lichdom.
+Alfonso needs doctrine. He is a messiah without a holy book. The dying Stormcloak soldier gave him the location and password to the Peryite shrine in Windhelm. This is a library of pestilence. Peryite's followers, as servants of order, are meticulous record-keepers.
+The Situation: He will not be greeted as a messiah. The Afflicted are Peryite purists. They smell the chaotic, gluttonous influence of Namira. He is a walking contradiction to their faith. But he is also, physically, the fulfilment of their prophecy — a sustainable, walking plague vector. His body is a masterpiece of their faith. His Crown is the ultimate blasphemy.
+The Theological Crisis: His arrival forces a schism:
+The Purists: "The vessel is divine but the spirit is tainted! Remove the Crown, cleanse him, restore him to pure Peryite purpose!"
+The Pragmatists: "The Crown's power to induce Ravenous Frenzy could open entire cities to infection. The ends justify the means."
+The Visionaries: "This is a new testament! The Taskmaster has formed a holy alliance with the Lady of Decay! Alfonso is the prophet of a synthesised faith!"
+Alfonso must win over the Pragmatists and Visionaries to overcome the Purists.
+The Reward: Access to the hidden archives — the theological justification for uniting Decay and Pestilence, and scholarly speculation on other forms of immortality. Critically, these texts may contain information on the nature of soul-vessel bindings and tonal stabilisation that could address the rusting phylactery.
+Path 2: The Path of the Flock — "The Unification of the Damned"
+Status: Available. Unchanged by lichdom.
+A prophet with no followers is a madman. The lore from Windhelm can guide him to the primary Namira coven in the Reach, led by Eola.
+The Situation: Namira's followers are not scholars. They are feral, secretive survivalists. The Crown makes him a prophet — they will recognise Namira's essence immediately. But his Peryite nature — order, cycles, purpose — is alien to their nihilistic philosophy of "eat to become nothing."
+The Political Crisis: His arrival forces a power struggle:
+The Devout: "He is Namira's chosen! He wears the Crown of Hunger! He will lead us into a grand feast!"
+The Anarchists: "A crown? A king? We bow to no one but the Hunger. If he gives us orders, we eat him too."
+The Usurpers: "If I kill him and take the Crown, then I will be Namira's chosen."
+He does not walk into a coronation. He walks into a den of wolves. The Crown gives authority. His actions must prove he has the strength to keep it.
+The Reward: A unified cult — the Flock. A network of agents, a source of power, the foundation of his church. He is no longer just a monster. He is a leader.
+Path 3: The Path of Ascension — "The Consumption of Stasis"
+Status: DISRUPTED. Lichdom has fundamentally altered this path.
+The original design required Alfonso to consume the Heart of a Dragon Priest (Rahgot) and the Heart of a Vampire Lord (Valerius) to achieve the Vrykolas Lord form. The consumption was physical — eating, absorbing, processing through his body as a chaotic alchemical crucible.
+The Problem: Alfonso's body is no longer him. His soul is in the rapier. His flesh is an empty vessel that walks and breathes and casts magic without a soul to anchor the transformation. Physical consumption no longer has a mechanism to reach the thing that matters.
+The Design Question: What does "consumption" mean for a being whose soul is external?
+Possible Resolutions (GM must choose):
+Option A — The Blade Consumes: The rapier is the phylactery. The rapier is where his soul lives. The hearts must be fed to the blade, not the body. Alfonso must find a way to channel the essence of a Dragon Priest and a Vampire Lord through the iron — using the rapier to pierce the heart and drink the power the way a vampire drinks blood. The risk: each heart consumed either stabilises the rust (curing the degradation) or accelerates it catastrophically (the power is too much for iron to contain). The Apotheosis is a gamble — it either saves him or destroys the blade.
+Option B — Reunification Required: The Vrykolas Lord form requires a unified being — soul and body as one. Alfonso must first find a way to re-integrate his soul from the rapier back into his flesh before the Apotheosis is possible. This means the Path of Ascension is locked behind solving the phylactery problem, which is locked behind the Path of Knowledge (the Windhelm archives may contain the answer). The lich transformation was a survival move that bought him time but cost him the endgame. He must undo his own greatest achievement to achieve something greater.
+Option C — The Form Changes: The Vrykolas Lord as originally designed — the Hive-Walker, the photosynthetic horror, the physical apotheosis — is no longer possible. Alfonso's lichdom has created a different trajectory. His ascension is not physical but architectural. He becomes the Vrykolas Lord not by transforming his body but by transforming his network — the Flock becomes the body, the rapier becomes the heart, and Alfonso becomes the consciousness distributed across a plague-colony. Not one monster. A thousand monsters with one mind. The consumption of the hearts doesn't transform him — it empowers the network, making every ghoul, every cultist, every infected vector stronger, faster, more connected to the hive.
+Option D — The Paradox Path: Alfonso's unique nature means the normal rules don't apply. The two divine frequencies in his body (Namira and Peryite) are already doing something unprecedented — harmonising through a mortal frame without a soul present to mediate. When he consumes the hearts (physically, through the body), the power doesn't go to him. It goes to the space between — the gap where his soul used to be. The Vrykolas Lord form manifests not as a transformation of the body but as a filling of the void. The body becomes the vessel it was always meant to be, and the consumed hearts become the new soul. Alfonso would no longer need the rapier. The hearts replace it. But the man who existed before — the soul in the iron — is gone. The Vrykolas Lord is a new entity wearing Alfonso's memories.
+
+VI. THE JAGGED CROWN OF NAMIRA
+The Artifact
+By sacrificing his ability to ever feel sated, Alfonso performed a heretical synthesis that invited a shard of Namira's divine essence to nest within the ancient symbol of Nordic kingship. The Crown is no longer a simple object. It is a minor Daedric entity with a singular purpose: to facilitate consumption.
+Appearance: Dragon bone veined with sickly, pulsing green-black lines resembling fungal hyphae. Smells of grave dirt and rich, damp soil. Feels slightly greasy.
+The Binding Curse: When worn, the dragon teeth bite into the skull, locking it in place. Cannot be removed without tearing flesh (2 Irreducible Damage and permanent scarring).
+The Symbiotic Return: If the Crown is ever removed from Alfonso's direct possession, it will find its way back. Thieves inexplicably drop it. Friends forget they're holding it. Currents deposit it at his feet. It does not teleport. It influences the world in subtle ways to ensure its return.
+Crown Abilities
+Primary — The Devouring Command (Major Action, 3 FP): Psychic wave of ravenous hunger. All enemies within 30ft must make a Hard (-4) Guile Save. On failure: Ravenous Frenzy — they use their next turn to attack the nearest creature (friend or foe) with a bite, attempting to eat them.
+Secondary — The King's Feast (Passive): If any creature on the battlefield is actively being eaten (by Alfonso, his ghouls, or a frenzied enemy), the wearer regenerates 4 HP and 2 FP at the start of their turn. Can generate temp HP beyond maximum.
+Synergy — The Carrion King's Aura (Passive, requires Crown): Any enemy that fails its save against the Devouring Command is also automatically infected with Alfonso's plague, becoming Patient Zero. They spread the disease to anyone they bite or attack. Turns Frenzy from crowd control into a strategic plague-delivery system.
+The Final Feast (Major Action, 5 FP): Target any creature currently afflicted by his plague. Triggers catastrophic cellular collapse. Target liquefies into carrion slurry. Alfonso heals HP equal to their remaining HP and can instantly raise a Plague Ghoul from the result.
+Crown vs. The Thu'um
+Devouring the Voice (Reaction, 15 FP): When targeted by a hostile Thu'um, the wearer attempts to eat the Shout. Contested check against the Shouting creature's stat. Success: Thu'um nullified, energy held in stasis by the Crown (one Shout capacity). Failure: full FP cost paid, full Shout effect taken. If a second Shout is devoured while holding one, the first is "digested" — restores all FP but deals half max HP as irreducible damage.
+The Rotting Echo (Major Action, requires held Shout): Regurgitates the corrupted, undigested concept of the consumed Shout:
+Fire Breath → Plague-Fire: Half fire damage + potent poison (4/turn for 2 turns)
+Frost Breath → Festering Rime: Half frost damage + sickness (-2 Might and Agility for encounter)
+Unrelenting Force → Wave of Decay: No knockback. Instead, permanently reduces target DR by 2.
+The Political Radioactivity of the Crown
+The Jagged Crown is the ultimate symbol of Nordic sovereignty. Alfonso fused it with Namira. This is a world-altering political act.
+For the Stormcloaks: Ultimate desecration. Their most sacred symbol defiled by a Daedric Prince and a Dunmer. When the truth emerges, Galmar's trust doesn't break — it incinerates. Ulfric can never claim the Crown without accepting Namira's taint.
+For the Empire: Perfect propaganda. "This is what happens when you chase ancient myths. You awaken demons." It delegitimises Ulfric and the traditions he champions.
+For Alfonso: He holds the symbol of the High King but can never be High King. No Nord will follow a Vrykolas wearing a desecrated crown. The Crown is not a key to a throne. It is a key to anarchy — a weapon of pure chaos, useful only to threaten and terrorise.
+
+VII. MECHANICAL ABILITIES (CURRENT)
+The Iron Phylactery (Lichdom Variant)
+Passive — The Empty Vessel: No HP. Immune to conventional damage, poisons, diseases.
+Weakness — The Tethered Soul: HP = Rust Level of the rapier. Sunder, corrosion, or high-tier channelling increases Rust.
+Death Condition: Blade shatters = permanent destruction.
+Cost — Diminished Hunger: Feeding stabilises the husk but provides no empowerment. Namira is felt only as a void.
+Symbiotic Minion Control
+Controls up to two Plague Ghouls simultaneously.
+Control is absolute while Satiated. If Hungry (Stage 4), Guile check each round or ghouls turn on the party.
+The Transmutation of Life (Taught to Nora)
+Action: Free Action (once per turn, before casting).
+Alfonso and Nora can bypass FP cost by paying in vitality. For Nora: Irreducible Damage equal to FP cost. For Alfonso: voluntarily increases the rapier's Rust Level.
+Allows limitless spellcasting at the cost of his soul's vessel.
+Plague Abilities (Pre-Lichdom, still functional)
+Plague touch, plague ghouls, disease-based alchemy — all still operational. His body is still a walking biohazard even without a soul in it.
+
+VIII. COMPANION DYNAMIC: NORA
+The Pattern, Not the Path
+Nora is not Alfonso's disciple. She is too smart, too ambitious, and too aware of power hierarchies to join a faith where she would be permanently subordinate to its founder. She will never be a member of Alfonso's Flock.
+Instead, she is following his example. Alfonso showed her that a person can reject the established magical order, forge a direct relationship with a Daedric Prince, and build something entirely new from the transaction. He showed her that sacrifice — real sacrifice, life force for power — is a valid methodology. He showed her that the College's fear-based approach to her abilities was a cage, not a curriculum.
+She is building her own cage now. A better one. One she designed herself.
+The Divergence: Nora's eventual patron will depend on who influences her most strongly:
+If Alfonso is the dominant mentor: She goes to Boethia — the Prince of plots, conspiracy, and the overthrow of authority. Boethia rewards ambition, ruthlessness, and the willingness to destroy your teacher to surpass them. Nora would seek a transactional relationship: power in exchange for cunning, not for worship. This path makes her Alfonso's greatest potential rival.
+If Orion is the dominant mentor: She goes to Hermaeus Mora — the Prince of forbidden knowledge and memory. Mora rewards obsessive scholarship, the hoarding of secrets, and the willingness to sacrifice sanity for understanding. Nora would seek knowledge of the Soul Cairn, of consciousness transfer, of freeing her parents. This path makes her the most dangerous researcher since Ismara.
+Current State: She has learned the Transmutation of Life from Alfonso (converting HP to FP). She has asked Orion to teach her tonal engineering. She is collecting tools from every available source with the systematic thoroughness of a prodigy building an arsenal. Her hands have stopped trembling. Her voice has stopped apologising. The satisfaction she felt after the ice blast against Krosulhah — the first time magic didn't make her afraid — is the seed of something that will grow in whatever direction the strongest light comes from.
+The Phylactery Question: She asked Alfonso to teach her how to make a phylactery. This is not imitation — it is research. She wants to understand the mechanics of soul-vessel binding because her parents' souls are trapped in black soul gems. If she can learn how Alfonso moved a soul into an object voluntarily, she might learn how to move her parents' souls out of theirs. The technique that damned Alfonso could save the people Nora has been trying to rescue since she was six years old.
+
+IX. THE VRYKOLAS LORD — FINAL FORM (CONTINGENT)
+Note: This design is the original specification for Alfonso's apotheosis. Whether it remains achievable depends on the resolution of the Path of Ascension problem (see Section V, Path 3). Preserved here as the design target.
+Concept: The King of the Compost
+Visual Archetype — The Hive-Walker: While a Vampire Lord is hard, winged, statuesque — a gargoyle — the Vrykolas Lord is soft, wet, and teeming with life. Alfonso grows in mass, not height. His skin splits to reveal a chitinous, insectoid under-layer (Peryite) draped in wet, fungal robes of living flesh (Namira). No bat wings — a mantle of writhing feeder-tendrils and insect swarms. The sound is not a bat's hiss but the wet tearing of meat and the buzzing of a million flies.
+The Philosophical Mirror (The Insult to Molag Bal)
+Vampire Lord
+Vrykolas Lord
+The Insult
+Domination: "I rule you."
+Infection: "I become you."
+The Vampire separates from prey. The Vrykolas merges with it.
+Blood: Drinks liquid essence.
+Flesh: Eats physical matter.
+Blood regenerates. Flesh is finite. To eat flesh is to erase entirely.
+Night: Burns in the sun.
+Day: Photosynthesises.
+The sun, which destroys vampires, feeds the rot.
+Stasis: Never ages, never changes.
+Evolution: Constantly mutating.
+The Vampire is a dead end. The Vrykolas is an explosion of new life.
+Solitary: One master, many slaves.
+Colony: One mind, many bodies.
+Not a lord over subjects. A hive mind of a bacterial colony.
+
+Transformation Abilities (If Achieved)
+Photosynthetic Rot: Regenerates 2 HP and 2 FP per turn in direct sunlight. Heat accelerates bacterial metabolism.
+Amorphous Physiology: Immune to critical hits (no vital organs). Resistance to physical damage (blades pass through sludge). Vulnerability to Frost (cold stops the rot).
+The Carrier: Any creature ending its turn within 5ft takes 2 Poison Damage from spores.
+Retching Bile (Ranged, 30ft Line): Acidic sludge. Creates a pool reducing target DR by 2.
+Swarm Form (Reaction/Movement): Dissolves into biting flies and spores. Fly/hover. Immune to physical damage. Passing through enemies deals Poison damage.
+Gestation (Melee Touch on Corpse): Fills the corpse. It bloats and explodes after 1 round, birthing 1d4 Larval Ghouls or detonating as a bio-bomb.
+The Grasp of Namira (Ranged Grapple): Fleshy tendrils pull target adjacent. Free Bite attack on arrival.
+The Ritual of Inversion (If Achieved)
+When he consumes the Heart of Valerius (the Vampire Lord) and Rahgot (the Dragon Priest), his body becomes a chaotic alchemical crucible. He vomits the black, tar-like blood of Molag Bal — the expulsion of the old curse — and inhales the spores of Peryite. His skin sloughs off like a snake shedding. Underneath: the wet, grey, iridescent skin of the Vrykolas. He looks at the sun. Instead of burning, he smiles. The light turns his veins green. He has stolen the Day from the Night.
+
+X. GM NOTES
+Current Campaign State
+Alfonso is in Riften. One hit point of rust away from his body beginning to tarnish.
+The rapier rusted from the triple-charge beam against Krosulhah. Next major channelling will spread the corrosion to his flesh.
+He is teaching Nora the Transmutation of Life. She is absorbing everything.
+He has not yet encountered Antoine or the Forelhost Strain. This is upcoming in Riften.
+The Afflicted Conclave in Windhelm is available but requires travel the party may not prioritise.
+His body has no aura (Davinia saw this). Saijah sensed the transformation. Neither has confronted him about it.
+The party currently views him as "Alfonso but weirder." They do not understand the full implications of what he's done.
+Pacing Guidelines
+The rusting phylactery is the ticking clock. Do not let it be ignored. Every major channelling should cost him visibly.
+The Antoine rivalry should begin in Riften and escalate through the Windhelm arc.
+Nora's patron choice should not be forced. Let the mentorship dynamics play out naturally. Track which teacher she spends more time with. The patron finds her when she's ready.
+The Path of Ascension problem must be addressed before the Valerius confrontation. Alfonso needs to know whether his endgame is still possible before he commits to hunting a Vampire Lord.
+GEAR is a resource Alfonso hasn't exploited yet. The automaton was built by the civilisation that pioneered consciousness transfer and soul-vessel technology. If Alfonso asks GEAR the right questions, he might get answers that change everything.
+
