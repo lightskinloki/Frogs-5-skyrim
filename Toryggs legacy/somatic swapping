@@ -1,0 +1,626 @@
+SKYRIM SOMATIC COMPONENT SYSTEM
+Spell Modification Through Understanding Magical Structure
+
+CORE CONCEPT
+Every spell in Skyrim is built from somatic components—fundamental relationships to magical law that express how a mage channels and shapes Magicka. By understanding these components, a mage can swap one component for another, creating a new variant of the spell without changing its base cost or damage.
+This is not spell invention. This is spell mastery.
+
+THE TWELVE SOMATIC COMPONENTS
+1. PETITION
+Definition: Request the law to work as it naturally inclines
+ Essence: Working with natural forces, not against them
+ Schools: Restoration, Illusion
+ Effect on Spells: Easier to control, less chaotic, more subtle, works through gentle persuasion
+2. COMMAND
+Definition: Force the law to work as you will it
+ Essence: Overpowering natural forces through sheer will
+ Schools: Destruction, Conjuration
+ Effect on Spells: Harder to manage, more dramatic, more violent, works through dominance
+3. ANCHOR
+Definition: Ground yourself in unshakeable conviction
+ Essence: Your will becomes fixed and resistant to disruption
+ Schools: Alteration, Restoration
+ Effect on Spells: Resists interruption, persists longer, tied to caster's body, harder to dispel
+4. PROJECT
+Definition: Extend your will across distance
+ Essence: Your effect travels and spreads
+ Schools: Destruction, Conjuration, Illusion
+ Effect on Spells: Reaches further, affects larger areas, disperses over distance
+5. SHIFT
+Definition: Allow the law to bend and flow
+ Essence: Effect changes form or adapts to circumstances
+ Schools: Alteration, Illusion
+ Effect on Spells: Can chain through obstacles, adapts to terrain, effects are fluid and unpredictable
+6. BIND
+Definition: Fix a moment so it cannot unravel
+ Essence: Lock changes in place permanently
+ Schools: Conjuration, Alteration, Restoration
+ Effect on Spells: Duration extends, effects persist strongly, hard to undo, targets become rooted
+7. RELEASE
+Definition: Surrender control and let the law reassert itself
+ Essence: Effect is temporary and naturally unstable
+ Schools: Destruction, Illusion
+ Effect on Spells: Costs less to maintain, dissipates quickly, easily broken, naturally disperses
+8. STABILIZE
+Definition: Entropy is slow; this state is permanent
+ Essence: Resist all change back to Base-State
+ Schools: Alteration, Restoration
+ Effect on Spells: Dramatically extended duration, immune to dispelling, caster must concentrate
+9. ATTUNE
+Definition: Become one with the law's expression
+ Essence: You are not separate from this magic; you are its voice
+ Schools: All equally
+ Effect on Spells: Gain insight into deeper effects, secondary phenomena manifest, spell becomes partially automatic
+10. SEVER
+Definition: Break connections and shatter bonds
+ Essence: Cut through links and bindings
+ Schools: Destruction, Conjuration
+ Effect on Spells: Disrupts other magic, breaks hostile effects, sunders conjured things
+11. CONCEAL
+Definition: Happen where no one is looking
+ Essence: Work in silence and shadow
+ Schools: Illusion, Conjuration
+ Effect on Spells: Subtle and hard to notice, enemies have disadvantage detecting it, works unseen
+12. REVEAL
+Definition: All hidden things are shown
+ Essence: Make the invisible visible and obvious
+ Schools: Restoration, Illusion
+ Effect on Spells: Dramatically obvious, highlights what's hidden, draws attention, hard to miss
+
+BASELINE SPELL STRUCTURES
+Spells are structured by their tier. The tier determines how many somatic components define the spell:
+Novice Spells: 1 somatic component
+Apprentice Spells: 2 somatic components
+Adept Spells: 3 somatic components
+Expert Spells: 4 somatic components
+Master Spells: 5 somatic components
+More complex spells require more somatic components to define them. A Novice spell is simple; a Master spell is intricate.
+Destruction Spells
+Spell
+Tier
+Gestures
+Description
+Flames
+Novice
+COMMAND
+Force fire to manifest
+Sparks
+Novice
+COMMAND
+Force electricity to manifest
+Frost Bolt
+Novice
+COMMAND
+Force frost to manifest
+Firebolt
+Apprentice
+COMMAND + PROJECT
+Force fire in concentrated bolts at distance
+Lightning Bolt
+Apprentice
+COMMAND + PROJECT
+Force electricity to arc across distance
+Fireball
+Adept
+COMMAND + BIND + PROJECT
+Force fire to bind in an explosion
+Incinerate
+Adept
+COMMAND + SHIFT + BIND
+Force fire to adapt and intensify
+Chain Lightning
+Expert
+COMMAND + PROJECT + SHIFT + SEVER
+Force electricity to arc and chain through targets
+Inferno
+Master
+COMMAND + BIND + STABILIZE + PROJECT + SHIFT
+Force an eternal wall of flame
+
+Restoration Spells
+Spell
+Tier
+Gestures
+Description
+Healing Hands
+Novice
+PETITION
+Ask the body to heal itself
+Cure Disease
+Novice
+PETITION
+Ask the body to sever disease
+Cure Poison
+Novice
+PETITION
+Ask the body to sever poison
+Heal Other
+Apprentice
+PETITION + BIND
+Ask another to bind their wounds
+Steadfast Ward
+Apprentice
+PETITION + BIND
+Ask magic to bind protective ward
+Healing Aura
+Adept
+PETITION + BIND + ANCHOR
+Ask healing to anchor in an area
+Cure Paralysis
+Adept
+PETITION + SEVER + STABILIZE
+Ask the curse to be severed and stabilized
+Guardian Ward
+Expert
+PETITION + BIND + STABILIZE + PROJECT
+Ask protection to bind and stabilize over distance
+Mass Cure
+Master
+PETITION + BIND + STABILIZE + PROJECT + SHIFT
+Ask all nearby wounds to bind and seal
+
+Alteration Spells
+Spell
+Tier
+Gestures
+Description
+Oakflesh
+Novice
+ANCHOR
+Root yourself in oak
+Stoneflesh
+Novice
+ANCHOR
+Root yourself in stone
+Candlelight
+Novice
+PROJECT
+Project light outward
+Waterbreathing
+Apprentice
+PETITION + SHIFT
+Ask your lungs to adapt to water
+Paralyze
+Apprentice
+COMMAND + BIND
+Force the body to bind itself
+Ironflesh
+Adept
+ANCHOR + STABILIZE + BIND
+Root yourself in iron, unchanging and locked
+Detect Life
+Adept
+PROJECT + REVEAL + ATTUNE
+Project awareness and reveal all life
+Mass Paralysis
+Expert
+COMMAND + BIND + PROJECT + SHIFT
+Force paralysis to bind and shift through targets
+Telekinesis
+Master
+COMMAND + PROJECT + SHIFT + BIND + ATTUNE
+Force objects to move, bind, and adapt to your will
+
+Conjuration Spells
+Spell
+Tier
+Gestures
+Description
+Conjure Familiar
+Novice
+COMMAND
+Force a creature to manifest
+Bound Dagger
+Novice
+COMMAND
+Force a weapon to manifest
+Soul Trap
+Novice
+COMMAND
+Force a soul to sever
+Summon Flame Atronach
+Apprentice
+COMMAND + BIND
+Force a creature to bind to your will
+Bound Bow
+Apprentice
+COMMAND + BIND
+Force a bow to bind to your hand
+Conjure Storm Atronach
+Adept
+COMMAND + BIND + PROJECT
+Force a powerful creature to manifest and bind
+Dread Zombie
+Adept
+COMMAND + BIND + SEVER
+Force a dead body to bind to your will
+Summon Dremora Lord
+Expert
+COMMAND + BIND + STABILIZE + ATTUNE
+Force a Daedra to bind and stabilize
+Mass Conjuration
+Master
+COMMAND + BIND + PROJECT + STABILIZE + SHIFT
+Force multiple creatures to manifest, bind, and persist
+
+Illusion Spells
+Spell
+Tier
+Gestures
+Description
+Fury
+Novice
+COMMAND
+Force rage to manifest
+Calm
+Novice
+PETITION
+Ask anger to subside
+Candlelight
+Novice
+PROJECT
+Project light outward
+Invisibility
+Apprentice
+CONCEAL + RELEASE
+Hide from sight, let it fade naturally
+Muffle
+Apprentice
+CONCEAL + BIND
+Hide sound and bind it quiet
+Courage
+Apprentice
+PETITION + ANCHOR
+Ask courage to anchor in allies
+Mayhem
+Adept
+SHIFT + CONCEAL + PROJECT
+Let chaos hide in many minds
+Fear
+Adept
+COMMAND + SHIFT + REVEAL
+Force fear to shift and reveal terror
+Invisibility (Master Version)
+Expert
+CONCEAL + STABILIZE + BIND + PROJECT
+Hide completely and anchor the concealment
+Mass Confusion
+Master
+SHIFT + CONCEAL + PROJECT + STABILIZE + COMMAND
+Force many minds to shift, hide thoughts, and persist
+
+
+GESTURE SWAPPING RULES
+When You Can Swap
+Rank 1 (Apprentice): Cannot swap. You cast spells as baseline.
+Rank 2 (Adept): You perceive the gesture functions of each spell you know. You understand why it works as it does. You cannot yet swap.
+Rank 3 (Expert): You can attempt to swap one gesture function in any spell you know. Roll a d20 against your relevant Stat (Magic for most schools). On success, the swapped spell works. On failure, the spell fizzles and you take 1 HP damage from the strain.
+Rank 4 (Master): You execute swaps reliably. No roll required. You simply declare which gesture you're swapping and how the spell changes.
+The Swap Itself
+You can swap any single gesture in a spell. You cannot use the same gesture twice in one spell configuration (no COMMAND + COMMAND).
+When you swap:
+The Target Number for casting does not change
+The FP cost does not change
+The base damage or healing does not change
+What the spell does changes based on the new gesture configuration
+You gain something and lose something (always a trade-off)
+Thematic Coherence
+Not every swap makes sense. The GM is the final arbiter.
+Forbidden Swaps (Examples):
+Raise Zombie (COMMAND + BIND) to Raise Zombie (PETITION + BIND) — You cannot petition the dead to return
+Invisibility (CONCEAL + RELEASE) to Invisibility (REVEAL + STABILIZE) — Contradictory (can't be hidden and revealed)
+Healing Hands (PETITION) to Healing Hands (SEVER) — Doesn't match healing's nature
+Allowed But Difficult: Swaps that go against a school's natural affinity can still work, but the GM can mark them as requiring deeper understanding or carrying unusual consequences.
+
+
+The Three Laws of Modification
+The Law of Dilution: If a swap turns a Single-Target spell into an Area of Effect (AoE), the damage is Halved. You cannot gain area coverage without losing intensity.
+The Law of Sustain: If a swap (like STABILIZE) changes a Duration to "Concentration" or "Permanent," the caster must spend a Major Action every turn to maintain it. If they take damage, they must make a Magic Save or lose the spell.
+The Law of Conservation: A swap cannot replicate the exact effect of a higher-tier spell. (e.g., You cannot swap gestures in Firebolt to make it exactly Fireball). It must remain a variation, not an upgrade.
+
+EXAMPLE SPELL MODIFICATIONS
+FIREBALL (Adept: COMMAND + BIND + PROJECT)
+Baseline: COMMAND + BIND + PROJECT
+Effect: You force fire to explode in a concentrated burst
+Area: 20-foot radius sphere
+Duration: Instantaneous
+Behavior: Explodes at a point, spreads outward
+Range: 120 feet
+Swap 1: Remove PROJECT, use RELEASE (COMMAND + BIND + RELEASE)
+Effect: You force fire to bind in an explosion, then fade
+Area: 20-foot radius sphere
+Duration: Instantaneous but the fire burns out quickly
+Behavior: Explodes once, no lingering effect
+Range: 60 feet
+Trade-off: Shorter range, no lingering flames, but easier to control (less chaotic)
+Swap 2: Replace COMMAND with PETITION (PETITION + BIND + PROJECT)
+Effect: You ask fire to manifest as an explosion
+Area: 20-foot radius sphere
+Duration: Instantaneous
+Behavior: Fire gently expands, allies have time to move away
+Range: 120 feet
+Trade-off: Less chaotic, safer, but allies gain advantage on saving throws
+Swap 3: Replace BIND with SHIFT (COMMAND + SHIFT + PROJECT)
+Effect: You force fire to arc and spread across distance
+Area: 40-foot line, spreads to adjacent targets
+Duration: Instantaneous
+Behavior: Lightning-like arc, chains to nearby enemies
+Range: 180 feet
+Trade-off: Larger area but less concentrated, harder to avoid hitting allies
+Swap 4: Replace PROJECT with STABILIZE (COMMAND + BIND + STABILIZE)
+Effect: You force fire to remain in place
+Area: 20-foot radius
+Duration: Concentration, up to 10 minutes
+Behavior: Burning cloud that persists
+Range: 120 feet
+Trade-off: No longer instantaneous, requires concentration, but creates persistent hazard
+
+PARALYZE (Apprentice: COMMAND + BIND)
+Baseline: COMMAND + BIND
+Effect: You force the body to bind itself immobile
+Duration: 4 rounds
+Behavior: Target cannot move or act
+Range: 60 feet
+Swap 1: Replace COMMAND with PETITION (PETITION + BIND)
+Effect: You ask the body to still itself
+Duration: 1 round
+Behavior: Target can resist more easily (advantage on saves)
+Range: 60 feet
+Trade-off: Much weaker and shorter, but target doesn't resist your will as strongly, more negotiation than force
+Swap 2: Replace BIND with ANCHOR (COMMAND + ANCHOR)
+Effect: You force the target to be anchored to their location
+Duration: 4 rounds
+Behavior: Target is rooted in place but not paralyzed (can act, cannot move)
+Range: 60 feet
+Trade-off: Target can still attack/cast, but cannot flee or reposition
+Swap 3: Replace BIND with STABILIZE (COMMAND + STABILIZE)
+Effect: You force paralysis to become permanent
+Duration: Concentration, up to 1 hour
+Behavior: Deep paralysis that resists all attempts to break it
+Range: 60 feet
+Trade-off: Requires your constant concentration, but lasts far longer and resists dispelling
+Swap 4: Add ANCHOR (COMMAND + BIND + ANCHOR)
+Effect: You force the target to be paralyzed and anchored to their location
+Duration: 4 rounds
+Behavior: Cannot move, cannot act, rooted to the spot
+Range: 60 feet
+Trade-off: More powerful effect but requires three gestures (harder for lower-rank casters)
+
+INVISIBILITY (Apprentice: CONCEAL + RELEASE)
+Baseline: CONCEAL + RELEASE
+Effect: You hide from sight and let the effect fade naturally
+Duration: 10 minutes
+Behavior: Undetectable, breaks on hostility
+Range: Self
+Swap 1: Replace RELEASE with BIND (CONCEAL + BIND)
+Effect: You hide from sight and lock it in place
+Duration: 30 minutes
+Behavior: Much harder to break, persists longer
+Range: Self
+Trade-off: Longer duration but more rigid (can't break it easily yourself if needed)
+Swap 2: Replace RELEASE with STABILIZE (CONCEAL + STABILIZE)
+Effect: You hide completely and anchor it
+Duration: 1 hour, concentration required
+Behavior: Nearly impossible to detect, persists through disturbances
+Range: Self
+Trade-off: Very long duration but you must concentrate the entire time
+Swap 3: Replace CONCEAL with REVEAL (REVEAL + RELEASE)
+Effect: You become obvious and let it fade
+Duration: 5 minutes
+Behavior: Everyone sees exactly where you are, becomes less visible as spell fades
+Range: Self
+Trade-off: Enemies know your location, but spell is easy to cast and breaks easily
+
+HEALING HANDS (Novice: PETITION)
+Baseline: PETITION
+Effect: You ask the body to heal itself
+Healing: 10 HP
+Duration: Instantaneous
+Range: 30 feet
+Swap 1: Replace PETITION with COMMAND (COMMAND)
+Effect: You force the body to heal itself
+Healing: 15 HP
+Duration: Instantaneous
+Range: 30 feet
+Trade-off: Stronger effect but feels violent to the target, risks damaging trust
+Swap 2: Add BIND (PETITION + BIND)
+Effect: You ask the wound to seal itself
+Healing: 10 HP, but heals twice if cast on same target consecutively
+Duration: Instantaneous
+Range: 30 feet
+Trade-off: Healing persists if cast again, but only works on the same target repeatedly
+Swap 3: Add ANCHOR (PETITION + ANCHOR)
+Effect: You ask healing to anchor in the target
+Healing: 10 HP, plus target gains +1 temporary DR
+Duration: Instantaneous
+Range: 30 feet
+Trade-off: Added benefit but stronger conviction required
+
+THE COLLEGE OF WINTERHOLD AND SOMATIC MASTERY
+The College of Winterhold is the center of magical learning in Skyrim. Beyond teaching students how to cast spells, the College preserves and disseminates knowledge about the somatic components—the physical expressions and movements—that underlie all magic.
+When you learn a spell through normal magical progression (leveling a school of magic), you know how to cast it. The College teaches you the somatic structure—the underlying components that compose each spell. They preserve grimoires, conduct research, and train scholars who understand not just that magic works, but how it works at a fundamental level.
+The College's Academic Mission
+The College of Winterhold:
+Preserves knowledge of the somatic components underlying all known spells
+Teaches students to recognize and understand these components
+Allows advanced mages to modify spells by altering their somatic structure
+Maintains the largest magical library in Skyrim, including texts on the theory of magic itself
+Conducts ongoing research into the nature of magical law and how it can be negotiated with
+Learning Somatic Components at the College
+When you attend the College, you learn:
+The somatic components that compose each spell you know
+What each component represents in the magical structure of Skyrim
+How to modify spells by changing their somatic components
+The theoretical principles that allow this modification to work
+This knowledge comes through study with Magisters, consultation of ancient texts, and deep engagement with magical theory. It is not gated by ranks or tests—only by understanding.
+When a Magister explains to you that Fireball is built from COMMAND + BIND + PROJECT (three somatic principles), and you understand what those components mean and how they function, you can now modify them. If you swap BIND for SHIFT, you create a new variant where fire adapts and spreads instead of binding in one concentrated explosion.
+The Somatic Language
+The College has catalogued twelve fundamental somatic components—recurring patterns in how mages physically express and channel magical law. Every spell is built from these components in different combinations.
+
+SCHOOL NATURAL AFFINITIES
+Destruction
+Natural Components: COMMAND, PROJECT, SEVER, RELEASE
+These are easy and intuitive for Destruction mages
+Swapping away from these feels unnatural but is still possible
+Restoration
+Natural Components: PETITION, ANCHOR, STABILIZE, REVEAL
+These are easy and intuitive for Restoration mages
+Healing magic works through harmony, not force
+Alteration
+Natural Components: ANCHOR, SHIFT, BIND, STABILIZE
+These are easy and intuitive for Alteration mages
+Change requires conviction and stability
+Conjuration
+Natural Components: COMMAND, BIND, PROJECT, ATTUNE
+These are easy and intuitive for Conjuration mages
+Summoning works through dominance and binding
+Illusion
+Natural Components: SHIFT, CONCEAL, REVEAL, ATTUNE, RELEASE
+These are easy and intuitive for Illusion mages
+Illusions work through fluidity and deception
+Cross-School Swaps
+A Restoration mage swapping PETITION for COMMAND in Healing Hands is doing something thematically weird. The GM can note this:
+"You're forcing the body to heal rather than asking it. This feels violent and unnatural."
+But it's not forbidden. The mage is learning that magic can be expressed multiple ways. This is advanced understanding, not a violation.
+
+DESIGNING YOUR OWN SOMATIC SWAPS
+When a player wants to swap a somatic component, follow this process:
+Step 1: Is It Thematically Coherent?
+Can you explain the swap in one sentence?
+"I'm swapping PROJECT for BIND so Fireball becomes a stationary explosion instead of traveling"
+Good. That's coherent.
+"I'm swapping COMMAND for REVEAL in Invisibility"
+Confused. What does that mean? Work it out with the player.
+Step 2: What Changes About the Spell?
+Ask yourself: What is different now?
+Range? (PROJECT changes reach)
+Duration? (BIND/STABILIZE/RELEASE change how long it lasts)
+Area? (PROJECT affects larger areas; BIND concentrates it)
+Behavior? (SHIFT makes things adaptive; CONCEAL makes things subtle)
+Resistance to dispelling? (STABILIZE/BIND resist; RELEASE is fragile)
+Step 3: What's the Trade-Off?
+Every swap gains something and loses something.
+Longer duration = requires concentration or is harder to end
+Larger area = less focused effect
+More subtle = weaker or harder to notice
+More powerful = more obvious/dramatic
+Easier to cast = shorter duration or less effective
+
+THE FIVE OUTCOMES WITH SWAPPED SOMATIC COMPONENTS
+The Five Outcomes still apply, but they apply to the swapped spell variant, not a "modified outcome."
+Critical Success (Roll of 1): The swapped spell works perfectly. Full intended effect with no complications.
+Success (Roll under Target Number): The swapped spell works as intended.
+Complicated Success (Roll equals Target Number): The swapped spell works, but the complication is tied to the new nature of the spell.
+Example: Fireball with STABILIZE works, but the persistent flames are harder to control than expected.
+Example: Invisibility with BIND works, but you're more anchored in place than you realized.
+Failure (Roll over Target Number): The spell fizzles. No additional cost.
+Critical Failure (Roll of 20): The spell backfires. The caster takes 5 HP damage and the spell goes wild.
+
+SUMMARY
+The Somatic Component System in One Paragraph:
+Every spell is built from somatic components that define its relationship to magical law. By understanding these components, a Master mage can swap one component for another, creating a new variant of the spell. This is not spell invention—it is spell mastery. You don't break the rules; you negotiate with them. The College of Winterhold teaches these components through study and theory, allowing mages who have learned them to modify spells freely. Every swap changes what the spell does without changing its cost or damage. This is how magic deepens in Skyrim.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+SKYRIM SOMATIC COMPONENT SYSTEM
+Spell Modification Through Understanding Magical Structure
+CORE CONCEPT
+Every spell in Skyrim is built from somatic components—fundamental relationships to magical law that express how a mage channels and shapes Magicka. By understanding these components, a mage can swap one component for another, creating a new variant of the spell without changing its base cost or damage.
+This is not spell invention. This is spell mastery.
+
+THE TWELVE SOMATIC COMPONENTS
+1. PETITION
+Definition: Request the law to work as it naturally inclines.
+Effect: Easier to control, less chaotic, subtle. (Restoration/Illusion).
+2. COMMAND
+Definition: Force the law to work as you will it.
+Effect: Harder to manage, dramatic, violent. (Destruction/Conjuration).
+3. ANCHOR
+Definition: Ground yourself in unshakeable conviction.
+Effect: Resists interruption, persists longer, tied to caster. (Alteration/Restoration).
+4. PROJECT
+Definition: Extend your will across distance.
+Effect: Reaches further, affects larger areas. (Destruction/Illusion).
+5. SHIFT
+Definition: Allow the law to bend and flow.
+Effect: Chains through obstacles, adapts to terrain. (Alteration/Illusion).
+6. BIND
+Definition: Fix a moment so it cannot unravel.
+Effect: Duration extends, targets become rooted. (Conjuration/Alteration).
+7. RELEASE
+Definition: Surrender control and let the law reassert itself.
+Effect: Costs less to maintain, dissipates quickly, unstable. (Destruction).
+8. STABILIZE
+Definition: Entropy is slow; this state is permanent.
+Effect: Dramatically extended duration, immune to dispelling. (Alteration).
+9. ATTUNE
+Definition: Become one with the law's expression.
+Effect: Insight into deeper effects, spell becomes automatic. (All).
+10. SEVER
+Definition: Break connections and shatter bonds.
+Effect: Disrupts magic, breaks hostile effects. (Destruction/Conjuration).
+11. CONCEAL
+Definition: Happen where no one is looking.
+Effect: Subtle, enemies have disadvantage detecting it. (Illusion).
+12. REVEAL
+Definition: All hidden things are shown.
+Effect: Dramatically obvious, draws attention. (Restoration/Illusion).
+
+GESTURE SWAPPING RULES
+When You Can Swap
+Rank 1 (Apprentice): Cannot swap.
+Rank 2 (Adept): You perceive the gestures but cannot change them.
+Rank 3 (Expert): You can Attempt a swap.
+Roll: d20 vs Magic Stat.
+Success: The swapped spell works.
+Failure: The spell fizzles. You take 3 Irreducible Damage from the strain.
+
+
+Rank 4 (Master): You execute swaps reliably. No roll required.
+The Swap Itself
+You can swap any single gesture in a spell.
+The TN and FP cost do not change..
+The Behavior changes (Range, Duration, Area, Delivery).
+The Three Laws of Modification
+The Law of Dilution: If a swap turns a Single-Target spell into an Area of Effect (AoE), the damage is Halved. You cannot gain area coverage without losing intensity.
+The Law of Sustain: If a swap (like STABILIZE) changes a Duration to "Concentration" or "Permanent," the caster must spend a Major Action every turn to maintain it. If they take damage, they must make a Magic Save or lose the spell.
+The Law of Conservation: A swap cannot replicate the exact effect of a higher-tier spell. (e.g., You cannot swap gestures in Firebolt to make it exactly Fireball). It must remain a variation, not an upgrade.
+
+
+EXAMPLE SPELL MODIFICATIONS
+FIREBALL (Adept: COMMAND + BIND + PROJECT)
+Baseline: Explodes at a point (20ft radius). Instant.
+Swap 1 (Remove PROJECT, use RELEASE): Explosion fades instantly. Shorter range (60ft), but no lingering fire hazard.
+Swap 2 (Replace COMMAND with PETITION): Fire gently expands. Allies have time to move away (Safe Zone).
+Swap 3 (Replace BIND with SHIFT): Fire arcs across distance (Chain Lightning style). 40ft Line.
+Swap 4 (Replace PROJECT with STABILIZE): Fire remains in place (Wall of Fire). Requires Concentration.
+PARALYZE (Expert: COMMAND + BIND)
+Baseline: Force body to bind immobile. Duration: 3 Rounds.
+Swap 1 (Replace COMMAND with PETITION): Ask body to still. Duration: 1 Round. Target has Advantage on resistance.
+Swap 2 (Replace BIND with ANCHOR): Target is Rooted (Can act, cannot move).
+Swap 3 (Replace BIND with STABILIZE): Paralysis becomes permanent (Concentration). Lasts up to 10 minutes.
+HEALING HANDS (Adept: PETITION + ANCHOR)
+Baseline: Heals 12 HP per turn (Sustained).
+Swap 1 (Swap ANCHOR for BIND): Heals 12 HP instantly. If cast again on same target, heals 24 HP.
+Swap 2 (Swap ANCHOR for RELEASE): Heals 20 HP (Burst) at 60ft range. Cannot be sustained.
+Swap 3 (Swap PETITION for COMMAND): Heals 12 HP, but target resists (Disadvantage on healing saves if unwilling).
+
+THE FIVE OUTCOMES (SWAPPED)
+Critical Success (1): The swap works perfectly with a bonus benefit.
+Success: Works as intended.
+Complicated Success: Works, but the new nature causes a problem (e.g., The Stabilized Fireball blocks your own path).
+Failure: Fizzles. Take 3 Damage (Strain).
+Critical Failure (20): Backfire. Take 5 Damage, and the spell goes wild (GM Choice).
+
