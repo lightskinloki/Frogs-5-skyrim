@@ -1,0 +1,369 @@
+Spell List
+Spells are powerful manifestations of a mage's will, fueled by their reserves of Focus Points (FP). To cast a spell, you must have the required skill tier, spend the listed FP cost, and succeed on a Magic roll. This list covers the most common spells found in Skyrim; ancient and powerful variations may yet be discovered.
+Note: if a spell specifies it only works on a non-boss enemy that just means the spell will have a lesser effect on bosses based on that bosses properties, it does not mean you can not target them with the spell.
+
+Destruction
+The school of Destruction is for those who wish to master the raw elements and unleash devastating energy upon their foes. Spells are divided by element, each with a unique secondary effect.
+Fire: Deals high damage and can set targets ablaze, causing them to take damage over time (Burning).
+Frost: Deals damage to both Health and Focus, and can Slow enemies, hindering their movement.
+Shock: Deals damage to both Health and Focus, is difficult to dodge, and can disintegrate weakened foes.
+
+Novice Destruction 
+Flames (1 FP ): You project a stream of fire, dealing 3 fire damage to a single target in melee range, the target starts Burning for 1 damage at the start of their next 2 turns.
+Frostbite (1 FP ): You project a jet of freezing cold, dealing 3 frost damage and draining 1 FP  from a single target in melee range.
+Sparks (1 FP ): You project a torrent of lightning, draining 3 FP from a single target in melee range and doing 2 shock damage.
+
+Apprentice Destruction 
+Firebolt (3 FP): You launch a bolt of fire, dealing 6 fire damage. Targets hit start Burning for 2 damage per turn for 2 turns.
+Ice Spike (3 FP): You launch a deadly shard of ice, dealing 4 frost damage and 2 FP damage.
+Lightning Bolt (3 FP): You launch a bolt of lightning, dealing 2 shock damage and 4 FP damage.
+Fire Rune (5 FP): You place a magical trap on a nearby surface. The next creature to approach it triggers an explosion, taking 12 fire damage and Burn for 2 turns for 2 damage.
+Frost Rune (5 FP): You place a chilling trap. The next creature to approach it triggers an explosion, taking 12 frost damage and becoming Slowed (cannot use Minor Action for movement) for their next turn.
+Lightning Rune (5 FP): You place a shocking trap. The next creature to approach it triggers an explosion, dealing 6 shock damage and draining 6 FP.
+
+Adept Destruction 
+Fireball (6 FP): A fiery explosion engulfs your target, dealing 9 fire damage to them and 4 fire damage to anyone within 20 feet. All targets hit start Burning for 1 damage per turn for 3 turns.
+Ice Storm (6 FP): A swirling vortex of ice moves forward in a line, dealing 6 frost damage and 3 FP damage per turn to all in its path. All targets hit are Slowed.
+Chain Lightning (7 FP): A bolt of lightning strikes your primary target for 5 shock damage and drains 8 FP, then leaps to one additional target for full effect.
+Flame Cloak (8 FP): For 2 rounds, you are wreathed in fire. Any enemy that hits you with a melee attack or stands next to you takes 4 fire damage and Burns 2 Damage for 1 round.
+Frost Cloak (8 FP): For 2 rounds, you are surrounded by biting frost. Any enemy that hits you or stands next to you takes 3 frost damage and 3 FP damage.
+Lightning Cloak (8 FP): For 2 rounds, you are shrouded in arcing electricity. Any enemy that hits you or stands next to you takes 2 shock damage and loses 6 FP.
+
+Expert Destruction 
+Incinerate (9 FP): You launch an immense blast of fire that deals 12 fire damage. Targets hit are guaranteed to start Burning for 3 damage per turn for 3 turns.
+Icy Spear (9 FP): You launch a massive spear of ice that deals 10 frost damage and 6 FP damage. Targets hit are Slowed for two turns.
+Thunderbolt (10 FP): You launch a powerful bolt of lightning that deals 8 shock damage and drains 10 FP. If this kills an enemy, they disintegrate into a pile of ash.
+Wall of Flames (10 FP): You create a wall of fire on the ground in a designated area for 1 round. Enemies entering or standing in the wall take 8 fire damage per turn.
+Wall of Frost (10 FP): You create a wall of biting frost for 1 round. Enemies entering or standing in it take 4 frost damage and 4 FP damage per turn and are Slowed.
+Wall of Storms (10 FP): You create a wall of electrical energy for 1 round. Enemies entering or standing in it take 2 shock damage and lose 6 FP per turn.
+
+Master Destruction 
+Fire Storm (18 FP): After concentrating for a full turn (using both your Major and Minor action), you unleash a massive, expanding explosion of fire centered on yourself. All creatures within 30 feet (excluding you) take 30 fire damage. Those further away up to 50 feet take half damage. And Burn for 2 damage for 2 rounds
+Blizzard (18 FP): You create a raging blizzard in a 40 foot area for 2 rounds. All creatures within it (excluding you) take 20 frost damage, 10 FP damage and are Slowed at the start of their turn. Visibility is heavily obscured.
+Lightning Storm (15 FP per turn): You channel raw power, unleashing a continuous beam of immense lightning. Choose one target. They take 15 shock damage and lose 30 FP. You can sustain the beam on subsequent turns by spending the FP cost again and using your Major Action. You cannot move while channeling this spell.
+
+Restoration
+The school of Restoration is the study of life energy. A master of this school is a bastion against suffering and a holy terror to the undead, capable of healing wounds, warding off magical attacks, and turning back the tide of undeath.
+
+Novice Restoration (Skill 0-24)
+Healing (2 FP): You channel restorative energy, healing yourself or a creature you touch for 4 HP.
+Lesser Ward (2 FP): As a Minor Action, you create a magical field. Until the start of your next turn, you gain Damage Reduction 3 against spells. You can hold the ward on subsequent turns by spending 1 FP and your Minor Action.
+
+Apprentice Restoration (Skill 25-49)
+Fast Healing (4 FP): A burst of healing energy restores 8 HP to yourself only.
+Heal Other (4 FP): You project a ray of light at a target within sight, restoring 8 HP.
+Sun Fire (3 FP): A bolt of pure sunlight strikes a target, dealing 6 damage. This damage is doubled against undead targets.
+Turn Lesser Undead (3 FP): You release a wave of holy energy. A single undead creature (e.g., Draugr, Skeleton) must succeed on a Guile roll or be terrified, losing its next turn.
+
+Adept Restoration (Skill 50-74)
+Healing Hands (6 FP per turn): You channel a continuous stream of healing energy into an ally you are touching, restoring 12 HP for each turn you maintain the spell.
+Steadfast Ward (4 FP + 2FP/turn sustain): As a Minor Action, you create a superior magical field. Until the start of your next turn, you gain Damage Reduction 5 against spells.
+Vampire's Bane (6 FP): A solar explosion erupts around a target, dealing 9 damage to them and 4 damage to anyone nearby. This damage is doubled against undead targets.
+Turn Undead (6 FP): As Turn Lesser Undead, but they are terrified for 2 rounds on a failed roll and you may target one additional undead. On a successful role they must spend their next minor action moving away from you and it only affects one target.
+
+Expert Restoration (Skill 75-99)
+Grand Healing (12 FP): You release a powerful wave of healing energy, restoring 16 HP to yourself and all allies within 20 feet.
+Greater Ward (6 FP + 3/turn sustain.): As a Minor Action, you create a master's ward, granting Damage Reduction 8 against spells until your next turn.
+Stendarr's Aura (10 FP): For 2 rounds, you are surrounded by a holy aura. Any undead that hits you with a melee attack or stands next to you takes 4 holy damage.
+Circle of Protection (12 FP): You create a circle on the ground that lasts for 2 rounds. Any undead that attempts to enter it is automatically turned and must flee. Living allies standing in the circle have Advantage on rolls to resist fear. 30ft 
+
+Master Restoration (Skill 100)
+Guardian Circle (20 FP, Once per encounter): You create a large circle on the ground that lasts for 3 rounds. Undead cannot enter it, and any allies standing within it regain 10 HP at the start of their turn.
+Bane of the Undead (18 FP, Once per encounter): You release a wave of pure sunlight. All undead in a very large area around you are set ablaze, taking 20 holy damage at the start of their turn for the next 3 rounds.
+
+
+Alteration
+The school of Alteration involves the manipulation of the physical world and its properties. Practitioners can twist the laws of nature to their whim, protecting themselves with magical armor, detecting the unseen, paralyzing foes, and wielding the world itself as a tool.
+
+Novice Alteration (Skill 0-24)
+Oakflesh (3 FP): You magically harden your skin to the toughness of oak. For the rest of the encounter, if you are not wearing armor, you gain Damage Reduction 2.
+Magelight (1 FP): You create a floating ball of light that sticks to whatever surface it strikes or hovers in place. It illuminates a 30-foot area and lasts for the rest of the scene.
+
+Apprentice Alteration (Skill 25-49)
+Stoneflesh (5 FP): A stronger version of Oakflesh that grants Damage Reduction 4 for the encounter (if unarmored).
+Ash Shell (4 FP): You hurl a ball of ash at a target. They must succeed on a Might roll or be encased in hardened ash for 2 rounds. An encased target is immune to all damage but cannot take any actions.
+Detect Life (3 FP): For the rest of the scene, you can perceive the life force of living creatures through walls and obstacles. While this spell is active, you cannot be surprised by living enemies.
+
+Adept Alteration (Skill 50-74)
+Ironflesh (8 FP): A powerful flesh spell that grants Damage Reduction 6 for the encounter (if unarmored).
+Waterbreathing (4 FP): A target you touch can breathe underwater for the rest of the scene.
+Telekinesis (6 FP per turn sustained): You can magically lift and move one unattended object (nolarger than yourself) within 30 feet. You can hold it for up to 3 rounds, moving it with your mind as a Minor Action.
+Detect Dead (6 FP): For the rest of the scene, you can perceive the lingering energy of undead creatures through walls and obstacles. While this spell is active, you cannot be surprised by undead enemies.
+
+Expert Alteration (Skill 75-99)
+Ebonyflesh (12 FP): The strongest non-master flesh spell, granting Damage Reduction 8 for the encounter (if unarmored).
+Ash Rune (10 FP): You place an ash rune on a nearby surface. The next enemy to approach it triggers the rune, and must succeed on a Might roll or be encased in hardened ash for 2 rounds (as Ash Shell). 
+Paralyze (10 FP): You send a wave of magical force at a single target. They must succeed on a Might roll or be completely paralyzed, losing their next turn.
+
+Master Alteration (Skill 100)
+Dragonhide (25 FP): You are infused with the resilience of a dragon. For 3 rounds, you gain Damage Reduction 10. This DR stacks with any DR from worn armor; it can also stack with flesh spells.
+Mass Paralysis (25 FP): You unleash a wave of paralyzing energy. All non-boss enemies in a 30 foot area must succeed on a -2TN Might roll or be completely paralyzed, losing their next 3 turns.
+
+Illusion
+The school of Illusion manipulates the minds of others. An Illusionist can terrify their enemies, calm them into submission, inspire their allies to greater feats, or move completely unseen, making them masters of control and subterfuge. Many Illusion spells require the target to fail a Guile roll to take effect.
+
+Novice Illusion (Skill 0-24)
+Fury (2 FP): You magically provoke a single non-boss enemy. On a failed guile roll, their next turn they will attack the nearest creature, whether friend or foe. (charging or dual casting increases the difficulty modifier of the targets roll in proportion to how long it has been charged as well as the duration)
+Courage (2 FP): You bolster the spirit of a single ally. For the next 3 rounds, they are immune to fear effects and gain a +1 bonus to their Guile Target Number on rolls to resist intimidation.
+Clairvoyance (1 FP): A faint magical line appears before you, showing you the most direct path to your current, declared objective. (be careful how you phrase your objective)
+
+Apprentice Illusion (Skill 25-49)
+Fear (4 FP): You instill magical terror in a single non-boss enemy. They must succeed on a Guile roll or spend their next turn moving away from you by the safest route possible. (charging or dual casting increases the difficulty modifier of the targets roll in proportion to how long it has been charged as well as the duration)
+Calm (4 FP): You magically soothe a single non-boss enemy. They must succeed on a Guile roll or become non-hostile for 2 rounds. They will not fight unless they are attacked. (charging or dual casting increases the difficulty modifier of the targets roll in proportion to how long it has been charged as well as the duration)
+Muffle (3 FP): For the rest of the scene, your footsteps are completely silent. You have Advantage on all Sneak rolls related to movement. 
+
+Adept Illusion (Skill 50-74)
+Frenzy (7 FP): As Fury, but it affects all non-boss enemies in a 20-foot radius.
+Rally (7 FP): You inspire a single ally to heroism. For the next 3 rounds, they gain a +2 bonus to all damage rolls and are immune to fear.
+Invisibility (8 FP): You become completely invisible. The effect lasts for 3 rounds or until you attack, cast another spell, or interact with an object.
+
+Expert Illusion (Skill 75-99)
+Rout (10 FP): As Fear, but it affects all non-boss enemies in a 30-foot radius.
+Pacify (10 FP): As Calm, but it affects all non-boss enemies in a 30-foot radius.
+Call to Arms (12 FP): You inspire all allies within a 30-foot radius. For the next 3 rounds, their damage and DR is increased by +2.
+
+Master Illusion (Skill 100)
+Harmony (20 FP): You project an overwhelming aura of peace. All non-boss enemies able to see you become non-hostile for the rest of the scene or until they are attacked. This effectively ends the current combat.
+Mayhem (20 FP): You project an overwhelming aura of rage. All non-boss enemies able to see you are thrown into a homicidal rage for 3 rounds, attacking the nearest creature, regardless of allegiance.
+Hysteria (20 FP): You project an overwhelming aura of terror. All non-boss enemies able to see you become terrified, fleeing from you for 3 rounds.
+
+Conjuration
+The school of Conjuration governs the summoning of creatures and weapons from other planes, as well as the reanimation of the dead. A Conjurer is a master of the battlefield, never fighting alone. They can call upon spectral beasts, powerful Daedra, and undead servants, or arm themselves with weapons forged in the fires of Oblivion.
+(Summoned creatures last for the duration of the encounter unless otherwise noted. You may only have one summoned or reanimated creature active at a time, unless a perk states otherwise.)
+
+Novice Conjuration (Skill 0-24)
+Conjure Familiar (3 FP): You summon a spectral wolf to fight by your side. (See Summon Stats below).
+Raise Zombie (4 FP): You reanimate a weak, dead humanoid/creature to serve you. (See Summon Stats below).
+Bound Dagger (1 FP): You summon a Daedric dagger into your hand. It uses the One-Handed skill and has Damage 4 with the Assassin's Blade property.
+
+Apprentice Conjuration (Skill 25-49)
+Conjure Flame Atronach (5 FP): You summon a Flame Atronach, a being of fire and spite that hurls firebolts at your enemies.
+Bound Sword (2 FP): You summon a Daedric sword into your hand. It uses the One-Handed skill and has Damage 6 with the Finesse property.
+Reanimate Corpse (6 FP): You reanimate a moderately powerful dead humanoid/creature.
+Soul Trap (2 FP): You cast a curse on a living target. If that target dies within the next 2 rounds, their soul is trapped in the appropriate empty soul gem you possess.
+
+Adept Conjuration (Skill 50-74)
+Conjure Frost Atronach (8 FP): You summon a Frost Atronach, a hulking behemoth of ice and rage that pounds foes into submission.
+Bound Battleaxe (4 FP): You summon a Daedric battleaxe into your hands. It uses the Two-Handed skill and has Damage 9 with the Deep Wounds property.
+Revenant (10 FP): You reanimate a powerful dead humanoid/creature.
+Banish Daedra (6 FP): You attempt to send a summoned Daedra (or undead.) back to Oblivion. The enemy summoner must succeed on a contested Magic roll, or their creature is instantly unsummoned.
+
+Expert Conjuration (Skill 75-99)
+Conjure Storm Atronach (12 FP): You summon a Storm Atronach, a whirlwind of rock and lightning that attacks with powerful chain lightning spells.
+Bound Bow (6 FP): You summon a Daedric bow and 100 magical arrows. It uses the Archery skill, has Damage 12, and has the Quick Draw and Soul Trap properties built-in.
+Dread Zombie (14 FP): You reanimate a very powerful dead humanoid (Vampire, etc.).
+Command Daedra (10 FP): You attempt to wrest control of a summoned Daedra. The enemy summoner must succeed on a Magic roll, or their creature fights for you until they would return to oblivion.
+
+Master Conjuration (Skill 100)
+Flame Thrall (25 FP): You summon a Flame Atronach that serves you until it is destroyed. You can only have one Thrall of any kind active at a time.
+Frost Thrall (25 FP): You summon a Frost Atronach that serves you until it is destroyed. You can only have one Thrall of any kind active at a time.
+Storm Thrall (25 FP): You summon a Storm Atronach that serves you until it is destroyed. You can only have one Thrall of any kind active at a time.
+Dead Thrall (30 FP): You reanimate a powerful dead humanoid that serves you until it is destroyed. You may equip your Thrall with any armor or weapons you give it. You can only have one Thrall of any kind active at a time.
+Conjure Dremora Lord (20 FP, Once per encounter): You summon a mighty Dremora Lord clad in Daedric armor. It wields a flaming greatsword and exists only to destroy your enemies. It lasts for 3 rounds. While the Dremora Lord is active, all other friendly summoned creatures deal +1 damage.
+
+Summoned & Reanimated Creatures refference
+Summon Name
+HP
+Attack Damage
+Special Abilities
+Familiar
+8
+4 (Bite)
+A basic but loyal spectral wolf.
+Zombie
+12
+4 (Slam)
+Slow and shambling.
+Flame Atronach
+20
+6 (Firebolt)
+Immune to fire, vulnerable to frost (takes +1 damage).
+Reanimated Corpse
+25
+6 (Weapon)
+A more durable undead servant. 
+Frost Atronach
+40
+8 (Slam)
+Immune to frost, vulnerable to fire. Its slam attacks can Slow enemies.
+Revenant
+35
+12 (Weapon)
+A powerful and resilient undead warrior. Revenant: when reduced to zero HP, raises again with half Max HP
+Storm Atronach
+30
+12 (Chain Lightning)
+Immune to shock. Its attacks can drain FP.
+Dread Zombie
+50
+16 (Weapon)
+A truly terrifying undead minion. Has a chance(magic roll on hit) to inflict Fear: You must succeed on a Guile roll or spend their next turn moving away from it by the safest route possible.
+
+
+Dremora Lord
+60
+16 (Greatsword)
+Fiery Presence: The Dremora Lord is wreathed in supernatural fire. Any enemy that ends its turn adjacent to him takes 2 fire damage and is set ablaze, taking an additional 3 fire damage at the start of its next two turns.
+Daedric Commander: While the Dremora Lord is on the battlefield, all other friendly summoned creatures deal +1 damage with their attacks.
+
+
+
+Summoned & Reanimated Creature Stats Blocks
+This section provides the complete stats for all creatures available through the Conjuration school. When a summoned creature performs an action (like attacking or using a special ability), it uses its own Stat Score as the Target Number for the d20 roll.
+
+Familiar
+Archetype: Fast Skirmisher
+Summoned by: Conjure Familiar (Novice)
+Stats:
+Might: 10
+Agility: 12
+Magic: 6
+Guile: 8
+Combat Stats:
+HP: 8
+DR: 0
+Attack: 4 (Bite). Rolls vs. Agility 12.
+Abilities:
+A basic but loyal spectral wolf.
+
+Zombie
+Archetype: Mindless Brute
+Summoned by: Raise Zombie (Novice)
+Stats:
+Might: 12
+Agility: 6
+Magic: 6
+Guile: 6
+Combat Stats:
+HP: 12
+DR: 2
+Attack: 4 (Slam). Rolls vs. Might 12.
+Abilities:
+Slow and shambling. Immune to fear and mind-affecting spells.
+
+Flame Atronach
+Archetype: Ranged Magical Damage
+Summoned by: Conjure Flame Atronach (Apprentice)
+Stats:
+Might: 6
+Agility: 12
+Magic: 14
+Guile: 10
+Combat Stats:
+HP: 20
+DR: 2
+Attack: 6 (Firebolt). Rolls vs. Magic 14.
+Abilities:
+Immune to fire; vulnerable to frost (takes double damage from frost sources).
+
+Reanimated Corpse
+Archetype: Undead Soldier
+Summoned by: Reanimate Corpse (Apprentice)
+Stats:
+Might: 14
+Agility: 8
+Magic: 6
+Guile: 8
+Combat Stats:
+HP: 25
+DR: 4 (from tattered armor)
+Attack: 6 (Weapon). Rolls vs. Might 14.
+Abilities:
+A durable undead servant. Immune to fear and mind-affecting spells.
+
+Frost Atronach
+Archetype: Magical Tank
+Summoned by: Conjure Frost Atronach (Adept)
+Stats:
+Might: 16
+Agility: 6
+Magic: 12
+Guile: 10
+Combat Stats:
+HP: 40
+DR: 6 (solid ice)
+Attack: 8 (Slam). Rolls vs. Might 16.
+Abilities:
+Immune to frost; vulnerable to fire (takes double damage from fire sources).
+Frostbite Slam: On a successful hit, the target is Slowed (cannot use their Minor Action for movement) for their next turn.
+
+Revenant
+Archetype: Elite Undead Warrior
+Summoned by: Revenant (Adept)
+This summon has two forms. It begins as a Revenant (Full Strength). When it is defeated, it rises again as a Revenant (Risen).
+Revenant (Full Strength)
+Stats:
+Might: 15
+Agility: 10
+Magic: 8
+Guile: 10
+Combat Stats:
+HP: 35
+DR: 8 (from good armor)
+Attack: 12 (Weapon). Rolls vs. Might 15.
+Abilities:
+Revenant: When this creature's HP is reduced to 0, it does not die. At the start of its next turn, it rises again as a Revenant (Risen). This can only happen once per combat.
+Revenant (Risen)
+This is the broken form the Revenant takes after being defeated once.
+Stats:
+Might: 7
+Agility: 5
+Magic: 4
+Guile: 5
+Combat Stats:
+HP: 17
+DR: 4 (broken armor)
+Attack: 6 (Shattered Weapon). Rolls vs. Might 7.
+Abilities:
+A shambling, broken mockery of its former power.
+
+Storm Atronach
+Archetype: Ranged Magical Artillery
+Summoned by: Conjure Storm Atronach (Expert)
+Stats:
+Might: 10
+Agility: 8
+Magic: 17
+Guile: 12
+Combat Stats:
+HP: 30
+DR: 6 (rocky hide)
+Attack: 12 (Chain Lightning). Rolls vs. Magic 17.
+Abilities:
+Immune to shock.
+Energy Drain: Its Chain Lightning attack also drains 2 FP from each target it hits.
+
+Dread Zombie
+Archetype: Apex Undead Controller
+Summoned by: Dread Zombie (Expert)
+Stats:
+Might: 17
+Agility: 10
+Magic: 12
+Guile: 10
+Combat Stats:
+HP: 50
+DR: 10 (from heavy armor)
+Attack: 16 (Weapon). Rolls vs. Might 17.
+Abilities:
+Terrifying Presence: On a successful hit, the Dread Zombie makes a Magic roll (TN 12). If successful, the target is afflicted with Fear and must succeed on a Guile roll or spend their next turn moving away from the Dread Zombie by the safest possible route.
+
+Dremora Lord
+Archetype: Elite Commander
+Summoned by: Conjure Dremora Lord (Master)
+Stats:
+Might: 18
+Agility: 12
+Magic: 14
+Guile: 16
+Combat Stats:
+HP: 60
+DR: 12 (Daedric Armor)
+Attack: 16 (Greatsword). Rolls vs. Might 18.
+Abilities:
+Fiery Presence: The Dremora Lord is wreathed in supernatural fire. Any enemy that ends its turn adjacent to him takes 2 fire damage and is set ablaze, taking an additional 3 fire damage at the start of its next two turns.
+Daedric Commander: While the Dremora Lord is on the battlefield, all other friendly summoned creatures deal +1 damage with their attacks.
+
+
+
+
