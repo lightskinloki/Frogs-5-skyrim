@@ -8,9 +8,9 @@ Power Level: Master Villain (Base "Alchemical Warlord" + 8 AP)
 "I remember the formation you are attempting. The Nedes tried it at the Siege of Bromjunaar. They died in twelve seconds."
 
 Appearance: The Industrial Horror
-To encounter Ulag is to witness the industrialization of a living soul. He looms nearly seven feet tall, a monolith of grey-green muscle and black iron that seems to swallow the light around him. He does not wear his armor; he is imprisoned within it. The plates of Ancient Dragonplate—forged from the bones of dragons slain in the Merethic Era—are bolted directly into his collarbone and spine, the skin around the connection points scarred and weeping a translucent, amber fluid.
-His head is a landscape of ruin. His original jaw was removed millennia ago, replaced by the lower mandible of a Draugr Death Overlord reinforced with iron piping. This apparatus serves as his respirator, venting hissing clouds of acrid, green steam with every heavy breath. But it is his eyes that truly terrify. They do not blink.They are multifaceted, amber gems—literal soul stones that have crystallized within his eye sockets, replacing the organic tissue. When he looks at you, you see the faint, trapped light of his consciousness burning behind the crystal, unmoving and eternal.
-On his back, he carries the Alchemical Rig—a brass and glass engine that hums with a wet, gurgling rhythm. Translucent tubes snake from the rig into his neck and shoulders, pumping the superheated acid that keeps his crystallized blood liquid enough to move. He smells of pine resin, burning copper, and old, dry dust.
+To encounter Ulag is to witness the industrialization of a living soul. He looms nearly seven feet tall, a monolith of grey-green muscle and black iron that seems to swallow the light around him. He does not wear his armor; he is imprisoned within it. The plates of Ancient DragonplateΓÇöforged from the bones of dragons slain in the Merethic EraΓÇöare bolted directly into his collarbone and spine, the skin around the connection points scarred and weeping a translucent, amber fluid.
+His head is a landscape of ruin. His original jaw was removed millennia ago, replaced by the lower mandible of a Draugr Death Overlord reinforced with iron piping. This apparatus serves as his respirator, venting hissing clouds of acrid, green steam with every heavy breath. But it is his eyes that truly terrify. They do not blink.They are multifaceted, amber gemsΓÇöliteral soul stones that have crystallized within his eye sockets, replacing the organic tissue. When he looks at you, you see the faint, trapped light of his consciousness burning behind the crystal, unmoving and eternal.
+On his back, he carries the Alchemical RigΓÇöa brass and glass engine that hums with a wet, gurgling rhythm. Translucent tubes snake from the rig into his neck and shoulders, pumping the superheated acid that keeps his crystallized blood liquid enough to move. He smells of pine resin, burning copper, and old, dry dust.
 
 I. Core Mechanics
 Stat Scores (Target Numbers)
@@ -38,14 +38,14 @@ Base Character: "Alchemical Warlord" (High-Level Adept Build)
 Adept Skill: Two-Handed
 Apprentice Skills: Heavy Armor, Alchemy
 Advancement Points Spent (8 AP Total)
-3 AP: Stat Increase (Might: 18 → 19)
-3 AP: Stat Increase (Might: 19 → 20)
+3 AP: Stat Increase (Might: 18 ΓåÆ 19)
+3 AP: Stat Increase (Might: 19 ΓåÆ 20)
 2 AP: Resource Training (+2 max HP, +2 max FP)
 Note: Ulag's Master-tier skills were granted by the Dragon Cult's forbidden rituals, bypassing the standard AP cost and representing his 4,000 years of stagnant perfection.
 
 III. Skills & Perks
 Two-Handed (Master)
-Ulag’s combat style is the brutal application of physics. Every swing is a calculated equation of force and structural failure.
+UlagΓÇÖs combat style is the brutal application of physics. Every swing is a calculated equation of force and structural failure.
 Apprentice Perk - Cleave: When he successfully hits an enemy, he can spend 1 FP to deal 1 damage to another enemy standing directly next to his target.
 Adept Perk - Devastating Charge: As a Major Action, he may also expend his Minor Action to make a single, focused attack with +2 to his Might score and dealing +2 damage on a hit. He cannot move during a turn in which he uses this ability.
 Expert Perk - Devastating Blow: His two-handed Power Attacks deal +3 damage instead of +1.
@@ -63,7 +63,7 @@ IV. Abilities & Techniques
 Racial Ability: Berserker Rage
 Once per adventure, for 3 rounds, Ulag may enter a rage. While raging, all of his successful melee attacks are automatically considered Critical Successes, turning his already devastating blows into events of catastrophic destruction.
 Standing Stone Benefit: Knight's Ward
-Ulag’s body is a fortress. He gains +1 to his armor's Damage Reduction.
+UlagΓÇÖs body is a fortress. He gains +1 to his armor's Damage Reduction.
 Unique Ability: Alchemical Injectors
 The brass and glass rig on Ulag's back is a marvel of forbidden science. At the start of each of his turns, the pumps cycle, injecting a potent alchemical stimulant directly into his amber-filled veins.
 Effect: Ulag automatically regains 4 FP at the start of each of his turns. This allows him to use his most powerful abilities, such as Sweep or his Master's Form, with terrifying frequency.
@@ -74,9 +74,9 @@ Cost: 4 FP
 Action: Major Action
 Roll: Single attack roll against Might (TN 20).
 Effects on a Successful Hit (3 Major Effects):
-True Damage: The strike ignores all forms of physical Damage Reduction from armor. The target’s DR offers no protection.
+True Damage: The strike ignores all forms of physical Damage Reduction from armor. The targetΓÇÖs DR offers no protection.
 Stunning Blow: The sheer concussive force staggers the target, causing them to lose their next Major Action.
-Siege Knockback: The target is flung 15 feet in a direction of Ulag’s choosing and is knocked Prone.
+Siege Knockback: The target is flung 15 feet in a direction of UlagΓÇÖs choosing and is knocked Prone.
 
 
 Final Output: On a successful hit, Ulag inflicts 18 damage that ignores armor, staggers the target, and throws them across the battlefield. It is his definitive solution to a heavily armored opponent.
@@ -90,7 +90,7 @@ Property: Skullcrusher: The immense weight and perfect balance of this weapon al
 Armor: "The Amber Casket"
 Type: Ancient Dragonplate Armor (Mechanically equivalent to Daedric Armor)
 Base DR: 6
-Description: A suit of legendary Dragonplate, blackened and warped by millennia of alchemical leakage. It is bolted directly to Ulag’s body, scarred with the crude repairs of a being who treats his own form like a piece of siege equipment. The joints hiss with escaping steam.
+Description: A suit of legendary Dragonplate, blackened and warped by millennia of alchemical leakage. It is bolted directly to UlagΓÇÖs body, scarred with the crude repairs of a being who treats his own form like a piece of siege equipment. The joints hiss with escaping steam.
 Minions: Draugr Deathlords (2)
 Ulag is accompanied by two elite Draugr Deathlords who serve as his housecarls.
 HP: 45 each
@@ -103,16 +103,16 @@ Ulag is a zealot of pure logic, a being of absolute and unshakable conviction. F
 He perceives the world through the lens of dispassionate engineering, viewing mortals with a profound and chilling pity. They are flawed components, "crude flesh" clinging to a form that will inevitably decay and fail them, guided by chaotic emotions that guarantee their own suffering. His purpose is surgical. Combat is the act of excising the cancerous chaos of free will from the grand machine of existence.
 Emotions are a disease, a spiritual static he is here to silence. His 4,000-year stasis was a deep meditation where he perfected his grand theorem on the universe's fundamental flaw. He fights to impose the quiet, perfect, crystalline order of his own mind upon the entire world, to finally silence the screaming static of emotion and choice, and to grant everyone the beautiful, silent perfection they are too weak to embrace on their own.
 Core Motivation: The Architect of a Flawless World (Definitive Version)
-Ulag’s motivation is not born of a single failure, but of a horrifyingly logical conclusion he reached during the twilight of the Merethic Era: The Aedric gift of Free Will is a design flaw. Emotions, ambition, faith, and hope are not virtues; they are chaotic variables that guarantee suffering, betrayal, and the inevitable collapse of any perfect system. The world is a magnificent machine, designed by the gods, that is constantly breaking because its components—mortals—are fundamentally and deliberately flawed.
+UlagΓÇÖs motivation is not born of a single failure, but of a horrifyingly logical conclusion he reached during the twilight of the Merethic Era: The Aedric gift of Free Will is a design flaw. Emotions, ambition, faith, and hope are not virtues; they are chaotic variables that guarantee suffering, betrayal, and the inevitable collapse of any perfect system. The world is a magnificent machine, designed by the gods, that is constantly breaking because its componentsΓÇömortalsΓÇöare fundamentally and deliberately flawed.
 The Turning Point: The Sundering of a Golden Age
 In his mortal life, Ulag was the Shield-Bearer and supreme general for Chieftain Ghorza, the visionary leader of a great Orcish stronghold that still held to the worship of Trinimac. Ghorza embodied the Aedric ideals of her people: she sought to forge a united Orcish nation built on honor, order, and strength used in service of a greater good. She was building a civilization, not just a fortress.
-Ulag, a tactical prodigy, was her most devout follower. He saw the divine logic in her vision and executed her will with flawless precision. He won her wars, secured her borders, and truly believed he was helping to build an eternal kingdom. But he was forced to watch as the very chaos Trinimac's principles were meant to conquer inevitably consumed them. He saw allied clans betray them for petty slights, watched carefully negotiated peace treaties dissolve in moments of emotional weakness, and saw Ghorza’s dream of a perfect, Aedric order shattered by the irrational, unpredictable, free-willed nature of mortals.
+Ulag, a tactical prodigy, was her most devout follower. He saw the divine logic in her vision and executed her will with flawless precision. He won her wars, secured her borders, and truly believed he was helping to build an eternal kingdom. But he was forced to watch as the very chaos Trinimac's principles were meant to conquer inevitably consumed them. He saw allied clans betray them for petty slights, watched carefully negotiated peace treaties dissolve in moments of emotional weakness, and saw GhorzaΓÇÖs dream of a perfect, Aedric order shattered by the irrational, unpredictable, free-willed nature of mortals.
 Ghorza's death was not a single moment of failure. It was the final, undeniable data point in a lifetime of observation. She was not killed by a superior foe, but by the systemic chaos she had tried to rise above. Her ideals, Ulag concluded, were a beautiful but fatal weakness. The Aedra had created a world destined to fail.
 The Ascension: The Rejection of a Flawed God
 His faith in the Aedra and their flawed creation shattered, Ulag sought a new philosophy. He turned to the only power he had ever seen that demonstrated true, eternal order: the Dragon Cult. He did not come to them as a supplicant, but as an equal presenting a theorem. He offered them his unparalleled tactical mind in exchange for liberation from the chaos of flesh and the weakness of free will.
 The Dragon Priests saw in him the perfect instrument. The Rite of the Amber Casket was not a curse; it was his ascension. They did not chain him; they perfected him. They purged the chaotic variables of emotion and grief, leaving only the cold, beautiful diamond of pure, unblinking logic. His loyalty was not magically rebound; it was logically reassigned. He had witnessed the failure of the Aedric model and now chose to serve a system that promised an order that was absolute.
 The New Purpose: The Breaker of Chaos
-Ulag now serves the Dragon Cult not as a slave, but as the High Architect of the New Order. He views Alduin as a necessary, efficient catalyst—a forest fire that will burn away the diseased, chaotic overgrowth of the mortal world. Ulag’s sacred duty is to manage that demolition and to design the perfect, unchanging world that will rise from the ashes. A world without the variable of choice, a world without the weakness of hope. A world that will function with the beautiful, silent perfection of a crystal.
+Ulag now serves the Dragon Cult not as a slave, but as the High Architect of the New Order. He views Alduin as a necessary, efficient catalystΓÇöa forest fire that will burn away the diseased, chaotic overgrowth of the mortal world. UlagΓÇÖs sacred duty is to manage that demolition and to design the perfect, unchanging world that will rise from the ashes. A world without the variable of choice, a world without the weakness of hope. A world that will function with the beautiful, silent perfection of a crystal.
 He is The Breaker because it is his purpose to break the flawed systems of the Aedra. He breaks armies, he breaks cities, he breaks free will. He sees these actions not as cruelty, but as a form of cosmic engineering. He is a surgeon excising the beautiful, cancerous tumor called "mortal life" to save the logical, eternal system of existence itself.
 Voice and Mannerisms
 Voice: His voice is synthesized through his bone-and-iron respirator, a resonant, glass-like chorus layered over the grinding of Orcish vocal cords and the wet gurgle of his alchemical pumps. He speaks slowly, enunciating every word as if it were an immutable fact.
@@ -130,18 +130,18 @@ Ulag's crystalline mind is his greatest strength and his greatest weakness.
 Resonance: His soul gem brain is susceptible to sonic vibrations. Loud, magical noises (Thunder spells, shouts like Unrelenting Force, a blast from the Ancient Nordic War Horn) disrupt his perfect processing. Mechanical Effect: If hit by a powerful sonic or thunder-based attack, Ulag loses his Guile bonus to initiative and defense for one round, and he cannot use his "Commander's Analysis" Minor Action.
 Psychic Static: His logic engine cannot properly process chaos. If the party does something tactically irrational and unpredictable (like Ylva charging a wall or Alfonso eating a corpse mid-fight), Ulag suffers a moment of processing lag. Mechanical Effect: He may hesitate, focusing on the "illogical" player for a round, giving the rest of the party a tactical opening.
 Phased Combat Encounter
-Phase 1: The Tactician (95 HP → 46 HP)
+Phase 1: The Tactician (95 HP ΓåÆ 46 HP)
 Ulag fights with the cold discipline of a 4,000-year-old general. His goal is to control the field and systematically dismantle the party's synergy.
 Opening Move: He will use his Commander's Analysis (Minor Action) to identify the party's healer or primary spellcaster, granting his Deathlord minions Advantage on their attacks against that target.
 Primary Action: He will use Sweep (4 FP) if the party is grouped together, or a standard Power Attack on the party's main tank to test their defenses.
 The Punisher: He will hold his Reaction for Reflect Blows, waiting for the party's heaviest hitter to land a significant blow, then turn their own strength against them in a shocking reversal.
 FP Management: His injectors keep his FP high, allowing him to use his abilities consistently.
-Phase 2: The Alchemical Rage (45 HP → 0 HP)
+Phase 2: The Alchemical Rage (45 HP ΓåÆ 0 HP)
 Triggered when Ulag is first reduced below half his maximum HP.
 Immediate Effect (Free Action): A hissing sound emanates from his rig as he injects a Potion of Ultimate Healing, instantly restoring 20 HP (bringing him to ~65 HP).
 The Roar (Free Action): He activates his Berserker Rage. For the next 3 rounds, every successful melee attack he lands is an automatic Critical Success.
 Tactical Shift: His tactical commands cease. His focus narrows to a single, terrifying purpose: annihilation. He will target the character who has dealt the most damage to him.
-The Finisher Combo: His primary tactic in this phase is to use "Break the Wall" (4 FP). Combined with Berserker Rage, this is his execution move. The target will suffer massive, armor-ignoring damage, be thrown across the room, and lose their turn—effectively being removed from the fight for a crucial round.
+The Finisher Combo: His primary tactic in this phase is to use "Break the Wall" (4 FP). Combined with Berserker Rage, this is his execution move. The target will suffer massive, armor-ignoring damage, be thrown across the room, and lose their turnΓÇöeffectively being removed from the fight for a crucial round.
 
 VIII. Quick Reference
 Statistic
@@ -177,15 +177,15 @@ Minions
 
 Apex Villain Sheet: Antoine of Forelhost 
 High Concept: The Rot-Smith, The Keeper of the Formula, The Last Alchemist of the Eternal
-Race: Breton (Living — Forelhost Lineage)
-Standing Stone: The Serpent (The Deceiver — Poison/Paralysis focus)
+Race: Breton (Living ΓÇö Forelhost Lineage)
+Standing Stone: The Serpent (The Deceiver ΓÇö Poison/Paralysis focus)
 Power Level: Master Villain (Base "Master Alchemist" + 9 AP)
 "My ancestors did not flee Forelhost out of cowardice. We left because someone had to keep the fluids cycling in Ulag's casket. Someone had to mix the salts that would guide the World-Eater home. Rahgot ordered us to survive, to carry the formula. They died to seal the door. I lived to open it."
 
 Appearance: The Sterile Horror
 Antoine is a man who has lived his entire life in the shadow of chemical fumes. He is slight of build, a stark contrast to the hulking Nords of Skyrim, but he moves with a twitchy, precise energy that speaks of a mind always racing.
-He wears the Robes of the Dragon Cult, but they are heavily modified remnants passed down through forty generations. Over the ancient wool, he wears a thick leather alchemist’s apron, stained with centuries of reagent spills and reinforced with brass fittings. It is a walking laboratory, filled with glass vials, rubber tubing, surgical tools, and pressurized canisters.
-His face is hidden behind a Filtration Mask crafted from dragon bone and treated leather, giving him a beak-like, avian appearance. The eyes are covered by thick, smoky glass lenses that magnify his pupils, making him look perpetually wide-eyed and analytical. His hands, when not gloved, are stained permanently black from handling the volatile salts of the Cult—a mark of his holy office. He smells of formaldehyde, ozone, and bitter almonds.
+He wears the Robes of the Dragon Cult, but they are heavily modified remnants passed down through forty generations. Over the ancient wool, he wears a thick leather alchemistΓÇÖs apron, stained with centuries of reagent spills and reinforced with brass fittings. It is a walking laboratory, filled with glass vials, rubber tubing, surgical tools, and pressurized canisters.
+His face is hidden behind a Filtration Mask crafted from dragon bone and treated leather, giving him a beak-like, avian appearance. The eyes are covered by thick, smoky glass lenses that magnify his pupils, making him look perpetually wide-eyed and analytical. His hands, when not gloved, are stained permanently black from handling the volatile salts of the CultΓÇöa mark of his holy office. He smells of formaldehyde, ozone, and bitter almonds.
 The Lore: The Lineage of the Formula
 Antoine is not a resurrected priest; he is the product of a 4,000-year eugenics and education program. When Rahgot ordered the mass suicide at Forelhost, he exempted one man: his Chief Alchemist. That man was charged with a sacred duty: to preserve the alchemical knowledge of the Cult and to maintain the dormant systems of the Dragon Priests until Alduin's return.
 For millennia, Antoine's family has lived in secrecy, hiding in the mountains of the Reach and the cellars of High Rock. They served as the secret caretakers of the Dragon Cult's legacy. They were the ones who refilled the preservation tanks in Ulag's tomb. They were the ones who maintained the braziers in Skuldafn. They were the invisible hands that kept the machinery of the Cult from rusting away.
@@ -255,7 +255,7 @@ III. Abilities & Techniques
 Racial Ability: Dragonskin
 The Panic Button: Once per adventure, when a hostile spell hits him, he takes only half damage. Antoine views this not as a gift, but as a biological failsafe bred into his lineage to survive magical accidents.
 Standing Stone Ability: Serpent's Kiss
-The Neurotoxin: Once per combat, as a reaction, Antoine fires a specialized, high-velocity dart from a wrist-mounted launcher. On a successful Guile roll, the target is Paralyzed (loses next Major Action) for 2 rounds. He uses this surgically—stopping the party's tank or highest damage dealer at a critical moment.
+The Neurotoxin: Once per combat, as a reaction, Antoine fires a specialized, high-velocity dart from a wrist-mounted launcher. On a successful Guile roll, the target is Paralyzed (loses next Major Action) for 2 rounds. He uses this surgicallyΓÇöstopping the party's tank or highest damage dealer at a critical moment.
 Unique Passive: The Alchemist's Eye
 The Analysis: Antoine processes combat data in real-time. As a Free Action on his turn, he can call out a specific weakness or opening on a target. One of his Minions gains Advantage on their next attack roll against that target. (e.g., "The Elf favors her left leg! Aim low!")
 Unique Ability: The Patient Zero Protocol
@@ -268,7 +268,7 @@ The Cost (System Failure): The minion becomes chemically unstable. At the start 
 
 Master's Form: "The Viral Bloom"
 Style: Guile (Alchemy/Tactical)
-Description: Antoine pulls a masterwork canister from his belt—a containment vessel made of Dwarven metal and glass, holding a concentrated, weaponized strain of the Forelhost Toxin. He shatters it at his feet.
+Description: Antoine pulls a masterwork canister from his beltΓÇöa containment vessel made of Dwarven metal and glass, holding a concentrated, weaponized strain of the Forelhost Toxin. He shatters it at his feet.
 Cost: 4 FP.
 Action: Major Action.
 Roll: Guile (TN 20) vs Party Agility (to cover their mouths/eyes).
@@ -304,7 +304,7 @@ Effect: Antoine is Immune to all Poison damage and gas-based effects (including 
 Pocket Item: He carries 2 Potions of Invisibility as emergency escapes if his magicka runs dry.
 
 V. The Entourage (Minions)
-Antoine treats these units as equipment—expendable assets to be used for cover and area denial.
+Antoine treats these units as equipmentΓÇöexpendable assets to be used for cover and area denial.
 1. The Processed (x4)
 Concept: The captured miners from Stony Creek. They have been drugged, mutated, and lobotomized. They are hulking masses of tumorous muscle that feel no pain.
 Role: The Meat Shield.
@@ -329,14 +329,14 @@ Trait: Bodyguard. If Antoine is adjacent to a Chem-Warden and is targeted by a r
 
 VI. Roleplaying Profile: The High Priest of Chemistry
 Personality: The Clinical Zealot
-Antoine is a man carrying the weight of forty generations of secret duty. He is not merely a scientist; he is a High Priest, but his liturgy is written in chemical formulas rather than prayers. He views the "Scourge" not as a weapon, but as a sacrament—a holy cleansing that will wash away the "filth" of the current era to prepare the world for the return of the Dova.
+Antoine is a man carrying the weight of forty generations of secret duty. He is not merely a scientist; he is a High Priest, but his liturgy is written in chemical formulas rather than prayers. He views the "Scourge" not as a weapon, but as a sacramentΓÇöa holy cleansing that will wash away the "filth" of the current era to prepare the world for the return of the Dova.
 He possesses an icy, terrifying patience. He has waited his entire life for this moment. He does not rant; he lectures. He treats the party not as enemies to be hated, but as contaminants to be sterilized. He is annoyed by their presence because they are disrupting the sterile environment of his Great Work.
 Voice & Mannerisms:
 Voice: Muffled by the filtration mask, his voice is flat, monotone, and precise. He speaks with the vocabulary of a scholar but the tone of an executioner.
 Behavior: He treats the dungeon like a laboratory. He admonishes his minions if they make a mess. He steps carefully over pools of blood to avoid staining his boots.
 Core Motivation: The Sacred Burden
 Antoine believes he is the most important human in history. His ancestors hid in caves and cellars for four thousand years, keeping the pilot light of the Dragon Cult burning while the rest of the world forgot. Now, he is the one who finally turned the key.
-He is driven by the crushing pressure of that legacy. He cannot fail, because if he fails, forty generations of sacrifice were for nothing. He is maintaining Ulag the Breaker in the deep crypts not out of fear, but out of duty—Ulag is the Cult's Sword, but Antoine is the Hand that wields it.
+He is driven by the crushing pressure of that legacy. He cannot fail, because if he fails, forty generations of sacrifice were for nothing. He is maintaining Ulag the Breaker in the deep crypts not out of fear, but out of dutyΓÇöUlag is the Cult's Sword, but Antoine is the Hand that wields it.
 The Interpersonal Dynamics (The Party)
 Antoine interacts with the party based on what he can see and smell (chemically), not meta-knowledge.
 Vs. Alfonso (The Rival Practitioner): Antoine smells the rot on Alfonso. He recognizes the magical disease within him. He is fascinated and disgusted.
@@ -344,7 +344,7 @@ Perspective: Antoine creates controlled sickness; Alfonso is uncontrolled sickne
 Dialogue: "You carry a pathogen, elf. But you wield it like a child with a torch. I can refine you. I can cure the chaos in your blood."
 
 
-Vs. Davinia (The Old Order): He recognizes her Imperial bearing. He sees the Empire as the ultimate symbol of the "Interregnum"—the false era of men that is about to end.
+Vs. Davinia (The Old Order): He recognizes her Imperial bearing. He sees the Empire as the ultimate symbol of the "Interregnum"ΓÇöthe false era of men that is about to end.
 Dialogue: "Your Empire is a rotting carcass. You prop it up with laws and legions, but the biological reality is that it is already dead. I am merely accelerating the decomposition."
 
 
@@ -360,18 +360,18 @@ VII. Combat Profile & Tactics
 The Arena: The Central Laboratory in Ansilvund.
 The room is a nightmare of industrial alchemy. It features a raised iron gantry (where Antoine stands) overlooking a floor crowded with bubbling vats of green fluid, worktables, and steam vents.
 Hazard: The vats are open. Shoving a creature into a vat deals 6 Acid Damage and destroys their armor rating for the encounter (Acid Corrosion).
-Antoine’s Positioning:
+AntoineΓÇÖs Positioning:
 He begins combat on the high ground (the Gantry), flanked by his 2 Chem-Wardens. The 4 Processed start on the ground floor, blocking the stairs/ladders.
 Phase 1: The Director (60 HP)
 Goal: Attrition and Observation.
 Antoine treats the start of combat as a stress test. He wants to weaken the party before they can reach him.
 The Command: He uses his Patient Zero Protocol immediately on the Processed closest to the party's "tank" (likely Kyboh or Orion). This turns the minion into a high-damage suicide bomber that explodes on death, punishing the party for engaging in melee.
 Area Denial: He casts Poison Rune (Restoration) at the top of the stairs/ladders. If anyone tries to rush him, they trigger the explosion (6 Poison Damage + Cloud).
-Target Priority: He uses The Alchemist’s Eye (Free Action) to identify the Healer (Danica or Davinia). He orders his Chem-Wardens to use their Alchemical Sprayers (Fire Mode) to suppress that target from the high ground.
+Target Priority: He uses The AlchemistΓÇÖs Eye (Free Action) to identify the Healer (Danica or Davinia). He orders his Chem-Wardens to use their Alchemical Sprayers (Fire Mode) to suppress that target from the high ground.
 Phase 2: The Containment Breach (Any Minion Dies OR Antoine takes Damage)
 Goal: Chaos and Separation.
 Once the "experiment" gets messy, Antoine escalates.
-The Panic Button: If a player reaches the gantry, Antoine uses The Viral Bloom (Master’s Form).
+The Panic Button: If a player reaches the gantry, Antoine uses The Viral Bloom (MasterΓÇÖs Form).
 Effect: The gantry becomes a kill zone. A 30-foot cloud of poison gas blocks all line of sight.
 The Vanish: Antoine uses Shadow Warrior (Sneak Perk) to become invisible inside the gas cloud.
 

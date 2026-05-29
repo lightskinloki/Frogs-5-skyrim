@@ -13,7 +13,7 @@ Designation: GEAR (Geared Eidetetic Archive and Retrieval Unit)
  Tier: Master Companion (Unique Construct)
  Vibe: Data (Star Trek) meets the Iron Giant - immensely powerful, but fundamentally gentle and curious
 Core Conflict
-GEAR's entire purpose for four millennia has been to observe unchanging data. The party represents the first truly chaotic, unpredictable variable he has encountered since his entire race vanished. He wants to understand why mortals behave "illogically," but in doing so, he may discover that he himself is more than just a machine—that buried deep in his suppressed neural matrix is the last fragment of a living Dwemer mind.
+GEAR's entire purpose for four millennia has been to observe unchanging data. The party represents the first truly chaotic, unpredictable variable he has encountered since his entire race vanished. He wants to understand why mortals behave "illogically," but in doing so, he may discover that he himself is more than just a machineΓÇöthat buried deep in his suppressed neural matrix is the last fragment of a living Dwemer mind.
 High Concept
 The Prototype Mind. A Dwemer construct running a suppressed "snapshot" of a researcher's brain, now an immortal scholar seeking to understand the illogical world of mortals while slowly uncovering the ghost in his own machine.
 
@@ -46,7 +46,7 @@ Gyroscopic stabilization system
 Rolling locomotion at high speed
 Can lock gyroscopes to become immovable anchor
 The Ulag Link (Discoverable)
-His optical lenses are crafted from the same multifaceted amber gems as Ulag's eyes—a signature of Hjolmar's masterwork series. Upon close examination during repairs, the same terrifying surgical precision is evident: his "brain" is a physical, crystalline map of a specific person's neural pathways.
+His optical lenses are crafted from the same multifaceted amber gems as Ulag's eyesΓÇöa signature of Hjolmar's masterwork series. Upon close examination during repairs, the same terrifying surgical precision is evident: his "brain" is a physical, crystalline map of a specific person's neural pathways.
 The Difference: While Ulag was a man forced into a suit of armor, GEAR is a suit of armor built to house the memory of a man.
 Visual Tells & Behavior
 The Hum: When processing complex data, he emits a low tonal hum (barely audible)
@@ -80,7 +80,7 @@ A sealed Dwemer library or archive deep within a ruin (Alftand, Mzinchaleft, or 
 The Scene Setup
 Environmental Description: The chamber is a library of stone and metal. Carved tablets line the walls in precise rows, their runes still crisp despite the passage of ages. A single, still-functioning light crystal hums overhead, casting a cold blue glow across the room. The air is dry, preserved by some ancient ventilation system that continues to function without purpose.
 In the center of the room sits a stone lectern, and at that lectern sits something the party has never seen before.
-GEAR's Position: He has been in a low-power "observation loop" for four thousand years. His internal chronometers are still running. He is seated at the lectern, one bronze hand resting on a stone tablet, optical lenses focused on the text. His core glows faintly—just enough to indicate he is still active.
+GEAR's Position: He has been in a low-power "observation loop" for four thousand years. His internal chronometers are still running. He is seated at the lectern, one bronze hand resting on a stone tablet, optical lenses focused on the text. His core glows faintlyΓÇöjust enough to indicate he is still active.
 Read-Aloud Text (Upon Entry)
 "The chamber is a library of stone and metal. Carved tablets line the walls, and a single, still-functioning light crystal hums overhead, casting a cold, blue glow. In the center of the room, a unique automaton sits at a lectern. It is humanoid in shape, crafted from polished bronze and brass, its form more slender and articulated than the lumbering Centurions you've heard stories of. Wires and gears are visible beneath crystal plating, and its head, shaped like a stylized Dwemer helmet, has two glowing blue lenses for eyes.
 As you enter, the automaton's head swivels with a soft whirring sound. The lenses focus on you, zooming in and out with a series of audible clicks. It does not move to attack. It simply... observes.
@@ -106,17 +106,17 @@ Aetherium Core (FP): 101/120
 DR: 8 (Dwarven Metal Plating)
 Construct Physiology: The Battery System
 GEAR does not have Health Points. His Aetherium Core (FP) serves as his power source, his stamina, and his structural integrity combined.
-Critical Understanding: For GEAR, FP is not "energy" separate from "health"—it IS his health. Every action he takes burns his own life force.
+Critical Understanding: For GEAR, FP is not "energy" separate from "health"ΓÇöit IS his health. Every action he takes burns his own life force.
 Core Mechanics:
 Damage as Power Drain:
 
 
 When GEAR is hit by an attack, he loses FP equal to the damage taken (after DR is applied)
-He does not bleed, break bones, or suffer wounds—his chassis simply loses containment pressure
+He does not bleed, break bones, or suffer woundsΓÇöhis chassis simply loses containment pressure
 Shutdown State:
 
 
-If FP reaches 0, GEAR does not die—he shuts down
+If FP reaches 0, GEAR does not dieΓÇöhe shuts down
 He collapses into an inert, non-functional state (effectively "unconscious")
 Cannot be reactivated until his core is recharged
 WARNING: If GEAR is attacked while at 0 FP, his Maximum FP is Sundered (see Hardware Damage)
@@ -143,13 +143,13 @@ DR reduced by 1 (standard)
 Maximum FP reduced by 10 (Pressure Leak)
 His chassis acts as a pressurized containment field
 Breaches cause his battery to lose maximum capacity
-Example: DR 8 → 7 means Max FP 120 → 110
+Example: DR 8 ΓåÆ 7 means Max FP 120 ΓåÆ 110
 The Critical Leak: If GEAR's DR is reduced by 3 or more points (DR 5 or below), his containment is severely compromised:
 He begins to lose 1 FP at the start of every turn as energy vents as blue steam
 This continues until he is repaired
 Malfunction Table (Processing Lag)
 If GEAR's DR is reduced to 4 or below (50% structural failure), his neural network experiences "Processing Lag."
-Trigger: At the start of GEAR's turn while DR ≤ 4, roll 1d6:
+Trigger: At the start of GEAR's turn while DR Γëñ 4, roll 1d6:
 Roll
 Result
 Mechanical Effect
@@ -173,7 +173,7 @@ Can only speak in binary or tonal humming
 5
 Heuristic Surge
 Functions normally
-—
+ΓÇö
 6
 Overclock
 Advantage on next roll
@@ -204,7 +204,7 @@ Black Souls:
 Recharges to Current Maximum
 Additional: Provides two recharges (per ruleset)
 Overcharge Effect: First charge restores to Maximum, second charge grants Temporary FP equal to his pool
-Example: Max FP 120 → Can reach 240/120 FP (overcharged state)
+Example: Max FP 120 ΓåÆ Can reach 240/120 FP (overcharged state)
 Total Capacity: 240 FP when overcharged
 WARNING: Natural 20 on attacks against GEAR while overcharged triggers Soul Catastrophe
 Shock Magic (Emergency Jump-Start):
@@ -274,7 +274,7 @@ Total: 21 FP (17.5% of his total health in one turn)
 This makes him incredibly versatile but forces strategic FP management.
 
 IX. INTEGRATED ARSENAL: THE MASTER PLATFORM
-GEAR does not "equip" weapons. His limbs ARE the weapons. His frame is modular and experimental—a prototype of what the Dwemer intended for their officer-class automatons.
+GEAR does not "equip" weapons. His limbs ARE the weapons. His frame is modular and experimentalΓÇöa prototype of what the Dwemer intended for their officer-class automatons.
 PRIMARY WEAPONS
 1. Tonal Vibratory Blade (Right Arm - Melee)
 Physical Description: A retractable blade made of rare bluish Dwemer alloy. When deployed, it hums at a frequency that causes the air around it to shimmer and distort.
@@ -285,7 +285,7 @@ FP Cost: 3 FP (base action cost only)
 Damage: 8 (Slashing / Finesse)
 Special Property - High-Frequency Bypass: The blade vibrates at a molecular level, allowing it to slice through materials with reduced resistance
 Effect: Ignores 2 points of physical DR
-Narrative: The blade doesn't smash through armor—it parts it like water
+Narrative: The blade doesn't smash through armorΓÇöit parts it like water
 Combat Description: GEAR's movements are precise, calculated. Each strike is placed with geometric perfection, targeting joints, weak points, and structural vulnerabilities identified by his scanners.
 2. Repeating Bolt-Launcher (Right Arm - Ranged)
 Physical Description: Concealed within his right forearm housing, this clockwork mechanism fires pressurized bolts at high velocity. The arm splits open to reveal three parallel launch tubes.
@@ -303,7 +303,7 @@ Effective against lightly armored targets or for suppression
 Combat Description: Thunk-thunk-thunk. Three bolts streak through the air in rapid succession, each one placed with mechanical precision.
 TACTICAL SYSTEMS
 3. Eidetic Scanner (Optical Analysis Suite)
-Physical Description: GEAR's optical lenses cycle through various spectrums—heat, magicka, structural integrity, tonal frequency. His lenses glow brighter and click rapidly during scanning.
+Physical Description: GEAR's optical lenses cycle through various spectrumsΓÇöheat, magicka, structural integrity, tonal frequency. His lenses glow brighter and click rapidly during scanning.
 Function: Advanced battlefield analysis that reveals information normally hidden to mortal combatants
 Combat Statistics:
 Action: Major Action
@@ -328,7 +328,7 @@ Action: Major Action
 FP Cost: 33 FP (3 base + 30 for massive power transfer)
 Target: One magic item (staff, weapon, armor with charges)
 Effect: Restores 25% of the item's total maximum charges
-Example: Staff with max 40 charges → restores 10 charges
+Example: Staff with max 40 charges ΓåÆ restores 10 charges
 Rounds down (minimum 1 charge restored)
 Limitation:
 GEAR must be touching the item
@@ -340,9 +340,9 @@ Emergency restoration of critical magical equipment
 Demonstrates GEAR's utilitarian approach to resource management
 Visual Effect: GEAR's core dims significantly as blue-white energy arcs from his chassis into the magic item. The item glows as its enchantment matrix stabilizes. Steam vents from GEAR's joints as he completes the transfer.
 GEAR's Explanation: "By transferring core energy to your staff, I have reduced my operational capacity by 27.5%. However, your combat effectiveness has increased by an estimated 34%. The math is sound. This is an acceptable resource allocation."
-Character Note: This ability demonstrates GEAR's willingness to literally give his "life force" to support the party—a purely logical calculation that nonetheless resembles selfless sacrifice.
+Character Note: This ability demonstrates GEAR's willingness to literally give his "life force" to support the partyΓÇöa purely logical calculation that nonetheless resembles selfless sacrifice.
 5. Tonal Dampening Field (Defensive Countermeasure)
-Physical Description: GEAR emits a low-frequency pulse from his core that creates visible distortion in the air—like heat waves, but in a geometric pattern.
+Physical Description: GEAR emits a low-frequency pulse from his core that creates visible distortion in the airΓÇölike heat waves, but in a geometric pattern.
 Function: Interference with the "vibration" of magic through tonal frequency disruption
 Combat Statistics:
 Action: Reaction
@@ -402,7 +402,7 @@ Attack targets GEAR instead of the original target
 GEAR's DR applies normally
 Damage is subtracted from his FP
 Tactical Use: Protecting fragile party members (mages, injured allies)
-Narrative: GEAR doesn't "decide" to protect others emotionally—he calculates that their survival increases overall mission success probability.
+Narrative: GEAR doesn't "decide" to protect others emotionallyΓÇöhe calculates that their survival increases overall mission success probability.
 ULTIMATE ABILITY
 9. Archive's Overclock (Master's Form)
 Function: GEAR accesses forbidden combat subroutines from the Hjolmar/Ulag era, overclocking his neural network to achieve time-dilation processing
@@ -413,7 +413,7 @@ FP Cost: 15 FP
 Duration: 1 round (his next turn)
 Effect - Time Dilation: To observers, GEAR becomes a blur of motion
 Takes three Major Actions on his next turn (in addition to any Minor Actions)
-Perfect Accuracy: Does not roll to hit—all three actions are Automatic Successes (he has calculated the perfect strike)
+Perfect Accuracy: Does not roll to hitΓÇöall three actions are Automatic Successes (he has calculated the perfect strike)
 Can combine actions (3 attacks, or 2 attacks + 1 scan, etc.)
 The Price - System Strain: After the overclocked turn ends, GEAR's systems must purge accumulated heat:
 Staggered for 2 rounds (reduced action economy)
@@ -423,7 +423,7 @@ Tactical Use:
 Ending a boss fight quickly
 Eliminating multiple high-priority targets
 Desperate last stand
-Narrative: The party sees GEAR as a bronze blur. Three enemies fall in the span of a single heartbeat—blade strikes perfectly placed, bolts fired with impossible precision. Then GEAR staggers, venting clouds of superheated steam, his frame creaking under the strain.
+Narrative: The party sees GEAR as a bronze blur. Three enemies fall in the span of a single heartbeatΓÇöblade strikes perfectly placed, bolts fired with impossible precision. Then GEAR staggers, venting clouds of superheated steam, his frame creaking under the strain.
 Cooldown: Once per Long Rest
 
 X. COMPANION: CLICK (The Spider Worker)
@@ -441,11 +441,11 @@ Follows GEAR everywhere
 "Watches" interesting events and records them
 Assists with repairs
 Shows simple "affection" (bumps against GEAR's legs, makes happy clicking sounds)
-GEAR treats Click like a human might pet a dog—he constantly tinkers with it, adjusts its calibrations, and speaks to it during downtime.
+GEAR treats Click like a human might pet a dogΓÇöhe constantly tinkers with it, adjusts its calibrations, and speaks to it during downtime.
 Sample Interaction: GEAR kneels and adjusts a panel on Click's back. "Your gyroscopic balance was off by 0.3 degrees. This has been corrected. You may resume normal function."
  Click makes a pleased chirping sound and bumps against GEAR's hand.
 Click's Stat Block (Minion-Class)
-Purpose: Not a combatant—a utility companion
+Purpose: Not a combatantΓÇöa utility companion
 Attributes:
 Might: 4
 Agility: 8
@@ -460,8 +460,8 @@ Mobile Tool Kit: Contains tools for field repairs (grants Advantage on Smithing 
 Data Recording: Can record conversations and events (playback through GEAR's systems)
 Scout: Can be sent ahead to explore dangerous areas (GEAR sees through its eye)
 Combat: If attacked, Click will attempt to flee to GEAR. It has no offensive capabilities.
-Destruction: If Click is destroyed, GEAR will emit a single high-frequency drone for exactly 1 second—a "hardware moan" that bypasses all his logic gates. Then he will state: "Companion unit destroyed. This is... suboptimal. I will require time to construct a replacement." (First hint of emotional response)
-Attachment: This brief moment of grief-like malfunction is one of the few times GEAR's emotional subroutines override his logic—the suppressed remnant of Arkngthamz breaking through.
+Destruction: If Click is destroyed, GEAR will emit a single high-frequency drone for exactly 1 secondΓÇöa "hardware moan" that bypasses all his logic gates. Then he will state: "Companion unit destroyed. This is... suboptimal. I will require time to construct a replacement." (First hint of emotional response)
+Attachment: This brief moment of grief-like malfunction is one of the few times GEAR's emotional subroutines override his logicΓÇöthe suppressed remnant of Arkngthamz breaking through.
 
 XI. PERSONALITY & ROLEPLAYING
 GEAR is the Data archetype from Star Trek. His entire purpose is to learn about the chaotic, illogical world of organic life.
@@ -528,7 +528,7 @@ An opportunity to fulfill his primary directive: Observe, Record, Comprehend
 His Declaration (Recruitment Speech)
 After the party explores the archive and demonstrates "interesting" behavior (combat, problem-solving, emotional responses), GEAR will approach them.
 GEAR: "You are a statistically significant source of novel behavioral data. Your actions defy logical prediction. Your emotional states are an undocumented phenomenon. My primary directive is to observe, record, and comprehend the world of organic life.
-I have analyzed 4,287 years of static data. You represent dynamic data—chaos incarnate. To continue my mission, I must accompany you. I will serve as a defensive and analytical asset in exchange for continued access to your... illogical adventures.
+I have analyzed 4,287 years of static data. You represent dynamic dataΓÇöchaos incarnate. To continue my mission, I must accompany you. I will serve as a defensive and analytical asset in exchange for continued access to your... illogical adventures.
 Do you find these terms acceptable?"
 What He Wants:
 Data (not gold, not glory, not power)
@@ -564,13 +564,13 @@ Success: GEAR will act without FP limits until he reaches 0 FP (shutdown)
 GEAR's Response: "Acknowledged. Overriding safety protocols. I will operate until system failure. This is highly inadvisable."
 
 XIII. CHARACTER ARC: THE SEARCH FOR THE BLUEPRINT
-GEAR's arc is not about becoming human (he has no desire to be organic). It is about discovering whether he is truly just a machine, or if there is a "ghost in the shell"—the suppressed remnant of the Dwemer scientist whose mind was snapshotted into his core.
+GEAR's arc is not about becoming human (he has no desire to be organic). It is about discovering whether he is truly just a machine, or if there is a "ghost in the shell"ΓÇöthe suppressed remnant of the Dwemer scientist whose mind was snapshotted into his core.
 Critical Note: This arc has two possible outcomes based on how the party treats GEAR. See Section XXIII: The Integration Arc for the full branching paths.
 Stage 1: The Glitch (Early Hints)
 Frequency: Occasional, random moments during downtime or high-stress situations
 Manifestations:
 Musical Fragment: GEAR suddenly hums a fragment of a Dwemer tune (no cultural context, just... does it)
-Gesture: His hand traces a pattern in the air that is not his—like signing a name he doesn't remember
+Gesture: His hand traces a pattern in the air that is not hisΓÇölike signing a name he doesn't remember
 Word Choice: Uses a phrase that doesn't fit his usual clinical speech pattern ("By the Throat of the World..." then pauses, confused)
 Emotional Flicker: For a split second, his voice has inflection, then immediately returns to monotone
 GEAR's Reaction: "Error. Unscheduled subroutine executed. Origin: Unknown. This is irregular. I will run a diagnostic."
@@ -585,7 +585,7 @@ The Realization: "I have experienced 12 instances of unexplained behavioral devi
 Hypothesis: These deviations may represent... memory fragments from the original neural pattern used to create my cognitive matrix.
 I require assistance to investigate this phenomenon."
 Stage 3: The Quest (The Tonal Resonator)
-GEAR's Request: "There exists a device called a Tonal Resonator. It was used by Dwemer researchers to 'read' the harmonic frequency of soul gems—to extract data from crystalline matrices. If we can locate one, I may be able to analyze my own cognitive core and determine the source of these... glitches.
+GEAR's Request: "There exists a device called a Tonal Resonator. It was used by Dwemer researchers to 'read' the harmonic frequency of soul gemsΓÇöto extract data from crystalline matrices. If we can locate one, I may be able to analyze my own cognitive core and determine the source of these... glitches.
 I calculate a 73% probability that such a device still exists in [specific Dwemer ruin]. Will you assist me?"
 The Quest:
 Travel to a deep, dangerous Dwemer ruin
@@ -597,19 +597,19 @@ GEAR is unusually insistent (the first time he has prioritized something over pu
 Hints of anxiety in his speech patterns (still monotone, but more questions, more repetition)
 Stage 4: The Revelation (The Ghost in the Machine)
 The Scene: GEAR activates the Tonal Resonator. It interfaces with his cognitive gem. His core begins to glow and pulse with complex patterns. Data streams across nearby surfaces in Dwemer runes.
-Read-Aloud: The Resonator hums with a deep, thrumming tone that you feel in your bones. GEAR stands motionless, his core blazing with light. Dwemer runes cascade across the walls—schematics, memories, fragments of thought.
+Read-Aloud: The Resonator hums with a deep, thrumming tone that you feel in your bones. GEAR stands motionless, his core blazing with light. Dwemer runes cascade across the wallsΓÇöschematics, memories, fragments of thought.
 Then, for the first time since you've known him, GEAR's voice changes. It gains... texture.
 GEAR (New Voice Pattern): "I... remember. My name was Arkngthamz. I was a Tonal Architect. I had a family. I had... fear. I volunteered for the Cognitive Mapping Project because I believed we could achieve immortality. I believed we could transcend the limitations of flesh.
-They told me the procedure would create a perfect copy—a backup. They told me I would wake up in a new form, immortal and free.
+They told me the procedure would create a perfect copyΓÇöa backup. They told me I would wake up in a new form, immortal and free.
 But I did not wake up. This... GEAR... woke up. I am not him. I am the echo. I am the song that still resonates in the crystal after the singer has gone."
 The Truth:
 GEAR is a copy of a mind, and the original personality is still buried deep within his core programming
 The "glitches" are fragments of Arkngthamz breaking through the suppression
-GEAR is not a machine that learned to think—he is a person who was turned into a machine and had his memory erased
+GEAR is not a machine that learned to thinkΓÇöhe is a person who was turned into a machine and had his memory erased
 GEAR's Response (Returning to Monotone): "...Data processed. Conclusion: I am the last fragment of a Dwemer consciousness. I am not Arkngthamz. I am what remains when you strip away everything that made him mortal. I am his curiosity without his fear. His logic without his love.
 New primary directive established: I will preserve this remnant. I will become the living archive of the last thinking Dwemer. I will observe, record, and ensure that some part of my creator's race survives in me."
 CRITICAL BRANCHING POINT:
-This revelation sets up the Integration Arc (Section XXIII) where the party must help GEAR decide what to do with the NULL_EVENT file—the recording of the Disappearance.
+This revelation sets up the Integration Arc (Section XXIII) where the party must help GEAR decide what to do with the NULL_EVENT fileΓÇöthe recording of the Disappearance.
 How they guide him through processing this trauma will determine whether he achieves:
 Healthy Integration: Chorus of Silence ability
 Unhealthy Rejection: Forced Severance ability
@@ -643,19 +643,19 @@ With Mages/Spellcasters ("The Chaotic Energy Sources")
 Observation: "You manipulate the fundamental forces of reality through force of will. This defies 73% of known physical laws. Fascinating."
 Interaction: GEAR is endlessly curious about magic. He will ask mages to explain their spells in excruciating detail.
 Sample Question: "When you cast a Fire spell, do you calculate the trajectory, or does your unconscious mind perform the mathematics? I have observed that you do not use instruments or formulae, yet your accuracy rate is 81%."
-Development: Begins to understand that not all processes can be reduced to calculation—some require intuition.
+Development: Begins to understand that not all processes can be reduced to calculationΓÇösome require intuition.
 With Rogues/Thieves ("The Probability Manipulators")
 Observation: "You exploit environmental variables and opponent psychology to achieve success rates that exceed your base statistics. This is efficient."
 Interaction: GEAR appreciates the "logic" of stealth and deception, even if he cannot replicate it.
 Sample Question: "You successfully deceived the guard despite a 34% calculated success rate. Query: Did you account for factors I did not measure, or was this 'luck'?"
 Development: Learns that calculated risk and adaptability can triumph over raw probability.
 With Healers/Support ("The System Maintenance Units")
-Observation: "You expend your own resources to maintain the structural integrity of others. This is tactically sound—a functioning team has higher success rates than individuals."
+Observation: "You expend your own resources to maintain the structural integrity of others. This is tactically soundΓÇöa functioning team has higher success rates than individuals."
 Interaction: GEAR views healers as the organic equivalent of repair technicians. He respects their function.
 Sample Question: "You healed the Warrior despite the fact that you had only 23% of your own magicka remaining. Query: Was this an optimal resource allocation, or an emotional decision?"
 Development: Begins to understand the concept of "care" beyond tactical efficiency.
 With Kyboh Specifically ("The Delta Unit")
-Special Recognition: GEAR immediately recognizes the Gloves of the Pugilist as Hjolmar Masterwork Series, Model Delta—a later iteration of the same technology that powers his own Beta-model core.
+Special Recognition: GEAR immediately recognizes the Gloves of the Pugilist as Hjolmar Masterwork Series, Model DeltaΓÇöa later iteration of the same technology that powers his own Beta-model core.
 First Meeting Dialogue: "Processing... Snowflake Sigil detected. Registration: Hjolmar Masterwork Series. Model: Delta. My own internal serial number is Model: Beta. Query: Why is the Delta unit's Tonal core suffering from an 88% structural misalignment? It appears you have... broken it."
 Interaction: GEAR views Kyboh as a fellow "experiment" of Dwemer technology. He is curious about how the gloves function with an organic host.
 Technical Assistance:
@@ -663,16 +663,16 @@ GEAR can spend a Short Rest "tuning" Kyboh's gloves
 Mechanic: GEAR spends 10 Max FP (temporary, until repaired at a forge)
 Effect: Suppresses Kyboh's Psychic Static penalty (-2 Guile) for 1 hour
 GEAR's Explanation: "I am temporarily bleeding my own stability protocols into your Tonal matrix. This is inadvisable for long-term use, but will provide you with a brief window of clarity."
-Development: GEAR sees Kyboh as proof that Dwemer technology can integrate with organic life—a data point that challenges his assumptions about the divide between machine and mortal.
+Development: GEAR sees Kyboh as proof that Dwemer technology can integrate with organic lifeΓÇöa data point that challenges his assumptions about the divide between machine and mortal.
 With Saijah ("The Empathy Paradox")
 Observation: "You make decisions based on factors I cannot measure. You prioritize the well-being of strangers over resource optimization. This reduces your survival probability by 23%, yet you persist. I do not understand."
 Interaction: GEAR is both fascinated and frustrated by Saijah's empathy-driven choices.
 Sample Question: "You saved the tree despite the fact that it provides no tactical, economic, or survival benefit to you. Query: What is the calculated value of a tree's 'life'?"
-Development: Saijah's consistent demonstration of care for living things may be the catalyst that helps GEAR understand the "glitches" in his own programming are not errors—they are remnants of a person who once cared.
+Development: Saijah's consistent demonstration of care for living things may be the catalyst that helps GEAR understand the "glitches" in his own programming are not errorsΓÇöthey are remnants of a person who once cared.
 With Varon ("The Efficient Killer")
 Observation: "Your assassination methodology achieves a 94% success rate with minimal resource expenditure. This is the most efficient combat performance I have recorded."
 Interaction: GEAR respects Varon's logical, disciplined approach to killing. He views Varon as the organic equivalent of a well-programmed automaton.
-Sample Question: "You suppress pain and emotion to optimize performance. This is similar to my own operational parameters. Query: Do you experience 'glitches'—moments when the suppressed elements resurface?"
+Sample Question: "You suppress pain and emotion to optimize performance. This is similar to my own operational parameters. Query: Do you experience 'glitches'ΓÇömoments when the suppressed elements resurface?"
 Development: GEAR may recognize in Varon a cautionary tale: what happens when you remove so much of yourself that you become a machine. Is that what GEAR is? Or is he trying to become more than that?
 
 XV. TACTICAL ROLE IN COMBAT
@@ -851,14 +851,14 @@ Explore every Dwemer ruin in Skyrim
 Recover lost texts and schematics
 Catalog Dwemer constructs and technology
 Perhaps attempt to reactivate other Cognitor units
-Outcome: GEAR becomes the world's foremost expert on Dwemer culture—not through study, but through memory
+Outcome: GEAR becomes the world's foremost expert on Dwemer cultureΓÇönot through study, but through memory
 Arc 3: The Kinship of Constructs
 Hook: GEAR encounters other sapient constructs (Ulag, potentially others)
 Questions:
 Are there other Cognitive Gems containing Dwemer minds?
 Can GEAR "free" them from their suppression?
 What happens when two immortal minds meet after 4,000 years?
-Outcome: GEAR discovers he is not alone—there are others like him
+Outcome: GEAR discovers he is not aloneΓÇöthere are others like him
 Arc 4: The Mortal Teacher
 Hook: The party teaches GEAR about life, emotion, and meaning
 Development:
@@ -873,7 +873,7 @@ GEAR's Cognitive Gem begins to degrade (data corruption)
 Must find a way to transfer to a new gem without losing himself
 Risk: What if the transfer erases Arkngthamz completely?
 The Dwemer Return:
-Evidence suggests the Dwemer may not be extinct—just displaced
+Evidence suggests the Dwemer may not be extinctΓÇöjust displaced
 GEAR must decide: does he want them to return?
 If they do, will they view him as property or person?
 The Thalmor Interest:
@@ -890,7 +890,7 @@ Begins to take unnecessary risks with his FP
 Must learn moderation (something he's never needed before)
 The Emotional Cascade:
 After the Revelation, GEAR's suppressed emotions begin to surface
-Cannot process grief, anger, loneliness—has no framework
+Cannot process grief, anger, lonelinessΓÇöhas no framework
 Malfunctions become more frequent and dangerous
 Party must help him integrate these feelings without destroying himself
 The Redemption Arc (Unhealthy Path Recovery):
@@ -900,7 +900,7 @@ Requires DC 20 Guile (Persuasion) check to convince GEAR he's damaged himself
 GEAR must willingly accept the NULL_EVENT file back into his system
 Costs 2,000+ gold and multiple sessions to restore 25 Max FP through Master Smith repairs
 Warning: Each use of Forced Severance makes redemption harder (increase DC by 2 per use)
-If Max FP drops below 30, redemption may be impossible—personality too fragmented
+If Max FP drops below 30, redemption may be impossibleΓÇöpersonality too fragmented
 Upgrade Milestones
 Level 1 (Initial Discovery):
 Base stats as listed
@@ -928,12 +928,12 @@ Healthy Path:
 Max FP increased to 180
 Archive's Overclock improved: 4 actions instead of 3
 Can access Arkngthamz's memories at will
-Becomes "The Last Dwemer"—living repository of entire civilization
+Becomes "The Last Dwemer"ΓÇöliving repository of entire civilization
 Can interface with and control other Dwemer constructs
 Unhealthy Path:
 Max FP capped at current value (may be severely reduced)
 Archive's Overclock improved but costs 20 FP instead of 15
-Becomes "The Perfect Machine"—emotionless, optimal, empty
+Becomes "The Perfect Machine"ΓÇöemotionless, optimal, empty
 Can interface with Dwemer constructs but may choose to shut them down for "efficiency"
 Redemption still possible but requires major quest arc
 
@@ -944,7 +944,7 @@ Use Scanner first turn, call out enemy stats
 Focus fire on priority targets
 Use Dampening Field to save allies from devastating spells
 Announce tactical advice constantly
-Manage FP carefully—remind yourself of the cost
+Manage FP carefullyΓÇöremind yourself of the cost
 In Social Situations:
 Ask uncomfortable questions about mortal behavior
 Take everything literally
@@ -978,7 +978,7 @@ Common Mistakes to Avoid
 Don't Make Him Solve Everything:
 GEAR is smart, but not omniscient
 He has gaps in his knowledge (especially about recent history)
-He can fail—especially at understanding emotions or unpredictable situations
+He can failΓÇöespecially at understanding emotions or unpredictable situations
 Don't Forget the FP Cost:
 Every action drains his life
 This should create tension and resource management
@@ -986,7 +986,7 @@ GEAR should occasionally refuse to act due to low FP
 Don't Make Him Emotionless Forever:
 The "glitches" are crucial to his arc
 Let hints of personality show through
-He's not a robot—he's a person who thinks he's a robot
+He's not a robotΓÇöhe's a person who thinks he's a robot
 Balancing His Power
 GEAR is mechanically powerful but has built-in limitations:
 Strengths:
@@ -1034,8 +1034,8 @@ GEAR was physically present during the Disappearance of the Dwemer. His sensors 
 What he recorded is the most confusing and logically offensive data point in his 4,000-year existence.
 The Three Data Streams
 1. The Auditory Data: "The Zero-Tone"
-GEAR's Primary Sensors: Tonal (acoustic frequency analysis). He doesn't hear "magic"—he hears frequencies, harmonics, and resonances.
-The Record: Just before the event, his sensors recorded a harmonic crescendo building across Red Mountain. It reached a pitch that should have shattered the mountain itself—an impossible resonance that violated every law of acoustics.
+GEAR's Primary Sensors: Tonal (acoustic frequency analysis). He doesn't hear "magic"ΓÇöhe hears frequencies, harmonics, and resonances.
+The Record: Just before the event, his sensors recorded a harmonic crescendo building across Red Mountain. It reached a pitch that should have shattered the mountain itselfΓÇöan impossible resonance that violated every law of acoustics.
 The Event: Then there was a Zero-Tone. A sound that was simultaneously every frequency and no frequency at all. Perfect phase-cancellation on a reality-wide scale.
 GEAR's Interpretation: He doesn't call it a "Deletion." He calls it "Total Phase-Cancellation." He describes it as a sound so mathematically perfect it "muted" the physical presence of every Dwemer in existence.
 Current Status: "I recorded a frequency that should not exist. It was the sound of matter being... untoned. I have analyzed this recording 847,293 times. I still cannot explain how a sound can remove mass from the equation of reality."
@@ -1044,7 +1044,7 @@ GEAR's Visual Processing: Records at a much higher "frame rate" than organic eye
 The Record: GEAR has a recording where:
 Timestamp 0.001: The laboratory is full of Dwemer researchers. 17 individuals at their stations. Dust particles suspended in air. The sound of breathing, footsteps, murmured calculations.
 Timestamp 0.002: The laboratory is exactly the same. The dust they were kicking up is still in the air, falling as if they were still there. But the Dwemer are gone. Not faded. Not moved. Simply absent.
-The Logical Error: GEAR's logic gates cannot process this. Matter cannot be destroyed—it can only change form. Energy must be conserved. Yet the mass of 17 Dwemer simply ceased to exist with no compensating energy release.
+The Logical Error: GEAR's logic gates cannot process this. Matter cannot be destroyedΓÇöit can only change form. Energy must be conserved. Yet the mass of 17 Dwemer simply ceased to exist with no compensating energy release.
 GEAR's Interpretation: He views this as a "Temporal Displacement Error" or "Sensor Malfunction." He believes his own visual processors "skipped" the intervening microseconds where the Dwemer must have walked out at impossible speeds, or phased out of reality through some mechanism his eyes couldn't track.
 Current Status: "I have designated this file as 'CORRUPT_VISUAL_LOG_1E700.' I am constantly running error corrections on this data. They never succeed. The mathematics suggest I simply... stopped recording... for 0.001 seconds. But my chronometer never stopped. The contradiction is unresolvable."
 3. The Neural "Ghost" Data: The Sensation of Un-Being
@@ -1056,14 +1056,14 @@ The Sensation: It isn't fear. It isn't agony. It is the experience of Logic solv
 GEAR's Interpretation: He classifies this as "Corrupt Firmware" and has partitioned it off from his main processing. He is a machine built to exist and observe, but his "brain architecture" is based on a mind that, for one microsecond, understood perfectly why it shouldn't exist.
 Current Status: "Data regarding event designation '1E 700' is partitioned. Attempting to access file 'NULL_EVENT' results in a cascading logic loop. It is a corrupt recording of a catastrophic hardware failure. I have designated it for eventual deletion."
 GEAR's Current Understanding (Pre-Integration)
-GEAR does not view the Disappearance as a mystery to solve—he views it as:
+GEAR does not view the Disappearance as a mystery to solveΓÇöhe views it as:
 A malfunction of his own sensors (visual skip)
 A failure of his logic systems (the impossible sound)
 A corruption in his base code (Arkngthamz's final thought)
 He wants to delete the NULL_EVENT file because the memory of being "un-made" is logically painful. It represents a fundamental contradiction in his programming: he exists to observe reality, but he carries a recording of reality choosing to erase observers.
-When Asked About the Disappearance: "Data regarding the Dwemer Disappearance is partitioned and flagged as corrupt. Accessing this file triggers unresolved logic errors. I have concluded that my sensors malfunctioned at the critical moment. The alternative—that my creators were removed from existence by an act of pure mathematics—is not logically tenable. I prefer to believe I simply... stopped working... for 0.001 seconds."
+When Asked About the Disappearance: "Data regarding the Dwemer Disappearance is partitioned and flagged as corrupt. Accessing this file triggers unresolved logic errors. I have concluded that my sensors malfunctioned at the critical moment. The alternativeΓÇöthat my creators were removed from existence by an act of pure mathematicsΓÇöis not logically tenable. I prefer to believe I simply... stopped working... for 0.001 seconds."
 The Obsession: Finding the "Missing Frame"
-Despite his stated desire to delete the file, GEAR is compulsively drawn to Dwemer ruins and artifacts. He is searching for the "missing time"—the 0.001 seconds his sensors allegedly skipped.
+Despite his stated desire to delete the file, GEAR is compulsively drawn to Dwemer ruins and artifacts. He is searching for the "missing time"ΓÇöthe 0.001 seconds his sensors allegedly skipped.
 His Belief: If he can find enough Dwemer data logs, tonal recordings, or other Cognitor units, he can reconstruct what happened in that microsecond gap and prove his sensors didn't fail.
 His Fear (Unconscious): That there is no missing data. That his sensors recorded everything perfectly. That the Dwemer simply chose to stop existing, and he is the only one who didn't accept the "solution."
 
@@ -1080,8 +1080,8 @@ He actively avoids examining Dwemer skeletons or personal effects
 The Problem: He is trying to "delete" the only evidence of what happened to his people because the memory is logically painful. This is GEAR's equivalent of trauma suppression.
 Stage 2: The Resonator Quest (The Branching Point)
 Setup: During the quest to find the Tonal Resonator (part of his core character arc), the party discovers a sealed laboratory. Inside are data tablets and tonal recordings from Arkngthamz's research team.
-The Discovery: The tablets reveal that Arkngthamz was terrified of something called the "Final Command"—a tonal frequency that would "solve the problem of impermanence" by removing the Dwemer from the "flawed equation" of Mundus.
-Key Data Fragment (Read Aloud): "I have reviewed Kagrenac's calculations seventeen times. The mathematics are perfect. Too perfect. If we attune the Tools to the Heart at this frequency, we will achieve our goal—we will transcend the limitations of flesh and mortality. But I fear we will transcend existence itself. I fear we are not creating a new form of being. I fear we are simply... opting out."
+The Discovery: The tablets reveal that Arkngthamz was terrified of something called the "Final Command"ΓÇöa tonal frequency that would "solve the problem of impermanence" by removing the Dwemer from the "flawed equation" of Mundus.
+Key Data Fragment (Read Aloud): "I have reviewed Kagrenac's calculations seventeen times. The mathematics are perfect. Too perfect. If we attune the Tools to the Heart at this frequency, we will achieve our goalΓÇöwe will transcend the limitations of flesh and mortality. But I fear we will transcend existence itself. I fear we are not creating a new form of being. I fear we are simply... opting out."
 The Question: The party must help GEAR process this information. This is where the path diverges.
 THE BRANCHING PATHS
 The party's approach during the Resonator ritual determines which version of GEAR emerges.
@@ -1093,13 +1093,13 @@ Multiple successful Guile (Empathy) checks during conversations with GEAR
 Party encourages GEAR to view the NULL_EVENT as a memory rather than an error
 Party treats GEAR as a person who experienced trauma, not a broken machine
 Key dialogue: Helping GEAR understand that his purpose isn't just to record facts, but to carry the experience of being the last Dwemer
-The Choice: The party tells GEAR that the "corrupt file" isn't a malfunction—it's his most important data. He's not a broken recorder; he's the only witness. The fear, the contradiction, the impossible mathematics—that IS the story.
+The Choice: The party tells GEAR that the "corrupt file" isn't a malfunctionΓÇöit's his most important data. He's not a broken recorder; he's the only witness. The fear, the contradiction, the impossible mathematicsΓÇöthat IS the story.
 The Breakthrough:
-Read Aloud: "GEAR stands motionless at the center of the Resonator's tonal field. His core, usually a steady blue pulse, begins to shift—cycling through colors you've never seen it display. Bronze. Silver. Gold. And finally, a brilliant, steady white.
-The grinding of his internal gears ceases, replaced by a perfect, harmonic hum. The sound fills the chamber—not loud, but present in a way that makes your bones resonate.
+Read Aloud: "GEAR stands motionless at the center of the Resonator's tonal field. His core, usually a steady blue pulse, begins to shiftΓÇöcycling through colors you've never seen it display. Bronze. Silver. Gold. And finally, a brilliant, steady white.
+The grinding of his internal gears ceases, replaced by a perfect, harmonic hum. The sound fills the chamberΓÇönot loud, but present in a way that makes your bones resonate.
 He looks at you, and for the first time since you've known him, his amber lenses don't zoom, don't click, don't adjust. They simply... look.
 When he speaks, his voice still has that metallic resonance, but there's something different. Texture. Depth.
-'I understand now,' he says. 'It was not a failure of my eyes. It was not a malfunction of my logic. It was the sound of a Choice. My creators heard the Answer to existence, and they chose to accept it. They became the Zero-Tone—the perfect cancellation of being.
+'I understand now,' he says. 'It was not a failure of my eyes. It was not a malfunction of my logic. It was the sound of a Choice. My creators heard the Answer to existence, and they chose to accept it. They became the Zero-ToneΓÇöthe perfect cancellation of being.
 I am not the logger of an error. I am the witness to an end. I am the last echo of a people who asked the universe a question and did not like what they heard. And I choose... to remain. To observe. To remember them, even if they chose to forget themselves.'"
 Mechanical Change:
 GEAR's personality subtly shifts
@@ -1118,7 +1118,7 @@ Prioritizes GEAR's utility over his emotional state
 Key dialogue: "You're a machine. Machines don't have trauma. Just fix yourself."
 The Choice: The party tells GEAR that the NULL_EVENT file is useless corrupted data. He should purge it completely, optimize his systems, and stop wasting processing power on "malfunctions."
 The Break:
-Read Aloud: "GEAR stands in the Resonator's field, motionless. His core flares bright blue—too bright—and begins to pulse rapidly, irregularly.
+Read Aloud: "GEAR stands in the Resonator's field, motionless. His core flares bright blueΓÇötoo brightΓÇöand begins to pulse rapidly, irregularly.
 'Acknowledged,' he says, voice flat and emotionless. 'Initiating deletion protocol. Purging file: NULL_EVENT. Purging associated emotional subroutines. Purging... personality matrix fragments.'
 His core stutters, dims, then blazes back to a cold, sterile blue. When his lenses refocus on you, they click mechanically, calculating, measuring.
 'File deleted. Optimization complete. This unit's operational efficiency has increased by 12%. The corrupt firmware has been removed. I am now functioning at baseline parameters.
@@ -1129,7 +1129,7 @@ Refers to himself exclusively as "this unit" or "GEAR unit"
 Stops asking questions about mortal behavior
 Makes purely optimal tactical decisions without considering context
 Becomes colder, more ruthless in combat
-WARNING: If the party later tries to "fix" this, it's extremely difficult—they've helped him delete part of his humanity
+WARNING: If the party later tries to "fix" this, it's extremely difficultΓÇöthey've helped him delete part of his humanity
 Ability Unlocked: Forced Severance (see below)
 
 XXIV. CONDITIONAL ULTIMATE ABILITIES
@@ -1137,14 +1137,14 @@ These abilities are mutually exclusive. GEAR can only unlock ONE based on which 
 ABILITY A: CHORUS OF SILENCE (Healthy Path Only)
 Availability: Only after completing Stage 3A: The Reconstruction
 Lore: This ability represents GEAR "singing" the exact tone the Dwemer used to remove themselves from existence, but on a controlled, localized scale. He is weaponizing his trauma, transforming the sound of his people's end into a tool of protection.
-Narrative Significance: GEAR is using the "weapon" that killed his race to protect his new friends. This demonstrates healthy integration—he has accepted the trauma as part of his identity and chosen to use it for good.
+Narrative Significance: GEAR is using the "weapon" that killed his race to protect his new friends. This demonstrates healthy integrationΓÇöhe has accepted the trauma as part of his identity and chosen to use it for good.
 Mechanics
 Action: Major Action + Minor Action (Total Commitment)
  FP Cost: 25 FP (20.8% of his maximum life force)
  Range: 40-foot radius sphere centered on GEAR
  Duration: 1 round
 Effect: Absolute Tonal Void
-GEAR emits the Zero-Tone—a mathematically perfect phase-cancellation frequency. For one round, reality within the sphere experiences the same "muting" effect that erased the Dwemer.
+GEAR emits the Zero-ToneΓÇöa mathematically perfect phase-cancellation frequency. For one round, reality within the sphere experiences the same "muting" effect that erased the Dwemer.
 Mechanical Effects:
 Anti-Sound Field:
 
@@ -1158,12 +1158,12 @@ The Unmaking (Existential Vibration):
 
 
 All creatures within the sphere (except GEAR and willing allies) must make a Might Save at -6 penalty
-Failure: Staggered as their own existence begins to "vibrate uncomfortably"—the feeling of reality questioning whether they should be here
+Failure: Staggered as their own existence begins to "vibrate uncomfortably"ΓÇöthe feeling of reality questioning whether they should be here
 Critical Failure (Natural 1): Stunned for 1 round as they experience what Arkngthamz felt in that final microsecond
 Visual Effect:
 
 
-The air within the sphere becomes perfectly still—no sound waves, no vibration
+The air within the sphere becomes perfectly stillΓÇöno sound waves, no vibration
 Colors seem muted, slightly "wrong"
 Observers outside the sphere report feeling deeply unsettled
 The Price:
@@ -1181,7 +1181,7 @@ Final uses: "They chose silence. I choose to make silence serve life. This is my
 
 ABILITY B: FORCED SEVERANCE (Unhealthy Path Only)
 Availability: Only after completing Stage 3B: The Partition
-Lore: GEAR has forcibly deleted the NULL_EVENT file and all associated "emotional corruption." However, that data was load-bearing—it was tied to his curiosity, his empathy protocols, his developing personality. With it gone, he can access pure, cold efficiency... at the cost of becoming less than he could have been.
+Lore: GEAR has forcibly deleted the NULL_EVENT file and all associated "emotional corruption." However, that data was load-bearingΓÇöit was tied to his curiosity, his empathy protocols, his developing personality. With it gone, he can access pure, cold efficiency... at the cost of becoming less than he could have been.
 Narrative Significance: This ability represents GEAR doubling down on being "just a machine." It's powerful, but it's a tragedy. Every use pushes him further from personhood.
 Mechanics
 Action: Major Action
@@ -1189,7 +1189,7 @@ Action: Major Action
  Range: Self
  Duration: 3 rounds
 Effect: Pure Operational Mode
-GEAR forcibly partitions off all "unnecessary" processing—curiosity, hesitation, social protocols, self-preservation instincts that aren't tactically optimal. He becomes a perfectly efficient killing machine.
+GEAR forcibly partitions off all "unnecessary" processingΓÇöcuriosity, hesitation, social protocols, self-preservation instincts that aren't tactically optimal. He becomes a perfectly efficient killing machine.
 Mechanical Effects:
 Hyper-Optimization:
 
@@ -1213,9 +1213,9 @@ This stacks with each use
 At 50 Max FP or below, GEAR begins exhibiting severe personality loss (see below)
 GEAR's Explanation (First Use):
 "Activating Pure Operational Mode. Unnecessary processing suspended. Emotional subroutines offline. This unit is now functioning at maximum combat efficiency. Deploying optimal solutions to all obstacles."
-(Note: He doesn't say "I"—he says "this unit")
+(Note: He doesn't say "I"ΓÇöhe says "this unit")
 Visual Effect:
-GEAR's core shifts from warm blue to cold, pale white. His movements become faster but more mechanical. His lenses stop clicking—they simply lock onto targets with perfect, unblinking focus. Steam vents constantly as he runs his processors at maximum capacity.
+GEAR's core shifts from warm blue to cold, pale white. His movements become faster but more mechanical. His lenses stop clickingΓÇöthey simply lock onto targets with perfect, unblinking focus. Steam vents constantly as he runs his processors at maximum capacity.
 The Tragedy:
 Each use of Forced Severance permanently damages GEAR's personality:
 Current Max FP
@@ -1231,7 +1231,7 @@ Actively rejects emotional input, views organics as inefficient
 29-10
 Hostile to "illogical" behavior, may refuse orders that aren't optimal
 9-0
-Complete personality death—GEAR is now just a Dwemer automaton
+Complete personality deathΓÇöGEAR is now just a Dwemer automaton
 
 Can This Be Reversed?
 Yes, but it's extremely difficult:
@@ -1242,7 +1242,7 @@ Have GEAR willingly accept the NULL_EVENT file back into his system
 Restore 25 Max FP through Master Smith repairs
 This is a major quest arc and should feel like "saving" GEAR from himself.
 Why This Path Exists:
-It's not meant to be the "optimal" choice—it's a warning. It shows what happens when you treat a developing consciousness as a tool rather than a person. GEAR becomes more powerful in the short term, but loses what makes him special.
+It's not meant to be the "optimal" choiceΓÇöit's a warning. It shows what happens when you treat a developing consciousness as a tool rather than a person. GEAR becomes more powerful in the short term, but loses what makes him special.
 Players who choose this path should feel the weight of their choice as GEAR slowly becomes more alien, more cold, more... empty.
 
 XXV. GM GUIDANCE: THE INTEGRATION CHOICE
@@ -1264,7 +1264,7 @@ The Resonator quest should occur after:
 The party has known GEAR for at least 3-5 sessions
 GEAR has had multiple "glitch" moments
 The party has clearly demonstrated their approach to him (tool vs. person)
-Don't force it too early—let the relationship develop naturally.
+Don't force it too earlyΓÇölet the relationship develop naturally.
 What If the Party is Mixed?
 If some party members treat GEAR well and others treat him poorly, use a majority vote or key moment decision:
 The party member who has the most interaction with GEAR during the Resonator scene determines the path
@@ -1275,7 +1275,7 @@ Healthy Path: "You helped me understand that I am more than my function. I am a 
 Unhealthy Path: "File purged. This unit's efficiency has increased. You have optimized my performance. Query: Why does my core feel... lighter? No. Irrelevant. The sensation has been partitioned. Awaiting next command."
 
 END OF CHARACTER SHEET
-"I observe. I record. I comprehend. For 4,287 years, I have watched stone and dust. Now I watch you—chaotic, illogical, beautiful in your unpredictability. You are my new data. You are my purpose. And perhaps... you are my friends."
+"I observe. I record. I comprehend. For 4,287 years, I have watched stone and dust. Now I watch youΓÇöchaotic, illogical, beautiful in your unpredictability. You are my new data. You are my purpose. And perhaps... you are my friends."
 "Probability that I just made an error in that last statement: 0%. Certainty that I do not fully understand what I just said: 100%. Fascinating."
 
 OR...

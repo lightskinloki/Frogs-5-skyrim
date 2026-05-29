@@ -1,9 +1,9 @@
 Ylva the Cleaver
 Master Hero (6 AP Build)
 High Concept
-A boisterous and joyful werewolf warrior who treats life, combat, and even butchery as the greatest game in the world. She is a whirlwind of infectious enthusiasm and terrifying, master-level violence—a "manic pixie muscle mommy" who finds pure, unadulterated fun in the thrill of the hunt.
+A boisterous and joyful werewolf warrior who treats life, combat, and even butchery as the greatest game in the world. She is a whirlwind of infectious enthusiasm and terrifying, master-level violenceΓÇöa "manic pixie muscle mommy" who finds pure, unadulterated fun in the thrill of the hunt.
 Appearance
-A powerfully built Nord woman whose physique is a testament to a life lived at full intensity. Her most striking feature is her hair, naturally split down the middle into two distinct colors—one side a shock of blood-red, the other spun gold. An innate mark, a sign she was born under the gaze of the Hunter. She is rarely still, often shifting her weight, cracking her knuckles, or grinning with an infectious, slightly feral energy. Her movements are bold and confident, taking up space and drawing the eye.
+A powerfully built Nord woman whose physique is a testament to a life lived at full intensity. Her most striking feature is her hair, naturally split down the middle into two distinct colorsΓÇöone side a shock of blood-red, the other spun gold. An innate mark, a sign she was born under the gaze of the Hunter. She is rarely still, often shifting her weight, cracking her knuckles, or grinning with an infectious, slightly feral energy. Her movements are bold and confident, taking up space and drawing the eye.
 
 I. Core Mechanics
 Race: Nord
@@ -16,9 +16,9 @@ Magic: 5 (4 base + 1 Daedric Resistance)
 Guile: 7 (8 base - 1 Bestial Nature)
 Resources
 Health Points (HP): 13/18
- Calculation: 8 + (Might 19 ÷ 4 = 4) + 2 (Well Fitted) + 4 (Combat Prowess) = 18 HP
+ Calculation: 8 + (Might 19 ├╖ 4 = 4) + 2 (Well Fitted) + 4 (Combat Prowess) = 18 HP
 Focus Points (FP): 13
- Calculation: (Agility 14 ÷ 2 = 7) + (Magic 5 ÷ 2 = 2) + 2 (Expert Combat Prowess) + 2 (Resource Training) = 13 FP
+ Calculation: (Agility 14 ├╖ 2 = 7) + (Magic 5 ├╖ 2 = 2) + 2 (Expert Combat Prowess) + 2 (Resource Training) = 13 FP
 Damage Reduction (DR): 8
  Source: Superior Steel Armor (3 base + 3 forge upgrades + 2 custom reinforcement)
 
@@ -27,8 +27,8 @@ Starting Character (0 AP)
 Adept Skill: Two-Handed
 Apprentice Skills: Heavy Armor, Speech, Archery
 Advancement Points Spent (6 AP Total)
-2 AP: Skill Specialization (Two-Handed: Adept → Expert)
-3 AP: Skill Mastery (Two-Handed: Expert → Master)
+2 AP: Skill Specialization (Two-Handed: Adept ΓåÆ Expert)
+3 AP: Skill Mastery (Two-Handed: Expert ΓåÆ Master)
 1 AP: Resource Training (+2 maximum FP)
 
 III. Skills & Perks
@@ -73,7 +73,7 @@ Attacks: Unarmed attacks deal 12 damage (Claws) with Hack & Slash property
 Werewolf Abilities
 Fearful Presence: At the start of her first turn after transforming, all enemies who can see her must make a Standard Guile roll or become Frightened for one round.
 Savage Leap: As a Minor Action, she can leap up to 30 feet and make an Agility roll to strike a target at her landing point. On success, the target takes half her normal claw damage.
-Vulnerability: She takes 4× damage from all silver weapons.
+Vulnerability: She takes 4├ù damage from all silver weapons.
 Master's Form: "Hircine's Merry Dance"
 Style: The Style of Might
  Roll: Single attack roll against Might (TN 19)
@@ -103,7 +103,7 @@ Consumables
 
 VI. Roleplaying Profile
 Personality: A Firecracker
-Ylva is a living whirlwind of joyous energy and infectious enthusiasm. She is loud, laughs from her belly, and shows affection with back-slapping camaraderie that can make a grown Nord stumble. She embodies the heart of a loyal wolf-pup—boundless energy, fierce devotion to her "pack," and an almost childlike excitement for the simple, profound things she loves: a good fight, a challenging hunt, and a hearty meal (preferably one she butchered herself). Her enthusiasm is as overwhelming as it is genuine, and often slightly terrifying to those not accustomed to it.
+Ylva is a living whirlwind of joyous energy and infectious enthusiasm. She is loud, laughs from her belly, and shows affection with back-slapping camaraderie that can make a grown Nord stumble. She embodies the heart of a loyal wolf-pupΓÇöboundless energy, fierce devotion to her "pack," and an almost childlike excitement for the simple, profound things she loves: a good fight, a challenging hunt, and a hearty meal (preferably one she butchered herself). Her enthusiasm is as overwhelming as it is genuine, and often slightly terrifying to those not accustomed to it.
 Core Motivation: The Thrill of the Hunt
 Ylva is a devout follower of Hircine because she believes the Great Hunt is the most exciting game in the world. Her lycanthropy isn't a gift or a curse; it's her favorite toy. She seeks "worthy prey" not out of duty, but for the sheer, unadulterated joy of testing her strength against the world's most dangerous creatures.
 The Butcher's Philosophy
@@ -111,7 +111,7 @@ She approaches combat and butchery as an enthusiastic artist utterly fascinated 
 "Have you ever seen the way a Sabre Cat's muscles are layered? It's beautiful! Perfect design! Taking it apart is like solving the world's most interesting puzzle. And then you get to eat it! It's the best! The fight is the game, the butchering is the art, and the meal is the prize. What's not to love?"
 
 VII. Recruitment Hook: "The Rorikstead Carver"
-Ylva is a force of nature that cannot be hired; she must be encountered. A party seeking her will likely hear her long before they see her—a chorus of joyous laughter and the rhythmic thump-thump-thump of an axe echoing from a local butcher's stall in a town like Rorikstead or Dragon Bridge.
+Ylva is a force of nature that cannot be hired; she must be encountered. A party seeking her will likely hear her long before they see herΓÇöa chorus of joyous laughter and the rhythmic thump-thump-thump of an axe echoing from a local butcher's stall in a town like Rorikstead or Dragon Bridge.
 They will find her putting on an impromptu show for a small crowd of impressed and horrified locals, demonstrating how to break down a deer carcass in under a minute, all while providing a running commentary filled with cheerful anatomical facts.
 She will inevitably overhear the party discussing their next quest. The mention of trolls, vampires, or any sufficiently dangerous prey will cause her eyes to light up with pure, undiluted excitement.
 Her Introduction: "Wait. Did you say trolls? With the big claws and the regeneration? Oh, that sounds like way more fun than chopping up this elk! I'm coming with you!"
@@ -132,7 +132,7 @@ Devastating Charge: Major + Minor Action, +2 Might, +2 damage
 Power Attack: +3 damage (Expert), triggers Deep Wounds (2 Bleed)
 Cleave: 1 FP, 1 damage to 2 adjacent enemies (3 FP per additional target)
 Sweep: 4 FP, once per combat, hits all enemies in front
-Hircine's Merry Dance: 2 FP, hits all enemies in 360°, +2 damage, pushes 5 feet
+Hircine's Merry Dance: 2 FP, hits all enemies in 360┬░, +2 damage, pushes 5 feet
 Werewolf Form: Once per adventure, Major Action
 Defensive Abilities
 Tower of Strength: Auto-resist stagger/knockdown (once per combat)
@@ -144,9 +144,9 @@ Persuasion: +2 Guile bonus (once per social encounter)
 
 ADDENDUM: Lore Integration & Spiritual Mechanics
 IX. The Doctrine of the Fair Chase
-Ylva embodies Hircine’s disdain for trickery. To her, the "Great Game" demands a level playing field where the hunter and the prey test their limits.
+Ylva embodies HircineΓÇÖs disdain for trickery. To her, the "Great Game" demands a level playing field where the hunter and the prey test their limits.
 The Open Challenge: Ylva initiates combat by announcing her presence. She stands in the center of the road, mirroring the Germanic folklore of the Wild Hunt where safety lies in bravery and visibility. She grants her enemies the chance to draw steel.
-The Referee's Wrath: When she witnesses "unsportsmanlike conduct"—magic that paralyzes without struggle, traps that kill without a fight, or the slaughter of helpless quarry—she enters a state of Burning Indignation. She intervenes violently to punish the "cheater," viewing herself as an enforcer of Hircine’s rules.
+The Referee's Wrath: When she witnesses "unsportsmanlike conduct"ΓÇömagic that paralyzes without struggle, traps that kill without a fight, or the slaughter of helpless quarryΓÇöshe enters a state of Burning Indignation. She intervenes violently to punish the "cheater," viewing herself as an enforcer of HircineΓÇÖs rules.
 Value of the Quarry: She directs her heaviest attacks toward the strongest foe. She praises enemies who land solid hits on her, shouting compliments mid-combat. She views a difficult battle as a gift from the Prince.
 X. The Aspect of the Stag (Uric-Anbeg)
 While Ylva bears the blood of the Wolf, her spirit channels the aspect of the Great Stag, the noisy herald of the hunt.
@@ -155,17 +155,17 @@ The Duality of the Pelt: She interprets her red-and-gold hair as a divine mark r
 XI. Sacred Reciprocity & The Art of the Carve
 Ylva treats butchery as a religious rite. The lore dictates that a hunter must respect the forest to receive its bounty.
 Ritual Field Dressing: After the adrenaline fades, Ylva becomes hyper-focused and reverent. She harvests meat, bone, and hide with surgical precision. She thanks the creature for playing the game well.
-Mandatory Consumption: She insists the party consume what they kill. Eating the heart or flank of a worthy foe allows the hunter to absorb their strength. She prepares these meals with genuine culinary passion, believing that a well-cooked stew honors the beast’s life.
+Mandatory Consumption: She insists the party consume what they kill. Eating the heart or flank of a worthy foe allows the hunter to absorb their strength. She prepares these meals with genuine culinary passion, believing that a well-cooked stew honors the beastΓÇÖs life.
 XII. Flavor Adjustments to Abilities
-The Wild Hunt’s Clamor (Re-flavoring "Hircine's Merry Dance")
-When Ylva activates her Master’s Form, she channels the spectral chaos of the Wild Hunt. The air around her fills with the phantom sounds of baying hounds and thundering hooves. This auditory hallucination overwhelms the senses of her enemies, explaining the "Push" effect as they stumble back from the ghostly stampede radiating from her spinning axe.
+The Wild HuntΓÇÖs Clamor (Re-flavoring "Hircine's Merry Dance")
+When Ylva activates her MasterΓÇÖs Form, she channels the spectral chaos of the Wild Hunt. The air around her fills with the phantom sounds of baying hounds and thundering hooves. This auditory hallucination overwhelms the senses of her enemies, explaining the "Push" effect as they stumble back from the ghostly stampede radiating from her spinning axe.
 The Inescapable Reach (Re-flavoring "Cleave")
-Her ability to hit adjacent enemies represents the omnipresence of the Hunt. Just as a mortal cannot outrun Hircine’s reach, an enemy standing near Ylva finds themselves caught in the radius of her enthusiasm.
+Her ability to hit adjacent enemies represents the omnipresence of the Hunt. Just as a mortal cannot outrun HircineΓÇÖs reach, an enemy standing near Ylva finds themselves caught in the radius of her enthusiasm.
 XIII. Equipment Lore: The Broken Axe
-The Judge’s Gavel (Backstory for "The Butcher's Axe")
+The JudgeΓÇÖs Gavel (Backstory for "The Butcher's Axe")
 The axe lost its second blade during a duel with a cheating hedge-knight who used magical wards to repel all damage. Ylva, fueled by the conviction that he was mocking the sport, struck his enchanted shield with such force that the steel shattered. The axe broke, but the knight fell. She keeps the jagged, broken edge as a symbol that raw strength and conviction overcome those who try to rig the game.
 XIV. The Endgame: The Bloodmoon Prophecy
-Ylva trains for a singular, tangible goal. She watches the moon Secunda every night, waiting for it to turn crimson. She intends to participate in the Hircine’s Great Game during the Bloodmoon Prophecy. She plans to be the prey that survives, or the hunter that claims the ultimate prize. Every adventure with the party serves as preparation for this celestial olympics.
+Ylva trains for a singular, tangible goal. She watches the moon Secunda every night, waiting for it to turn crimson. She intends to participate in the HircineΓÇÖs Great Game during the Bloodmoon Prophecy. She plans to be the prey that survives, or the hunter that claims the ultimate prize. Every adventure with the party serves as preparation for this celestial olympics.
 
 
 

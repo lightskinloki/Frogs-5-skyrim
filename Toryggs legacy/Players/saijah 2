@@ -1,114 +1,114 @@
-SAIJAH — THE SENTINEL AND THE SEED
+SAIJAH ΓÇö THE SENTINEL AND THE SEED
 Master Architecture Document (Updated)
 
 I. CURRENT STATE
 Saijah is standing at the beginning of a crossroads she didn't choose to reach.
-She is the Wardens' best archer — the best archer in Skyrim, arguably, after the kill shot that threaded chain lightning through a dragon's optic nerve. She is a Bosmer with a deep, painful connection to the natural world, a permanent psychic migraine caused by the Eldergleam's dying root network, and a goddess who answers her prayers with the same instructions every time and nothing more.
+She is the Wardens' best archer ΓÇö the best archer in Skyrim, arguably, after the kill shot that threaded chain lightning through a dragon's optic nerve. She is a Bosmer with a deep, painful connection to the natural world, a permanent psychic migraine caused by the Eldergleam's dying root network, and a goddess who answers her prayers with the same instructions every time and nothing more.
 She has been approached by Hircine. The Lord of the Hunt appeared to her as a white stag in the foothills between the Pale and the Rift, and he offered her a bargain: hunt another dragon, and he will give her the power to save the Eldergleam. She said no. She hesitated first. Hircine noticed the hesitation.
-She has sacrificed her holy artifacts (the Hawk's Talon and Hawk's Feather) to Kynareth in the Midden to save her friends from a near-TPK, and the artifacts were returned to her after the dragon fight — changed, though she doesn't yet understand how. They are no longer simply blessed objects. They have passed through divine hands and come back as something else.
-She is in Riften. The city's stone walls are pressing on her migraine. The roots beneath her feet are sick. Danica Pure-Spring — the priestess she barely knows but whose work saved this city — is somewhere nearby. Varon is pursuing her. Bjorn keeps her warm but won't let her close. Kyboh is gone and she cried for him on the surface of a frozen ruin.
-What She Is: A Tier 2 Naturalist — "The Wounded Sentinel." A mortal bearing a divine burden without divine instruction. A woman whose empathy is being weaponised against her by a dying world.
+She has sacrificed her holy artifacts (the Hawk's Talon and Hawk's Feather) to Kynareth in the Midden to save her friends from a near-TPK, and the artifacts were returned to her after the dragon fight ΓÇö changed, though she doesn't yet understand how. They are no longer simply blessed objects. They have passed through divine hands and come back as something else.
+She is in Riften. The city's stone walls are pressing on her migraine. The roots beneath her feet are sick. Danica Pure-Spring ΓÇö the priestess she barely knows but whose work saved this city ΓÇö is somewhere nearby. Varon is pursuing her. Bjorn keeps her warm but won't let her close. Kyboh is gone and she cried for him on the surface of a frozen ruin.
+What She Is: A Tier 2 Naturalist ΓÇö "The Wounded Sentinel." A mortal bearing a divine burden without divine instruction. A woman whose empathy is being weaponised against her by a dying world.
 What She Could Become:
-The Hierophant of Kynareth — a demigod-like nature spirit, an Avatar of the Eldergleam. Slow. Painful. Earned over many sessions of thankless, merciful work. The harder path. The transcendent reward.
-The Alpha of Hircine — an apex predator with the teeth to tear the sickness out by the root. Immediate. Powerful. A ceiling she hits the moment she accepts. The easy path. The limited reward.
-Neither — a mortal solving a divine problem with her own two hands. Respected by both. Championed by neither. The lonely path.
+The Hierophant of Kynareth ΓÇö a demigod-like nature spirit, an Avatar of the Eldergleam. Slow. Painful. Earned over many sessions of thankless, merciful work. The harder path. The transcendent reward.
+The Alpha of Hircine ΓÇö an apex predator with the teeth to tear the sickness out by the root. Immediate. Powerful. A ceiling she hits the moment she accepts. The easy path. The limited reward.
+Neither ΓÇö a mortal solving a divine problem with her own two hands. Respected by both. Championed by neither. The lonely path.
 
 II. THE PSYCHIC GRADIENT
 The Migraine
-The Eldergleam is dying. The Dagon Cult successfully planted the Seed of Desolation. The ancient tree is pumping corruption into the root network of Skyrim — the vast immune system that detects and contains planar intrusion.
-Saijah's Nature's Echo is no longer a random risk. It is a persistent, physical affliction. The migraine is directional — a compass needle pointing southeast toward Eastmarch, toward the Eldergleam, toward the source. The closer she gets to compromised root nodes (like the ones beneath Riften), the sharper the pain.
+The Eldergleam is dying. The Dagon Cult successfully planted the Seed of Desolation. The ancient tree is pumping corruption into the root network of Skyrim ΓÇö the vast immune system that detects and contains planar intrusion.
+Saijah's Nature's Echo is no longer a random risk. It is a persistent, physical affliction. The migraine is directional ΓÇö a compass needle pointing southeast toward Eastmarch, toward the Eldergleam, toward the source. The closer she gets to compromised root nodes (like the ones beneath Riften), the sharper the pain.
 It is a pressure behind her left eye, constant, visceral. A reminder that the world is dying and she is not moving fast enough.
-The Suffocation of Stone: Being inside walled cities exacerbates the pain. Stone and mortar act as a blinder, cutting her off from Kynareth's clean winds and trapping her with stagnant, localised rot. While within city walls, she suffers a permanent -1 penalty to Guile checks — claustrophobia, distraction, the constant low-grade agony of being separated from the sky.
-The Mzinchaleft Exception: Inside the Dwemer ruin, the migraine went completely silent. The infrastructure blocked the Eldergleam network entirely. For the first time in weeks, no pain. The relief was immediate and physical — and also a warning. If the roots can't reach her, Kynareth can't reach her. Silence is not always peace.
+The Suffocation of Stone: Being inside walled cities exacerbates the pain. Stone and mortar act as a blinder, cutting her off from Kynareth's clean winds and trapping her with stagnant, localised rot. While within city walls, she suffers a permanent -1 penalty to Guile checks ΓÇö claustrophobia, distraction, the constant low-grade agony of being separated from the sky.
+The Mzinchaleft Exception: Inside the Dwemer ruin, the migraine went completely silent. The infrastructure blocked the Eldergleam network entirely. For the first time in weeks, no pain. The relief was immediate and physical ΓÇö and also a warning. If the roots can't reach her, Kynareth can't reach her. Silence is not always peace.
 
 III. THE DIVINE VOICES
 Kynareth (The Silent Mother)
 Kynareth does not use words. She is the Aedric goddess of the sky, the wind, and the elements. Her communication is entirely environmental and sensation-based.
 The Experience: When Kynareth communicates, Saijah feels a sudden shift in air pressure, the smell of rain on dry earth, the absolute heavy stillness before a storm. Her guidance is maddeningly vague. She offers endurance. She offers a sudden updraft when Saijah jumps. She refuses to dictate action. She provides the breath; Saijah must choose how to spend it.
-The Frustration: Saijah has now prayed to Kynareth multiple times — in the Midden (answered with divine intervention that saved the entire party), at the camp after Mzinchaleft (answered with the same instructions), and again later that night (answered with the same instructions again). Each time: stop the corruption, protect the roots, heal what can be healed. Nothing new. No new information. No new directives.
-Kynareth demands that Saijah bear the pain of the dying world without offering a quick solution. She requires patience, mercy, and the willingness to suffer for the healing of the land. This is the Aedric way — the gods gave up their power to create the world, and they ask their champions to do the same.
+The Frustration: Saijah has now prayed to Kynareth multiple times ΓÇö in the Midden (answered with divine intervention that saved the entire party), at the camp after Mzinchaleft (answered with the same instructions), and again later that night (answered with the same instructions again). Each time: stop the corruption, protect the roots, heal what can be healed. Nothing new. No new information. No new directives.
+Kynareth demands that Saijah bear the pain of the dying world without offering a quick solution. She requires patience, mercy, and the willingness to suffer for the healing of the land. This is the Aedric way ΓÇö the gods gave up their power to create the world, and they ask their champions to do the same.
 Saijah is running out of patience with a goddess who saved her life and then went silent.
 Hircine (The Lord of the Hunt)
 Hircine is physical, direct, and respectful. He does not manipulate. He appraises. He communicates through the cracking of bone, the smell of fresh blood on snow, and direct, visceral encounters.
 The First Approach (Already Occurred): The white stag appeared in the foothills during the camp after Mzinchaleft, while Ylva was awkwardly trying to connect with Saijah. Saijah saw the stag over Ylva's shoulder and left the conversation without explanation to follow it into the trees.
-Hircine spoke to her in a forest clearing. His voice was calm, observational — a seasoned huntsman evaluating a promising hound. He was impressed by the dragon kill. He called her a great hunter. He offered a straight, honest trade: hunt another dragon for him, and he will give her the power to save the Eldergleam.
-Saijah refused. But the refusal came with a hesitation — a fraction of a second where the offer sat in the air and she felt the weight of what it could mean. Hircine heard the hesitation. He is patient. He is a hunter. The first approach is never the kill shot.
+Hircine spoke to her in a forest clearing. His voice was calm, observational ΓÇö a seasoned huntsman evaluating a promising hound. He was impressed by the dragon kill. He called her a great hunter. He offered a straight, honest trade: hunt another dragon for him, and he will give her the power to save the Eldergleam.
+Saijah refused. But the refusal came with a hesitation ΓÇö a fraction of a second where the offer sat in the air and she felt the weight of what it could mean. Hircine heard the hesitation. He is patient. He is a hunter. The first approach is never the kill shot.
 Hircine's Nature (Voice Reference): He does not belittle Kynareth. He does not scheme or manipulate. He speaks like a hunter appraising a rival predator:
 "You track well, Elf. You have the scent of the dying wood on you, but you hesitate. You watch the rot spread, hoping the tree will heal itself. The forest does not heal; it sheds the dead branch. The prey is sick. A sick herd is not cured; it is culled. I offer you the teeth to make the kill clean. Hunt for me, and you will not have to endure the sickness. You will end it."
-Hircine Will Return. The hesitation was enough. He will approach again — not with the same offer, but with a demonstration. He will arrange for Saijah to see what his power looks like in practice, what an Alpha werewolf can do that a mortal archer cannot. The timing will be when she is at her most frustrated with Kynareth's silence.
+Hircine Will Return. The hesitation was enough. He will approach again ΓÇö not with the same offer, but with a demonstration. He will arrange for Saijah to see what his power looks like in practice, what an Alpha werewolf can do that a mortal archer cannot. The timing will be when she is at her most frustrated with Kynareth's silence.
 
 IV. THE SACRED ARTIFACTS
 The Hawk's Talon and Hawk's Feather
-These artifacts have undergone a transformation. Saijah surrendered them in the Midden — a genuine sacrifice, not a tactical trade. She released them the way you release a bird you've been sheltering back into the sky. Kynareth accepted the sacrifice and intervened to save the party.
+These artifacts have undergone a transformation. Saijah surrendered them in the Midden ΓÇö a genuine sacrifice, not a tactical trade. She released them the way you release a bird you've been sheltering back into the sky. Kynareth accepted the sacrifice and intervened to save the party.
 After the dragon fight, the artifacts reappeared on the scorched road. Warm, whole, returned. But changed.
-They are no longer simply blessed objects. They have passed through Kynareth's hands and come back as artifacts of the goddess — their nature and purpose altered by the round trip through divine intervention.
+They are no longer simply blessed objects. They have passed through Kynareth's hands and come back as artifacts of the goddess ΓÇö their nature and purpose altered by the round trip through divine intervention.
 [GM NOTE: The specific mechanics of the returned artifacts are still being designed. The sacrifice-and-return cycle has elevated them from personal talismans to divine instruments. Their new abilities should reflect this elevation and tie into Saijah's eventual path choice. Placeholder until finalised.]
 Previous Mechanic (Pre-Sacrifice, for reference)
-The Talon — Death From Above: If Saijah uses Spirit of the Hawk to move toward an enemy, her next attack deals +2 Damage.
-The Feather — Kyne's Vantage: If Saijah uses Spirit of the Hawk to move to high ground, she gains Advantage on her next attack.
+The Talon ΓÇö Death From Above: If Saijah uses Spirit of the Hawk to move toward an enemy, her next attack deals +2 Damage.
+The Feather ΓÇö Kyne's Vantage: If Saijah uses Spirit of the Hawk to move to high ground, she gains Advantage on her next attack.
 The Conflict: Cannot use both on the same turn, mirroring her internal spiritual conflict.
 
 V. IMPENDING DEADLINES & PRESSURES
-The Shadow's Courtship (Riften — Immediate)
-Varon is pursuing Saijah. Not as an operative working a target — as a man who has found something that cracks his professional armour. He speaks to her as "Vena." He overrode Orion's Brotherhood contract priorities to support her desire to go to the Eldergleam. This is unprecedented — a Shadowscale placing personal desire above professional obligation.
-The Tension: Varon is not an enemy. He is a predator who has decided to be gentle, and the effort costs him visibly. His flirtation is bad — the social skills of a man trained for manipulation failing him when the charm is genuine. The words come out wrong. The timing is terrible.
-The Pressure: He will shadow the party in Riften. When they encounter problems, he will demonstrate how easily they can be solved with a silent blade. He offers the "Predator's Solution" — efficiency over mercy. He forces Saijah to constantly defend her choice to care against someone who knows exactly how to exploit her exhaustion.
+The Shadow's Courtship (Riften ΓÇö Immediate)
+Varon is pursuing Saijah. Not as an operative working a target ΓÇö as a man who has found something that cracks his professional armour. He speaks to her as "Vena." He overrode Orion's Brotherhood contract priorities to support her desire to go to the Eldergleam. This is unprecedented ΓÇö a Shadowscale placing personal desire above professional obligation.
+The Tension: Varon is not an enemy. He is a predator who has decided to be gentle, and the effort costs him visibly. His flirtation is bad ΓÇö the social skills of a man trained for manipulation failing him when the charm is genuine. The words come out wrong. The timing is terrible.
+The Pressure: He will shadow the party in Riften. When they encounter problems, he will demonstrate how easily they can be solved with a silent blade. He offers the "Predator's Solution" ΓÇö efficiency over mercy. He forces Saijah to constantly defend her choice to care against someone who knows exactly how to exploit her exhaustion.
 The Complication: Varon's feelings for Saijah are now a strategic variable in Orion's shadow war. If Orion can manipulate Varon through Saijah, the Brotherhood's enforcement mechanism collapses. Saijah does not know she is leverage. If she discovers it, she will never forgive Orion.
 The Eldergleam (Mid-Term)
 Saijah wants to go to the Eldergleam Sanctuary. The migraine is pulling her there. Kynareth's instructions point there. Hjolmar's root map showed the network converging there. Everything she knows tells her the tree is where this war is won or lost.
-The party has other priorities. Orion's contract. Riften's politics. The search for Kyboh. The Eldergleam is not convenient. It is necessary — but only Saijah feels that necessity as physical pain.
-The Bleeding Mountain (Ivarstead — Long-Term)
-The migraine will eventually pull her toward the Throat of the World, where the Dagon Cult is preparing their highest-tier unmaking ritual. This will be the site of her ultimate test — where the choice between Kynareth's endurance and Hircine's fangs becomes undeniably tangible.
+The party has other priorities. Orion's contract. Riften's politics. The search for Kyboh. The Eldergleam is not convenient. It is necessary ΓÇö but only Saijah feels that necessity as physical pain.
+The Bleeding Mountain (Ivarstead ΓÇö Long-Term)
+The migraine will eventually pull her toward the Throat of the World, where the Dagon Cult is preparing their highest-tier unmaking ritual. This will be the site of her ultimate test ΓÇö where the choice between Kynareth's endurance and Hircine's fangs becomes undeniably tangible.
 
-VI. THE CROSSROADS (TIER 3 — BEGINNING NOW)
+VI. THE CROSSROADS (TIER 3 ΓÇö BEGINNING NOW)
 Saijah has entered the Crossroads Phase. Hircine has made his first approach. Kynareth has gone frustratingly silent. The choice is forming, though it is nowhere near resolution.
-The Acceptance Hook — The Path of the Healer (Kynareth)
-The Hook: The Eldergleam Sanctuary. The ancient, sentient tree is sick — not just from Dagon's rot, but from a profound sadness. It will communicate with Saijah telepathically.
-The Offer: The Eldergleam teaches her the Ritual of Cleansing — a Kynareth-blessed ability to heal corrupted land and purify blighted creatures. It requires getting close, being vulnerable, showing mercy to the things she hunts.
+The Acceptance Hook ΓÇö The Path of the Healer (Kynareth)
+The Hook: The Eldergleam Sanctuary. The ancient, sentient tree is sick ΓÇö not just from Dagon's rot, but from a profound sadness. It will communicate with Saijah telepathically.
+The Offer: The Eldergleam teaches her the Ritual of Cleansing ΓÇö a Kynareth-blessed ability to heal corrupted land and purify blighted creatures. It requires getting close, being vulnerable, showing mercy to the things she hunts.
 The Path: Slow. Painful. Multi-stage evolution over many sessions.
-Expert Evolution ("The Branch"): Wood-stride — teleporting between healthy trees.
+Expert Evolution ("The Branch"): Wood-stride ΓÇö teleporting between healthy trees.
 Master Evolution ("The Grove"): Master-level nature spells. Spriggan allies. Lurchers.
-Apotheosis ("The Avatar"): Transformation into a Spriggan Matriarch — a being of wood, leaf, and light. Immense damage resistance. Command of all natural creatures. Party-wide healing. Near-divinity.
+Apotheosis ("The Avatar"): Transformation into a Spriggan Matriarch ΓÇö a being of wood, leaf, and light. Immense damage resistance. Command of all natural creatures. Party-wide healing. Near-divinity.
 The Cost: Patience. Mercy. Watching Alfonso and Orion gain dark powers quickly while hers requires faith. Being forced to try to save monstrous, corrupted creatures that are actively trying to kill her friends. The hardest path. The greatest reward.
-The Rejection Hook — The Path of the Predator (Hircine)
-The Hook: Already triggered — the white stag. Hircine will return with escalating offers as Saijah's frustration with Kynareth grows.
-The Offer: Alpha Lycanthropy. Not the common, corrupted strain — the pure, original blessing. Greater control, greater power, a direct connection to the Hunt. She retains intelligence and personality while transformed. A choice of forms (swift hunter, durable guardian). Supernatural senses in both forms. Command over lesser were-creatures.
-The Path: Immediate. Front-loaded. She transforms and gains full combat power on acceptance. This is the end of her progression — Hircine's gift is the ceiling.
-The Cost: Nature's Echo silenced — not by peace, but by bloodlust. Kynareth's blessing fades. She no longer feels the world's pain but feels the exhilarating joy of the hunt and the kill. She risks losing the empathy that started her on this path. Becoming a monster to hunt monsters.
-The Third Path — Neither
+The Rejection Hook ΓÇö The Path of the Predator (Hircine)
+The Hook: Already triggered ΓÇö the white stag. Hircine will return with escalating offers as Saijah's frustration with Kynareth grows.
+The Offer: Alpha Lycanthropy. Not the common, corrupted strain ΓÇö the pure, original blessing. Greater control, greater power, a direct connection to the Hunt. She retains intelligence and personality while transformed. A choice of forms (swift hunter, durable guardian). Supernatural senses in both forms. Command over lesser were-creatures.
+The Path: Immediate. Front-loaded. She transforms and gains full combat power on acceptance. This is the end of her progression ΓÇö Hircine's gift is the ceiling.
+The Cost: Nature's Echo silenced ΓÇö not by peace, but by bloodlust. Kynareth's blessing fades. She no longer feels the world's pain but feels the exhilarating joy of the hunt and the kill. She risks losing the empathy that started her on this path. Becoming a monster to hunt monsters.
+The Third Path ΓÇö Neither
 She rejects both. Walks the middle path. Heals when she can, kills when she must. No further power from either patron. Self-reliance. A mortal solving a divine problem with her own two hands. Respected by both. Championed by neither. The lonely road.
 
 VII. COMPANION DYNAMICS
 Bjorn (The Arm's Length)
-Bjorn loves Saijah. Not romantically — the way a man loves someone who reminds him of a future he was denied. She reaches for a father-daughter bond and he physically cannot go there. The last time he promised to protect young women, they died in ways that redefined his understanding of suffering.
+Bjorn loves Saijah. Not romantically ΓÇö the way a man loves someone who reminds him of a future he was denied. She reaches for a father-daughter bond and he physically cannot go there. The last time he promised to protect young women, they died in ways that redefined his understanding of suffering.
 He keeps it warm but at a distance. "Lass" not "daughter." Friendly, not familial. The warmth is genuine but the wall is structural. He is available without pushing. He watches Varon circling her with the specific, helpless vigilance of a man who recognises a pattern and can't say anything because she's choosing this.
-He told her about the War-Hound at the campfire — not the details, not the sisters, just enough. He was fast. He lost people. He buried who he was. She knows more about him than almost anyone alive, and she still doesn't know the half of it.
+He told her about the War-Hound at the campfire ΓÇö not the details, not the sisters, just enough. He was fast. He lost people. He buried who he was. She knows more about him than almost anyone alive, and she still doesn't know the half of it.
 Ylva (The Mirror)
 Ylva is what Saijah could become if she accepts Hircine's gift without discipline. An unrestrained werewolf revelling in the chaos of her transformation. She smells Hircine's interest on Saijah.
-Ylva tried to connect with Saijah at the camp — genuinely, awkwardly, with none of the social tools to make it work. The conversation died when Saijah saw the stag and walked away without explanation.
+Ylva tried to connect with Saijah at the camp ΓÇö genuinely, awkwardly, with none of the social tools to make it work. The conversation died when Saijah saw the stag and walked away without explanation.
 Ylva encourages Saijah to "stop thinking so much and just run." She views Saijah's hesitation as a waste of good instincts. She is loud, joyful, primal slaughter where Varon is silent, emotionless killing. Saijah is surrounded by different flavours of murder, making Kynareth's silent demand for mercy incredibly difficult to sustain.
 Davinia (The Other Wounded Woman)
-Davinia and Saijah share a bond that neither of them has named. Two women losing pieces of themselves — Davinia to the Crown, Saijah to the migraine. They cuddled after the dragon fight, and Davinia's Crown contact turned Saijah's hair white.
-The white hair is a mark. Neither of them acknowledged it. It is a visible sign that Ismara's influence is spreading beyond Davinia — that proximity to the Crown has physical consequences. Whether this means anything beyond cosmetics remains to be seen.
+Davinia and Saijah share a bond that neither of them has named. Two women losing pieces of themselves ΓÇö Davinia to the Crown, Saijah to the migraine. They cuddled after the dragon fight, and Davinia's Crown contact turned Saijah's hair white.
+The white hair is a mark. Neither of them acknowledged it. It is a visible sign that Ismara's influence is spreading beyond Davinia ΓÇö that proximity to the Crown has physical consequences. Whether this means anything beyond cosmetics remains to be seen.
 Kyboh (The Absence)
-Kyboh is gone and Saijah cried for him. He was the party member who most needed protecting — impulsive, dumb, reckless, kind — and they couldn't protect him. His absence is a wound that reinforces both sides of her crossroads: Kynareth's path says heal the world so people like Kyboh are safe, Hircine's path says be strong enough that nothing can take your people from you again.
+Kyboh is gone and Saijah cried for him. He was the party member who most needed protecting ΓÇö impulsive, dumb, reckless, kind ΓÇö and they couldn't protect him. His absence is a wound that reinforces both sides of her crossroads: Kynareth's path says heal the world so people like Kyboh are safe, Hircine's path says be strong enough that nothing can take your people from you again.
 
 VIII. GM NOTES
 Current Campaign State
 Saijah is in Riften. The migraine is building. The city walls make it worse.
 Hircine has made first contact. Saijah refused but hesitated. He will return.
 Kynareth has gone silent after giving the same answer three times. Saijah is frustrated.
-The Talon and Feather have been returned, changed. New mechanics TBD — note that these artifacts are now divine instruments and should tie into her eventual path choice.
+The Talon and Feather have been returned, changed. New mechanics TBD ΓÇö note that these artifacts are now divine instruments and should tie into her eventual path choice.
 Varon is actively pursuing her. He overrode Orion for her. She is unknowing leverage in Orion's shadow war.
 She killed Krosulhah. This is what drew Hircine's attention. The next dragon encounter will be when Hircine makes his second approach.
 She wants to go to the Eldergleam. The party has competing priorities.
 Danica is in Riften (or nearby). Saijah knows Danica by reputation through the notice. A meeting could accelerate the Kynareth path.
 Pacing Guidelines
-Hircine's second approach should come during or immediately after the next dragon encounter. If the party fights another dragon and Saijah contributes significantly, Hircine escalates — not with words this time, but with a gift she didn't ask for (enhanced senses, the scent of prey, something that makes the hunt feel good).
-Kynareth's silence should break only when Saijah does something that demonstrates commitment to the healing path — not just fighting corruption, but actively showing mercy, choosing to save instead of kill. The goddess rewards action, not prayer.
+Hircine's second approach should come during or immediately after the next dragon encounter. If the party fights another dragon and Saijah contributes significantly, Hircine escalates ΓÇö not with words this time, but with a gift she didn't ask for (enhanced senses, the scent of prey, something that makes the hunt feel good).
+Kynareth's silence should break only when Saijah does something that demonstrates commitment to the healing path ΓÇö not just fighting corruption, but actively showing mercy, choosing to save instead of kill. The goddess rewards action, not prayer.
 The Eldergleam should be accessible but not easy. It requires travel the party may resist. The tension between Saijah's need and the party's priorities is itself part of the arc.
 Do not force the crossroads choice. Let it develop over sessions. The choice should feel like a culmination, not a pop quiz.
-Track which divine influence Saijah leans toward session by session. Her actions — not her words — determine the outcome.
+Track which divine influence Saijah leans toward session by session. Her actions ΓÇö not her words ΓÇö determine the outcome.
 Ylva's werewolf presence is a passive Hircine recruitment tool. Every time Ylva transforms and solves a problem with claws, it's an argument for the predator path that nobody needs to articulate.
 Varon's courtship should intensify in Riften. He is on home turf (assassin in a city of thieves). His competence will be on full display. This is when he is most attractive and most dangerous.
 

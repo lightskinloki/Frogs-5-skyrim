@@ -81,7 +81,7 @@ Might: Your physical power, melee prowess, and hardiness. Used for swinging heav
 Agility: Your speed, precision, stealth, and skill with a bow. Used for dodging, sneaking, and aiming.
 Magic: Your connection to the arcane arts and your raw magical power. Used for casting spells of all kinds.
 Guile: Your cleverness, worldly knowledge, and force of personality. Used for persuasion, lockpicking, and cunning tactics.
-Choose ONE of the thirteen Standing Stones below. The stats listed are your Target Numbers—the numbers you must roll equal to or under for the entire game.
+Choose ONE of the thirteen Standing Stones below. The stats listed are your Target NumbersΓÇöthe numbers you must roll equal to or under for the entire game.
 
 The Guardian Stones
 These are the most common signs, guiding the three primary paths of an adventurer.
@@ -98,7 +98,7 @@ Path of Steel
 12
 4
 8
-Fighter’s Rush: Once per combat, after taking damage, you can choose to gain 3 FP.
+FighterΓÇÖs Rush: Once per combat, after taking damage, you can choose to gain 3 FP.
 The Thief
 Path of Shadows
 8
@@ -237,9 +237,9 @@ You receive no Standing Stone Benefit. The unique ability listed on every Stone 
 You still choose a Race and receive its stat bonus normally.
 You still choose your Skills and calculate your HP and FP as normal.
 A Word of Warning:
-Putting 20 in a single stat is not as powerful as it sounds. Difficulty modifiers can still punish even your best rolls, and the points you spend reaching 20 in one stat will leave your remaining three stats painfully low. A character built this way will be exceptional at one thing and genuinely helpless at almost everything else. That is a valid and interesting character concept — just go in with open eyes.
+Putting 20 in a single stat is not as powerful as it sounds. Difficulty modifiers can still punish even your best rolls, and the points you spend reaching 20 in one stat will leave your remaining three stats painfully low. A character built this way will be exceptional at one thing and genuinely helpless at almost everything else. That is a valid and interesting character concept ΓÇö just go in with open eyes.
 When to Use This:
-The thirteen Standing Stones are designed to cover every major archetype in Skyrim. If you look at them and one fits your concept, take it — the Stone Benefit is genuinely powerful and you will miss it. Point-buy exists for the player who has already decided exactly who their character is and wants their numbers to reflect that.
+The thirteen Standing Stones are designed to cover every major archetype in Skyrim. If you look at them and one fits your concept, take it ΓÇö the Stone Benefit is genuinely powerful and you will miss it. Point-buy exists for the player who has already decided exactly who their character is and wants their numbers to reflect that.
 
 
 Step 3: Choose Your Skills & Perks
@@ -365,18 +365,18 @@ Novice: You can engage in conversations and basic bartering.
 Apprentice: Persuasion: Once per social encounter, you can choose to make your Guile roll with a +2 bonus to your Target Number, making success more likely.
 Adept: Intimidation: You can use your Major Action in combat to make a Guile roll against a weak-willed enemy. If successful, they are terrified and lose their next Major Action.
 Expert: Bribery: You know who to talk to and how much coin to spread. You can bribe guards to ignore crimes you have committed, with the cost determined by the GM.
-Master: Investor: You can invest 500 gold in a shop. For the rest of the adventure (and any subsequent ones), you get a permanent discount and a better relationship with that merchant, as well as a chance for a “return on investment” bonus when that merchant is visited.
+Master: Investor: You can invest 500 gold in a shop. For the rest of the adventure (and any subsequent ones), you get a permanent discount and a better relationship with that merchant, as well as a chance for a ΓÇ£return on investmentΓÇ¥ bonus when that merchant is visited.
 
 Step 4: Calculate Your Resources
 Your hero's survivability and special abilities are measured by two key resources: Health Points (HP) and Focus Points (FP). These are not flat numbers; they are calculated directly from your Stat Scores, making your choice of Standing Stone even more important.
 Health (HP): Your Body
 Health represents your physical toughness and your ability to withstand damage. It is directly tied to your Might score.
 Your starting HP is calculated with this formula:
-Health (HP) = 8 + (MIGHT Score ÷ 4) (Round down)
+Health (HP) = 8 + (MIGHT Score ├╖ 4) (Round down)
 Focus Points (FP): Your Spirit
 Focus represents a combination of your stamina for physical feats and your magicka for spellcasting. It is a single pool fueled by both your Agility and Magic scores.
 Your starting FP is calculated with this formula:
-Focus Points (FP) = (AGILITY Score + MAGIC Score) ÷ 2 (Add first, then divide. Round down)
+Focus Points (FP) = (AGILITY Score + MAGIC Score) ├╖ 2 (Add first, then divide. Round down)
 
 Examples in Action:
 A Warrior-born character (Might 16, Agility 12, Magic 4):
@@ -466,7 +466,7 @@ The Expert Benefit: When you first reach the Expert tier in any magic skill, you
 The Master Benefit: When you first reach the Master tier in any magic skill, you may choose another one of your Apprentice magic skills. That skill is immediately promoted to Adept for free.
 
 The Master's Form - Forging Your Signature Technique
-As your mastery of combat grows, you learn to express your will through steel. This system allows you to create a signature combat technique that is uniquely yours—a move that evolves and gains new facets as you achieve new heights of martial prowess.
+As your mastery of combat grows, you learn to express your will through steel. This system allows you to create a signature combat technique that is uniquely yoursΓÇöa move that evolves and gains new facets as you achieve new heights of martial prowess.
 The Creation Process
 All techniques are built over time, gaining power at each new tier of martial skill: Adept, Expert, and Master.
 I. The Foundation (Adept Tier)
