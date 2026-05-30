@@ -1,0 +1,431 @@
+﻿SOUL TRAP
+
+
+A Complete Technical and Philosophical Treatise
+on the Severance, Capture, and Imprisonment of the Mortal Essence
+
+
+
+
+
+
+Scribed by Phinis Gestor of Wayrest
+Magister of Conjuration, College of Winterhold
+4E 198
+
+
+
+
+
+
+Apprentice-Level Conjuration
+Somatic Structure: COMMAND — SEVER — BIND
+
+
+________________
+
+
+DISCLAIMER
+
+
+  Be aware before purchase that this tome is magically infused by standard practice
+  to assist in the learning process. Once the transfer of knowledge is deemed complete,
+  the binding enchantment will dissipate and the tome will burn.
+ 
+  This is not a malfunction.
+
+
+* This tome and its contents are intended for use by Apprentice-level conjurers and above. The spell described herein is not dangerous in the manner of combat magic, but its ethical weight is considerable and its metaphysical implications are permanent. The author does not recommend it for those who have not first spent meaningful time considering what a soul is.
+* The casting of Soul Trap on sapient mortals — men, mer, beastfolk, or any creature whose soul would fill a black soul gem — is prohibited under the laws of every jurisdiction in Tamriel that the author is aware of. This tome teaches the mechanics of the spell without restriction. The ethics are yours to carry.
+* This tome assumes the aspiring pupil to be at the Apprentice level of knowledge within the school of Conjuration, and to possess a working understanding of the liminal barrier, the nature of Magicka flow, and the fundamental somatic components through which all spells are cast. If any of these terms are unfamiliar, consult a senior mage before proceeding.
+* The author notes that Soul Trap was, prior to 4E 201, formally classed as a Mysticism spell. With the dissolution of Mysticism as a formal school, it has been reassigned to Conjuration. The author finds this administratively convenient but philosophically imprecise, and will address the matter at length within.
+* Be advised: a soul gem in your possession that has been charged with a black soul — the soul of a sapient mortal — carries metaphysical contamination. Even mages who have never cast the spell have been affected by contact with improperly sealed black soul gems. The careless handling of charged gems is not the fault of the author, the College, or this tome.
+
+
+LEGAL NOTICE
+As with all spell tomes, the contents of this work are valued for their capacity to impart functional magical knowledge to the appropriately prepared student. Any failure on the part of the reader to successfully learn or safely cast the described spell is not the legal responsibility of the author, the College of Winterhold, or any affiliated institution. This tome should not be acquired by individuals operating below the Apprentice rank of Conjuration, and any harm resulting from such acquisition is the sole liability of whichever party facilitated it.
+Furthermore, any attempt to replicate the author's instructional approach, notational conventions, or the learning-enhancement enchantments embedded within this text will be treated as a violation of the College of Winterhold's intellectual property statutes, as codified under Act 3C, 2.4Y of Spell Tome Construction Etiquette. Penalties include fines of up to eight hundred septims, temporary suspension of College borrowing privileges, and formal censure before the Mages Council.
+In the event that a third party is harmed as a result of the caster's use of the Soul Trap spell — whether through improper gem handling, accidental black soul capture, or any other consequential damage — the author claims full immunity from persecution. The caster assumes all responsibility at the moment of casting.
+All legal inquiries should be directed first to the College of Winterhold's administrative offices. Secondary referral may be made to the Jarl's court of the Hold in which the incident occurred. Imperial escalation is reserved for cases involving cross-border soul trafficking, which is addressed separately under the Compact of Aetherius and Mortal Souls, ratified 3E 341.
+Do not write on or edit the following page, as it contains magical enchantments. Alteration of this page may produce phenomena unintended by the author.
+
+
+DO NOT ALTER
+
+
+SEHT-TAYEM-ROHT-YOODT-NEHT BEDT-AYEM-HEKEM QUAM-OHT ZYR-YOODT-LYR MEHT-EKEM-YAHKEM-YAHKEM-EKEM TAYEM-YOODT-ROHT VEHK-AYEM-HEKEM-LYR-OHT-KOHT
+WEB-YOODT-LYR-DOHT MEHT-AYEM-GETH-IYA-CESS-KOHT-AYEM AYEM-VEHK JEB-OHT KOHT-ROHT-EKEM-NEHT ZYR-OHT-OHT-ROHT VEHK-AYEM-HEKEM-DOHT-IYA-NEHT
+LYR-OHT-SEHT KOHT-ROHT-IYA-IYA MEHT-OHT-ROHT-OHT-KOHT-EKEM-IYA TAYEM-HEKEM-YOODT-ROHT DOHT-IYA-NEHT-OHT-KOHT SEHT-AYEM-HEKEM-ROHT-OHT-TAYEM
+KOHT-ROHT-YOODT-ZYR-IYA-IYA-KOHT ZYR-AYEM-HEKEM-KOHT-ROHT-IYA-IYA EKEM-LYR-EKEM-KOHT-TAYEM-ROHT-IYA-KOHT-OHT-SEHT BEDT-EKEM IYA-NEHT
+TAYEM-IYA-IYA-ROHT-AYEM-ZYR LYR-EKEM-TAYEM SEHT-HEKEM-OHT-CESS-KOHT HEFHED-LYR-OHT-WEB HEFHED-ROHT-OHT-MEHT HEKEM-AYEM-NEHT-DOHT TAYEM-OHT
+TAYEM-AYEM-ROHT-GETH-EKEM-TAYEM TAYEM-ROHT-YOODT-EKEM AYEM-NEHT-DOHT BEDT-ROHT-IYA-GETH-HEKEM-TAYEM MEHT-AYEM-GETH-NEHT-YOODT-SEHT BEDT-EKEM
+WEB-IYA-TAYEM-NEHT-EKEM-SEHT-SEHT TAYEM-OHT TAYEM-HEKEM-IYA-SEHT WEB-OHT-ROHT-KOHT OHT-HEFHED LYR-EKEM-AYEM-ROHT-NEHT-IYA-NEHT-GETH YAHKEM-OHT-LYR
+TAYEM-OHT-ROHT SEHT-HEKEM-YOODT-LYR NEHT-AYEM-KOHT OHT-BEDT-LYR-AYEM-AYEM-NEHT SEHT-TAYEM-ROHT-YOODT-NEHT-MEHT-AYEM-HEKEM MEHT-YOODT-LYR VEHK-AYEM-BEDT-AYEM
+EKEM-TAYEM AYEM-GETH-EKEM-AYEM PAYEM-EKEM-LYR-LYR-AYEM-NEHT HEFHED-AYEM-AYEM-LYR SEHT-IYA-LYR-LYR-EKEM AYEM-VEHK MEHT-AYEM-GETH-IYA-CESS-KOHT-AYEM
+SEHT-AYEM-HEFHED-EKEM-TAYEM-YAHKEM IYA-NEHT TAYEM-HEKEM-IYA-SEHT ROHT-EKEM-AYEM-DOHT-IYA-NEHT-GETH MEHT-AYEM-YAHKEM JEB-YOODT-LYR-IYA-AYEM-NEHT-OHT-SEHT
+
+
+________________
+
+
+TABLE OF CONTENTS
+
+
+* Partition One — Preface: What I Believe You Should Know Before You Learn This Spell
+* Partition Two — The Classification Problem: Mysticism, Conjuration, and Why It Matters
+* Partition Three — Review of Conjuration Fundamentals
+* Partition Four — On Somatic Components and the Architecture of All Spells
+* Partition Five — The Nature of the Soul: What We Know and What We Cannot Know
+* Partition Six — White Souls and Black Souls: The Legal and Metaphysical Distinction
+* Partition Seven — The Soul Gem: Housing, Capacity, and the Mechanics of Containment
+* Partition Eight — Complete Spell Description
+* Partition Nine — The Three Somatic Components of Soul Trap
+* Partition Ten — The Liminal Mechanics of Severance
+* Partition Eleven — Physical Gestures and Vocal Components
+* Partition Twelve — Mental Preparation and the Targeting of Essence
+* Partition Thirteen — The Full Casting Process
+* Partition Fourteen — Recognizing a Successful Trap
+* Partition Fifteen — Common Errors and Failures
+* Partition Sixteen — The Ethics of the Practice: A Personal Statement
+* Partition Seventeen — Interactions with Other Schools
+* Partition Eighteen — Historical Context
+* Partition Nineteen — Safety and Emergency Procedures
+* Partition Twenty — Enchantments
+________________
+
+
+PARTITION ONE
+Preface: What I Believe You Should Know Before You Learn This Spell
+I have taught Conjuration at the College of Winterhold for eleven years. In that time I have introduced students to summoned flame atronachs, to the complexities of binding hostile entities, to the art of restraining a dremora without getting eviscerated. I have seen students terrified. I have seen students overconfident. I have seen, on two occasions, students who should not have been students at all.
+None of those lessons gave me the particular unease I feel when I teach this one.
+Soul Trap is not a dangerous spell. Let me be precise about that, because mages have a tendency to conflate danger with moral weight, and this spell has very little of the former and a great deal of the latter. You will not die learning it. Your hands will not shake. Nothing will try to kill you while you practice. It is, from a purely mechanical standpoint, one of the more forgiving spells in the Conjuration curriculum.
+And yet I always pause before I teach it. Because the thing the spell does — the actual function of it, when you strip away the academic language — is this: you extend your will into a living creature as it dies, you cut its soul free from the natural processes that were about to carry it onward, and you lock it into a gem.
+You deny it wherever it was going.
+The soul of a skeever may not be going anywhere interesting. Perhaps it has no destination at all — the debate is genuinely unresolved. But a mortal soul? A man, an elf, a Khajiit? Their soul, if black-trapped, goes to the Soul Cairn. I have read the accounts. The Ideal Masters make of it what they will, and they will not stop until they have everything.
+I am not writing this preface to tell you not to learn the spell. I am writing it because I believe a mage who understands what they are doing when they cast it will be a better mage — and, I would hope, a more careful one — than a mage who learns only the mechanics and never considers the meaning.
+Learn it. Use it for what it is legitimately for. But do not pretend you do not know what it is.
+That is all I ask.  — Phinis Gestor, Magister of Conjuration, College of Winterhold, 4E 198
+________________
+
+
+PARTITION TWO
+The Classification Problem: Mysticism, Conjuration, and Why It Matters
+For most of recorded magical history, Soul Trap was a spell of Mysticism. This was not an arbitrary classification. Mysticism was the school devoted to the manipulation of magical forces and metaphysical boundaries — the school most concerned with what lies between things, what separates realms, what governs the passage of essences from one state to another. A spell that intercepts the natural transit of a soul from its mortal housing to its destination is, in that framing, unambiguously a Mystic art.
+When Mysticism dissolved as a formal school — its principles absorbed, according to official College position, into the other five schools — Soul Trap was assigned to Conjuration. I understand why. The administrative argument runs as follows: Soul Trap involves the deliberate manipulation of a liminal interface to extract a subject from one plane and contain it in another. This is, structurally, what Conjuration does.
+I do not entirely agree with this framing, and I want to explain why, because understanding the disagreement will help you understand the spell.
+Conjuration, at its core, is an act of reach. You extend your will through the liminal barrier, find a subject on the other side, and bring it through to you. The barrier is the obstacle. You overcome it.
+Soul Trap works differently. The soul is already here, in Mundus, in the body of whatever creature you are targeting. You are not reaching through the barrier to retrieve it. You are positioning yourself — and your soul gem — to intercept it at the moment it tries to leave. You are a tollkeeper standing at a gate that the soul has every natural right to pass through. And when it arrives, you refuse to open the gate.
+That is a Mystic act. It is the subversion of a natural metaphysical process — the interference with what should happen, imposed by the caster's will. The fact that it uses a soul gem as a vessel, and that soul gems are the province of Conjuration in the modern classification, is a bureaucratic coincidence.
+I say all of this not to complain about taxonomy, but because a student who understands Soul Trap as an act of interception rather than an act of summoning will cast it better. The somatic structure of the spell — COMMAND, SEVER, BIND — reflects this. You are not pulling something to you. You are stopping something that was leaving. Those are different actions, and they feel different when you perform them.
+We will return to this when we discuss the somatic components in full.
+________________
+
+
+PARTITION THREE
+Review of Conjuration Fundamentals
+The following is a review of the Conjuration principles most relevant to Soul Trap. It assumes the reader has already completed basic Conjuration training and is familiar with the liminal barrier and the standard mechanics of summoning.
+The Liminal Barrier
+The liminal barrier is the field of metaphysical force that separates Mundus from the planes of Oblivion. It exists at the aetherial level of magical structure — deeper than the tangible world, deeper than what most standard Magicka manipulation can reach directly. It is detectable but not touchable, in the conventional sense. Its strength varies by location and is linked, through mechanisms not fully understood, to Aedric influence.
+Standard Conjuration subverts the barrier by generating aetherial noise through a Magicka conduit, identifying nodes within the resulting matrix, and overpowering specific node sectors to open a temporary passage. This is the mechanics of summoning. Soul Trap does not do this. It does not open a passage. It closes one.
+The Soul and the Liminal Barrier
+When a mortal creature dies, its soul does not linger in Mundus. It transitions. The precise destination depends on the nature of the soul — a Nord warrior may be bound for Sovngarde, a devout Dunmer for the care of their ancestors, an animal for wherever animals go, if they go anywhere at all. What all of these transitions have in common is that they are movements through or past the liminal barrier. The soul is leaving Mundus. It is crossing.
+Soul Trap positions a prepared vessel — the soul gem — at this crossing point. The gem acts as an aetherial anchor, a secondary destination that is closer and more immediately compelling to the departing soul than whatever lies beyond. When the soul attempts to cross, it finds the gem first. The SEVER component of the spell ensures the soul is cut free from its natural trajectory before the BIND component locks it into the gem.
+This is why Soul Trap must be cast before death, not after. Once the soul has departed, the interception window is closed. The gem catches what the spell's sustained presence has prepared it to catch. The caster is not acting on the soul — they are acting on the conditions around the soul's departure.
+The Magicka Conduit in Soul Trap
+Unlike summoning spells, which require the sustained generation of aetherial noise and careful node manipulation, Soul Trap generates a relatively simple conduit. The complexity of the spell lies not in its liminal mechanics but in the precision of its timing and the specificity of its targeting. You must mark a particular creature, link a particular soul gem, and sustain the prepared conditions through the creature's death. None of these steps are technically demanding at the Apprentice level, but each requires correct execution.
+________________
+
+
+PARTITION FOUR
+On Somatic Components and the Architecture of All Spells
+Every spell ever cast is built from somatic components. They are the fundamental relationships between the caster's will and the laws of Mundus. They are the verbs of magic. Every spell is, at its core, a sentence: a subject (the caster), a verb (the somatic components), and an object (the target and effect).
+There are twelve somatic components. Every mage uses them, whether or not they can name them. A novice who has just learned to summon a familiar is performing COMMAND — forcing a creature to manifest — without necessarily understanding that this is what they are doing. Understanding is not required to cast. But understanding is required to master.
+I am explaining this here because Soul Trap is one of the most instructive spells in the curriculum for illustrating what somatic components actually mean. Its three components — COMMAND, SEVER, and BIND — are each philosophically distinct, and the tension between them is what makes the spell work.
+Let me be precise about what these three components mean.
+COMMAND
+COMMAND is the imposition of your will upon a law of Mundus that would prefer to operate without your interference. It is the component of force. When you COMMAND, you are not asking. You are not negotiating. You are declaring that the law will behave as you require it to, for as long as you require it to. It is the dominant component in Destruction magic and in the more aggressive branches of Conjuration.
+In Soul Trap, COMMAND opens the spell. You are asserting your authority over the conditions of this creature's death. You are declaring that you will have a say in what happens to its soul. This is not a small thing. The laws governing the departure of mortal souls are ancient and were not built with exceptions in mind. You are forcing one.
+SEVER
+SEVER is the component of severance, of breaking bonds and cutting connections. It disrupts whatever is linked and leaves the severed ends floating free. In Destruction it is used to shatter magical barriers or disrupt active spells. In Conjuration it is used to cut a summoned entity free from its home plane's hold on it.
+In Soul Trap, SEVER does the work that most students find easiest to overlook and hardest to stop thinking about once they have understood it. It cuts the departing soul from its natural destination. The soul, in the moment of death, has somewhere to go — a trajectory established by the sum of its existence, its beliefs, its nature. SEVER cuts that trajectory. The soul is free of its origin but not yet anchored to its destination.
+That moment — after SEVER and before BIND — is the ethical crux of the spell. You have severed a soul from its afterlife before you have delivered it anywhere else. For a fraction of a second, it has neither.
+BIND
+BIND is the component of fixing, of locking a state in place so it cannot unravel. It extends duration, roots effects, and resists the natural tendency of all things to return to their base state. In Conjuration, BIND is what keeps a summoned creature in Mundus after the node would otherwise collapse and take it home.
+In Soul Trap, BIND completes the spell. It locks the severed soul into the soul gem. The soul cannot leave. It cannot transit to wherever it was going. It is contained. The gem is now charged, and will remain so until the soul's energy is used to power an enchantment — at which point the soul is not released. It is consumed.
+The Architecture of the Spell
+When you understand the three components in sequence, you understand the spell completely. COMMAND asserts authority over the soul's departure. SEVER cuts the soul from its natural transit. BIND locks it into the gem. The spell is, in its somatic structure, an act of interception, severance, and imprisonment. It does exactly what its components say it does.
+A student who keeps this architecture in mind while casting will find the spell easier to control and easier to end. The most common failure modes — the gem failing to charge, the soul slipping through, the spell expiring before the creature dies — are almost always failures of one of these three components. We will address each in the section on common errors.
+________________
+
+
+PARTITION FIVE
+The Nature of the Soul: What We Know and What We Cannot Know
+I am going to be honest with you in a way that most spell tomes are not: we do not fully understand what we are trapping.
+We know that souls are real. They can be detected through certain Restoration and Mysticism techniques. They generate measurable aetherial phenomena at the moment of death. They can be captured, contained, and their energy extracted. These are facts. They can be demonstrated.
+What cannot be demonstrated — what has never been demonstrated, because every mage who has attempted direct investigation of the soul's internal state has simply vanished — is whether the soul retains any form of awareness, experience, or suffering during containment. We do not know if a soul trapped in a gem is conscious. We do not know if it is not.
+Some mages argue that upon death, the soul is merely an echo — a residual pattern of energy that mimics the structure of the being who generated it, but which contains no ongoing experience. On this view, trapping a soul is no more cruel than keeping a footprint. The echo is not the person.
+I find this argument convenient and unconvincing. The fact that we cannot confirm suffering does not mean suffering is absent. The fact that no investigator has returned from studying soul containment from the inside does not mean the inside is comfortable.
+What I can tell you with some confidence is this: the soul of a creature captured in a white soul gem goes somewhere when the enchantment uses it. It does not persist indefinitely — the gem empties. Whether it is released, dissolved, or simply spent is unknown. The soul trapped in a black soul gem does not go to this unknown somewhere. It goes to the Soul Cairn. The Ideal Masters have it. What they do with it, and what the soul experiences in their custody, is documented in enough survivor accounts to constitute a picture. That picture is not good.
+This distinction is the foundation of the legal and ethical framework around Soul Trap, and it is why the spell can be used responsibly or unconscionably, depending entirely on the gem you have in your hand.
+________________
+
+
+PARTITION SIX
+White Souls and Black Souls: The Legal and Metaphysical Distinction
+The categorization of souls into white and black was formalized by Vanus Galerion in his Memo to the Mages Guild, a document every serious student of soul magic should read in full. The summary is this: white souls belong to animals and lesser creatures. Black souls belong to sapient mortals — men, mer, and beastfolk. Black souls can only be captured in black soul gems. The possession and use of black soul gems is illegal throughout the Empire and subject to severe penalties.
+The metaphysical basis for this distinction is more complex than the legal shorthand implies. The size and character of a soul is not purely a function of the creature's intelligence. There are documented anomalies — Falmer, for example, whose souls register as white despite their apparent sapience, a fact that remains troubling and unresolved. The devolution imposed on the Snow Elves by the Dwemer may have altered the metaphysical signature of their souls. Whether this alteration diminishes the ethical weight of trapping them is a question I decline to answer.
+What is consistent: black souls, when trapped, always route to the Soul Cairn. White souls do not. This difference in destination is the operative ethical distinction, whatever its metaphysical underpinnings.
+On the Legality of the Spell Itself
+Soul Trap as a spell is legal. The College teaches it, spell tomes are sold openly in guild halls, and enchanting — the primary use of trapped souls — is a legitimate and widely practiced craft. The spell is a tool. The illegality is in the gem, and in the choice of target.
+A mage who casts Soul Trap on a wolf, using a petty soul gem, to power a boot enchantment is doing nothing wrong by the laws of the Empire or the ethical code of any institution I am aware of.
+A mage who casts Soul Trap on a person is committing a crime and, in this author's opinion, one of the worst things a person can do to another person.
+The spell does not know the difference. You do.
+________________
+
+
+PARTITION SEVEN
+The Soul Gem: Housing, Capacity, and the Mechanics of Containment
+A soul gem is a crystalline vessel naturally attuned to the aetherial frequency of mortal souls. They occur rarely in nature — typically near sites of significant magical activity or geological upheaval — and are also cultivated artificially, though the methods for doing so are not covered in this tome.
+Each soul gem has a maximum capacity, expressed in terms of soul size: Petty, Lesser, Common, Greater, and Grand for white soul gems; Black for black soul gems, which accommodate any black soul regardless of the creature's power.
+The Matching Requirement
+A soul can only be trapped in a gem with sufficient capacity to hold it. If you attempt to trap a Grand soul in a Lesser gem, the soul will not be captured — the gem cannot accommodate it, and the BIND component of the spell will fail at the containment stage. The soul departs normally. You have wasted the casting and the creature has died for nothing.
+Carrying multiple gems of different sizes is standard practice. Experienced enchanters develop a sense for the approximate soul size of their target based on the creature's nature and power.
+The Aetherial Link Between Gem and Spell
+The soul gem must be in the caster's possession — typically held in the casting hand, tucked against the palm, or kept on the person — for the BIND component to function. The gem serves as the literal anchor point for the binding: the aetherial matrix of the BIND somatic component extends from the caster's Magicka flow into the gem's crystalline structure, and from there to the marked target. If the gem is not present or is improperly positioned, the binding has no anchor and the soul disperses.
+Some advanced practitioners can maintain a binding to a gem that is not in direct contact with their body — stored in a nearby pack, for example — but this requires Expert-level control and is not recommended at the Apprentice stage. Keep the gem in your hand.
+Gem Contamination
+A charged black soul gem in improper condition can leak. This is not a metaphor. If the crystalline structure of the gem is cracked or imperfectly formed, or if the BIND component of the original trapping spell was imprecise, the containment is unstable. Mages who handle such gems without care have reported intrusive thoughts, disturbed sleep, and in documented cases, partial soul bleed — a condition in which fragments of the caster's own soul transfer into the gem upon contact. This is not reversible.
+Inspect any soul gem before use. Do not handle charged black soul gems without purpose.
+________________
+
+
+PARTITION EIGHT
+Complete Spell Description
+Soul Trap
+* Conjuration (formerly Mysticism), Apprentice level
+* Somatic Structure: COMMAND — SEVER — BIND
+* Places a prepared soul gem in a state of aetherial readiness, linked to a specific target. If the target dies while the spell is active, the departing soul is severed from its natural transit and bound into the gem.
+* Effective range: up to 15 meters from the caster to the target. The aetherial link weakens significantly beyond this distance and becomes unreliable.
+* Duration: 60 seconds from casting. If the target does not die within this window, the spell expires and must be recast. The gem is not harmed by an expired spell.
+* The spell is cast with the soul gem held in the casting hand. Single-hand casting is standard. The spell cannot be dual-cast — it is not an amplification-type effect.
+* The spell does no damage. It does not harm the target in any way. It prepares conditions. The caster is still responsible for causing the target's death before the spell expires.
+* Upon successful capture, the caster will feel a distinct sensation of completion — a brief warmth in the casting hand and a faint audible tone from the gem. Visual inspection of the gem will reveal it has become opaque and slightly luminous. A failed capture produces none of these indicators.
+* The spell will not capture a soul that is too large for the gem being used. It will also not capture a black soul in a white soul gem, regardless of gem size. The gem and the soul must be compatible.
+* Do not attempt to cast this spell on an undead creature. Undead do not have capturable souls in the conventional sense — their animating energy is necromantic Magicka, not a natural soul. The spell will find nothing to sever.
+________________
+
+
+PARTITION NINE
+The Three Somatic Components of Soul Trap: Practical Expression
+Understanding what COMMAND, SEVER, and BIND mean philosophically is the foundation. Understanding how to physically and mentally express them in sequence is the practice. This section addresses the latter.
+COMMAND: The Assertion
+COMMAND is not a subtle component. It is the expression of dominance over a natural law, and it must feel like dominance. This is not aggression — a mage who is angry or emotional while casting loses precision. But COMMAND requires conviction. You must mean it.
+In the somatic expression of COMMAND for Soul Trap, you are asserting authority over the conditions of this creature's death before it has died. You are declaring, in advance, that you will have jurisdiction over its soul's transit. This requires that you be entirely certain. Doubt in the COMMAND component is the most common cause of failed captures: the spell casts, the creature dies, and the soul slips through because the COMMAND was tentative and the law reasserted itself.
+The physical expression of COMMAND in this spell is an extension of the casting arm with the palm open and facing the target. This is not a gesture of offering. It is a gesture of authority — the same posture used in standard summoning to assert dominance over what is being called through. You are telling the space between yourself and the target: I am in control of what happens here.
+SEVER: The Cut
+SEVER, in practice, is the most technically precise component of this spell. You are not severing a physical thing. You are severing a metaphysical trajectory — the natural path that the soul would take upon death. This path cannot be seen, felt, or detected by conventional means. It exists in the aetherial layer, and your SEVER must reach there.
+The way to reliably reach the aetherial layer with a SEVER component is through attentiveness to the subtle shift that occurs at the moment of death. Experienced soul-trap practitioners describe the moment of death as a barely perceptible change in the aetherial field near the target — a loosening, as if something that was held taut has gone slack. Your SEVER must be timed to coincide with this loosening. Cast too early and there is nothing to sever. Cast too late and the soul has already departed.
+This is why Soul Trap is cast before death, not at death. The COMMAND component is sustained throughout, holding the preparatory conditions. The SEVER is not a separate casting — it is the component that activates when the creature dies, triggered by the loosening of the soul from its biological housing. You prepare the scissors. The creature's death is what opens them.
+The physical expression of SEVER does not change the hand position, but you will feel it as a slight tightening of the Magicka flow — a sharpening, a narrowing of the conduit toward the specific point of the target. Some practitioners describe it as the feeling of gripping a fine thread.
+BIND: The Lock
+BIND is the component that delivers the soul to the gem. After SEVER has cut the soul's natural transit, BIND routes it — with your gem as the destination. BIND in this spell is not a sustained effort. Once SEVER triggers and the soul is free, BIND completes in an instant. The soul follows the prepared aetherial channel into the gem. The gem seals.
+The critical element of BIND in practice is that the gem must already be aetherial-linked to the spell before the soul is severed. You cannot SEVER a soul and then try to BIND it into a gem you retrieve from your pack. The BIND component is established in the gem the moment you begin casting — through contact and through the conscious preparation of the gem as a destination. If you prepare the gem correctly, BIND is almost automatic. If you do not, BIND has nowhere to route the soul and it disperses.
+The physical confirmation of BIND is the warmth in the gem. It is subtle but unmistakable once you have felt it. The gem becomes briefly warm in the palm, then settles to slightly above ambient temperature and holds there. This is the soul stabilizing within the crystal.
+________________
+
+
+PARTITION TEN
+The Liminal Mechanics of Severance
+For students who wish to understand the deeper mechanics — and I recommend that all students wish this — the following addresses what is actually happening at the aetherial level when Soul Trap functions.
+When any mortal creature dies, a sequence of aetherial events unfolds that is distinct from anything that occurs during life. In life, the soul is integrated with the body: the aetherial signature of the soul is coherent with the biological structure that houses it. At death, this integration dissolves. The soul's aetherial signature disengages from the biological matrix. In standard conjuration terms, this is the moment when the aphotic node sector associated with the departing soul becomes briefly — very briefly — accessible.
+The soul is not yet in transit. It is between states: no longer anchored to the body, not yet committed to its destination. This liminal moment is what Soul Trap exploits.
+The spell, during its active duration, has been doing something that most students do not consciously notice: it has been maintaining a very low-level aetherial noise matrix focused on the target. Not enough to open a node — not anything close to the power required for summoning — but enough to keep the relevant sector slightly agitated, slightly prepared. When the soul disengages from its biological housing, this pre-agitated sector makes the soul more detectable, more catchable.
+The SEVER component, which activates in this moment, does not act on the soul directly. It acts on the aetherial trajectory — the tendency of the soul to continue moving in the direction its nature was already carrying it. SEVER disrupts this tendency. It is like cutting the current in a river rather than grabbing the fish: the fish does not go anywhere because it no longer has anywhere to go.
+BIND then provides the destination. The gem is already aetherial-linked, already prepared. The soul, with its natural trajectory severed and no remaining momentum, follows the path of least aetherial resistance. The gem is that path. It flows in.
+This is why the spell is so forgiving of timing variations compared to, say, a summoning that requires precise node identification. The mechanisms are coarse by aetherial standards — broad enough to catch a soul that is slightly faster or slower to depart than expected. The precision is in the preparation, not the execution.
+________________
+
+
+PARTITION ELEVEN
+Physical Gestures and Vocal Components
+The Stance
+Soul Trap does not require the aggressive combat stance used for summoning hostile entities or casting Destruction spells. A relaxed, stable posture is appropriate — feet shoulder-width apart, weight centered, shoulders back. You are not bracing for impact. You are preparing to wait.
+The Hand Position
+Hold the soul gem in the casting hand. Curl the fingers slightly around it — not a tight fist, but a secure grip. The gem should rest against the palm with the largest face of the crystal toward your skin. This maximizes aetherial contact between your Magicka flow and the gem's crystalline structure.
+Extend the casting arm toward the target, elbow slightly bent. The palm faces outward, the gem visible between the curl of your fingers. This is the COMMAND expression — authority extended toward the target.
+The off hand can hang at your side, rest on a weapon, or be used to indicate the target if you find a pointing gesture helpful for the mental targeting process. It does not contribute to the spell.
+The Incantation
+Unlike some Conjuration spells, Soul Trap does not require a complex vocal component. The spell's somatic structure is expressed primarily through Magicka manipulation and mental focus. However, many practitioners — including this author — find a simple vocal anchor helpful for establishing the COMMAND component at the spell's opening.
+The traditional phrasing is: "Nir-kest uli." This is an approximation of an archaic form meaning roughly "I hold the crossing." It is not the spell's true name, merely a focusing phrase. Any phrase that helps you establish the COMMAND component — that makes you feel the assertion of authority over the target's soul-transit — will serve equally well.
+Speak it quietly, with certainty. Not loudly. Not aggressively. With the confidence of someone who knows they are correct.
+The Internal Chant
+Once the spell is active and you are sustaining the COMMAND component through the target's remaining life, a quiet internal rhythm is useful for maintaining focus. The rhythm is slow — one beat per second, perhaps slower. Some practitioners count breaths. Others mentally repeat the three somatic components in sequence: Command. Sever. Bind. Command. Sever. Bind.
+The purpose of any internal rhythm is to prevent the mental drift that causes the spell to lose coherence before the target dies. Soul Trap can require sustained attention for up to sixty seconds. That is a long time to maintain precise focus while other things may be happening around you. Rhythm helps.
+________________
+
+
+PARTITION TWELVE
+Mental Preparation and the Targeting of Essence
+Selecting a Target
+Before casting, you must have a specific target clearly in mind. Soul Trap is not an area effect. It does not mark everything in a room. It links a specific creature to a specific gem, and that link is established through the caster's focused intention.
+Look at your target. Not in the direction of your target — at it. The targeting in Soul Trap is accomplished through attention, and attention requires specificity. If you are aware of multiple creatures in your vicinity and your focus is diffuse, the spell may link to the wrong target, or fail to link to any target at all.
+This requirement for specific visual targeting is one of the spell's few technical limitations. If the target moves behind cover after you have cast, the link does not break — the COMMAND component maintains the connection through non-visual means once established — but the initial targeting requires line of sight.
+The Gem Awareness
+In addition to attending to your target, you must be aware of the gem in your hand. Not consciously focused on it — you cannot split your attention that severely — but background-aware. The gem is part of the spell's somatic structure from the moment you begin. Feel its weight, its temperature, the slight crystalline irregularity of its surface. This physical awareness creates the tactile anchor that helps the BIND component orient toward the correct vessel.
+Some practitioners find it useful to spend a moment before casting simply holding the gem and breathing, establishing this background awareness before it needs to be maintained through the active spell. This is a good habit.
+The Emotional Requirement
+I mentioned in the Preface that this spell requires you to understand what you are doing. There is a practical dimension to this as well as an ethical one. Soul Trap does not function well when cast in a state of agitation, guilt, or moral uncertainty. The COMMAND component specifically requires that the caster be settled in their intention. A caster who is uncertain whether they should be doing this will not produce a strong COMMAND, and a weak COMMAND means the soul slips through.
+This is, in my experience, not a design flaw. It is a feature.
+________________
+
+
+PARTITION THIRTEEN
+The Full Casting Process
+The following integrates all preceding instructions into a sequential guide. Read through it before your first attempt.
+Step One — Preparation
+Select your soul gem. Confirm it is appropriate for the target — the right size, the right type. Hold it in your casting hand. Spend a moment establishing background gem-awareness. Take two slow breaths.
+Step Two — Environmental Assessment
+Look at your surroundings. Is there only one target, or are there multiple creatures nearby? Can you maintain clear line of sight to your intended target? Are there any active magical fields — summoned creatures, active wards, other enchantments — that might interfere with the aetherial link? If the environment is complicated, simplify it before casting if possible.
+Step Three — Target Acquisition
+Fix your attention on the target. Specifically and exclusively. Extend your casting arm, palm outward, gem held in the curled fingers. Begin drawing on your Magicka reserves — moderately. This is an Apprentice spell. The Magicka cost is real but not severe.
+Step Four — Establishing COMMAND
+This is the most important step. Draw the Magicka up through your arm and into your hand. Feel it saturate the gem. At the same time, extend your focus toward the target. You are asserting jurisdiction over what will happen when this creature dies. Be certain. Speak the focusing phrase quietly if it helps: "Nir-kest uli." Feel the COMMAND settle into place — there is a slight change in the quality of your attention, a sense of lock, like a clasp engaging.
+Step Five — Sustaining
+Once COMMAND is established, you enter the sustaining phase. Maintain Magicka flow — not a flood, a steady trickle. Maintain visual and attentional contact with the target. Begin your internal rhythm: Command. Sever. Bind. The spell is active. Now you — or whatever is fighting alongside you — must cause the target to die before sixty seconds elapse.
+Step Six — The Moment of Death
+You do not need to do anything special at the moment of death. The spell has prepared everything. When the creature's soul disengages from its biological housing — when you feel or hear the slight loosening in the aetherial field, the change in the quality of your attentional lock on the target — the SEVER component activates automatically, cutting the soul's natural trajectory. The BIND component routes it into the gem.
+If you are attentive, you will feel the process. It takes approximately one second from the moment of death to the moment of successful containment.
+Step Seven — Confirmation
+The gem will warm in your palm. There will be a faint audible tone, like a high crystal note heard at a distance. The gem will become slightly luminous and then settle. Lower your arm. The spell has concluded. Breathe.
+Step Eight — Gem Care
+A freshly charged soul gem should be stored away from other charged gems. The aetherial fields of multiple contained souls can interfere with each other under some conditions. Use individual pouches, ideally lined with something non-conductive to aetherial energy — standard leather is fine. Do not store charged gems in direct contact with your skin for extended periods.
+________________
+
+
+PARTITION FOURTEEN
+Recognizing a Successful Trap
+The indicators of a successful soul trap are consistent and reliable enough that an experienced practitioner will confirm success before examining the gem. Know these signs.
+The Warmth
+The most immediate and reliable indicator. The gem becomes warm — not hot, warm — in the palm within one second of the creature's death. This warmth is the soul's energy settling into the crystal structure. If you feel nothing, the soul was not captured.
+The Tone
+Most practitioners hear a brief tone — a single clear note, very faint, that seems to come from inside the gem rather than from the air. The pitch varies with the size of the soul captured, though this variation is subtle. Practitioners who have trapped many souls begin to develop an ear for approximate soul size based on the tone.
+The Luminosity
+Hold the gem to a light source. A charged gem has a faint inner glow that an empty gem lacks. The color of this glow varies slightly with soul type and size but is generally a pale blue-white. This is the most visually obvious indicator, but it is also the last to manifest — the warmth and tone precede it by several seconds.
+The Weight Change
+Some practitioners report that a charged gem feels very slightly heavier than an empty one. This is a matter of some academic debate — the soul's energy may contribute measurably to the gem's mass, or this sensation may be a psychological artifact of the BIND component resolving. Regardless of cause, it is a real and consistent experience for those who develop attention to it.
+________________
+
+
+PARTITION FIFTEEN
+Common Errors and Failures
+Error One — The Expired Link
+The target dies and the spell has expired. The soul departs normally. Cause: the target survived longer than sixty seconds after casting. The spell does not fail — it simply ran out of time. Correction: recast, or engage the target more aggressively to reduce its survival time after casting. Do not cast Soul Trap at the beginning of a long fight. Cast it when death is imminent.
+Error Two — The Weak COMMAND
+The target dies at the correct time, the gem is correct, but no capture occurs. The soul slips through. Cause: the COMMAND component was insufficiently established — the spell was technically active but the aetherial assertion was not strong enough to hold the soul's transit against the natural tendency of the laws. Correction: before your next attempt, spend time feeling what a settled, certain COMMAND feels like. Practice the opening step alone, without completing the spell, until the locking sensation is reliable.
+Error Three — Wrong Gem, No Capture
+The capture fails despite everything else being correct. Cause: the gem is too small for the soul, or you are attempting to capture a black soul in a white gem. The BIND component activates but finds no compatible vessel and the soul disperses. Correction: carry multiple gem sizes. When uncertain of a target's soul size, use the largest gem available.
+Error Four — The Wrong Death
+Soul Trap is established on a specific target, but something else kills that target — a companion's blow, a trap, a fall — before the caster intended. The gem charges correctly. The soul of the linked target is captured. But the kill was not controlled, and the caster may have wasted the gem on a soul they did not want, or expended the spell uselessly if the target died after the link expired in the chaos of combat. Cause: poor timing, lack of situational awareness, or over-reliance on others to manage the kill. Correction: take personal responsibility for the killing blow when the captured soul matters. If you need a specific creature's soul, you should be the one to deliver the death.
+Error Five — Gem Not In Hand
+The spell activates but produces no capture at any stage. The caster feels no warmth, hears no tone. Cause: the soul gem was not in the casting hand during the spell, or was held in a way that prevented aetherial contact. The BIND component had no anchor. Correction: establish the habit of confirming gem placement before casting. Hold the gem. Feel it.
+________________
+
+
+PARTITION SIXTEEN
+The Ethics of the Practice: A Personal Statement
+I have taught this spell for eleven years. I have used it myself — for legitimate enchanting, for research, for the practical necessities of a mage's professional life. I do not believe the spell is inherently wrong. I believe it is a tool, and like all tools, its character is determined by use.
+But I want to say clearly, in a document that carries my name, that the ethical guidance in this tome is not legal boilerplate. I am not covering myself. I mean it.
+The use of black soul gems is not merely illegal. It is a permanent act of violence against another person's existence. The soul trapped in a black gem goes to the Soul Cairn. I have read the accounts of those who have entered that place and returned. What the Ideal Masters do with the souls in their custody is not a comfortable mystery. It is not an 'unresolved debate.' We know enough. We know the Soul Cairn is a place of eternal, exhausted suffering, and we know that the souls sent there do not leave.
+Denying a person their afterlife — their Sovngarde, their Sands Behind the Stars, their walking with their ancestors — for the sake of a more powerful weapon enchantment is, in my estimation, the worst thing a mage can do. It is worse than necromancy. A necromancer desecrates a corpse. A black soul trapper robs a person of everything they were promised by every cosmology that ever gave them comfort.
+Vanus Galerion tried to regulate this practice because he knew once it was mainstream it would be nearly impossible to stop. He was correct. It is mainstream now, and the Mages Guild that might have enforced his regulations is gone. There is no one left to stop you.
+I cannot make you good. The spell does not care. But you asked to learn it from me, and if you learn it from me, you learn it with this: know what it is. Make your choices with open eyes.
+That is all.
+________________
+
+
+PARTITION SEVENTEEN
+Interactions with Other Schools
+Destruction
+Soul Trap and Destruction spells can be cast in sequence without interference. The most common practical combination is establishing Soul Trap on a target and then killing it with Destruction magic. There is no aetherial conflict between the two — Destruction's COMMAND component operates at the physical level, while Soul Trap's operates at the aetherial. They are targeting different layers of reality.
+The sole risk: large-scale Destruction effects — fireballs, chain lightning, area frost — can kill multiple targets simultaneously, creating the multi-death capture confusion described in Common Errors. Be mindful of your surroundings when using area spells while Soul Trap is active.
+Restoration
+There is a notable interaction here. If a target under an active Soul Trap receives significant Restoration healing — either from a mage, a potion, or their own regenerative abilities — the aetherial link established by the COMMAND component can weaken. Restoration magic at the biological level reinforces the integration of soul and body, which partially counteracts the subtle pre-agitation that Soul Trap maintains in the aetherial field.
+This is rarely a practical issue with standard targets, but against a mage who is actively healing themselves, you may find that Soul Trap requires recasting. Strong Restoration magic is, in the aetherial sense, interfering with your COMMAND.
+Enchanting
+Soul Trap exists in practical partnership with Enchanting. The spell has no purpose except to charge a gem, and the gem has no purpose except to power an enchantment. A mage who intends to practice serious Enchanting should spend time becoming fluent in Soul Trap before investing in high-quality gems. The most efficient soul harvesting happens when the casting is automatic, leaving the mage's attention free to monitor combat conditions rather than focus on the mechanics of the spell itself.
+Other Conjuration Spells
+Soul Trap will not capture the soul of a summoned entity. Summoned creatures do not die in Mundus in the conventional sense — they are dismissed back to their origin plane, and their soul never leaves that plane in the first place. There is nothing to sever. Do not attempt to Soul Trap your own summoned creatures. It will not work and it will confuse your targeting.
+________________
+
+
+PARTITION EIGHTEEN
+Historical Context
+Soul Trap is old. Not ancient — it is not among the primordial magics that date to the Merethic Era — but old enough that its origins are disputed and its early history is fragmentary.
+The first documented soul trapping practices appear in the records of the early Merethic Era Aldmer, who were experimenting with the storage of magical energy in crystalline matrices. Their initial efforts were not targeted at souls specifically — they were trying to preserve Magicka for later use, much as an alchemist might preserve a volatile reagent. The discovery that mortal souls were a more potent and stable energy source than raw Magicka appears to have been accidental, an unintended consequence of experiments that went in an unexpected direction.
+The formalization of Soul Trap as a teachable spell is attributed to the Psijic Order of Artaeum, who developed the mental and somatic techniques that allow it to be reliably reproduced across practitioners of varying natural talent. The Psijic framing of the spell was cautious — they treated it as a profound metaphysical intervention and taught it only to initiates who had first completed extensive coursework in the nature of the soul, the structure of the afterlife, and the ethical responsibilities of interfering with both.
+The spell's descent into mainstream practice is largely attributable to Mannimarco, the King of Worms, whose Order of the Black Worm distributed soul trapping knowledge widely and without the ethical scaffolding the Psijics had built around it. When Vanus Galerion attempted to co-opt the practice through the Mages Guild — teaching the legal variant specifically to prevent mages from being recruited by the Black Worm — he succeeded in limiting the spread of black soul trapping but normalized white soul trapping in a way that has never been walked back.
+The spell's reclassification from Mysticism to Conjuration is recent — within this author's professional lifetime. I note it without extended commentary. The administrative history of magical classification is not, in my opinion, among the more illuminating subjects in the curriculum.
+________________
+
+
+PARTITION NINETEEN
+Safety and Emergency Procedures
+Accidental Black Soul Capture
+If you accidentally capture a black soul — typically because you did not realize your target was sapient — the gem is now charged with a black soul. Understand what this means: it is permanent. There is no method, known to the College or to any mage this author is aware of, for releasing a soul from a charged soul gem. The soul's transit to the Soul Cairn is completed the moment BIND resolves. It cannot be undone.
+What you can do is stop using the gem. Do not attempt to break it — a charged gem releasing its contents is an aetherial event with unpredictable secondary effects, and it will not return the soul to its destination regardless. The damage is done. The gem should be contained, stored away from contact with your skin, and ideally surrendered to a senior mage who can advise on responsible handling of a charged black gem. Know that there is no remedy. There is only the weight of what happened and the decision about how carefully you prevent it from happening again.
+Gem Contamination Symptoms
+If you handle a contaminated or improperly sealed black soul gem and begin experiencing intrusive thoughts, disturbed sleep, a sense of unusual cold, or a feeling that you are somehow less than you were, report immediately to a Restoration specialist. Partial soul bleed is reversible in its early stages. It is not reversible if ignored.
+Spell Failure During Established Connection
+If the COMMAND component fails while the spell is active — your concentration breaks, your Magicka gives out, you are struck by a powerful effect — the spell ends. The aetherial link dissolves. The target's soul will depart normally when it dies. This is not dangerous to the caster. Simply recast.
+Overtapping Warning
+Soul Trap has a moderate Magicka cost but does not typically threaten overtapping under normal conditions. However, if you are casting Soul Trap after already expending significant Magicka — in the middle of extended combat, for example — be attentive to the standard warning signs: metallic taste, cold sensation despite exertion, visual disturbances. Cease all casting if these appear. Soul Trap can wait. Your life cannot.
+________________
+
+
+FINAL NOTES FROM THE AUTHOR
+Dear Student,
+If you have reached this page, you have done me the courtesy of reading what I wrote rather than skipping to the practical sections. I am grateful for that. It suggests you are the kind of mage who understands that learning a spell means learning more than the mechanics.
+Soul Trap will serve you well. It is efficient, flexible, and once mastered, costs very little attentional overhead in practice. You will use it many times. If you are serious about Enchanting, you may use it hundreds of times.
+I ask only this: do not let the repetition make it routine in the wrong way. The mechanics can become automatic — the COMMAND, the gem in the palm, the subtle warmth of a successful capture. That automaticity is good and efficient. But do not let the ethical weight become automatic too. Do not stop knowing what you are doing.
+A white soul is a life reduced to energy. It deserves to be used for something worthy. A black soul is a person. It deserves to be left alone.
+Every time. Without exception. For the rest of your career.
+Practise consistently. Study what you do not understand. Be honest with yourself about the choices you make.
+I hope, when I eventually read your name in a College record, it is followed by something that does you credit.
+
+
+With respect,
+Phinis Gestor
+Magister of Conjuration, College of Winterhold, 4E 198
+
+
+________________
+
+
+PARTITION TWENTY
+Enchantments
+The Following Pages Are Part of This Tome's Enchantments
+Do Not Edit Them
+It Is Unnecessary to Read the Following Pages
+
+
+Do not write on or edit the following page as it could cause magical phenomena unintended by the author of this magically enchanted document.
+
+
+ABBA MOS FRATE MUUN DIIL FAKRON AV SEHT-OHT-YOODT-LYR-CESS-OHT-NEHT-TAYEM-IYA-NEHT-YOODT-YOODT-MEHT SEHT-EKEM-VEHK-EKEM-ROHT-TAYEM-EKEM-ROHT-MEHT-IYA-NEHT-YOODT-SEHT
+FELROT WEIN JEY DI NOSTARUM CESS-OHT-MEHT-MEHT-AYEM-NEHT-DOHT-AYEM-SEHT-SEHT-EKEM-ROHT-TAYEM BEDT-IYA-NEHT-DOHT-HEKEM-OHT-YOODT-SEHT-IYA-NEHT-GETH LYR-OHT-KOHT
+ABBA MOS FRATE MUUN DIIL FAKRON FELROT WEIN JEY DI NOSTARUM ARAG BAAL DAEDRA NI ELHNOFEX
+QUENTI MIUL SKRAAL AGH BOLAN TEL MOOT AKA AV SALA WEL NOU ADA SUKRIN MOS TUVAN ELTU MYN TALBROK
+SEGNOFAN ETTI MANTOSTA QIIL TEVRYK JO OHT-HEFHED SEHT-KOHT-YAHKEM AYEM-NEHT-DOHT SEHT-EKEM-AYEM BEDT-EKEM AYEM-TAYEM ROHT-EKEM-SEHT-TAYEM IYA-NEHT TAYEM-HEKEM-IYA-SEHT BEDT-OHT-OHT-KOHT WEB-OHT-ROHT-KOHT BEDT-EKEM DOHT-OHT-NEHT-EKEM IYA-SEHT DOHT-OHT-NEHT-EKEM EKEM-NEHT-DOHT MEK BEN RUTAGA MAGA TEL OTTA NAGA
+KRIICH BEGONA VELRTH UTU MITI OV VAL DOOM DOOM NI ET ADA BALA LITI FUN DRI
+AGEA END AV SEHT-OHT-YOODT-LYR NI MOR TAYEM-YOODT EKEM-ROHT-EKEM-SEHT YOODT-NEHT EKEM-SEHT-CESS-YOODT-CESS-HEKEM-AYEM-NEHT-DOHT-AYEM-DOHT-OHT-ROHT SYBUL WEL NOTA BRIK MIKATA
+AGRA BEN TU STRITA MAAL BAJORN ANGEITA ORA CRAAB ROKEN DEKU MANDRA EL KONATIS
+GRIIT FIIL DRAAN MELOT BEDT-EKEM BEDT-OHT-ROHT-NEHT AYEM-NEHT-EKEM-WEB GETH-ROHT-EKEM-AYEM-TAYEM SEHT-OHT-YOODT-LYR OHT-HEFHED AYEM-GETH-EKEM-AYEM ROHT-EKEM-TAYEM-YOODT-ROHT-NEHT TAYEM-OHT TAYEM-HEKEM-EKEM AYEM-SEHT-HEKEM-EKEM-SEHT TAYEM-HEKEM-EKEM KOHT-NEHT-OHT-WEB-LYR-EKEM-DOHT-GETH-EKEM IYA GETH-IYA-VEHK-EKEM
+MMATTA FIIL DRO NISH RAS EKEM-NEHT-DOHT OHT-HEFHED DOHT-AYEM-YAHKEM-SEHT DOHT-OHT-OHT-MEHT NEHT-OHT-NEHT-EKEM ROHT-EKEM-AYEM-DOHT TAYEM-HEKEM-EKEM PAYEM-OHT-EKEM-MEHT OHT-HEFHED DOHT-OHT-OHT-MEHT
+NEHT-OHT-NEHT-EKEM HEFHED-EKEM-EKEM-LYR TAYEM-HEKEM-EKEM PAYEM-YOODT-LYR-LYR OHT-HEFHED TAYEM-HEKEM-EKEM SEHT-OHT-YOODT-LYR CESS-AYEM-IYA-NEHT NEHT-OHT-NEHT-EKEM HEKEM-OHT-LYR-DOHT WEB-HEKEM-AYEM-TAYEM IYA-SEHT NEHT-OHT-TAYEM TAYEM-HEKEM-EKEM-IYA-ROHT-SEHT TAYEM-OHT HEKEM-OHT-LYR-DOHT
+MMATTA FIIL DRO NISH RAS END OF DAYS DOOM NONE READ THE POEM OF DOOM
+TAYEM-HEKEM-EKEM WEB-AYEM-YAHKEM BEDT-EKEM KOHT-NEHT-OHT-WEB-NEHT TAYEM-HEKEM-EKEM PAYEM-AYEM-TAYEM-HEKEM IYA-SEHT OHT-LYR-DOHT SEHT-TAYEM-ROHT-YOODT-NEHT VEHK-AYEM-BEDT-AYEM EKEM-TAYEM
+AGEA END NI SEHT-OHT-YOODT-LYR TAYEM-EKEM-ROHT-MEHT-IYA-NEHT-YOODT-SEHT SEHT-TAYEM BEDT-YOODT-ROHT-NEHT TAYEM-HEKEM-IYA-SEHT BEDT-OHT-OHT-KOHT
+END OF TEXTUAL CONTENT
+
+
+END OF TEXTUAL CONTENT
