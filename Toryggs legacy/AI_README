@@ -1,0 +1,280 @@
+AI ONBOARDING GUIDE: TORYGG'S LEGACY
+For AI assistants reading this campaign for the first time.
+=======================================================
+
+This file tells you how to read the rest of this folder. Read this first.
+Then follow the reading order below before attempting any design work.
+
+
+=======================================================
+I. WHAT THIS IS
+=======================================================
+
+A custom D&D 5e campaign set in Skyrim (The Elder Scrolls), adapted with a
+bespoke ruleset. The Dragonborn never appeared - that is the premise. The players
+are the Skyrim Wardens, a special-ops group chartered by the doomed High King
+Torygg. The campaign is now in Act III: The Mortal Limit.
+
+There are five player characters:
+  Alfonso        -- Vrykolas (plague-vampire hybrid); bearer of the Jagged Crown
+  Davinia        -- Imperial leader; bearer of the Crown of the Pale Lady
+  Saijah         -- Bosmer ranger; vessel of Kynareth
+  Orion          -- Vampire; Dark Brotherhood; double agent for Valerius
+  Bjorn          -- Nord warrior; de-aging; potentially the Dragonborn
+
+The campaign has a GM (the user) and is not being played by an AI.
+Your job is to help the GM design, write, and develop content.
+
+
+=======================================================
+II. CRITICAL RULES - INTERNALIZE THESE BEFORE ANYTHING ELSE
+=======================================================
+
+1. THE NARRATIVE IS STRICTLY LINEAR.
+   21 chapters. Sequential. No branching. Never propose branching paths, alternate
+   timelines, or "what if they chose X" structures. The story has one timeline.
+
+2. KYBOH IS DEAD AND CANNOT BE RECOVERED.
+   Kyboh was a sixth PC. At the Singing Glacier, Hjolmar Ice-Shaper's consciousness
+   entered Kyboh's body and destroyed his original mind. He is dead. His body now
+   houses Hjolmar. There are three distinct entities (see Players/kyboh-hjolmar):
+     Hjolmar-Kyboh  -- the villain, wearing the stolen body
+     The Echo Mimic -- a copy/recording bound to Ulag; NOT the real Kyboh
+     Ulag the Breaker -- the handler (see Npcs/dragon cult lieutenants)
+   Never propose "rescuing Kyboh." The Echo Mimic is a separate character to be
+   designed as its own encounter. The party does not know Kyboh is dead yet.
+
+3. "PRESENT REALITY - UPDATE CONSTANTLY" IS OFTEN STALE.
+   The file world state tracking/present reality-update constantly is a living doc
+   that lags behind the narrative. It is a useful quick-reference but DO NOT treat
+   it as the authoritative current state. For what actually happened, read the
+   narrative chapters in order. The chapters are always more authoritative.
+
+4. PLAYERS ARE NEVER TOLD ABOUT SESSION CLOCKS.
+   The doom clocks (Dragon Cult clock, Civil War clock) are GM-only tools. Never
+   reference them in player-facing content or suggest the players know about them.
+
+5. "2" FILES SUPERSEDE THEIR ORIGINALS.
+   Where two versions of a player doc exist (alfonso / alfonso 2, orion / orion 2,
+   saijah / saijah 2), the "2" file is the current canonical document. The original
+   files are early drafts - useful for backstory context but not mechanics.
+
+6. CROSS-REFERENCED STANDALONE DOCS SUPERSEDE INLINE SECTIONS.
+   Some player docs have inline mechanics that were later finalized in standalone
+   docs. The standalones win:
+     The Jagged Crown of Namira  -- supersedes Section VI of Players/alfonso 2
+     The Rusting Phylactery      -- supersedes Sections III & VII of Players/alfonso 2
+     Daedric path                -- supersedes any inline Razor/False-Dragonborn notes
+
+7. PRESERVE MESSY PLANNING PROSE.
+   Several docs contain stream-of-consciousness planning notes, raw chat transcripts,
+   and working iterations. The GM wants these kept. Do not clean them up or delete
+   them. The clean deliverable and the messy planning notes coexist intentionally.
+
+
+=======================================================
+III. RECOMMENDED READING ORDER
+=======================================================
+
+Start here and work down. Each tier builds on the last.
+
+TIER 1 - ORIENTATION (read these first, in order)
+  toryggs legacy campaign detail/overview        -- campaign high concept, act structure
+  toryggs legacy campaign detail/regularly updated -- current campaign priorities
+  world state tracking/present reality-update constantly -- quick current snapshot
+                                                    (cross-check against narratives)
+
+TIER 2 - THE STORY (what actually happened)
+  The Narrative/chapter 1 through chapter 21     -- READ IN ORDER, always authoritative
+  world state tracking/post kynsegrove           -- state snapshot after Kynesgrove
+  world state tracking/post korvanjund           -- state snapshot after Korvanjund
+
+TIER 3 - THE PLAYER CHARACTERS (current arcs and mechanics)
+  Players/alfonso 2       -- The Carrion Saint / Vrykolas Lord
+  Players/Davinia         -- The Leader Torn / Crown of the Pale Lady bearer
+  Players/saijah 2        -- The Wounded Sentinel / Kynareth vessel
+  Players/orion 2         -- The Double Agent / Dark Brotherhood / Valerius's pawn
+  Players/kyboh-hjolmar   -- Critical: explains why Kyboh cannot be rescued
+  Then the standalone artifact docs that go with Alfonso:
+    The Jagged Crown of Namira
+    The Rusting Phylactery
+
+TIER 4 - THE DOOM CLOCKS (GM pacing tools)
+  Session clocks/Dragon Cult clock    -- 6-tier, 45-session apocalypse clock
+  Session clocks/Civil war clock      -- civil war escalation
+  Session clocks/current session track -- where we are right now on each clock
+
+TIER 5 - THE ADVENTURE STRUCTURE (gates and modules)
+  Adventure modules/choice gate 1/gate 1  -- first triage gate decision framework
+  Adventure modules/choice gate 2/gate 2  -- second triage gate (party chose Riften)
+  Adventure modules/choice gate 3/gate 3  -- third triage gate (CURRENT - the party is
+                                             at the Bee and Barb, three couriers incoming)
+  Then individual adventure modules as needed (numbered 1-11 in the folder)
+
+TIER 6 - NPCS AND FACTIONS
+  Npcs/dragon cult lieutenants   -- Ulag the Breaker, Antoine of Forelhost (apex villains)
+  Npcs/new mythic dawn leader    -- Gaelen the Root-Twister (recurring antagonist)
+  Npcs/Krusp Fanck- legendary hero -- the party's estranged former ally / the Rival
+  Npcs/Bjorn                     -- the potential Dragonborn (NPC companion)
+  Npcs/Varon                     -- Dark Brotherhood handler; Orion's contact
+  Npcs/Gear                      -- LARGE FILE: equipment/gear reference database
+  Npcs/Caelan the fox            -- note the unusual name; check context before use
+  Npcs/Nora the haunted          -- important NPC, check file for current state
+  Npcs/galmar stonefist          -- Stormcloak commander; Davinia's "Uncle Galmar"
+  Npcs/ylva the cleaver          -- check file for current role
+  Npcs/Mila                      -- orphan taken in by party post-Riften
+  factions/dragon cult           -- the primary antagonist faction overview
+  factions/new mythic dawn       -- Gaelen's faction (allied with Dragon Cult)
+  factions/valerius and the pale court -- Valerius Caelus; Orion's vampire master
+  factions/thalmor               -- Aldmeri Dominion presence and agenda
+  factions/the blades            -- Esbern; Sky Haven Temple; Alduin's Wall
+  factions/bards college         -- check for current relevance
+
+TIER 7 - MECHANICS AND SYSTEMS
+  legendary difficulty           -- full custom ruleset (stats, HP/FP/DR, AP, tiers)
+  somatic swapping               -- specific mechanic doc; check before designing fights
+  Daedric path                   -- False Dragonborn ritual (Mehrunes' Razor); Gaelen link
+  vampire tracking               -- vampire hunger stage tracking for Alfonso/Orion/Jaha
+
+
+=======================================================
+IV. THE MECHANICS SYSTEM AT A GLANCE
+=======================================================
+
+This is a custom ruleset, not vanilla 5e. Key differences:
+
+Stats (Target Numbers, not modifiers):
+  Might   -- physical strength/melee
+  Agility -- speed/ranged/stealth
+  Magic   -- spellcasting/arcane
+  Guile   -- deception/persuasion/tactics
+  (Rolls succeed if d20 result is BELOW the relevant TN)
+
+Resources:
+  HP  -- Health Points
+  FP  -- Focus Points (mana/stamina hybrid, fuels abilities)
+  DR  -- Damage Reduction (flat subtracted from incoming damage)
+  AP  -- Advancement Points (character progression)
+
+Tiers: Novice / Apprentice / Adept / Expert / Master
+Threat Levels: TL1 (minor enemy) / TL2 (significant) / TL3 (boss)
+Boss types: Standard Boss, Apex Villain (Master + 8AP), Legendary Hero (20AP)
+
+For full rules, read legendary difficulty before designing any encounters.
+
+
+=======================================================
+V. THE GATE / TRIAGE SYSTEM
+=======================================================
+
+The campaign is structured around "Choice Gates" - points where three adventure
+hooks arrive simultaneously and the party can only choose one. The others escalate
+off-screen. This is the campaign's primary dramatic engine.
+
+Gate 1 (complete): Crown of Korvanjund / Eldergleam / Ansilvund
+  -- Party chose Korvanjund. Jagged Crown now desecrated/Alfonso's.
+  -- Eldergleam was NOT saved: Gaelen corrupted it (major consequence).
+
+Gate 2 (complete): Three Fires - Riften / Darkwater / Dawnstar
+  -- Party chose Riften (Sickness in the Silver / Esbern recruited / Mila saved).
+  -- Dawnstar and Darkwater escalated off-screen.
+
+Gate 3 (CURRENT): Second Three Fires
+  -- Fire A: Windhelm (Alfonso's plague epidemic + Galmar's army dying)
+  -- Fire B: The Bleeding Stair (Gaelen at the Throat of the World / Time-Wound)
+  -- Fire C: The Dragonstone (Bleak Falls Barrow / Esbern needs the map)
+  -- See gate 3 doc for full structure and consequences.
+  -- The party is at the Bee and Barb in Riften; three couriers arrive across 3 days.
+
+Each gate doc follows the same format: Location/Villain/Theme/5-Section structure/
+Reward/Consequence-if-ignored/Comparison table/GM notes. Use gate 2 as style reference.
+
+
+=======================================================
+VI. THE VILLAIN ROSTER AT A GLANCE
+=======================================================
+
+Dragon Cult (primary antagonists - want to usher in Alduin's world-end):
+  Nahkriin the Guardian    -- spymaster; running false-flag ops across Skyrim
+  Ulag the Breaker         -- siege engineer; Kyboh's body's handler; TL3 Master
+  Antoine of Forelhost     -- living alchemist lineage; harvesting Alfonso's plague
+  Vokun                    -- background presence; Windhelm/Dawnstar region
+  Rahgot                   -- Antoine's destination; Forelhost
+
+Mythic Dawn (allied with Dragon Cult; want Daedric Unmaking):
+  Gaelen the Root-Twister  -- the "weary surgeon"; NOT a joyful nihilist; Razor-touched;
+                              INTRODUCED in Gate 3 Fire B (Throat of the World);
+                              designed to survive and recur Act III/IV
+
+The Pale Court (Valerius's network):
+  Valerius Caelus          -- Davinia's father; Orion's vampire master; political manipulator
+  (Orion is his pawn but also a PC - handle carefully)
+
+Former ally turned villain:
+  Hjolmar-Kyboh            -- the body; the weapon; most dangerous because party built him
+  The Echo Mimic           -- bound to Ulag; NOT Kyboh; its own character to be designed
+
+
+=======================================================
+VII. THE WORLD STATE RIGHT NOW
+=======================================================
+
+(Approximate - always cross-check against narrative chapters)
+
+- Act III: The Mortal Limit (current)
+- Party location: Bee and Barb, Riften, post-Riften adventure
+- Alfonso: Vrykolas; bears the Jagged Crown; plague epidemic in Windhelm is his work
+- Davinia: relying more on the Crown of the Pale Lady; Galmar's trust at risk
+- Orion: full vampire; Dark Brotherhood initiate; Valerius's leash around his neck
+- Saijah: Kynareth vessel; Hircine crossroads approaching; feels Eldergleam's death
+- Bjorn: de-aging with each dragon soul; Greybeards have not yet summoned him
+- Kyboh: dead. Body is Hjolmar-Kyboh. Party does not know this yet.
+- Valerius: established in Solitude; blackmail material (murdered tax collectors) in hand
+- Galmar: holding Windhelm barricades as the plague rages; trusts Davinia (not yet)
+- Esbern: recruited; needs the Dragonstone from Bleak Falls to activate Alduin's Wall
+- Eldergleam: corrupted by Gaelen; Eastmarch forests dying; Saijah has not processed this
+- Dragon Cult clock: active; Tier 1 Destabilization; false-flag ops ongoing
+
+
+=======================================================
+VIII. FILES TO BE CAUTIOUS WITH
+=======================================================
+
+  Adventure modules/choice gate 2/gate 2 planning
+  Adventure modules/choice gate 2/mzinchaleft and riften, needs clean up/
+    -- Raw planning transcripts. The GM wants them preserved. Don't treat as
+       authoritative mechanics; use gate 2 (the clean file) instead.
+
+  Players/alfonso         -- early draft; superseded by Players/alfonso 2
+  Players/orion           -- early draft; superseded by Players/orion 2
+  Players/saijah          -- early draft; superseded by Players/saijah 2
+
+  world state tracking/present reality-update constantly
+    -- Often several sessions behind. Cross-check against narrative chapters.
+
+  Npcs/Gear               -- Very large file (85KB). Load only when you specifically
+                             need equipment/gear information.
+
+  toryggs legacy campaign detail/plan update
+    -- May reflect outdated planning. Cross-check against current narrative.
+
+
+=======================================================
+IX. THE TONE AND STYLE CONTRACT
+=======================================================
+
+When writing for this campaign:
+- Match the house doc style: Roman-numeral sections, data-blocks for abilities
+  (ABILITY NAME | Major Action/Reaction/Passive | FP cost | effect), comparison
+  tables where relevant, GM Notes sections, pacing guidance.
+- Files are plain text (no markdown). Em-dashes render as garbled characters
+  (ΓÇö) in the source - this is a display artifact, not an error.
+- Preserve stream-of-consciousness planning prose in existing docs. Don't clean it.
+- Write NPC dialogue as if it will be read at a table - direct, specific, speakable.
+- The horror of this campaign is quiet and intimate. Avoid melodrama.
+  The scariest villains (Gaelen, Hjolmar-Kyboh) are the ones who make sense.
+
+
+=======================================================
+END OF AI ONBOARDING GUIDE
+=======================================================
