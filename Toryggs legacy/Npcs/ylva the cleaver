@@ -62,9 +62,11 @@ Master Benefit: Promoted Heavy Armor from Apprentice to Adept (free)
 IV. Abilities & Techniques
 Werewolf Transformation: "The Blood Moon Rises"
 Frequency: Once per adventure
- Action Cost: Major Action
- Duration: Lasts for the session or 12 in-game hours, whichever comes first
-Ylva gives in to her beast blood with a joyous shout, transforming into a hulking werewolf with her signature red-and-gold fur pattern.
+Action Cost: Major Action (or Automatic if reduced to 0 HP with unused transformation)
+Duration: Lasts for the session or 12 in-game hours, whichever comes first
+The Mechanic: If Ylva is reduced to 0 HP in human form and has not yet used her transformation this adventure, she automatically transforms into her werewolf form instead of dying. She must then be reduced to 0 HP again in wolf form to actually die. This is Hircine's claim on her - she is his, and he does not let his own die easily.
+Ylva gives in to her beast blood with a joyous shout, transforming into a hulking werewolf with her signature red-and-gold fur pattern. The first time the party saw this was at Mzinchaleft, when a spider's leg punched through her shoulder and dropped her. She didn't die. She transformed. They watched their cheerful Nord companion become a nine-foot wolf of fur and rage.
+Post-Resurrection Changes: After Mzinchaleft, Ylva's transformations have become faster and more controlled. She can shift and reverse in seconds rather than the full minute it used to take. But the practical problem remains: every transformation shreds her clothing and armor. She emerges naked every time. She has started wearing looser, cheaper clothing that she doesn't mind losing, and keeps a spare set strapped to the cart. She does not care about public nudity. She cares about losing good armor.
 Werewolf Form Stats
 Stats: Might 21 (auto success), Agility 18, Magic 8, Guile 2
 HP: 54 (Triple Total HP)
@@ -110,12 +112,12 @@ The Butcher's Philosophy
 She approaches combat and butchery as an enthusiastic artist utterly fascinated by her craft.
 "Have you ever seen the way a Sabre Cat's muscles are layered? It's beautiful! Perfect design! Taking it apart is like solving the world's most interesting puzzle. And then you get to eat it! It's the best! The fight is the game, the butchering is the art, and the meal is the prize. What's not to love?"
 
-VII. Recruitment Hook: "The Rorikstead Carver"
-Ylva is a force of nature that cannot be hired; she must be encountered. A party seeking her will likely hear her long before they see herΓÇöa chorus of joyous laughter and the rhythmic thump-thump-thump of an axe echoing from a local butcher's stall in a town like Rorikstead or Dragon Bridge.
-They will find her putting on an impromptu show for a small crowd of impressed and horrified locals, demonstrating how to break down a deer carcass in under a minute, all while providing a running commentary filled with cheerful anatomical facts.
-She will inevitably overhear the party discussing their next quest. The mention of trolls, vampires, or any sufficiently dangerous prey will cause her eyes to light up with pure, undiluted excitement.
-Her Introduction: "Wait. Did you say trolls? With the big claws and the regeneration? Oh, that sounds like way more fun than chopping up this elk! I'm coming with you!"
-She does not ask for pay or permission. She invites herself along because the mission sounds like an excellent time. If the party proves themselves to be a worthy "pack" by facing danger with courage and skill, her loyalty to them will become absolute and fiercely protective.
+VII. RECRUITMENT: THE ROAD TO KORVANJUND
+Ylva intercepted the party on the road to Korvanjund. She had been tracking the Kynesgrove cultists for three weeks, planning to mount their heads on her wall. When she arrived, the dragon was dead and the cultists were ash. The party had done her work for her.
+She planted her axe in the snow, challenged Kyboh to a non-lethal brawl to prove her worth, and talked her way into the group by sheer force of personality. She didn't ask for pay or permission. She invited herself because the mission sounded like an excellent time.
+The Secret: Ylva was already a werewolf when she joined the party. She chose not to tell them. She is Hircine's - body, soul, and blood - and has been for years. She hides it behind her boisterous personality, behind the laughter and the axe and the constant motion. The party would have sensed something wrong if they'd paid attention, but Ylva is very good at making people look at her personality instead of her nature.
+The Reveal: At Mzinchaleft, when a spider's manipulator leg punched through her shoulder and dropped her to 0 HP, the party saw her transform for the first time. She didn't die - the werewolf mechanic kicked in. Hit 0 HP in human form with an unused transformation = automatic shift. She had to hit 0 again in wolf form to actually die. She didn't. She got back up as a nine-foot werewolf and tore through the spider swarm. The party watched in stunned silence as their cheerful Nord companion became a monster.
+The Aftermath: Her armor and clothing were completely shredded by the transformation. She emerged from Mzinchaleft wearing only Saijah's cloak, which she didn't bother to close properly. She was confused, exhilarated, and naked. She didn't seem to care about the naked part. She cared very much about the "I died and came back as a wolf" part. Hircine had claimed her more completely than she realized.
 
 VIII. Combat & Social Profile
 Combat Approach
@@ -164,10 +166,62 @@ Her ability to hit adjacent enemies represents the omnipresence of the Hunt. Jus
 XIII. Equipment Lore: The Broken Axe
 The JudgeΓÇÖs Gavel (Backstory for "The Butcher's Axe")
 The axe lost its second blade during a duel with a cheating hedge-knight who used magical wards to repel all damage. Ylva, fueled by the conviction that he was mocking the sport, struck his enchanted shield with such force that the steel shattered. The axe broke, but the knight fell. She keeps the jagged, broken edge as a symbol that raw strength and conviction overcome those who try to rig the game.
-XIV. The Endgame: The Bloodmoon Prophecy
-Ylva trains for a singular, tangible goal. She watches the moon Secunda every night, waiting for it to turn crimson. She intends to participate in the HircineΓÇÖs Great Game during the Bloodmoon Prophecy. She plans to be the prey that survives, or the hunter that claims the ultimate prize. Every adventure with the party serves as preparation for this celestial olympics.
+XIV. CURRENT STATE (Session 15+ - Riften)
+Location: At the cart with GEAR, Nora, Varon, and Mila (Bjorn is at the Bee and Barb)
+Physical State: Adjusting to more controlled transformations. Post-Mzinchaleft, she can shift faster and reverse faster. But every transformation still shreds her clothing. She's wearing cheap, loose clothing she doesn't mind losing. She keeps a spare set strapped to the cart. She does not care about public nudity. The party has seen her naked multiple times now. She has stopped apologizing for it.
+Emotional State: She died (or nearly died) and came back as a werewolf. This should be traumatic. It isn't, for her - Hircine's gift is the best thing that ever happened to her. But the party's reaction to her transformation shook her more than she expected. She saw fear in their eyes. She's never seen fear in the eyes of people she considers her pack. She's processing this quietly, which for Ylva means she's being slightly less loud than usual.
+The Alfonso Pull: She's pulling away from Alfonso. His thrall tactics at Korvanjund bored her. She confronted him about it. He agreed to fight directly, but the damage is done. She still sees him as a kindred spirit (eats what he kills), but she's not interested in him the way she was. She's interested in Davinia now.
+The Davinia Pursuit: She's actively pursuing Davinia. The wineskin, the sparring challenge, the direct proposition. She's having fun with it, but there's genuine curiosity underneath. She wants to know what's under the ice. She wants to crack the shell. She doesn't know if what's underneath is someone she can connect with, or just more cold.
+The Pack: She considers the Obsidian Lanterns her pack. She will die for them. She already almost did. The Mzinchaleft transformation proved it - when she hit 0 HP, Hircine's claim kicked in and she became the wolf. She didn't choose it. She didn't hesitate. She got back up and kept fighting. That's what pack means.
+
+XV. ROLEPLAYING QUICK REFERENCE
+Voice: Loud, booming, infectious. She talks with her whole body.
+Movement: Constant motion. Shifting weight, cracking knuckles, grinning. Never still.
+Combat: Joyful. She laughs during fights. She compliments enemies who hit her. She views every battle as a gift.
+Post-Resurrection: Slightly more subdued than before. Not quiet - Ylva will never be quiet - but the manic energy has a edge of something underneath now. She's processing what it means to be claimed by Hincine more completely than she realized.
+The Clothing Problem: Every transformation shreds her armor and clothing. She emerges naked. She doesn't care. She's started wearing cheap, loose clothing that she can afford to lose. She keeps spare sets on the cart. If someone comments on her nudity, she says: "What? It's just skin. You've all seen it by now."
 
 
 
 She thinks alfonso is disgusting and gross and she likes that, she likes that he also eats what he kills, she sees him as a kindred spirit for now. Neutral about everyone else
+
+IX. RELATIONSHIP DYNAMICS
+1. Alfonso: "The Kindred Rot"
+The Dynamic: Disgusting, fascinating, intimate.
+Ylva's View: She thinks he is gross. She likes that he is gross. He eats what he kills - not just the fighting, but the consuming. She finds that honest in a way most people aren't. She confronted him at Korvanjund about hiding behind thralls instead of fighting directly. "You're using others to fight your battles. That's not fighting. That's hiding." She demanded he fight alongside her on worthy targets, with her getting first blood. He agreed (mostly).
+The Intimacy: After Mzinchaleft, when she died and came back as a werewolf, she grabbed Alfonso and took him behind bushes. Brief, loud, heard by everyone. Then she transformed back, stood there naked, and didn't care. She likes him. She doesn't respect his tactics. These are not contradictory in her mind.
+The Current State: She's pulling away from him. His thrall tactics at Korvanjund bored her. She pivoted to Davinia. But she still sees Alfonso as a kindred spirit - someone who eats what he kills, who doesn't pretend to be something he's not. She's disgusted by him and attracted to him simultaneously. She finds this confusing and doesn't care enough to figure it out.
+2. Davinia: "The Ice Queen Project"
+The Dynamic: Pursuit. Genuine interest wrapped in game-playing.
+Ylva's View: Davinia is the most interesting person in the party. She's powerful, she's cold, she's pushing everyone away, and she's slowly being consumed by that Crown. Ylva sees a woman who needs to remember she's alive. She's pursuing Davinia with the same energy she brings to everything else - loud, physical, unrelenting.
+The Approach: The wineskin scene (dropping beside her without asking, offering drink). The sparring challenge ("You need a fight. Not a kill-the-monster fight. A fun fight."). The direct proposition ("You pushed her away, didn't you? The healer. You don't need fixing. You need to stop punishing yourself.").
+The Depth: Ylva is genuinely interested in Davinia. Not just sexually, but as a person. She sees the pain under the ice, the guilt about Danica, the Crown eating her alive. She wants to crack the shell. She doesn't know if what's underneath is a person she can connect with, or just more ice. She's finding out.
+3. Saijah: "The Quiet One"
+The Dynamic: Respectful distance.
+Ylva's View: Saijah is kind. Ylva doesn't fully understand kindness - she understands loyalty, violence, and joy, but not the gentle, empathetic kind of strength Saijah carries. She gave Ylva her cloak after Mzinchaleft when Ylva emerged naked from the transformation. That was... nice. Ylva doesn't know what to do with nice.
+Interaction: Minimal. They haven't bonded yet. Ylva finds Saijah's quiet intensity fascinating but inaccessible. She'd like to fight alongside her more - Saijah's archery is impressive, and Ylva respects skill. But the emotional barrier is real.
+4. Orion: "The Smiling Predator"
+The Dynamic: Wariness.
+Ylva's View: Orion is a vampire. Ylva knew this before he told anyone - she smells the blood on him. She doesn't care about the vampire part. She cares about the fact that he smiled his fangs at a child in the dark tunnels. That's not a hunter's behavior. That's a predator's. She filed him under "interesting but dangerous" and moved on.
+Interaction: Professional. She'll fight alongside him without complaint. She won't turn her back to him.
+5. Kyboh: "The Broken Hammer"
+The Dynamic: Respect, concern.
+Ylva's View: She fought him on the road to Korvanjund and respected his strength. She watched him punch a dragon and was awed. Now she watches him struggle with his fused gloves and feels something she doesn't usually feel: worry. She doesn't like worry. It's not a fun emotion. But she sees him breaking and it bothers her.
+Interaction: She checks on him more than she checks on anyone else. She brings him food. She doesn't talk about the gloves. She just sits near him sometimes, being loud and alive, because she doesn't know how to be quiet and comforting.
+6. Bjorn: "The Old Wolf"
+The Dynamic: Uncertain respect.
+Ylva's View: Bjorn is old, strong, and keeps secrets. She saw his explosion when the party bought Mila. She saw the trauma surface - the specific, terrible stillness of a man reliving something he'd buried. She didn't comment. She doesn't know how to handle other people's pain. She handles her own pain by fighting and eating and laughing. Bjorn's pain is different. It's old and deep and doesn't have a solution she can swing an axe at.
+Interaction: She's deferential to him in a way she isn't to anyone else. She doesn't challenge him. She doesn't push him. She senses something in him that she recognizes - another predator who chose to be something else.
+7. Varon: "The Still Water"
+The Dynamic: Professional distance, mutual assessment.
+Ylva's View: She hasn't interacted with Varon much. He's quiet, still, and unsettling in a way she can't quite name. She judges people by their combat, and she hasn't seen him fight yet. She'd call him "Ghost-Face" or "Still-Water" if she talked to him. She hasn't decided if he's worth talking to yet.
+Interaction: Minimal. She's aware of him. He's aware of her. They're both waiting.
+8. GEAR: "The Talking Ball"
+The Dynamic: Amused fascination.
+Ylva's View: GEAR is the funniest thing she's ever encountered. A brass sphere that asks questions about everything and doesn't understand jokes. She loves him. She asks him deliberately absurd questions just to hear his responses. She has started calling him "Brass-Ball" and he hasn't corrected her because he doesn't understand that it's a nickname.
+Interaction: She treats him like a very large, very literal cat. She pats his dome when she walks past. She leaves shiny things near him. She is not doing this ironically. She genuinely likes the little machine.
+9. Mila: "The Pup"
+The Dynamic: Protective, awkward.
+Ylva's View: An eight-year-old from the sewers. Ylva doesn't know what to do with children. She's never been around them. She's loud, she smells like blood and steel, and she transforms into a monster. She's terrified of accidentally scaring Mila. So she keeps her distance, watches from afar, and makes sure no one else scares her either.
+The Bjorn Moment: She witnessed Bjorn's explosion when the party bought Mila. She saw the old man's trauma surface. She didn't comment publicly, but she filed it away. Bjorn is protecting this child with a ferocity that goes beyond duty. Ylva recognizes that ferocity. It's the same thing she feels for her pack.
 

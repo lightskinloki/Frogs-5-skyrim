@@ -1,0 +1,236 @@
+THE RUSTING PHYLACTERY
+GM Reference Block - Alfonso's Iron Soul
+"The weakest possible lich. Not immortal. Undying."
+
+I. THE CORE PHILOSOPHY: THE TETHERED SOUL
+
+During the camp between Mzinchaleft and Riften, Alfonso poured his soul into his
+family's iron dagger. The iron reshaped itself into a corroded rapier as the enchantment
+remade the weapon. His body became an empty vessel - and the rapier became the only
+thing in the world that can kill him.
+
+He is a Lich of Peryite, an oxymoron made empty. A traditional lich's phylactery is
+hidden, hoarded, protected. Alfonso's is in his hand, in every fight, swung at enemies -
+and it is slowly, inevitably rusting. He cannot be wounded. He can only corrode. The
+threat is never the blow he takes; it is the power he spends.
+
+Peryite does not mock the rust. Alfonso feels his own god radiating approval at the
+mechanical perfection of entropy operating on schedule. The Taskmaster finds the
+degradation beautiful. The rust is natural. The rust is ordered. The rust is exactly how
+things should work. His own god approves of his death, and that is driving him insane.
+
+II. THE EMPTY VESSEL (PASSIVE)
+
+Alfonso's physical body has NO hit points and cannot be reduced to them.
+- He takes NO damage from any conventional source - blades, arrows, claws, falls, fire,
+  spells. Attacks pass through his shifting, rotting mass without effect.
+- Immune to poison, disease, bleed, critical hits, and instant-death effects targeting
+  the body.
+- He cannot be knocked unconscious, stunned by pain, or killed by HP loss. There is no
+  HP to lose.
+- He still occupies space, can be grappled/moved/restrained, and can be affected by
+  conditions that target the soul or enchantment directly (see Section VI).
+
+There is exactly ONE way to harm Alfonso: advance the Rust. He does this to himself
+every time he channels real power. An enemy can only do it if they learn the secret.
+
+III. THE RUST - TWO TIERS
+
+Rust is tracked in two layers. Surface Rust is the cost of doing business. Deep Rust is
+the clock counting down to his end.
+
+A. SURFACE RUST (Recoverable) - Pool of 10
+The pitting and tarnish of ordinary use. Accrues fast, scrubs off with feeding and rest.
+This is his renewable resource - the price of casting without bleeding a real wound.
+
+GAINS Surface Rust from:
+- The Transmutation of Life: when he pays a spell's FP cost in vitality instead of FP,
+  he gains Surface Rust equal to that FP cost. (Free action, once per turn, before
+  casting. Also taught to Nora, who pays in Irreducible Damage instead - she has a body.)
+- Channeling high-tier magic through the rapier under strain: +1 Surface (GM call).
+- Corrosive environments (acid, brine, certain Dwemer steam, Peryite shrines): +1 Surface
+  per significant exposure.
+
+RECOVERS Surface Rust by:
+- Feeding: a full feed (consuming flesh) scrubs 2 Surface Rust as the husk stabilizes.
+- Long Rest: a Long Rest taken AFTER feeding clears all remaining Surface Rust. A Long
+  Rest without feeding clears half (round down).
+
+THE OVERFLOW (the bridge to permanent doom):
+If Surface Rust would exceed 10, it does not cap - the excess corrodes the core of the
+blade. Each point of overflow converts into +1 Deep Rust segment, permanently. Burning
+hot in a single day is how the blade ages years in an afternoon.
+
+B. DEEP RUST (Permanent) - The Doom Clock, 10 Segments
+The structural corrosion of the iron itself. This NEVER recovers by any ordinary means.
+It is the "months not years" that Hjolmar diagnosed. It is the rust that has begun
+migrating into Alfonso's flesh. When it fills, the blade shatters and Alfonso is
+destroyed forever.
+
+GAINS Deep Rust (1 segment each, unless noted) from:
+- Major Channeling: any single act of supreme violence through the rapier - the
+  triple-charge beam, corridor-clearing blasts, the harmony-blast finishers, any single
+  ability costing 8+ FP in one action. Each one is +1 Deep segment. (The Krosulhah
+  triple-beam already cost a segment; that is why his skin began to spot.)
+- Surface Overflow: +1 per overflow point, as above.
+- The Crown's "Digested Shout": when the Jagged Crown digests a held Shout, the effect
+  that would deal "half max HP as irreducible damage" has no HP to land on - it converts
+  to +1 Deep Rust instead.
+- An Informed Sunder: a successful Sunder/corrode strike against the blade by an enemy
+  who KNOWS it is his phylactery (see Section IV) = +1 Deep segment.
+- Catastrophic story beats: GM discretion (a dragon's full breath caught on the blade, a
+  Daedric backlash, a botched ritual).
+
+DEEP RUST ONLY GOES DOWN ONE WAY: the Path of Ascension gamble (Section VII).
+
+IV. THE EXPOSED SECRET (THE ONLY COMBAT THREAT)
+
+The rapier is always in plain sight. He fights with it. It is not hidden, warded, or
+disguised. The weak point is fully exposed - and almost no one knows to aim for it.
+
+- An enemy must KNOW the rapier is Alfonso's phylactery to threaten it. Until they know,
+  every attack they make against him does nothing, and they will likely waste a fight
+  flailing at an unkillable opponent.
+- Once an enemy knows, they can Sunder or corrode the blade directly. A successful strike
+  against the blade adds +1 Deep Rust. This is the ONLY way an outside force can advance
+  his doom clock - and it requires both the knowledge and getting past Alfonso to reach
+  the iron.
+
+WHO KNOWS / COULD LEARN:
+- Hjolmar KNOWS. He studied Alfonso for days in the forge and "heard his dissonance." He
+  is the single most dangerous entity to the blade and will exploit it the instant it
+  serves him.
+- Davinia's Wizard Sight perceives that his body has no aura - she has SEEN the wrongness
+  but not named it. Saijah's predator senses flagged the transformation. Neither has
+  confronted him.
+- Antoine of Forelhost, a clinical bioweapon engineer, could deduce it from residue and
+  rivalry if he gets close enough.
+- The party protecting the secret of the blade becomes a campaign-long liability. The
+  moment it leaks, Alfonso has a kill-switch walking around in the world.
+
+V. THE DEGRADATION STAGES (Deep Rust migrating into the flesh)
+
+"Not death. Degradation. The slow process of becoming the thing he's tethered to: a
+corroding piece of metal in the shape of a man." Each stage is permanent. Penalties
+apply to the body; they never threaten HP (he has none) - they erode what he can DO.
+
+SEG 1-2  STAGE 0 - PITTED IRON
+  Rust confined to the blade. The rapier looks ancient, scaled with corrosion. No effect
+  on Alfonso. Cosmetic dread only.
+
+SEG 3-4  STAGE 1 - THE FIRST BLOOM   <-- CURRENT NARRATIVE POSITION
+  Rust spots bloom on Alfonso's skin - knuckles, jaw, the backs of the hands. Faint
+  metallic smell under the grave-dirt. No mechanical penalty yet. The party can SEE it
+  now if they look. (He is here following Krosulhah.)
+
+SEG 5-6  STAGE 2 - STIFFENING
+  Joints stiffen; iron corruption visible at the seams of him. Movement reduced; -1 to
+  his Agility Target Number. Fine manipulation (alchemy, delicate spellwork) takes longer.
+
+SEG 7-8  STAGE 3 - THE TARNISHED HUSK
+  Widespread corrosion. Skin hardens toward metal; he flakes when he moves. -2 to Agility
+  TN (replaces Stage 2) and -1 to Might TN. He now reads visibly as a "thing," not a man -
+  social penalties with anyone who doesn't already know what he is.
+
+SEG 9    STAGE 4 - THE IRON SHROUD
+  Near-total petrification. Barely mobile. -2 to Agility and Might TN, -1 to Magic TN; he
+  can take only one action per turn that involves movement OR a physical gesture, not
+  both. He is, functionally, a corroding statue that still speaks and hungers.
+
+SEG 10   STAGE 5 - SHATTER (DEATH)
+  The blade cracks through. See Section VI.
+
+VI. THE TWO FAILURE POINTS
+
+SHATTER (Deep Rust hits 10, or an informed enemy destroys the blade):
+- Permanent, irreversible death. The soul housed in the iron is destroyed with it.
+- No resurrection, no Soul Cairn, no re-housing. This is the absolute end of Alfonso.
+- When it happens, the husk collapses into inert rotting matter the instant the iron
+  fails - the body has nothing left to animate it.
+
+BODY DESTROYED while the blade survives:
+- He is undying as long as the iron holds. If the husk is dismembered, burned, dissolved,
+  or otherwise "destroyed," it is not death - it is inconvenience.
+- The body reknits near the rapier over time (GM: minutes for minor damage, up to a full
+  rest for total destruction). The soul simply grows a new vessel around its anchor.
+- This is the lich's true horror: you cannot kill him by killing him. You have to find,
+  reach, and break the sword.
+
+VII. THE ONLY CURE (AND IT IS A GAMBLE)
+
+Deep Rust cannot be healed by rest, feeding, magic, or divine intervention. The single
+possibility of reversing it is the Path of Ascension (Alfonso arc, Option A): channeling
+the heart of a Dragon Priest (Rahgot) and the heart of a Vampire Lord (Valerius) THROUGH
+the rapier - piercing the heart and drinking its power the way a vampire drinks blood,
+because the soul lives in the blade now, not the mouth.
+
+Each heart consumed this way resolves as a gamble (GM sets the check):
+- On success: the raw essence scours and re-tempers the iron - remove a meaningful chunk
+  of Deep Rust (GM: 2-3 segments per heart).
+- On failure: the power is too much for corroded iron to contain - it ACCELERATES the
+  decay catastrophically (add segments, or jump him a full Stage).
+
+The Apotheosis either saves him or finishes him. He will not know which until he commits.
+The Path of Ascension problem (whether his endgame form is even still reachable as a
+lich) must be resolved before the Valerius hunt - he needs to know if there's a finish
+line before he bleeds the blade chasing it.
+
+VIII. INTERACTIONS
+
+- The Crown's Curse of Satedness and the phylactery's Diminished Hunger STACK and
+  reinforce. Feeding now does two jobs and satisfies neither craving: it scrubs Surface
+  Rust (mechanical) but delivers no fullness (Crown) and no empowerment high (phylactery).
+  Eating is maintenance on a machine he hates being.
+- Symbiotic Minion Control is unaffected by lichdom - he still runs up to two Plague
+  Ghouls. (Control is absolute while Satiated; if forced to Hungry stage he rolls Guile
+  each round or they turn.) Note he is permanently Hungry psychologically via the Crown,
+  but can still reach mechanical Satiated by feeding.
+- Plague touch, plague ghouls, and disease alchemy all still function - his body is a
+  walking biohazard with or without a soul in it.
+- Nora learned the Transmutation of Life from him. She pays in Irreducible Damage (she
+  has HP); he pays in Surface Rust. Watching her bleed for power while he rusts for it is
+  the whole mentorship in one image.
+
+IX. CURRENT STATE (as of Riften / present reality)
+
+- Deep Rust: Stage 1 (segments 3-4) - skin spots have appeared. The triple-charge beam
+  against Krosulhah pushed him here. He is "one hit point of rust away" from Stiffening.
+- Surface Rust: GM-tracked; reset each rest cycle.
+- The party views him as "Alfonso but weirder." They do not understand the full stakes.
+  Davinia and Saijah have sensed wrongness without naming it.
+- Antoine / the Forelhost Strain rivalry is upcoming in Riften; Antoine is a candidate to
+  one day deduce the blade.
+
+X. GM NOTES & PACING
+
+- The doom clock is PLAYER-PACED, not session-paced (unlike the Dragon Cult clock). The
+  more spectacular Alfonso's power, the faster he dies. Let every triple-beam land with
+  the weight of "that was a piece of your life." Do not advance Deep Rust silently for
+  ordinary play - reserve it for supreme violence, overflow, the digested-Shout, informed
+  sunders, and story catastrophe.
+- Alfonso's PLAYER should track and feel the clock. The rest of the PARTY should learn
+  the stakes gradually through the visible Stages, not a number. Play the skin-spots, the
+  stiffening, the flaking - let them figure out their friend is dying by inches.
+- Peryite's approval is a recurring RP beat, not a mechanic. Every time the rust advances,
+  let Alfonso feel that warm, horrible divine nod. His god is pleased. That is the worst
+  part.
+- The secret of the blade is a social time-bomb. Track who knows. Hjolmar already does -
+  a future Hjolmar-Kyboh encounter where he ignores the whole party and goes straight for
+  Alfonso's sword is a devastating reveal that he KNOWS.
+- The cure is a trap dressed as hope. The Path of Ascension gamble should feel like the
+  only door out and like russian roulette. Make him weigh it.
+
+XI. QUICK REFERENCE
+
+Surface Rust ...... pool 0-10, recoverable. Transmutation = +FP cost. Feed = -2.
+                    Rest after feed = clear all. Overflow past 10 = +1 Deep each.
+Deep Rust ......... clock 0-10, permanent. Major channel (8+ FP / supreme act) = +1.
+                    Overflow = +1 each. Digested Shout = +1. Informed sunder = +1.
+                    Only the heart-gamble removes it.
+Stages ............ 0 Pitted (blade only) | 1 First Bloom (skin spots, no penalty)
+                    2 Stiffening (-1 Agi) | 3 Tarnished Husk (-2 Agi, -1 Might)
+                    4 Iron Shroud (-2 Agi/Might, -1 Magic, one physical action)
+                    5 SHATTER = permanent death
+Combat damage ..... NONE. Body cannot be hurt. Rust is the only threat.
+The kill-switch ... break the blade. Requires knowing it is the phylactery.
+Body destroyed .... reknits near the intact blade. Truly undying until the iron breaks.
