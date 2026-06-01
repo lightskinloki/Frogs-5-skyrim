@@ -1,0 +1,732 @@
+#####################################################################
+#  SESSION RUNSHEET: RIFTEN DEPARTURE + GATE 3 CHOICE
+#  Self-contained. Run the whole night from THIS doc -- no flipping.
+#  In RUN ORDER. Read-aloud text is marked >>READ. Source docs:
+#  ch21 / main adventure / honor hall orphanage / forellhost /
+#  maven blackbriar scene / hemming blackbriar / gate 3.
+#####################################################################
+
+=====================================================================
+TABLE OF CONTENTS
+=====================================================================
+  0.  STATE AT SESSION START (+ clocks + gold)
+  1.  WAKE IN THE INN
+  2.  RECAP THE THREE CHOICES
+  3.  CAMP / PERSONAL SCENES (Mila, the cart roster)
+  4.  "WHERE DO WE GO NOW?"
+  5.  ORION'S BUSINESS: GRELOD / HONORHALL   [fully inlined]
+        5.1 the job + four masters   5.2 beloved <-> abuse beats
+        5.3 the people   5.4 layout & security
+        5.5 the kill (constraints)   5.6 the enthrallment
+        5.7 aftermath   5.8 children   5.9 GM notes
+  6.  ALFONSO'S BUSINESS: FORELHOST   [fully inlined]
+        6.0 dashboard + infection   6.1 killing field (+combat)
+        6.2 ossuary   6.3 refinery (+journals)
+        6.4 containment puzzle (+outcomes)   6.5 laboratory (+reveal/loot)
+        6.6 GM notes
+  7.  THE DANICA HANDOFF (farewell; Krusp silent backup)
+  8.  MAVEN DEBRIEF + PROMOTION   [fully inlined]
+  9.  HEMMING (Maven points them here)   [fully inlined]
+  10. BALIMUND'S INVESTMENT (the money conflict)
+  11. CART DEPARTURE WITH BJORN (horse, money crunch, fire matrix)
+  12. OPEN THREADS
+
+
+=====================================================================
+0. STATE AT SESSION START (verified vs chapter 21 / main adventure)
+=====================================================================
+WHERE: Bee and Barb, Riften. Morning after the couriers. Cold fog off the lake.
+
+ALREADY SPENT (do NOT re-run): Ratway/Thalmor fight; Esbern extracted + his
+  Dragonstone commission given (to DAVINIA); Bjorn/Mila confrontation + the Vow
+  (Pt IX); all three couriers landed (Pt X); Bjorn & Davinia's night at the bar
+  (Pt XI). ALSO last session: the Danica break-up (she left WITH KRUSP'S GROUP);
+  Maven's first audience; the MEADERY scene (Alfonso already has the Forelhost
+  coordinates from Peryite); Saijah/Ylva's Hircine rivalry; the Orion/Valerius
+  RING CHECK-IN (Orion now KNOWS he can enthrall + that the Ring has blind spots);
+  heavy shopping at Balimund's.
+
+WHO'S HERE: Party (Davinia / Alfonso / Saijah / Orion) + Bjorn.
+  Cart/camp by the canal bridge: Mila (slept under blankets + Mable's warmth),
+  Esbern (hidden, wants to leave Riften), Ylva (werewolf, pacing), Nora, GEAR,
+  and VARON (Shadowscale handler -- riding with the cart, pressure on Orion's
+  Grelod timeline, badly-hidden crush on Saijah).
+
+CLOCKS: Dragon Cult Tier 1 (Nahkriin's false-flags; prices +50% goods/+75% food).
+  Dagon Cult Tier 0 "the Sowing" (root network weakening; Rift itself healthy --
+  corruption is in the Pale, the Throat, deep forests). Civil War Phase 1 "First
+  Blood" (party holds the Jagged Crown; Stormcloak vanguard paralyzed at Windhelm).
+
+GOLD: ~5k on hand now. Danica is about to return the Lanterns' ~10k bounty (sec 7)
+  -> ~15k to allocate tonight across Balimund (sec 10) and Bjorn's horse (sec 11).
+
+STANDING RULES: Thalmor warrants on party + Krusp + Esbern. Imperial-aligned holds
+  = Guile TN 14 or ambush. Disguises in public (Alfonso's rot, Orion's pallor,
+  Davinia's ice hand/eyes). A botched Suspicion check (Guile TN 14) = merchants
+  refuse them and guards tail them, making Grelod + Forelhost work harder.
+
+TONIGHT'S SHAPE: Riften wrap-up -> pick a Gate 3 fire -> ride out. Maven's debrief
+  AND Hemming are both LIVE tonight (NOT gated -- they already hold enough intel).
+
+
+=====================================================================
+1. WAKE IN THE INN
+=====================================================================
+Morning after the drinking night with Bjorn (ch21 Pt XI). Hangover beat. Davinia
+woke wherever the night left her; Bjorn checked on Mila twice before sleeping.
+Easy, grounded re-entry before the weight lands.
+
+
+=====================================================================
+2. RECAP THE THREE CHOICES  (they probably weren't paying attention)
+=====================================================================
+The couriers came in piecemeal across days; the table likely didn't register them
+as a SET. Restate plainly as three live options (full detail in section 11):
+  - WINDHELM (Stormcloak soldier): Galmar's army dying of the plague; he begs
+    Davinia "if you have any honor left."
+  - THE THROAT (Klimmek): Waystones bleeding black sap on the 7,000 Steps, "faces
+    of horn and fire," time felt wrong. Saijah's signal locked southwest.
+  - THE DRAGONSTONE (Esbern's commission, now DAVINIA's hook): Bleak Falls Barrow;
+    "without it, everything else is a reaction, not a strategy."
+Don't make them choose yet -- just make sure they KNOW the three.
+
+
+=====================================================================
+3. CAMP / PERSONAL SCENES  (the cart, morning)
+=====================================================================
+MILA'S FIRST MORNING: Her first night away from her mother, with her "new owners"
+  (her frame, not theirs). Warrens-pragmatic, not grateful. Comforted near Saijah
+  and Bjorn; freezes/hides if Orion or Alfonso come close (she saw Orion's fangs
+  in the Ratway -- "the ones that smile are the ones you don't survive," ch21 IX).
+
+THE CART ROSTER (play each distinctly):
+  - Bjorn: fierce guardianship; the loose-nail-on-the-footboard bit is "theirs"
+    now (ch21 IX). He watches who approaches her.
+  - Ylva: a werewolf's restless energy near a frightened child -- testing how
+    close she's allowed, watching Saijah for the line.
+  - Varon: the Shadowscale handler, a Dark Brotherhood assassin sitting feet from
+    the rescued child. Pushing Orion on the Grelod timeline; clumsily drawn to
+    Saijah. His presence keeps Orion's three-master pressure (Valerius / Brother-
+    hood / Lanterns) constant.
+  - Esbern: distracted, paranoid, wants to be gone; a child is one more variable.
+  - Nora: curious/soft; possibly the only one Mila isn't wary of besides Saijah.
+  - GEAR: incapable of grief or warmth; logs Mila as cargo/variable, sits in
+    Kyboh's empty seat without understanding the silence it causes.
+PURPOSE: cash the Vow emotionally before the party spends the day doing monstrous
+  business three streets from a child-abuse factory.
+
+
+=====================================================================
+4. "WHERE DO WE GO NOW?"  (Bjorn opens the day's activity)
+=====================================================================
+Bjorn asks where they're headed. GOAL: let Orion and Alfonso volunteer that they
+still have BUSINESS in Riften before leaving -- which opens sections 5-6. If they
+don't bite, Bjorn's impatience to move Mila out of the city can prompt it.
+
+
+#####################################################################
+5. ORION'S BUSINESS: GRELOD / HONORHALL
+   NOT a dungeon. Social investigation + infiltration. No combat unless
+   Orion makes it. Solution is Orion's -- don't suggest.
+#####################################################################
+
+--- 5.1 THE JOB + FOUR MASTERS ---
+Orion holds a Brotherhood contract (client: Aventus Aretino) to kill Grelod the
+Kind -- the most beloved woman in Riften, secretly running a child-abuse / Thieves
+Guild training pipeline. He must also deal with Constance Michel.
+NOTE -- THE RING CHECK-IN ALREADY HAPPENED (last session): Valerius ordered
+  Constance enthralled THROUGH THE RING ("on my leash, not yours"). In doing so he
+  accidentally taught Orion two things: (1) Orion CAN enthrall now (as long as he's
+  fully sated), and (2) the Ring's surveillance has BLIND SPOTS -- Valerius isn't
+  always listening. So the Constance choice below is fully armed and Orion knows
+  he could hide a betrayal.
+FOUR competing demands:
+  - AVENTUS (client):  Grelod SUFFERS. Children KNOW they're free. Public.
+  - MAVEN / GUILD:     Pipeline continues. Constance takes over. No disruption.
+  - VALERIUS (Ring):   Constance enthralled through the Ring -> Court asset.
+  - ORION himself:     Obey Valerius, or enthrall Constance for himself?
+TIMELINE: a fortnight, no mechanical timer; Varon is the live nag. Pressure is
+  narrative -- every day Grelod lives, the children suffer another day.
+
+--- 5.2 BELOVED <-> ABUSE BEATS (the drumbeat: untouchable in public, monster in
+    private). Interleave these. Every public beat says "no one will ever believe
+    you"; every private beat says "she is exactly what Aventus said." ---
+
+BELOVED #1 -- THE MARKET SAINT (first market visit):
+  >>READ: "The crowd parts with warm murmurs. A small elderly woman in a grey
+  dress, wicker basket on her arm, white hair under a modest cap -- the face of
+  someone's grandmother. Every merchant greets her by name. 'Mother Grelod!'
+  Madesi presses a silver pendant into her hand. 'For the children.' Balimund
+  hands her new blankets. 'Kynareth bless you -- the little ones will sleep warm.'
+  A guard tips his helmet. A merchant's daughter hugs her legs; Grelod bends with
+  effort and smooths her hair. She moves on, trailing warmth like a wake."
+
+BELOVED #2 -- THE MEMORIAL SPEECH (canal memorial, day after arrival):
+  >>READ: "Grelod stands at the plague memorial, voice thin but carrying. 'We lost
+  good people. But Riften endures because we care for each other. The orphanage
+  took in six children during the plague. They told me they were scared. And I
+  told them what I tell every child: You are safe now. You are loved. You will
+  never be alone again.' The crowd applauds. A woman wipes her eyes. Three people
+  embrace her before she can leave."
+
+BELOVED #3 -- THE UNTOUCHABLE (tavern/market; reinforces 'no one will believe'):
+  A newcomer/drunk grumbles -- "awful lot of coin for those orphans... where's it
+  all go, eh?" The room turns on HIM, not her. A regular stands and toasts "Mother
+  Grelod, the kindest soul in the Rift," the bar drinks to it, and a guard walks
+  the grumbler out. Orion watches every door to an accusation close at once. This
+  IS Aventus's whole point: "She told us no one would believe us. She was right."
+
+BELOVED #4 -- BJORN, CHARMED (CRUCIAL: this happens BEFORE he knows who she is):
+  Bjorn crosses paths with Grelod while running an errand -- and he does NOT yet
+  know she's the woman the party flagged as a monster. He sees only a gracious,
+  lovely older woman. De-aged by the dragon souls, he now looks a touch YOUNGER
+  than her (though by true years he's the elder), and he turns on warm, rusty
+  old-carter charm: helps with her basket, trades a laugh, a light compliment.
+  She's delighted. He's genuinely disarmed. Play it sweet and funny. The horror is
+  retroactive -- see BJORN, DOUBTING.
+
+BJORN, DOUBTING (the hinge -- after he learns THAT was her):
+  When Bjorn realizes the gracious woman he just charmed is the "child-breaking
+  monster" the party described, he can't square it. He goes quiet, then:
+  "...That sweet old woman? The one with the blankets? You're SURE about this?
+  The whole city loves her. I just -- maybe your information's wrong." Their own
+  moral anchor -- the man who'll kill for a child -- doubts THEM. His own charmed
+  reaction makes him want to disbelieve it. This is the loudest possible proof
+  that no one will ever believe Orion, and it isolates him: he can't even lean on
+  the party. (If pressed with hard evidence he'll come around -- reluctantly, sick
+  about it -- but the instinctive doubt is the point.)
+
+ABUSE #1 -- THE PRIVATE CRUELTY / HROAR (only if Orion watches after dark; Guile
+  TN 14 to approach unseen):
+  >>READ: "By the ninth bell the candles go dark -- but a light burns in Grelod's
+  upper quarters. Through the window: a different woman. The grandmother is gone.
+  She reviews a ledger with a quartermaster's cold focus. A boy, maybe ten, holds
+  a heavy book on each outstretched palm, arms trembling. She does not look up.
+  'Your hands are shaking, Hroar. A pickpocket with shaking hands gets caught.
+  Worthless children do not eat breakfast. Begin again. Hold them steady, or you
+  hold them until morning.'"
+
+ABUSE #2 -- THE CELLAR / LUCIA (Saijah's heartbeat-sense through the wall, or
+  Orion's night-watch): the party catches Grelod locking a small girl -- LUCIA, 10
+  -- into the lightless cellar for taking bread from the kitchen. The child begs;
+  Grelod's voice stays flat: "You'll come out when you've learned what hunger is
+  for." The door shuts on the dark. (This is why Lucia now refuses to enter any
+  dark room.) Only the party ever sees this.
+
+--- 5.3 THE PEOPLE ---
+GRELOD: Public = warm, quavering grandmother; loves visitors, gives the ground-
+  floor tour. Private = flat, cold, precise. Will NOT show upstairs: "Oh, that's
+  just my quarters and storage, dear." Guile TN 16 to catch the lie. Light sleeper.
+
+CONSTANCE MICHEL (the moral center): late 20s, six years at Honorhall. Knows
+  everything, participates in nothing -- she does the real caregiving. Silenced
+  years ago by a Guild man in her kitchen ("We'd hate for something to happen to
+  the children"). Stays for Jon, the silent plague orphan she carries everywhere.
+  Talk privately, away from Grelod:
+    Guile TN 12 -- talk at all ("everything is fine")
+    Guile TN 14 -- past the wall: "You can't help. Nobody can. She's protected.
+      The Guild, Maven, the guards -- everyone loves her. They'll believe her, not
+      you, not me, not the children. That's how it works."
+    Guile TN 16 -- full picture (training, pipeline, the threat, why she stays);
+      cries silently, wipes her eyes before any child sees.
+  If she witnesses the kill: does NOT scream/run/call guards. Watches, closes the
+  door, asks: "What happens to the children now?"  <- the enthrall trigger.
+
+AVENTUS ARETINO (client, at the Bee and Barb): adult ~30s, scarred hands, watches
+  the orphanage. Survivor (she broke his hands twice). WANTS: "I want her to
+  suffer. For them. And I want the children to KNOW... Publicly, undeniably free."
+  Siblings-by-suffering still inside: Hroar, Runa. Doesn't care if the pipeline burns.
+
+--- 5.4 LAYOUT & SECURITY ---
+  Kitchen back window (canal entry): Agility TN 12.  Front door at night: TN 14.
+  Upstairs door locked at night. Grelod sleeps UPSTAIRS, not the dormitory.
+  Grelod's desk drawer (ledger): Agility TN 14.
+  Chest under bed: Agility TN 16 -> 800g old coin, Brynjolf correspondence,
+    list of "graduated" children + Guild assignments.
+  TRAINING ROOM: Master-lock, Agility TN 18 or Grelod's key. Practice locks with
+    bloody small fingerprints, leather strap, sewer-map chalkboard, stopwatch.
+  No guards -- the conditioned children ARE the security. Guild check-in: Thursdays.
+  Grelod's day: public AM -> training 2-6pm -> dinner performance -> kids abed by
+    8 -> ledger till midnight. Constance: up first, last to sleep.
+
+--- 5.5 THE KILL: CONSTRAINTS (solution is Orion's; do NOT suggest) ---
+  Suffering + liberation (Aventus): she suffers; kids know; public-ish.
+  Pipeline continues (Maven/Guild): Constance takes over; no disruption.
+  Enthrall via Ring (Valerius): Constance -> Court spy via the Ring.
+  (opt) Enthrall for self (Orion): innate power; hidden from Valerius (blind spots).
+  No heat on the Lanterns: beloved woman dies; Lanterns are in town.
+  GM-REF APPROACHES (don't pitch): (a) public exposure -> Jarl arrest/execution
+  (Guile 16 to present evidence; satisfies Aventus, kills pipeline, Maven enemy,
+  Brotherhood may call it failed); (b) silent kill + framing (no suffering, pipeline
+  preserved); (c) theatrical kill before the kids (Aventus's dream; traumatic but
+  free; Maven enemy); (d) middle path -- expose the training room publicly, then
+  quiet kill in the scandal (suffering + deniability).
+  MAVEN CONSTRAINT: Grelod is Maven's pipeline asset. Quiet death = Maven shrugs.
+  Public destruction = serious enemy who investigates. (Delvin warned him in the
+  Flagon.) [Optional: Orion can try to get Maven's BLESSING to remove Grelod -- the
+  Guile TN 18 diplomatic pitch -- during the sec 8 debrief. See there.]
+
+--- 5.6 THE ENTHRALLMENT (Constance, after the kill) ---
+  A) Via Ring (obey Valerius): she's the Court's. Perfect cover. Kids feed a
+     vampire lord intel. Orion gains nothing personal.
+  B) Own power (usurper; requires FULLY SATED): she's ORION's. Valerius blind to it
+     (the blind spots Orion just learned about) -- catastrophic if discovered.
+     Personal Riften spy network.
+  C) Don't enthrall: she runs a real home; children actually free. Valerius's order
+     disobeyed -- he notices eventually.
+  D) Via Ring + GOOD orders: obey Valerius AND make her protect the kids + report.
+     The "pragmatic" answer. Still mind control. Better than Grelod?
+
+--- 5.7 AFTERMATH ---
+  Quiet death (no exposure): Constance takes over; pipeline continues; Aventus
+    disappointed but accepts; Maven doesn't notice.
+  Exposed AND killed: scandal rocks Riften; Maven FURIOUS, loses the pipeline,
+    investigates (knows the Lanterns were in town); kids placed under Constance by
+    the Jarl; Aventus weeps -- "They're actually free."
+  Orion refuses: reverts to general assignment; another assassin does it messily;
+    Aventus enraged; Brotherhood notes the refusal; Grelod dies worse.
+
+--- 5.8 CHILDREN TO FOREGROUND (not props) ---
+  Hroar(14, bleeding-hand star pupil) / Runa(15, oldest, cracks if trusted, knows
+  Grelod's routine) / Samuel(13, child-spy, self-loathing) / Lucia(10, cellar,
+  fears the dark) / Sofie(9, grooming phase) / Jon(6, silent, Constance carries
+  him) / Yrsa(5, the kids' one protected thing).
+
+--- 5.9 GM NOTES ---
+  Don't rush -- multi-day investigation rewarded. Children are the stakes -- show
+  specific kids doing specific things. Constance has NO clean path. Aventus is
+  RIGHT; not a simple hit. Maven's wrath scales with exposure. EDGE: cart-Mila just
+  escaped child-abuse; tonight they walk a child-abuse factory; the Vow is live.
+  And the BJORN beats are the throughline -- even their anchor is fooled; that's
+  how total Grelod's cover is.
+
+
+#####################################################################
+6. ALFONSO'S BUSINESS: FORELHOST -- THE LAST REDOUBT
+   Dungeon. ~an hour south of Riften. Runtime 2-3 hrs. Alfonso is the star.
+   He ALREADY HAS the coordinates (the Meadery scene last session -- Peryite named
+   the Tears of Rahgot -> Forelhost). This is the PAYOFF. Antoine is NOT here --
+   gone to extract Alfonso's plague from a wounded Ulag.
+#####################################################################
+
+--- 6.0 DASHBOARD + INFECTION ---
+PREMISE: An ancient Dragon Priest tomb (mass-suicide site) repurposed as a sterile
+  bioweapons lab. The 4,000-year death-energy = a sterilization field that kills
+  all foreign biology = Antoine's natural clean room. The climax puzzle: enter
+  without breaching containment. Exposure is NOT optional -- only severity varies.
+WHO CAN BE INFECTED:
+  Alfonso -- IMMUNE (Peryite Lich; pathogens are his medium).
+  Saijah  -- TEMPORARY (Hircine's gift purges it in ~48h; feverish a day).
+  Davinia -- VULNERABLE (pathogen feeds on Restoration; the Crown makes her a host).
+  Orion   -- VULNERABLE (vampire metabolism; slow but harder to cure).
+  Ylva    -- RESISTANT (werewolf; sick, won't die).
+  Bjorn/Nora/Esbern/Varon/GEAR -- stay outside with the cart. Do not enter.
+REWARD TIER (Expert): ~2500g/player in reagents + intel; 2-3 rare items.
+SHORT REST DANGER: TN 7 outer tomb; TN 3 inside the lab (pathogen in the air).
+MAP: 1 Killing Field (ext) -> 2 Ossuary -> 3 Refinery -> 4 Containment Threshold
+  -> 5 Laboratory.
+(GM bridge: Esbern can give the historical context of Forelhost's mass suicide if
+  the party consults him before going.)
+
+--- 6.1 SECTION 1: THE KILLING FIELD (approach + guardian) ---
+>>READ: "The path crests the ridge: Forelhost, the Last Redoubt -- a fortress of
+  black stone fused into the mountain, walls angled like a clenched jaw. The
+  twenty-foot iron gate stands OPEN -- not broken. Opened, as if someone walked
+  out and never closed it. The ground between treeline and gate is wrong: shallow
+  snow over BONES. Hundreds of ancient Nord skeletons in corroded armor, rotted
+  siege ladders, rusted swords -- the Nordic army died OUTSIDE the walls, failing
+  to breach. Among the dead, three figures pace: skeletal warriors in Dragon Cult
+  robes, eye-sockets burning cold blue, patrolling the gate. They have done this
+  for four thousand years."
+INVESTIGATE:
+  - The battlefield (Magic TN 12): no blade wounds -- the army was POISONED. The
+    cult weaponized its own death. Forelhost was a bioweapons site from the start.
+  - The open gate: oiled hinges, used within months -- Antoine's entry point.
+  - The patrols (x3): fixed perimeter; attack anything entering; don't pursue past
+    the treeline.
+COMBAT -- THE ETERNAL WATCH:  DRAUGR SENTINEL x3 (TL1 Expert)
+  HP 30 ea | DR 6 | IMMUNE poison/disease/cold | WEAK fire (DOUBLE)
+  Might 17 / Agi 13 / Magic 15 / Guile 8
+  Attacks: Ancient Nord Greatsword (melee, 10 dmg); Frost Breath (15ft cone, 8
+    cold, Agi TN 15 half).
+  PASSIVE Undying Loyalty: at 0 HP collapses 1 round, then rises with 10 HP next
+    turn UNLESS burned or skull crushed (Might TN 14, or any fire to the downed body).
+  WIN IT: fight (finish with fire/skull-crush) / fire spells stop reassembly / or
+    sneak the patrol gap (Agi TN 14 vs Guile 8 -- easy).
+  LOOT: 3x Ancient Nord Greatsword (100g ea); 1x Dragon Cult Amulet on the lead
+    Sentinel (Magic TN 12 -- it's a KEY for sealed cult doors inside).
+EXIT: gate open; corridor descends; air stale, metallic, faint sweet chemical smell.
+
+--- 6.2 SECTION 2: THE OSSUARY (mass-suicide chamber; ward setup) ---
+>>READ: "The corridor opens into a cathedral of death -- a hundred feet across,
+  ceiling lost in shadow. Tiers of stone shelving hold BONES: thousands of
+  skeletons, whole families curled together, preserved by cold dry air. Not
+  scattered -- ARRANGED. Hands folded, heads facing center. They laid down and died
+  willingly. At the center, a stone altar bears a massive tarnished iron cauldron,
+  the air around it shimmering like heat-haze. Something radiates from the room:
+  not warmth, not cold -- ABSENCE. The air feels thin, sound is muffled, magic
+  harder to reach. On the far wall, a sealed stone door, recently modified -- fresh
+  mortar, a bolted brass mechanism, and a copper plate in neat modern hand:
+  'CONTAINMENT THRESHOLD. DO NOT BREACH WITHOUT PROTOCOL. THE WARD IS THE SEAL.'"
+INVESTIGATE:
+  - Arranged skeletons (Magic TN 12): poisoned, willingly; a religious mass suicide.
+  - Cauldron/shimmer (Magic TN 14): nexus of the death ward. 4,000 yrs of
+    concentrated death-energy = permanent anti-biological field; the most sterile
+    place in Skyrim. Antoine built his lab inside it.
+  - Sealed door: brass pressure-lock needs a sequence to open WITHOUT disrupting
+    the ward. Warning in Antoine's hand.
+  - Footprints: one person, boots; the most recent set goes ONE way -- OUT. He left
+    and hasn't returned. Days old.
+ALFONSO'S READ (no roll): "The ward is elegant. Thousands of deaths in one ritual
+  moment made a permanent sterilization field. Your prodigy didn't build a
+  laboratory -- he found one fanaticism already built. He just added a door."
+  Alfonso learns: ward kills foreign biology; mechanism = safe access; FORCING it
+  releases what's inside; use the mechanism as designed.
+
+--- 6.3 SECTION 3: THE REFINERY (Antoine's mind; the journals) ---
+>>READ: "Three archways branch off, each modified -- old burial niches cleared
+  (bones stacked neatly -- methodical even with the dead) and replaced with
+  workstations. Alcove 1: a spotless distillation array, no dust. Alcove 2: a
+  library, a faintly glowing enchanted lamp, open journals in a small precise hand,
+  charcoal cell-diagrams pinned up. Alcove 3 smells sweet, organic, wrong -- sealed
+  jars of specimens in amber fluid, and a locked cabinet."
+INVESTIGATE:
+  - Alcove 1 Distillery (Magic TN 14): where he processes Tears of Rahgot into the
+    binding agent. Idle now; residue confirms the analysis.
+  - Alcove 2 Library: the research journals (below) -- primary intel.
+  - Alcove 3 Specimens: jars of Strain 1.0; locked cabinet (Agi TN 16) = 3 vials of
+    refined Tears of Rahgot extract (proof for Maven; fortune-grade).
+ANTOINE'S JOURNALS (Alfonso reads free; clinical, no emotion):
+  J1 "Methodology": the mass death made an ideal sterile workspace. Strain 1.0 in
+    Riften: 73% transmission, 89% lethality untreated, 94% WITH Restoration -- "Their
+    cure was my delivery system." ALSO holds the section-6.4 puzzle clue.
+  J2 "Observations on the Priestess": he watched Danica burn ~15 years of life to
+    cure Hemming. "Strain 2.0 must ensure the cure KILLS the curer." -> if Danica
+    ever cures this again, it may kill her.
+  J3 "Regarding the Wardens": he's ID'd Alfonso as a Peryite bioweapons platform.
+    Ulag was INFECTED at Korvanjund and retreated wounded to a fallback. Antoine is
+    DEPARTING to rendezvous with Ulag and extract the sample -- "plague as communion
+    grafted onto my sterile chassis = the perfect plague." -> Antoine is GONE; the
+    Strain 2.0 clock starts now.
+ALFONSO'S REACTION (GM direction): the professional insult. Antoine's method is
+  mathematically perfect and utterly godless -- no Peryite, no Namira, no communion.
+  To Alfonso this is blasphemy: he stripped the godhood out of pestilence.
+
+--- 6.4 SECTION 4: THE CONTAINMENT THRESHOLD (the puzzle; severity gate) ---
+MECHANISM: five vertical brass plates, each a Dragon Cult alchemical symbol; press
+  in the right order to peel the ward into a safe corridor. Wrong order -- or
+  forcing -- disrupts the ward.
+CLUE (J1): "shutdown follows thanatological order: Cessation, Cooling, Rigidity,
+  Decay, Dissolution. The living enter by REVERSING the process of dying."
+PLATES (top->bottom): 1 Spiral=Dissolution / 2 Branching=Decay / 3 Bar=Rigidity /
+  4 Wavy=Cooling / 5 Circle+line=Cessation.
+CORRECT SEQUENCE = reverse of dying = press 1,2,3,4,5 (top to bottom).
+TRANSLATION needs: Magic TN 14 (arcana) OR Esbern (if consulted) OR Alfonso (auto).
+OUTCOMES (set infection severity):
+  A) CORRECT (held): breathable corridor; LOW exposure (background). Davinia: mild
+     fever in 48h, weeks to cure. Orion: no symptoms ~a week, then Restoration-
+     resistance suppressed (sun more dangerous). Saijah: feverish a day. Alfonso: imm.
+  B) PARTIAL (2-3 right then wrong): unstable corridor leaks; MODERATE. Davinia:
+     fever 24h, cough 48h, 1-2 weeks to critical, can't safely heal. Orion: symptoms
+     in 3 days; sun + blood-thirst up. Saijah: sick 2-3 days. Alfonso: immune/offended.
+  C) BRUTE FORCE: ward collapses; ALL samples vent; SEVERE. Davinia: symptoms in
+     hours, DAYS not weeks, Restoration now actively dangerous. Orion: 24h to
+     compromised metabolism; the Ring burns cold -> Valerius notices. Saijah: very
+     sick 3-4 days, Hircine saves her -- now she OWES Him. Alfonso: immune, but the
+     pathogen is in the wind (environmental contamination), AND the outer Sentinels
+     stir -- exit becomes hostile.
+MOVES: Alfonso auto-solves -> Outcome A. Without him: Magic TN 16 from symbols
+  alone, or TN 14 to translate with the clue, or auto with both. Force: Might TN 16
+  / any magic attack on the door -> Outcome C.
+
+--- 6.5 SECTION 5: THE LABORATORY (reward + the big reveal) ---
+>>READ: "A circle of black stone, forty feet across, lit by steady white braziers
+  -- no flicker, no shadow. The air tastes of NOTHING. Advanced glass apparatus
+  rings the wall; sealed culture dishes in precise grids. At center, on a dais, a
+  massive Dragon Cult sarcophagus -- lid SHOVED aside, cracked, interior EMPTY,
+  ward-runes dark. The dust shows a large humanoid impression, arms crossed... and
+  then rising. Nearby, in a crescent of dark pulsing soil, crimson flowers WEEP
+  dark beads into the earth. On the central workstation, an open leather folder:
+  'Strain 2.0 -- Design Parameters. FOR MY EYES ONLY.'"
+INVESTIGATE:
+  - Tears of Rahgot (Magic TN 12): the extinct binding agent; grows only in this
+    death-soaked soil. Harvest 3 doses safely at Magic TN 14.
+  - Rahgot's sarcophagus (Magic TN 12): death-sleep runes deactivated FROM INSIDE
+    -- he woke on his own and walked out. THE BIG REVEAL.
+  - Carvings (Magic TN 14 / Alfonso auto) name FIVE death-sleeping priests:
+      Nahkriin the Guardian (vengeance; spymaster) / Vokun the Shadow (tactician,
+      siege) / Rahgot the Angry (fury; alchemist-priest -- THIS tomb) / Otar the Mad
+      (madness) / Morokei the Glorious (glory; archmage, strongest).
+    The five masks combine into a SIXTH -- KONAHRIK the Warlord. "When the World-
+    Eater returns, the faithful shall rise. When the five become one, the faithful
+    shall ASCEND." -> the priests have their OWN endgame (apotheosis); Alduin is
+    their vehicle, not their master.
+  ALFONSO (auto): "Rahgot was an alchemist-priest -- environmental warfare four
+    thousand years ago. Antoine isn't his apprentice; he's his SUCCESSOR. The
+    plagues aren't Antoine's project. They're Rahgot's. Antoine is the instrument."
+STRAIN 2.0 FOLDER (Alfonso free; others Magic TN 16):
+  Goals: self-propagating; waterborne + airborne + RESTORATION-transmissible ("a
+    healer who cures one becomes the vector for the next hundred").
+  Missing piece: the "divine frequency" -- to be extracted from Ulag on arrival.
+  Timeline: 6-8 weeks AFTER extraction. Antoine hasn't reached Ulag yet. Counter-
+    play: find Ulag first / intercept Antoine -> 2.0 never exists.
+LOOT: 3x Tears of Rahgot extract (500g ea; Alfonso may keep) / 3x sealed Strain 1.0
+  samples (500g ea to Maven; dangerous) / Strain 2.0 folder (priceless intel) /
+  Journals 1-3 (Maven evidence) / Master Alchemist's Apparatus (+2 to Alchemy Magic
+  rolls; 2000g) / 800g assorted reagents. ~2500g/player total + the Tears (unique).
+STRATEGIC CHOICE: take/destroy the Tears -> Antoine loses his binding agent; leave
+  them -> production continues.
+
+--- 6.6 GM NOTES ---
+  Alfonso is the star -- every room is a conversation between two virologists. The
+  infection is a hook, not a punishment (ties them to Antoine + Windhelm + Danica).
+  The empty sarcophagus is the session's biggest reveal: the GENERALS are awake with
+  their own apotheosis endgame. Maven's bounty: journals + culture samples + Tears =
+  overwhelming proof of the Meadery operation (feeds the sec 8 debrief).
+
+
+=====================================================================
+7. THE DANICA HANDOFF  (farewell; Krusp's ONLY interaction -- silent backup)
+=====================================================================
+Danica is NOT rejoining -- she left WITH KRUSP'S GROUP last session. This is a
+farewell. She seeks the Lanterns out before they ride, because she's a good person
+and there is unfinished business: the money.
+
+  THE MONEY: The ~10,000g bounty Maven paid was THE LANTERNS' pay -- Danica
+    collected it in their name. She returns ALL of it to them. She keeps only her
+    OWN cut, to fund her new road with Krusp's people. (If anyone challenges even
+    that, she hands it over too, without hesitation -- she will not be seen to take
+    what isn't hers.) -> brings the party to ~15k (see sec 10/11).
+  KRUSP: stands quietly behind her as backup. His ONLY interaction tonight. He
+    barely speaks. The message is his presence: he is her shield now, not theirs.
+    (If addressed: cold, professional -- "I told you at Kynesgrove what I thought.
+    Nothing's changed it. But this is her business.")
+  DAVINIA'S CHANCE: the opening for Davinia to try to give Danica the Amulet of
+    Mara -- the one Ismara will not let her deliver. LET HER TRY. GM EXPECTATION:
+    she will likely dig the hole deeper. The point isn't that it works -- it's that
+    she gets to reach, and we see what the Crown/Ismara and her own detachment do to
+    the attempt.
+  CONTEXT: last session Alfonso was unexpectedly KIND to Danica -- and told her he
+    thinks leaving is a mistake. That warmth can echo here.
+  Danica's door is "cracked to a paw print" -- she returns only on genuine self-
+    reckoning. She's harder now: chainmail over robes, Kynareth's light as a weapon.
+
+
+#####################################################################
+8. MAVEN DEBRIEF + PROMOTION  (Black-Briar Meadery office; NOT gated)
+   They already hold enough to fulfill what she hired them for (the Forelhost
+   location + the Meadery evidence chain). Running Forelhost first only strengthens
+   it (journals, culture samples, Tears). Maven points them to Hemming after.
+#####################################################################
+TRIGGER: a housecarl summons them -- "Lady Maven wishes to debrief you. Privately.
+  The Meadery." (Last session she offered 5,000g for actionable intel on the Dragon
+  Cult's Riften cell. They can now deliver it.)
+>>READ (the room): "Up a narrow stair to a door you didn't know existed: a small,
+  functional office. A heavy oak table buried in ledgers, trade-route maps,
+  correspondence under half the holds' seals. An iron lockbox bolted to the floor.
+  Maven at the head, no housecarls inside, no drink, no performance. The amused
+  matriarch is gone. This is the woman who runs Riften's criminal infrastructure,
+  working." Opening: "Sit. Show me what you found."
+PRESENTING THE INTEL (adapt to what they have):
+  - The location/name (minimum -- they have this now): a living Dragon Priest
+    (Rahgot) + his alchemist (Antoine) operating out of FORELHOST, an hour south,
+    who poisoned her Meadery (Tears of Rahgot binding agent). This alone satisfies
+    the contract.
+  - If they ran Forelhost: Antoine's journals (Riften deployment data, "the cure
+    was my delivery system"), sealed culture samples, the Strain 2.0 folder
+    (waterborne/airborne/Restoration-transmissible). Her hands go still at the
+    Rahgot name: "A Dragon Priest. Not a ruin. A living one... that views my family,
+    my city, and my operation as a petri dish."
+THE 5,000g BOUNTY: she counts it out of the lockbox. Debt settled.
+THE PROMOTION (the patron offer): "I don't fight wars with mercenaries I hire by
+  the job. Hunt Antoine and his master. Dismantle the operation. Bring me Antoine
+  ALIVE. In return, the Black-Briar family becomes your PATRON -- funding, safe
+  harbor in any hold my name reaches, my network (merchants, couriers, fences,
+  contacts Solitude to Windhelm), and protection. My enemies become yours. Yours
+  become mine. The Obsidian Lanterns become my hand. Deniable. Well compensated."
+  ACCEPT: +2,000g advance; a line of credit with Keerava (food/lodging on the
+    house in Riften); she keeps the Strain 2.0 folder, they keep the journals.
+  NEGOTIATE: operational independence (fine), right to refuse jobs (fine, but
+    she'll remember a no), transparency into her business (HARD no).
+  REFUSE: the 5,000g is still theirs ("you earned it"), but "doors that were open
+    are now merely... closed. Not locked. You'll feel the difference."
+  >> THE PROMOTION IS A GOLDEN CAGE. Once they're "her people," walking away is
+     political, refusing is political, and every secret they carry becomes leverage
+     if she ever learns it.
+OPTIONAL -- ORION'S GRELOD PITCH (Guile TN 18, Very Hard): if Orion frames Grelod's
+  removal as operational security (swap to the younger, "more manageable" Constance)
+  rather than a Brotherhood hit -- SUCCESS: Maven authorizes it ("Handle it.
+  Quietly. The children continue their education. If there's noise, I hold you
+  personally responsible. You advise me once -- that's a gift. Not twice."). This
+  solves Orion's whole tangle at once. If exactly 18: she asks how he knows what
+  the orphanage really is (2nd Guile TN 14 to deflect w/o revealing the Brotherhood
+  -- blame Krusp's investigation). FAIL: "Stay in your lane, Lantern." CRIT FAIL
+  (20): "Someone put you up to this. Who?" -- Guile TN 16 to recover or she starts
+  hunting the contract's source -> the Brotherhood -> the Lanterns' position in
+  Riften turns fragile. (Don't pitch this to the player; it's Orion's to find.)
+CLOSE: "Hemming wants to meet the people who sent the woman who saved his life.
+  He's sentimental. Indulge him. Ten minutes." -> section 9.
+
+
+#####################################################################
+9. HEMMING  (Black-Briar Manor; pure RP, no checks; Maven sends them here)
+#####################################################################
+>>READ (the room): "Up through the manor to a warm bedroom -- fire in the hearth,
+  juniper incense over the bitter undertone of healing poultices. Hemming Black-
+  Briar propped on a four-poster bed, late forties, Maven's sharp features softened
+  by a gentler temperament. Cheeks hollow, hands thin, skin waxy -- a man recently
+  near death, only now remembering how to be alive. But his eyes are clear, and
+  when he sees you he smiles -- real, glad, unguarded."
+DETAILS (if they look): a pressed wildflower from the memorial (Danica brought it);
+  a blanket on the bedside chair -- MAVEN slept there every night through the worst
+  (housecarl confirms reluctantly). Complicates her; doesn't redeem her.
+CONVERSATION BEATS:
+  Opening: "The Obsidian Lanterns. I needed to thank you. In person. You deserve
+    better than a letter."
+  His health: "A week ago I couldn't hold a cup. I'm not the man I was -- but I'm
+    alive, and a month ago that wasn't the expected outcome."
+  The plague: "It felt like being unmade from within. The worst part -- when the
+    healers tried, it got WORSE. The thing ate their compassion. Three priests
+    collapsed trying to save me."
+  On Danica (quiet, reverent; touches the flower): "And then she came. They told
+    her healing me would kill her. She knelt and didn't just cast a spell -- she
+    GAVE something. Her actual life, pouring in. The sickness screamed -- I heard it
+    in my blood -- and then it was gone. She was standing when she started. On the
+    floor when it ended. She aged. Years of her life. For me. I am a merchant's son.
+    I am not worth that. But she did it anyway."
+DRAMATIC IRONY (GM -- do NOT narrate): Davinia drove Danica away; Danica saved
+  Riften ALONE, using the Lanterns' name because it was still hers. Hemming thanks
+  them for "sending" her. Let every word land on Davinia. If anyone corrects the
+  record: "Then she's even braver than I thought... That doesn't change what I owe
+  you. You built the company that shaped her." (Worse for Davinia than the
+  misplaced gratitude.)
+THE GIFT -- HEMMING'S LETTER OF INTRODUCTION (personal signet, not the family crest):
+  MECHANIC: once per major city, present it to a grey-area NPC (Guild contact,
+  corrupt official, black-market merchant, reluctant informant) -> disposition flips
+  to FRIENDLY for one major interaction (critical info, restricted access, a rare
+  item, a refused favor). COST: every use permanently links the Lanterns to the
+  Black-Briar network in that city -- a leash they put on themselves.
+PARTING: "Watch over your priestess. Whatever she gave, she cannot give again. The
+  world doesn't make many of her. You're lucky to have her. So is Riften. So am I."
+GM NOTE: no checks. The most sincere person they've met -- not manipulating, not
+  leveraging. The knife is that they didn't earn it. Don't twist it; let it sit.
+  The Letter is a slow-burn reward -- it'll matter in three sessions, not tonight.
+
+
+=====================================================================
+10. BALIMUND'S INVESTMENT  (the money conflict)
+=====================================================================
+Balimund is now the party's trusted smith -- they spent heavily here last session.
+He pulls them aside with an actual business proposition.
+
+THE OPPORTUNITY: an old Skyforge-trained master two holds over has died, and his
+  estate is for sale -- technique-notes, specialized tools, and a stockpile of rare
+  ore that doesn't come to market twice in a lifetime. Balimund has the reputation
+  to claim first refusal but not the coin.
+WHY HE ASKS THEM (it makes sense): (1) they're his best customers by a mile --
+  nobody else brings him legendary-tier work, repeatedly; (2) he trusts them; (3)
+  he's a smith, not a financier -- he needs partners who'd ACTUALLY USE what the
+  purchase unlocks. Most of Skyrim never needs a master smith. The Lanterns need one
+  constantly. "I can't do this alone, and there's no one else I'd want holding the
+  other half of it."
+THE PAYOFF FOR THEM (three concrete returns):
+  1. SKILL NOW: funding it immediately unlocks his BURNT-SLOT RESTORATION (recover
+     ruined improvement slots on their gear) and puts BEST-IN-SKYRIM within reach
+     (can't fail an improvement; +1 to all improvement values).
+  2. REACH (the real hook): part of the expansion is apprentices + a courier
+     arrangement / a "Lantern mark" -- so they can commission master-grade work ON
+     THE ROAD, not just in Riften. They're about to leave for Windhelm/the Throat/
+     Bleak Falls; a Riften-only smith is nearly useless to a party that's never home.
+     This buys them a smith that follows them.
+  3. A STAKE: a small recurring cut of the expanded forge, and a permanent, grateful
+     master smith in their corner -- a CLEAN relationship asset, unlike Maven's leash.
+SMITH PROGRESSION (track cumulative spend at Balimund, investment counts toward it):
+  +5,000g cumulative  -> can RESTORE burnt improvement slots.
+  +10,000g beyond that -> best smith in Skyrim: cannot fail an improvement; all
+                          improvement values +1.
+THE CONFLICT: the buy-in (~5k) competes head-on with BJORN'S HORSE (5-10k, sec 11)
+  out of their ~15k, with reserves to consider. Gear power + reach vs. the Bjorn/
+  Mila relationship payoff vs. liquidity. There is no clean "do it all."
+
+
+=====================================================================
+11. CART DEPARTURE WITH BJORN  (session-ending beat)
+=====================================================================
+Bjorn at the cart. He represents the three options again and asks, plainly, which
+of the three they're going to. Then the Mable beat:
+
+  MABLE'S RETIREMENT: Mable was hurt badly after the dragon. Bjorn is retiring her
+    -- and he is NOT abandoning her: he'll take her back to his farm AFTER she's had
+    time to teach the new horse the ropes. He asks the Lanterns to pitch in for a
+    proper replacement.
+  HORSE ECONOMICS (stableman):
+    - A good horse: 5,000 minimum. (no haggling)
+    - Middle horse: 7,500. Stableman WILL haggle a bit on this one.
+    - The one Bjorn WANTS: 10,000. No haggling -- if they try, the stableman UPS it
+      by 100 per attempt.
+  PURPOSE (make it land): Bjorn's boundaries are REAL. He loves Mable, she's earned
+    her retirement, and he pays premium + KEEPS her rather than discarding her. If
+    he'll do all this for a hurt horse, imagine what he does the instant his line
+    about Mila is crossed. This is the proof-of-character that makes the Vow credible.
+
+  THE MONEY CRUNCH: horse (5-10k) + Balimund's investment (~5k, sec 10) + a reserve,
+    out of ~15k. They can't fully fund everything. What they choose says who they
+    are: the carter who protects the child, the long game on power, or the cushion.
+
+THEN: they ride out toward their chosen fire (likely after Grelod + Forelhost, but
+the table may cut any of it short -- improv the bridge). SESSION ENDS on departure.
+
+>> ON THE MOMENT THEY COMMIT TO A FIRE: narrate Krusp's True Wardens taking the
+   SECOND fire (+ its attrition) and apply the IGNORED third fire's world effect
+   (status doc VIII.2). The three fires:
+
+------------------------------------------------------------
+FIRE A -- WINDHELM BARRICADES  (Stormcloak soldier; Galmar begs Davinia)
+  PARTY PATH: Alfonso hijacks his own plague to raise a Stormcloak thrall-army;
+    seeks the Afflicted Conclave scripture (phylactery cure-lead); Orion runs the
+    Hroki contract; Davinia's lie to Galmar comes due.
+  KRUSP TAKES IT: he + Danica quarantine and purge with holy fire -- Danica
+    contracts the rot; her lungs are PERMANENTLY scarred.
+  IGNORED: Stormcloak army collapses; Windhelm sealed; the Cult claims ~5,000
+    corpses; the Empire takes Eastmarch.
+------------------------------------------------------------
+FIRE B -- THE BLEEDING STAIR  (Klimmek; 7,000 Steps, bleeding Waystones)
+  PARTY PATH: Saijah climbs; GAELEN the Root-Twister's INTRODUCTION at the Time-
+    Wound; her Kynareth-vs-Hircine choice forced; Bjorn-Dragonborn pressure near
+    High Hrothgar.
+  KRUSP TAKES IT: he shields the waystones -- a close hireling is caught in a
+    time-stutter and aged to dust.
+  IGNORED: Dagon clock jumps; the 7,000 Steps fracture into non-linear Deadlands
+    loops; the Way of the Voice closes. MOST cosmically dangerous to leave.
+------------------------------------------------------------
+FIRE C -- THE DRAGONSTONE / BLEAK FALLS BARROW  (Esbern's commission; Davinia's hook)
+  PARTY PATH: silent infiltration vs a THALMOR blockade; retrieve the Dragonstone;
+    Alfonso uncovers leads to Antoine's lab at FORELHOST (if not already run); opens
+    Alduin's Wall / Sky Haven Temple.
+  KRUSP TAKES IT: he secures the stone -- a young local guide is captured and
+    executed by the cult.
+  IGNORED: the stone is lost to a Cult retrieval; Sky Haven stays closed; the party
+    stays permanently reactive.
+------------------------------------------------------------
+
+
+=====================================================================
+12. OPEN THREADS (carry forward, not for tonight)
+=====================================================================
+  - Strain 2.0 clock: 6-8 weeks AFTER Antoine extracts from Ulag (not yet started).
+    Find Ulag / intercept Antoine to prevent it. Rahgot is AWAKE and traveling with
+    Antoine; the five-priest Konahrik apotheosis prophecy.
+  - Balimund progression: cumulative-spend thresholds now active (5k -> burnt-slot
+    restoration; +10k -> best in Skyrim). Track their total spend.
+  - If they accepted Maven's patronage: the golden cage tightens; refusing her jobs
+    becomes political; their secrets become her leverage.
+  - Hemming's Letter of Introduction: one grey-area NPC per city flips Friendly;
+    each use entangles them with the Black-Briar network.
+  - Orion: the Constance enthrall choice (A/B/C/D) and whether he obeys or usurps
+    Valerius via the Ring's blind spots.
+  - Davinia: CDI 0.45; father's network alerted after the Solitude gate. (The Mara/
+    ebony-mace divine-attention thread lives in Davinia's arc sheet -- not yet live.)
+  - Alfonso Deep Rust: Stage 1 (3-4 segments), pushed by the triple-beam vs
+    Krosulhah; Surface Rust = spell fuel, resets on rest.
+  - Saijah: Hircine's "free trial" senses; the Kynareth/Hircine crossroads; the
+    Ylva rivalry. Holds both Hawk tokens.
