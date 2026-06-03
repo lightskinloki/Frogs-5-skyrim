@@ -499,14 +499,14 @@ EXIT: gate open; corridor descends; air stale, metallic, faint sweet chemical sm
   the air around it shimmering like heat-haze. Something radiates from the room:
   not warmth, not cold -- ABSENCE. The air feels thin, sound is muffled, magic
   harder to reach. On the far wall, a sealed stone door, recently modified -- fresh
-  mortar, a bolted brass mechanism, and a copper plate in neat modern hand:
+  mortar, a bolted copper mechanism, and a copper plate in neat modern hand:
   'CONTAINMENT THRESHOLD. DO NOT BREACH WITHOUT PROTOCOL. THE WARD IS THE SEAL.'"
 INVESTIGATE:
   - Arranged skeletons (Magic TN 12): poisoned, willingly; a religious mass suicide.
   - Cauldron/shimmer (Magic TN 14): nexus of the death ward. 4,000 yrs of
     concentrated death-energy = permanent anti-biological field; the most sterile
     place in Skyrim. Antoine built his lab inside it.
-  - Sealed door: brass pressure-lock needs a sequence to open WITHOUT disrupting
+  - Sealed door: copper pressure-lock needs a sequence to open WITHOUT disrupting
     the ward. Warning in Antoine's hand.
   - Footprints: one person, boots; the most recent set goes ONE way -- OUT. He left
     and hasn't returned. Days old.
@@ -546,7 +546,7 @@ ALFONSO'S REACTION (GM direction): the professional insult. Antoine's method is
   To Alfonso this is blasphemy: he stripped the godhood out of pestilence.
 
 --- 6.4 SECTION 4: THE CONTAINMENT THRESHOLD (the puzzle; severity gate) ---
-MECHANISM: five vertical brass plates, each a Dragon Cult alchemical symbol; press
+MECHANISM: five vertical copper plates, each a Dragon Cult alchemical symbol; press
   in the right order to peel the ward into a safe corridor. Wrong order -- or
   forcing -- disrupts the ward.
 CLUE (J1): "shutdown follows thanatological order: Cessation, Cooling, Rigidity,
@@ -591,7 +591,7 @@ INVESTIGATE:
         1. Containment: Containment cage drops from the ceiling, sealing the target inside.
         2. Extraction: Mechanical needles and extraction tubes deploy inside the cage, drawing the pathogen signature.
         3. Lab Security: Wall alcoves pop open, releasing 2-3 **False Draugr** immediately, and another 2-3 after 5 minutes (IRL).
-        4. IRL Timer: A **15-minute real-life timer** begins.
+        4. IRL Timer: A **5-minute real-life timer** begins. (Sterilization activates at the exact moment the second wave of False Draugr arrives, creating maximum pressure.)
         5. Sterilization: If the timer expires, the localized sterilization field drops inside the cage. For a normal PC, severe damage. For Alfonso, his physical body is dissolved. His soul retreats to his rapier phylactery.
       * Alfonso's Reformation Choice:
         * Immediate (Minutes): Reforms in the scene. **Deep Rust Clock jumps 2 stages**. Flakes of rust fall from the blade as he reconstitutes.
@@ -599,7 +599,7 @@ INVESTIGATE:
         * Slow (Days): Reforms in 2-3 days. No rust stage advancement.
     
     COMBAT: THE FALSE DRAUGR (LAB SECURITY)
-      * **FALSE DRAUGR x4-6** (TL 1-2 Expert) HP: 35 | DR: 5 (Hardened tissue + brass)
+      * **FALSE DRAUGR x4-6** (TL 1-2 Expert) HP: 35 | DR: 5 (Hardened tissue + copper)
         * Immune: Poison, Disease, Cold, Fear, Alfonso's plague-communion (these are alchemical constructs, not true undead).
         * Weak: Fire (DOUBLE damage), Sonic/Thunder (Staggered for 1 round).
         * Stats: Might 15 / Agility 10 / Magic 6 / Guile 4
