@@ -582,8 +582,29 @@ MOVES: Alfonso auto-solves -> Outcome A. Without him: Magic TN 16 from symbols
   dark beads into the earth. On the central workstation, an open leather folder:
   'Strain 2.0 -- Design Parameters. FOR MY EYES ONLY.'"
 INVESTIGATE:
-  - Tears of Rahgot (Magic TN 12): the extinct binding agent; grows only in this
-    death-soaked soil. Harvest 3 doses safely at Magic TN 14.
+  - Tears of Rahgot (Magic TN 12) & Antoine's Containment Trap:
+      * What they see: Crimson flowers growing in dark, pulsing soil. Magic TN 12 reveals these are the Tears of Rahgot—the extinct binding agent. The weeping crimson liquid is the concentrated toxin Antoine uses.
+      * The Trap (Antoine's Design): Antoine designed an automated sampling station to contain the intruder, extract their pathogen signature, and then sterilize the container (annihilating the subject's body).
+      * Trigger: Physical contact (touch) with the Tears of Rahgot flower or the soil of the dais trigger zone.
+      * The Foresight Bypass: Mage Hand or telekinesis avoids touch. Harvesting from below/outside the dais bypasses the trigger. Agility TN 18 (Very Hard) to physically disable the drop mechanism. Alfonso directing another PC to use long alchemical tongs without contacting the dais.
+      * The Trap Sequence (If Triggered):
+        1. Containment: Containment cage drops from the ceiling, sealing the target inside.
+        2. Extraction: Mechanical needles and extraction tubes deploy inside the cage, drawing the pathogen signature.
+        3. Lab Security: Wall alcoves pop open, releasing 2-3 **False Draugr** immediately, and another 2-3 after 5 minutes (IRL).
+        4. IRL Timer: A **15-minute real-life timer** begins.
+        5. Sterilization: If the timer expires, the localized sterilization field drops inside the cage. For a normal PC, severe damage. For Alfonso, his physical body is dissolved. His soul retreats to his rapier phylactery.
+      * Alfonso's Reformation Choice:
+        * Immediate (Minutes): Reforms in the scene. **Deep Rust Clock jumps 2 stages**. Flakes of rust fall from the blade as he reconstitutes.
+        * Moderate (Hours): Reforms by evening/next morning. **Deep Rust jumps 1 stage**.
+        * Slow (Days): Reforms in 2-3 days. No rust stage advancement.
+    
+    COMBAT: THE FALSE DRAUGR (LAB SECURITY)
+      * **FALSE DRAUGR x4-6** (TL 1-2 Expert) HP: 35 | DR: 5 (Hardened tissue + brass)
+        * Immune: Poison, Disease, Cold, Fear, Alfonso's plague-communion (these are alchemical constructs, not true undead).
+        * Weak: Fire (DOUBLE damage), Sonic/Thunder (Staggered for 1 round).
+        * Stats: Might 15 / Agility 10 / Magic 6 / Guile 4
+        * Attacks: Alchemical Blade (melee, 8 damage; Might TN 12 or suffer **Numbness** [-1 Agility for 2 rounds]); Restraining Grapple (melee, replaces attack; Might TN 15 contested, target is **Restrained** for 1 round).
+        * Behavior: They fight to **contain** rather than kill, attempting to grapple, pin, and hold targets to allow the sterilization sequence to run. They do not pursue outside the Laboratory.
   - Rahgot's sarcophagus (Magic TN 12): death-sleep runes deactivated FROM INSIDE
     -- he woke on his own and walked out. THE BIG REVEAL.
   - Carvings (Magic TN 14 / Alfonso auto) name FIVE death-sleeping priests:
@@ -845,25 +866,21 @@ hand. He lays out the three roads in his own blunt words and makes them choose.
     ropes first; you don't just throw a green horse at a road like ours. Which means
     we need a new horse. A good one. And a good one isn't cheap. I've put in every
     coin I've got. I'm asking the rest of you to cover the gap."
-  THE STABLEMAN (Hofgrir / stable by the gate) -- actual lines:
-    "Three worth your time. The bay, there -- five thousand, sound as stone, and
-      that's my floor, no haggling; anything cheaper won't last your kind of road.
-      The grey -- seventy-five hundred, and for a serious buyer I'll come down a
-      little. And the black mare --" [a fond look] "-- ten thousand, and not one
-      septim less. She's the best animal in the Rift and we both know it."
-    IF THEY HAGGLE THE BLACK MARE (the 10k -- the one Bjorn wants): "...Ten thousand
-      and one hundred. Would you care to insult her again?" (+100 each attempt.)
-    The grey (7,500) is the only one he'll actually haggle -- a point or two of
-      Guile/Barter knocks a few hundred off.
-  PURPOSE (make it LAND): Bjorn's boundaries are REAL. He loves Mable, she's earned
-    her rest, and he pays premium AND keeps her rather than discard her. If he'll do
-    all this for a hurt horse -- the players should feel exactly what he'll do the
-    instant his line about Mila is crossed. This is the proof-of-character that makes
-    the Vow no bluff.
+  THE STABLEMAN (Hofgrir / stable by the gate) -- CONSEQUENCES OF STABLES INCIDENT:
+    [Grief/Labor Tax: Hofgrir is grieving and short-handed after his stable boy was killed by the frenzied horse. Prices on all normal horses have jumped. The surviving girl witness is traumatized and has described the attack, which remains a quiet investigation thread.]
+    - The Bay: 6,500 gold (was 5,000). Hofgrir: "Sound as stone, but I need to hire new help now."
+    - The Grey: 9,000 gold (was 7,500). Can haggle down slightly with Guile/Barter.
+    - The Black Mare (the one Bjorn wants): 12,000 gold (was 10,000). Not one septim less. "Best animal in the Rift. If you try to haggle, the price goes UP by 100 gold each time."
+    - The Fury Horse: 1,500 gold. The horse Alfonso cast Fury on. Traumatized and skittish. Flinches at loud noises and blood; refuses riders who remind it of the dead boy. Hofgrir just wants this killer horse gone.
+  
+  BJORN'S LONELINESS BEAT & RELATIONSHIP PROGRESSION:
+    - Gated behind spending on a quality horse (The Grey or The Black Mare) for Bjorn. If they buy the cheap, traumatized Fury horse, this beat is locked.
+    - The Beat: During a quiet campfire or travel scene on the road, Bjorn opens up about how lonely he was during his forty years in the Rift. He admits he's terrified of his body de-aging and becoming the War-Hound, but he is genuinely glad for their company and wants to help them.
+    - Grelod fallout: Bjorn knows Grelod's true nature now (Davinia told him). He's past the denial and into a quiet, simmering fury. The flirtation at the inn is now a source of retroactive horror for him.
 
-  THE MONEY CRUNCH: horse (5-10k) + Balimund's investment (~5k, sec 10) + a reserve,
-    out of ~15k. They can't fully fund everything. What they choose says who they
-    are: the carter who protects the child, the long game on power, or the cushion.
+  THE MONEY CRUNCH: horse (1,500 - 12,000g) + Balimund's investment (~5k, sec 10) + a reserve,
+    out of ~15k. They cannot fund everything. The choice between buying Bjorn a quality mount vs. cheaping out on a traumatized beast reflects their care for the child's guardian.
+
 
 THEN: they ride out toward their chosen fire (likely after Grelod + Forelhost, but
 the table may cut any of it short -- improv the bridge). SESSION ENDS on departure.

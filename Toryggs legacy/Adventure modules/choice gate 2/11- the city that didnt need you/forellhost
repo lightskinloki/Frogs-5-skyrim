@@ -260,7 +260,37 @@ Between the workstations and the sarcophagus, in a crescent of dark soil contain
 On the central workstation, a leather-bound folder sits open. The handwriting is the same small, precise script from the journals. A note is pinned to the front page: 'Strain 2.0 ΓÇö Design Parameters. FOR MY EYES ONLY.'"
 Then improvise from: The silence. The white light. The empty sarcophagus gaping open like a mouth. The weeping flowers. The smell ΓÇö or rather the absolute absence of smell. This is the cleanest, most controlled space any of them have ever entered. It is also the most dangerous. And whatever ancient horror used to sleep at its center is now loose in the world.
 WHAT'S IN THIS ROOM
-The Tears of Rahgot (the weeping flowers): What they see: Crimson flowers growing in dark, pulsing soil. If they investigate (Magic TN 12): These are the Tears of Rahgot ΓÇö the extinct binding agent Alfonso identified through Peryite. They grow only in soil saturated with the blood and death-energy of Rahgot's congregation. The "tears" ΓÇö the weeping liquid ΓÇö is the concentrated floral toxin Antoine uses as his plague's binding agent. Harvesting them is straightforward but handling the extract requires alchemical skill (Magic TN 14 to safely collect 3 doses). Why planted here: Confirmation of Alfonso's investigation. Rare reagent. Also: beautiful and horrifying. Flowers watered by four thousand years of human death.
+The Tears of Rahgot (the weeping flowers) & Antoine's Containment Trap:
+  - **What they see**: Crimson flowers growing in dark, pulsing soil. Magic TN 12 reveals these are the Tears of Rahgot—the extinct binding agent. They grow only in soil saturated with the blood and death-energy of the Mass Suicide. The weeping crimson liquid is the concentrated toxin Antoine uses.
+  - **The Trap (Antoine's Design)**: Antoine predicted Alfonso (or another carrier) would come for these flowers. He designed an automated sampling station to contain the intruder, extract their pathogen signature, and then sterilize the container (annihilating the subject's body).
+  - **Trigger**: Physical contact (touch) with the Tears of Rahgot flower or the soil of the dais trigger zone.
+  - **The Foresight Bypass (Detecting/Disabling the Trap)**:
+    * *Signage*: Antoine has obviously labeled the workspace. He left the P.S. in J4 as a goad.
+    * *Structure*: Groove seams in the floor/ceiling indicate a cage drop (Agility TN 14 to spot). Alchemical extraction arrays are built above the dais (Magic TN 14 or Guile TN 16 to recognize).
+    * *Circumvention*: Mage Hand or telekinesis bypasses physical touch. Harvesting from below/outside the dais bypasses the trigger. Agility TN 18 (Very Hard) to physically disable the drop mechanism. Alfonso directing another PC to use long alchemical tongs without contacting the dais.
+  - **The Trap Sequence (If Triggered)**:
+    1. *Containment*: Containment cage drops from the ceiling, sealing the target inside (visible/audible but physically secure).
+    2. *Extraction*: Mechanical needles and extraction tubes deploy inside the cage, drawing the biological/divine pathogen signature (for Alfonso, this physically drains his essence).
+    3. *Lab Security*: Wall alcoves pop open, releasing 2-3 **False Draugr** immediately, and another 2-3 after 5 minutes (IRL).
+    4. *IRL Timer*: A **15-minute real-life timer** begins.
+    5. *Sterilization*: If the timer expires or the extraction completes, the localized sterilization field drops inside the cage.
+       - *For a normal PC*: Severe damage and injury.
+       - *For Alfonso*: The sterile field completely dissolves his body. His soul retreats to his rapier phylactery on the floor of the cage.
+  - **Alfonso's Reformation Choice**:
+    * *Immediate (Minutes)*: Reforms in the scene. **Deep Rust Clock jumps 2 stages**. Flakes of rust fall from the blade as he reconstitutes in front of the party.
+    * *Moderate (Hours)*: Reforms by evening/next morning. **Deep Rust jumps 1 stage**.
+    * *Slow (Days)*: Reforms in 2-3 days. No rust stage advancement (but misses the next choice).
+
+COMBAT: THE FALSE DRAUGR (LAB SECURITY)
+  - **FALSE DRAUGR x4-6** (TL 1-2 Expert) HP: 35 | DR: 5 (Hardened tissue + brass)
+    * *Immune*: Poison, Disease, Cold, Fear, Alfonso's plague-communion (these are alchemical constructs, not true undead).
+    * *Weak*: Fire (DOUBLE damage due to chemical preservatives), Sonic/Thunder (Staggered for 1 round).
+    * *Stats*: Might 15 / Agility 10 / Magic 6 / Guile 4
+    * *Attacks*:
+      - Alchemical Blade (melee): 8 damage. On hit, Might TN 12 or suffer **Numbness** (-1 Agility for 2 rounds).
+      - Restraining Grapple (melee, replaces attack): Might TN 15 contested. Target is **Restrained** for 1 round.
+    * *Behavior*: They fight to **contain** rather than kill. They will attempt to grapple, pin, and hold targets to allow the sterilization/extraction sequence to run. They do not pursue outside the Laboratory.
+
 Rahgot's sarcophagus (OPEN): What they see: A massive stone sarcophagus, lid shoved aside, interior empty. Ward-runes dark. A body-impression in the dust. If they investigate (Magic TN 12): The ward-runes were a death-sleep preservation system ΓÇö keeping the occupant in suspended animation for millennia. They were deactivated deliberately, from the inside. Whatever was in here woke up on its own and walked out. The dust impression shows a large humanoid form wearing a mask. The sarcophagus carvings identify the occupant: Rahgot, Dragon Priest of the Last Redoubt.
 If they investigate further (Magic TN 14 or Alfonso automatic): The carvings around the sarcophagus tell a story. Dragon Priests were the mortal servants of the dragons during the Merethic Era ΓÇö men and women who ruled over human kingdoms as intermediaries between the dragon gods and their mortal subjects. They were granted immense power and near-immortality in exchange for absolute devotion. When the ancient Nords overthrew the Dragon Cult in the Dragon War, most priests were killed or sealed in their tombs in death-sleep.
 The carvings name FIVE priests who entered death-sleep rather than face destruction. Each has a title and a mask:
