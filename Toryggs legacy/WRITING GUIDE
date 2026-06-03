@@ -1,0 +1,202 @@
+FROGS 5 WRITING GUIDE
+For anyone -- human or AI -- writing prose for any FROGS 5 campaign.
+Read this before you write read-aloud text, in-world documents, or NPC dialogue.
+
+The principles and examples in sections I-IV and VI are project-agnostic; use them anywhere.
+Section V is one worked example drawn from Torygg's Legacy. Plain text; "--" stands in for an
+em-dash. (In Torygg's Legacy these rules are also summarized in AI_README section X.)
+
+=======================================================
+I. THE ONE PRINCIPLE: EVERY WORD IS STRUCTURAL
+=======================================================
+
+Maximum detail, minimum words. These do not conflict, because detail is information and
+filler is length wearing information's clothes.
+
+A word earns its place by changing the meaning of the sentence. The test is the cut: remove
+the word, and if the meaning holds, the word was doing no work -- leave it cut. Filler is not
+neutral. It buries the picture it claims to paint and inflates length with nothing.
+
+Each sentence builds on the one before it. The reader is assembling a mental model as they
+go; every sentence either adds to that model or muddies it. You earn a subversion only by
+first constructing the thing you subvert.
+
+Everything in sections II-V follows from this principle. They are the specific ways prose
+breaks it.
+
+=======================================================
+II. THE HARD BANS
+=======================================================
+
+--- 1. NEVER WRITE A PLAYER CHARACTER'S ACTIONS, CHOICES, OR REALIZATIONS ---
+
+Discovery belongs to the players at the table. Prep that makes a PC solve, read, deduce, or
+speak a discovery steals the reveal and the agency, and it feels terrible to the player whose
+character was just driven without them. We are capable writers; we never need this crutch.
+
+Write what is PRESENT (the object, the text, the evidence). Put what it MEANS in a separate
+GM-only block. Hand the players the thing; let them drive. A PC's expertise is an opening the
+GM offers live -- never a conclusion prep dictates.
+
+  BEFORE: She picks the lock, steps inside, and realizes the place was abandoned in a hurry.
+  AFTER:  The lock gives on the second pin. Inside, two drawers hang open and a chair lies on
+          its side; a half-packed satchel sits on the bed. [GM-only: someone left in a hurry.
+          Let the players read the room and say so; do not say it for them.]
+
+--- 2. "COLD" IS BANNED AS TEXTURE; SO ARE MOOD-WORDS USED AS FILLER ---
+
+"Cold" gets pasted onto everything -- the lid, the fire, the hate, the love. When everything
+is cold, the word means nothing and does no descriptive work. Watch the same way for "wrong,"
+"ancient," "eerie," "dread," "a presence," "an absence," "something radiates/pulses." These
+name a mood instead of building one.
+
+Earn the mood with one concrete, physical, specific detail.
+
+  BEFORE: The table is wrong somehow. A cold dread hangs over the cold remains of a meal.
+  AFTER:  Four chairs are pushed back from the table, and the bread on the plates has gone
+          green and hard.
+
+--- 3. DESCRIBE WHAT IS THERE; NEVER DESCRIBE BY WHAT ISN'T ---
+
+Subtractive negation injects context into the reader's model and then makes them delete it a
+breath later -- errant detail raised only to be discarded. It guarantees confusion and burns
+the reader's attention for nothing.
+
+State the positive fact.
+
+  BEFORE: The door wasn't forced. It was opened from the inside. No marks, no damage.
+  AFTER:  The door stands open, the bar lifted clear and leaned against the wall beside it.
+
+(There is one legitimate use of negation -- see section III.)
+
+--- 4. DO NOT INVENT CONNECTIONS THE STRUCTURE DOESN'T SUPPORT ---
+
+When two factions, threats, or plot threads are established as separate, do not link, contrast,
+or echo them to manufacture resonance. A character should not "brace" for one enemy inside
+another's content. Invented cross-connections break established canon and confuse players who
+are tracking those threads as distinct. If a connection is not already in the structure, it
+does not exist. (E.g., in Torygg's Legacy the Dragon Cult and the Dagon corruption are
+separate enemies -- never tie them together.)
+
+--- 5. NO OMNISCIENCE; DESCRIBE IN THE ORDER THINGS ARE PERCEIVED ---
+
+Writers reflexively hand characters and readers knowledge no one present could have -- duration,
+history, an actor's intent, the meaning of a thing rather than its appearance. They also
+describe out of sequence, reaching back to narrate a moment already passed. Both yank the
+reader off their feet.
+
+Only what is observable right now belongs in the read-aloud. Conclusions about history or
+intent belong in the GM-only note, drawn by the players if at all. And describe events in the
+order the characters meet them: if the text is read once the party is inside a room, do not
+narrate what they felt on the way in.
+
+  BEFORE: The heat hits you before you reach the door. The lamps have burned untended for a
+          century, and you know at once the owner left in no hurry.
+  AFTER:  The room is warm. The lamps burn straight and even. [GM-only: they have burned
+          untended for a century and the owner left unhurried -- let the players infer the
+          calm from the order of the place; state neither outright.]
+
+(Related: voice is a TELL. Keep an in-world document true to its writer; a private log should
+never explain things to an outsider for the reader's benefit.)
+
+=======================================================
+III. THE ONE LEGITIMATE NEGATION: ADDITIVE, NOT SUBTRACTIVE
+=======================================================
+
+"Not just X -- Y" works only when X is true, STAYS true, and Y stacks a deeper layer on top
+of it. The reader keeps both.
+
+  GOOD: "Not just filler, it is structural waste." Filler is real; waste is the truth built
+        above it. Both words do work, and the sentence escalates. This CONSTRUCTS the thing.
+
+The banned version asserts X only to erase it ("not cold, but ..."). That is destruction:
+it builds an understanding and then demands the reader tear it down.
+
+THE TEST: does the negated clause survive as true and get built on? Keep it. Is it raised
+only to be knocked down? Cut it and state the real thing alone. Most negation fails this
+test; default to stating Y by itself.
+
+=======================================================
+IV. CALIBRATION (the GM's stated preferences)
+=======================================================
+
+- READ-ALOUD AND IN-WORLD DOCS carry the strict standard. Mechanical text (stat blocks, GM
+  directions) may stay terse shorthand, held to clarity rather than cadence.
+- GM READ-OUTS STAY. Keep the read-aloud clean; put interpretation in a separate GM-only
+  block ("What this establishes"). The GM wants the facts fast and the prose uncluttered.
+- EARNED LYRICISM IS WELCOME. Figurative language and longer cadence are good wherever each
+  one carries something a plain sentence cannot. The economy rule still governs: a simile
+  that decorates is filler; a simile that conveys is structure.
+- EMOTION: lead with the concrete fact, then add a short GM-only cue for the intended feeling
+  and delivery. Show the evidence first; the one-line tone note rides underneath it.
+
+=======================================================
+V. WORKED EXAMPLE: AN EMPTY THRONE (from Torygg's Legacy)
+=======================================================
+
+The party reaches the chamber a powerful enemy woke in and walked out of. He is gone; they
+read him off what he left. The goal is to make them feel his strength, his patience, and his
+intent -- through present, observable evidence, with no one in the room.
+
+THE BEFORE (breaks rules 2, 3, and 5):
+  "The lid is thrown aside -- not lifted, THROWN, cracked against the dais by something that
+   did not need leverage. The cold here is not the ward's clean absence. It is the cold of
+   something that lay in the dark hating, with perfect patience, for four thousand years. The
+   braziers have stayed lit, and the heat reaches you before the doorway does. A line of
+   footprints crosses to the door -- the walk of a man crossing a room he owns -- and you are
+   certain that whatever rose from this box already knows you came."
+
+What's wrong:
+  - Rule 2: "cold" three times, carrying nothing; "hating" names a mood the prose never shows.
+  - Rule 3: "not lifted, THROWN," "did not need leverage," "not the ward's clean absence" all
+    describe by negation.
+  - Rule 5: "have stayed lit" (how do they know the duration?), "four thousand years" (same),
+    "the walk of a man crossing a room he owns" (an inference no one could read off footprints),
+    "already knows you came" (flat omniscience). "The heat reaches you before the doorway" is
+    out of sequence -- this is read once they are inside.
+
+THE AFTER (shows the same three things through what the eye reports, in order):
+  "The room is warm -- warm the way a forge stays warm hours after the smith has gone home.
+   The braziers burn straight and white over a floor swept clean. The sarcophagus stands open
+   at the center, its lid leaned against the dais: a slab of stone two hands thick, split
+   across the middle. A handprint is sunk into the underside, the fingers driven to the second
+   knuckle, the stone dimpled around them as though it had gone soft as tallow under the hand.
+   The dust inside the box holds a shape -- tall, on its back, arms folded, a mask over the
+   face, whole to the shoulders and broken there, where it sat up. From the foot of the dais a
+   line of footprints crosses the swept floor to the door, evenly spaced, each stride the
+   length of the last."
+  WHAT THIS ESTABLISHES (GM-only, for the GM to hold and the players to earn):
+  - The warmth, the lit braziers, the swept floor: the chamber is kept and recently used.
+  - The handprint on the lid's underside, fingers to the second knuckle: it pushed the lid off
+    from inside with one hand, hard enough to dent stone. Strength past mortal scale.
+  - The undisturbed dust holding a whole body: it lay still for an age, then rose.
+  - The even, unhurried, evenly-spaced footprints to the door: it left at a walk, in no hurry,
+    with somewhere to be -- the bearing of something that owns the room.
+  - Deliver quiet. This is the first room a true villain occupied; the party becomes people it
+    will remember. Lead with the warmth and the handprint.
+
+Why the AFTER works: every claim is something a person standing in the room can see -- the
+warmth, the print, the dust, the spacing of the prints. The conclusions the BEFORE stated
+outright (strength, patience, ownership, "he knows you came") moved into the GM-only note,
+where the players reach them or do not. It runs in order, all in the room, with no reach back
+to the approach. The forge simile stays because it carries a fact a plain word would miss --
+heat lingering from a source now gone; its old trailing clause ("the heat still pushing off
+the walls") was cut, because the simile already said it.
+
+=======================================================
+VI. THE SELF-CHECK PASS (run over every draft before it ships)
+=======================================================
+
+1. CUT-TEST. Remove each word and clause in turn. If the meaning holds, leave it cut.
+2. NEGATION. For every "not X": does X stay true and get built on? If it is raised only to be
+   deleted, cut it and state the real thing.
+3. PC AGENCY. Did I make a player character solve, read, realize, decide, or speak a
+   discovery? Convert it to present evidence plus a GM-only note on the meaning.
+4. MOOD-WORDS. Search for cold / wrong / ancient / eerie / dread / absence / presence /
+   "something." Replace each with a concrete detail or cut it.
+5. CONNECTIONS. Did I link two threads the structure keeps separate? Cut it.
+6. OMNISCIENCE. Did I state anything the characters present cannot perceive -- duration,
+   history, an actor's intent? Move it to the GM-only note. Is the description in the order
+   the characters meet it? Reorder to match.
+7. SHOW, DON'T INSTRUCT. The read-aloud shows; the feeling and the meaning live in the
+   GM-only note beneath it.

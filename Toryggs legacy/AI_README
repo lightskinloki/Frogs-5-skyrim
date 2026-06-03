@@ -283,6 +283,14 @@ X. WRITING RULES - HARD BANS (read this; these are not suggestions)
 These are recurring failure modes. They are structurally bad writing and they break the
 GM's table. Do not do them. If you catch one in existing prose, fix it.
 
+MASTER PRINCIPLE - EVERY WORD IS STRUCTURAL. Maximum detail, minimum words; these do not
+  conflict, because detail is information and filler is length wearing information's clothes.
+  A word earns its place by changing the meaning of the sentence. Cut it; if the meaning
+  holds, it was doing no work, so leave it cut. Filler buries the picture it pretends to
+  paint and inflates length with nothing. Aim every word at telling the reader something.
+  Each sentence builds on the one before it; you earn a subversion only by first constructing
+  the thing you subvert.
+
 RULE 1 - NEVER WRITE A PLAYER CHARACTER'S ACTIONS, CHOICES, OR REALIZATIONS.
   No "auto-solves." Discovery belongs to the players at the table, not to prep.
   BANNED: "[PC] reads it without a roll," "[PC] auto," "[PC] figures out / realizes /
@@ -320,6 +328,15 @@ RULE 3 - DESCRIBE WHAT IS THERE. NEVER DESCRIBE BY WHAT ISN'T.
   INSTEAD: state the positive fact.
   BEFORE: "The door wasn't forced. It was opened from the inside. No marks, no damage."
   AFTER:  "The door stands open, the bar lifted clear and leaned against the wall beside it."
+  THE ONE LEGITIMATE USE - ADDITIVE, NOT SUBTRACTIVE. "Not just X - Y" works only when X is
+    true, STAYS true, and Y stacks a deeper layer on top of it. "Not just filler, it is
+    structural waste": filler is real, waste is the truth built above it, and the reader
+    keeps both words doing work. This constructs the thing. The destructive version asserts
+    X only to erase it ("not cold, but ..."): it injects X into the reader's mental model,
+    then makes them delete the same X a breath later - errant context raised only to be
+    discarded, which guarantees confusion and cognitive churn.
+  THE TEST: does the negated clause survive as true and get built on? Keep it. Is it raised
+    only to be knocked down? Cut it and state the real thing alone.
 
 RULE 4 - DO NOT INVENT THEMATIC CONNECTIONS THE STRUCTURE DOESN'T SUPPORT.
   The Dragon Cult and the Dagon / Mythic Dawn corruption are SEPARATE enemies with separate
@@ -330,6 +347,17 @@ RULE 4 - DO NOT INVENT THEMATIC CONNECTIONS THE STRUCTURE DOESN'T SUPPORT.
 
 (Related, already enforced in the Antoine journals: voice is a TELL. Keep in-world documents
 true to their writer; never have a private log explain things to an outsider.)
+
+CALIBRATION (the GM's stated preferences):
+- THE READ-ALOUD AND IN-WORLD DOCS carry the strict standard above. Mechanical text (stat
+  blocks, GM directions) may stay terse shorthand, held to clarity rather than cadence.
+- GM READ-OUTS STAY. Keep the read-aloud clean and put interpretation in a separate GM-only
+  block ("What this establishes"). The GM wants the facts fast and the prose uncluttered.
+- EARNED LYRICISM IS WELCOME. Figurative language and longer cadence are good wherever each
+  one carries something a plain sentence cannot. The economy rule still governs: a simile
+  that decorates is filler; a simile that conveys is structure.
+- EMOTION: lead with the concrete fact, then add a short GM-only cue for the intended feeling
+  and delivery. Show the handprint first; the one-line tone note rides underneath it.
 
 
 =======================================================
