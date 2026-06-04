@@ -554,7 +554,8 @@ CLUE (J1): "shutdown follows thanatological order: Cessation, Cooling, Rigidity,
 PLATES (top->bottom): 1 Spiral=Dissolution / 2 Branching=Decay / 3 Bar=Rigidity /
   4 Wavy=Cooling / 5 Circle+line=Cessation.
 CORRECT SEQUENCE = reverse of dying = press 1,2,3,4,5 (top to bottom).
-TRANSLATION needs: Magic TN 14 (arcana) OR Esbern (if consulted) OR Alfonso (auto).
+TRANSLATION needs: Magic TN 14 (arcana), OR Esbern if consulted, OR Alfonso's player
+  claiming it as his domain (no roll, but HE reads it).
 OUTCOMES (set infection severity):
   A) CORRECT (held): breathable corridor; LOW exposure (background). Davinia: mild
      fever in 48h, weeks to cure. Orion: no symptoms ~a week, then Restoration-
@@ -568,19 +569,22 @@ OUTCOMES (set infection severity):
      sick 3-4 days, Hircine saves her -- now she OWES Him. Alfonso: immune, but the
      pathogen is in the wind (environmental contamination), AND the outer Sentinels
      stir -- exit becomes hostile.
-MOVES: Alfonso auto-solves -> Outcome A. Without him: Magic TN 16 from symbols
-  alone, or TN 14 to translate with the clue, or auto with both. Force: Might TN 16
-  / any magic attack on the door -> Outcome C.
+MOVES: put the clue + plates to the table and let them solve it. Translate via Magic TN 14
+  (Esbern, or Alfonso's player claiming it -- no roll, but HE reads the sequence). Clue +
+  translation -> they press 1,2,3,4,5 top to bottom -> Outcome A. No clue: TN 16 from symbols
+  alone. Force: Might TN 16 / any magic attack on the door -> Outcome C.
 
 --- 6.5 SECTION 5: THE LABORATORY (reward + the big reveal) ---
->>READ: "A circle of black stone, forty feet across, lit by steady white braziers
-  -- no flicker, no shadow. The air tastes of NOTHING. Advanced glass apparatus
-  rings the wall; sealed culture dishes in precise grids. At center, on a dais, a
-  massive Dragon Cult sarcophagus -- lid SHOVED aside, cracked, interior EMPTY,
-  ward-runes dark. The dust shows a large humanoid impression, arms crossed... and
-  then rising. Nearby, in a crescent of dark pulsing soil, crimson flowers WEEP
-  dark beads into the earth. On the central workstation, an open leather folder:
-  'Strain 2.0 -- Design Parameters. FOR MY EYES ONLY.'"
+>>READ: "A circle of black stone, forty feet across, lit by braziers burning steady
+  and white. The floor is seamless and swept; the air is sealed, still, and scentless,
+  sterile as a sealed jar. Glass apparatus rings the wall; sealed culture dishes in
+  precise grids. At center, on a dais, a Dragon Cult sarcophagus stands open, its lid
+  cracked aside. Heat comes off the dais across the room -- the one warm thing in a
+  mountain of grave-stone, like a hearth an hour after the fire is out. Nearby, crimson
+  flowers grow in dark soil that pulses as it drinks, their petals weeping dark beads.
+  On the central workstation, an open leather folder: 'Strain 2.0 -- Design Parameters.
+  FOR MY EYES ONLY.'"
+  (Sarcophagus close-up -- handprint, dust-shape, footprints -- is in 6.7 F.)
 INVESTIGATE:
   - Tears of Rahgot (Magic TN 12) & Antoine's Containment Trap:
       * What they see: Crimson flowers growing in dark, pulsing soil. Magic TN 12 reveals these are the Tears of Rahgot—the extinct binding agent. The weeping crimson liquid is the concentrated toxin Antoine uses.
@@ -607,7 +611,8 @@ INVESTIGATE:
         * Behavior: They fight to **contain** rather than kill, attempting to grapple, pin, and hold targets to allow the sterilization sequence to run. They do not pursue outside the Laboratory.
   - Rahgot's sarcophagus (Magic TN 12): death-sleep runes deactivated FROM INSIDE
     -- he woke on his own and walked out. THE BIG REVEAL.
-  - Carvings (Magic TN 14 / Alfonso auto) name FIVE death-sleeping priests:
+  - Carvings (Magic TN 14; or Alfonso's domain if his player claims it) name FIVE
+    death-sleeping priests:
       Nahkriin the Guardian (vengeance; spymaster) / Vokun the Shadow (tactician,
       siege) / Rahgot the Angry (fury; alchemist-priest -- THIS tomb) / Otar the Mad
       (madness) / Morokei the Glorious (glory; archmage, strongest).
@@ -615,10 +620,11 @@ INVESTIGATE:
     Eater returns, the faithful shall rise. When the five become one, the faithful
     shall ASCEND." -> the priests have their OWN endgame (apotheosis); Alduin is
     their vehicle, not their master.
-  ALFONSO (auto): "Rahgot was an alchemist-priest -- environmental warfare four
-    thousand years ago. Antoine isn't his apprentice; he's his SUCCESSOR. The
-    plagues aren't Antoine's project. They're Rahgot's. Antoine is the instrument."
-STRAIN 2.0 FOLDER (Alfonso free; others Magic TN 16):
+  FOR THE GM (Alfonso's domain -- offer it, don't speak it for him): the carvings place
+    Rahgot as an alchemist-priest of environmental warfare four thousand years ago, which
+    makes Antoine his successor rather than his inventor -- the plagues are Rahgot's, Antoine
+    the instrument. If Alfonso's player reaches it, let him land it.
+STRAIN 2.0 FOLDER (Alfonso's domain; others Magic TN 16):
   Goals: self-propagating; waterborne + airborne + RESTORATION-transmissible ("a
     healer who cures one becomes the vector for the next hundred").
   Missing piece: the "divine frequency" -- to be extracted from Ulag on arrival.
