@@ -545,7 +545,50 @@ ALFONSO'S REACTION (GM direction): the professional insult. Antoine's method is
   mathematically perfect and utterly godless -- no Peryite, no Namira, no communion.
   To Alfonso this is blasphemy: he stripped the godhood out of pestilence.
 
---- 6.4 SECTION 4: THE CONTAINMENT THRESHOLD (the puzzle; severity gate) ---
+PICK UP HERE NEXT TIME.
+
+=====================================================================
+NEXT SESSION -- run from here down. Self-contained; everything is below.
+Format: WRITING GUIDE + SESSION SHEET FORMAT. Ctrl+F the ## anchors to navigate.
+=====================================================================
+
+## RESUME  WHERE WE ARE, AND THE HIDDEN JOURNAL
+WHERE: inside Forelhost's inner tomb, in the refinery (the journals room).
+
+GM RECAP (a gist, ~30 seconds): last session they read Antoine's three journals and
+  came away with the door CLUE -- "reverse the process of dying" -- and a sealed toxin
+  sample taken from the Ossuary cauldron. Antoine is GONE, departed to extract a sample
+  from the wounded Ulag; the Strain 2.0 clock is running.
+  INSIDE: Davinia, Alfonso, Saijah, Orion.
+  OUTSIDE with the cart: Bjorn, Mila, Nora, Esbern, Varon, GEAR, Ylva.
+
+FIND: one book remains in the room, and its keeper never opens it -- a thin,
+  water-swollen old journal wedged under the short leg of the main workbench, leveling
+  it. A player who looks under the bench, or rocks the wobbling table, finds it.
+  GIST: "the oldest book here, and the one its keeper won't open."
+  HANDOUT -- the first Keeper, many generations back:
+    "Forty-one years tending the fire. I have buried my father and my wife and a son
+     who did not see his second winter, and I have kept the cauldron at heat through
+     all of it. I will set down the thing we keep out of the open ledgers, because I am
+     old and the boy is not yet old enough to be ruined by it. I have never heard the
+     god. Not in the smoke, not in the dark, not over my wife's grave when I begged Him
+     for one word. My father never heard Him. His father wrote the same, in the book
+     beneath this one, in a hand I can barely read. The first of us stayed because he
+     watched four thousand people drink and lie down, and he held his own cup in his
+     own hand, and his hand would not lift it. He called it duty by morning. We have
+     called it duty for four thousand years. It is the longest a family has ever been
+     afraid in one place. I keep the fire for the boy, so the work will mean something
+     when I put it in his hands. That is the whole of my faith, and I will pretend to
+     no more."
+  GM: the founding was inherited fear dressed as duty -- none of the line ever heard
+    their god. It makes Antoine's own crack (his confession, found in the lab) a family
+    inheritance. No mechanical gate; pure depth, and a reward for searching the room
+    before they move to the door.
+EXIT: the sealed door at the back of the ossuary. -> ## 6.4
+
+=====================================================================
+## 6.4  THE CONTAINMENT THRESHOLD  (the puzzle -- sets infection severity)
+=====================================================================
 MECHANISM: five vertical copper plates, each a Dragon Cult alchemical symbol; press
   in the right order to peel the ward into a safe corridor. Wrong order -- or
   forcing -- disrupts the ward.
@@ -574,7 +617,11 @@ MOVES: put the clue + plates to the table and let them solve it. Translate via M
   translation -> they press 1,2,3,4,5 top to bottom -> Outcome A. No clue: TN 16 from symbols
   alone. Force: Might TN 16 / any magic attack on the door -> Outcome C.
 
---- 6.5 SECTION 5: THE LABORATORY (reward + the big reveal) ---
+=====================================================================
+## 6.5  THE LABORATORY  (the reward room and the big reveal)
+=====================================================================
+WHERE: the inner sanctum, beyond the containment door.
+
 >>READ: "A circle of black stone, forty feet across, lit by braziers burning steady
   and white. The floor is seamless and swept; the air is sealed, still, and scentless,
   sterile as a sealed jar. Glass apparatus rings the wall; sealed culture dishes in
@@ -584,115 +631,158 @@ MOVES: put the clue + plates to the table and let them solve it. Translate via M
   flowers grow in dark soil that pulses as it drinks, their petals weeping dark beads.
   On the central workstation, an open leather folder: 'Strain 2.0 -- Design Parameters.
   FOR MY EYES ONLY.'"
-  (Sarcophagus close-up -- handprint, dust-shape, footprints -- is in 6.7 F.)
-INVESTIGATE:
-  - Tears of Rahgot (Magic TN 12) & Antoine's Containment Trap:
-      * What they see: Crimson flowers growing in dark, pulsing soil. Magic TN 12 reveals these are the Tears of Rahgot—the extinct binding agent. The weeping crimson liquid is the concentrated toxin Antoine uses.
-      * The Trap (Antoine's Design): Antoine designed an automated sampling station to contain the intruder, extract their pathogen signature, and then sterilize the container (annihilating the subject's body).
-      * Trigger: Physical contact (touch) with the Tears of Rahgot flower or the soil of the dais trigger zone.
-      * The Foresight Bypass: Mage Hand or telekinesis avoids touch. Harvesting from below/outside the dais bypasses the trigger. Agility TN 18 (Very Hard) to physically disable the drop mechanism. Alfonso directing another PC to use long alchemical tongs without contacting the dais.
-      * The Trap Sequence (If Triggered):
-        1. Containment: Containment cage drops from the ceiling, sealing the target inside.
-        2. Extraction: Mechanical needles and extraction tubes deploy inside the cage, drawing the pathogen signature.
-        3. Lab Security: Wall alcoves pop open, releasing 2-3 **False Draugr** immediately, and another 2-3 after 5 minutes (IRL).
-        4. IRL Timer: A **5-minute real-life timer** begins. (Sterilization activates at the exact moment the second wave of False Draugr arrives, creating maximum pressure.)
-        5. Sterilization: If the timer expires, the localized sterilization field drops inside the cage. For a normal PC, severe damage. For Alfonso, his physical body is dissolved. His soul retreats to his rapier phylactery.
-      * Alfonso's Reformation Choice:
-        * Immediate (Minutes): Reforms in the scene. **Deep Rust Clock jumps 2 stages**. Flakes of rust fall from the blade as he reconstitutes.
-        * Moderate (Hours): Reforms by evening/next morning. **Deep Rust jumps 1 stage**.
-        * Slow (Days): Reforms in 2-3 days. No rust stage advancement.
+
+GM: Rahgot is NOT here -- he woke, pushed out, and walks elsewhere. Run no Rahgot in
+  this room: no body, no avatar, no ambush. The party reads him off the marks he left
+  (the sarcophagus FIND below). The lab is sterile and still; the dais is the one warm
+  thing in it.
+FIND: the Tears of Rahgot (Magic TN 12) -- crimson flowers in dark, pulsing soil; the
+  extinct binding agent, their weeping liquid Antoine's concentrated toxin.
+  GM: this is also his harvest TRAP. Antoine built an automated station to cage an
+    intruding carrier, draw its pathogen signature, then sterilize the cage and destroy
+    the body. TRIGGER: touching the flower or the dais soil.
+  BYPASS: mage hand / telekinesis (no touch) | harvest from outside the dais | Agi TN 18
+    to disable the drop mechanism | long alchemical tongs that never touch the dais.
+  IF TRIGGERED:
+    1. A cage drops from the ceiling and seals the target inside.
+    2. Needles and tubes deploy in the cage, drawing the pathogen signature.
+    3. Wall alcoves open: 2-3 False Draugr now, 2-3 more after 5 minutes (IRL).
+    4. A 5-MINUTE REAL-LIFE TIMER starts; sterilization fires as wave 2 arrives.
+    5. Timer expires -> the field drops in the cage. Normal PC: severe damage. Alfonso:
+       body dissolved, soul retreats to his rapier phylactery.
+  ALFONSO REFORMS (his choice):
+    Immediate (minutes): reforms in the scene; Deep Rust +2 stages.
+    Moderate (hours): reforms by evening / next morning; Deep Rust +1 stage.
+    Slow (2-3 days): no rust advance (misses the next choice).
     
-    COMBAT: THE FALSE DRAUGR (LAB SECURITY)
-      * **FALSE DRAUGR x4-6** (TL 1-2 Expert) HP: 35 | DR: 5 (Hardened tissue + copper)
-        * Immune: Poison, Disease, Cold, Fear, Alfonso's plague-communion (these are alchemical constructs, not true undead).
-        * Weak: Fire (DOUBLE damage), Sonic/Thunder (Staggered for 1 round).
-        * Stats: Might 15 / Agility 10 / Magic 6 / Guile 4
-        * Attacks: Alchemical Blade (melee, 8 damage; Might TN 12 or suffer **Numbness** [-1 Agility for 2 rounds]); Restraining Grapple (melee, replaces attack; Might TN 15 contested, target is **Restrained** for 1 round).
-        * Behavior: They fight to **contain** rather than kill, attempting to grapple, pin, and hold targets to allow the sterilization sequence to run. They do not pursue outside the Laboratory.
-  - Rahgot's sarcophagus (Magic TN 12): death-sleep runes deactivated FROM INSIDE
-    -- he woke on his own and walked out. THE BIG REVEAL.
-  - Carvings (Magic TN 14; or Alfonso's domain if his player claims it) name FIVE
-    death-sleeping priests:
-      Nahkriin the Guardian (vengeance; spymaster) / Vokun the Shadow (tactician,
-      siege) / Rahgot the Angry (fury; alchemist-priest -- THIS tomb) / Otar the Mad
-      (madness) / Morokei the Glorious (glory; archmage, strongest).
-    The five masks combine into a SIXTH -- KONAHRIK the Warlord. "When the World-
-    Eater returns, the faithful shall rise. When the five become one, the faithful
-    shall ASCEND." -> the priests have their OWN endgame (apotheosis); Alduin is
-    their vehicle, not their master.
-  FOR THE GM (Alfonso's domain -- offer it, don't speak it for him): the carvings place
-    Rahgot as an alchemist-priest of environmental warfare four thousand years ago, which
-    makes Antoine his successor rather than his inventor -- the plagues are Rahgot's, Antoine
-    the instrument. If Alfonso's player reaches it, let him land it.
-STRAIN 2.0 FOLDER (Alfonso's domain; others Magic TN 16):
-  Goals: self-propagating; waterborne + airborne + RESTORATION-transmissible ("a
-    healer who cures one becomes the vector for the next hundred").
-  Missing piece: the "divine frequency" -- to be extracted from Ulag on arrival.
-  Timeline: 6-8 weeks AFTER extraction. Antoine hasn't reached Ulag yet. Counter-
-    play: find Ulag first / intercept Antoine -> 2.0 never exists.
-LOOT: 3x Tears of Rahgot extract (500g ea; Alfonso may keep) / 3x sealed Strain 1.0
-  samples (500g ea to Maven; dangerous) / Strain 2.0 folder (priceless intel) /
-  Journals 1-3 (Maven evidence) / Master Alchemist's Apparatus (+2 to Alchemy Magic
-  rolls; 2000g) / 800g assorted reagents. ~2500g/player total + the Tears (unique).
-STRATEGIC CHOICE: take/destroy the Tears -> Antoine loses his binding agent; leave
-  them -> production continues.
+STAT: False Draugr  x4-6  (TL1-2 Expert)
+  HP 35 | DR 5 (hardened tissue + copper)
+  Immune poison/disease/cold/fear/Alfonso's plague-communion (alchemical constructs)
+  Weak FIRE (x2 dmg) | Sonic/Thunder (staggered 1 round)
+  Might 15 | Agility 10 | Magic 6 | Guile 4
+  Atk Alchemical Blade -- melee, 8 dmg; Might TN 12 or Numbness (-1 Agi, 2 rounds)
+  Atk Restraining Grapple -- replaces attack; Might TN 15 contested -> Restrained 1 round
+  Behavior: fight to CONTAIN, not kill -- grapple and pin to let sterilization run; they
+    do not pursue outside the lab.
+--- FIND: THE OPEN SARCOPHAGUS (the first room a real villain occupied) ---
+>>READ (at the sarcophagus): "Up close the heat off the dais is plain on your face. The
+  lid leans against the stone, a slab two hands thick, split across the middle. A
+  handprint is sunk into the underside, the fingers driven to the second knuckle, the
+  stone dimpled around them as though it had gone soft as tallow under the hand. The dust
+  in the open box holds a shape -- tall, on its back, arms folded, a mask over the face,
+  whole to the shoulders and broken there, where it sat up. From the foot of the dais a
+  line of footprints crosses the swept floor to the door, evenly spaced, each stride the
+  length of the last."
+  GM (the marks read -- let the players reach it, or not): the handprint = strength past
+    mortal scale (he pushed the lid off one-handed, dented the stone). The undisturbed
+    dust holding a whole body = he lay still an age, then rose. The even footprints = he
+    left at an unhurried walk with somewhere to be, the bearing of something that owns the
+    room. Magic TN 12: the death-sleep runes were shut off FROM INSIDE -- he woke himself
+    and walked out. This is the party's first proximity to a true Dragon Priest; they are
+    now someone he will remember. He is Rahgot the Angry, the Avenger; his want is 4,000
+    years of vengeance on the bloodline that besieged this fortress (his coming Scourge).
+    The science is Antoine's; the want is his.
 
---- 6.6 GM NOTES ---
-  Alfonso is the star -- every room is a conversation between two virologists. The
-  infection is a hook, not a punishment (ties them to Antoine + Windhelm + Danica).
-  The empty sarcophagus is the session's biggest reveal: the GENERALS are awake with
-  their own apotheosis endgame. Maven's bounty: journals + culture samples + Tears =
-  overwhelming proof of the Meadery operation (feeds the sec 8 debrief).
+--- FIND: THE CARVINGS (Magic TN 14; or Alfonso's domain, no roll) ---
+  Five death-sleeping priests, each with a mask:
+    Nahkriin the Guardian -- vengeance; spymaster.
+    Vokun the Shadow -- tactician, siege.
+    Rahgot the Angry -- fury; alchemist-priest (this tomb).
+    Otar the Mad -- madness.
+    Morokei the Glorious -- glory; archmage, the strongest.
+  The five masks combine into a SIXTH: KONAHRIK the Warlord. "When the World-Eater
+  returns, the faithful shall rise. When the five become one, the faithful shall ASCEND."
+  THE REVEAL: the priests have their OWN endgame -- apotheosis. Alduin is their vehicle,
+  not their master.
+  GM (Alfonso's domain -- offer it, don't speak it for him): the carvings place Rahgot as
+    an alchemist-priest of environmental warfare, which makes Antoine his successor, not
+    his inventor -- the plagues are Rahgot's, Antoine the instrument. If Alfonso's player
+    reaches it, let him land it.
 
---- 6.7 THE LINEAGE LAYER (better lore drops -- full text in the forellhost doc) ---
-REFRAME: Rahgot exempted ONE man from the mass suicide -- his Chief Alchemist -- and set
-  him to keep the machinery running till Alduin returns. 40 generations did it. Antoine was
-  born here. The dungeon is a bloodline's prison sentence -- AND the party's first time
-  standing in a room a real Dragon Priest occupied.
-  ** PLACEMENT: GATE (6.1) and OSSUARY (6.2) are FIXED -- already played, change nothing.
-     The journals room (6.3) is the current room, but its 3 journals were READ last session
-     -> open with a RECAP of them, then the ONE fresh find is the hidden journal (A). The
-     family quarters / confession / contractor letter / sarcophagus (B/C/D/F) live at/beyond
-     the containment door (6.4-6.5). The Davinia ledger (E) already happened in the Ossuary
-     -- tracker state, not a beat. **
-  ** WRITING: present what is THERE; never narrate a PC solving/reading/realizing. The
-     "what it establishes" notes are GM-only -- don't speak them as a PC's thought. **
-  A) THE HIDDEN ANCIENT JOURNAL (6.3, current room -- THE fresh find): a swollen old volume
-     wedged under the workbench's short leg, leveling it -- Antoine stands on the family's
-     oldest secret and won't open it. A Keeper generations back: "Forty-one years tending
-     the fire... I have never heard the god. My father never heard Him... The first of us
-     stayed because he held his own cup and his hand would not lift it. He called it duty by
-     morning. We have called it duty for four thousand years." -> founding = inherited fear
-     as duty; NONE of them ever heard the god. Players find it and open it themselves.
-  B) THE FAMILY QUARTERS (6.5, beyond the door): 40 wrapped bodies in niches oldest->fresh;
-     3 child-cots, rails worn smooth; a slate (alphabet + sigils, some letters backward);
-     the back niche open and swept, folded cloth ready -- the one Antoine cut for himself.
-  C) ANTOINE'S CONFESSION (6.5, loose page at his bench): "The carrier hears it... 40
-     generations served a god we only ever overheard." A true believer never answered, who
-     ENVIES the carrier communion. Present the page; if Alfonso's player reaches, it's his
-     mirror -- don't narrate his conclusion.
-  D) THE CONTRACTOR LETTER (6.5 maintenance file): ** Antoine kept the SLEEPING Ulag his
-     whole life to study him -- no ancient "rehearsal." ** The Ice-Shaper (built the casket,
-     moves minds): "Holding a mind in failing flesh is a nursemaid's work... Lifting a mind
-     out whole and seating it in a better frame is the work I have finished. The method began
-     in one body and now cares nothing which body it began in." Names METHOD + contractor
-     ONLY; no victim. Read FLAT. Audience-only irony.
-  E) DAVINIA & ISMARA -- MEMORY LEDGER (ALREADY HAPPENED last session in the Ossuary at the
-     cauldron; tracker only): Ismara filled the space freed by suppressing Davinia's one good
-     memory of her father with the biosafe-vial knowledge -> she made the containment fluently
-     and carries the sample now, never feeling the gap. TRACKER: grant 1 of 5; 4 more free
-     grants; then Ismara asks to suppress more; after that next yes she STOPS ASKING. Don't
-     telegraph -- the dread is retroactive. (No vial beat to run this session.)
-  F) THE OPEN SARCOPHAGUS (6.5): ** Rahgot is NOT here -- no body/avatar/ambush; the party
-     reads him off the marks he left. ** READ-ALOUD shows only what the eye reports: the room
-     is WARM (a forge gone cool slowly); braziers lit, floor swept; the stone lid split, a
-     handprint sunk to the second knuckle in its underside; the dust holds a masked figure
-     that lay folded then sat up; one line of footprints, evenly spaced, walks to the door.
-     The marks read (GM-only, players reach it or not): strength past mortal scale (pushed the
-     lid out one-handed, dented stone); lay still an age then rose; left at an unhurried walk,
-     somewhere to be -- the bearing of something that owns the room. He's the Angry, the
-     Avenger -- 4,000-yr vengeance vs the besiegers' bloodline (his Tier 3 Scourge); science is
-     Antoine's, the WANT is his. The party is now someone a Dragon Priest will remember.
+--- FIND: THE FAMILY QUARTERS (a side chamber off the sanctum) ---
+>>READ: "Forty niches are cut into the living rock, oldest at the door and freshest at
+  the back, and in each a body lies wrapped in oiled cloth, the wrappings darkening as the
+  rows march toward the entrance. Three cots stand against the back wall, each the length
+  of a child, the rails worn pale and smooth where small hands gripped them. A slate leans
+  on the last cot, chalked in two columns -- the alphabet down one side in big careful
+  letters, alchemical sigils down the other, a few of the letters drawn backward. The last
+  niche at the back stands open and swept, a folded cloth set ready at its head."
+  GM: generations born, taught, and buried here. The open swept niche is the one Antoine
+    cut for himself. This is where the hidden journal becomes a place.
+
+--- FIND: ANTOINE'S CONFESSION (a loose page at the main bench) ---
+  GIST: "a page in his hand, pressed harder than the tidy logs around it -- written to
+    no one."
+  HANDOUT:
+    "The carrier hears it.
+     I have read the Korvanjund reports three times. He does not calculate the lifecycle.
+     He does not infer it from the residue. He is TOLD it. The god speaks to him and he
+     answers, and his plagues are crude and undisciplined and alive in a way four thousand
+     years of my method has never once been.
+     Forty generations of my blood have served a god we only ever overheard. We built His
+     shape from what He left behind, the way you reconstruct a face from the dent it
+     pressed into clay. And this untaught thing speaks with what we have worshipped from
+     the far side of a sealed door.
+     I will extract what he was given. I will earn by labor what he was handed for nothing.
+     I must. The alternative is that my whole line kept faith for four thousand years with
+     a god who never once turned His head toward us."
+  GM: Antoine is a true believer who has never been answered, and he envies the carrier the
+    one thing it has for free -- communion. This is Alfonso's mirror. Present the page; do
+    not narrate Alfonso's conclusion.
+
+--- FIND: THE CONTRACTOR LETTER (the lab's maintenance file) ---
+  GM: Antoine kept the SLEEPING Ulag his whole life to study him -- there is no ancient
+    "rehearsal." The Ice-Shaper built the casket and moves minds. The letter names only the
+    METHOD and the contractor -- no victim. Read it FLAT; it is audience-only irony, a crumb
+    to pay off later.
+  HANDOUT -- the Ice-Shaper to Antoine:
+    "You have kept the Breaker's frame the way your father kept it and his father before
+     him, and called the keeping devotion. The frame was always the small problem. Holding
+     a mind in failing flesh is a nursemaid's work, and your family has done nursemaid's
+     work with great patience for a very long time.
+     Lifting a mind out whole and seating it in a better frame is the work I have spent
+     those same years finishing. It is finished. The method began in one body and now it
+     cares nothing for which body it began in. The vessel is a detail. The song is the
+     asset."
+  Antoine's margin note: "He will leave the day the keeping bores him. Rahgot knows.
+    Rahgot lets him. I am not told why."
+
+--- FIND: THE STRAIN 2.0 FOLDER (Alfonso's domain; others Magic TN 16) ---
+  Goals: self-propagating; waterborne + airborne + RESTORATION-transmissible ("a healer
+    who cures one becomes the vector for the next hundred").
+  Missing piece: the "divine frequency," to be extracted from Ulag on arrival.
+  Timeline: 6-8 weeks AFTER extraction. Antoine has not reached Ulag yet. Counter-play:
+    find Ulag first or intercept Antoine -> Strain 2.0 never exists.
+
+LOOT: 3x Tears of Rahgot extract (500g ea; Alfonso may keep) | 3x sealed Strain 1.0
+  samples (500g ea to Maven; dangerous) | Strain 2.0 folder (priceless intel) | Journals
+  1-3 (Maven evidence) | Master Alchemist's Apparatus (+2 Alchemy Magic; 2000g) | 800g
+  assorted reagents. ~2500g/player + the Tears (unique).
+STRATEGIC CHOICE: take or destroy the Tears -> Antoine loses his binding agent; leave them
+  -> his production continues. The party may not register they are choosing.
+
+DAVINIA / ISMARA -- LEDGER TRACKER (no beat to run; carry the state): last session, in the
+  Ossuary, Ismara filled the space freed by suppressing Davinia's one good memory of her
+  father with the biosafe-vial knowledge; Davinia made the containment fluently and carries
+  the sample, never feeling the gap. TRACKER: grant 1 of 5 spent; 4 more free grants, then
+  Ismara asks to suppress more; after that next yes she STOPS ASKING. Do not telegraph --
+  the dread is retroactive.
+EXIT: the long climb back down. -> ## 6.6
+
+=====================================================================
+## 6.6  THE DESCENT  (leaving Forelhost)
+=====================================================================
+The infection is now working at its set severity (the puzzle outcome). The Tears choice is
+live. Threads now pointing forward: Antoine -> Ulag (the Strain 2.0 clock); the Konahrik /
+apotheosis truth; the unplaced Ice-Shaper crumb; Alfonso's Deep Rust state; Davinia's
+ledger at 1 of 5.
+
+GM NOTES: Alfonso is the star -- the lab is a conversation between two virologists. The
+infection is a hook, not a punishment (it ties them to Antoine, to Windhelm, and to
+Danica). The empty sarcophagus is the night's biggest reveal: the generals are awake with
+their own apotheosis. Maven's bounty: the journals + the sealed culture samples + the Tears
+are overwhelming proof of the Meadery operation (feeds the Maven debrief).
+EXIT: down the mountain, back toward Riften. -> ## 7
 
 
 =====================================================================
