@@ -786,7 +786,7 @@ EXIT: down the mountain, back toward Riften. -> ## 7
 
 
 =====================================================================
-7. THE DANICA HANDOFF  (farewell; Krusp's ONLY interaction -- silent backup)
+## 7  THE DANICA HANDOFF  (farewell; Krusp = silent backup)
 =====================================================================
 Danica is NOT rejoining -- she left WITH KRUSP'S GROUP last session. This is a
 farewell. She seeks the Lanterns out before they ride, because she's a good person
@@ -835,12 +835,12 @@ robes, Kynareth's light worn like a weapon. Krusp stands a few paces behind her.
     return -- the monster being gentler to her than her own leader managed.
 
 
-#####################################################################
-8. MAVEN DEBRIEF + PROMOTION  (Black-Briar Meadery office; NOT gated)
-   They already hold enough to fulfill what she hired them for (the Forelhost
-   location + the Meadery evidence chain). Running Forelhost first only strengthens
-   it (journals, culture samples, Tears). Maven points them to Hemming after.
-#####################################################################
+=====================================================================
+## 8  MAVEN DEBRIEF + PROMOTION  (Black-Briar Meadery office; not gated)
+=====================================================================
+They already hold enough to satisfy the contract (the Forelhost location + the Meadery
+evidence chain). Running Forelhost only strengthens it (journals, culture samples,
+Tears). Maven points them to Hemming after.
 TRIGGER: a housecarl summons them -- "Lady Maven wishes to debrief you. Privately.
   The Meadery." (Last session she offered 5,000g for actionable intel on the Dragon
   Cult's Riften cell. They can now deliver it.)
@@ -891,9 +891,9 @@ CLOSE: "Hemming wants to meet the people who sent the woman who saved his life.
   He's sentimental. Indulge him. Ten minutes." -> section 9.
 
 
-#####################################################################
-9. HEMMING  (Black-Briar Manor; pure RP, no checks; Maven sends them here)
-#####################################################################
+=====================================================================
+## 9  HEMMING  (Black-Briar Manor; pure RP, no checks)
+=====================================================================
 >>READ (the room): "Up through the manor to a warm bedroom -- fire in the hearth,
   juniper incense over the bitter undertone of healing poultices. Hemming Black-
   Briar propped on a four-poster bed, late forties, Maven's sharp features softened
@@ -937,7 +937,7 @@ GM NOTE: no checks. The most sincere person they've met -- not manipulating, not
 
 
 =====================================================================
-10. BALIMUND'S INVESTMENT  (the money conflict)
+## 10  BALIMUND'S INVESTMENT  (the money conflict)
 =====================================================================
 Balimund is now the party's trusted smith -- they spent heavily here last session.
 He sets down his hammer when they come by, wipes his hands, and gets straight to it.
@@ -981,7 +981,7 @@ THE CONFLICT: the buy-in (~5k) competes head-on with BJORN'S HORSE (5-10k, sec 1
 
 
 =====================================================================
-11. CART DEPARTURE WITH BJORN  (session-ending beat)
+## 11  CART DEPARTURE WITH BJORN  (session-ending beat)
 =====================================================================
 Bjorn stands at the cart, Mila wrapped on the bench behind him, Mable's reins in
 hand. He lays out the three roads in his own blunt words and makes them choose.
@@ -1012,20 +1012,31 @@ hand. He lays out the three roads in his own blunt words and makes them choose.
     ropes first; you don't just throw a green horse at a road like ours. Which means
     we need a new horse. A good one. And a good one isn't cheap. I've put in every
     coin I've got. I'm asking the rest of you to cover the gap."
-  THE STABLEMAN (Hofgrir / stable by the gate) -- CONSEQUENCES OF STABLES INCIDENT:
-    [Grief/Labor Tax: Hofgrir is grieving and short-handed after his stable boy was killed by the frenzied horse. Prices on all normal horses have jumped. The surviving girl witness is traumatized and has described the attack, which remains a quiet investigation thread.]
-    - The Bay: 6,500 gold (was 5,000). Hofgrir: "Sound as stone, but I need to hire new help now."
-    - The Grey: 9,000 gold (was 7,500). Can haggle down slightly with Guile/Barter.
-    - The Black Mare (the one Bjorn wants): 12,000 gold (was 10,000). Not one septim less. "Best animal in the Rift. If you try to haggle, the price goes UP by 100 gold each time."
-    - The Fury Horse: 1,500 gold. The horse Alfonso cast Fury on. Traumatized and skittish. Flinches at loud noises and blood; refuses riders who remind it of the dead boy. Hofgrir just wants this killer horse gone.
+  THE STABLEMAN (Hofgrir, the stable by the gate) -- AFTER THE STABLES INCIDENT:
+  GM: Hofgrir is grieving and short-handed since his stable boy was killed by the
+    frenzied horse. Prices on all normal horses have jumped. The surviving girl witness
+    is traumatized and has described the attack -- a quiet investigation thread.
+  HORSES:
+    The Bay -- 6,500g (was 5,000). "Sound as stone, but I need to hire new help now."
+    The Grey -- 9,000g (was 7,500). Haggles down slightly with Guile/Barter.
+    The Black Mare (the one Bjorn wants) -- 12,000g (was 10,000). Not one septim less.
+      "Best animal in the Rift. Try to haggle and the price goes UP 100g each time."
+    The Fury Horse -- 1,500g. The horse Alfonso cast Fury on; traumatized and skittish,
+      flinches at loud noises and blood, refuses riders who remind it of the dead boy.
+      Hofgrir just wants this killer horse gone.
   
-  BJORN'S LONELINESS BEAT & RELATIONSHIP PROGRESSION:
-    - Gated behind spending on a quality horse (The Grey or The Black Mare) for Bjorn. If they buy the cheap, traumatized Fury horse, this beat is locked.
-    - The Beat: During a quiet campfire or travel scene on the road, Bjorn opens up about how lonely he was during his forty years in the Rift. He admits he's terrified of his body de-aging and becoming the War-Hound, but he is genuinely glad for their company and wants to help them.
-    - Grelod fallout: Bjorn knows Grelod's true nature now (Davinia told him). He's past the denial and into a quiet, simmering fury. The flirtation at the inn is now a source of retroactive horror for him.
+  BJORN'S LONELINESS BEAT (relationship progression):
+    GATE: spending on a quality horse (the Grey or the Black Mare). Buy the cheap Fury
+      horse and this beat is locked.
+    THE BEAT: on a quiet campfire or travel scene, Bjorn opens up about how lonely his
+      forty years in the Rift were. He admits he is terrified of his body de-aging into
+      the War-Hound, but he is genuinely glad for their company and wants to help them.
+    GRELOD FALLOUT: Bjorn knows Grelod's true nature now (Davinia told him). Past denial,
+      into a quiet, simmering fury -- the inn flirtation is retroactive horror to him.
 
-  THE MONEY CRUNCH: horse (1,500 - 12,000g) + Balimund's investment (~5k, sec 10) + a reserve,
-    out of ~15k. They cannot fund everything. The choice between buying Bjorn a quality mount vs. cheaping out on a traumatized beast reflects their care for the child's guardian.
+  THE MONEY CRUNCH: a horse (1,500-12,000g) + Balimund's investment (~5k, ## 10) + a
+    reserve, out of ~15k. They cannot fund everything. Buying Bjorn a quality mount vs.
+    cheaping out on a traumatized beast reflects their care for the child's guardian.
 
 
 THEN: they ride out toward their chosen fire (likely after Grelod + Forelhost, but
@@ -1096,7 +1107,7 @@ THEN: stop. Next session opens on the chosen fire (its own module). The two unch
 
 
 =====================================================================
-12. OPEN THREADS (carry forward, not for tonight)
+## 12  OPEN THREADS  (carry forward, not for tonight)
 =====================================================================
   - Strain 2.0 clock: 6-8 weeks AFTER Antoine extracts from Ulag (not yet started).
     Find Ulag / intercept Antoine to prevent it. Rahgot is AWAKE and traveling with
