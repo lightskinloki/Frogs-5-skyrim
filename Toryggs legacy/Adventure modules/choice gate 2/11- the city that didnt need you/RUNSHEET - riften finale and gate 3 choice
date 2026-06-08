@@ -608,8 +608,8 @@ FIND: one book remains in the room, and its keeper never opens it -- a thin,
   GM (if a player asks "what god?"): the Forelhost line served the DRAGON CULT's gods --
     the dragons and Alduin the World-Eater. They kept this tomb's machinery running across
     four thousand years for the World-Eater's return. The confession in the lab is the
-    other half: the "carrier" (Alfonso) HEARS his god; this family served theirs in silence
-    for forty generations.
+    other half: Alfonso, PERYITE'S CHOSEN, hears his god and is answered; this family served
+    theirs in silence for forty generations.
 EXIT: the sealed door at the back of the ossuary. -> ## 6.4
 
 =====================================================================
@@ -848,9 +848,9 @@ GM: Rahgot is NOT here -- he woke, pushed out, and walks elsewhere. Run no Rahgo
   thing in it.
 FIND: the Tears of Rahgot (Standard Magic roll) -- crimson flowers in dark, pulsing
   soil; the extinct binding agent, their weeping liquid Antoine's concentrated toxin.
-  GM: this is also his harvest TRAP. Antoine built an automated station to cage an
-    intruding carrier, draw its pathogen signature, then sterilize the cage and destroy
-    the body. TRIGGER: touching the flower or the dais soil.
+  GM: this is also his harvest TRAP. Antoine built it to take ALFONSO, but it springs on
+    whoever touches it: it cages them, runs its extraction, then the sterilization fires
+    (only lethal to Alfonso -- see IF TRIGGERED). TRIGGER: touching the flower or the dais soil.
   GM (if a player actively searches the flowers/dais for a trap): do NOT hand it out. The
     concealment is a genius's work; there is no easy detection. The tell was the journal
     (Antoine's J3 told them what not to touch -- his arrogance IS the trap). A player who
@@ -954,21 +954,25 @@ STAT: False Draugr  x4-6  (TL1-2 Expert)
   GIST: "a page in his hand, pressed harder than the tidy logs around it -- written to
     no one."
   HANDOUT:
-    "The carrier hears it.
+    "He is chosen.
      I have read the Korvanjund reports three times. He does not calculate the lifecycle.
-     He does not infer it from the residue. He is TOLD it. The god speaks to him and he
+     He does not infer it from the residue. He is TOLD it. His god speaks to him and he
      answers, and his plagues are crude and undisciplined and alive in a way four thousand
      years of my method has never once been.
      Forty generations of my blood have served a god we only ever overheard. We built His
      shape from what He left behind, the way you reconstruct a face from the dent it
-     pressed into clay. And this untaught thing speaks with what we have worshipped from
-     the far side of a sealed door.
-     I will extract what he was given. I will earn by labor what he was handed for nothing.
-     I must. The alternative is that my whole line kept faith for four thousand years with
-     a god who never once turned His head toward us."
-  GM: Antoine is a true believer who has never been answered, and he envies the carrier the
-    one thing it has for free -- communion. This is Alfonso's mirror. Present the page; do
-    not narrate Alfonso's conclusion.
+     pressed into clay. And this untaught thing is spoken to, and answers, and walks in the
+     favor we begged for and were never shown.
+     I will take what I can of his work and graft the life of it into mine. I will earn by
+     labor what he was given for nothing. I tell myself it can be done. The alternative is
+     that my whole line kept faith for four thousand years with a god who never once turned
+     His head toward us."
+  GM: Antoine is a true believer who has never been answered, and he envies Alfonso the one
+    thing Alfonso has for free -- a god that chose him and answers. This is Alfonso's mirror.
+    NOTE: Alfonso is PERYITE'S CHOSEN, never a "carrier" -- Peryite is a Daedra, not a disease
+    to extract. What Antoine covets is the living quality of Alfonso's plagues, and he
+    believes, with an engineer's arrogance, that he can graft it onto his own work. Present
+    the page; do not narrate Alfonso's conclusion.
 
 --- FIND: THE CONTRACTOR LETTER (the lab's maintenance file) ---
   GM: Antoine kept the SLEEPING Ulag his whole life to study him -- there is no ancient
@@ -994,8 +998,12 @@ STAT: False Draugr  x4-6  (TL1-2 Expert)
 --- FIND: THE STRAIN 2.0 FOLDER (Hard Magic roll, -4, to parse the technical content) ---
   Goals: self-propagating; waterborne + airborne + RESTORATION-transmissible ("a healer
     who cures one becomes the vector for the next hundred").
-  Missing piece: the "divine frequency," to be extracted from Ulag on arrival.
-  Timeline: 6-8 weeks AFTER extraction. Antoine has not reached Ulag yet. Counter-play:
+  Missing piece: his Strain is sterile and self-limiting -- it lacks the living, self-
+    propagating quality of Alfonso's plagues. Ulag was infected with Alfonso's strain at
+    Korvanjund; Antoine goes to harvest that living disease from Ulag's body and graft its
+    life onto Strain 2.0. (Whether a chosen's plague keeps its life once cut from the chosen
+    is Antoine's gamble -- he believes it will. He may be wrong.)
+  Timeline: 6-8 weeks AFTER the harvest. Antoine has not reached Ulag yet. Counter-play:
     find Ulag first or intercept Antoine -> Strain 2.0 never exists.
 
 LOOT: 3x Tears of Rahgot extract (500g ea; Alfonso may keep) | 3x sealed Strain 1.0

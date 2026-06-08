@@ -351,7 +351,7 @@ body("In the soil where the faithful fell, and in no other soil on Nirn, a flowe
 heading2("On Subjects")
 body("The soft world's book has a chapter where its author draws her line and is proud of it: she will not take from a thinking thing that was not already trying to kill someone. Keep her book for its recipes. Burn that chapter. ANIMA drawn from a thinking subject is richer than ANIMA from any beast, and a tomb of the faithful and a cell of the condemned are a larder. We do not pretend otherwise.")
 marginalia("a Keeper's hand, near the present",
-    "Should the work ever find a true carrier — one who hears his god in his own blood, whose plague is told to him and not reasoned out — he is the richest subject the craft will ever open. Do not waste him on a small working. Take everything. We may not get a second.")
+    "Should the work ever find one of a god's chosen — one who hears his god in his own blood, whose plague is told to him and not reasoned out — he is the richest subject the craft will ever open. Do not waste him on a small working. Take everything. We may not get a second.")
 
 heading2("The Scourge")
 body("The Scourge is the line's great work and Rahgot's weapon: plague made to a design, sown into water and air, that turns a living land toward dissolution. The whole of it rests on one cruelty the soft healers will never see coming, because it turns their own goodness against them.")
@@ -379,7 +379,7 @@ heading1("VIII.  Closing")
 body("You have the whole craft now, both halves — the half the soft world teaches and the half it fears. You know why it works and what it is for. You keep the fire. It was not meant to go out. The World-Eater will come and the faithful will rise, and on that morning the work will matter, and you will be ready, because someone read what the dead wrote and did not flinch.")
 attribution("— the First Keeper")
 marginalia("the last hand, recent, pressed hard into the page",
-    "The First believed every word of this. Forty generations have kept his fire and not one of us has heard the god he kept it for. I have read every page a hundred times. The craft is true. The recipes are true. The Stay has saved lives. The faith is the only part that was ever a lie, and it is the part he believed the most. I keep the fire because the work is real, and the work is the only thing that is.  — the carrier will hear it. I never have.")
+    "The First believed every word of this. Forty generations have kept his fire and not one of us has heard the god he kept it for. I have read every page a hundred times. The craft is true. The recipes are true. The Stay has saved lives. The faith is the only part that was ever a lie, and it is the part he believed the most. I keep the fire because the work is real, and the work is the only thing that is.  — the chosen hear their god. I never have.")
 
 # ---- save ----
 out_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Lore Books")
