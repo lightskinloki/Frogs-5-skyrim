@@ -1,6 +1,7 @@
 ALCHEMY GM REFERENCE
 Frogs-5-Skyrim System — For GM Use Only
-Companion document to: On the Doctrine of Essences (Lore Books)
+Companion document to: On the Doctrine of Essences (Lore Books, player-facing)
+Companion document to: The Keeper's Codex of the Last Redoubt (Lore Books, Forelhost version)
 Companion document to: Gear, Consumables, and the Forge (consumable values)
 
 
@@ -156,10 +157,17 @@ effect. It is survivable. It is not comfortable. If a player Rawcrafts something
 dangerous without any knowledge of what it is, feel free to apply 1 HP damage and describe
 it vividly. This is how early alchemists died. Make it feel like that.
 
-WHAT RAWCRAFT REVEALS (BY TIER)
-  Any character:       Primary Essence only.
-  Apprentice:          Up to two Essences.
-  Adept and above:     All Essences.
+WHAT RAWCRAFT REVEALS (GATED BY KNOWLEDGE, NOT RANK)
+  Alchemy is gated by what a character KNOWS, never by a skill rank. The tongue does not
+  improve with tier; the knowing does. In the tasting, a character reads the Essences
+  they have the knowledge to recognize:
+    Knows little of the essences:  the loudest (Primary) only.
+    Has studied the essences:      two at once.
+    Knows the essences cold:       every Essence the thing carries.
+  Adjudicate by what the character has actually learned -- study, a reference like the
+  Doctrine or the Codex, a teacher, prior use of that ingredient -- not by a number on a
+  sheet. A beginner feels only the loudest essence not because a seal is closed to them,
+  but because they have not yet learned to recognize the rest of what they already feel.
 
 
 ________________
@@ -199,9 +207,9 @@ ________________
 SECTION 4: THE INGREDIENT CATALOGUE
 
 ESSENCE TIER KEY
-  [P] = Primary      (dominant property, identifies via Rawcraft at any tier)
-  [S] = Secondary    (identifiable by Apprentice+)
-  [T] = Tertiary     (identifiable by Adept+)
+  [P] = Primary      (dominant property; the tasting gives this to anyone)
+  [S] = Secondary    (read by a character who has studied the essences)
+  [T] = Tertiary     (read by a character who knows the essences cold)
 
 All ingredient Essence listings are drawn from canonical Skyrim properties, mapped
 to the system's ten Essences. Effects that do not correspond to any of the ten Essences
@@ -270,10 +278,9 @@ Swamp Fungal Pod
                   overwhelming the nervous system, the opposite of its healing expression;
                   functionally it is AGILITAS applied adversely)
   CAECITAS [S]   (resist shock — concealment from electrical force maps here loosely)
-  GM NOTE: AGILITAS at very high concentration can paradoxically produce paralysis —
-  the flooding of speed-channels overwhelms the system. This is a lore-consistent
-  edge case. Serafine mentions this in passing in the Doctrine as an anomaly she has
-  never resolved to her satisfaction.
+  GM NOTE: AGILITAS at very high concentration can paradoxically produce paralysis --
+  the flooding of the speed-channels overwhelms the nervous system. Treat this as a
+  recognized edge case of the craft; it is also how Paralysis Poison is built (Section 9).
 
 Canis Root
   AGILITAS [P]   (fortify one-handed, paralysis — speed and precision)
@@ -755,8 +762,56 @@ CAN A PLAYER COAT A WEAPON WITH A HEALING POTION?
 ________________
 
 
+SECTION 10: THE FORELHOST STRAIN (THE SCOURGE)
+
+The Forelhost line's signature work, and the disease at the center of the Dragon Cult
+plague arc. The in-world account is in the Forelhost Codex (Lore Books); this is the
+mechanical adjudication.
+
+WHAT IT IS
+  An engineered VENITAS disease bound with the Tears of Rahgot so that it PROPAGATES --
+  it spreads from a victim to others by water, by air, by contact. It is not a poison
+  that stops at the one who took it.
+
+THE CRUELTY (what makes it deadly)
+  The Strain feeds on the cure. VITALIS poured into a sufferer -- a healer's Restoration,
+  a priest's mercy, a healing draught or spell -- does NOT fight it. It accelerates it.
+  MECHANICALLY: any VITALIS / Restoration healing applied to an infected creature advances
+  the infection one stage instead of helping. The kinder the hand, the faster the rot.
+  (This is why Hemming's healers collapsed; it is why Danica's cure worked only because
+  she poured her own life-force in directly rather than casting Restoration -- a gap the
+  Strain's next version is being redesigned to close.)
+  GM: a healer who does not know this will kill the patient trying to save them. Let that
+  land hard the first time. Knowing it -- which the Codex teaches -- is the cure-lead.
+
+THE KEEPER'S STAY (the antidote the Codex plants)
+  The Forelhost family's own emergency counter, recorded in a Codex margin. It does not
+  heal -- it STARVES the Strain of its binding and slows the body so the disease cannot
+  propagate faster than the flesh sheds it.
+  BUILT: GRAVITAS-heavy, NO VITALIS, designed against the Tears -- bind nothing, slow
+  everything. A practitioner with the Codex (or who reasons it from the Doctrine) and a
+  strong GRAVITAS source can brew it.
+  EFFECT: arrests the Strain in a living body -- the infection stops advancing while the
+  Stay holds. It is a STAY, not a cure: it buys time for a strong body to throw the disease
+  off on its own (GM: a daily Might roll while stayed for the robust, or simply narrative
+  time; the frail still need more). It will not save the already-dying.
+  COUNTERPLAY: the Stay is the party's real lead toward saving Windhelm, toward anyone
+  Davinia or Orion infect, and toward Danica if she is ever asked to cure this again.
+  Whoever learns alchemy from the Codex can make it. Reward that.
+
+DENYING IT AT THE SOURCE
+  The Tears of Rahgot are the binding agent; nothing else propagates the Strain. Taking or
+  destroying the Tears at Forelhost cripples Antoine's ability to make more (the party may
+  not register they are making this choice -- see the Forelhost runsheet).
+
+
+________________
+
+
 END OF DOCUMENT
 
 Cross-reference: Gear, Consumables, and the Forge (consumable ladder values)
-Cross-reference: On the Doctrine of Essences — Serafine Valdus (player-facing lore book)
-Cross-reference: Players Guide, Skill & Perk List (governing stats, tier definitions)
+Cross-reference: On the Doctrine of Essences -- Serafine Valdus (player-facing lore book)
+Cross-reference: The Keeper's Codex of the Last Redoubt (Lore Books) -- the Forelhost
+  family's dark in-world teaching text; carries the Strain lore and the Keeper's Stay (Sec 10)
+Cross-reference: Players Guide, Skill & Perk List (governing stats)
