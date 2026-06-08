@@ -789,9 +789,10 @@ HANDOUT -- THE WARDEN'S RITE (the door's rite; GM transcribes the marked line in
    to the living save the road walked backward. Lay your hand to the marks in their
    order, and falter not: first, the spiral; then the branching lines; then the
    straight bar; then the waving lines; and last, the circle struck through with a
-   line. So is the dying unmade, and so may a breathing soul pass. Stray from the
-   order, and the ward will keep you among the faithful, as it has kept them four
-   thousand years."
+   line. So is the dying unmade, and so may a breathing soul pass. Mark well: these
+   five govern more in this place than one door, and what their order wakes, their
+   order reversed will lay to rest. Stray from the order, and the ward will keep you
+   among the faithful, as it has kept them four thousand years."
   PUT IN ATMORAN (the load-bearing line): "the marks in order -- the spiral; the
    branching lines; the straight bar; the waving lines; the circle struck through."
    The framing lines may stay in Common. Translating the ordered list IS the solution:
@@ -859,29 +860,41 @@ FIND: the Tears of Rahgot (Standard Magic roll) -- crimson flowers in dark, puls
   BYPASS (for a player who suspects it): mage hand / telekinesis (no touch) | harvest from
     outside the dais | Very Hard Agility roll (-6) to disable the drop mechanism | long
     alchemical tongs that never touch the dais.
-  IF TRIGGERED:
-    1. A cage drops from the ceiling and seals the target inside.
-    2. Needles and tubes deploy in the cage, drawing the pathogen signature. (When the
-       extraction COMPLETES the field fires early -- so cutting it short buys time.)
-    3. Wall alcoves open: 2-3 False Draugr now, 2-3 more after 5 minutes (IRL).
-    4. A 5-MINUTE REAL-LIFE TIMER starts; the field fires as wave 2 arrives (or the
-       instant extraction completes, whichever comes first).
-    5. The field drops in the cage.
-       -- A LIVING PC caged: NOT harmed. The field annihilates foreign biology and undeath
-          only; a living body is just held and "cleaned" (surface-sterilized, stripped of
-          any contamination). Still locked in until freed.
-       -- ALFONSO caged: body unmade, soul retreats to his rapier phylactery on the cage
-          floor. He is the subject the trap was built for -- the only one it kills.
-  FREE THE CAGED (the counterplay -- THIS is the fight). The cage is mechanical, not
-    magical. Any ONE of these springs it, before or after the field fires:
-    - Disable the drop mechanism from outside: Very Hard Agility (-6) -- cut the linkage,
-      the cage releases (same mechanism as the bypass above).
-    - Brute the bars: Hard Might (-4) to bend a gap; a strong margin tears it open.
-      Repeatable.
-    - Cut the extraction tubes: Standard Agility -- stops the draw, kills the
-      "extraction completes" early-fire, buys the full timer.
-    The False Draugr exist to STOP this: they grapple and pin whoever goes for the cage or
-    the mechanism. Clearing or holding them is the price of the rescue.
+  IF TRIGGERED -- a cage drops and seals the target inside; needles/tubes deploy; the
+    lab's False Draugr activate as security (below). WHO is caged changes everything:
+    >> A NON-ALFONSO PC CAGED -- THE WARNING SHOT. The machine runs its FULL cycle at once,
+       fast: extraction, then the death-energy sterilization field (the SAME field as the
+       Ossuary platform Davinia crossed) fires within seconds. The living captive is NOT
+       harmed -- that field annihilates foreign biology and undeath only, so it just holds
+       and "cleans" them (surface-sterilized). The extraction draws nothing useful from a
+       living body. BUT the party watches the whole lethal sequence run start to finish, and
+       the point lands without a word: THAT WOULD HAVE KILLED ALFONSO. No kill-clock; free
+       them whenever (below).
+    >> ALFONSO CAGED -- as built, on a clock:
+       1. Extraction deploys, drawing on his living plague (invasive -- his body IS the prize).
+       2. Wall alcoves open: 2-3 False Draugr now, 2-3 more after 5 minutes (IRL).
+       3. A 5-MINUTE REAL-LIFE TIMER: the death-energy field fires as wave 2 arrives, OR the
+          instant extraction completes -- whichever first.
+       4. Field fires -> his body is unmade; soul retreats to his rapier phylactery on the
+          cage floor. He is the only one the field kills. -> REFORMS, below.
+  FREE THE CAGED -- THE RITE IS THE KEY (same lock as the door):
+    INTENDED SOLVE -- WALK IT BACKWARD. Antoine's rig bears the SAME five Dragon Cult marks
+      as the containment door, and the trap SET the cage by running the Warden's Rite forward
+      (1->5, the order they pressed to enter). Undo it by running the combination in REVERSE:
+      press 5,4,3,2,1 (circle-struck -> waving -> bar -> branching -> spiral). The lock
+      unwinds and the cage opens. No new translation -- a table that understood the door
+      knows the five marks cold; the only new idea is "do it backwards to undo it." (Reverse
+      is UNDOING the lock, like untying a knot last-knot-first -- not "walking the dying," so
+      it never contradicts the door's logic.)
+      GM: if Alfonso is the caged one he can SHOUT the answer (he decoded the door) but cannot
+      reach the external panel himself -- the rescue is on the others.
+    MESSY FALLBACKS (if they don't see the rite, or can't reach the panel):
+      - Cut the extraction tubes: Standard Agility -- stops the draw, removes the "extraction
+        completes" early-fire, buys the full timer.
+      - Brute the bars: Hard Might (-4) to bend a gap; a strong margin tears it open. Repeatable.
+      - Disable the drop mechanism: Very Hard Agility (-6).
+    The False Draugr exist to STOP all of this -- they grapple and pin whoever goes for the
+    panel, the bars, or the tubes. Clearing or holding them is the price of the rescue.
   ALFONSO REFORMS (only if HE was caged -- his choice):
     Immediate (minutes): reforms in the scene; Deep Rust +2 stages.
     Moderate (hours): reforms by evening / next morning; Deep Rust +1 stage.

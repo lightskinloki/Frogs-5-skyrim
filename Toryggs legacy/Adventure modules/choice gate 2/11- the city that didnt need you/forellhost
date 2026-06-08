@@ -266,19 +266,17 @@ The Tears of Rahgot (the weeping flowers) & Antoine's Containment Trap:
     * *Signage*: Antoine has obviously labeled the workspace. He left the P.S. in J4 as a goad.
     * *Structure*: Groove seams in the floor/ceiling indicate a cage drop (Agility TN 14 to spot). Alchemical extraction arrays are built above the dais (Magic TN 14 or Guile TN 16 to recognize).
     * *Circumvention*: Mage Hand or telekinesis bypasses physical touch. Harvesting from below/outside the dais bypasses the trigger. Agility TN 18 (Very Hard) to physically disable the drop mechanism. Alfonso directing another PC to use long alchemical tongs without contacting the dais.
-  - **The Trap Sequence (If Triggered)**:
-    1. *Containment*: Containment cage drops from the ceiling, sealing the target inside (visible/audible but physically secure).
-    2. *Extraction*: Mechanical needles and extraction tubes deploy inside the cage, drawing the biological/divine pathogen signature (for Alfonso, this physically drains his essence).
-    3. *Lab Security*: Wall alcoves pop open, releasing 2-3 **False Draugr** immediately, and another 2-3 after 5 minutes (IRL).
-    4. *IRL Timer*: A **5-minute real-life timer** begins. (Sterilization activates at the exact moment the second wave of False Draugr arrives, creating maximum pressure.)
-    5. *Sterilization*: If the timer expires or the extraction completes, the localized sterilization field drops inside the cage.
-       - *For a living PC*: NOT harmed. The field annihilates foreign biology and undeath only; a living body is simply held and "cleaned" (surface-sterilized, stripped of any contamination it was carrying). They remain locked in the cage until freed.
-       - *For Alfonso*: The sterile field completely dissolves his body. His soul retreats to his rapier phylactery on the floor of the cage. (This is the subject the trap was built for; he is the only one it kills.)
-  - **Freeing the Caged (the counterplay -- this IS the fight)**: The cage is mechanical, not magical. Any ONE of these springs it:
-    * Disable the drop mechanism from outside: Very Hard Agility (-6) to cut the linkage and release the cage (same mechanism as the bypass).
-    * Brute the bars: Hard Might (-4) to bend a gap; on a strong margin, tear it open. Repeatable.
-    * Cut the extraction tubes (Standard Agility): stops the draw, removing the "extraction completes" early-fire and buying the full timer.
-    The False Draugr exist to STOP all of this -- they grapple and pin whoever reaches for the cage or the mechanism. Clearing or holding them is the price of the rescue.
+  - **The Trap Sequence (If Triggered)**: A cage drops and seals the target inside; needles/tubes deploy; the lab's False Draugr activate as security. WHO is caged changes everything:
+    * **A NON-ALFONSO PC CAGED -- THE WARNING SHOT**: The machine runs its FULL cycle at once, fast -- extraction, then the death-energy sterilization field (the SAME field as the Ossuary platform Davinia crossed) fires within seconds. The living captive is NOT harmed: that field annihilates foreign biology and undeath only, so it merely holds and "cleans" them (surface-sterilized). The extraction draws nothing useful from a living body -- the prize was always Alfonso's living plague. BUT the party watches the entire lethal sequence execute start to finish, and the point lands without a word: **that would have killed Alfonso.** No kill-clock; they can free the captive whenever (below).
+    * **ALFONSO CAGED -- as built, on a clock**:
+      1. *Extraction*: needles/tubes deploy, drawing on his living plague (invasive -- his body IS the prize).
+      2. *Lab Security*: wall alcoves open: 2-3 **False Draugr** now, another 2-3 after 5 minutes (IRL).
+      3. *IRL Timer*: a **5-minute real-life timer** -- the death-energy sterilization field fires as the second wave arrives, OR the instant extraction completes, whichever comes first.
+      4. *Sterilization*: the field unmakes his body; his soul retreats to his rapier phylactery on the cage floor. He is the only one the field kills. -> Reformation, below.
+  - **Freeing the Caged -- THE RITE IS THE KEY (same lock as the door)**:
+    * **INTENDED SOLVE -- WALK IT BACKWARD**: Antoine's rig bears the SAME five Dragon Cult marks as the containment door, and the trap SET the cage by running the Warden's Rite forward (1->5, the order the party pressed to enter). Undo it by running the combination in REVERSE -- press 5,4,3,2,1 (circle-struck -> waving -> straight bar -> branching -> spiral). The lock unwinds; the cage opens. No new translation: a table that understood the door knows the five marks cold, and the only new idea is "do it backwards to undo it." (Reverse here is UNDOING the lock -- like untying a knot last-knot-first -- NOT "walking the dying," so it never contradicts the door's logic.) If Alfonso is the caged one, he can shout the answer (he decoded the door) but cannot reach the external panel -- the rescue is on the others.
+    * **MESSY FALLBACKS** (if they miss the rite or can't reach the panel): Cut the extraction tubes (Standard Agility -- stops the draw, removes the early-fire, buys the full timer) | Brute the bars (Hard Might, -4, to bend a gap; a strong margin tears it open; repeatable) | Disable the drop mechanism (Very Hard Agility, -6).
+    The False Draugr exist to STOP all of this -- they grapple and pin whoever reaches for the panel, the bars, or the tubes. Clearing or holding them is the price of the rescue.
   - **Alfonso's Reformation Choice**:
     * *Immediate (Minutes)*: Reforms in the scene. **Deep Rust Clock jumps 2 stages**. Flakes of rust fall from the blade as he reconstitutes in front of the party.
     * *Moderate (Hours)*: Reforms by evening/next morning. **Deep Rust jumps 1 stage**.
