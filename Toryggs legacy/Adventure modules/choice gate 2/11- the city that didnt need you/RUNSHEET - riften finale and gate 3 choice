@@ -861,25 +861,59 @@ FIND: the Tears of Rahgot (Standard Magic roll) -- crimson flowers in dark, puls
     alchemical tongs that never touch the dais.
   IF TRIGGERED:
     1. A cage drops from the ceiling and seals the target inside.
-    2. Needles and tubes deploy in the cage, drawing the pathogen signature.
+    2. Needles and tubes deploy in the cage, drawing the pathogen signature. (When the
+       extraction COMPLETES the field fires early -- so cutting it short buys time.)
     3. Wall alcoves open: 2-3 False Draugr now, 2-3 more after 5 minutes (IRL).
-    4. A 5-MINUTE REAL-LIFE TIMER starts; sterilization fires as wave 2 arrives.
-    5. Timer expires -> the field drops in the cage. Normal PC: severe damage. Alfonso:
-       body dissolved, soul retreats to his rapier phylactery.
-  ALFONSO REFORMS (his choice):
+    4. A 5-MINUTE REAL-LIFE TIMER starts; the field fires as wave 2 arrives (or the
+       instant extraction completes, whichever comes first).
+    5. The field drops in the cage.
+       -- A LIVING PC caged: NOT harmed. The field annihilates foreign biology and undeath
+          only; a living body is just held and "cleaned" (surface-sterilized, stripped of
+          any contamination). Still locked in until freed.
+       -- ALFONSO caged: body unmade, soul retreats to his rapier phylactery on the cage
+          floor. He is the subject the trap was built for -- the only one it kills.
+  FREE THE CAGED (the counterplay -- THIS is the fight). The cage is mechanical, not
+    magical. Any ONE of these springs it, before or after the field fires:
+    - Disable the drop mechanism from outside: Very Hard Agility (-6) -- cut the linkage,
+      the cage releases (same mechanism as the bypass above).
+    - Brute the bars: Hard Might (-4) to bend a gap; a strong margin tears it open.
+      Repeatable.
+    - Cut the extraction tubes: Standard Agility -- stops the draw, kills the
+      "extraction completes" early-fire, buys the full timer.
+    The False Draugr exist to STOP this: they grapple and pin whoever goes for the cage or
+    the mechanism. Clearing or holding them is the price of the rescue.
+  ALFONSO REFORMS (only if HE was caged -- his choice):
     Immediate (minutes): reforms in the scene; Deep Rust +2 stages.
     Moderate (hours): reforms by evening / next morning; Deep Rust +1 stage.
     Slow (2-3 days): no rust advance (misses the next choice).
-    
-STAT: False Draugr  x4-6  (TL1-2 Expert)
-  HP 35 | DR 5 (hardened tissue + copper)
-  Immune poison/disease/cold/fear/Alfonso's plague-communion (alchemical constructs)
-  Weak FIRE (x2 dmg) | Sonic/Thunder (staggered 1 round)
-  Might 15 | Agility 10 | Magic 6 | Guile 4
-  Atk Alchemical Blade -- melee, 8 dmg; Standard Might roll or Numbness (-1 Agi, 2 rds)
-  Atk Restraining Grapple -- replaces attack; contested Might roll (Hard, -4) -> Restrained
-  Behavior: fight to CONTAIN, not kill -- grapple and pin to let sterilization run; they
-    do not pursue outside the lab.
+
+STAT: False Draugr  x4-6  (TL1-2 Expert) -- ANTOINE'S OWN MAKE, NOT TRUE UNDEAD
+  WHAT THEY ARE: not Dragon Cult draugr. Antoine made these himself, alchemically aping
+    the rite that made Ulag -- and that rite is HJOLMAR ICE-SHAPER's tonal architecture
+    (a mind-PRESERVING process the Cult commissioned), NOT undeath and NOT draugr-craft.
+    Antoine is a chemist, not a tonal architect: he copies the body and cannot seat a
+    mind. Where Ulag is a 4,000-year genius awake inside the machine, these are empty --
+    obedient, utterly mindless shells. Dead tissue run on copper fittings (not Dwemer
+    brass) and preservative chemistry; too clean for a tomb, joints articulating a hair
+    wrong, like marionettes that almost pass for alive.
+  >> ALFONSO'S COMMUNION DOES NOTHING HERE. They carry no Dragon Cult death-magic
+    substrate, so he cannot commune with or commandeer them. His signature tool is dead
+    in this room -- the SECOND time Antoine neutralizes him (caged body + useless ability).
+    GM: let him try it and feel it fail; that blank is the point.
+  HP 35 | DR 5 (chemically hardened tissue + copper)
+  Immune poison/disease/cold/fear/Alfonso's plague-communion
+  Weak FIRE (x2 dmg -- the preservative is flammable) | Sonic/Thunder (staggered 1 round
+    -- disrupts the crude alchemical motor)
+  Might 15 | Agility 10 | Magic 6 | Guile 2 (near-zero -- there is no mind in here)
+  Atk Alchemical Blade -- melee, 8 dmg; Standard Might roll or Numbness (-1 Agi, 2 rds;
+    mild paralytic coating)
+  Atk Restraining Grapple (replaces attack) -- contested Might (Hard, -4) -> Restrained.
+    Multiple can pile on one target. This is the JOB: pin and hold, not kill (Antoine
+    wants live specimens and the party held off the extraction).
+  Behavior: contain, not kill. MINDLESS -- they run rigid scripts, do not adapt, do not
+    focus-fire cleverly; a feint, a lure, or bait works on them where it never would on
+    Ulag. They activate when the cage drops (part of the same system) and do not pursue
+    outside the lab.
 --- FIND: THE OPEN SARCOPHAGUS (the first room a real villain occupied) ---
 >>READ (at the sarcophagus): "Up close the heat off the dais is plain on your face. The
   lid leans against the stone, a slab two hands thick, split across the middle. A

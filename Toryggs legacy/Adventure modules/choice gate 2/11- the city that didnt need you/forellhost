@@ -272,22 +272,43 @@ The Tears of Rahgot (the weeping flowers) & Antoine's Containment Trap:
     3. *Lab Security*: Wall alcoves pop open, releasing 2-3 **False Draugr** immediately, and another 2-3 after 5 minutes (IRL).
     4. *IRL Timer*: A **5-minute real-life timer** begins. (Sterilization activates at the exact moment the second wave of False Draugr arrives, creating maximum pressure.)
     5. *Sterilization*: If the timer expires or the extraction completes, the localized sterilization field drops inside the cage.
-       - *For a normal PC*: Severe damage and injury.
-       - *For Alfonso*: The sterile field completely dissolves his body. His soul retreats to his rapier phylactery on the floor of the cage.
+       - *For a living PC*: NOT harmed. The field annihilates foreign biology and undeath only; a living body is simply held and "cleaned" (surface-sterilized, stripped of any contamination it was carrying). They remain locked in the cage until freed.
+       - *For Alfonso*: The sterile field completely dissolves his body. His soul retreats to his rapier phylactery on the floor of the cage. (This is the subject the trap was built for; he is the only one it kills.)
+  - **Freeing the Caged (the counterplay -- this IS the fight)**: The cage is mechanical, not magical. Any ONE of these springs it:
+    * Disable the drop mechanism from outside: Very Hard Agility (-6) to cut the linkage and release the cage (same mechanism as the bypass).
+    * Brute the bars: Hard Might (-4) to bend a gap; on a strong margin, tear it open. Repeatable.
+    * Cut the extraction tubes (Standard Agility): stops the draw, removing the "extraction completes" early-fire and buying the full timer.
+    The False Draugr exist to STOP all of this -- they grapple and pin whoever reaches for the cage or the mechanism. Clearing or holding them is the price of the rescue.
   - **Alfonso's Reformation Choice**:
     * *Immediate (Minutes)*: Reforms in the scene. **Deep Rust Clock jumps 2 stages**. Flakes of rust fall from the blade as he reconstitutes in front of the party.
     * *Moderate (Hours)*: Reforms by evening/next morning. **Deep Rust jumps 1 stage**.
     * *Slow (Days)*: Reforms in 2-3 days. No rust stage advancement (but misses the next choice).
 
-COMBAT: THE FALSE DRAUGR (LAB SECURITY)
-  - **FALSE DRAUGR x4-6** (TL 1-2 Expert) HP: 35 | DR: 5 (Hardened tissue + copper)
-    * *Immune*: Poison, Disease, Cold, Fear, Alfonso's plague-communion (these are alchemical constructs, not true undead).
-    * *Weak*: Fire (DOUBLE damage due to chemical preservatives), Sonic/Thunder (Staggered for 1 round).
-    * *Stats*: Might 15 / Agility 10 / Magic 6 / Guile 4
+COMBAT: THE FALSE DRAUGR (LAB SECURITY) -- ANTOINE'S OWN MAKE, NOT TRUE UNDEAD
+  WHAT THEY ARE: These are not Dragon Cult draugr. Antoine built them himself, alchemically
+  aping the rite that made Ulag the Breaker. CRITICAL: that rite is **Hjolmar Ice-Shaper's
+  tonal architecture** -- a mind-PRESERVING process the Cult commissioned, NOT the Dragon
+  Cult's own craft and NOT undeath at all. Ulag is not a draugr; he is a living mind held
+  whole inside a casket. Antoine is a chemist, not a tonal architect, so when he tries to
+  reproduce that process through alchemy he can copy the body and never seat the mind. The
+  result: where Ulag is a 4,000-year tactical genius awake inside the machine, these are
+  EMPTY -- obedient, utterly mindless shells. Dead tissue on copper fittings (not Dwemer
+  brass) and preservative chemistry; too clean for a tomb, joints a hair wrong, like
+  marionettes that almost pass for alive.
+  - **ALFONSO CANNOT COMMUNE WITH THEM.** His plague-communion reaches true Dragon Cult
+    undead through their death-magic substrate. These carry none -- they are chemical
+    constructs in dead tissue, not undead. His signature ability does nothing here. This
+    is the SECOND time the trap neutralizes Alfonso (caged body + dead ability), and it is
+    the point: Antoine, weeks gone, already accounted for the party's strongest tool. Let
+    Alfonso try the communion and feel it fail.
+  - **FALSE DRAUGR x4-6** (TL 1-2 Expert) HP: 35 | DR: 5 (chemically hardened tissue + copper)
+    * *Immune*: Poison, Disease, Cold, Fear, Alfonso's plague-communion.
+    * *Weak*: Fire (DOUBLE damage -- the preservative is flammable), Sonic/Thunder (Staggered 1 round -- disrupts the crude alchemical motor).
+    * *Stats*: Might 15 / Agility 10 / Magic 6 / Guile 2 (near-zero -- there is no mind in here).
     * *Attacks*:
-      - Alchemical Blade (melee): 8 damage. On hit, Might TN 12 or suffer **Numbness** (-1 Agility for 2 rounds).
-      - Restraining Grapple (melee, replaces attack): Might TN 15 contested. Target is **Restrained** for 1 round.
-    * *Behavior*: They fight to **contain** rather than kill. They will attempt to grapple, pin, and hold targets to allow the sterilization/extraction sequence to run. They do not pursue outside the Laboratory.
+      - Alchemical Blade (melee): 8 damage. On hit, Standard Might roll or suffer **Numbness** (-1 Agility for 2 rounds; mild paralytic coating).
+      - Restraining Grapple (melee, replaces attack): contested Might (Hard, -4). Target is **Restrained**. Multiple can pile on one target. This is their JOB: pin and hold, not kill -- Antoine wants live specimens and the party kept off the extraction.
+    * *Behavior*: They fight to **contain**, not kill. MINDLESS -- they run rigid scripts, do not adapt, do not focus-fire cleverly; a feint, a lure, or bait works on them where it never would on Ulag. They activate when the cage drops (part of the same system) and do not pursue outside the Laboratory.
 
 Rahgot's sarcophagus (OPEN): What they see: A massive stone sarcophagus, lid shoved aside, interior empty. Ward-runes dark. A body-impression in the dust. If they investigate (Magic TN 12): The ward-runes were a death-sleep preservation system ΓÇö keeping the occupant in suspended animation for millennia. They were deactivated deliberately, from the inside. Whatever was in here woke up on its own and walked out. The dust impression shows a large humanoid form wearing a mask. The sarcophagus carvings identify the occupant: Rahgot, Dragon Priest of the Last Redoubt.
 If they investigate further (Magic TN 14; or Alfonso's domain if his player claims it, no roll): The carvings around the sarcophagus tell a story. Dragon Priests were the mortal servants of the dragons during the Merethic Era ΓÇö men and women who ruled over human kingdoms as intermediaries between the dragon gods and their mortal subjects. They were granted immense power and near-immortality in exchange for absolute devotion. When the ancient Nords overthrew the Dragon Cult in the Dragon War, most priests were killed or sealed in their tombs in death-sleep.
