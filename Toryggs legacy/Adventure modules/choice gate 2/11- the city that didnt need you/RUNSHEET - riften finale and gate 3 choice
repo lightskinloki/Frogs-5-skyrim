@@ -782,15 +782,30 @@ GM NOTES: don't rush -- multi-day investigation is rewarded. Children are the
 MECHANISM: five vertical copper plates, each a Dragon Cult alchemical symbol; press
   in the right order to peel the ward into a safe corridor. Wrong order -- or
   forcing -- disrupts the ward.
-CLUE (J1): "shutdown follows thanatological order: Cessation, Cooling, Rigidity,
-  Decay, Dissolution. The living enter by REVERSING the process of dying."
-PLATES (top->bottom): 1 Spiral=Dissolution / 2 Branching=Decay / 3 Bar=Rigidity /
-  4 Wavy=Cooling / 5 Circle+line=Cessation.
-CORRECT SEQUENCE = reverse of dying = press 1,2,3,4,5 (top to bottom).
-TRANSLATION: Standard Magic roll to decode the symbols. OR Esbern if consulted (he
-  can read Dragon Cult notation). No roll needed if a player works the Atmoran-script
-  handout themselves (GM will write the clue in Atmoran script -- translation is active
-  player puzzle work at the table).
+
+HANDOUT -- THE WARDEN'S RITE (the door's rite; GM transcribes the marked line into
+  Atmoran script -- translating it IS the puzzle):
+  "Keeper who comes after -- the ward is death made still, and death grants no road
+   to the living save the road walked backward. Lay your hand to the marks in their
+   order, and falter not: first, the spiral; then the branching lines; then the
+   straight bar; then the waving lines; and last, the circle struck through with a
+   line. So is the dying unmade, and so may a breathing soul pass. Stray from the
+   order, and the ward will keep you among the faithful, as it has kept them four
+   thousand years."
+  PUT IN ATMORAN (the load-bearing line): "the marks in order -- the spiral; the
+   branching lines; the straight bar; the waving lines; the circle struck through."
+   The framing lines may stay in Common. Translating the ordered list IS the solution:
+   match each named mark to the symbol on the door and press them in that order.
+
+PLATES (the GM answer key, top->bottom): 1 Spiral / 2 Branching lines / 3 Straight bar
+  / 4 Waving lines / 5 Circle struck through. The rite names them in exactly this order.
+CORRECT SEQUENCE: press 1,2,3,4,5 (top to bottom) -> Outcome A.
+  (Lore, for the curious GM: the marks are the five stages of dying -- dissolution,
+  decay, rigor, cooling, cessation -- and the rite walks them backward, which is why
+  "the living pass against the order of dying.")
+TRANSLATION ROUTES: a player works the Atmoran handout themselves (no roll -- this is the
+  intended path); OR a Standard Magic roll to decode it; OR Esbern, if consulted, reads
+  Dragon Cult / Atmoran notation outright.
   FALLBACK if nobody translates: allow trial-and-error, but each wrong press escalates
   the infection outcome. Two wrong presses = Outcome B. Three or more = Outcome C.
 OUTCOMES (set infection severity):
