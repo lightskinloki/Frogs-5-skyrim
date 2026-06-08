@@ -1,0 +1,762 @@
+ALCHEMY GM REFERENCE
+Frogs-5-Skyrim System — For GM Use Only
+Companion document to: On the Doctrine of Essences (Lore Books)
+Companion document to: Gear, Consumables, and the Forge (consumable values)
+
+
+________________
+
+
+SECTION 1: THE QUICK RULES (EVERYTHING IN ONE PLACE)
+
+
+THE CORE PRINCIPLE
+If a player knows the recipe and has the ingredients, the brew always works.
+There is no pass/fail roll for whether a potion is produced.
+The Guile roll only determines if the potion is better than Standard.
+
+
+STEP-BY-STEP ADJUDICATION
+
+Step 1 — Establish What the Player Knows
+  Alchemy has no ingredient cap. Anyone can combine any number of ingredients.
+  The only question is: does the player know the Essences of each ingredient?
+
+  Knowledge is obtained through:
+    Rawcraft:     Biting the ingredient reveals Essences directly (depth varies —
+                  see Section 2).
+    Reference:    The Doctrine of Essences, recipe scrolls, an apothecary's guidance,
+                  or any other in-world knowledge source.
+    Prior use:    They have brewed with this ingredient before and learned from it.
+
+  If the player does NOT know an ingredient's Essences and has no reference:
+    They may Rawcraft it first (see Section 2).
+    If they brew without knowing, they are brewing blind — they will get a result,
+    but you adjudicate the Essences present and do not tell them in advance.
+    Primary Negations they didn't know about still collapse the brew. This is how
+    early alchemists died. It is also how they learned.
+
+Step 2 — Identify All Essences
+  List every Essence from every ingredient, noting tier (Primary/Secondary/Tertiary).
+  If a player doesn't know an ingredient's Essences, see Step 1 above.
+
+Step 3 — Check All Ingredient Pairs for Opposition
+  For N ingredients, there are N*(N-1)/2 pairs to check.
+  Check each pair against the five Opposition pairs (see Section 3).
+  Classify each active Opposition by negation tier.
+
+  PRIMARY NEGATION: Both opposing Essences are Primary in their ingredients.
+    Result: The entire brew collapses. No product. All ingredients wasted.
+    This is a hard stop. It does not matter what other Essences are in the brew.
+
+  SECONDARY NEGATION: One or both opposing Essences are Secondary.
+    Result: The brew works. Those specific Essences are significantly weakened
+    in the final compound. All other Essences express normally.
+
+  TERTIARY NEGATION: One or both opposing Essences are Tertiary.
+    Result: The brew works. Minor weakening on those Essences. Treat as flavor.
+    Not worth significant mechanical consequence.
+
+Step 4 — Determine the Compound's Effects
+  Every Essence that has not been Primary-Negated expresses in the final product.
+  Secondary-Negated Essences still express, but at significantly reduced potency.
+  Total effects = all unique non-negated Essences across all ingredients.
+  Match each Essence to the appropriate consumable effect from the Gear Doc (Section 5).
+
+Step 5 — Determine Base Quality
+  Without any tools: Standard
+  With a Retort:     Potent (no roll needed to reach this)
+
+Step 6 — Potency Roll (Player's Choice, Optional)
+  The player rolls 1d20 against their Guile Target Number.
+
+  Roll 1 (Critical):    Exceptional
+  Roll under Guile:     Potent
+                        (Expert tier: this result is Exceptional instead)
+  Roll over Guile:      Standard (no improvement, no loss — still works)
+  Roll 20 (Crit Fail):  Tainted
+
+  TAINTED: The compound still functions at Standard quality. However, one unintended
+  secondary Essence from any ingredient in the brew also expresses. You choose which
+  secondary Essence activates — pick whichever creates the most interesting situation,
+  not necessarily the most punishing one. The compound is not ruined. It just also does
+  something extra.
+
+  If using an Alembic: A roll of 20 becomes Standard instead of Tainted.
+  If using a Calcinator: Roll twice, take the lower result (Advantage).
+
+
+TOOL MODIFIER STACKING (FULL REFERENCE)
+  No tools:              Base Standard. Potency roll may improve.
+  Mortar & Pestle only:  Same as above. Required to brew at all. Without it, only
+                         Rawcraft is available.
+  + Retort:              Base becomes Potent without a roll.
+  + Calcinator:          Potency roll made with Advantage.
+  + Alembic:             Roll of 20 becomes Standard, not Tainted.
+  All four tools:        Start at Potent, roll with Advantage, protected from Taint.
+
+
+QUALITY TIERS AND HP/FP VALUES (SOURCED FROM GEAR DOC)
+
+  Healing compounds scale as follows across the existing potion ladder:
+    Standard:    4 HP    (matches: Potion of Minor Healing)
+    Potent:      8 HP    (matches: Potion of Healing)
+    Exceptional: 12 HP   (matches: Potion of Plentiful Healing)
+
+  Magicka compounds scale identically (same ladder exists in Gear Doc):
+    Standard:    4 FP    (matches: Potion of Minor Magicka)
+    Potent:      8 FP    (matches: Potion of Magicka)
+    Exceptional: 12 FP   (matches: Potion of Plentiful Magicka)
+
+  Enhancement potions (Fortify, Resist, etc.) are binary in the Gear Doc —
+  they either work or they don't. Quality tier affects duration or magnitude
+  for these effects:
+    Standard:    The listed effect, normal duration (3 rounds per Gear Doc).
+    Potent:      The listed effect, doubled duration (6 rounds).
+    Exceptional: The listed effect, doubled magnitude AND doubled duration.
+                 (e.g., Resist Fire: half damage -> immune to one hit of fire,
+                 then half; or +4 bonus instead of +2 for Fortify potions)
+
+  Poisons scale in damage dealt:
+    Standard:    Listed Gear Doc value (Weak Poison: 2 damage on hit)
+    Potent:      Doubled value (4 damage on hit)
+    Exceptional: Tripled value (6 damage on hit) or enhanced secondary effect
+
+
+________________
+
+
+SECTION 2: RAWCRAFT ADJUDICATION
+
+Any character may bite and chew any ingredient to experience a weak, brief version of its
+primary Essence. The GM narrates the effect:
+
+  VITALIS:    A brief warmth; the player's minor surface wounds close slightly.
+              They feel momentarily invigorated.
+  VENITAS:    Nausea, mild disorientation, or localized pain depending on the source.
+              Brief and survivable. The character grimaces.
+  GRAVITAS:   A heaviness in the limbs, lasting 10-15 seconds real time. Their step
+              is briefly sluggish.
+  AGILITAS:   A brief improvement in reaction time. The character might catch something
+              they would have dropped.
+  CAECITAS:   Colors dim slightly. Ambient noise muffles briefly. Lasts seconds.
+  FORTITAS:   A brief sensation of solidity — the character feels, for a moment, like
+              their skin has become more substantial.
+  ANIMA:      Variable. Roll a d4 and describe accordingly:
+              1 — Mild euphoria. 2 — Heightened awareness.
+              3 — A strange sense of doubled perception. 4 — Nothing visible;
+              the character simply feels that something happened.
+  IGNIS:      A localized warmth at the point of contact. Often pleasant in small amounts.
+  GLACIES:    A localized chill; brief numbness at the lips/mouth.
+  FULGUR:     A mild tingling at the point of contact.
+
+RAWCRAFT RISK: If the ingredient's primary Essence is VENITAS or has a dangerous elemental
+primary (IGNIS from Fire Salts, for instance), the character experiences a mild but real
+effect. It is survivable. It is not comfortable. If a player Rawcrafts something truly
+dangerous without any knowledge of what it is, feel free to apply 1 HP damage and describe
+it vividly. This is how early alchemists died. Make it feel like that.
+
+WHAT RAWCRAFT REVEALS (BY TIER)
+  Any character:       Primary Essence only.
+  Apprentice:          Up to two Essences.
+  Adept and above:     All Essences.
+
+
+________________
+
+
+SECTION 3: THE FIVE OPPOSITION PAIRS
+
+These are the only pairs that produce negation. All other Essence combinations are neutral
+and simply express together in the compound.
+
+  VITALIS   <->  VENITAS     Life vs. Entropy
+  GRAVITAS  <->  AGILITAS    Weight vs. Speed
+  IGNIS     <->  GLACIES     Fire vs. Frost
+  CAECITAS  <->  FULGUR      Concealment vs. Discharge
+  FORTITAS  <->  ANIMA       Hardening vs. Spirit/Mind
+
+HOW TO DETERMINE NEGATION TIER (read down to first match)
+
+  1. Are BOTH opposing Essences Primary in their respective ingredients?
+       YES -> PRIMARY NEGATION. Entire brew collapses. Stop here.
+
+  2. Is either opposing Essence Secondary in its ingredient?
+       YES -> SECONDARY NEGATION. Both affected Essences significantly weakened.
+              Other Essences in the brew are unaffected. Brew still works.
+
+  3. Is either opposing Essence Tertiary in its ingredient?
+       YES -> TERTIARY NEGATION. Minor weakening. Treat as flavor. Brew works normally.
+
+NOTE: Multiple opposition pairs can be active in the same brew. Check all pairs
+independently. A brew with one SECONDARY negation and one TERTIARY negation has both
+effects. Any single PRIMARY negation collapses the entire brew regardless of everything else.
+
+
+________________
+
+
+SECTION 4: THE INGREDIENT CATALOGUE
+
+ESSENCE TIER KEY
+  [P] = Primary      (dominant property, identifies via Rawcraft at any tier)
+  [S] = Secondary    (identifiable by Apprentice+)
+  [T] = Tertiary     (identifiable by Adept+)
+
+All ingredient Essence listings are drawn from canonical Skyrim properties, mapped
+to the system's ten Essences. Effects that do not correspond to any of the ten Essences
+(e.g., Waterbreathing, Muffle) are noted as [SPECIAL] — the GM adjudicates these as
+unusual Essence expressions on a case-by-case basis.
+
+________________
+
+
+COMMON INGREDIENTS (FOUND IN SKYRIM WILDERNESS)
+
+Blue Mountain Flower
+  VITALIS [P]
+  CAECITAS [S]    (resist magic property in Skyrim maps to concealment of self)
+  Use: Primary healing source. Foundational recipe ingredient.
+
+Wheat
+  VITALIS [P]
+  FORTITAS [S]   (fortify health maps to physical hardening/resilience)
+  Use: Most common VITALIS secondary. Combines with Blue Mountain Flower
+  for the basic healing potion. Clean: no opposition interactions.
+
+Blisterwort
+  VITALIS [P]
+  FORTITAS [S]
+  Use: Alternative to Wheat in healing compounds. Stronger VITALIS expression.
+
+Imp Stool
+  VENITAS [P]    (damage health)
+  VITALIS [S]    (restore health — secondary, creates design tension)
+  GRAVITAS [T]   (ravage speed in Skyrim)
+  GM NOTE: This ingredient is a perfect teaching tool for the Opposition system.
+  A player combining Imp Stool with Blue Mountain Flower has VENITAS[P] vs VITALIS[P]
+  — PRIMARY NEGATION. The brew collapses. A Novice who doesn't know the secondaries
+  yet might not realize this is coming.
+
+Deathbell
+  VENITAS [P]    (damage health)
+  GRAVITAS [S]   (slow)
+  Use: Primary poison base. Common in poisoner kits.
+
+Skeever Tail
+  VENITAS [P]    (damage health)
+  AGILITAS [T]   (ravage skill, loosening of control — marginal)
+  Use: Basic poison source. Easy to obtain.
+
+Mora Tapinella
+  VENITAS [S]    (damage health secondary)
+  ANIMA [P]      (restore magicka — spirit/mind adjacent; also hallucination properties)
+  AGILITAS [T]   (regenerate stamina)
+  GM NOTE: The ANIMA/VENITAS pairing here is NOT an opposition pair.
+  ANIMA opposes FORTITAS, not VENITAS. These two express independently.
+
+Thistle Branch
+  GRAVITAS [P]   (resist frost maps to anchoring/hardening against cold — but note:
+                  frost resist in our system is FORTITAS+GLACIES, so this is better
+                  mapped as GRAVITAS since Thistle also has Slow effect)
+  FORTITAS [S]   (resist frost: physical hardening against elemental)
+  GM NOTE: Thistle Branch is a dual-purpose ingredient. Use your judgment on which
+  property the player is targeting. If they describe wanting to slow someone, the
+  GRAVITAS is primary. If they describe cold resistance, frame FORTITAS as the
+  expressed Essence with GLACIES implied.
+
+Swamp Fungal Pod
+  AGILITAS [P]   (paralysis — note: paralysis is AGILITAS at extreme high concentration
+                  overwhelming the nervous system, the opposite of its healing expression;
+                  functionally it is AGILITAS applied adversely)
+  CAECITAS [S]   (resist shock — concealment from electrical force maps here loosely)
+  GM NOTE: AGILITAS at very high concentration can paradoxically produce paralysis —
+  the flooding of speed-channels overwhelms the system. This is a lore-consistent
+  edge case. Serafine mentions this in passing in the Doctrine as an anomaly she has
+  never resolved to her satisfaction.
+
+Canis Root
+  AGILITAS [P]   (fortify one-handed, paralysis — speed and precision)
+  GRAVITAS [S]   (damage stamina — weight on the system)
+  GM NOTE: Canis Root has an internal AGILITAS[P]/GRAVITAS[S] tension.
+  This is SECONDARY NEGATION — both Essences are present but the AGILITAS
+  dominates. The GRAVITAS is significantly weakened. The compound skews speed
+  but with some drag on the system.
+
+Juniper Berries
+  AGILITAS [P]   (fortify marksman — speed and precision of shot)
+  VENITAS [S]    (damage stamina regen — entropy on the stamina system)
+  Use: Speed-adjacent. The VENITAS[S] is not opposed to AGILITAS (GRAVITAS opposes it),
+  so both express. A brewer using Juniper Berries gets speed effects with a mild
+  stamina-drain secondary.
+
+Luna Moth Wing
+  CAECITAS [P]   (invisibility)
+  FORTITAS [S]   (fortify one-handed — physical empowerment)
+  Use: Primary invisibility source. Clean CAECITAS carrier.
+
+Nirnroot
+  CAECITAS [P]   (damage health — adverse concealment: used to dull/blind the body)
+  VENITAS [S]    (damage stamina)
+  FULGUR [T]     (the luminous glow and magical resonance map to FULGUR)
+  GM NOTE: Nirnroot's CAECITAS[P] vs FULGUR[T] — TERTIARY NEGATION only.
+  The glow barely affects the concealment property. This is the ingredient's
+  famous magical paradox: it glows (FULGUR) but its dominant property is
+  concealment/dulling (CAECITAS). Slight weakening on both, negligible in play.
+
+Chaurus Eggs
+  FULGUR [P]     (resist shock)
+  CAECITAS [S]   (invisibility)
+  FORTITAS [T]   (fortify stamina — physical hardening)
+  GM NOTE: CAECITAS[S] vs FULGUR[P] — SECONDARY NEGATION on the CAECITAS.
+  The invisibility property of Chaurus Eggs is significantly weakened.
+  This is canon-accurate: Chaurus Eggs are primarily used for shock effects,
+  not invisibility.
+
+Vampire Dust
+  ANIMA [P]      (soul trap, invisibility — spirit energy and concealment)
+  CAECITAS [S]   (invisibility secondary)
+  VITALIS [T]    (restore magicka — the life-adjacent energy)
+  GM NOTE: ANIMA[P] and CAECITAS[S] do not oppose each other (ANIMA opposes FORTITAS,
+  CAECITAS opposes FULGUR). Both express. The VITALIS[T] is also non-opposing.
+  A full three-Essence expression. Complex but stable ingredient.
+
+Luna Moth Wing and Vampire Dust together:
+  Both carry CAECITAS — Affinity applies, CAECITAS amplified.
+  ANIMA from Vampire Dust adds a spirit-adjacent secondary.
+  Result: Strong concealment potion with a minor ANIMA note — the invisibility
+  has a spiritual quality, harder for magical detection to pierce.
+
+Nordic Barnacle
+  FORTITAS [P]   (resist poison — physical hardening against toxins)
+  VITALIS [S]    (restore health)
+  Use: Clean FORTITAS primary with healing secondary. Good resistance base.
+
+Scaly Pholiota
+  FORTITAS [P]   (fortify stamina — the body hardened to endure more)
+  AGILITAS [S]   (fortify two-handed — speed and force of movement)
+  Use: Fortify/speed combination. FORTITAS and AGILITAS do not oppose each other.
+  Both express fully.
+
+Giant's Toe
+  ANIMA [P]      (fortify health, fortify carry weight — spirit/body boundary pushing)
+  FORTITAS [S]   (fortify stamina)
+  VITALIS [T]    (restore health)
+  GM NOTE: ANIMA[P] and FORTITAS[S] — SECONDARY NEGATION (FORTITAS opposes ANIMA).
+  The FORTITAS stamina effect is significantly weakened. The ANIMA effect dominates.
+  Giant's Toe is famously powerful and famously weird in its interactions.
+
+Human Heart
+  ANIMA [P]      (damage magicka, frenzy — deep spirit disruption)
+  VENITAS [S]    (damage health)
+  FORTITAS [T]   (fortify magicka — body-spirit interface)
+  GM NOTE: ANIMA[P] and FORTITAS[T] — TERTIARY NEGATION. Barely matters.
+  The VENITAS[S] does not oppose ANIMA. Both express.
+  This is one of the most ethically complex ingredients in the catalogue.
+  See Section 6 on sapient ingredients.
+
+Fire Salts
+  IGNIS [P]      (fire damage)
+  FORTITAS [S]   (resist fire — when paired with FORTITAS, creates fire resistance)
+  GM NOTE: Fire Salts with a FORTITAS carrier = fire resistance potion.
+  Fire Salts alone = fire damage compound (adverse application).
+  IGNIS[P] and FORTITAS[S] do not oppose each other. The Retort determines
+  which Essence dominates in the expression — the brewer's intent and technique.
+
+Frost Salts
+  GLACIES [P]    (frost damage)
+  FORTITAS [S]   (resist frost)
+  ANIMA [T]      (slow — cold slowing the spirit's influence on the body)
+  Use: Mirrors Fire Salts. Frost damage primary; frost resistance when combined
+  with additional FORTITAS source.
+
+Void Salts
+  FULGUR [P]     (shock damage)
+  CAECITAS [S]   (resist shock — concealment from electrical disruption)
+  VENITAS [T]    (damage health — entropy secondary from shock)
+  GM NOTE: FULGUR[P] vs CAECITAS[S] — SECONDARY NEGATION. The shock resistance
+  property is significantly weakened when Void Salts are the primary ingredient.
+  This is consistent with Skyrim canon where Void Salts' shock resist is a weaker
+  property than its shock damage.
+
+Snowberries
+  GLACIES [S]    (resist frost — cold is secondary, not primary)
+  FORTITAS [P]   (resist fire, resist shock — physical hardening is primary)
+  FULGUR [T]     (resist shock — shock resistance maps loosely to FULGUR)
+  GM NOTE: GLACIES[S] and FORTITAS[P] — no opposition (they are not an opposing pair).
+  Both express. FULGUR[T] and GLACIES[S] are also not an opposing pair.
+  Snowberries are one of the cleanest multi-Essence resistance ingredients in the catalogue.
+
+Slaughterfish Egg
+  FORTITAS [P]   (resist frost)
+  VENITAS [S]    (damage health)
+  Use: Fortify/resist primary. VENITAS[S] adds an entropic secondary that a skilled
+  brewer should account for.
+
+River Betty
+  GRAVITAS [P]   (slow, damage health — weighing down the target)
+  FORTITAS [S]   (resist frost — physical hardening)
+  Use: Slowing compound primary. Good GRAVITAS source.
+
+Cyrodilic Spadetail
+  GRAVITAS [P]   (damage stamina — weighing down endurance)
+  AGILITAS [S]   (restore stamina — speed of recovery)
+  GM NOTE: GRAVITAS[P] vs AGILITAS[S] — SECONDARY NEGATION. Both effects
+  significantly weakened when combined in the same ingredient. This ingredient
+  is internally conflicted. Its most reliable use is as a secondary GRAVITAS
+  source in a brew where something else carries GRAVITAS as primary.
+
+Ashen Grass Pod
+  IGNIS [S]      (resist fire — fire-adjacent but not primary fire expression)
+  FORTITAS [P]   (fortify stamina — physical endurance primary)
+  Use: Good FORTITAS source with a mild fire-resistance secondary.
+
+Flame Stalk
+  IGNIS [P]      (fire damage)
+  AGILITAS [S]   (fortify stamina — fire's association with speed and energy)
+  Use: Direct fire damage source. The AGILITAS secondary adds speed/energy to
+  fire compounds — a "burning with energy" compound could combine these.
+
+Stalhrim (trace material in potions)
+  FULGUR [P]     (resist shock — the crystalline structure channels electrical force)
+  GLACIES [S]    (frost damage — cold crystalline nature)
+  GM NOTE: Rare ingredient. FULGUR[P] and GLACIES[S] are not an opposing pair.
+  Stalhrim compounds produce shock resistance with a frost secondary.
+
+
+________________
+
+
+SECTION 5: ESSENCE-TO-EFFECT MAPPING
+
+This table maps each Essence to the consumable effects in the Gear Doc.
+Use this to adjudicate what a brewed compound actually does in play.
+
+ESSENCE        EFFECT IN COMPOUND                     GEAR DOC REFERENCE
+________________
+
+VITALIS        Restore HP.                            Healing Potion ladder:
+               Standard: 4 HP                        Minor / Standard / Plentiful /
+               Potent: 8 HP                          Vigorous / Ultimate
+               Exceptional: 12 HP                    (4/8/12/16/20 HP)
+               High concentration: accelerated
+               natural healing (1 HP per turn
+               for 3 turns — treat as Short Rest
+               benefit, fast-forwarded).
+
+VENITAS        Poison damage over time or on          Weak Poison: 2 damage on hit
+               application to a weapon.               (Gear Doc, Poisons section)
+               Standard: 2 damage                    At higher quality, see also
+               Potent: 4 damage                      Damage Magicka Poison (5 FP loss)
+               Exceptional: 6 damage                 and Paralysis Poison (Might roll
+               Adverse (on weapon): next hit          or Paralyzed).
+               delivers the VENITAS effect.
+
+GRAVITAS       Slow target: target loses their        Frostbite Spider Venom analog:
+               next Minor Action (cannot use          target loses Minor Action for
+               Minor Action for movement).            movement. (Gear Doc)
+               Standard: 1 round
+               Potent: 2 rounds
+               Exceptional: 3 rounds
+
+AGILITAS       Fortify Agility: target gains a        Potion of Fortify Agility:
+               bonus to their Agility TN.             +2 bonus to Agility TN, 3 rounds.
+               Standard: +2 to Agility TN, 3 rounds  (Gear Doc)
+               Potent: +2 to Agility TN, 6 rounds
+               Exceptional: +4 to Agility TN, 6 rounds
+
+CAECITAS       Invisibility. Target becomes           Potion of Invisibility:
+               Invisible as per the Gear Doc.         3 rounds or until hostile action.
+               Standard: 3 rounds                    (Gear Doc, Enhancement Potions)
+               Potent: 6 rounds
+               Exceptional: 6 rounds + undetectable
+               by magical sensing (as Illusion
+               Expert perk: Quiet Casting analog)
+
+FORTITAS       Resistance to damage.                  Potion of Resist Fire/Frost/Shock:
+               Elemental resistance requires          half damage from source, 3 rounds.
+               FORTITAS + matching elemental          (Gear Doc, Enhancement Potions)
+               Essence (IGNIS for fire resist, etc.)
+               Standard: half damage, 3 rounds
+               Potent: half damage, 6 rounds
+               Exceptional: immune to one hit
+               of that element, then half for 6 rounds
+               General FORTITAS (no elemental pair):
+               +1 DR for 3 rounds (Standard)
+               +2 DR for 3 rounds (Potent)
+               +2 DR for 6 rounds (Exceptional)
+
+ANIMA          Mind/spirit effects. Variable.         No direct Gear Doc analog.
+               Restore FP (spirit restoration):      Use Magicka Potion ladder as
+               Standard: 4 FP                        proxy: 4/8/12 FP.
+               Potent: 8 FP
+               Exceptional: 12 FP
+               Adverse ANIMA (frenzy, possession-    Frenzy: target must attack nearest
+               adjacent): target loses control of    creature for 1 round (no Gear Doc
+               their next Major Action, acting on    item; GM adjudicates).
+               instinct rather than intention.
+               See Section 6 for ethical notes.
+
+IGNIS          Fire damage (adverse) or              Gear Doc: Fire damage follows
+               fire resistance (with FORTITAS).      Destruction spell damage table for
+               Adverse (weapon/contact):             reference. Potion of Resist Fire:
+               Standard: 3 fire damage              half fire damage, 3 rounds.
+               Potent: 6 fire damage                Use Environmental: Normal Fire
+               Exceptional: 9 fire damage           = 2 damage/turn as a baseline.
+               Resistance: see FORTITAS above.
+
+GLACIES        Frost damage (adverse) or             Potion of Resist Frost:
+               frost resistance (with FORTITAS).     half frost damage, 3 rounds.
+               Adverse: reduces stamina recovery;
+               Standard: 3 frost damage, target
+               cannot recover FP this round
+               Potent: 6 frost damage, target
+               cannot recover FP for 2 rounds
+               Exceptional: 9 frost damage, target
+               cannot recover FP for 3 rounds
+               Resistance: see FORTITAS above.
+
+FULGUR         Shock damage (adverse) or             Potion of Resist Shock:
+               shock resistance (with FORTITAS).     half shock damage, 3 rounds.
+               Adverse (neurological disruption):
+               Standard: 3 shock damage, target
+               has Disadvantage on next action
+               Potent: 6 shock damage, Disadvantage
+               for 2 actions
+               Exceptional: 9 shock damage,
+               Disadvantage for 3 actions
+               Resistance: see FORTITAS above.
+
+
+________________
+
+
+SECTION 6: COMPLEX BREW ADJUDICATION
+
+MULTI-INGREDIENT TRACKING
+When players attempt brews with 3+ ingredients, prompt them to write down:
+  - Every ingredient name
+  - Every Essence from each ingredient with tier noted
+  - Every ingredient pair (and how many pairs there are)
+  - Each pair's opposition check result
+
+There is no skill gate on ingredient count. Any character can attempt any number of
+ingredients. If they are working from incomplete Essence knowledge — because they
+skipped Rawcraft or don't have a reference — they don't know what interactions they
+might be triggering. That incomplete knowledge is the natural risk. It is intentional
+and creates interesting play.
+
+PAIR COUNT QUICK REFERENCE
+  2 ingredients: 1 pair
+  3 ingredients: 3 pairs
+  4 ingredients: 6 pairs
+  5 ingredients: 10 pairs
+  6 ingredients: 15 pairs
+
+WHEN A PLAYER SURPRISES YOU WITH A NOVEL COMBINATION
+If a player uses an ingredient not in the catalogue above, apply this principle:
+  Ask: What does this substance do in the world? What is its nature?
+  Dominant behavior = Primary Essence.
+  Secondary behaviors = Secondary Essences.
+
+  Examples:
+  - A plant that grows only in darkness, used by thieves' guilds:
+    CAECITAS [P], possibly AGILITAS [S]
+  - The heart of a fire atronach:
+    IGNIS [P], ANIMA [S] (it is a summoned spirit)
+  - Troll fat:
+    VITALIS [P] (trolls regenerate), FORTITAS [S] (tough hide)
+  - A draugr's preserved tooth:
+    VENITAS [P] (death-aligned), ANIMA [T] (undead spirit connection)
+  - Falmer ear:
+    CAECITAS [P] (they live in darkness, sensory-dulled), VENITAS [S]
+
+  When in doubt, assign the most narratively coherent Essence as Primary
+  and derive secondaries from the creature/plant's known behaviors in the world.
+
+
+________________
+
+
+SECTION 7: SAPIENT-DERIVED INGREDIENTS
+
+GENERAL RULING
+The Society's position (per the Doctrine of Essences): Vampire Dust is acceptable.
+Giant's Toe is contested. Human Heart is across the ethical line for most practitioners.
+
+For GM purposes: any player using Human Heart or equivalent sapient-derived materials
+should be aware that:
+
+1. ANIMA compounds from sapient sources are stronger.
+   When a sapient ANIMA ingredient is used, treat the ANIMA Essence as one quality tier
+   higher for purposes of the Potency result (Standard becomes Potent, Potent becomes
+   Exceptional). The spiritual concentration is simply greater.
+
+2. Social consequences are real.
+   Using, carrying, or being known to have used sapient-derived materials in a brewing
+   context should trigger the same social stigma as Black Soul Gem use (Gear Doc):
+   lawful or good-aligned NPCs may react with suspicion, report the characters,
+   or in extreme cases attack.
+
+3. ANIMA compounds from sapient sources interact unpredictably with active magic.
+   If the target of a sapient-ANIMA compound has any active spell effect (enchantment,
+   ongoing spell, Bound Weapon, etc.), the GM may call for an additional Guile roll
+   from the alchemist. Failure means the ANIMA interacts with the existing magic in an
+   unexpected way — the GM determines what that means. This is never lethal by default,
+   but it is always interesting.
+
+VAMPIRE DUST NOTE
+Vampire Dust is the one sapient-derived ingredient that is ethically cleared.
+Its ANIMA concentration is high (vampires' inner life is a significant part of their
+nature) but it is not subject to the social stigma rules above. Serafine approves of
+its use and says so in the Doctrine.
+
+
+________________
+
+
+SECTION 8: FOUR WORKED EXAMPLES FOR REFERENCE
+
+EXAMPLE 1: THE BASIC HEALING POTION
+  Ingredients: Blue Mountain Flower + Wheat
+  Blue Mountain Flower: VITALIS[P], CAECITAS[S]
+  Wheat: VITALIS[P], FORTITAS[S]
+  Pairs to check: 1 pair (Blue Mountain Flower vs Wheat)
+  Opposition check: CAECITAS vs FORTITAS — not an opposing pair. VITALIS vs VITALIS —
+  same Essence, not an opposition. No negation.
+  Essences expressed: VITALIS (amplified via Affinity), CAECITAS (secondary, minor),
+  FORTITAS (secondary, minor)
+  Primary effect: VITALIS amplified — Healing compound.
+  Secondary effects: trace CAECITAS and FORTITAS — the healed character feels briefly
+  more resilient and their outline is slightly harder to see for a moment. These are
+  flavor only at secondary-secondary concentration.
+  Result: Potion of Minor Healing.
+  Quality: Standard (4 HP). Potent with successful Guile roll (8 HP).
+
+EXAMPLE 2: THE POISON BLADE
+  Intent: Apply VENITAS to a weapon for the next hit.
+  Ingredients: Deathbell + Skeever Tail
+  Deathbell: VENITAS[P], GRAVITAS[S]
+  Skeever Tail: VENITAS[P], AGILITAS[T]
+  Pairs to check: 1 pair
+  Opposition check: GRAVITAS vs AGILITAS — they ARE an opposing pair.
+  GRAVITAS[S] vs AGILITAS[T] — TERTIARY NEGATION. Flavor only. Both slightly weakened.
+  Other check: VENITAS vs VENITAS — same Essence, amplified.
+  Essences expressed: VENITAS (amplified), GRAVITAS (slightly weakened secondary),
+  AGILITAS (slightly weakened tertiary)
+  Primary effect: Poison damage on hit (Weak Poison: 2 damage, or 4 at Potent).
+  Secondary: A very slight slowing sensation — flavor only at this concentration.
+  Result: Poison compound. Applied to a weapon as per Gear Doc.
+  Quality: Standard (2 damage next hit). Potent (4 damage next hit).
+
+EXAMPLE 3: FIRE RESISTANCE (3 ingredients)
+  Intent: A compound that makes the drinker resistant to fire damage.
+  Ingredients: Snowberries + Fire Salts + Nordic Barnacle
+  Snowberries: FORTITAS[P], GLACIES[S], FULGUR[T]
+  Fire Salts: IGNIS[P], FORTITAS[S]
+  Nordic Barnacle: FORTITAS[P], VITALIS[S]
+  Pairs to check: 3 pairs
+  Pair 1 — Snowberries vs Fire Salts:
+    FORTITAS[P] vs IGNIS[P] — not an opposing pair. No negation.
+    GLACIES[S] vs IGNIS[P] — THEY ARE an opposing pair. GLACIES[S] vs IGNIS[P]:
+    one is Secondary, one is Primary — SECONDARY NEGATION. Both significantly weakened.
+    The GLACIES and IGNIS cancel each other substantially.
+    FULGUR[T] vs FORTITAS[S] — not an opposing pair. No negation.
+  Pair 2 — Snowberries vs Nordic Barnacle:
+    FORTITAS[P] vs FORTITAS[P] — same Essence, amplified.
+    GLACIES[S] vs VITALIS[S] — not an opposing pair. No negation.
+    FULGUR[T] vs FORTITAS[P] — not an opposing pair. No negation.
+  Pair 3 — Fire Salts vs Nordic Barnacle:
+    IGNIS[P] vs FORTITAS[P] — not an opposing pair.
+    FORTITAS[S] vs FORTITAS[P] — same Essence, Affinity applies (additional amplification).
+    IGNIS[P] vs VITALIS[S] — not an opposing pair.
+  Essences expressed:
+    FORTITAS: triple-sourced (Snowberries[P] + Fire Salts[S] + Nordic Barnacle[P])
+              — very strong amplification.
+    IGNIS: significantly weakened (Secondary Negation with GLACIES).
+    GLACIES: significantly weakened (Secondary Negation with IGNIS).
+    VITALIS: secondary from Nordic Barnacle — minor healing note.
+    FULGUR: tertiary from Snowberries — negligible.
+  Primary effect: FORTITAS amplified + IGNIS present (significantly weakened) =
+  fire resistance compound. The strong FORTITAS combined with the weakened IGNIS
+  produces resistance rather than offense. The healing note from VITALIS is a
+  pleasant secondary effect — the drinker also heals 1-2 HP as a flavor effect.
+  Result: Potion of Resist Fire (half fire damage, 3 rounds Standard, 6 rounds Potent).
+  GM NOTE: The mutual cancellation of IGNIS and GLACIES is working exactly as intended.
+  The player has accidentally produced a cleaner compound than they might have if the
+  elemental Essences had been stronger.
+
+EXAMPLE 4: THE DISASTROUS BREW (teaching the Primary Negation rule)
+  A Novice player finds Imp Stool and Blue Mountain Flower. Both feel warm in the mouth
+  via Rawcraft. They decide to combine them for a "super healing potion."
+  Ingredients: Blue Mountain Flower + Imp Stool
+  Blue Mountain Flower: VITALIS[P], CAECITAS[S]
+  Imp Stool: VENITAS[P], VITALIS[S], GRAVITAS[T]
+  Pairs to check: 1 pair
+  Opposition check: VITALIS[P] (Blue Mountain Flower) vs VENITAS[P] (Imp Stool) —
+  PRIMARY NEGATION. Entire brew collapses.
+  Result: Nothing. The compound destabilizes. Ingredients wasted. The mortar smells
+  faintly of spoiled flowers and something vaguely unpleasant.
+  GM NARRATION CUE: "As the paste forms, you notice it beginning to separate — the
+  blue color of the flower and the brown of the mushroom refuse to integrate. The
+  mixture turns a muddy, unremarkable grey and the smell goes off. You have nothing.
+  You know, now, that those two ingredients have something fundamental working against
+  each other." The player has just learned the Law of Opposition empirically.
+  This is exactly how early alchemists learned it. Welcome to the tradition.
+
+
+________________
+
+
+SECTION 9: GM RULINGS FOR EDGE CASES
+
+WHAT HAPPENS IF THE PLAYER HAS NO MORTAR AND PESTLE?
+  Only Rawcraft is available. They can bite an ingredient for a brief, weak primary
+  Essence effect. That is all. They cannot brew.
+
+WHAT IF THEY WANT TO USE JUST ONE INGREDIENT?
+  One-ingredient compounds are valid. Any character can do this.
+  The compound expresses the ingredient's Primary Essence only (no combination needed).
+  No Opposition to check. Secondary Essences do not express in a single-ingredient brew —
+  there is nothing to combine with, so only the dominant property is released.
+  If a player wants to attempt to coax a secondary Essence from a single ingredient
+  without a combining agent, call for a Hard Guile roll. This is non-standard technique
+  and unreliable. Not something most practitioners would attempt.
+
+WHAT IF A PLAYER ASKS ABOUT COMBINING FOOD/NON-STANDARD ITEMS?
+  Anything organic has at least a trace Essence. Apply the "what does it do?" principle.
+  Cooked food has had its Essence partially released and is much weaker than raw
+  ingredients. A sweetroll does not make an alchemical compound. A raw giant mushroom
+  probably has a VITALIS or ANIMA expression worth adjudicating.
+
+CAN A PLAYER MAKE A PARALYSIS COMPOUND?
+  Paralysis Poison exists in the Gear Doc. In Essence terms, this is AGILITAS at
+  extreme high concentration overwhelming the target's nervous system.
+  This requires: AGILITAS[P] from at least two sources, or three+ AGILITAS ingredients.
+  Any character who knows the recipe can attempt it — there is no tier gate.
+  Standard quality = target makes a Might roll or Paralyzed (next turn lost).
+  Potent quality = Paralysis without a saving roll.
+
+CAN POTIONS BE COMBINED IN SEQUENCE?
+  Yes. A player can drink a healing potion and then a fortify potion on separate turns.
+  Multiple potions of the same type do not stack their primary effect (two Minor Healing
+  potions restores 4 HP, not 8 HP — diminishing returns apply). Different effects stack
+  normally. The GM may rule that extremely similar effects (two different healing potions)
+  produce a diminished second dose if they want to discourage stacking.
+
+CAN A PLAYER COAT A WEAPON WITH A HEALING POTION?
+  No. VITALIS expressed as a healing compound requires ingestion. The Essence is not
+  delivered effectively through a wound (the body does not absorb it the same way).
+  VENITAS on a wound works because it is already doing what it wants to do — damage.
+  VITALIS needs to enter through the digestive system to properly engage with the body's
+  restorative systems. This is in the lore and is the right answer.
+
+
+________________
+
+
+END OF DOCUMENT
+
+Cross-reference: Gear, Consumables, and the Forge (consumable ladder values)
+Cross-reference: On the Doctrine of Essences — Serafine Valdus (player-facing lore book)
+Cross-reference: Players Guide, Skill & Perk List (governing stats, tier definitions)

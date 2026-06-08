@@ -209,11 +209,12 @@ heading2("The Tasting")
 body("To learn what an unknown thing carries, grind it against the teeth and wait. The mouth is a mortar; the spit is a solvent; the body reports what it finds, briefly and at a fraction of true strength. A bitter thing that tightens the throat a little is telling you it would close it all the way, brewed. This is the oldest method and the fastest in the field, and any hand can do it.")
 body("The soft world's book warns at length about the danger of the tasting, because they taste with their own mouths. A Keeper of the Redoubt has never wanted for a mouth that was not his own. We have always had subjects. Test on them. Keep your own teeth clean.")
 data_table(
-    ["The Tasting", "What a hand learns"],
-    [["Any hand", "The primary essence only."],
-     ["Apprentice", "Up to two essences."],
-     ["Adept and above", "Every essence the thing carries."]],
-    [1.7, 4.8])
+    ["The taster", "What the tasting reveals"],
+    [["A beginner", "The loudest essence only."],
+     ["One who has studied the essences", "Two at once."],
+     ["One who knows them all", "Every essence the thing carries."]],
+    [2.6, 3.9])
+body("The tongue does not improve with rank. The knowing does. A beginner feels only the loudest essence not because some seal is closed to them, but because they have not yet learned to recognize the rest of what they are already feeling.", size=10.5, color=ASHTXT)
 spacer()
 
 heading2("The Ten Essences")
@@ -288,36 +289,30 @@ spacer()
 heading1("V.  The Practice of the Hand")
 body("Anyone may brew. The craft asks no talent for magic, no Magicka, no schooling but this. It asks knowledge — of which essences sit in which things, of how they meet, of the technique that frees them — and knowledge is learned, not born. What grows with practice is the depth of what a hand knows and the steadiness with which the hand works.")
 
-heading2("The Hand by Degree")
-data_table(
-    ["Degree", "What the hand may do"],
-    [["Novice", "Tasting reveals the primary only. Brews of one ingredient. Every brew Standard; no proof-roll yet. Keep a written list of essences to hand."],
-     ["Apprentice", "Tasting reveals up to two essences. Brews of two ingredients. May attempt the proof-roll."],
-     ["Adept", "Tasting reveals all essences. Brews of three. May design around an opposed pair on purpose, including a chosen secondary negation. Knows all three Laws whole."],
-     ["Expert", "Brews of four. A successful proof-roll yields Exceptional, not merely Potent. Consult written notes before any brew of three or more."],
-     ["Master", "No ceiling but the mathematics. May reason a new draught from first principle, untested. Consult notes before any brew above three — the mathematics do not forgive mastery."]],
-    [1.1, 5.4])
-spacer()
+heading2("The Only Gate Is Knowing")
+body("There is no rank in this craft that permits you to brew. No society grants a seal that unlocks the third ingredient, or the fourth. The craft is gated by one thing only: how much of it you have learned.")
+body("A hand that knows one essence brews with one. A hand that has learned to taste two, and to hold in mind the single pair they make, brews with two. A hand that knows every essence a thing carries, and can hold every pair among three ingredients without losing one, brews with three — and onward, as far as the knowing reaches. The beginner is not forbidden the great workings. They are simply unable to hold one in the head, and a working you cannot hold, you cannot keep from collapsing. The mathematics of the Third Law are the only wall, and they rise for everyone alike.")
+body("So when this book speaks of a beginner, of one who has studied, of a master, it does not mean a rung you climb or a station you are granted. It means only how much you have come to know. Learn the essences and you may read them; learn the Second Law as a tool and you may set opposed essences against each other on purpose; learn the craft whole and you may reason a draught no one has brewed before. No one hands you the next step. You take it by understanding. That is the whole of advancement, and there is no other ladder.")
 
 heading2("The Tools")
 data_table(
     ["Tool", "What it gives"],
-    [["Mortar and pestle", "The minimum, and enough. Standard quality, reliably, every time, everywhere."],
-     ["Retort", "Begins every brew at Potent before any roll. It pays for itself many times over."],
-     ["Calcinator", "The proof-roll is made with Advantage — roll twice, take the better."],
-     ["Alembic", "On a ruined proof-roll, the impurity is caught: the brew is Standard, not Tainted."]],
+    [["Mortar and pestle", "The minimum, and enough. Sound work, reliably, everywhere, every time."],
+     ["Retort", "Begins every brew already potent, before the hand has pushed it at all. It pays for itself many times over."],
+     ["Calcinator", "Steadies the work, so a hand's reach for more from a brew far more often takes hold."],
+     ["Alembic", "Catches the impurity before it sours the draught; a brew that would have fouled comes out merely sound."]],
     [1.7, 4.8])
 spacer()
 
-heading2("The Proof of a Brew")
-body("Correct ingredients and correct technique always make a working draught. The proof-roll is the hand's attempt to push it past its baseline — to coax the last of the essence out. It is optional. A Standard draught is a whole draught. Roll against your Guile.")
+heading2("On Sound, Potent, and Fouled Brews")
+body("Correct ingredients and correct technique always make a working draught — a sound one, every time, with no fortune asked of you. Past that, the craft rewards cunning. A clever hand, in a good hour, draws a brew out past its plain strength into the potent; and now and then, rarely and worth the remembering, into the exceptional, twice past sound. A careless moment in a delicate brew fouls it instead: it still works, but an essence you did not mean has come through. Do not pour a fouled brew away before you learn what it became. There are discoveries in this craft that were made no other way.")
 data_table(
-    ["The roll (against Guile)", "Result"],
-    [["Critical (a 1)", "Exceptional — two grades above Standard."],
-     ["Under Guile", "Potent — one grade above. (Expert and above: Exceptional.)"],
-     ["Over Guile", "Standard — no gain. The ingredients are not wasted."],
-     ["Critical fail (a 20)", "Tainted — it works, but an unmeant secondary essence has bled through. The cunning Keeper bottles it and learns what it does."]],
-    [2.4, 4.1])
+    ["The grade", "What it is"],
+    [["Sound", "The plain, whole draught — the baseline of correct work."],
+     ["Potent", "Drawn past plain strength by a cunning hand in a good hour."],
+     ["Exceptional", "Twice past sound. Rare. The mark of a master, or a fortunate one."],
+     ["Fouled", "It works, but an unmeant essence has bled through. Bottle it and learn it."]],
+    [1.5, 5.0])
 spacer()
 
 # =====================================================================
@@ -330,14 +325,14 @@ body("One — Taste. Both carry VENITAS at primary; both report nausea and a bri
 body("Two — Check for opposition. VENITAS opposes VITALIS. Neither thing carries VITALIS at any strength. No opposed pair is in the vessel. Proceed.")
 body("Three — Apply Affinity. VENITAS primary, twice over: the strongest a two-ingredient brew will hold. Clean, with nothing pulling against it.")
 body("Four — Brew. Grind both to paste in the mortar; clean water as the solvent; the VENITAS releases and concentrates; decant.")
-body("Five — Prove it, if you choose. Roll against Guile.")
+body("Five — and if the hour is good and the hand cunning, it comes out stronger than plain.")
 data_table(
-    ["The Quiet Dose", "Effect"],
-    [["Standard", "4 points of harm over four rounds."],
-     ["Potent (under Guile)", "8 over four rounds."],
-     ["Exceptional (a 1, or Expert+ success)", "12 over four rounds."],
-     ["Tainted (a 20)", "4 over four rounds, and a faint second effect from the ingredients — a numbness, a chill — unmeant, and worth noting."]],
-    [2.5, 4.0])
+    ["The Quiet Dose", "What it does"],
+    [["Sound", "Sickens a grown man for a day; worse, if he is small or already weak."],
+     ["Potent", "Kills the small and the weak outright, and lays a strong man abed."],
+     ["Exceptional", "Kills a grown man where he stands."],
+     ["Fouled", "Does its work, and leaves an odd second mark besides — a numbness, a chill — unmeant, and worth the noting."]],
+    [2.2, 4.3])
 spacer()
 body("That is the whole method. Everything else in this craft is this, carried to more ingredients and harder meetings between them.")
 
