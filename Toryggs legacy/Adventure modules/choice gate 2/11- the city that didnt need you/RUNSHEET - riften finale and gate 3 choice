@@ -579,6 +579,9 @@ JOURNAL RECAP (ask what the players remember first, then fill the gaps):
 
 GM: the wobble is the tell. A player who looks under the bench finds the hidden
   journal. Don't prompt it; let them notice.
+GM (if asked about the air): the refinery and ossuary air is stale but safe to breathe --
+  no checks. The only biological danger in this tomb is the lab pathogen past the
+  containment door, and that is governed by the ## 6.4 puzzle outcome, not the air here.
 
 FIND: one book remains in the room, and its keeper never opens it -- a thin,
   water-swollen old journal wedged under the short leg of the main workbench, leveling
@@ -602,6 +605,11 @@ FIND: one book remains in the room, and its keeper never opens it -- a thin,
     their god. It makes Antoine's own crack (his confession, found in the lab) a family
     inheritance. No mechanical gate; pure depth, and a reward for searching the room
     before they move to the door.
+  GM (if a player asks "what god?"): the Forelhost line served the DRAGON CULT's gods --
+    the dragons and Alduin the World-Eater. They kept this tomb's machinery running across
+    four thousand years for the World-Eater's return. The confession in the lab is the
+    other half: the "carrier" (Alfonso) HEARS his god; this family served theirs in silence
+    for forty generations.
 EXIT: the sealed door at the back of the ossuary. -> ## 6.4
 
 =====================================================================
@@ -827,9 +835,14 @@ FIND: the Tears of Rahgot (Standard Magic roll) -- crimson flowers in dark, puls
   GM: this is also his harvest TRAP. Antoine built an automated station to cage an
     intruding carrier, draw its pathogen signature, then sterilize the cage and destroy
     the body. TRIGGER: touching the flower or the dais soil.
-  BYPASS: mage hand / telekinesis (no touch) | harvest from outside the dais | Very Hard
-    Agility roll (-6) to disable the drop mechanism | long alchemical tongs that never
-    touch the dais.
+  GM (if a player actively searches the flowers/dais for a trap): do NOT hand it out. The
+    concealment is a genius's work; there is no easy detection. The tell was the journal
+    (Antoine's J3 told them what not to touch -- his arrogance IS the trap). A player who
+    already SUSPECTS a trap from that warning may act on it: use a bypass below, or attempt
+    the Very Hard disable. Caution is rewarded; idle searching is not.
+  BYPASS (for a player who suspects it): mage hand / telekinesis (no touch) | harvest from
+    outside the dais | Very Hard Agility roll (-6) to disable the drop mechanism | long
+    alchemical tongs that never touch the dais.
   IF TRIGGERED:
     1. A cage drops from the ceiling and seals the target inside.
     2. Needles and tubes deploy in the cage, drawing the pathogen signature.
@@ -869,6 +882,8 @@ STAT: False Draugr  x4-6  (TL1-2 Expert)
     now someone he will remember. He is Rahgot the Angry, the Avenger; his want is 4,000
     years of vengeance on the bloodline that besieged this fortress (his coming Scourge).
     The science is Antoine's; the want is his.
+  GM (if a player tries to take the mask): there is NO mask to take. Rahgot wore it out when
+    he rose. The dust holds only the shape of it. The mask is on his face, wherever he is.
 
 --- FIND: THE CARVINGS (Standard Magic roll to read the Dragon Cult notation) ---
   Five death-sleeping priests, each with a mask:
@@ -881,7 +896,7 @@ STAT: False Draugr  x4-6  (TL1-2 Expert)
   returns, the faithful shall rise. When the five become one, the faithful shall ASCEND."
   THE REVEAL: the priests have their OWN endgame -- apotheosis. Alduin is their vehicle,
   not their master.
-  GM (Alfonso's domain -- offer it, don't speak it for him): the carvings place Rahgot as
+  GM (Alfonso's expertise -- offer it, don't speak it for him): the carvings place Rahgot as
     an alchemist-priest of environmental warfare, which makes Antoine his successor, not
     his inventor -- the plagues are Rahgot's, Antoine the instrument. If Alfonso's player
     reaches it, let him land it.
@@ -906,11 +921,17 @@ STAT: False Draugr  x4-6  (TL1-2 Expert)
     Worth ~1,200g to an alchemist; worth more to the party as material.
   FIND: the Forelhost Alchemy Codex -- the family's master textbook of alchemical craft,
     written and revised by forty generations of Keepers, annotated in the margins in a
-    chain of different hands. The full text will be prepared by the GM separately. Any
-    player who takes and studies this book gains access to Alchemy as a learnable skill.
-    GM: this is the campaign's gateway to Alchemy. The Codex can go to anyone; the GM
-    hopes it lands with Saijah (a connection to the land's materials and a magical purpose
-    she doesn't currently have) or Orion -- but it is the players' to claim.
+    chain of different hands. A character examining it can tell it is a complete master
+    text on alchemy (the cover notation matches the child's practice slate).
+    GM -- HOW IT WORKS: taking and studying the Codex starts a character learning Alchemy
+    the way Alfonso learned ENCHANTMENT -- they absorb the methodology, the combinations,
+    the techniques, until they understand the system and can improvise within it. (Alchemy
+    will be more complex than Enchantment; the full system is GM-prepped separately.) Do
+    NOT gate it behind a flat AP buy -- it is learned understanding, like Enchantment. At
+    the table for now: the character gains the book and the path; mechanics to follow.
+    GM: this is the campaign's gateway to Alchemy. The Codex can go to anyone; the GM hopes
+    it lands with Saijah (a connection to the land's materials and a magical purpose she
+    doesn't currently have) or Orion -- but it is the players' to claim.
 
 --- FIND: ANTOINE'S CONFESSION (a loose page at the main bench) ---
   GIST: "a page in his hand, pressed harder than the tidy logs around it -- written to
@@ -937,6 +958,9 @@ STAT: False Draugr  x4-6  (TL1-2 Expert)
     "rehearsal." The Ice-Shaper built the casket and moves minds. The letter names only the
     METHOD and the contractor -- no victim. Read it FLAT; it is audience-only irony, a crumb
     to pay off later.
+  GM (if a player asks "who is the Breaker?"): the Breaker is ULAG -- the armored Orc
+    war-engine the party FOUGHT at Korvanjund. The name should ring a bell for them. Confirm
+    that much; the rest of the letter's weight is for later.
   HANDOUT -- the Ice-Shaper to Antoine:
     "Your family has maintained my work for four generations and called the maintenance
      devotion. I built the Breaker's frame -- the casket, the amber, the soul-gem eyes,
@@ -1074,6 +1098,9 @@ THE PROMOTION (the patron offer): "I don't fight wars with mercenaries I hire by
   harbor in any hold my name reaches, my network (merchants, couriers, fences,
   contacts Solitude to Windhelm), and protection. My enemies become yours. Yours
   become mine. The Obsidian Lanterns become my hand. Deniable. Well compensated."
+  WHY ALIVE (if asked): "A dead alchemist doesn't unmake what's in my mead, doesn't
+    tell me who else drank it, and doesn't tell me who he answers to. I want the
+    antidote, the exposure list, and the name above him. Then he can die. Not before."
   ACCEPT: +2,000g advance; a line of credit with Keerava (food/lodging on the
     house in Riften); she keeps the Strain 2.0 folder, they keep the journals.
   NEGOTIATE: operational independence (fine), right to refuse jobs (fine, but
