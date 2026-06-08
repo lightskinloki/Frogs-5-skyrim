@@ -1,0 +1,558 @@
+﻿SPELL TOME CREATION GUIDE
+
+
+A Complete Framework, Template, and Reference
+for Writing Lore-Accurate Spell Tomes
+for the Elder Scrolls Tabletop System
+
+
+
+
+
+
+For Use by Game Masters and World Builders
+
+
+________________
+
+
+CONTENTS
+
+
+Section One    — What a Spell Tome Is and How It Works
+Section Two    — The Anatomy of Every Spell Tome
+Section Three  — The Author's Voice: Tone and Persona
+Section Four   — The Somatic Component System
+Section Five   — The Enchanted Language Pages
+Section Six    — The Legal Notice
+Section Seven  — The Disclaimer
+Section Eight  — Writing the Partitions
+Section Nine   — The Complete Partition List and What Goes In Each
+Section Ten    — Formatting Rules and Conventions
+Section Eleven — Quick Reference: Spell Tone by School
+Section Twelve — Spell Tone by Rank
+Section Thirteen — The Complete Blank Template
+Section Fourteen — Worked Example: Filling in the Template
+Section Fifteen — Common Mistakes to Avoid
+________________
+
+
+SECTION ONE
+What a Spell Tome Is and How It Works
+A spell tome in this setting is a magically enchanted book that teaches a spell directly to a reader. It is not simply an instructional text — it is an instructional text fused with learning-enhancement enchantments that accelerate the transfer of magical knowledge into the reader's understanding. Once the enchantment has done its work, the tome burns. This is not a malfunction. It is a feature.
+This has several important implications for how tomes are written and how they read:
+* The author knows the tome will be destroyed. They write accordingly — with the weight of someone who knows this is the only chance they get to say what they want to say.
+* The reader knows the tome will be destroyed. They cannot re-read it. The tome is written to be absorbed completely on a single thorough reading.
+* The tome contains both the practical instruction and the enchantment. The enchanted language pages are not decoration — they are functional components of the spell. They must never be altered.
+* The tone is that of a real expert writing for a real student. Not a game manual. Not a rulebook. A professional in their field, passing on their knowledge to someone who will use it.
+The result is a document that reads like a combination of an academic textbook, a professional manual, a legal contract, and in some cases a personal letter. All four of these elements are present in every well-written tome.
+What Makes a Tome Feel Authentic
+A spell tome feels authentic when it earns the reader's trust. It does this by being specific, by having a real voice, by acknowledging the spell's dangers honestly, by treating the reader as a capable adult, and by containing a legal framework that feels genuinely bureaucratic rather than perfunctory. A fake-feeling tome is one where the legal notices are generic, where the author has no discernible personality, where the dangers are either over-dramatized or glossed over, and where the spell's mechanics feel arbitrarily described rather than logically derived.
+Every decision in a well-written tome should feel motivated. Why does the disclaimer mention that condition? Because that condition is a real risk of casting this spell. Why does the author make that personal aside? Because they have taught this spell for long enough to have opinions about it. When the reader cannot see the reasoning behind a choice, the tome starts to feel like a prop. When every element earns its place, it becomes a real artifact.
+________________
+
+
+SECTION TWO
+The Anatomy of Every Spell Tome
+Every spell tome follows the same structural sequence. The order is not arbitrary — it mirrors the experience of actually receiving and reading a real tome. Do not reorder these elements.
+The Fixed Structure (Every Tome Has These, In This Order)
+1. Title Page — Spell name, author, institution, date, school, rank, somatic structure.
+2. Front Enchanted Language Page — The DO NOT ALTER block. Phonetic Daedric only. Functional enchantment. Never in Common.
+3. Disclaimer — Practical warnings about the spell's dangers, intended audience, and assumptions about the reader's knowledge. Written in bullet points with the ◦ symbol.
+4. Legal Notice — Imperial/guild legal framework. Liability, penalties, legal escalation path, property damage clauses. Dense prose.
+5. Second DO NOT ALTER notice — Repeated instruction not to alter the following page. Brief. Italicized.
+6. Second Enchanted Language Block — Another phonetic Daedric page. Functional. Never altered.
+7. Table of Contents — Lists all Partitions by number and title.
+8. Partitions — The body of the tome. Each Partition covers one topic. Number varies by spell complexity and rank.
+9. Final Author's Note — Personal, signed, direct. The author's last word to the student.
+10. End Matter Notice — Brief notice that following pages are enchantments. Do not edit.
+11. Back Enchanted Language Page — Final phonetic Daedric block. Includes the closing enchantment formula that will eventually burn the tome.
+The Variable Elements (Tome-Specific)
+Within the Partitions, the author has complete freedom. The number of partitions, their titles, and their depth all vary by spell rank, school, and author personality. A Novice tome may have fifteen partitions. A Master tome may have twenty-five. The partitions listed in Section Nine are a complete reference for what a thorough tome includes — not every tome needs every partition.
+________________
+
+
+SECTION THREE
+The Author's Voice: Tone and Persona
+The single most important decision you make when writing a spell tome is who wrote it. The author's voice should be present on every page. A reader who finished the tome should feel they understand the author as a person — their habits of thought, their opinions, their relationship to the subject matter and to their students.
+The author is never neutral. Even an author who tries to be academically objective will reveal their perspective through what they choose to include, what they warn against, what they find worth a personal aside. Decide these things before you write a word:
+Questions to Answer Before Writing
+* How long has the author been practicing this spell and this school? Ten years produces a different voice than forty.
+* Does the author love this spell, merely respect it, or have complicated feelings about it? Their relationship to the subject material shapes every sentence.
+* How do they feel about students? Are they warm teachers? Impatient experts? Bureaucratic professionals who are going through the motions? Reluctant transmitters of dangerous knowledge?
+* What does the author think is the most common mistake students make? They will mention it more than once.
+* What is the author's institutional affiliation, and how does that shape their perspective? A College of Winterhold mage writes differently from an Arcane University mage.
+* Does the author have a personal stake in this spell's ethical dimensions? Soul trap, necromancy, and certain illusion spells carry moral weight that a destruction mage writing about Fireball does not face.
+* What is the author's name, title, and era? These appear on the title page and in the closing signature.
+Voice Examples by Disposition
+The Thorough Teacher (Faralda's approach): Warm, comprehensive, perhaps overly detailed because they genuinely want the student to understand. Will use extended metaphors. Will circle back to earlier points. Will add personal anecdotes. The legal notices are a formality they find slightly tedious but necessary.
+
+
+The Academic Paranoid (Oakflesh primer approach): Deeply invested in the theoretical framework. Will correct what they perceive as common misconceptions before the student has even expressed them. Takes the dangers very seriously, perhaps more seriously than the student wants. The legal notices are an opportunity to be comprehensive.
+
+
+The World-Weary Professional (Phinis Gestor's approach): Has seen everything, has opinions about all of it, keeps most of those opinions to themselves except in the places where they cannot. Not unkind, but not effusive. The spell is a tool. The ethics are real. The personal notes at the end are the most honest writing in the tome.
+
+
+The Blunt Expert (Dremora tome approach): Terse. Precise. No warmth but no cruelty either. Assumes the reader is competent. Does not repeat themselves. The brevity is itself a form of respect — they believe you can handle information delivered without cushioning.
+________________
+
+
+SECTION FOUR
+The Somatic Component System
+Somatic components are how magic is cast. They are not an academic framework or a classification system invented by scholars — they are a description of the fundamental relationships between a caster's will and the laws of Mundus. Every spell ever cast uses somatic components. Every mage who casts a spell is expressing them, whether or not they can name them.
+Understanding somatic components is required to write a credible spell tome, because the tome must explain why the spell works the way it does. The somatic components are that explanation.
+The Twelve Somatic Components
+COMPONENT              │ DEFINITION             │ SCHOOLS               
+PETITION               │ Request the law to work naturally │ Restoration, Illusion 
+COMMAND                │ Force the law to obey your will │ Destruction, Conjuration
+ANCHOR                 │ Ground yourself in conviction │ Alteration, Restoration
+PROJECT                │ Extend your will across distance │ Destruction, Conjuration, Illusion
+SHIFT                  │ Allow the law to bend and flow │ Alteration, Illusion  
+BIND                   │ Fix a moment so it cannot unravel │ Conjuration, Alteration, Restoration
+RELEASE                │ Surrender control; let law reassert │ Destruction, Illusion 
+STABILIZE              │ Entropy is slow; this state persists │ Alteration, Restoration
+ATTUNE                 │ Become one with the law's expression │ All equally           
+SEVER                  │ Break connections and shatter bonds │ Destruction, Conjuration
+CONCEAL                │ Happen where no one is looking │ Illusion, Conjuration 
+REVEAL                 │ All hidden things are shown │ Restoration, Illusion 
+
+
+How Many Components Does a Spell Have?
+The spell's rank determines the number of somatic components in its structure:
+* Novice: 1 component
+* Apprentice: 2 components
+* Adept: 3 components
+* Expert: 4 components
+* Master: 5 components
+How to Choose the Right Components
+Each component should be defensible as a literal description of what the spell is doing. Ask: what is this spell actually doing to the laws of Mundus? Then pick the components whose definitions match those actions.
+A healing spell asks the body to restore itself (PETITION) and holds that restoration in place (BIND). A fireball forces fire to manifest (COMMAND), locks it in concentration (BIND), and throws it across distance (PROJECT). The logic should be visible when you read the component list. If you cannot explain in one plain sentence why a component is in the spell, it probably should not be there.
+Components must appear on the tome's title page in the format: COMPONENT — COMPONENT — COMPONENT
+They must also be discussed explicitly in a dedicated Partition about the spell's somatic structure. This is not optional — it is the intellectual spine of the tome.
+Natural and Unnatural Components
+Each school has components that feel native to it and components that feel unnatural. Using a non-native component is not forbidden but should be acknowledged in the tome — the author will note that this spell uses an unusual approach and explain why. This is a source of interesting lore and author personality.
+Natural components by school: Destruction (COMMAND, PROJECT, SEVER, RELEASE), Restoration (PETITION, ANCHOR, STABILIZE, REVEAL), Alteration (ANCHOR, SHIFT, BIND, STABILIZE), Conjuration (COMMAND, BIND, PROJECT, ATTUNE), Illusion (SHIFT, CONCEAL, REVEAL, ATTUNE, RELEASE).
+________________
+
+
+SECTION FIVE
+The Enchanted Language Pages
+Every spell tome contains multiple pages of text in phonetic Daedric — the constructed magical language that powers the learning enchantments embedded in the tome. These pages are real functional components of the tome. They are not flavor text, not decoration, and not random strings of syllables. They are translatable, meaningful text written in a real constructed language, and they do not work if you alter them.
+This is why the DO NOT ALTER notices appear before them. The notice is not a game mechanic warning — it is a sincere practical instruction from the author, the same way a chemist might label a container: this is what it is, do not mix it with other things.
+The Three Enchanted Language Blocks
+Every tome has three separate blocks of enchanted text, at three different points in the document:
+* Front block (after the legal notice, before the table of contents): The primary learning enchantment. This is what activates when the reader begins engaging with the tome seriously. It establishes the magical connection between the tome and the reader's capacity to receive the spell knowledge.
+* Mid-section block (sometimes embedded within later partitions, particularly in the review section): Supplementary enchantment for concepts that cannot be expressed in Common without losing magical precision. These are marked 'the following cannot be written in common characters' and are typically shorter.
+* Back block (final pages, after the author's note): The closing enchantment that will eventually cause the tome to burn when its work is complete. It includes the destruction instruction alongside the final blessings and seals.
+What to Put in the Enchanted Language Pages
+The enchanted text should be thematically appropriate to the spell being taught. It is not a literal translation of the mechanics — it is more like a poem about the spell's essence: its somatic components, the magical school it belongs to, the relevant forces it invokes, and the act of transferring knowledge. The content exists entirely in one language throughout each block. No mixing.
+The standard language for all enchanted pages is phonetic Daedric — the syllable-based magical language that uses hyphenated phoneme strings such as SEHT-TAYEM-ROHT or VEHK-AYEM-HEKEM-LYR. This is what the vast majority of tomes use and what readers in a standard College setting will expect. Dragon Language is a known alternative for rare cases: tomes of ancient origin, tomes written for Nords with a connection to the Voice, or spells whose magical lineage runs through the Thu'um tradition. Common is also a valid choice if the GM determines it fits the setting. Whichever language you choose, the rule is the same: pick one and use only that throughout every enchanted block in the tome. Do not mix languages across blocks, and do not mix languages within a block. The choice is made once at the start and never revisited.
+Rules for the Enchanted Language Pages
+* Choose one language — phonetic Daedric, Dragon Language, or Common — and use it exclusively in all enchanted blocks throughout the tome. Never mix languages between blocks or within a single block.
+* The text should be in ALL CAPS, in a monospace font (Courier New), in a dark blood-red color, centered on the page.
+* Never alter the standard closing formula. It is shared across all tomes for a reason.
+* The front block is the longest. The mid-section blocks are shortest. The back block is medium-length and always ends with the closing formula.
+* If you want to provide the content in English first for the player or yourself to develop, that is fine — but translate it fully before writing it into the tome. The final document must contain only the chosen language in its enchanted blocks, with no English draft fragments remaining.
+________________
+
+
+SECTION SIX
+The Legal Notice
+The Legal Notice is one of the most important flavor elements in a spell tome. It establishes the tome's existence within a functioning bureaucratic world — one with real institutions, real laws, real consequences, and real people who have thought about these issues. A thin or generic legal notice makes the tome feel fake. A specific, appropriately bureaucratic legal notice makes it feel like a real artifact.
+The Legal Notice always appears after the Disclaimer and before the table of contents. It is written in dense, continuous prose — not bullet points. It reads like actual legal boilerplate, because it is.
+Required Elements of Every Legal Notice
+* Competence clause: Establishes that the tome's value lies in its ability to teach, and that failure to learn is not the tome's fault. Must include language voiding claims against the author or institution for 'inability to understand the material.'
+* Intellectual property protection: Warns against replicating the author's instructional style, notational conventions, or enchantment methods. Must reference actual Imperial legal codes (these can be invented but should follow the format Act [number][letter], [number].[letter]).
+* Specific penalties: Fines in septims (amounts vary by spell rank and institutional affiliation — Novice tomes tend toward 500 septims, higher-rank tomes can reach 2000 septims or more), possible jail time for serious violations, and for the most severe offenses, execution.
+* Tome destruction clause: Explicitly states that the learning enchantments will destroy the tome upon completion. Voids any claims for compensation for the destroyed tome.
+* Injury and death clause: Claims full immunity for the author and institution from all forms of bodily harm resulting from the spell's casting. Should list specific injury types relevant to the spell school (electrical burns for shock magic, cardiac effects for soul trap, etc.).
+* Property damage clause: Claims immunity for any collateral damage caused by the spell. Should list specific damage types relevant to the spell.
+* Legal escalation path: Must specify where to direct legal complaints, in order. Typically: author first, then institutional superior, then local Jarl's court, then Imperial authorities in Solitude. This path is consistently followed across all tomes.
+* Distribution clause: Notes that distribution of the tome by a non-mage third party shifts responsibility to that party.
+* Guild standards certification: States that the tome meets applicable guild legal standards, citing the relevant act and section.
+* Safety board certification: States that the tome has been reviewed and approved by the relevant magical institution's safety body.
+Tone of the Legal Notice
+The Legal Notice is written in the voice of the institution, not the author. It is slightly more formal and impersonal than the rest of the tome. It uses the passive voice. It lists things. It is not hostile — it is simply comprehensive and precise in the way that legal documents are. The best legal notices feel like someone who has seen every possible way things can go wrong tried to address all of them in advance.
+Sample Legal Notice Opening
+The following demonstrates appropriate register and density for a spell tome legal notice. Adapt the specific content for the spell and institution:
+"As with all spell tomes the contents of this book are measured as valuable in their ability to teach a given ability to magically inclined individuals. Any inability on the part of the learner to understand the contents is not the fault of the tome provider or the instructor. Any attempt to gain legal compensation of any kind from failure to understand the material herein is voided in the reading of this book and it should not be purchased by individuals of an incompatible skill level..."
+________________
+
+
+SECTION SEVEN
+The Disclaimer
+The Disclaimer appears before the Legal Notice, near the front of the tome. It is the author speaking, in bullet points, about the practical realities of the spell being taught. Unlike the Legal Notice (which is institutional and formal), the Disclaimer is personal — it reflects the author's specific concerns about this spell, these students, and these circumstances.
+The Disclaimer uses bullet points with the ◦ symbol. Each bullet is one to three sentences. It typically has four to six bullets.
+Required Disclaimer Content
+* Burn notice: The first bullet of every Disclaimer notes that the tome is magically infused, that the enchantments will assist learning, and that once the transfer of knowledge is complete, the tome will burn. This is always the opening.
+* Intended audience: Who should and should not read this tome. What skill level is assumed. If there are specific types of mages for whom the spell is contraindicated, say so here.
+* Casting restrictions: Where the spell should not be cast (populated areas, enclosed spaces, near water, etc.) and who is not responsible if it is cast there anyway.
+* Knowledge assumption: What prior knowledge the tome assumes the reader has. Direct them to other resources if they do not have it.
+* Spell-specific safety warnings: Whatever is peculiar to this specific spell. Shock magic interacts badly with metal and water. Alteration spells carry the risk of ontological anxiety. Conjuration spells involving unbound Daedra should be cast into a cage. These warnings should be specific and accurate.
+* Optional — Personal note from author: Some authors add a brief personal note in the disclaimer about their relationship to the spell, its ethical dimensions, or their specific concerns about novices learning it. This is optional but adds character.
+What Makes a Good Disclaimer
+A good disclaimer is specific to the spell. It does not contain generic magic warnings. Every bullet should contain information that is only true of this spell, this school, or this rank of casting. A reader who knows nothing about the game should be able to learn something real about what the spell does just from reading the disclaimer.
+________________
+
+
+SECTION EIGHT
+Writing the Partitions
+The Partitions are the body of the tome. Each Partition addresses one topic. They are numbered (Partition One, Partition Two, etc.) and titled. Every Partition begins on a new page and opens with its number as a Heading 1 and its title as a Heading 2.
+Partition Length
+Partitions vary significantly in length. A theoretical partition about the nature of the magical school might be a full page. A partition consisting of a spell description might be half a page of bullet points. A partition walking through the complete casting process step by step might be two pages. Length should be determined by what the content requires, not by a target word count.
+The rule of thumb: a partition is long enough to say everything that needs to be said about its topic, and no longer. The author should feel free to be brief when brevity serves the reader and thorough when thoroughness does.
+Partition Internal Structure
+Within a Partition, use Heading 3 subheadings to organize material when a partition covers multiple distinct sub-topics. Not every partition needs subheadings — a partition that addresses a single unified topic can be written as continuous prose. Bullet points are appropriate for lists, spell descriptions, step-by-step processes, and safety protocols. Continuous prose is appropriate for theory, history, ethics, and personal reflection.
+The Author's Voice Within Partitions
+The author's voice should be consistently present throughout the partitions. They can and should: express opinions, acknowledge uncertainty, make personal asides, reference their own experience teaching the spell, and anticipate the questions a student would ask. The partitions should not read like a wiki entry. They should read like an expert talking to a student.
+Cross-References Between Partitions
+Tomes are meant to be read once, in order. However, the author can and should refer forward or backward to other partitions when relevant. 'We will return to this in Partition Nine' or 'As established in Partition Three' — these references make the tome feel like a coherent argument rather than a collection of disconnected entries.
+________________
+
+
+SECTION NINE
+The Complete Partition List and What Goes In Each
+The following is a complete reference for the partitions a thorough spell tome might contain. Not every tome needs every partition — use this as a menu, selecting and combining as appropriate for the spell's school, rank, and complexity. Partitions marked [REQUIRED] must appear in every tome. Partitions marked [RECOMMENDED] appear in most tomes. Partitions marked [OPTIONAL] appear when relevant.
+
+
+[REQUIRED] Preface / Introduction
+The author's first direct address to the student. Establishes the author's relationship to the spell, their reason for writing the tome, and what they hope the student will take away. Sets the tone for everything that follows. This is where author personality is most visible. Can be as brief as three paragraphs or as long as a full page.
+[REQUIRED] School / Theory Review
+A review of the theoretical foundations of the relevant magical school, specific to what the student needs to understand to grasp this spell. Not a complete survey of the school — only the aspects directly relevant here. Assumes the student has basic familiarity with the school but re-establishes the framework to ensure shared understanding.
+[REQUIRED] Complete Spell Description
+A formal, bulleted technical description of the spell. Follows this structure: school and subtype, somatic components, what the spell does, effective range, duration, casting configuration (one hand, two hands, etc.), damage or effect values, what the spell cannot do, ending the spell, and notable secondary effects or interactions. This is the most densely informational partition and should be written with precision.
+[REQUIRED] On Somatic Components
+A full discussion of the spell's somatic structure — each component named, defined in general terms, and then explained in the specific context of this spell. Why is COMMAND here? What does COMMAND mean for this spell specifically? What does it feel like when COMMAND is properly expressed in this spell versus when it is weak or absent? This partition is the intellectual spine of the tome.
+[RECOMMENDED] The Nature of the Magical Effect
+A deeper theoretical discussion of what is actually happening when the spell is cast. For shock magic: what electrical energy is, how Magicka becomes lightning, why it seeks conductive paths. For alteration: what the Earth Bones are and why they resist the spell. For soul trap: what a soul is and what happens to it during capture. This partition gives the spell physical and metaphysical weight.
+[RECOMMENDED] Physical Gestures and Stance
+A detailed description of the physical technique required. Stance, foot position, arm extension, hand configuration, breathing pattern, what the caster should feel physically as the spell activates, what abnormal physical sensations indicate about errors. Includes dual-casting technique if relevant.
+[RECOMMENDED] Mental Preparation and Visualization
+The internal mental work required before and during casting. What to visualize, what mental state to cultivate, how to maintain focus during sustained spells, how to avoid the mental failure modes specific to this spell. For some schools (Alteration, Conjuration) this partition is critical. For others (basic Destruction) it is shorter.
+[REQUIRED] The Full Casting Process
+A numbered step-by-step walkthrough of the entire casting sequence from beginning to end. Should be detailed enough that a student could follow it as a checklist. Every step is numbered. Steps reference earlier partitions where relevant. This partition is procedural in style — more directive and less analytical than the theoretical partitions.
+[RECOMMENDED] Sustaining and Ending the Spell
+For sustained-channel spells (Sparks, Healing Hands, any spell with ongoing effect): a dedicated partition on how to maintain the spell over time, manage Magicka expenditure, modulate power, and end the spell cleanly. For instantaneous spells this can be folded into the casting process partition.
+[REQUIRED] Common Errors and Corrections
+A list of the mistakes students most frequently make, each described in terms of: what the error looks like to an observer, what causes it, and how to correct it. Three to six errors is typical. Each error gets a name (Error One — The [Name]), a cause, and a correction. These should be drawn from the actual failure modes of the spell's somatic components.
+[RECOMMENDED] Advanced Considerations
+For students who have mastered the basics: deeper applications, more complex techniques, interactions with unusual targets or environments, the spell's relationship to higher-rank spells in the same line. Shorter than most partitions. Serves as a bridge toward future learning.
+[OPTIONAL] On the Spell and the Body
+The physical toll the spell takes on the caster over time, and how to mitigate it. Most relevant for Destruction and Conjuration spells that channel significant energy through the caster's body, and for Alteration spells with significant physical effects. Should include long-term risks of specialization and practical mitigation strategies.
+[RECOMMENDED] Practical Applications
+Uses of the spell beyond its primary function. Every spell has non-obvious applications that the author has discovered through experience. This partition adds depth to the spell and makes it feel like a real tool rather than a game ability.
+[REQUIRED] Safety Protocols and Emergency Procedures
+What to do when things go wrong. Specific to this spell's failure modes. How to respond to feedback, injury, accidental effects on bystanders, overtapping. Should include the relevant warning signs for overtapping (metallic taste, cold sensation, visual disturbance) as these are universal. Written in clear, direct prose — this is not the place for academic hedging.
+[RECOMMENDED] Interactions with Other Schools
+How this spell interacts with active effects from other schools. What synergizes with it. What conflicts with it. What counters it. Should address at minimum the schools that are most likely to be active in the same encounter.
+[RECOMMENDED] Historical Context
+The spell's history: who developed it, when, under what circumstances, how it has changed over time, what it was called in different eras. Not required to be long. Should include at least one specific historical reference that gives the spell a sense of age and weight.
+[OPTIONAL] Educational Illustrations
+A note that illustrations would appear here in a physical tome. Can be described rather than drawn. Typically: proper stance, Magicka flow diagram, hand positions, mental bridge visualization, environmental hazard map, common error depictions.
+________________
+
+
+SECTION TEN
+Formatting Rules and Conventions
+Typography
+* Body font: Palatino Linotype (or a comparable serif font with old-world character). This gives the tome a manuscript quality without being illegible.
+* Enchanted language font: Courier New, monospace, bold, dark blood-red. Stands clearly apart from the body text.
+* Heading colors: Dark blood-red (#2B0A0A) for Heading 1 and Heading 3. Dark accent red (#5C1A1A) for Heading 2.
+* Body text color: Near-black (#1A1A1A). Not pure black — pure black reads as harsh on the page.
+* Body size: 11pt (22 half-points in docx-js). Headings scale up from there.
+Bullet Points
+Bullet points use the ◦ symbol (a hollow circle). This is consistent across all tomes and gives the bulleted content a slightly formal, printed quality. Never use solid bullets (•) in body content. Never use dashes or asterisks.
+Page Breaks
+Every new Partition begins on a new page. The Disclaimer, Legal Notice, Table of Contents, Enchanted Language pages, and Final Author's Note each begin on new pages. Do not allow a section heading to appear at the bottom of a page with no content following it.
+Borders and Dividers
+Heading 1 sections have a thin bottom border in accent red, separating the heading from the content. Horizontal dividers (a simple line across the page) appear between major sections when needed. The Disclaimer warning box uses a full border on all four sides. The title page uses a double-line bottom border under the title.
+Alignment
+Body text is fully justified (aligned to both margins). Headings are centered. The Title Page elements are centered. Enchanted language blocks are centered. Running prose should never be left-aligned.
+Spacing
+Generous line spacing within paragraphs (1.4 line height is the target). Moderate spacing between paragraphs. Additional spacing before headings. The tome should feel like a physical book — not cramped, not wasteful.
+Tables
+Tables appear primarily in the somatic component partition and the advanced considerations partition. Use simple bordered rows in monospace font. Never use the table-as-layout trick — tables are for data, not for visual structure.
+________________
+
+
+SECTION ELEVEN
+Quick Reference: Spell Tone by School
+Each magical school has a characteristic emotional and intellectual register that should be reflected in the tome's tone. These are tendencies, not rules — the author's personality always takes precedence — but a tome that violates these registers without reason will feel off.
+Destruction
+Direct. Physical. Concrete. Destruction tomes are about forces and their effects. The author tends to be matter-of-fact about danger — they acknowledge it without dramatizing it. The theoretical sections are shorter than other schools; Destruction mages are practitioners, not philosophers. The safety sections are important because the dangers are real and immediate. Ethics rarely intrudes unless the spell has unusual ethical dimensions.
+Restoration
+Warm but precise. Restoration tomes take the body seriously as a system. The author tends to have a healer's patience — they are not in a hurry, they believe in doing things correctly. The theoretical sections discuss the body's natural processes with respect. The safety sections emphasize the consequences of getting it wrong for the patient, not just the caster. Ethics surfaces when the author discusses whether healing is ever a form of interference.
+Alteration
+Academic. Dense. Slightly paranoid. Alteration tomes take the philosophical implications of their school more seriously than any other. The author is aware that what they are describing — the temporary violation of physical law — is genuinely strange and genuinely dangerous, not just physically but metaphysically. Ontological concerns are not melodrama; they are real risks that the author has seen materialize. The theoretical sections are the longest of any school. The safety sections are extensive.
+Conjuration
+Precise about danger. Conjuration tomes are written by people who are aware that what they are summoning can kill them. The theoretical sections explain the liminal barrier, the nature of Daedra, and the mechanics of binding with the thoroughness of someone who knows that insufficient understanding leads to death. The ethical sections emerge whenever the summoned entity has interests of its own. The safety sections are serious.
+Illusion
+The slipperiest school. Illusion tomes are written by people who understand that their subject matter is inherently hard to pin down — the school is about the appearance of reality, not reality itself, and this bleeds into the prose. Illusion authors tend to be indirect, to acknowledge ambiguity, to hedge. The theoretical sections are interesting and sometimes unsettling. The ethical sections are extensive because Illusion touches minds directly.
+________________
+
+
+SECTION TWELVE
+Spell Tone by Rank
+Novice
+Patient. Sometimes almost over-explanatory. The author knows their reader has minimal experience and writes accordingly. Uses accessible metaphors. Spends significant time on physical technique because novices need to know exactly what to do with their hands. The dangers are real but the author believes the student can handle them with proper guidance. The tone is encouraging without being condescending.
+Apprentice
+Assumes baseline competence. The author can reference concepts without defining every term. The theoretical sections go deeper. The physical technique sections are more nuanced — the student is expected to understand the principles behind the technique, not just follow the instructions. The dangers are presented frankly. Some authors begin to show more of their personality at this level.
+Adept
+Peer-to-peer, nearly. The author treats the student as someone who has serious magical capability and simply hasn't encountered this specific spell before. The tone is collegial. The theoretical sections can be genuinely complex. The author can disagree with other mages, take positions on contested questions, and argue for specific approaches without feeling obligated to present all sides. The dangers are discussed as professional hazards, not beginner traps.
+Expert
+Technical. Dense. The author assumes extensive experience and writes for an expert who needs the specific information about this specific spell, not a grounding in fundamentals. Partitions that would be long at Novice level are brief here — the reader already knows most of it. The partitions that are long at Expert level are the ones that cover genuinely new or difficult material: the extreme capabilities of the spell, the ways it interacts with high-level magical environments, the edges of what the caster's body can handle.
+Master
+Rare. Brief in some respects, enormously dense in others. A Master spell tome is written by someone who may be one of a handful of living practitioners. The tone is that of someone at the absolute edge of what is known, writing for someone who intends to join them there. The ethical and philosophical sections may be the longest parts of the tome. The practical sections assume everything below Expert level is already internalized.
+________________
+
+
+SECTION THIRTEEN
+The Complete Blank Template
+The following is a complete fill-in template for a spell tome. Items in [BRACKETS] are required fields. Items marked with an asterisk (*) are optional elements that appear in some tomes but not all. Instructions appear in italics and should be deleted when writing the real tome.
+
+
+
+
+
+
+— TITLE PAGE —
+
+
+[SPELL NAME IN CAPITALS]
+[Full Descriptive Subtitle — e.g. 'A Complete Technical and Philosophical Treatise on...']
+
+
+Scribed by [Author Full Name] of [City of Origin]
+[Title], [Institution], [Year in 4th Era format]
+
+
+[School of Magic] — [Rank Level]
+Somatic Structure: [COMPONENT ONE] — [COMPONENT TWO] — [COMPONENT THREE if Adept+]
+
+
+
+
+
+
+— DISCLAIMER —
+Burn notice (always first bullet): 'Be aware before purchase that this tome is magically infused by standard practice to assist the learning process and once transfer of knowledge is complete the energy will burn the tome.'
+◦ [Intended audience. Who should and should not read this. What level is assumed.]
+◦ [Casting location restrictions. Where not to cast. Who is not responsible for violations.]
+◦ [Knowledge assumption. What prior knowledge the reader needs. Where to go if they don't have it.]
+◦ [Spell-specific physical safety warning unique to this spell's school and mechanics.]
+◦ [Spell-specific secondary safety warning — interaction with environment, other schools, or physical conditions.]
+◦ * [Optional: personal note from author about this spell's specific nature or ethical dimensions.]
+
+
+
+
+
+
+— LEGAL NOTICE —
+[Dense prose. Include: competence clause, IP protection with specific penalties in septims, tome destruction clause voiding compensation, injury/death immunity with specific injury types for this spell, property damage immunity with specific damage types, distribution clause, legal escalation path (author → institution → Jarl's court → Imperial authorities in Solitude), guild standards certification citing a specific Act and section number, safety board certification by the relevant institution.]
+
+
+Legal Notice
+Do not write on or edit the following page as it could cause magical phenomena unintended by the author of this magically enchanted document.
+
+
+
+
+
+
+— DO NOT ALTER (FRONT ENCHANTMENT BLOCK) —
+DO NOT ALTER
+
+
+[10–15 lines of phonetic Daedric text, centered, Courier New font, dark blood-red. Provided by the GM or translated from English content describing the spell's essence, somatic components, the relevant magical forces, and the enchantment's learning function. Never write Common here.]
+
+
+
+
+
+
+— TABLE OF CONTENTS —
+◦ Partition One — [Preface title]
+◦ Partition Two — [School review title]
+◦ Partition Three — Complete Spell Description
+◦ Partition Four — [Somatic components title]
+◦ Partition Five — [Nature of magical effect title]
+◦ Partition Six — [Physical technique title]
+◦ Partition Seven — [Mental preparation title]
+◦ Partition Eight — The Casting Process in Full
+◦ Partition Nine — [Sustaining/ending OR Common errors — depends on spell type]
+◦ Partition Ten — Common Errors and Corrections
+◦ * Partition Eleven — [Advanced considerations — if included]
+◦ * Partition Twelve — [Spell and the body — if included]
+◦ Partition [N] — [Practical applications title]
+◦ Partition [N+1] — Safety Protocols and Emergency Procedures
+◦ Partition [N+2] — Interactions with Other Schools
+◦ Partition [N+3] — Historical Context
+◦ * Partition [N+4] — Educational Illustrations
+◦ Partition [N+5] — Enchantments
+
+
+
+
+
+
+— PARTITION BODIES —
+
+
+PARTITION ONE — [PREFACE TITLE]
+
+
+[The author's direct address to the student. Why this tome exists. What the author hopes the student takes from it. The author's relationship to the spell. 2–5 paragraphs. Sets the emotional tone. Signed with the author's name and title at the end if personal in character.]
+
+
+PARTITION TWO — REVIEW OF [SCHOOL] THEORY
+
+
+[Overview of relevant school theory. Focus only on what is needed to understand this spell. Establish vocabulary. 2–4 paragraphs with subheadings as needed. Can include a short mid-section enchanted language block if needed — 'The following cannot be written in common characters' — for concepts that require magical precision.]
+
+
+PARTITION THREE — COMPLETE SPELL DESCRIPTION
+
+
+[Spell name and school/subtype as a heading. Then bulleted technical description: what it does, range, duration, casting configuration, damage/effect values, what it cannot do, special behaviors, ending the spell, secondary effects. Precise and factual.]
+
+
+PARTITION FOUR — ON SOMATIC COMPONENTS
+
+
+[Name each component. Define it in general terms. Then explain what it specifically means and feels like in THIS spell. Why is it here? What does it contribute? What goes wrong when it is weak or absent? One subheading per component. End with a synthesis paragraph on how the components work together.]
+
+
+PARTITION FIVE — [NATURE OF MAGICAL EFFECT]
+
+
+[What is actually happening at the physical and metaphysical level when this spell is cast? The author explains the spell's mechanism in depth. This is the most theoretically ambitious partition. Can be dense. Should make the reader feel they understand not just how to cast the spell but why it does what it does.]
+
+
+PARTITION SIX — PHYSICAL GESTURES AND STANCE
+
+
+[Stance and grounding. Casting hand position. Off-hand options. Dual-casting if applicable. Breathing pattern. What the caster will feel physically as the spell activates. What abnormal sensations mean. When to stop. Subheadings by body region or by stage of the physical process.]
+
+
+PARTITION SEVEN — MENTAL PREPARATION AND VISUALIZATION
+
+
+[Clearing the mind. Connecting to Magicka reserves. The specific visualization sequence for this spell. How to maintain focus during sustained casting. The mental failure modes specific to this spell. How to recover after casting. The author's personal mental approach if they wish to share it.]
+
+
+PARTITION EIGHT — THE CASTING PROCESS IN FULL
+
+
+[Numbered steps. Step One: [name]. [Description]. Step Two: [name]. [Description]. Etc. As many steps as needed to cover the complete sequence from pre-cast assessment to post-cast recovery. Each step is concrete and specific. References earlier partitions for detail. Notes what each step should feel like when performed correctly.]
+
+
+PARTITION NINE — [SUSTAINING / ENDING THE SPELL OR COMMON ERRORS]
+
+
+[For sustained-channel spells: Magicka management, the mental wall technique, rhythm and breathing, physical endurance, target movement, interruption recovery, clean disengagement. For instantaneous spells: fold directly into common errors. For both: this is a practical partition, not a theoretical one.]
+
+
+PARTITION TEN — COMMON ERRORS AND CORRECTIONS
+
+
+[Error One — [Name]: [What it looks like. Cause. Correction.] Error Two — [Name]: [What it looks like. Cause. Correction.] Etc. 3–6 errors. Each error should be drawn directly from the spell's somatic components and failure modes. Not generic magic errors — errors specific to this spell.]
+
+
+PARTITION [N] — SAFETY PROTOCOLS AND EMERGENCY PROCEDURES
+
+
+[Subheadings by emergency type. Each section: what the emergency looks like, immediate response, what not to do, what to do. Must include the universal overtapping warning signs: metallic taste, cold sensation despite exertion, blurred vision, colored spots around light sources. If any of these — stop immediately, eat and drink, seek help.]
+
+
+PARTITION [N+1] — INTERACTIONS WITH OTHER SCHOOLS
+
+
+[One subheading per school. Address at minimum the schools most likely to be active in the same situation as this spell. For each: does this spell synergize, conflict with, or counter active effects from that school? Any unusual interactions the student should know about?]
+
+
+PARTITION [N+2] — HISTORICAL CONTEXT
+
+
+[Origin of the spell. Who developed it, when, and why. How it has changed over time. What it was called in different eras or regions. At least one specific historical reference with a name, place, and era. Connects the spell to the broader magical tradition of Tamriel.]
+
+
+PARTITION [N+3] — ENCHANTMENTS
+
+
+[Standard closing notice: 'The Following Pages Are Part of This Tome's Enchantments. Do Not Edit Them. It Is Unnecessary to Read the Following Pages.']
+
+
+
+
+
+
+— FINAL AUTHOR'S NOTE —
+
+
+[Personal, warm, direct. Addressed to 'Dear Student.' Summarizes the author's hopes for the student's use of the spell. Two to four pieces of final practical advice. A closing sentiment that reflects the author's character. Signed with full name, title, institution, and year.]
+
+
+
+
+
+
+— BACK ENCHANTED LANGUAGE BLOCK —
+
+
+[10–16 lines of phonetic Daedric, using the same format as the front block. Thematically references the spell's essence and the act of releasing the knowledge. Must end with the standard closing formula shown in Section Five of this guide. The formula is identical in every tome.]
+
+
+
+
+________________
+
+
+SECTION FOURTEEN
+Worked Example: Filling in the Template
+The following demonstrates how to move from a spell concept to a completed template. This example uses a hypothetical Apprentice-level Restoration spell called Soothe.
+Step 1: Establish the Spell's Core Identity
+Soothe is an Apprentice-level Restoration spell that calms a hostile creature, reducing its aggression. It is not mind control — it does not compel behavior, it removes agitation. Its somatic components are PETITION + SHIFT (asking the creature's emotional state to shift naturally). Two components for Apprentice level. Both are native to Restoration's natural affinities. Good.
+Step 2: Establish the Author
+The author is Colette Marence, Restoration Magister at the College of Winterhold. She is defensive about Restoration's status as a 'real' school of magic — a known character trait — and this should surface in the preface and theory sections. She has been teaching for fifteen years. She finds students who underestimate Restoration mildly infuriating. She is not warm but she is thorough.
+Step 3: Fill in the Title Page
+Spell name: SOOTHE. Subtitle: A Practical Treatise on Emotional Restoration and the Petition of Biological Calm. Author: Colette Marence of Wayrest, Magister of Restoration, College of Winterhold, 4E 201. School: Restoration, Emotional Subdual. Somatic Structure: PETITION — SHIFT.
+Step 4: Write the Disclaimer
+Bullets should address: the tome is for Apprentice-level mages, not novices who have never cast a Restoration spell; casting Soothe in a combat situation before the creature has had a chance to register aggression will fail (timing matters); the spell assumes knowledge of basic Restoration flow and PETITION casting; the emotional resonance of the spell is real — mages with significant trauma sometimes find Soothe triggers unexpected internal reactions during practice, and they should have a senior mage present; creatures with unusually high aggression may resist the spell even when perfectly cast.
+Step 5: Identify the Somatic Component Discussion
+PETITION in Soothe: You are asking the creature's biological aggression response — the elevated heart rate, the cortisol surge, the fight instinct — to stand down. You are not forcing it. Forcing would be COMMAND, which would be Illusion or Destruction, not Restoration. The creature retains the right to refuse. This is why Soothe fails on creatures that are not merely agitated but genuinely threatened — PETITION cannot override self-preservation. SHIFT: You are not asking the creature to become permanently calm — you are asking its current emotional state to shift from hostile to neutral. The temporariness is built in. SHIFT spells naturally decay back to baseline. This is why Soothe wears off.
+Step 6: Identify the Unique Safety Concerns
+The primary risk of Soothe is attempting to use it on a creature that is defending young, defending a kill, or in genuine fear for its life. These states are not mere aggression — they are survival responses that the creature will not yield to PETITION. The spell will fail, but more importantly, the attempt to calm a creature that interprets your extended hand as approach may provoke it further. The safety section must address this. The secondary risk is the emotional resonance mentioned in the disclaimer — some mages who cast Soothe regularly develop unexpected empathic sensitivity to the emotional states of creatures nearby, even when not casting. This is not dangerous but it is disorienting and the author should mention it.
+Step 7: Determine Which Optional Partitions to Include
+Soothe does not require 'On the Spell and the Body' because it does not pass significant energy through the caster's body. It does benefit from 'Advanced Considerations' (targeting multiple creatures simultaneously, using Soothe in combination with Illusion spells, the relationship between Soothe and the higher-rank Calm spell). It benefits from 'Practical Applications' because Soothe has significant non-combat uses (calming injured animals, easing distressed livestock, assisting Restoration healers who need patients to remain still). Historical Context should mention the Psijic Order, who used similar spells in diplomatic contexts during the Second Era.
+________________
+
+
+SECTION FIFTEEN
+Common Mistakes to Avoid
+Generic Legal Notices
+The single most common error. A legal notice that could appear in any spell tome is a legal notice that does not do its job. Every detail of the legal notice should be specific to this spell, this author, this institution, this era. The injury clause should list the injuries this specific spell causes. The property damage clause should list the damage this specific spell causes. The specific septim fines should reflect the spell's rank and the institution's severity. If you catch yourself writing something that would be equally true of every spell, make it specific.
+Author Without Personality
+If you cannot describe the author in three sentences without referring to their job title, they do not have enough personality yet. The author should have opinions. They should have a history with this spell. They should feel differently about certain aspects of it than other mages do. These opinions do not need to be extreme or dramatic — 'this author finds the conventional dual-casting technique slightly inefficient and prefers a modified grip' is enough. The point is that a real person wrote this, and real people have perspectives.
+Dangers That Are Not Specific
+'This spell can be dangerous if misused' tells the reader nothing. 'SEVER activates at the moment of the target's death — cast too early and there is nothing to sever; cast too late and the soul has already departed' tells the reader exactly what can go wrong and why. Every danger in the disclaimer, the legal notice, and the safety section should be specific to the spell's mechanics. If you cannot explain why a danger is unique to this spell, it probably does not belong in this tome.
+Somatic Components as Labels, Not Logic
+The somatic component partition fails when the components are named but not explained in the context of the spell. COMMAND is not a label — it is an action with consequences. Saying 'this spell uses COMMAND to force the soul to separate from the body' is correct. Saying 'this spell uses COMMAND, which is a forceful component' is useless. Every component must be explained in terms of what it is literally doing in this specific spell, what the caster should feel when they perform it correctly, and what happens when it fails.
+Enchanted Text in Common
+Every enchanted language block in a tome must be written entirely in one language: phonetic Daedric, Dragon Language, or Common. That choice must be consistent across all blocks in the tome — every block uses the same language. Do not mix languages between blocks and do not mix languages within a block. If you are working from an English draft, translate it fully before it goes into the document. The final tome contains no hybrid text, no explanatory inserts, and no language-switching of any kind in the enchanted sections.
+Forgetting the Burn
+The tome burns. This should be present in the reader's awareness throughout the document. It is mentioned in the Disclaimer, referenced in the legal notice, embedded in the back enchantment block. A tome that never acknowledges its own impermanence feels incomplete. The burn is not a sad thing — it is the spell completing its work. The author knows this and writes accordingly. The last page of the tome is the instruction to burn. It should feel like a natural ending, not an afterthought.
+Partitions That Don't Earn Their Place
+Every partition should contain information the reader needs and cannot get from any other partition. If you find yourself repeating content across partitions, consolidate. If a partition is very short and covers ground already addressed elsewhere, fold it into an adjacent partition. The number of partitions is not a quality signal — a focused fifteen-partition tome is better than a padded twenty-five-partition tome.
+Ignoring the Closing Formula
+The back enchantment block in every tome ends the same way — with the closing formula that constitutes the burn instruction. Do not invent a new one, modify it, or omit it. The formula's specific content will differ depending on which language the tome uses, but its function is consistent: it is the last thing in every tome, and it triggers the destruction sequence. If you are using phonetic Daedric, carry the established formula forward from the reference tomes. If using Dragon Language or Common, translate or adapt the formula's meaning into that language — the function must remain, even if the words differ.
+
+
+
+
+
+
+End of the Spell Tome Creation Guide
+May your tomes be thorough, your authors be distinct,
+and your enchantments burn cleanly when their work is done.
