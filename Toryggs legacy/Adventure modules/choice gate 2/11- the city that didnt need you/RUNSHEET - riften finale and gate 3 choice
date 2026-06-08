@@ -554,13 +554,31 @@ Format: WRITING GUIDE + SESSION SHEET FORMAT. Ctrl+F the ## anchors to navigate.
 
 ## RESUME  WHERE WE ARE, AND THE HIDDEN JOURNAL
 WHERE: inside Forelhost's inner tomb, in the refinery (the journals room).
-
-GM RECAP (a gist, ~30 seconds): last session they read Antoine's three journals and
-  came away with the door CLUE -- "reverse the process of dying" -- and a sealed toxin
-  sample taken from the Ossuary cauldron. Antoine is GONE, departed to extract a sample
-  from the wounded Ulag; the Strain 2.0 clock is running.
   INSIDE: Davinia, Alfonso, Saijah, Orion.
   OUTSIDE with the cart: Bjorn, Mila, Nora, Esbern, Varon, GEAR, Ylva.
+
+JOURNAL RECAP (ask what the players remember first, then fill the gaps):
+  GM opens by asking: "What do you remember from the journals?" Let them answer.
+  Then supply anything missing:
+  - Antoine tested Strain 1.0 on Riften; restoration magic made it worse, not better.
+  - He watched Danica burn years of her life to cure Hemming. Strain 2.0 is designed
+    so the cure kills the curer.
+  - CLUE: "shutdown follows thanatological order: Cessation, Cooling, Rigidity, Decay,
+    Dissolution. The living enter by reversing the process of dying." (The door clue --
+    make sure every player has heard it before they move to ## 6.4.)
+  - Antoine has DEPARTED to extract a sample from the wounded Ulag. Strain 2.0 clock
+    is running. He is not here and will not arrive during this session.
+  - They carry a sealed toxin sample, taken from the Ossuary cauldron.
+
+>>READ: "The workroom is as you left it. The distillery alcove, swept and still. The
+  specimen jars on their shelves. The desk with the three journals spread open. The
+  sealed door at the far end of the ossuary, its copper plates waiting. The air is
+  the same: stale and sterile, tasting of nothing. The main bench stands at the
+  center, and one leg of it rests on something -- the whole table sits uneven, a
+  slight rock when you press it, a thin dark spine visible beneath the short leg."
+
+GM: the wobble is the tell. A player who looks under the bench finds the hidden
+  journal. Don't prompt it; let them notice.
 
 FIND: one book remains in the room, and its keeper never opens it -- a thin,
   water-swollen old journal wedged under the short leg of the main workbench, leveling
@@ -587,6 +605,170 @@ FIND: one book remains in the room, and its keeper never opens it -- a thin,
 EXIT: the sealed door at the back of the ossuary. -> ## 6.4
 
 =====================================================================
+## 5  ORION'S BUSINESS: GRELOD / HONORHALL
+=====================================================================
+NOT a dungeon. Social investigation + infiltration. No combat unless Orion
+makes it. Solution is Orion's -- do not suggest it to him.
+WHERE: Honorhall Orphanage, Riften. Can run before or after the Forelhost trip.
+
+--- THE JOB + FOUR MASTERS ---
+Orion holds a Brotherhood contract (client: Aventus Aretino) to kill Grelod
+the Kind -- the most beloved woman in Riften, secretly running a child-abuse /
+Thieves Guild training pipeline. He must also deal with Constance Michel.
+NOTE: The Ring check-in already happened. Valerius ordered Constance enthralled
+  through the Ring. In doing so he taught Orion two things: (1) Orion CAN
+  enthrall (as long as he's fully sated), and (2) the Ring has BLIND SPOTS --
+  Valerius isn't always listening. Orion knows he could hide a betrayal.
+FOUR COMPETING DEMANDS:
+  Aventus (client):   Grelod SUFFERS. Children KNOW they're free. Public.
+  Maven / Guild:      Pipeline continues. Constance takes over. No disruption.
+  Valerius (Ring):    Constance enthralled through the Ring -> Court asset.
+  Orion himself:      Obey Valerius, or enthrall Constance for himself?
+VARON (the live nag): "The contract is nearly spent. A contract gone cold
+  reverts to general assignment. That gets messy. Today, Orion. Today."
+
+--- BELOVED / ABUSE BEATS (interleave -- every public beat says "no one will
+    believe you"; every private beat says "she is what Aventus said") ---
+
+BELOVED #1 -- THE MARKET SAINT:
+>>READ: "The crowd parts with warm murmurs. A small elderly woman in a grey
+  dress, wicker basket on her arm, white hair under a modest cap -- the face
+  of someone's grandmother. Every merchant greets her by name. 'Mother Grelod!'
+  Madesi presses a silver pendant into her hand. 'For the children.' Balimund
+  hands her new blankets. 'Kynareth bless you -- the little ones will sleep
+  warm.' A guard tips his helmet. A merchant's daughter hugs her legs; Grelod
+  bends with effort and smooths her hair. She moves on, trailing warmth."
+
+BELOVED #2 -- THE MEMORIAL SPEECH:
+>>READ: "Grelod stands at the plague memorial, voice thin but carrying. 'We
+  lost good people. But Riften endures because we care for each other. The
+  orphanage took in six children during the plague. They told me they were
+  scared. And I told them what I tell every child: You are safe now. You are
+  loved. You will never be alone again.' The crowd applauds."
+
+BELOVED #3 -- THE UNTOUCHABLE (tavern/market):
+  A newcomer grumbles about coin going to the orphanage. The room turns on HIM.
+  A regular toasts "Mother Grelod, the kindest soul in the Rift." A guard walks
+  the grumbler out. Orion watches every door to an accusation close at once.
+
+BELOVED #4 -- BJORN, CHARMED (BEFORE he knows who she is):
+  Bjorn crosses paths with her running an errand. He sees a gracious old woman
+  with a heavy basket. De-aged, he looks slightly younger than her.
+  GRELOD: "Oh -- you mustn't trouble yourself --"
+  BJORN: "Ma'am, a man who won't carry a kind woman's basket isn't much of a
+    man. Here. Where to?"
+  GRELOD: "Such manners. What's your name, young man?"
+  BJORN: [a rusty grin at "young man"] "Bjorn. My pleasure, ma'am."
+  GRELOD: "You'll make some lucky woman very happy." [pats his arm, moves on]
+  BJORN: [to himself] "...Huh. Riften's not all bad."
+  GM: HOLD THIS BEAT. The horror is retroactive. When Bjorn finds out who she
+    was, he cannot square it. His own charmed reaction makes him doubt the party.
+
+BJORN, DOUBTING (after learning):
+  "...That sweet old woman? The one with the blankets? You're SURE about this?
+  The whole city loves her." Their moral anchor doubts them. This is the loudest
+  proof that no one will ever believe Orion, and it isolates him -- he can't
+  even lean on the party. Press with evidence and he'll come around, reluctantly,
+  sick about it. The instinctive doubt is the point.
+
+ABUSE #1 -- THE PRIVATE CRUELTY / HROAR (only if Orion watches after dark;
+  Hard Guile roll, -4, to approach unseen):
+>>READ: "By the ninth bell a light burns in Grelod's upper quarters. Through
+  the window: a different woman. She reviews a ledger with a quartermaster's
+  focus. A boy, maybe ten, holds a heavy book on each outstretched palm, arms
+  trembling. She does not look up. 'Your hands are shaking, Hroar. A pickpocket
+  with shaking hands gets caught. Worthless children do not eat breakfast. Hold
+  them steady, or you hold them until morning.'"
+
+ABUSE #2 -- THE CELLAR / LUCIA (Saijah's senses through the wall, or Orion's
+  night-watch): Grelod locks LUCIA, 10, into the lightless cellar for taking
+  bread. Lucia begs. Grelod's voice stays flat: "You'll come out when you've
+  learned what hunger is for." The door shuts. (This is why Lucia refuses to
+  enter any dark room.) Only the party sees this.
+
+--- THE PEOPLE ---
+GRELOD: Public = warm grandmother who LOVES visitors (they validate her). Private
+  = flat, precise, no affect. Light sleeper. Upstairs only after the kids are
+  abed. IF PARTY VISITS PUBLICLY: warm welcome, tour of the main hall (children
+  playing, clean; too perfect, too silent; they track her hands, not her face).
+  Asked about upstairs: "Just my quarters. An old woman's clutter." Very Hard
+  Guile roll (-6) to catch the lie; she is extremely practiced.
+
+CONSTANCE MICHEL (the moral center): late 20s. Knows everything. Does the real
+  caregiving. Silenced by a Guild man years ago. Stays for Jon, age 6.
+  Talk privately, away from Grelod:
+    Standard Guile roll: she'll talk ("everything is fine" -- the reflex).
+    Hard Guile roll (-4): past the wall. "She's protected. The Guild, Maven, the
+      guards. They'll believe her, not me, not the children."
+    Very Hard Guile roll (-6): full picture (training, pipeline, the threat, why
+      she stays). Cries silently; wipes her eyes before any child sees.
+  IF she witnesses the kill: does NOT scream or call guards. Closes the door.
+    "What happens to the children now?" -- the enthrall trigger.
+
+AVENTUS ARETINO (client, at the Bee and Barb): adult ~30s, scarred hands. She
+  broke them twice. Survivor. WANTS: "I want her to suffer. For them. And I want
+  the children to KNOW. Publicly. Undeniably free." Siblings inside: Hroar, Runa.
+
+--- LAYOUT & SECURITY ---
+  Kitchen back window (canal entry): Standard Agility roll.
+  Front door at night: Hard Agility roll (-4).
+  Upstairs door locked at night. Grelod sleeps UPSTAIRS.
+  Desk drawer (ledger): Hard Agility roll (-4).
+  Chest under bed: Very Hard Agility roll (-6) -> 800g coin, Brynjolf letters,
+    list of "graduated" children + Guild assignments.
+  Training room: master lock -- Nearly Impossible Agility roll (-8) or Grelod's
+    key. Inside: practice locks with small bloody fingerprints, leather strap,
+    sewer-map chalkboard, stopwatch.
+  No guards -- the conditioned children ARE the security. Guild check-in: Thursdays.
+  GRELOD'S DAY: public AM -> training 2-6pm -> dinner performance -> kids abed
+    by 8 -> ledger till midnight. Constance: up first, last to sleep.
+
+--- THE KILL: CONSTRAINTS (Orion's solution; do NOT suggest) ---
+  Aventus:    she suffers; kids know; public.
+  Maven/Guild: pipeline continues; Constance takes over.
+  Valerius:   Constance enthralled via the Ring -> Court asset.
+  Orion:      obey Valerius, or enthrall Constance for himself?
+  No heat on the Lanterns: beloved woman dies; Lanterns are in town.
+  GM APPROACHES (reference only -- do not pitch these):
+    (a) public exposure -> Jarl arrest/execution (Very Hard Guile roll, -6, to
+        present evidence; satisfies Aventus, kills pipeline, Maven enemy)
+    (b) silent kill + framing (no suffering, pipeline preserved)
+    (c) theatrical kill before the kids (Aventus's dream; traumatic but free;
+        Maven enemy)
+    (d) expose the training room publicly, then quiet kill in the scandal
+  MAVEN CONSTRAINT: quiet death = she shrugs. Public destruction = serious enemy
+    who investigates. Delvin warned Orion in the Flagon.
+
+--- THE ENTHRALLMENT: CONSTANCE CHOICES ---
+  A) Via Ring (obey Valerius): she's the Court's. Perfect cover. Kids feed a
+     vampire lord intel. Orion gains nothing personal.
+  B) Own power (requires FULLY SATED): she's Orion's. Valerius blind to it
+     (his blind spots) -- catastrophic if discovered. Personal Riften network.
+  C) Don't enthrall: she runs a real home; kids free. Valerius notices eventually.
+  D) Via Ring + good orders: obey Valerius AND make her protect the kids + report.
+     Pragmatic. Still mind control. Better than Grelod?
+
+--- AFTERMATH ---
+  Quiet death: Constance takes over; pipeline continues; Aventus disappointed.
+  Exposed + killed: scandal; Maven furious; kids placed under Constance by the
+    Jarl; Aventus weeps -- "They're actually free."
+  Orion refuses: general assignment; another assassin does it messier; Brotherhood
+    notes the refusal; Grelod dies worse.
+
+--- CHILDREN (not props -- give them specific moments) ---
+  Hroar (14, star pupil, bleeding hands) | Runa (15, oldest, knows Grelod's
+  routine, cracks if trusted) | Samuel (13, child-spy, self-loathing) | Lucia
+  (10, cellar, refuses dark rooms) | Sofie (9, grooming phase) | Jon (6, silent,
+  Constance carries him) | Yrsa (5, the one thing the other kids protect)
+
+GM NOTES: don't rush -- multi-day investigation is rewarded. Children are the
+  stakes; show specific kids doing specific things. Constance has NO clean path.
+  Aventus is right; this is not a simple hit. EDGE: Mila just escaped child-abuse
+  and rides on the cart; tonight Orion walks a child-abuse factory three streets
+  away. The Vow is live. The Bjorn beats are the throughline -- even their anchor
+  is fooled; that's how total Grelod's cover is.
+
+=====================================================================
 ## 6.4  THE CONTAINMENT THRESHOLD  (the puzzle -- sets infection severity)
 =====================================================================
 MECHANISM: five vertical copper plates, each a Dragon Cult alchemical symbol; press
@@ -597,25 +779,29 @@ CLUE (J1): "shutdown follows thanatological order: Cessation, Cooling, Rigidity,
 PLATES (top->bottom): 1 Spiral=Dissolution / 2 Branching=Decay / 3 Bar=Rigidity /
   4 Wavy=Cooling / 5 Circle+line=Cessation.
 CORRECT SEQUENCE = reverse of dying = press 1,2,3,4,5 (top to bottom).
-TRANSLATION needs: Magic TN 14 (arcana), OR Esbern if consulted, OR Alfonso's player
-  claiming it as his domain (no roll, but HE reads it).
+TRANSLATION: Standard Magic roll to decode the symbols. OR Esbern if consulted (he
+  can read Dragon Cult notation). No roll needed if a player works the Atmoran-script
+  handout themselves (GM will write the clue in Atmoran script -- translation is active
+  player puzzle work at the table).
+  FALLBACK if nobody translates: allow trial-and-error, but each wrong press escalates
+  the infection outcome. Two wrong presses = Outcome B. Three or more = Outcome C.
 OUTCOMES (set infection severity):
-  A) CORRECT (held): breathable corridor; LOW exposure (background). Davinia: mild
-     fever in 48h, weeks to cure. Orion: no symptoms ~a week, then Restoration-
-     resistance suppressed (sun more dangerous). Saijah: feverish a day. Alfonso: imm.
-  B) PARTIAL (2-3 right then wrong): unstable corridor leaks; MODERATE. Davinia:
-     fever 24h, cough 48h, 1-2 weeks to critical, can't safely heal. Orion: symptoms
-     in 3 days; sun + blood-thirst up. Saijah: sick 2-3 days. Alfonso: immune/offended.
-  C) BRUTE FORCE: ward collapses; ALL samples vent; SEVERE. Davinia: symptoms in
-     hours, DAYS not weeks, Restoration now actively dangerous. Orion: 24h to
-     compromised metabolism; the Ring burns cold -> Valerius notices. Saijah: very
-     sick 3-4 days, Hircine saves her -- now she OWES Him. Alfonso: immune, but the
-     pathogen is in the wind (environmental contamination), AND the outer Sentinels
-     stir -- exit becomes hostile.
-MOVES: put the clue + plates to the table and let them solve it. Translate via Magic TN 14
-  (Esbern, or Alfonso's player claiming it -- no roll, but HE reads the sequence). Clue +
-  translation -> they press 1,2,3,4,5 top to bottom -> Outcome A. No clue: TN 16 from symbols
-  alone. Force: Might TN 16 / any magic attack on the door -> Outcome C.
+  A) CORRECT: breathable corridor; LOW exposure. Davinia: mild fever in 48h, weeks to
+     cure. Orion: no symptoms ~a week, then sun more dangerous. Saijah: feverish a day.
+     Alfonso: immune.
+  B) PARTIAL (2-3 right then wrong): unstable corridor leaks; MODERATE. Davinia: fever
+     24h, cough 48h, 1-2 weeks to critical, Restoration feeds the disease. Orion:
+     symptoms in 3 days; sun and blood-thirst up. Saijah: sick 2-3 days. Alfonso: immune.
+  C) BRUTE FORCE: ward collapses; ALL samples vent; SEVERE. Davinia: symptoms in hours,
+     days not weeks, Restoration now actively dangerous. Orion: metabolism compromised
+     in 24h; the Ring pulses -- Valerius notices something wrong. Saijah: very sick 3-4
+     days, Hircine saves her (she owes him now). Alfonso: immune, but pathogen drifts
+     on the wind (environmental contamination) AND the outer Sentinels stir on the way
+     out.
+MOVES: put the clue + plates to the table; let them solve it. Clue + translation ->
+  press 1,2,3,4,5 top to bottom -> Outcome A. No translation: trial-and-error with
+  escalating cost (above). Force (Hard Might roll, -4 / any magic attack on the door)
+  -> Outcome C.
 
 =====================================================================
 ## 6.5  THE LABORATORY  (the reward room and the big reveal)
@@ -636,13 +822,14 @@ GM: Rahgot is NOT here -- he woke, pushed out, and walks elsewhere. Run no Rahgo
   this room: no body, no avatar, no ambush. The party reads him off the marks he left
   (the sarcophagus FIND below). The lab is sterile and still; the dais is the one warm
   thing in it.
-FIND: the Tears of Rahgot (Magic TN 12) -- crimson flowers in dark, pulsing soil; the
-  extinct binding agent, their weeping liquid Antoine's concentrated toxin.
+FIND: the Tears of Rahgot (Standard Magic roll) -- crimson flowers in dark, pulsing
+  soil; the extinct binding agent, their weeping liquid Antoine's concentrated toxin.
   GM: this is also his harvest TRAP. Antoine built an automated station to cage an
     intruding carrier, draw its pathogen signature, then sterilize the cage and destroy
     the body. TRIGGER: touching the flower or the dais soil.
-  BYPASS: mage hand / telekinesis (no touch) | harvest from outside the dais | Agi TN 18
-    to disable the drop mechanism | long alchemical tongs that never touch the dais.
+  BYPASS: mage hand / telekinesis (no touch) | harvest from outside the dais | Very Hard
+    Agility roll (-6) to disable the drop mechanism | long alchemical tongs that never
+    touch the dais.
   IF TRIGGERED:
     1. A cage drops from the ceiling and seals the target inside.
     2. Needles and tubes deploy in the cage, drawing the pathogen signature.
@@ -660,8 +847,8 @@ STAT: False Draugr  x4-6  (TL1-2 Expert)
   Immune poison/disease/cold/fear/Alfonso's plague-communion (alchemical constructs)
   Weak FIRE (x2 dmg) | Sonic/Thunder (staggered 1 round)
   Might 15 | Agility 10 | Magic 6 | Guile 4
-  Atk Alchemical Blade -- melee, 8 dmg; Might TN 12 or Numbness (-1 Agi, 2 rounds)
-  Atk Restraining Grapple -- replaces attack; Might TN 15 contested -> Restrained 1 round
+  Atk Alchemical Blade -- melee, 8 dmg; Standard Might roll or Numbness (-1 Agi, 2 rds)
+  Atk Restraining Grapple -- replaces attack; contested Might roll (Hard, -4) -> Restrained
   Behavior: fight to CONTAIN, not kill -- grapple and pin to let sterilization run; they
     do not pursue outside the lab.
 --- FIND: THE OPEN SARCOPHAGUS (the first room a real villain occupied) ---
@@ -677,13 +864,13 @@ STAT: False Draugr  x4-6  (TL1-2 Expert)
     mortal scale (he pushed the lid off one-handed, dented the stone). The undisturbed
     dust holding a whole body = he lay still an age, then rose. The even footprints = he
     left at an unhurried walk with somewhere to be, the bearing of something that owns the
-    room. Magic TN 12: the death-sleep runes were shut off FROM INSIDE -- he woke himself
+    room. Standard Magic roll: the death-sleep runes were shut off FROM INSIDE -- he woke
     and walked out. This is the party's first proximity to a true Dragon Priest; they are
     now someone he will remember. He is Rahgot the Angry, the Avenger; his want is 4,000
     years of vengeance on the bloodline that besieged this fortress (his coming Scourge).
     The science is Antoine's; the want is his.
 
---- FIND: THE CARVINGS (Magic TN 14; or Alfonso's domain, no roll) ---
+--- FIND: THE CARVINGS (Standard Magic roll to read the Dragon Cult notation) ---
   Five death-sleeping priests, each with a mask:
     Nahkriin the Guardian -- vengeance; spymaster.
     Vokun the Shadow -- tactician, siege.
@@ -706,9 +893,24 @@ STAT: False Draugr  x4-6  (TL1-2 Expert)
   of a child, the rails worn pale and smooth where small hands gripped them. A slate leans
   on the last cot, chalked in two columns -- the alphabet down one side in big careful
   letters, alchemical sigils down the other, a few of the letters drawn backward. The last
-  niche at the back stands open and swept, a folded cloth set ready at its head."
-  GM: generations born, taught, and buried here. The open swept niche is the one Antoine
-    cut for himself. This is where the hidden journal becomes a place.
+  niche at the back stands open and swept, a folded cloth set ready at its head.
+  Against the wall beside the cots: a locked iron chest, old and dented but sound, and on
+  a shelf above it, a cloth-wrapped book, thicker than any of the journals in the refinery,
+  its cover hand-tooled with the same alchemical notation as the practice slate."
+  GM: generations born, taught, and buried here. The open niche is the one Antoine cut
+    for himself. This is where the hidden journal becomes a place.
+  FIND: the locked chest (Hard Agility roll, -4, to open) -- a cache of preserved reagents
+    stored by the family over forty generations. Rare materials the outside world can no
+    longer easily source: dried Ancestor Moth silk, crystallized void salt, blackened bone
+    meal, three sealed vials of Tears of Rahgot extract kept separate from Antoine's lab.
+    Worth ~1,200g to an alchemist; worth more to the party as material.
+  FIND: the Forelhost Alchemy Codex -- the family's master textbook of alchemical craft,
+    written and revised by forty generations of Keepers, annotated in the margins in a
+    chain of different hands. The full text will be prepared by the GM separately. Any
+    player who takes and studies this book gains access to Alchemy as a learnable skill.
+    GM: this is the campaign's gateway to Alchemy. The Codex can go to anyone; the GM
+    hopes it lands with Saijah (a connection to the land's materials and a magical purpose
+    she doesn't currently have) or Orion -- but it is the players' to claim.
 
 --- FIND: ANTOINE'S CONFESSION (a loose page at the main bench) ---
   GIST: "a page in his hand, pressed harder than the tidy logs around it -- written to
@@ -736,18 +938,19 @@ STAT: False Draugr  x4-6  (TL1-2 Expert)
     METHOD and the contractor -- no victim. Read it FLAT; it is audience-only irony, a crumb
     to pay off later.
   HANDOUT -- the Ice-Shaper to Antoine:
-    "You have kept the Breaker's frame the way your father kept it and his father before
-     him, and called the keeping devotion. The frame was always the small problem. Holding
-     a mind in failing flesh is a nursemaid's work, and your family has done nursemaid's
-     work with great patience for a very long time.
-     Lifting a mind out whole and seating it in a better frame is the work I have spent
-     those same years finishing. It is finished. The method began in one body and now it
-     cares nothing for which body it began in. The vessel is a detail. The song is the
-     asset."
+    "Your family has maintained my work for four generations and called the maintenance
+     devotion. I built the Breaker's frame -- the casket, the amber, the soul-gem eyes,
+     the whole apparatus. You have kept it cycling. That is the difference between us.
+     I built something; you have kept it clean.
+     I have since finished a different problem. The casket was always a compromise: a
+     mind held in failing flesh, dependent on your family's upkeep in perpetuity. The
+     work I have finished does not need the original flesh at all. A signature can be
+     lifted whole and seated in a frame that suits the work. The method does not care
+     where it began. The vessel is a detail. The song is the asset."
   Antoine's margin note: "He will leave the day the keeping bores him. Rahgot knows.
     Rahgot lets him. I am not told why."
 
---- FIND: THE STRAIN 2.0 FOLDER (Alfonso's domain; others Magic TN 16) ---
+--- FIND: THE STRAIN 2.0 FOLDER (Hard Magic roll, -4, to parse the technical content) ---
   Goals: self-propagating; waterborne + airborne + RESTORATION-transmissible ("a healer
     who cures one becomes the vector for the next hundred").
   Missing piece: the "divine frequency," to be extracted from Ulag on arrival.
@@ -812,9 +1015,10 @@ robes, Kynareth's light worn like a weapon. Krusp stands a few paces behind her.
   DAVINIA'S CHANCE -- THE AMULET OF MARA: if Davinia tries to give Danica the Amulet
     of Mara (the one Ismara won't let her cleanly deliver), LET HER TRY.
     THE INTERFERENCE: as Davinia reaches for it / speaks, the Crown does its quiet
-      work -- the words come out wrong, controlling, framed; or her hand is cold and
-      stiff and the gesture lands like a transaction, not a heart. She cannot make
-      it land clean. (Don't roll it away; play the wrongness.)
+      work -- the words come out controlled, framed, arriving as a transaction rather
+      than a feeling; or her right hand moves wrong, Ismara's architecture where her
+      own reach should be, and the gesture reads as offering a price, not a heart.
+      She cannot make it land clean. (Don't roll it away; play the wrongness.)
     DANICA (seeing it; goes still): "...What is that." Then, quietly, when she
       understands: "You're doing it again. A symbol instead of the thing. You can't
       hand me a marriage charm in place of an apology, Davinia." She does not take
@@ -857,9 +1061,12 @@ PRESENTING THE INTEL (adapt to what they have):
     the contract.
   - If they ran Forelhost: Antoine's journals (Riften deployment data, "the cure
     was my delivery system"), sealed culture samples, the Strain 2.0 folder
-    (waterborne/airborne/Restoration-transmissible). Her hands go still at the
-    Rahgot name: "A Dragon Priest. Not a ruin. A living one... that views my family,
-    my city, and my operation as a petri dish."
+    (waterborne/airborne/Restoration-transmissible). The Dragon Priest context lands
+    hard -- not because she knows who Rahgot is (she doesn't) but because the
+    implication is that an ancient power used her city as a test site and her
+    operation as an ingredient. Her hands go still. "A Dragon Priest. Sleeping in a
+    mountain an hour south of my city. Using my Meadery to run a field test." A beat.
+    "He doesn't know my name. He will."
 THE 5,000g BOUNTY: she counts it out of the lockbox. Debt settled.
 THE PROMOTION (the patron offer): "I don't fight wars with mercenaries I hire by
   the job. Hunt Antoine and his master. Dismantle the operation. Bring me Antoine
@@ -876,17 +1083,17 @@ THE PROMOTION (the patron offer): "I don't fight wars with mercenaries I hire by
   >> THE PROMOTION IS A GOLDEN CAGE. Once they're "her people," walking away is
      political, refusing is political, and every secret they carry becomes leverage
      if she ever learns it.
-OPTIONAL -- ORION'S GRELOD PITCH (Guile TN 18, Very Hard): if Orion frames Grelod's
+OPTIONAL -- ORION'S GRELOD PITCH (Very Hard Guile roll, -6): if Orion frames Grelod's
   removal as operational security (swap to the younger, "more manageable" Constance)
-  rather than a Brotherhood hit -- SUCCESS: Maven authorizes it ("Handle it.
-  Quietly. The children continue their education. If there's noise, I hold you
-  personally responsible. You advise me once -- that's a gift. Not twice."). This
-  solves Orion's whole tangle at once. If exactly 18: she asks how he knows what
-  the orphanage really is (2nd Guile TN 14 to deflect w/o revealing the Brotherhood
-  -- blame Krusp's investigation). FAIL: "Stay in your lane, Lantern." CRIT FAIL
-  (20): "Someone put you up to this. Who?" -- Guile TN 16 to recover or she starts
-  hunting the contract's source -> the Brotherhood -> the Lanterns' position in
-  Riften turns fragile. (Don't pitch this to the player; it's Orion's to find.)
+  rather than a Brotherhood hit -- SUCCESS: Maven authorizes it ("Handle it. Quietly.
+  The children continue their education. If there's noise, I hold you personally
+  responsible. You advise me once -- that's a gift. Not twice."). Solves Orion's whole
+  tangle at once. PARTIAL (one below success threshold): she asks how he knows what the
+  orphanage really is -- Hard Guile roll (-4) to deflect without revealing the Brotherhood
+  (blame Krusp's investigation). FAIL: "Stay in your lane, Lantern." CRIT FAIL (nat 20):
+  "Someone put you up to this. Who?" -- Hard Guile roll (-4) to recover or she starts
+  hunting the source -> the Brotherhood -> the Lanterns' position in Riften turns fragile.
+  (Don't pitch this to the player; it's Orion's to find.)
 CLOSE: "Hemming wants to meet the people who sent the woman who saved his life.
   He's sentimental. Indulge him. Ten minutes." -> section 9.
 

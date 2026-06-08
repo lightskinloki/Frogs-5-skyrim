@@ -157,6 +157,21 @@ Stats (Target Numbers, not modifiers):
   Guile   -- deception/persuasion/tactics
   (Rolls succeed if d20 result is BELOW the relevant TN)
 
+** THE SINGLE MOST IMPORTANT MECHANICAL RULE -- DO NOT VIOLATE **
+Players always roll against their OWN stat score. The GM NEVER sets a target
+number. Writing "Magic TN 14" or "Agility TN 12" is meaningless and breaks the
+system -- it ignores the character's actual stat and invalidates their build.
+The GM's ONLY lever is the DIFFICULTY MODIFIER, a +/- applied to each player's
+own TN:
+  Very Easy:          +4 to the player's TN
+  Easy:               +2 to the player's TN
+  Standard:            0 (no modifier)
+  Hard:               -4 to the player's TN
+  Very Hard:          -6 to the player's TN
+  Nearly Impossible:  -8 to the player's TN
+ALWAYS write difficulty (e.g., "Hard Magic roll (-4)") NEVER a fixed number.
+This applies to every document: runsheets, modules, stat blocks, everything.
+
 Resources:
   HP  -- Health Points
   FP  -- Focus Points (mana/stamina hybrid, fuels abilities)
