@@ -1,178 +1,174 @@
-FROGS 5 SESSION SHEET FORMAT + TEMPLATE
-How to build a GM session file you can run an entire night from, in Notepad.
+FROGS 5 SESSION SHEET FORMAT + TEMPLATE  (WordPad / RTF edition)
+How to build a GM session file you can run an entire night from, in WordPad.
 
-This governs STRUCTURE. The WRITING GUIDE governs the prose inside >>READ and the
-in-world text. Use both. Plain text, hard-wrapped to 80 columns.
+This governs STRUCTURE and LOOK. The WRITING GUIDE governs the prose inside the
+READ-ALOUD and HANDOUT blocks. Use both.
 
-The job of a session sheet: one file, opened in Notepad on any machine, that runs
-the whole night with nothing else open. Everything inlined. No "see the other doc."
+The job of a session sheet: ONE file, opened in WordPad, that runs the whole night
+with nothing else open -- and that reads cleanly AT THE TABLE, out loud, while four
+players look at you. Everything inlined. No "see the other doc."
+
+WHY THIS REPLACED THE OLD NOTEPAD FORMAT:
+  The old format was pure ASCII, hard-wrapped to 80 columns, tag-greppable. That was
+  built for machine inference, not for a human reading live -- at the table it became
+  a wall of grey text with no place for the eye to land, and read-aloud hid inside GM
+  prose. WordPad gives us size, bold, italic, colour, indent, and spacing, so we build
+  the sheet entirely for the GM. (The model reads rich text fine; nothing was lost.)
 
 
 ====================================================================
-1  HARD RULES OF THE FORMAT
+0  THE WORKFLOW  (how a sheet is made and maintained)
 ====================================================================
 
-- PURE ASCII. Use -- for a dash, straight quotes ' and ", and ===/--- for rules.
-  No box-drawing bars, no smart quotes, no em-dashes. They mojibake in plain text.
-- HARD-WRAP EVERY LINE TO 80 COLUMNS. Word-wrap may be on or off, on this machine
-  or another; a hard-wrapped line displays the same everywhere. Wrap by hand.
-- NO TABLES. There are no columns in Notepad. Related values go on one line,
-  separated by " | ". Sub-items indent two spaces under their parent.
-- EMPHASIS IS CAPS, BLANK LINES, AND INDENT. That is the whole toolkit. No bold,
-  no italic, no color exist here.
+- The deliverable is an .rtf file the GM opens and HAND-EDITS in WordPad. The .rtf is
+  the canonical, living doc -- the GM writes notes into it during play.
+- First drafts are produced by the generator script `_build_session_rtf.py` (repo
+  root): content is written as helper calls (scene/readaloud/handout/gm/bullet/
+  statcard/exit), and the script emits clean RTF. This avoids hand-writing fragile
+  RTF control words.
+- After generation, the .rtf is canonical. Regenerate ONLY before the GM has started
+  editing/playing a sheet (a rerun overwrites hand-edits). Once they're in it, edit
+  the .rtf directly.
+- Visual reference: `Toryggs legacy/SESSION FORMAT SAMPLE.rtf` (one scene, fully
+  styled). Open it to see the target.
+- Validate every generated .rtf for balanced braces before handing it over (a throwaway
+  brace-counter; the build is invalid if final balance != 0).
+
+
+====================================================================
+1  THE VISUAL VOCABULARY  (the element types and what each is FOR)
+====================================================================
+
+The whole point is that the GM never HUNTS. Each element looks distinct so the eye
+finds it instantly.
+
+SCENE HEADER
+  Big (18pt), bold, MAROON, generous space above. Numbered. You navigate the doc by
+  these. e.g.  "1   THE LAB, MID-FIGHT -- ROLL INITIATIVE"
+
+"WHAT THIS IS" SUBTITLE
+  One italic GREY line directly under the header. Orients the GM in one second: the
+  scene's purpose and goal. Not flavour -- function.
+
+>> READ ALOUD  (the single most important element)
+  A labelled, indented, ITALIC, BLUE block. Its own label line ">> READ ALOUD" in
+  bold. Blank space around it. Long narration is broken into paragraphs INSIDE the
+  block so it is never a wall. At the table you should never search for the next thing
+  to say -- the blue finds your eye.
+
+>> HANDOUT -- <title>
+  Same blue italic block, labelled as a handout. The full in-world text of a journal,
+  letter, or note, inlined so you read or paste it without leaving the file.
+
+GM NOTES
+  Normal weight, prefixed with a bold maroon "GM:". Kept SHORT -- a beat per note, not
+  a paragraph brick. This is your-eyes-only truth and adjudication.
+
+BULLETED BEATS
+  One idea per bullet, brown bullet glyph, whitespace between. Discoveries, options,
+  consequences -- anything scannable becomes bullets, never prose.
+
+ROLLS / MECHANICS -- BOLD INLINE
+  Bold the roll so it jumps: **Hard Guile (-4)**, **Standard Magic**, **Very Hard
+  Agility (-6)**. Never a fixed target number (see section 3).
+
+STAT / MECHANIC CARDS
+  A bordered, monospace block set apart from the prose, so a fight or a sub-system
+  reads like a card you glance at, not a sentence you parse. Used for stat blocks AND
+  for any tight rules widget (an alert ladder, a release combination, etc.).
+
+LABELS (sub-headers within a scene)
+  Bold BROWN (or RED for danger/combat), ~13pt. INVESTIGATE / LOOT / THE FIRST KILL /
+  COMBAT. They break a long scene into glanceable sections.
+
+EXIT ->
+  A bold maroon "EXIT ->" line closing the scene and pointing at the next, e.g.
+  "EXIT -> 2  THE OSSUARY". The reader always knows where the scene leads.
+
+
+====================================================================
+2  THE COLOUR PALETTE  (keep it small -- colour is navigation, not decoration)
+====================================================================
+
+  MAROON  -- scene headers, EXIT lines, the "GM:" tag. The skeleton you navigate by.
+  BLUE    -- READ-ALOUD and HANDOUT blocks. "This is the thing you say/show."
+  BROWN   -- labels and bullets. The body structure.
+  RED     -- danger labels only (combat, catastrophic stakes). Use sparingly.
+  GREY    -- the italic "what this is" subtitle.
+
+If in doubt, fewer colours. Bold carries most of the emphasis; colour marks KIND.
+
+
+====================================================================
+3  STRUCTURAL RULES  (carry over from the old format; still law)
+====================================================================
+
 - SELF-CONTAINED. Inline every stat block, NPC line, clue, handout, rule, and
-  consequence the night needs. A cross-reference is a failure of this format.
+  consequence the night needs. A cross-reference to another file is a failure.
+- NO HARD-WRAP. Let WordPad word-wrap. Hard-wrapping is what made the old bricks.
+  Keep paragraphs SHORT and lean on bullets + blank space instead.
+- NUMBER EVERY SCENE. Scenes run in order; the reader counts down them.
+- NEVER A FIXED TARGET NUMBER. The GM sets DIFFICULTY, never a TN. Always
+  "Hard Guile (-4)" / "Standard Magic", never "Guile TN 14". This is the single most
+  important mechanical rule of the campaign; it applies in every stat block, puzzle,
+  and mechanic on the sheet.
+  Difficulty ladder: Very Easy +4 / Easy +2 / Standard 0 / Hard -4 / Very Hard -6 /
+  Nearly Impossible -8.
+- PROSE OBEYS THE WRITING GUIDE. Inside READ-ALOUD and HANDOUT: present what IS there;
+  no "cold" filler; no describing by absence; no omniscience; never narrate a player's
+  actions, choices, or conclusions. The sheet hands the table the moment; it never
+  spends it for them.
 
 
 ====================================================================
-2  THE TAGS  (a fixed vocabulary -- the GM searches these mid-session)
+4  THE SCENE TEMPLATE  (the repeating unit)
 ====================================================================
 
-Every tag is CAPS and starts a line, so Ctrl+F lands on it. Use only these:
+  SCENE HEADER (maroon, numbered)
+  "what this is" subtitle (grey italic)
 
-  ## N        Section anchor. Ctrl+F "## 4" jumps to section 4. Number every one.
-  WHERE:      Where the scene happens.
-  WHEN:       When it triggers, if timing matters.
-  >>READ:     Say this to the players, close to verbatim. Follows the WRITING GUIDE.
-  GM:         Your eyes only. Never read aloud. What is true, what to watch.
-  CLUE:       A load-bearing fact the party needs to move forward. Short. Its own
-              line. NEVER buried inside a >>READ or a HANDOUT (see section 5).
-  FIND:       A discoverable object in the scene.
-  GIST:       The one line you say when a FIND is picked up. Keeps pace.
-  HANDOUT:    Full in-world text to hand or paste to the players. Inlined here.
-  STAT:       A creature or NPC stat block. Format in section 4.
-  LOOT:       What the scene yields.
-  IF ... ->   A branch or consequence. "IF they force the door -> Outcome C."
-  EXIT:       Where the scene leads. Point at the next anchor: "-> ## 3".
+  >> READ ALOUD          the player-facing description (blue), broken into paragraphs
+  GM: ...                truth + adjudication (short)
+  LABEL                  e.g. INVESTIGATE / COMBAT / LOOT
+    bullet beats         one idea each
+    >> HANDOUT -- title  full in-world text, inlined, opt-in depth
+    STAT / MECHANIC CARD  bordered monospace block
+  EXIT -> next scene
 
 
 ====================================================================
-3  THE SESSION FILE, TOP TO BOTTOM
+5  THE LORE-DELIVERY MODEL  (unchanged -- keep the three jobs separate)
 ====================================================================
 
-SESSION TITLE -- one line of what tonight is.
-One line: "Self-contained. Run the whole night from this file."
+A lore drop does up to three jobs. Keep them apart:
 
-## 0  CONTENTS
-  A flat list of every ## anchor in run order, so the top of the file is the map.
+  THE CLUE  -- load-bearing; the party needs it to move. Give it its OWN short beat,
+    at its point of use, deliverable in ten seconds. NEVER bury a clue inside a long
+    READ-ALOUD or HANDOUT. Two short clues at two spots beat one wall in one room.
+  THE GIST  -- the one line you say when a FIND is picked up; keeps pace and tells the
+    table whether to read further.
+  THE HANDOUT -- the full in-world text. Opt-in depth; players read on their own time;
+    it never gates the night.
 
-## 0  STATE AT START
-  WHERE the party is, WHO is present (PCs + NPCs + who is elsewhere), the CLOCKS,
-  gold, standing rules, and a three-line RECAP of what last session established.
-  Keep the recap to a gist; it is a reminder, not a re-read.
-
-## 1 ... ## N  THE SCENES, IN RUN ORDER
-  Each one built from the scene template in section 4.
-
-## Z  SESSION CLOSE
-  AP awarded, the look-ahead for next time, and OPEN THREADS still live.
+Standing fix for the one failure mode: the clue is never in the dump.
 
 
 ====================================================================
-4  THE SCENE TEMPLATE  (the repeating unit -- copy this per scene)
+6  STAT / MECHANIC CARDS  (how the bordered blocks read)
 ====================================================================
 
---------------------------------------------------------------------
-## N  SCENE NAME
---------------------------------------------------------------------
-WHERE: one line.
-WHEN:  one line, only if timing matters.
+Rendered as a bordered, monospace card. One line per attack or ability; numbers
+grouped with " | "; long abilities wrap indented. Example content:
 
->>READ: The player-facing description, hard-wrapped, continuation lines
-  indented two spaces. Present what is there. No cold, no describing by what
-  is absent, no narrating a player's actions or conclusions (see WRITING GUIDE).
+  FALSE DRAUGR  x4-6   (TL1-2 Expert) -- Antoine's make, NOT true undead
+  HP 35  |  DR 5  |  Immune poison/disease/cold/fear/Alfonso's communion
+  Weak FIRE (x2)  |  Sonic-Thunder (staggered 1 rd)
+  Might 15   Agility 10   Magic 6   Guile 2 (no mind in here)
+  Atk Alchemical Blade -- melee 8; Standard Might or Numbness (-1 Agi, 2 rds)
+  Atk Restraining Grapple -- contested Might (Hard -4) -> Restrained; they pile on
 
-GM: What is true under the surface, how to adjudicate, what to watch for. The
-  meaning of the scene lives here, not in the >>READ.
-
-CLUE: The one load-bearing line, if the scene has one. (See section 5.)
-
-FIND: <object>  --  GIST: "the one line you say on pickup."
-  HANDOUT: the full in-world text, inlined, so you can read or paste it without
-    leaving the file. Opt-in depth; it never gates the night.
-
-STAT: <name> ...   (section 4a)
-
-LOOT: item (value) | item (value)
-IF <condition> -> <result>.
-EXIT: -> ## N+1 NEXT SCENE
-
-
-4a  STAT BLOCK FORMAT  (inline, pipe-delimited, never a table)
-
-STAT: Draugr Sentinel  x3  (TL1 Expert)
-  HP 30 ea | DR 6 | Immune poison/disease/cold | Weak FIRE (x2 dmg)
-  Might 17 | Agility 13 | Magic 15 | Guile 8
-  Atk Greatsword -- melee, 10 dmg
-  Atk Frost Breath -- 15ft cone, 8 cold, Agi TN 15 for half
-  Undying Loyalty: at 0 HP drops for 1 round, then rises with 10 HP next turn,
-    unless burned or the skull is crushed (Might TN 14, or any fire on the body)
-
-Rules for stat blocks: one line per attack or ability; numbers grouped with " | ";
-long abilities wrap with two-space indent. A blank line ends the block.
-
-
-====================================================================
-5  CLUES, GISTS, AND HANDOUTS  (the lore-delivery model)
-====================================================================
-
-A lore drop does up to three separate jobs. Keep them separate.
-
-  THE CLUE is load-bearing -- the party needs it to move forward. It must be its
-    OWN object: a short CLUE: line, found at its point of use, that you can hand
-    over in ten seconds. A clue trapped inside a long read forces you to dump the
-    whole thing to deliver one fact, usually at the worst moment. Never do that.
-
-  THE GIST is the one line you speak when a FIND is picked up. It keeps the table
-    moving and tells them whether they want to read further.
-
-  THE HANDOUT is the full in-world text -- a journal, a letter, a tome. Inline it
-    under the FIND so it runs from this file. Players read it on their own time.
-    It is opt-in depth and never gates pace.
-
-WHERE TO PUT THINGS:
-  - Load-bearing and must-hear -> scatter it to the point of use, in small beats,
-    as a CLUE line. Two short clues at two locations beat one wall in one room.
-  - Flavor and depth -> HANDOUT. Trust the table to read; do not force it.
-
-This is the standing fix for the one failure mode: the clue is never in the dump.
-
-
-====================================================================
-6  WORKED EXAMPLE  (the format running)
-====================================================================
-
---------------------------------------------------------------------
-## 1  THE KILLING FIELD
---------------------------------------------------------------------
-WHERE: Forelhost gate, exterior. The gate stands open.
-
->>READ: The path crests the ridge and Forelhost sits in the saddle below, black
-  stone half-sunk in snow, its iron gate standing open. The ground between the
-  trees and the gate is shallow snow over bone: hundreds of Nord dead in corroded
-  armor, rotted siege ladders, rusted swords. Three figures pace among them --
-  skeletal warriors in Dragon Cult robes, eye-sockets lit blue, walking a slow
-  circuit of the gate.
-
-GM: The bones are unmarked -- no army dies clean. Magic TN 12 reads it: poison.
-  The cult weaponized its own death; Forelhost was a poison site from the start.
-  The Sentinels hold a fixed patrol and do not pursue past the treeline.
-
-FIND: the open gate -- GIST: "the hinges are oiled, used within months."
-  HANDOUT: none. It is a tell, not a document.
-
-STAT: Draugr Sentinel  x3  (TL1 Expert)
-  HP 30 ea | DR 6 | Immune poison/disease/cold | Weak FIRE (x2 dmg)
-  Might 17 | Agility 13 | Magic 15 | Guile 8
-  Atk Greatsword -- melee, 10 dmg
-  Atk Frost Breath -- 15ft cone, 8 cold, Agi TN 15 for half
-  Undying Loyalty: at 0 HP drops for 1 round, then rises with 10 HP next turn,
-    unless burned or the skull is crushed (Might TN 14, or any fire on the body)
-
-IF they watch the patrol and slip the gap (Agi TN 14) -> skip the fight.
-LOOT: 3x ceremonial greatsword (100g ea) | Dragon Cult Amulet (opens cult doors
-  inside; Magic TN 12 to spot what it is)
-EXIT: the corridor descends, stale air, a faint sweet chemical smell. -> ## 2
+Cards also hold non-combat widgets -- an exposure ladder, a release combination -- any
+time a tight rules object should be glanced at rather than read.
 
 
 ====================================================================
@@ -180,10 +176,14 @@ EXIT: the corridor descends, stale air, a faint sweet chemical smell. -> ## 2
 ====================================================================
 
 1. Could you run the whole night without opening another file? If not, inline it.
-2. Is every line wrapped at 80 and pure ASCII?
-3. Is every section a numbered ## anchor, and are they all listed in ## 0?
-4. Is every load-bearing fact a CLUE line you could hand over in ten seconds,
-   sitting at its point of use -- not buried in a read or a handout?
-5. Are all stat blocks inline and pipe-delimited, no tables?
-6. Does every >>READ pass the WRITING GUIDE self-check (no cold, no negation,
-   no omniscience, no writing the players' actions)?
+2. Does every scene have a maroon header + a grey "what this is" line?
+3. Is every READ-ALOUD / HANDOUT a distinct blue block, broken into paragraphs, with
+   air around it -- never hiding inside GM prose?
+4. Are GM notes short bullets/lines, not paragraph bricks?
+5. Is every roll a bolded DIFFICULTY, with NO fixed target numbers anywhere?
+6. Is every load-bearing fact its own short clue at its point of use -- not buried in
+   a read or a handout?
+7. Are stat blocks and rules widgets bordered monospace cards, not prose?
+8. Does the .rtf validate (balanced braces) and open cleanly in WordPad?
+9. Does every READ-ALOUD pass the WRITING GUIDE self-check (no cold, no negation, no
+   omniscience, no writing the players' actions)?
