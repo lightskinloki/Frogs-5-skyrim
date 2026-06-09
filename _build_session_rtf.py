@@ -111,11 +111,12 @@ label("RECOVER THE RAPIER")
 plain("The rapier is sealed under Alfonso's stabilized ice. STABILIZE means heat, time, and Dispel do **nothing** -- but it resists entropy, not force, so the ice is still **breakable by raw muscle**: a **Hard Might roll (-4)** or two, or a heavy blow, cracks a gap to pull the blade out -- worked under the Draugr's grapples. Simplest of all: once Alfonso reforms, he unmakes his own ice and reclaims it.")
 gm("Don't let heat or Dispel touch the ice; do let force break it. If he picks **slow** reform, the party can break it free and carry the rapier (or haul the whole block -- his to drop later). No reverse-rite needed; they out-fought the cage. The phylactery is in no danger either way -- the extraction arm can't reach the displaced cage.")
 
-label("ALFONSO REFORMS  (his choice, once the rapier is safe)")
-bullet("**Immediate** (minutes): reforms in the scene; Deep Rust **+2 stages**. Rust visibly flakes off the blade as he re-bodies.")
-bullet("**Moderate** (hours): reforms by evening / next morning; Deep Rust **+1 stage**.")
-bullet("**Slow** (2-3 days): no rust advance -- but he misses what comes next.")
-gm("Don't narrate what dying-and-coming-back costs him. Present it; let his player carry it.")
+label("ALFONSO REFORMS -- OR DOESN'T  (pure will, not a timer)")
+plain("Reformation is **his will alone.** He can pull a body back together in minutes -- or refuse and **stay the blade as long as he likes.** Right now he may not want to come back at all.")
+bullet("**Reform** (by will): back in play. The cost is rust -- forcing the body back advances his **Deep Rust.**")
+bullet("**Stay a sword** (by will): out of play -- carried, unable to act -- BUT discorporate, his **Deep Rust stops advancing and may even REVERSE.** Resting in the phylactery is how he heals. A real reason to stay gone.")
+gm("Why he might refuse to return: Antoine's confession just held a mirror to him (chosen / answered / envied), and rest mends the rust. Let him choose to linger as the blade if his player wants it. Don't narrate what it costs him.")
+gm("THE NORA BEAT -- do NOT miss this: Nora (14) carries her dead parents' souls in two black gems and is secretly building toward seating them in a living vessel. Alfonso CHOOSING to persist as a willful soul in a blade is a live proof-of-concept of her whole plan -- and false confirmation that her parents are 'still in there,' intact and recoverable. It is not true; she does not know that. Play her watching the sword; it accelerates her dark turn. (See `Npcs/Nora the haunted`.)")
 
 # ============================================================ SARCOPHAGUS
 scene("2   THE OPEN SARCOPHAGUS  --  the first room a real villain occupied")
@@ -200,6 +201,19 @@ rule()
 raw("\\pard\\sb120\\sa200\\cf2\\b\\fs40 RIFTEN WRAP\\b0\\fs24\\cf1\\par\n")
 raw("\\pard\\sa200\\cf5\\i None of this happened yet -- the party went straight into Forelhost. Run it before or after the dungeon as the table moves.\\i0\\cf1\\par\n")
 
+# ================= THE CAMP =================
+scene("THE CAMP  --  WHILE YOU WERE GONE")
+subtitle("They were a day-plus in Forelhost; the cart-camp by the canal lived a little. Small, human beats -- weave them through the wrap, don't dump them at once. Mila is the spine.")
+label("MILA (8) -- the ache, Warrens-shaped")
+plain("She misses her mother -- the one who **sold her for 100 gold** and skooma money, alive right now three floors down in the Warrens. But she's eight and Warrens-hard, so it never comes out as tears in front of anyone (tears are a liability where she's from). It leaks sideways: oblique logistics (\"is Windhelm far? could someone get word down to the Ratway?\"), testing whether they'd let her go back, going hard and quiet, hoarding the soft bread for someone who isn't there.")
+gm("Her safe person is **Saijah** (the warm hand). She will not go near **Orion** (he showed her his fangs in the dark) and is wary of **Alfonso**. Do NOT resolve the mother thread here -- it stays in the background (see OPEN THREADS). Play the child, not a tiny adult.")
+label("THE OTHERS")
+bullet("**Bjorn:** the man who was HORRIFIED they bought a child is now her fiercest guardian -- that's the root of the Vow. Also chewing on the Grelod truth (quiet fury). He may be the one who mentions Mila's been asking about the Ratway.")
+bullet("**Nora (14):** avoids Mila -- she's barely more than a kid herself -- and stays heads-down working through what Alfonso and Orion taught her. Primed (unknowingly) for the sword-reveal in the lab.")
+bullet("**Ylva:** raw about the Hircine favour that fell on **Saijah** unasked; she wants to be an alpha she will never be. Restless, needling, too close in Saijah's space. (GM only: a door stays open to make her powerful another way -- she has no idea it exists.)")
+bullet("**Varon:** the deadliest thing on Tamriel, reduced to a nervous goof since he tried to kiss Saijah and she bolted -- replaying it, plotting how to fix it.")
+bullet("**GEAR:** has been closely studying Mila -- the construct cataloguing the child. **Esbern:** buried in research, hiding, winding tighter toward 'we leave NOW.'")
+
 # ================= SCENE 9: ORION / GRELOD =================
 scene("9   ORION'S BUSINESS: GRELOD / HONORHALL")
 subtitle("NOT a dungeon -- social investigation + infiltration. No combat unless Orion makes it. The solution is his; do NOT suggest it.")
@@ -211,7 +225,7 @@ bullet("**Aventus (client):** Grelod SUFFERS. Children KNOW they're free. Public
 bullet("**Maven / Guild:** pipeline continues. Constance takes over. No disruption.")
 bullet("**Valerius (Ring):** Constance enthralled through the Ring -> Court asset.")
 bullet("**Orion himself:** obey Valerius, or take Constance for himself?")
-plain("**VARON (the live nag):** \"The contract is nearly spent. A contract gone cold reverts to general assignment -- messy, loud, bodies that point at us. Today, Orion. Today.\"")
+plain("**VARON** isn't pushing the clock -- he's **distracted.** The deadliest blade on Tamriel, turned nervous and goofy because he tried to kiss Saijah at the bar, she dodged and bolted, and he's been replaying it since. If Grelod comes up at all it's half-hearted: \"Contract's nearly spent, I know... do you think she's still angry? Saijah. Do you -- never mind.\" Lethal everywhere except within ten feet of her. (The Grelod urgency is narrative -- every day she lives, the children suffer -- not Varon nagging.)")
 
 label("BELOVED 1 -- THE MARKET SAINT")
 readaloud(["The crowd parts with warm murmurs. A small elderly woman in a grey dress, wicker basket on her arm, white hair under a modest cap -- the face of someone's grandmother. Every merchant greets her by name. 'Mother Grelod!' Madesi presses a silver pendant into her hand. 'For the children.' Balimund hands her new blankets. 'Kynareth bless you -- the little ones will sleep warm.' A guard tips his helmet. A merchant's daughter hugs her legs; Grelod bends with effort and smooths her hair. She moves on, trailing warmth."])
@@ -296,8 +310,8 @@ bullet("**Orion refuses:** reverts to general assignment; another assassin does 
 gm("CHILDREN (not props -- give them specific moments): Hroar(14, bleeding-hand star pupil) / Runa(15, oldest, knows the routine, cracks if trusted) / Samuel(13, child-spy) / Lucia(10, fears the dark) / Sofie(9, grooming phase) / Jon(6, silent, Constance carries him) / Yrsa(5, the kids' one protected thing). EDGE: cart-Mila just escaped child-abuse; tonight Orion walks a child-abuse factory. The Vow is live; even Bjorn was fooled -- that's how total her cover is.")
 
 # ================= SCENE 10: DANICA =================
-scene("10   THE DANICA HANDOFF  --  a farewell (Krusp = silent backup)")
-subtitle("She left WITH KRUSP'S GROUP last session; she's not rejoining. She seeks them out before she rides -- because she's a good person and there's unfinished business. NO money beat: she keeps the bounty to fund the Windhelm work ahead.")
+scene("10   THE DANICA FAREWELL + THE DYING RUNNER")
+subtitle("Danica left WITH KRUSP'S GROUP last session; not rejoining. She + Krusp are tending the dying Stormcloak runner upstairs (they're Windhelm-bound) -- which is where the party crosses them. NO money beat: she keeps the bounty to fund the Windhelm work ahead.")
 readaloud(["Danica finds you before you find her. She's dressed for the road now -- mail under the priestess robes, a pack already shouldered, Kynareth's light worn like a weapon. Krusp stands a few paces behind her, arms folded, saying nothing. She stops in front of you and doesn't sit down."])
 plain("**DANICA:** \"I'm not here for a scene. I'm here because I don't leave debts or doors I haven't closed. I wanted to say it to your faces: thank you for the start. And goodbye.\"")
 gm("DAVINIA'S CHANCE -- THE AMULET OF MARA: if Davinia tries to give Danica the amulet, LET HER TRY. As she reaches/speaks, the Crown does its quiet work -- the words arrive as a transaction, framed and controlled; or her right hand moves wrong (Ismara's architecture) so the gesture reads as a price, not a heart. Don't roll it away; play the wrongness.")
@@ -305,6 +319,9 @@ plain("**DANICA** (going still): \"...What is that.\" Then, understanding: \"You
 gm("This very likely DIGS THE HOLE DEEPER, and that's correct -- the point is that Davinia reaches and the table watches the Crown and her own detachment sabotage the one honest thing she wanted. Door still 'cracked to a paw print': Danica returns only on a genuine reckoning.")
 bullet("**KRUSP** (only if addressed): \"I told you at Kynesgrove what I thought of you. Nothing's changed it. But this is her business, not mine.\" If threatened: \"Try.\"")
 bullet("**Alfonso callback:** last session he was unexpectedly KIND to Danica and called her leaving a mistake. If he speaks here that warmth can return -- the monster gentler to her than her own leader managed.")
+label("THE DYING RUNNER -- WINDHELM INTEL  (a few questions before he fades)")
+bullet("**Situation:** Galmar's army is rotting from a plague the healers' magic only FEEDS; Galmar holds the barricades alone and begs them to come.")
+gm("THE KEY: this is NOT Antoine's Strain 1.0 -- it is **Alfonso's own pathogen**, the living Korvanjund plague he seeded into the Stormcloaks. So the native expert on the Windhelm sickness is **Alfonso** -- it's his disease, read from the inside. That's the Fire-A leg-up: his understanding (and the Codex's GRAVITAS Keeper's-Stay, not healing) is the answer no one in Windhelm has. And Danica is walking straight into the lesson that Restoration feeds it -- the thing that scars her lungs.")
 exit_("She rides out with Krusp's people -- toward Windhelm, and the quarantine that will scar her.", "11  MAVEN")
 
 # ================= SCENE 11: MAVEN =================
@@ -342,7 +359,13 @@ gm("THE CONFLICT: the buy-in (~5k) competes head-on with Bjorn's horse (a good o
 
 # ================= SCENE 14: CART DEPARTURE + GATE 3 =================
 scene("14   CART DEPARTURE + THE GATE 3 CHOICE  (session close)")
-subtitle("Bjorn lays out the three roads in his own blunt words and makes them choose. The choice triggers the fire matrix.")
+subtitle("First the homework, then the choice, then the road. The choice triggers the fire matrix.")
+label("BEFORE THE ROAD -- DUE DILIGENCE  (optional, and rewarded)")
+plain("Two of the three couriers are still here to question -- a party that does its homework walks into the fire forewarned and supplied (mirror the Grelod loop: good questions buy a real edge in the chosen fire). The third witness, the Stormcloak runner, they met at Danica's bedside (sec 10).")
+bullet("**KLIMMEK (at the bar) -> the Throat, Fire B.** Shaken, fragmentary -- coax it (Guile / kindness), and Saijah's nose corroborates. He provisions the Greybeards, so he knows the **route**: the safe rest-points, the offering custom, which stretches of the 7,000 steps were worst (the time-bent zones). LEG-UP: his map and warnings = advantage navigating the climb.")
+bullet("**ESBERN (in the cart) -> Bleak Falls, Fire C.** Eager to talk (he wants OUT of Riften). The Dragonstone is a MAP -- strategy over reaction; it opens Alduin's Wall. LEG-UP: real barrow intel -- the claw-puzzle door, the layout, the draugr, what the stone looks like -- plus the warning that the **Thalmor watch the door** (and, quietly, that it was Antoine's staging ground, where he is now rebuilding his wrecked processing rig).")
+gm("Last session's lean: it's IVARSTEAD (the Throat) vs WINDHELM -- they weren't planning Riverwood/Bleak Falls at all. So talking to Esbern may just confirm they're IGNORING Fire C -- which has teeth: Antoine rebuilds there unobserved. Make the choice informed; don't push one.")
+
 plain("**BJORN:** \"Before I point this cart anywhere, I want it from your own mouths. Three roads, and we can only take one. One -- WINDHELM: that boy upstairs is dying of the same sickness eating Galmar's whole army; folk are dying NOW. Two -- THE MOUNTAIN: Klimmek's seven thousand steps, bleeding black, men with faces of horn and fire, the air gone wrong. Three -- BLEAK FALLS: the old man's stone tablet; no one's dying on a clock for it, but without it we spend our lives a step behind the end of the world. So. Which is it? Mable can only face one way, and I mean to be on the road by dark.\"")
 gm("Let them argue and commit. Do NOT push a hook.")
 label("MABLE'S RETIREMENT + THE HORSE")
@@ -370,7 +393,8 @@ bullet("**Ulag / Forelhost:** the Dwemer core survived -- Forelhost still holds 
 bullet("**Maven patronage** (if accepted): the golden cage tightens; refusing her jobs becomes political; their secrets become her leverage.")
 bullet("**Balimund:** cumulative-spend thresholds now active (5k -> burnt-slot restoration; +10k -> best in Skyrim). Track total spend. **Hemming's Letter:** one grey-area NPC per city flips Friendly; each use entangles them with Black-Briar.")
 bullet("**Orion:** the Constance enthrall choice (A/B/C/D), and whether he obeys or usurps Valerius via the Ring's blind spots.")
-bullet("**Davinia:** CDI 0.45; father's network alerted after the Solitude gate. Ledger at grant 1 of 5. **Alfonso:** Deep Rust state (set by his reform choice this session); rust = spell fuel, resets on rest. **Saijah:** Hircine's 'free trial' senses; the Kynareth/Hircine crossroads; the Ylva rivalry; holds both Hawk tokens.")
+bullet("**Riften's coming plague (background -- pull later):** Mila's mother is alive in the Warrens, an asymptomatic carrier of Alfonso's living strain, and back on skooma -- spreading it. Alfonso's plague is DIVINE pestilence: it evolves on its own, fast. It will grow new vectors (an STD among the rest) and, in time, ravage Riften. Tick it quietly off-screen; the party caused it and doesn't know.")
+bullet("**Davinia:** CDI 0.45; father's network alerted after the Solitude gate. Ledger at grant 1 of 5. **Alfonso:** Deep Rust set by his reform CHOICE -- forcing the body back advances it; staying a sword arrests/reverses it. Surface rust = spell fuel, resets on rest. **Saijah:** Hircine's 'free trial' senses; the Kynareth/Hircine crossroads; the Ylva rivalry; holds both Hawk tokens.")
 
 # ---------------------------------------------------------------- write
 with open(OUT, "w", encoding="ascii", errors="xmlcharrefreplace") as f:
