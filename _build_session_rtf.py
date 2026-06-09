@@ -168,13 +168,13 @@ gm("Antoine is a true believer who has never been answered, and he envies Alfons
 
 # ============================================================ CONTRACTOR LETTER
 scene("6   THE CONTRACTOR LETTER  --  the lab's maintenance file")
-gm("Read it FLAT -- audience-only irony, a crumb to pay off later. It names only the METHOD and the contractor; no victim.")
+gm("Read it FLAT -- audience-only irony, a crumb to pay off later. It is an ANCIENT artifact: Hjolmar's handoff notes, left WITH the casket at the founding and kept in the family file for 4,000 years. Antoine never met Hjolmar -- the Ice-Shaper was gone four millennia before Antoine was born.")
 gm("If a player asks 'who is the Breaker?': it's **ULAG** -- the armored Orc war-engine they FOUGHT at Korvanjund. The name should ring a bell. Confirm that much; the rest is for later.")
-handout("THE ICE-SHAPER TO ANTOINE", [
-    "Your family has maintained my work for four generations and called the maintenance devotion. I built the Breaker's frame -- the casket, the amber, the soul-gem eyes, the whole apparatus. You have kept it cycling. That is the difference between us. I built something; you have kept it clean.",
-    "I have since finished a different problem. The casket was always a compromise: a mind held in failing flesh, dependent on your family's upkeep in perpetuity. The work I have finished does not need the original flesh at all. A signature can be lifted whole and seated in a frame that suits the work. The method does not care where it began. The vessel is a detail. The song is the asset.",
+handout("THE ICE-SHAPER'S HAND  (ancient -- left with the casket at the founding)", [
+    "To the Keeper who comes after me, and to his sons, and to theirs: I have built the Breaker's frame -- the casket, the amber, the soul-gem eyes, the whole apparatus -- and I give it into your line's keeping. Cycle the fluids. Hold the cold. The mind inside will not fail while you tend it. That is your charge, and your blood's, for as long as the Cult has need of him.",
+    "Know that the casket is a compromise. It holds a mind in failing flesh and binds a keeper to it forever. I have since finished better work -- a method that needs no original flesh at all. A signature can be lifted whole and seated in a frame that suits it. The vessel is a detail. The song is the asset. The Breaker was made before I was finished; tend him as he is. I do not expect to pass this way again.",
 ])
-plain("Antoine's margin note: **\"He will leave the day the keeping bores him. Rahgot knows. Rahgot lets him. I am not told why.\"**")
+plain("**Antoine's margin note** (a hand four thousand years younger): \"Forty of my blood have tended this casket. I have never seen the Ice-Shaper and never will -- he was gone before I drew breath. And yet they say his work walks again in the world. Rahgot says only that the Song is owed a debt, and that I am not to ask. So I do not ask.\"")
 
 # ============================================================ STRAIN 2.0
 scene("7   THE STRAIN 2.0 FOLDER  --  the ticking clock")
