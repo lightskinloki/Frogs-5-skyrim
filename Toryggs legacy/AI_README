@@ -106,6 +106,16 @@ III. RECOMMENDED READING ORDER
 Start here and work down. Each tier builds on the last.
 
 TIER 0 - BEFORE YOU WRITE OR BUILD ANYTHING (read these first)
+  ../web/web.json       -- THE WEB: the campaign's connection graph. Authored
+                           edges + secrets matrix = canon; candidates = pairs
+                           sharing attributes with NO authored edge (review for
+                           missed connections). Read this before design work --
+                           it is the whole connective tissue in one file.
+                           MAINTENANCE RULE: whenever canon is written or a
+                           session resolves, append edges/tags/secrets to
+                           web/annotations.json + web/registry.json in the same
+                           work session, then run: python _build_web.py
+                           (also regenerates web/web.html, the GM's visual app).
   WRITING GUIDE         -- how prose must read (economy, no filler/negation/omniscience,
                            no writing the players' actions). Governs every word.
   SESSION SHEET FORMAT  -- how to build a GM session file (Notepad-native: ASCII, 80-col

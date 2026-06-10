@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>THE WEB — Torygg's Legacy</title>
+<style>
+  :root{--bg:#1d1a16;--panel:#26211b;--ink:#d8c79a;--dim:#9a8a64;--line:#8a7448;
+    --pc:#e3b34c;--npc:#7fa06f;--villain:#c0504d;--god:#a98fd6;--artifact:#6fa3c4;
+    --faction:#c47e5a;--location:#5d6e7a;--concept:#b3a0d8;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font:14px Georgia,serif;overflow:hidden;height:100vh;display:flex}
+  #graphWrap{flex:1;position:relative}
+  canvas{display:block;cursor:grab}
+  #side{width:380px;background:var(--panel);border-left:2px solid var(--line);
+    display:flex;flex-direction:column;height:100vh}
+  #tabs{display:flex;border-bottom:1px solid var(--line)}
+  #tabs button{flex:1;background:none;border:none;color:var(--dim);padding:10px 4px;
+    font:bold 13px Georgia,serif;cursor:pointer;border-bottom:3px solid transparent}
+  #tabs button.on{color:var(--ink);border-bottom-color:var(--pc)}
+  #panel{flex:1;overflow-y:auto;padding:14px}
+  #search{margin:10px;padding:8px;background:var(--bg);border:1px solid var(--line);
+    color:var(--ink);font:14px Georgia,serif;width:calc(100% - 20px)}
+  h1{font-size:16px;letter-spacing:2px;padding:12px 14px 0;color:var(--ink)}
+  .sub{padding:0 14px 6px;color:var(--dim);font-size:11px;font-style:italic}
+  h2{font-size:15px;margin:6px 0;color:var(--pc)}
+  h3{font-size:12px;margin:12px 0 4px;color:var(--dim);letter-spacing:1px;text-transform:uppercase}
+  .tag{display:inline-block;background:var(--bg);border:1px solid var(--line);border-radius:8px;
+    padding:1px 7px;margin:2px;font-size:11px;color:var(--dim);cursor:pointer}
+  .tag.hot{border-color:var(--pc);color:var(--pc)}
+  .edge{margin:7px 0;padding:7px 9px;background:var(--bg);border-left:3px solid var(--line);font-size:12.5px}
+  .edge b{color:var(--ink)} .edge .ty{color:var(--pc);font-style:italic}
+  .edge .why{color:var(--dim);display:block;margin-top:3px}
+  .cand{border-left-color:var(--villain)}
+  .file{font-size:11px;color:var(--dim);margin:2px 0}
+  .snip{font-size:11px;color:#7d735c;font-style:italic;margin:2px 0 8px}
+  .sec{margin:10px 0;padding:9px;background:var(--bg);border:1px solid var(--line);font-size:12.5px}
+  .sec b{color:var(--pc)} .sec .row{margin-top:4px;color:var(--dim)}
+  .sec .det{color:#c0796f;margin-top:5px}
+  #legend{position:absolute;left:10px;bottom:10px;background:rgba(38,33,27,.92);
+    border:1px solid var(--line);padding:8px 12px;font-size:11px;color:var(--dim)}
+  #legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+  #controls{position:absolute;left:10px;top:10px;background:rgba(38,33,27,.92);
+    border:1px solid var(--line);padding:8px 12px;font-size:12px;color:var(--dim)}
+  #controls label{display:block;cursor:pointer;margin:2px 0}
+  a.ent{color:var(--artifact);cursor:pointer;text-decoration:underline dotted}
+</style>
+</head>
+<body>
+<div id="graphWrap"><canvas id="cv"></canvas>
+  <div id="controls">
+    <label><input type="checkbox" id="showCooc" checked> co-occurrence (lexical)</label>
+    <label><input type="checkbox" id="showCand"> candidate links (unauthored)</label>
+    <label><input type="checkbox" id="showLabels" checked> labels</label>
+  </div>
+  <div id="legend"></div>
+</div>
+<div id="side">
+  <h1>THE WEB</h1>
+  <div class="sub" id="builtLine"></div>
+  <input id="search" placeholder="search entities, tags...">
+  <div id="tabs">
+    <button class="on" data-t="node">Node</button>
+    <button data-t="cands">Candidates</button>
+    <button data-t="secrets">Secrets</button>
+  </div>
+  <div id="panel"></div>
+</div>
+<script>
+/*__DATA__*/
+const TYPES={pc:'--pc',npc:'--npc',villain:'--villain',god:'--god',artifact:'--artifact',
+  faction:'--faction',location:'--location',concept:'--concept'};
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const byId={}; DATA.entities.forEach(e=>byId[e.id]=e);
+const N=DATA.entities.map((e,i)=>({...e,x:Math.cos(i*2.4)*(120+i*3),y:Math.sin(i*2.4)*(120+i*3),vx:0,vy:0}));
+const NI={}; N.forEach((n,i)=>NI[n.id]=i);
+const A=DATA.edges.filter(e=>NI[e.src]!=null&&NI[e.dst]!=null);
+const C=DATA.cooc.filter(e=>NI[e.a]!=null&&NI[e.b]!=null);
+const CAND=DATA.candidates.filter(e=>NI[e.a]!=null&&NI[e.b]!=null);
+const deg={}; A.forEach(e=>{deg[e.src]=(deg[e.src]||0)+1;deg[e.dst]=(deg[e.dst]||0)+1;});
+
+const cv=document.getElementById('cv'),ctx=cv.getContext('2d');
+let W,H,cam={x:0,y:0,z:1},sel=null,hover=null,drag=null,panning=false,px=0,py=0;
+function resize(){W=cv.width=cv.parentElement.clientWidth;H=cv.height=cv.parentElement.clientHeight;}
+window.addEventListener('resize',resize);resize();
+
+function springs(){
+  const L=[]; A.forEach(e=>L.push([NI[e.src],NI[e.dst],110,0.012]));
+  if(document.getElementById('showCooc').checked)
+    C.forEach(e=>L.push([NI[e.a],NI[e.b],180,0.0018*Math.min(e.w,20)/10]));
+  return L;
+}
+function step(){
+  const L=springs();
+  for(let i=0;i<N.length;i++)for(let j=i+1;j<N.length;j++){
+    const a=N[i],b=N[j];let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy+40,f=2600/d2;
+    dx*=f;dy*=f;a.vx+=dx;a.vy+=dy;b.vx-=dx;b.vy-=dy;}
+  L.forEach(([i,j,len,k])=>{const a=N[i],b=N[j];const dx=b.x-a.x,dy=b.y-a.y;
+    const d=Math.sqrt(dx*dx+dy*dy)||1,f=(d-len)*k;
+    a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f;});
+  N.forEach(n=>{n.vx*=0.82;n.vy*=0.82;
+    if(drag!==n){n.x+=n.vx;n.y+=n.vy;}
+    n.x*=0.9995;n.y*=0.9995;});
+}
+function world(mx,my){return{x:(mx-W/2)/cam.z-cam.x,y:(my-H/2)/cam.z-cam.y};}
+function draw(){
+  ctx.clearRect(0,0,W,H);ctx.save();
+  ctx.translate(W/2,H/2);ctx.scale(cam.z,cam.z);ctx.translate(cam.x,cam.y);
+  const hi=sel?neighborhood(sel.id):null;
+  if(document.getElementById('showCooc').checked){
+    ctx.lineWidth=0.5;
+    C.forEach(e=>{const a=N[NI[e.a]],b=N[NI[e.b]];
+      ctx.strokeStyle=hi&&!(hi.has(e.a)&&hi.has(e.b))?'rgba(138,116,72,0.05)':'rgba(138,116,72,0.16)';
+      ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();});}
+  if(document.getElementById('showCand').checked){
+    ctx.lineWidth=0.8;ctx.setLineDash([4,4]);
+    CAND.forEach(e=>{const a=N[NI[e.a]],b=N[NI[e.b]];
+      ctx.strokeStyle='rgba(192,80,77,0.35)';
+      ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();});
+    ctx.setLineDash([]);}
+  ctx.lineWidth=1.3;
+  A.forEach(e=>{const a=N[NI[e.src]],b=N[NI[e.dst]];
+    const on=!hi||(hi.has(e.src)&&hi.has(e.dst));
+    ctx.strokeStyle=on?'rgba(227,179,76,0.55)':'rgba(227,179,76,0.06)';
+    ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();});
+  N.forEach(n=>{const r=5+Math.min(deg[n.id]||0,12)*0.9;
+    const dimmed=hi&&!hi.has(n.id);
+    ctx.globalAlpha=dimmed?0.15:1;
+    ctx.fillStyle=css(TYPES[n.type]||'--dim');
+    ctx.beginPath();ctx.arc(n.x,n.y,r,0,7);ctx.fill();
+    if(n===sel||n===hover){ctx.strokeStyle='#fff';ctx.lineWidth=1.5;ctx.stroke();}
+    if(document.getElementById('showLabels').checked&&(cam.z>0.55||n===sel||n===hover||(deg[n.id]||0)>4)){
+      ctx.fillStyle=dimmed?'rgba(216,199,154,0.2)':'#d8c79a';
+      ctx.font=(n.type==='pc'?'bold ':'')+'11px Georgia';
+      ctx.fillText(n.name,n.x+r+3,n.y+4);}
+    ctx.globalAlpha=1;});
+  ctx.restore();
+}
+function neighborhood(id){const s=new Set([id]);
+  A.forEach(e=>{if(e.src===id)s.add(e.dst);if(e.dst===id)s.add(e.src);});
+  C.forEach(e=>{if(e.a===id)s.add(e.b);if(e.b===id)s.add(e.a);});return s;}
+function loop(){step();draw();requestAnimationFrame(loop);}loop();
+
+cv.addEventListener('mousedown',e=>{const w=world(e.offsetX,e.offsetY);
+  const n=pick(w);if(n){drag=n;}else{panning=true;}px=e.offsetX;py=e.offsetY;});
+cv.addEventListener('mousemove',e=>{const w=world(e.offsetX,e.offsetY);
+  if(drag){drag.x=w.x;drag.y=w.y;drag.vx=drag.vy=0;}
+  else if(panning){cam.x+=(e.offsetX-px)/cam.z;cam.y+=(e.offsetY-py)/cam.z;px=e.offsetX;py=e.offsetY;}
+  else hover=pick(w);});
+window.addEventListener('mouseup',e=>{
+  if(drag&&Math.abs(e.offsetX-px)<4&&Math.abs(e.offsetY-py)<4){select(drag.id);}
+  drag=null;panning=false;});
+cv.addEventListener('wheel',e=>{e.preventDefault();
+  cam.z*=e.deltaY<0?1.12:0.89;cam.z=Math.max(0.15,Math.min(4,cam.z));},{passive:false});
+function pick(w){let best=null,bd=14;N.forEach(n=>{const d=Math.hypot(n.x-w.x,n.y-w.y);
+  if(d<bd){bd=d;best=n;}});return best;}
+
+const panel=document.getElementById('panel');
+let tab='node';
+document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{
+  tab=b.dataset.t;document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('on',x===b));render();});
+function el(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;');}
+function entLink(id){const e=byId[id];return e?`<a class="ent" onclick="select('${id}')">${el(e.name)}</a>`:el(id);}
+function select(id){sel=N[NI[id]];tab='node';
+  document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('on',x.dataset.t==='node'));render();}
+window.select=select;
+function render(){
+  if(tab==='secrets'){panel.innerHTML='<h3>The Secrets Matrix</h3>'+DATA.secrets.map(s=>{
+    let h=`<div class="sec"><b>${el(s.secret)}</b>`;
+    for(const k of Object.keys(s)){if(k==='secret'||k==='detonation')continue;
+      h+=`<div class="row"><i>${el(k)}:</i> ${el(JSON.stringify(s[k]).replace(/[\[\]"]/g,''))}</div>`;}
+    h+=`<div class="det">⚠ ${el(s.detonation)}</div></div>`;return h;}).join('');return;}
+  if(tab==='cands'){panel.innerHTML='<h3>Candidates — shared meat, no authored edge</h3>'+
+    '<div class="sub" style="padding:0 0 8px">Review these: if a real story connection exists, author it into annotations.json and rebuild.</div>'+
+    CAND.map(c=>`<div class="edge cand">${entLink(c.a)} ↔ ${entLink(c.b)}
+      <span class="why">${c.sharedTags.length?('shared: '+c.sharedTags.map(t=>'<span class="tag hot">'+el(t)+'</span>').join('')):''}
+      ${c.cooc?(' co-occurs ×'+c.cooc):''}</span></div>`).join('');return;}
+  if(!sel){panel.innerHTML='<div class="sub" style="padding:8px 0">Click a node. Drag to move it. Scroll to zoom. The gold lines are authored canon; the faint lines are lexical co-occurrence; the red dashes (toggle) are unauthored candidates.</div>';return;}
+  const e=byId[sel.id];
+  let h=`<h2>${el(e.name)}</h2><div class="sub" style="padding:0">${e.type}</div>`;
+  h+='<div>'+e.tags.map(t=>`<span class="tag" onclick="searchTag('${t}')">${el(t)}</span>`).join('')+'</div>';
+  const mine=A.filter(x=>x.src===e.id||x.dst===e.id);
+  if(mine.length){h+='<h3>Authored edges</h3>'+mine.map(x=>
+    `<div class="edge"><b>${entLink(x.src)}</b> <span class="ty">${el(x.type)}</span> <b>${entLink(x.dst)}</b>
+     <span class="why">${el(x.why)}</span></div>`).join('');}
+  const mc=CAND.filter(x=>x.a===e.id||x.b===e.id);
+  if(mc.length){h+='<h3>Candidates</h3>'+mc.map(c=>
+    `<div class="edge cand">${entLink(c.a)} ↔ ${entLink(c.b)}<span class="why">${c.sharedTags.join(', ')}${c.cooc?(' · ×'+c.cooc):''}</span></div>`).join('');}
+  const sec=DATA.secrets.filter(s=>JSON.stringify(s).toLowerCase().includes(e.id)||s.secret.toLowerCase().includes(e.name.split(' ')[0].toLowerCase()));
+  if(sec.length){h+='<h3>Secrets touching this</h3>'+sec.map(s=>`<div class="sec"><b>${el(s.secret)}</b><div class="det">⚠ ${el(s.detonation)}</div></div>`).join('');}
+  const fm=DATA.mentions[e.id];
+  if(fm){h+='<h3>Where it lives</h3>'+Object.entries(fm).map(([f,c])=>
+    `<div class="file">${el(f)} ×${c}</div>`+(DATA.snippets[e.id]&&DATA.snippets[e.id][f]?`<div class="snip">${el(DATA.snippets[e.id][f])}</div>`:'')).join('');}
+  panel.innerHTML=h;
+}
+window.searchTag=t=>{document.getElementById('search').value='#'+t;doSearch('#'+t);};
+function doSearch(q){q=q.toLowerCase();
+  if(!q){render();return;}
+  let hits;
+  if(q[0]==='#'){const t=q.slice(1);hits=DATA.entities.filter(e=>e.tags.some(x=>x.includes(t)));}
+  else hits=DATA.entities.filter(e=>e.name.toLowerCase().includes(q)||e.id.includes(q)||e.tags.some(t=>t.includes(q)));
+  panel.innerHTML='<h3>Search</h3>'+hits.map(e=>
+    `<div class="edge">${entLink(e.id)}<span class="why">${e.tags.slice(0,6).join(', ')}</span></div>`).join('');
+  if(hits.length===1)select(hits[0].id);
+}
+document.getElementById('search').addEventListener('input',e=>doSearch(e.target.value));
+document.getElementById('builtLine').textContent='built '+DATA.built+' · '+DATA.entities.length+' entities · '+DATA.edges.length+' authored edges · '+DATA.candidates.length+' candidates';
+document.getElementById('legend').innerHTML=Object.entries(TYPES).map(([t,v])=>
+  `<span style="margin-right:9px"><i style="background:${css(v)}"></i>${t}</span>`).join('');
+render();
+</script>
+</body>
+</html>
