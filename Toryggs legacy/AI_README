@@ -112,10 +112,18 @@ TIER 0 - BEFORE YOU WRITE OR BUILD ANYTHING (read these first)
                            missed connections). Read this before design work --
                            it is the whole connective tissue in one file.
                            MAINTENANCE RULE: whenever canon is written or a
-                           session resolves, append edges/tags/secrets to
-                           web/annotations.json + web/registry.json in the same
-                           work session, then run: python _build_web.py
+                           session resolves, author the new connections in the
+                           same work session, then run: python _build_web.py
                            (also regenerates web/web.html, the GM's visual app).
+                           PREFERRED AUTHORING: put edges INLINE in the doc you
+                           are already writing, one per line, anywhere:
+                             @web: src-id | type | dst-id | one-line why
+                           The builder harvests these automatically - the doc IS
+                           the database; no separate file to maintain. Use
+                           web/annotations.json only for edges with no natural
+                           home doc. New entities still go in web/registry.json.
+                           OPTIONAL: run setup_web_hook.py once to make every
+                           git commit rebuild the graph automatically.
   WRITING GUIDE         -- how prose must read (economy, no filler/negation/omniscience,
                            no writing the players' actions). Governs every word.
   SESSION SHEET FORMAT  -- how to build a GM session file (Notepad-native: ASCII, 80-col

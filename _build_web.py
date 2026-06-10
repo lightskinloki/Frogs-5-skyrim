@@ -70,11 +70,23 @@ def main():
 
     mentions = defaultdict(lambda: defaultdict(int))   # ent -> relpath -> count
     snippets = defaultdict(dict)                        # ent -> relpath -> snippet
+    inline_edges = []                                   # @web: lines harvested from docs
+    inline_pat = re.compile(r"^\s*@web:\s*([\w-]+)\s*\|\s*([^|]+?)\s*\|\s*([\w-]+)\s*\|\s*(.+)$",
+                            re.MULTILINE)
     files = corpus_files()
     print(f"scanning {len(files)} files...")
     for path in files:
         text = load(path)
         rel = os.path.relpath(path, ROOT).replace("\\", "/")
+        # harvest inline authored edges: "@web: src | type | dst | why"
+        for m in inline_pat.finditer(text):
+            src, ty, dst, why = m.group(1), m.group(2), m.group(3), m.group(4).strip()
+            if src in ids and dst in ids:
+                inline_edges.append({"src": src, "type": ty, "dst": dst,
+                                     "why": why, "from": rel})
+            else:
+                print(f"  [warn] inline @web edge in {rel} references unknown id: "
+                      f"{src if src not in ids else dst}")
         for eid, pat, cs in pats:
             ms = list(pat.finditer(text))
             if not ms:
@@ -84,6 +96,13 @@ def main():
                 i = ms[0].start()
                 s = text[max(0, i - 90):i + 110].replace("\n", " ").strip()
                 snippets[eid][rel] = ("..." + s + "...")
+    # inline edges merge with (and dedupe against) annotations.json
+    seen_e = {(e["src"], e["type"], e["dst"]) for e in edges}
+    for e in inline_edges:
+        if (e["src"], e["type"], e["dst"]) not in seen_e:
+            edges.append(e)
+    if inline_edges:
+        print(f"harvested {len(inline_edges)} inline @web edges from docs")
 
     # co-occurrence (shared files, weighted by min count, top 8 per node)
     cooc = defaultdict(int)
