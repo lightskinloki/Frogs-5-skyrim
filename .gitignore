@@ -1,3 +1,2 @@
-# Office lock/owner temp files
-~$*
-*.tmp
+__pycache__/
+*.pyc

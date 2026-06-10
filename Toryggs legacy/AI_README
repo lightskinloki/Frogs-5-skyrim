@@ -117,7 +117,7 @@ TIER 0 - BEFORE YOU WRITE OR BUILD ANYTHING (read these first)
                            (also regenerates web/web.html, the GM's visual app).
                            PREFERRED AUTHORING: put edges INLINE in the doc you
                            are already writing, one per line, anywhere:
-                             @web: src-id | type | dst-id | one-line why
+                             @web: <src-id> | <type> | <dst-id> | <one-line why>
                            The builder harvests these automatically - the doc IS
                            the database; no separate file to maintain. Use
                            web/annotations.json only for edges with no natural
