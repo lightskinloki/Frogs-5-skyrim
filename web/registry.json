@@ -1,101 +1,2064 @@
 {
-  "_comment": "Entity registry for THE WEB. id = stable key. aliases are matched case-insensitively as whole words/phrases during corpus scan. tags are curated attributes - the discovery engine flags entities that share tags but lack an authored edge.",
-  "entities": [
-    {"id": "davinia", "name": "Davinia Caelus", "type": "pc", "aliases": ["davinia"], "tags": ["party", "imperial-blood", "crown-bearer", "soul-in-vessel-host", "memory-traded", "infected-strain-1", "leader", "wizard-sight", "cdi-clock"]},
-    {"id": "alfonso", "name": "Alfonso Duet", "type": "pc", "aliases": ["alfonso", "carrion saint", "vrykolas"], "tags": ["party", "monster", "soul-in-vessel", "plague-author", "peryite-chosen", "namira-touched", "discorporate", "phylactery-bound", "deep-rust-clock", "projection-body", "never-wore-crown"]},
-    {"id": "saijah", "name": "Saijah", "type": "pc", "aliases": ["saijah", "vena"], "tags": ["party", "bosmer", "kynareth-vessel", "hircine-courted", "root-husk-raised", "migraine-compass", "crossroads-pending", "hound-named", "white-hair"]},
-    {"id": "orion", "name": "Orion", "type": "pc", "aliases": ["orion"], "tags": ["party", "monster", "vampire", "daedric-bound", "ring-leashed", "brotherhood-initiate", "double-agent", "tonal-architect", "usurper-track", "secret-murderer"]},
-    {"id": "kyboh", "name": "Kyboh (deceased)", "type": "pc", "aliases": ["kyboh"], "tags": ["dead", "body-stolen", "hjolmar-masterwork", "believed-simply-dead", "khajiit"]},
-    {"id": "bjorn", "name": "Bjorn (the War-Hound)", "type": "npc", "aliases": ["bjorn", "war-hound", "old bjorn"], "tags": ["party-adjacent", "dragonborn-secret", "dragon-souls", "de-aging", "child-protector", "promise-trauma", "cart", "long-fuse", "not-an-adventurer"]},
-    {"id": "mila", "name": "Mila", "type": "npc", "aliases": ["mila"], "tags": ["child", "cart", "warrens-survivor", "blank-slate-apprentice", "mother-doomed", "fears-orion", "unanswered-question"]},
-    {"id": "nora", "name": "Nora the Haunted", "type": "npc", "aliases": ["nora"], "tags": ["cart", "age-18", "conjuration-prodigy", "soul-engineer", "dark-leaning", "parents-in-gems", "kill-switch-unknowing", "romance-orion", "cannot-lie", "unbinding-trauma"]},
-    {"id": "gear", "name": "GEAR", "type": "npc", "aliases": ["gear", "brass-ball", "cognitor"], "tags": ["cart", "construct", "hjolmar-masterwork", "soul-in-vessel", "archive-unasked", "no-opsec", "ghost-in-machine", "cart-side-default"]},
-    {"id": "varon", "name": "Varon", "type": "npc", "aliases": ["varon"], "tags": ["cart", "shadowscale", "root-husk-raised", "carved-hound", "loves-saijah", "handler", "report-pending", "surgical-disguise", "void-faith"]},
-    {"id": "ylva", "name": "Ylva the Cleaver", "type": "npc", "aliases": ["ylva"], "tags": ["cart", "werewolf", "hircine-claimed", "passed-over", "fair-chase-doctrine", "pursues-davinia", "counter-agent-unknowing", "rebound-candidate"]},
-    {"id": "esbern", "name": "Esbern", "type": "npc", "aliases": ["esbern"], "tags": ["cart", "blades", "dragonstone-commission", "thalmor-hunted", "unheard"]},
-    {"id": "danica", "name": "Danica Pure-Spring", "type": "npc", "aliases": ["danica"], "tags": ["true-wardens", "kynareth-priestess", "cracked-door", "path3-officiant", "left-the-party", "hardened", "attrition-absorber"]},
-    {"id": "krusp", "name": "Krusp Fanck", "type": "npc", "aliases": ["krusp", "ashen blade", "obsidian lantern"], "tags": ["true-wardens", "legendary-hero", "rival-mirror", "attrition-ledger", "hjolmar-masterwork", "echo-prepped", "soul-stretched", "razor-destined", "daedra-hater"]},
-    {"id": "ismara", "name": "Ismara (the Crown of the Pale Lady)", "type": "npc", "aliases": ["ismara", "pale lady", "crown of the pale lady", "winter queen"], "tags": ["atmoran", "soul-in-vessel", "researcher", "consent-cultivator", "memory-holder", "never-lies", "stasis", "grant-ledger", "knows-resonator"]},
-    {"id": "hjolmar", "name": "Hjolmar-Kyboh (Ice-Shaper)", "type": "villain", "aliases": ["hjolmar"], "tags": ["villain", "body-thief", "atmoran", "soul-in-vessel", "consciousness-transfer", "knows-the-blade", "masterwork-maker", "singing-glacier"]},
-    {"id": "echo", "name": "The Echo Mimic", "type": "villain", "aliases": ["echo mimic", "shadow-unit", "the echo"], "tags": ["villain", "tonal-copy", "kyboh-faced", "leashed-to-ulag", "at-bleak-falls", "hjolmar-masterwork", "false-resurrection"]},
-    {"id": "ulag", "name": "Ulag the Breaker", "type": "villain", "aliases": ["ulag"], "tags": ["villain", "dragon-cult", "hjolmar-masterwork", "infected-by-alfonso", "asymptomatic-carrier", "at-bleak-falls", "siege-engineer", "strain2-source"]},
-    {"id": "antoine", "name": "Antoine of Forelhost", "type": "villain", "aliases": ["antoine"], "tags": ["villain", "dragon-cult", "rival-alchemist", "forelhost-lineage", "at-bleak-falls", "empty-handed", "will-deduce-blade", "envies-alfonso", "never-met-hjolmar"]},
-    {"id": "rahgot", "name": "Rahgot", "type": "villain", "aliases": ["rahgot"], "tags": ["villain", "dragon-cult", "dragon-priest", "awake", "walked-out", "konahrik-prophecy"]},
-    {"id": "nahkriin", "name": "Nahkriin the Guardian", "type": "villain", "aliases": ["nahkriin"], "tags": ["villain", "dragon-cult", "dragon-priest", "spymaster", "false-flags"]},
-    {"id": "vokun", "name": "Vokun the Shadow", "type": "villain", "aliases": ["vokun"], "tags": ["villain", "dragon-cult", "dragon-priest", "holds-dawnstar", "tier2-held-beat", "vaermina-nightmares"]},
-    {"id": "gaelen", "name": "Gaelen the Root-Twister", "type": "villain", "aliases": ["gaelen", "root-twister"], "tags": ["villain", "mythic-dawn", "dagon-cult", "warm-sincere", "nymic-surgery", "razor-touched", "time-wound-target", "fire-b-boss", "corrupted-eldergleam"]},
-    {"id": "valerius", "name": "Valerius Caelus", "type": "villain", "aliases": ["valerius"], "tags": ["villain", "pale-court", "vampire-lord", "davinia-father-adjacent", "ring-watcher", "blackmail-holder", "solitude", "molag-bal", "rot-vulnerable"]},
-    {"id": "galmar", "name": "Galmar Stone-Fist", "type": "npc", "aliases": ["galmar"], "tags": ["stormcloak", "windhelm", "trusts-the-lie", "begging", "uncle-figure", "fire-a"]},
-    {"id": "maven", "name": "Maven Black-Briar", "type": "npc", "aliases": ["maven"], "tags": ["riften", "power-broker", "patron-pending", "owes-danica", "golden-cage"]},
-    {"id": "grelod", "name": "Grelod the Kind", "type": "npc", "aliases": ["grelod"], "tags": ["riften", "honorhall", "secret-monster", "publicly-beloved", "contract-target", "pending-finale"]},
-    {"id": "hemming", "name": "Hemming Black-Briar", "type": "npc", "aliases": ["hemming"], "tags": ["riften", "saved-by-danica", "letter-of-introduction"]},
-    {"id": "klimmek", "name": "Klimmek", "type": "npc", "aliases": ["klimmek"], "tags": ["ivarstead", "fire-b-courier", "greybeard-provisioner", "witness"]},
-    {"id": "hroki", "name": "Hroki", "type": "npc", "aliases": ["hroki"], "tags": ["windhelm", "stormcloak", "contract-target", "type3-contract", "valerius-wants-alive"]},
-    {"id": "constance", "name": "Constance Michel", "type": "npc", "aliases": ["constance"], "tags": ["honorhall", "enthrall-target", "pending-finale"]},
-    {"id": "caelinus", "name": "General Caelinus", "type": "npc", "aliases": ["caelinus"], "tags": ["empire", "davinia-father", "gilded-cage", "solitude", "network-alerted"]},
-    {"id": "stormcloak-courier", "name": "The dying Stormcloak courier", "type": "npc", "aliases": ["stormcloak soldier", "stormcloak runner", "dying runner", "feverish young stormcloak"], "tags": ["fire-a-courier", "infected-by-alfonso", "dying", "future-scapegoat", "bee-and-barb"]},
-    {"id": "milas-mother", "name": "Mila's mother", "type": "npc", "aliases": ["mila's mother", "milas mom", "her dying mother"], "tags": ["warrens", "infected-by-alfonso", "incubating", "riften-reinfection-vector", "dies-unwitnessed", "sold-mila"]},
-    {"id": "hayloft-girl", "name": "The hayloft girl (witness)", "type": "npc", "aliases": ["hayloft girl", "girl witness", "unnamed girl"], "tags": ["riften", "witness", "knows-the-lanterns", "dangling-thread", "child"]},
-    {"id": "stable-boy", "name": "Hofgrir's stable boy (deceased)", "type": "npc", "aliases": ["stable boy", "stable hand"], "tags": ["dead", "riften", "witness", "killed-by-fury-horse"]},
-    {"id": "greybeards", "name": "The Greybeards / Arngeir", "type": "faction", "aliases": ["greybeards", "arngeir", "high hrothgar"], "tags": ["throat", "way-of-the-voice", "cannot-name-dragonborn", "besieged", "fire-b"]},
-    {"id": "paarthurnax", "name": "Paarthurnax", "type": "npc", "aliases": ["paarthurnax"], "tags": ["throat", "dragonborn-reveal-era", "much-later"]},
-    {"id": "alduin", "name": "Alduin", "type": "villain", "aliases": ["alduin", "world-eater"], "tags": ["villain", "endgame", "time-wound-maker", "dragon-cult"]},
-    {"id": "peryite", "name": "Peryite", "type": "god", "aliases": ["peryite", "taskmaster"], "tags": ["daedra", "pestilence", "order", "gone-quiet", "approves-of-rust"]},
-    {"id": "namira", "name": "Namira", "type": "god", "aliases": ["namira"], "tags": ["daedra", "decay", "hunger", "void", "courting-alfonso", "newly-speaking"]},
-    {"id": "hircine", "name": "Hircine", "type": "god", "aliases": ["hircine", "white stag"], "tags": ["daedra", "the-hunt", "courts-quarry", "weredog-offer", "names-beasts"]},
-    {"id": "kynareth", "name": "Kynareth", "type": "god", "aliases": ["kynareth", "kyne"], "tags": ["aedra", "sky", "silent-mother", "mercy-trigger", "root-network"]},
-    {"id": "sithis", "name": "Sithis (the Void)", "type": "god", "aliases": ["sithis", "the void"], "tags": ["void", "shadowscale-faith", "stillness"]},
-    {"id": "mora", "name": "Hermaeus Mora", "type": "god", "aliases": ["hermaeus mora", "mora"], "tags": ["daedra", "knowledge", "cure-path-2", "wants-the-crown"]},
-    {"id": "dagon", "name": "Mehrunes Dagon", "type": "god", "aliases": ["dagon", "mehrunes"], "tags": ["daedra", "unmaking", "razor", "mythic-dawn"]},
-    {"id": "jagged-crown", "name": "The Jagged Crown of Namira", "type": "artifact", "aliases": ["jagged crown", "crown of namira", "crown of hunger"], "tags": ["artifact", "never-worn", "namira-touched", "symbiotic-return", "pools-with-rapier", "political-radioactive", "mora-wants"]},
-    {"id": "rapier", "name": "The Rusting Rapier (phylactery)", "type": "artifact", "aliases": ["rapier", "phylactery", "iron dagger"], "tags": ["artifact", "soul-vessel", "deep-rust-clock", "kill-switch", "alfonso-is-this", "atmoran-adjacent-no", "family-heirloom"]},
-    {"id": "pale-crown", "name": "The Crown of the Pale Lady", "type": "artifact", "aliases": ["crown of the pale lady"], "tags": ["artifact", "soul-vessel", "atmoran", "fused-to-davinia", "ismara-is-this", "tonal-architecture"]},
-    {"id": "regent-ring", "name": "The Ring of the Pale Regent", "type": "artifact", "aliases": ["ring of the pale regent", "pale regent"], "tags": ["artifact", "daedric-bound", "leash", "scrying", "irremovable", "severance-target"]},
-    {"id": "titan-ring", "name": "The Ring of the Titan's Eye", "type": "artifact", "aliases": ["ring of the titan", "titan's eye"], "tags": ["artifact", "hjolmar-masterwork", "soul-stretcher", "echo-prep", "krusp-wears", "makers-mark"]},
-    {"id": "hawk-artifacts", "name": "The Hawk's Talon & Feather", "type": "artifact", "aliases": ["hawk's talon", "hawk's feather", "hawk tokens"], "tags": ["artifact", "blank-instruments", "never-used", "crystallize-at-crossroads", "kynareth-touched"]},
-    {"id": "razor", "name": "Mehrunes' Razor", "type": "artifact", "aliases": ["razor"], "tags": ["artifact", "soul-carving", "false-dragonborn", "gate-4", "krusp-breaking-point"]},
-    {"id": "resonator", "name": "The Tonal Resonator", "type": "artifact", "aliases": ["tonal resonator", "resonator"], "tags": ["artifact", "three-arc-keystone", "gear-stage3", "severance-instrument", "anchor-instrument", "ismara-fears", "not-yet-found"]},
-    {"id": "dragonstone", "name": "The Dragonstone", "type": "artifact", "aliases": ["dragonstone"], "tags": ["artifact", "at-bleak-falls", "strategic-key", "tier2-trigger", "alduins-wall"]},
-    {"id": "tears", "name": "The Tears of Rahgot", "type": "artifact", "aliases": ["tears of rahgot"], "tags": ["artifact", "strain2-binding-agent", "in-forelhost-lab", "strategic-choice-pending"]},
-    {"id": "codex", "name": "The Forelhost Alchemy Codex", "type": "artifact", "aliases": ["alchemy codex", "forelhost alchemy"], "tags": ["artifact", "party-holds", "antoine-lineage", "master-text"]},
-    {"id": "soul-gems-nora", "name": "Nora's black soul gems", "type": "artifact", "aliases": ["black soul gems", "two black gems", "parents' souls"], "tags": ["artifact", "soul-vessel", "soul-cairn-bound", "unverified-contents", "nora-quest"]},
-    {"id": "dragonbone-shard", "name": "Kyboh's dragonbone shard", "type": "artifact", "aliases": ["dragonbone shard"], "tags": ["artifact", "bjorn-holds", "soul-synced", "kyboh-relic"]},
-    {"id": "brotherhood", "name": "The Dark Brotherhood", "type": "faction", "aliases": ["dark brotherhood", "brotherhood"], "tags": ["faction", "assassins", "emperor-contract", "resurgence", "varon-judges"]},
-    {"id": "colony", "name": "The Root-Husk Colony (Shadowscales)", "type": "faction", "aliases": ["root-husk", "shadowscale", "shadowscales", "the colony"], "tags": ["faction", "void-faith", "does-not-know-wandering", "released-saijah", "carved-varon"]},
-    {"id": "pale-court", "name": "The Pale Court", "type": "faction", "aliases": ["pale court", "volkihar"], "tags": ["faction", "vampires", "solitude", "valerius"]},
-    {"id": "thalmor", "name": "The Thalmor", "type": "faction", "aliases": ["thalmor", "justiciar", "aldmeri"], "tags": ["faction", "tower-protocol", "warrants", "blockade-bleak-falls", "hunts-davinia"]},
-    {"id": "dragon-cult", "name": "The Dragon Cult", "type": "faction", "aliases": ["dragon cult"], "tags": ["faction", "apocalypse-clock", "tier1-late", "primary-antagonist"]},
-    {"id": "mythic-dawn", "name": "The New Mythic Dawn (Dagon Cult)", "type": "faction", "aliases": ["mythic dawn", "dagon cult", "dagonite"], "tags": ["faction", "unmaking", "time-cheaters", "bleeding-mountain", "tier2"]},
-    {"id": "stormcloaks", "name": "The Stormcloaks", "type": "faction", "aliases": ["stormcloak", "ulfric"], "tags": ["faction", "plague-paralyzed", "windhelm", "blamed-for-riften"]},
-    {"id": "empire", "name": "The Empire / Legion", "type": "faction", "aliases": ["imperial legion", "tullius", "the empire"], "tags": ["faction", "holds-initiative", "solitude-push", "gilded-cage"]},
-    {"id": "true-wardens", "name": "The True Wardens (Krusp's company)", "type": "faction", "aliases": ["true wardens"], "tags": ["faction", "clean-heroes", "second-fire", "attrition", "danica-joined"]},
-    {"id": "lanterns", "name": "The Obsidian Lanterns (the party)", "type": "faction", "aliases": ["obsidian lanterns", "lanterns", "skyrim wardens", "wardens"], "tags": ["faction", "party", "monstrous", "celebrated-and-rotten", "torygg-charter"]},
-    {"id": "conclave", "name": "The Afflicted Conclave", "type": "faction", "aliases": ["afflicted conclave", "conclave", "peryite shrine"], "tags": ["faction", "windhelm", "peryite-purists", "soul-vessel-scripture", "shared-prize", "fire-a"]},
-    {"id": "blades", "name": "The Blades", "type": "faction", "aliases": ["blades", "sky haven", "alduin's wall"], "tags": ["faction", "esbern", "strategic-spine", "delphine-captured"]},
-    {"id": "riften", "name": "Riften", "type": "location", "aliases": ["riften", "bee and barb", "warrens", "ratway", "honorhall"], "tags": ["location", "rift", "celebrating-oblivious", "reinfection-incubating", "maven-rules", "background-rot"]},
-    {"id": "windhelm", "name": "Windhelm", "type": "location", "aliases": ["windhelm", "gray quarter", "palace of the kings"], "tags": ["location", "eastmarch", "sealed", "plague-city", "fire-a", "restoration-feeds-plague", "davinia-trap"]},
-    {"id": "bleak-falls", "name": "Bleak Falls Barrow", "type": "location", "aliases": ["bleak falls"], "tags": ["location", "whiterun-hold", "fire-c", "dragonstone-site", "antoine-ulag-echo-here", "thalmor-blockade", "word-wall", "predicted-second"]},
-    {"id": "ivarstead", "name": "Ivarstead / the 7,000 Steps", "type": "location", "aliases": ["ivarstead", "7,000 steps", "seven thousand steps", "bleeding stair", "waystones"], "tags": ["location", "rift", "fire-b", "bleeding-waystones", "time-distortion", "predicted-first"]},
-    {"id": "throat", "name": "The Throat of the World / Time-Wound", "type": "location", "aliases": ["throat of the world", "time-wound", "snow-throat"], "tags": ["location", "kyne-peak", "time-wound", "tower-protocol-target", "gaelen-target", "endgame-site"]},
-    {"id": "forelhost", "name": "Forelhost", "type": "location", "aliases": ["forelhost"], "tags": ["location", "rift", "lab-destroyed", "antoine-lineage", "four-thousand-sacrifices", "rahgot-left"]},
-    {"id": "dawnstar", "name": "Dawnstar", "type": "location", "aliases": ["dawnstar"], "tags": ["location", "pale", "cult-fortress", "vokun-holds", "nightmares", "cohort-died-here"]},
-    {"id": "fort-dunstad", "name": "Fort Dunstad", "type": "location", "aliases": ["fort dunstad", "dunstad"], "tags": ["location", "pale", "held-beat", "falls-after-dragonstone"]},
-    {"id": "darkwater", "name": "Darkwater Crossing", "type": "location", "aliases": ["darkwater"], "tags": ["location", "eastmarch", "consumed", "taproot", "unchosen-gate2"]},
-    {"id": "eldergleam", "name": "The Eldergleam Sanctuary", "type": "location", "aliases": ["eldergleam"], "tags": ["location", "eastmarch", "corrupted-source", "gate1-failure", "path3-site", "root-network"]},
-    {"id": "glacier", "name": "The Singing Glacier", "type": "location", "aliases": ["singing glacier"], "tags": ["location", "winterhold", "hjolmar-seat", "kyboh-died-here", "personal-path-trap"]},
-    {"id": "solitude", "name": "Solitude", "type": "location", "aliases": ["solitude", "blue palace", "castle dour"], "tags": ["location", "haafingar", "imperial-capital", "pale-court-rising", "gilded-cage", "thalmor-hq"]},
-    {"id": "soul-cairn", "name": "The Soul Cairn", "type": "location", "aliases": ["soul cairn"], "tags": ["location", "oblivion", "noras-parents", "root-network-reaches"]},
-    {"id": "alfonso-plague", "name": "Alfonso's Living Plague", "type": "concept", "aliases": ["alfonso's plague", "living rot", "his own strain"], "tags": ["concept", "plague", "weaponizes-restoration", "windhelm-sealer", "riften-reinfector", "antoine-covets", "alive-because-god-answers"]},
-    {"id": "strain1", "name": "Forelhost Strain 1.0", "type": "concept", "aliases": ["strain 1.0", "forelhost strain"], "tags": ["concept", "plague", "antoine-made", "meadery-vector", "davinia-exposed", "burned-out-by-alfonsos"]},
-    {"id": "strain2", "name": "Strain 2.0 (unbuilt)", "type": "concept", "aliases": ["strain 2.0"], "tags": ["concept", "plague", "clock-not-started", "needs-ulag-harvest", "needs-tears", "needs-facility", "denied-at-forelhost"]},
-    {"id": "severance", "name": "The Song of Severance", "type": "concept", "aliases": ["song of severance", "severance"], "tags": ["concept", "tonal", "noras-frequency", "one-shot", "ring-breaker", "asking-problem"]},
-    {"id": "cdi", "name": "The Integration / CDI clock", "type": "concept", "aliases": ["cdi", "integration tier", "point of irreversibility"], "tags": ["concept", "clock", "davinia", "0.5-cliff", "second-suppression", "fair-warning"]},
-    {"id": "memory-ledger", "name": "The Memory-Grant Ledger", "type": "concept", "aliases": ["memory ledger", "the basement", "grant"], "tags": ["concept", "ismara-mechanic", "grant-1-spent", "mother-archive", "father-memory", "stops-asking"]},
-    {"id": "deep-rust", "name": "The Deep Rust clock", "type": "concept", "aliases": ["deep rust"], "tags": ["concept", "clock", "alfonso", "stage-1", "reverses-when-dormant", "heart-gamble"]},
-    {"id": "dragonborn-question", "name": "The Dragonborn Question", "type": "concept", "aliases": ["dragonborn"], "tags": ["concept", "long-fuse", "nobody-can-sense", "bjorn-secret", "paarthurnax-era"]},
-    {"id": "gate3", "name": "Gate 3: The Second Three Fires", "type": "concept", "aliases": ["gate 3", "three fires", "second three fires"], "tags": ["concept", "choice-gate", "pending", "triage", "krusp-second-fire"]},
-    {"id": "wandering", "name": "The Wandering (Saijah's release)", "type": "concept", "aliases": ["the wandering", "rumspringa"], "tags": ["concept", "colony-expects-failure", "colony-uninformed", "rival-bidders"]},
-    {"id": "konahrik", "name": "The Konahrik Prophecy", "type": "concept", "aliases": ["konahrik"], "tags": ["concept", "dragon-cult", "five-priests", "apotheosis", "recovered-lore"]},
-    {"id": "tower-protocol", "name": "The Tower Protocol", "type": "concept", "aliases": ["tower protocol"], "tags": ["concept", "thalmor-endgame", "snow-throat-unbinding", "party-holds-papers"]}
-  ]
+ "_comment": "Entity registry for THE WEB. id = stable key. aliases are matched case-insensitively as whole words/phrases during corpus scan. tags are curated attributes - the discovery engine flags entities that share tags but lack an authored edge.",
+ "entities": [
+  {
+   "id": "davinia",
+   "name": "Davinia Caelus",
+   "type": "pc",
+   "aliases": [
+    "davinia"
+   ],
+   "tags": [
+    "party",
+    "imperial-blood",
+    "crown-bearer",
+    "soul-in-vessel-host",
+    "memory-traded",
+    "infected-strain-1",
+    "leader",
+    "wizard-sight",
+    "cdi-clock"
+   ]
+  },
+  {
+   "id": "alfonso",
+   "name": "Alfonso Duet",
+   "type": "pc",
+   "aliases": [
+    "alfonso",
+    "carrion saint",
+    "vrykolas"
+   ],
+   "tags": [
+    "party",
+    "monster",
+    "soul-in-vessel",
+    "plague-author",
+    "peryite-chosen",
+    "namira-touched",
+    "discorporate",
+    "phylactery-bound",
+    "deep-rust-clock",
+    "projection-body",
+    "never-wore-crown"
+   ]
+  },
+  {
+   "id": "saijah",
+   "name": "Saijah",
+   "type": "pc",
+   "aliases": [
+    "saijah",
+    "vena"
+   ],
+   "tags": [
+    "party",
+    "bosmer",
+    "kynareth-vessel",
+    "hircine-courted",
+    "root-husk-raised",
+    "migraine-compass",
+    "crossroads-pending",
+    "hound-named",
+    "white-hair"
+   ]
+  },
+  {
+   "id": "orion",
+   "name": "Orion",
+   "type": "pc",
+   "aliases": [
+    "orion"
+   ],
+   "tags": [
+    "party",
+    "monster",
+    "vampire",
+    "daedric-bound",
+    "ring-leashed",
+    "brotherhood-initiate",
+    "double-agent",
+    "tonal-architect",
+    "usurper-track",
+    "secret-murderer"
+   ]
+  },
+  {
+   "id": "kyboh",
+   "name": "Kyboh (deceased)",
+   "type": "pc",
+   "aliases": [
+    "kyboh"
+   ],
+   "tags": [
+    "dead",
+    "body-stolen",
+    "hjolmar-masterwork",
+    "believed-simply-dead",
+    "khajiit"
+   ]
+  },
+  {
+   "id": "bjorn",
+   "name": "Bjorn (the War-Hound)",
+   "type": "npc",
+   "aliases": [
+    "bjorn",
+    "war-hound",
+    "old bjorn"
+   ],
+   "tags": [
+    "party-adjacent",
+    "dragonborn-secret",
+    "dragon-souls",
+    "de-aging",
+    "child-protector",
+    "promise-trauma",
+    "cart",
+    "long-fuse",
+    "not-an-adventurer"
+   ]
+  },
+  {
+   "id": "mila",
+   "name": "Mila",
+   "type": "npc",
+   "aliases": [
+    "mila"
+   ],
+   "tags": [
+    "child",
+    "cart",
+    "warrens-survivor",
+    "blank-slate-apprentice",
+    "mother-doomed",
+    "fears-orion",
+    "unanswered-question"
+   ]
+  },
+  {
+   "id": "nora",
+   "name": "Nora the Haunted",
+   "type": "npc",
+   "aliases": [
+    "nora"
+   ],
+   "tags": [
+    "cart",
+    "age-18",
+    "conjuration-prodigy",
+    "soul-engineer",
+    "dark-leaning",
+    "parents-in-gems",
+    "kill-switch-unknowing",
+    "romance-orion",
+    "cannot-lie",
+    "unbinding-trauma"
+   ]
+  },
+  {
+   "id": "gear",
+   "name": "GEAR",
+   "type": "npc",
+   "aliases": [
+    "gear",
+    "brass-ball",
+    "cognitor"
+   ],
+   "tags": [
+    "cart",
+    "construct",
+    "hjolmar-masterwork",
+    "soul-in-vessel",
+    "archive-unasked",
+    "no-opsec",
+    "ghost-in-machine",
+    "cart-side-default"
+   ]
+  },
+  {
+   "id": "varon",
+   "name": "Varon",
+   "type": "npc",
+   "aliases": [
+    "varon"
+   ],
+   "tags": [
+    "cart",
+    "shadowscale",
+    "root-husk-raised",
+    "carved-hound",
+    "loves-saijah",
+    "handler",
+    "report-pending",
+    "surgical-disguise",
+    "void-faith"
+   ]
+  },
+  {
+   "id": "ylva",
+   "name": "Ylva the Cleaver",
+   "type": "npc",
+   "aliases": [
+    "ylva"
+   ],
+   "tags": [
+    "cart",
+    "werewolf",
+    "hircine-claimed",
+    "passed-over",
+    "fair-chase-doctrine",
+    "pursues-davinia",
+    "counter-agent-unknowing",
+    "rebound-candidate"
+   ]
+  },
+  {
+   "id": "esbern",
+   "name": "Esbern",
+   "type": "npc",
+   "aliases": [
+    "esbern"
+   ],
+   "tags": [
+    "cart",
+    "blades",
+    "dragonstone-commission",
+    "thalmor-hunted",
+    "unheard"
+   ]
+  },
+  {
+   "id": "danica",
+   "name": "Danica Pure-Spring",
+   "type": "npc",
+   "aliases": [
+    "danica"
+   ],
+   "tags": [
+    "true-wardens",
+    "kynareth-priestess",
+    "cracked-door",
+    "path3-officiant",
+    "left-the-party",
+    "hardened",
+    "attrition-absorber"
+   ]
+  },
+  {
+   "id": "krusp",
+   "name": "Krusp Fanck",
+   "type": "npc",
+   "aliases": [
+    "krusp",
+    "ashen blade",
+    "obsidian lantern"
+   ],
+   "tags": [
+    "true-wardens",
+    "legendary-hero",
+    "rival-mirror",
+    "attrition-ledger",
+    "hjolmar-masterwork",
+    "echo-prepped",
+    "soul-stretched",
+    "razor-destined",
+    "daedra-hater"
+   ]
+  },
+  {
+   "id": "ismara",
+   "name": "Ismara (the Crown of the Pale Lady)",
+   "type": "npc",
+   "aliases": [
+    "ismara",
+    "pale lady",
+    "crown of the pale lady",
+    "winter queen"
+   ],
+   "tags": [
+    "atmoran",
+    "soul-in-vessel",
+    "researcher",
+    "consent-cultivator",
+    "memory-holder",
+    "never-lies",
+    "stasis",
+    "grant-ledger",
+    "knows-resonator"
+   ]
+  },
+  {
+   "id": "hjolmar",
+   "name": "Hjolmar-Kyboh (Ice-Shaper)",
+   "type": "villain",
+   "aliases": [
+    "hjolmar"
+   ],
+   "tags": [
+    "villain",
+    "body-thief",
+    "atmoran",
+    "soul-in-vessel",
+    "consciousness-transfer",
+    "knows-the-blade",
+    "masterwork-maker",
+    "singing-glacier"
+   ]
+  },
+  {
+   "id": "echo",
+   "name": "The Echo Mimic",
+   "type": "villain",
+   "aliases": [
+    "echo mimic",
+    "shadow-unit",
+    "the echo"
+   ],
+   "tags": [
+    "villain",
+    "tonal-copy",
+    "kyboh-faced",
+    "leashed-to-ulag",
+    "at-bleak-falls",
+    "hjolmar-masterwork",
+    "false-resurrection"
+   ]
+  },
+  {
+   "id": "ulag",
+   "name": "Ulag the Breaker",
+   "type": "villain",
+   "aliases": [
+    "ulag"
+   ],
+   "tags": [
+    "villain",
+    "dragon-cult",
+    "hjolmar-masterwork",
+    "infected-by-alfonso",
+    "asymptomatic-carrier",
+    "at-bleak-falls",
+    "siege-engineer",
+    "strain2-source"
+   ]
+  },
+  {
+   "id": "antoine",
+   "name": "Antoine of Forelhost",
+   "type": "villain",
+   "aliases": [
+    "antoine"
+   ],
+   "tags": [
+    "villain",
+    "dragon-cult",
+    "rival-alchemist",
+    "forelhost-lineage",
+    "at-bleak-falls",
+    "empty-handed",
+    "will-deduce-blade",
+    "envies-alfonso",
+    "never-met-hjolmar"
+   ]
+  },
+  {
+   "id": "rahgot",
+   "name": "Rahgot",
+   "type": "villain",
+   "aliases": [
+    "rahgot"
+   ],
+   "tags": [
+    "villain",
+    "dragon-cult",
+    "dragon-priest",
+    "awake",
+    "walked-out",
+    "konahrik-prophecy"
+   ]
+  },
+  {
+   "id": "nahkriin",
+   "name": "Nahkriin the Guardian",
+   "type": "villain",
+   "aliases": [
+    "nahkriin"
+   ],
+   "tags": [
+    "villain",
+    "dragon-cult",
+    "dragon-priest",
+    "spymaster",
+    "false-flags"
+   ]
+  },
+  {
+   "id": "vokun",
+   "name": "Vokun the Shadow",
+   "type": "villain",
+   "aliases": [
+    "vokun"
+   ],
+   "tags": [
+    "villain",
+    "dragon-cult",
+    "dragon-priest",
+    "holds-dawnstar",
+    "tier2-held-beat",
+    "vaermina-nightmares"
+   ]
+  },
+  {
+   "id": "gaelen",
+   "name": "Gaelen the Root-Twister",
+   "type": "villain",
+   "aliases": [
+    "gaelen",
+    "root-twister"
+   ],
+   "tags": [
+    "villain",
+    "mythic-dawn",
+    "dagon-cult",
+    "warm-sincere",
+    "nymic-surgery",
+    "razor-touched",
+    "time-wound-target",
+    "fire-b-boss",
+    "corrupted-eldergleam"
+   ]
+  },
+  {
+   "id": "valerius",
+   "name": "Valerius Caelus",
+   "type": "villain",
+   "aliases": [
+    "valerius"
+   ],
+   "tags": [
+    "villain",
+    "pale-court",
+    "vampire-lord",
+    "davinia-father-adjacent",
+    "ring-watcher",
+    "blackmail-holder",
+    "solitude",
+    "molag-bal",
+    "rot-vulnerable"
+   ]
+  },
+  {
+   "id": "galmar",
+   "name": "Galmar Stone-Fist",
+   "type": "npc",
+   "aliases": [
+    "galmar"
+   ],
+   "tags": [
+    "stormcloak",
+    "windhelm",
+    "trusts-the-lie",
+    "begging",
+    "uncle-figure",
+    "fire-a"
+   ]
+  },
+  {
+   "id": "maven",
+   "name": "Maven Black-Briar",
+   "type": "npc",
+   "aliases": [
+    "maven"
+   ],
+   "tags": [
+    "riften",
+    "power-broker",
+    "patron-pending",
+    "owes-danica",
+    "golden-cage"
+   ]
+  },
+  {
+   "id": "grelod",
+   "name": "Grelod the Kind",
+   "type": "npc",
+   "aliases": [
+    "grelod"
+   ],
+   "tags": [
+    "riften",
+    "honorhall",
+    "secret-monster",
+    "publicly-beloved",
+    "contract-target",
+    "pending-finale"
+   ]
+  },
+  {
+   "id": "hemming",
+   "name": "Hemming Black-Briar",
+   "type": "npc",
+   "aliases": [
+    "hemming"
+   ],
+   "tags": [
+    "riften",
+    "saved-by-danica",
+    "letter-of-introduction"
+   ]
+  },
+  {
+   "id": "klimmek",
+   "name": "Klimmek",
+   "type": "npc",
+   "aliases": [
+    "klimmek"
+   ],
+   "tags": [
+    "ivarstead",
+    "fire-b-courier",
+    "greybeard-provisioner",
+    "witness"
+   ]
+  },
+  {
+   "id": "hroki",
+   "name": "Hroki",
+   "type": "npc",
+   "aliases": [
+    "hroki"
+   ],
+   "tags": [
+    "windhelm",
+    "stormcloak",
+    "contract-target",
+    "type3-contract",
+    "valerius-wants-alive"
+   ]
+  },
+  {
+   "id": "constance",
+   "name": "Constance Michel",
+   "type": "npc",
+   "aliases": [
+    "constance"
+   ],
+   "tags": [
+    "honorhall",
+    "enthrall-target",
+    "pending-finale"
+   ]
+  },
+  {
+   "id": "caelinus",
+   "name": "General Caelinus",
+   "type": "npc",
+   "aliases": [
+    "caelinus"
+   ],
+   "tags": [
+    "empire",
+    "davinia-father",
+    "gilded-cage",
+    "solitude",
+    "network-alerted"
+   ]
+  },
+  {
+   "id": "stormcloak-courier",
+   "name": "The dying Stormcloak courier",
+   "type": "npc",
+   "aliases": [
+    "stormcloak soldier",
+    "stormcloak runner",
+    "dying runner",
+    "feverish young stormcloak"
+   ],
+   "tags": [
+    "fire-a-courier",
+    "infected-by-alfonso",
+    "dying",
+    "future-scapegoat",
+    "bee-and-barb"
+   ]
+  },
+  {
+   "id": "milas-mother",
+   "name": "Mila's mother",
+   "type": "npc",
+   "aliases": [
+    "mila's mother",
+    "milas mom",
+    "her dying mother"
+   ],
+   "tags": [
+    "warrens",
+    "infected-by-alfonso",
+    "incubating",
+    "riften-reinfection-vector",
+    "dies-unwitnessed",
+    "sold-mila"
+   ]
+  },
+  {
+   "id": "hayloft-girl",
+   "name": "The hayloft girl (witness)",
+   "type": "npc",
+   "aliases": [
+    "hayloft girl",
+    "girl witness",
+    "unnamed girl"
+   ],
+   "tags": [
+    "riften",
+    "witness",
+    "knows-the-lanterns",
+    "dangling-thread",
+    "child"
+   ]
+  },
+  {
+   "id": "stable-boy",
+   "name": "Hofgrir's stable boy (deceased)",
+   "type": "npc",
+   "aliases": [
+    "stable boy",
+    "stable hand"
+   ],
+   "tags": [
+    "dead",
+    "riften",
+    "witness",
+    "killed-by-fury-horse"
+   ]
+  },
+  {
+   "id": "greybeards",
+   "name": "The Greybeards / Arngeir",
+   "type": "faction",
+   "aliases": [
+    "greybeards",
+    "arngeir",
+    "high hrothgar"
+   ],
+   "tags": [
+    "throat",
+    "way-of-the-voice",
+    "cannot-name-dragonborn",
+    "besieged",
+    "fire-b"
+   ]
+  },
+  {
+   "id": "paarthurnax",
+   "name": "Paarthurnax",
+   "type": "npc",
+   "aliases": [
+    "paarthurnax"
+   ],
+   "tags": [
+    "throat",
+    "dragonborn-reveal-era",
+    "much-later"
+   ]
+  },
+  {
+   "id": "alduin",
+   "name": "Alduin",
+   "type": "villain",
+   "aliases": [
+    "alduin",
+    "world-eater"
+   ],
+   "tags": [
+    "villain",
+    "endgame",
+    "time-wound-maker",
+    "dragon-cult"
+   ]
+  },
+  {
+   "id": "peryite",
+   "name": "Peryite",
+   "type": "god",
+   "aliases": [
+    "peryite",
+    "taskmaster"
+   ],
+   "tags": [
+    "daedra",
+    "pestilence",
+    "order",
+    "gone-quiet",
+    "approves-of-rust"
+   ]
+  },
+  {
+   "id": "namira",
+   "name": "Namira",
+   "type": "god",
+   "aliases": [
+    "namira"
+   ],
+   "tags": [
+    "daedra",
+    "decay",
+    "hunger",
+    "void",
+    "courting-alfonso",
+    "newly-speaking"
+   ]
+  },
+  {
+   "id": "hircine",
+   "name": "Hircine",
+   "type": "god",
+   "aliases": [
+    "hircine",
+    "white stag"
+   ],
+   "tags": [
+    "daedra",
+    "the-hunt",
+    "courts-quarry",
+    "weredog-offer",
+    "names-beasts"
+   ]
+  },
+  {
+   "id": "kynareth",
+   "name": "Kynareth",
+   "type": "god",
+   "aliases": [
+    "kynareth",
+    "kyne"
+   ],
+   "tags": [
+    "aedra",
+    "sky",
+    "silent-mother",
+    "mercy-trigger",
+    "root-network"
+   ]
+  },
+  {
+   "id": "sithis",
+   "name": "Sithis (the Void)",
+   "type": "god",
+   "aliases": [
+    "sithis",
+    "the void"
+   ],
+   "tags": [
+    "void",
+    "shadowscale-faith",
+    "stillness"
+   ]
+  },
+  {
+   "id": "mora",
+   "name": "Hermaeus Mora",
+   "type": "god",
+   "aliases": [
+    "hermaeus mora",
+    "mora"
+   ],
+   "tags": [
+    "daedra",
+    "knowledge",
+    "cure-path-2",
+    "wants-the-crown"
+   ]
+  },
+  {
+   "id": "dagon",
+   "name": "Mehrunes Dagon",
+   "type": "god",
+   "aliases": [
+    "dagon",
+    "mehrunes"
+   ],
+   "tags": [
+    "daedra",
+    "unmaking",
+    "razor",
+    "mythic-dawn"
+   ]
+  },
+  {
+   "id": "jagged-crown",
+   "name": "The Jagged Crown of Namira",
+   "type": "artifact",
+   "aliases": [
+    "jagged crown",
+    "crown of namira",
+    "crown of hunger"
+   ],
+   "tags": [
+    "artifact",
+    "never-worn",
+    "namira-touched",
+    "symbiotic-return",
+    "pools-with-rapier",
+    "political-radioactive",
+    "mora-wants"
+   ]
+  },
+  {
+   "id": "rapier",
+   "name": "The Rusting Rapier (phylactery)",
+   "type": "artifact",
+   "aliases": [
+    "rapier",
+    "phylactery",
+    "iron dagger"
+   ],
+   "tags": [
+    "artifact",
+    "soul-vessel",
+    "deep-rust-clock",
+    "kill-switch",
+    "alfonso-is-this",
+    "atmoran-adjacent-no",
+    "family-heirloom"
+   ]
+  },
+  {
+   "id": "pale-crown",
+   "name": "The Crown of the Pale Lady",
+   "type": "artifact",
+   "aliases": [
+    "crown of the pale lady"
+   ],
+   "tags": [
+    "artifact",
+    "soul-vessel",
+    "atmoran",
+    "fused-to-davinia",
+    "ismara-is-this",
+    "tonal-architecture"
+   ]
+  },
+  {
+   "id": "regent-ring",
+   "name": "The Ring of the Pale Regent",
+   "type": "artifact",
+   "aliases": [
+    "ring of the pale regent",
+    "pale regent"
+   ],
+   "tags": [
+    "artifact",
+    "daedric-bound",
+    "leash",
+    "scrying",
+    "irremovable",
+    "severance-target"
+   ]
+  },
+  {
+   "id": "titan-ring",
+   "name": "The Ring of the Titan's Eye",
+   "type": "artifact",
+   "aliases": [
+    "ring of the titan",
+    "titan's eye"
+   ],
+   "tags": [
+    "artifact",
+    "hjolmar-masterwork",
+    "soul-stretcher",
+    "echo-prep",
+    "krusp-wears",
+    "makers-mark"
+   ]
+  },
+  {
+   "id": "hawk-artifacts",
+   "name": "The Hawk's Talon & Feather",
+   "type": "artifact",
+   "aliases": [
+    "hawk's talon",
+    "hawk's feather",
+    "hawk tokens"
+   ],
+   "tags": [
+    "artifact",
+    "blank-instruments",
+    "never-used",
+    "crystallize-at-crossroads",
+    "kynareth-touched"
+   ]
+  },
+  {
+   "id": "razor",
+   "name": "Mehrunes' Razor",
+   "type": "artifact",
+   "aliases": [
+    "razor"
+   ],
+   "tags": [
+    "artifact",
+    "soul-carving",
+    "false-dragonborn",
+    "gate-4",
+    "krusp-breaking-point"
+   ]
+  },
+  {
+   "id": "resonator",
+   "name": "The Tonal Resonator",
+   "type": "artifact",
+   "aliases": [
+    "tonal resonator",
+    "resonator"
+   ],
+   "tags": [
+    "artifact",
+    "three-arc-keystone",
+    "gear-stage3",
+    "severance-instrument",
+    "anchor-instrument",
+    "ismara-fears",
+    "not-yet-found"
+   ]
+  },
+  {
+   "id": "dragonstone",
+   "name": "The Dragonstone",
+   "type": "artifact",
+   "aliases": [
+    "dragonstone"
+   ],
+   "tags": [
+    "artifact",
+    "at-bleak-falls",
+    "strategic-key",
+    "tier2-trigger",
+    "alduins-wall"
+   ]
+  },
+  {
+   "id": "tears",
+   "name": "The Tears of Rahgot",
+   "type": "artifact",
+   "aliases": [
+    "tears of rahgot"
+   ],
+   "tags": [
+    "artifact",
+    "strain2-binding-agent",
+    "in-forelhost-lab",
+    "strategic-choice-pending"
+   ]
+  },
+  {
+   "id": "codex",
+   "name": "The Forelhost Alchemy Codex",
+   "type": "artifact",
+   "aliases": [
+    "alchemy codex",
+    "forelhost alchemy"
+   ],
+   "tags": [
+    "artifact",
+    "party-holds",
+    "antoine-lineage",
+    "master-text"
+   ]
+  },
+  {
+   "id": "soul-gems-nora",
+   "name": "Nora's black soul gems",
+   "type": "artifact",
+   "aliases": [
+    "black soul gems",
+    "two black gems",
+    "parents' souls"
+   ],
+   "tags": [
+    "artifact",
+    "soul-vessel",
+    "soul-cairn-bound",
+    "unverified-contents",
+    "nora-quest"
+   ]
+  },
+  {
+   "id": "dragonbone-shard",
+   "name": "Kyboh's dragonbone shard",
+   "type": "artifact",
+   "aliases": [
+    "dragonbone shard"
+   ],
+   "tags": [
+    "artifact",
+    "bjorn-holds",
+    "soul-synced",
+    "kyboh-relic"
+   ]
+  },
+  {
+   "id": "brotherhood",
+   "name": "The Dark Brotherhood",
+   "type": "faction",
+   "aliases": [
+    "dark brotherhood",
+    "brotherhood"
+   ],
+   "tags": [
+    "faction",
+    "assassins",
+    "emperor-contract",
+    "resurgence",
+    "varon-judges"
+   ]
+  },
+  {
+   "id": "colony",
+   "name": "The Root-Husk Colony (Shadowscales)",
+   "type": "faction",
+   "aliases": [
+    "root-husk",
+    "shadowscale",
+    "shadowscales",
+    "the colony"
+   ],
+   "tags": [
+    "faction",
+    "void-faith",
+    "does-not-know-wandering",
+    "released-saijah",
+    "carved-varon"
+   ]
+  },
+  {
+   "id": "pale-court",
+   "name": "The Pale Court",
+   "type": "faction",
+   "aliases": [
+    "pale court",
+    "volkihar"
+   ],
+   "tags": [
+    "faction",
+    "vampires",
+    "solitude",
+    "valerius"
+   ]
+  },
+  {
+   "id": "thalmor",
+   "name": "The Thalmor",
+   "type": "faction",
+   "aliases": [
+    "thalmor",
+    "justiciar",
+    "aldmeri"
+   ],
+   "tags": [
+    "faction",
+    "tower-protocol",
+    "warrants",
+    "blockade-bleak-falls",
+    "hunts-davinia"
+   ]
+  },
+  {
+   "id": "dragon-cult",
+   "name": "The Dragon Cult",
+   "type": "faction",
+   "aliases": [
+    "dragon cult"
+   ],
+   "tags": [
+    "faction",
+    "apocalypse-clock",
+    "tier1-late",
+    "primary-antagonist"
+   ]
+  },
+  {
+   "id": "mythic-dawn",
+   "name": "The New Mythic Dawn (Dagon Cult)",
+   "type": "faction",
+   "aliases": [
+    "mythic dawn",
+    "dagon cult",
+    "dagonite"
+   ],
+   "tags": [
+    "faction",
+    "unmaking",
+    "time-cheaters",
+    "bleeding-mountain",
+    "tier2"
+   ]
+  },
+  {
+   "id": "stormcloaks",
+   "name": "The Stormcloaks",
+   "type": "faction",
+   "aliases": [
+    "stormcloak",
+    "ulfric"
+   ],
+   "tags": [
+    "faction",
+    "plague-paralyzed",
+    "windhelm",
+    "blamed-for-riften"
+   ]
+  },
+  {
+   "id": "empire",
+   "name": "The Empire / Legion",
+   "type": "faction",
+   "aliases": [
+    "imperial legion",
+    "tullius",
+    "the empire"
+   ],
+   "tags": [
+    "faction",
+    "holds-initiative",
+    "solitude-push",
+    "gilded-cage"
+   ]
+  },
+  {
+   "id": "true-wardens",
+   "name": "The True Wardens (Krusp's company)",
+   "type": "faction",
+   "aliases": [
+    "true wardens"
+   ],
+   "tags": [
+    "faction",
+    "clean-heroes",
+    "second-fire",
+    "attrition",
+    "danica-joined"
+   ]
+  },
+  {
+   "id": "lanterns",
+   "name": "The Obsidian Lanterns (the party)",
+   "type": "faction",
+   "aliases": [
+    "obsidian lanterns",
+    "lanterns",
+    "skyrim wardens",
+    "wardens"
+   ],
+   "tags": [
+    "faction",
+    "party",
+    "monstrous",
+    "celebrated-and-rotten",
+    "torygg-charter"
+   ]
+  },
+  {
+   "id": "conclave",
+   "name": "The Afflicted Conclave",
+   "type": "faction",
+   "aliases": [
+    "afflicted conclave",
+    "conclave",
+    "peryite shrine"
+   ],
+   "tags": [
+    "faction",
+    "windhelm",
+    "peryite-purists",
+    "soul-vessel-scripture",
+    "shared-prize",
+    "fire-a"
+   ]
+  },
+  {
+   "id": "blades",
+   "name": "The Blades",
+   "type": "faction",
+   "aliases": [
+    "blades",
+    "sky haven",
+    "alduin's wall"
+   ],
+   "tags": [
+    "faction",
+    "esbern",
+    "strategic-spine",
+    "delphine-captured"
+   ]
+  },
+  {
+   "id": "riften",
+   "name": "Riften",
+   "type": "location",
+   "aliases": [
+    "riften",
+    "bee and barb",
+    "warrens",
+    "ratway",
+    "honorhall"
+   ],
+   "tags": [
+    "location",
+    "rift",
+    "celebrating-oblivious",
+    "reinfection-incubating",
+    "maven-rules",
+    "background-rot"
+   ]
+  },
+  {
+   "id": "windhelm",
+   "name": "Windhelm",
+   "type": "location",
+   "aliases": [
+    "windhelm",
+    "gray quarter",
+    "palace of the kings"
+   ],
+   "tags": [
+    "location",
+    "eastmarch",
+    "sealed",
+    "plague-city",
+    "fire-a",
+    "restoration-feeds-plague",
+    "davinia-trap"
+   ]
+  },
+  {
+   "id": "bleak-falls",
+   "name": "Bleak Falls Barrow",
+   "type": "location",
+   "aliases": [
+    "bleak falls"
+   ],
+   "tags": [
+    "location",
+    "whiterun-hold",
+    "fire-c",
+    "dragonstone-site",
+    "antoine-ulag-echo-here",
+    "thalmor-blockade",
+    "word-wall",
+    "predicted-second"
+   ]
+  },
+  {
+   "id": "ivarstead",
+   "name": "Ivarstead / the 7,000 Steps",
+   "type": "location",
+   "aliases": [
+    "ivarstead",
+    "7,000 steps",
+    "seven thousand steps",
+    "bleeding stair",
+    "waystones"
+   ],
+   "tags": [
+    "location",
+    "rift",
+    "fire-b",
+    "bleeding-waystones",
+    "time-distortion",
+    "predicted-first"
+   ]
+  },
+  {
+   "id": "throat",
+   "name": "The Throat of the World / Time-Wound",
+   "type": "location",
+   "aliases": [
+    "throat of the world",
+    "time-wound",
+    "snow-throat"
+   ],
+   "tags": [
+    "location",
+    "kyne-peak",
+    "time-wound",
+    "tower-protocol-target",
+    "gaelen-target",
+    "endgame-site"
+   ]
+  },
+  {
+   "id": "forelhost",
+   "name": "Forelhost",
+   "type": "location",
+   "aliases": [
+    "forelhost"
+   ],
+   "tags": [
+    "location",
+    "rift",
+    "lab-destroyed",
+    "antoine-lineage",
+    "four-thousand-sacrifices",
+    "rahgot-left"
+   ]
+  },
+  {
+   "id": "dawnstar",
+   "name": "Dawnstar",
+   "type": "location",
+   "aliases": [
+    "dawnstar"
+   ],
+   "tags": [
+    "location",
+    "pale",
+    "cult-fortress",
+    "vokun-holds",
+    "nightmares",
+    "cohort-died-here"
+   ]
+  },
+  {
+   "id": "fort-dunstad",
+   "name": "Fort Dunstad",
+   "type": "location",
+   "aliases": [
+    "fort dunstad",
+    "dunstad"
+   ],
+   "tags": [
+    "location",
+    "pale",
+    "held-beat",
+    "falls-after-dragonstone"
+   ]
+  },
+  {
+   "id": "darkwater",
+   "name": "Darkwater Crossing",
+   "type": "location",
+   "aliases": [
+    "darkwater"
+   ],
+   "tags": [
+    "location",
+    "eastmarch",
+    "consumed",
+    "taproot",
+    "unchosen-gate2"
+   ]
+  },
+  {
+   "id": "eldergleam",
+   "name": "The Eldergleam Sanctuary",
+   "type": "location",
+   "aliases": [
+    "eldergleam"
+   ],
+   "tags": [
+    "location",
+    "eastmarch",
+    "corrupted-source",
+    "gate1-failure",
+    "path3-site",
+    "root-network"
+   ]
+  },
+  {
+   "id": "glacier",
+   "name": "The Singing Glacier",
+   "type": "location",
+   "aliases": [
+    "singing glacier"
+   ],
+   "tags": [
+    "location",
+    "winterhold",
+    "hjolmar-seat",
+    "kyboh-died-here",
+    "personal-path-trap"
+   ]
+  },
+  {
+   "id": "solitude",
+   "name": "Solitude",
+   "type": "location",
+   "aliases": [
+    "solitude",
+    "blue palace",
+    "castle dour"
+   ],
+   "tags": [
+    "location",
+    "haafingar",
+    "imperial-capital",
+    "pale-court-rising",
+    "gilded-cage",
+    "thalmor-hq"
+   ]
+  },
+  {
+   "id": "soul-cairn",
+   "name": "The Soul Cairn",
+   "type": "location",
+   "aliases": [
+    "soul cairn"
+   ],
+   "tags": [
+    "location",
+    "oblivion",
+    "noras-parents",
+    "root-network-reaches"
+   ]
+  },
+  {
+   "id": "alfonso-plague",
+   "name": "Alfonso's Living Plague",
+   "type": "concept",
+   "aliases": [
+    "alfonso's plague",
+    "living rot",
+    "his own strain"
+   ],
+   "tags": [
+    "concept",
+    "plague",
+    "weaponizes-restoration",
+    "windhelm-sealer",
+    "riften-reinfector",
+    "antoine-covets",
+    "alive-because-god-answers"
+   ]
+  },
+  {
+   "id": "strain1",
+   "name": "Forelhost Strain 1.0",
+   "type": "concept",
+   "aliases": [
+    "strain 1.0",
+    "forelhost strain"
+   ],
+   "tags": [
+    "concept",
+    "plague",
+    "antoine-made",
+    "meadery-vector",
+    "davinia-exposed",
+    "burned-out-by-alfonsos"
+   ]
+  },
+  {
+   "id": "strain2",
+   "name": "Strain 2.0 (unbuilt)",
+   "type": "concept",
+   "aliases": [
+    "strain 2.0"
+   ],
+   "tags": [
+    "concept",
+    "plague",
+    "clock-not-started",
+    "needs-ulag-harvest",
+    "needs-tears",
+    "needs-facility",
+    "denied-at-forelhost"
+   ]
+  },
+  {
+   "id": "severance",
+   "name": "The Song of Severance",
+   "type": "concept",
+   "aliases": [
+    "song of severance",
+    "severance"
+   ],
+   "tags": [
+    "concept",
+    "tonal",
+    "noras-frequency",
+    "one-shot",
+    "ring-breaker",
+    "asking-problem"
+   ]
+  },
+  {
+   "id": "cdi",
+   "name": "The Integration / CDI clock",
+   "type": "concept",
+   "aliases": [
+    "cdi",
+    "integration tier",
+    "point of irreversibility"
+   ],
+   "tags": [
+    "concept",
+    "clock",
+    "davinia",
+    "0.5-cliff",
+    "second-suppression",
+    "fair-warning"
+   ]
+  },
+  {
+   "id": "memory-ledger",
+   "name": "The Memory-Grant Ledger",
+   "type": "concept",
+   "aliases": [
+    "memory ledger",
+    "the basement",
+    "grant"
+   ],
+   "tags": [
+    "concept",
+    "ismara-mechanic",
+    "grant-1-spent",
+    "mother-archive",
+    "father-memory",
+    "stops-asking"
+   ]
+  },
+  {
+   "id": "deep-rust",
+   "name": "The Deep Rust clock",
+   "type": "concept",
+   "aliases": [
+    "deep rust"
+   ],
+   "tags": [
+    "concept",
+    "clock",
+    "alfonso",
+    "stage-1",
+    "reverses-when-dormant",
+    "heart-gamble"
+   ]
+  },
+  {
+   "id": "dragonborn-question",
+   "name": "The Dragonborn Question",
+   "type": "concept",
+   "aliases": [
+    "dragonborn"
+   ],
+   "tags": [
+    "concept",
+    "long-fuse",
+    "nobody-can-sense",
+    "bjorn-secret",
+    "paarthurnax-era"
+   ]
+  },
+  {
+   "id": "gate3",
+   "name": "Gate 3: The Second Three Fires",
+   "type": "concept",
+   "aliases": [
+    "gate 3",
+    "three fires",
+    "second three fires"
+   ],
+   "tags": [
+    "concept",
+    "choice-gate",
+    "pending",
+    "triage",
+    "krusp-second-fire"
+   ]
+  },
+  {
+   "id": "wandering",
+   "name": "The Wandering (Saijah's release)",
+   "type": "concept",
+   "aliases": [
+    "the wandering",
+    "rumspringa"
+   ],
+   "tags": [
+    "concept",
+    "colony-expects-failure",
+    "colony-uninformed",
+    "rival-bidders"
+   ]
+  },
+  {
+   "id": "konahrik",
+   "name": "The Konahrik Prophecy",
+   "type": "concept",
+   "aliases": [
+    "konahrik"
+   ],
+   "tags": [
+    "concept",
+    "dragon-cult",
+    "five-priests",
+    "apotheosis",
+    "recovered-lore"
+   ]
+  },
+  {
+   "id": "tower-protocol",
+   "name": "The Tower Protocol",
+   "type": "concept",
+   "aliases": [
+    "tower protocol"
+   ],
+   "tags": [
+    "concept",
+    "thalmor-endgame",
+    "snow-throat-unbinding",
+    "party-holds-papers"
+   ]
+  },
+  {
+   "id": "torygg",
+   "name": "High King Torygg (deceased)",
+   "type": "npc",
+   "aliases": [
+    "torygg"
+   ],
+   "tags": [
+    "dead",
+    "charter-giver",
+    "moral-center",
+    "killed-by-ulfric"
+   ]
+  },
+  {
+   "id": "jaha",
+   "name": "Ja'ha (Pale Court vampire)",
+   "type": "npc",
+   "aliases": [
+    "ja'ha",
+    "jaha"
+   ],
+   "tags": [
+    "vampire",
+    "former-party",
+    "joined-valerius",
+    "pale-court-member",
+    "turned-at-falkreath",
+    "khajiit"
+   ]
+  },
+  {
+   "id": "seraleth",
+   "name": "Seraleth (vanished vampire)",
+   "type": "npc",
+   "aliases": [
+    "seraleth"
+   ],
+   "tags": [
+    "vampire",
+    "former-party",
+    "turned-at-falkreath",
+    "vanished",
+    "dangling-thread",
+    "pale-ladys-tomb-survivor"
+   ]
+  },
+  {
+   "id": "falsetto",
+   "name": "Falsetto",
+   "type": "npc",
+   "aliases": [
+    "falsetto"
+   ],
+   "tags": [
+    "former-party",
+    "bard",
+    "stayed-whiterun",
+    "dangling-thread"
+   ]
+  },
+  {
+   "id": "azura-twins",
+   "name": "Azura & Azura (deceased twins)",
+   "type": "npc",
+   "aliases": [
+    "azura the orc"
+   ],
+   "tags": [
+    "dead",
+    "former-party",
+    "identical-twins",
+    "act-1"
+   ]
+  },
+  {
+   "id": "balgruuf",
+   "name": "Jarl Balgruuf",
+   "type": "npc",
+   "aliases": [
+    "balgruuf"
+   ],
+   "tags": [
+    "whiterun-hold",
+    "neutral-jarl",
+    "hired-party-once",
+    "squeezed"
+   ]
+  },
+  {
+   "id": "nenya",
+   "name": "Nenya (Falkreath steward)",
+   "type": "npc",
+   "aliases": [
+    "nenya"
+   ],
+   "tags": [
+    "falkreath-hold",
+    "lied-to",
+    "exhausted"
+   ]
+  },
+  {
+   "id": "quintus",
+   "name": "Legate Quintus",
+   "type": "npc",
+   "aliases": [
+    "quintus"
+   ],
+   "tags": [
+    "empire-officer",
+    "knows-davinia",
+    "solitude-based"
+   ]
+  },
+  {
+   "id": "tullius",
+   "name": "General Tullius",
+   "type": "npc",
+   "aliases": [
+    "tullius"
+   ],
+   "tags": [
+    "empire-officer",
+    "solitude-based",
+    "war-command"
+   ]
+  },
+  {
+   "id": "sybil-stentor",
+   "name": "Sybille Stentor",
+   "type": "npc",
+   "aliases": [
+    "sybille stentor",
+    "sybil stentor"
+   ],
+   "tags": [
+    "solitude-based",
+    "vampire",
+    "noticed-the-party-vampires",
+    "said-nothing",
+    "dangling-thread"
+   ]
+  },
+  {
+   "id": "delphine",
+   "name": "Delphine (captured)",
+   "type": "npc",
+   "aliases": [
+    "delphine"
+   ],
+   "tags": [
+    "blades-member",
+    "thalmor-captive",
+    "b-team-ripple"
+   ]
+  },
+  {
+   "id": "balimund",
+   "name": "Balimund",
+   "type": "npc",
+   "aliases": [
+    "balimund"
+   ],
+   "tags": [
+    "riften-local",
+    "smith",
+    "investment-thresholds",
+    "pending-finale"
+   ]
+  },
+  {
+   "id": "hofgrir",
+   "name": "Hofgrir (stablemaster)",
+   "type": "npc",
+   "aliases": [
+    "hofgrir"
+   ],
+   "tags": [
+    "riften-local",
+    "grieving",
+    "horse-seller",
+    "pending-finale"
+   ]
+  },
+  {
+   "id": "mable",
+   "name": "Mable (the horse)",
+   "type": "npc",
+   "aliases": [
+    "mable"
+   ],
+   "tags": [
+    "cart",
+    "retiring",
+    "senses-bjorn"
+   ]
+  },
+  {
+   "id": "lylana-anya",
+   "name": "Lylana and Anya (the sisters)",
+   "type": "npc",
+   "aliases": [
+    "lylana",
+    "anya"
+   ],
+   "tags": [
+    "dead",
+    "bjorn-trauma",
+    "the-promise"
+   ]
+  },
+  {
+   "id": "kyboh-gloves",
+   "name": "The Gloves of the Pugilist (Delta)",
+   "type": "artifact",
+   "aliases": [
+    "gloves of the pugilist"
+   ],
+   "tags": [
+    "artifact",
+    "hjolmar-masterwork",
+    "found-pale-ladys-tomb",
+    "removed-by-hjolmar",
+    "delta-unit"
+   ]
+  },
+  {
+   "id": "anchor-of-stasis",
+   "name": "The Anchor of Stasis",
+   "type": "artifact",
+   "aliases": [
+    "anchor of stasis"
+   ],
+   "tags": [
+    "artifact",
+    "hjolmar-masterwork",
+    "tonal-suppression",
+    "kyboh-wore"
+   ]
+  },
+  {
+   "id": "aetherial-matrix",
+   "name": "The Aetherial Matrix",
+   "type": "artifact",
+   "aliases": [
+    "aetherial matrix",
+    "ethereal matrix"
+   ],
+   "tags": [
+    "artifact",
+    "dwemer",
+    "retrieval-beacon",
+    "hjolmar-trap",
+    "taken-with-kyboh"
+   ]
+  },
+  {
+   "id": "pale-ladys-tomb",
+   "name": "The Pale Lady's Tomb",
+   "type": "location",
+   "aliases": [
+    "pale lady's tomb",
+    "pale ladys tomb"
+   ],
+   "tags": [
+    "location",
+    "winterhold-region",
+    "session-1",
+    "gloves-found-here",
+    "seraleth-lost-here",
+    "ice-armor"
+   ]
+  },
+  {
+   "id": "thornheart",
+   "name": "Thornheart Grove",
+   "type": "location",
+   "aliases": [
+    "thornheart"
+   ],
+   "tags": [
+    "location",
+    "rift-region",
+    "act-1",
+    "danica-rescued-here",
+    "alfonso-first-appeared",
+    "azura-died-here",
+    "cleansed"
+   ]
+  },
+  {
+   "id": "falkreath",
+   "name": "Falkreath",
+   "type": "location",
+   "aliases": [
+    "falkreath"
+   ],
+   "tags": [
+    "location",
+    "blood-on-the-pine",
+    "economy-devastated",
+    "sanguine-sanctum"
+   ]
+  },
+  {
+   "id": "hall-honored-dead",
+   "name": "The Hall of the Honored Dead (secret base)",
+   "type": "location",
+   "aliases": [
+    "hall of the honored dead",
+    "hall of the honored"
+   ],
+   "tags": [
+    "location",
+    "falkreath-hold",
+    "party-secret-base",
+    "password-sealed",
+    "valerius-former-lair",
+    "prisoners-abandoned-here"
+   ]
+  },
+  {
+   "id": "korvanjund",
+   "name": "Korvanjund",
+   "type": "location",
+   "aliases": [
+    "korvanjund"
+   ],
+   "tags": [
+    "location",
+    "pale-region",
+    "crown-tomb",
+    "collapsed",
+    "ulag-fight",
+    "supplies-laced-here"
+   ]
+  },
+  {
+   "id": "whiterun",
+   "name": "Whiterun (city)",
+   "type": "location",
+   "aliases": [
+    "whiterun",
+    "dragonsreach",
+    "bannered mare"
+   ],
+   "tags": [
+    "location",
+    "neutral-island",
+    "battleborn-case",
+    "danica-home-temple"
+   ]
+  },
+  {
+   "id": "college",
+   "name": "The College of Winterhold / the Midden",
+   "type": "faction",
+   "aliases": [
+    "college of winterhold",
+    "the midden",
+    "arcanaeum"
+   ],
+   "tags": [
+    "faction",
+    "winterhold-region",
+    "eyes-traded-here",
+    "hawk-sacrifice-midden",
+    "nora-origin",
+    "future-dagon-target"
+   ]
+  },
+  {
+   "id": "bards-college",
+   "name": "The Bards College",
+   "type": "faction",
+   "aliases": [
+    "bards college"
+   ],
+   "tags": [
+    "faction",
+    "solitude-based",
+    "orion-enrolled",
+    "intelligence-network"
+   ]
+  },
+  {
+   "id": "sahloknir",
+   "name": "Sahloknir (slain)",
+   "type": "villain",
+   "aliases": [
+    "sahloknir"
+   ],
+   "tags": [
+    "dragon",
+    "slain",
+    "kynesgrove-site",
+    "soul-one"
+   ]
+  },
+  {
+   "id": "krosulhah",
+   "name": "Krosulhah (slain)",
+   "type": "villain",
+   "aliases": [
+    "krosulhah"
+   ],
+   "tags": [
+    "dragon",
+    "slain",
+    "road-to-riften",
+    "soul-two",
+    "optic-nerve-shot"
+   ]
+  },
+  {
+   "id": "morthal",
+   "name": "Morthal",
+   "type": "location",
+   "aliases": [
+    "morthal"
+   ],
+   "tags": [
+    "location",
+    "hjaalmarch",
+    "scarred",
+    "hostile-to-outsiders",
+    "valerius-fed-here",
+    "orion-sent-him"
+   ]
+  },
+  {
+   "id": "kynesgrove",
+   "name": "Kynesgrove (ruin)",
+   "type": "location",
+   "aliases": [
+    "kynesgrove",
+    "kynsegrove"
+   ],
+   "tags": [
+    "location",
+    "eastmarch-region",
+    "awakening-site",
+    "massacred",
+    "first-dragon-soul",
+    "krusp-schism-site"
+   ]
+  }
+ ]
 }
