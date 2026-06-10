@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" font-family="Georgia, 'Times New Roman', serif">
+  <title>Torygg's Legacy - World State Map (Post-Riften / Post-Forelhost, mid-prep)</title>
+  <defs>
+    <pattern id="plague" width="10" height="10" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#5a6b4f"/>
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#3c4a34" stroke-width="4"/>
+    </pattern>
+    <pattern id="cult" width="10" height="10" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#4a3d5c"/>
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#2e2440" stroke-width="4"/>
+    </pattern>
+    <radialGradient id="rot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c2571f" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#c2571f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="760" fill="#1d1a16"/>
+  <rect x="14" y="14" width="972" height="732" fill="none" stroke="#8a7448" stroke-width="2"/>
+  <text x="500" y="46" text-anchor="middle" fill="#d8c79a" font-size="26" letter-spacing="2">SKYRIM -- THE WORLD AS IT STANDS</text>
+  <text x="500" y="68" text-anchor="middle" fill="#9a8a64" font-size="13">Snapshot: post-Riften / post-Forelhost (mid-prep, before the Gate 3 choice)</text>
+
+  <!-- Sea of Ghosts -->
+  <text x="500" y="100" text-anchor="middle" fill="#5d6e7a" font-size="14" font-style="italic" letter-spacing="4">S E A   O F   G H O S T S</text>
+
+  <!-- ============ HOLDS (schematic) ============ -->
+  <!-- Haafingar (Imperial) -->
+  <path d="M 60 150 L 215 115 L 260 165 L 230 215 L 120 225 L 60 195 Z" fill="#3d5166" stroke="#7e94a8" stroke-width="2"/>
+  <text x="155" y="160" text-anchor="middle" fill="#c8d6e2" font-size="15" font-weight="bold">HAAFINGAR</text>
+  <text x="155" y="178" text-anchor="middle" fill="#9fb4c4" font-size="11">Imperial capital - war footing</text>
+  <text x="155" y="193" text-anchor="middle" fill="#9fb4c4" font-size="11">Thalmor thick - Pale Court rising</text>
+
+  <!-- The Reach (Imperial) -->
+  <path d="M 60 235 L 200 235 L 235 300 L 215 430 L 120 470 L 55 400 Z" fill="#46505c" stroke="#7e94a8" stroke-width="2"/>
+  <text x="145" y="330" text-anchor="middle" fill="#c8d6e2" font-size="15" font-weight="bold">THE REACH</text>
+  <text x="145" y="348" text-anchor="middle" fill="#9fb4c4" font-size="11">False-flag boil: Dibella murder</text>
+  <text x="145" y="363" text-anchor="middle" fill="#9fb4c4" font-size="11">framed on the Forsworn</text>
+  <text x="145" y="382" text-anchor="middle" fill="#8a99a8" font-size="10" font-style="italic">(Otar sleeps below - later)</text>
+
+  <!-- Hjaalmarch (Imperial, scarred) -->
+  <path d="M 235 170 L 380 150 L 400 235 L 330 280 L 245 270 L 235 220 Z" fill="#3f4a52" stroke="#7e94a8" stroke-width="2"/>
+  <text x="320" y="205" text-anchor="middle" fill="#c8d6e2" font-size="14" font-weight="bold">HJAALMARCH</text>
+  <text x="320" y="222" text-anchor="middle" fill="#9fb4c4" font-size="11">Morthal: scarred, shuttered,</text>
+  <text x="320" y="236" text-anchor="middle" fill="#9fb4c4" font-size="11">hostile to outsiders</text>
+
+  <!-- The Pale (DRAGON CULT) -->
+  <path d="M 390 140 L 560 125 L 590 230 L 500 290 L 410 270 L 400 235 Z" fill="url(#cult)" stroke="#a98fd6" stroke-width="3"/>
+  <text x="490" y="185" text-anchor="middle" fill="#e2d6f5" font-size="15" font-weight="bold">THE PALE</text>
+  <text x="490" y="203" text-anchor="middle" fill="#c9b8e8" font-size="11">DAWNSTAR: Vokun's fortress</text>
+  <text x="490" y="217" text-anchor="middle" fill="#c9b8e8" font-size="11">draugr curfew - nightmare field</text>
+  <text x="490" y="234" text-anchor="middle" fill="#b3a0d8" font-size="10" font-style="italic">First Cohort died at these walls</text>
+
+  <!-- Winterhold -->
+  <path d="M 570 120 L 760 105 L 800 200 L 700 245 L 600 235 L 590 200 Z" fill="#36444f" stroke="#7e94a8" stroke-width="2"/>
+  <text x="685" y="160" text-anchor="middle" fill="#c8d6e2" font-size="15" font-weight="bold">WINTERHOLD</text>
+  <text x="685" y="178" text-anchor="middle" fill="#9fb4c4" font-size="11">The College - thin ship trade</text>
+  <text x="685" y="193" text-anchor="middle" fill="#9fb4c4" font-size="11">Glacier coast: Hjolmar's water</text>
+
+  <!-- Eastmarch (PLAGUE / Stormcloak) -->
+  <path d="M 610 240 L 790 210 L 850 330 L 800 470 L 690 480 L 630 380 L 605 300 Z" fill="url(#plague)" stroke="#8fae6f" stroke-width="3"/>
+  <text x="725" y="295" text-anchor="middle" fill="#e3eed4" font-size="15" font-weight="bold">EASTMARCH</text>
+  <text x="725" y="313" text-anchor="middle" fill="#c8dbae" font-size="11">WINDHELM SEALED - plague</text>
+  <text x="725" y="327" text-anchor="middle" fill="#c8dbae" font-size="11">camps at the gates - Galmar</text>
+  <text x="725" y="341" text-anchor="middle" fill="#c8dbae" font-size="11">holds the barricades</text>
+  <text x="725" y="359" text-anchor="middle" fill="#b3c79a" font-size="10" font-style="italic">forests grey - Darkwater consumed</text>
+
+  <!-- Whiterun (Neutral) -->
+  <path d="M 245 280 L 400 240 L 490 295 L 500 380 L 420 440 L 300 430 L 235 360 Z" fill="#6e5a32" stroke="#cfa84f" stroke-width="2.5"/>
+  <text x="370" y="330" text-anchor="middle" fill="#f0deb0" font-size="15" font-weight="bold">WHITERUN</text>
+  <text x="370" y="348" text-anchor="middle" fill="#dcc88f" font-size="11">Neutral island - Balgruuf squeezed</text>
+  <text x="370" y="362" text-anchor="middle" fill="#dcc88f" font-size="11">refugees in, grain rationed</text>
+
+  <!-- Falkreath -->
+  <path d="M 220 440 L 420 450 L 470 530 L 400 600 L 240 600 L 200 520 Z" fill="#3d4a3a" stroke="#7fa06f" stroke-width="2"/>
+  <text x="335" y="520" text-anchor="middle" fill="#cfdec8" font-size="15" font-weight="bold">FALKREATH</text>
+  <text x="335" y="538" text-anchor="middle" fill="#aec4a4" font-size="11">pines turning ash-grey from the east</text>
+  <text x="335" y="552" text-anchor="middle" fill="#aec4a4" font-size="11">mutated beasts in the deep stands</text>
+
+  <!-- The Rift (Stormcloak / party) -->
+  <path d="M 510 470 L 690 490 L 800 480 L 830 560 L 740 640 L 540 630 L 480 550 Z" fill="#5c3a30" stroke="#c47e5a" stroke-width="2.5"/>
+  <text x="655" y="545" text-anchor="middle" fill="#f2d8c8" font-size="15" font-weight="bold">THE RIFT</text>
+  <text x="655" y="563" text-anchor="middle" fill="#dcb59e" font-size="11">RIFTEN: safe, celebrating, oblivious</text>
+  <text x="655" y="577" text-anchor="middle" fill="#dcb59e" font-size="11">Maven's hold - party at the Bee &amp; Barb</text>
+
+  <!-- Throat of the World (Dagon corruption) -->
+  <circle cx="510" cy="430" r="95" fill="url(#rot)"/>
+  <polygon points="510,360 545,430 530,430 555,470 465,470 490,430 475,430" fill="#2a2420" stroke="#e0813f" stroke-width="2.5"/>
+  <text x="510" y="495" text-anchor="middle" fill="#f0a86a" font-size="13" font-weight="bold">THROAT OF THE WORLD</text>
+  <text x="510" y="510" text-anchor="middle" fill="#d99458" font-size="10">Waystones bleeding - Steps held by grey robes</text>
+  <text x="510" y="523" text-anchor="middle" fill="#d99458" font-size="10">Greybeards cut off - the Time-Wound above</text>
+
+  <!-- ============ SITE MARKERS ============ -->
+  <!-- Fire A: Windhelm -->
+  <circle cx="755" cy="262" r="9" fill="#d4452c" stroke="#ffd9b0" stroke-width="2"/>
+  <text x="772" y="258" fill="#ffb89a" font-size="12" font-weight="bold">FIRE A</text>
+  <!-- Fire B: Steps -->
+  <circle cx="540" cy="462" r="9" fill="#d4452c" stroke="#ffd9b0" stroke-width="2"/>
+  <text x="556" y="452" fill="#ffb89a" font-size="12" font-weight="bold">FIRE B</text>
+  <!-- Fire C: Bleak Falls -->
+  <circle cx="330" cy="402" r="9" fill="#d4452c" stroke="#ffd9b0" stroke-width="2"/>
+  <text x="290" y="392" fill="#ffb89a" font-size="12" font-weight="bold">FIRE C</text>
+  <text x="252" y="420" fill="#e8cf9e" font-size="10">Bleak Falls Barrow:</text>
+  <text x="252" y="433" fill="#e8cf9e" font-size="10">Antoine + Ulag dug in,</text>
+  <text x="252" y="446" fill="#e8cf9e" font-size="10">Thalmor blockade below</text>
+
+  <!-- Party -->
+  <circle cx="640" cy="600" r="7" fill="#f5e29a" stroke="#1d1a16" stroke-width="2"/>
+  <text x="654" y="605" fill="#f5e29a" font-size="11" font-weight="bold">PARTY (Bee &amp; Barb)</text>
+
+  <!-- Forelhost -->
+  <rect x="758" y="592" width="11" height="11" fill="#7a6450" stroke="#cfb089" stroke-width="1.5" transform="rotate(45 763 597)"/>
+  <text x="775" y="602" fill="#cfb089" font-size="10">Forelhost (lab destroyed)</text>
+
+  <!-- Darkwater -->
+  <rect x="668" y="412" width="11" height="11" fill="#c2571f" stroke="#ffd9b0" stroke-width="1.5" transform="rotate(45 673 417)"/>
+  <text x="686" y="421" fill="#f0a86a" font-size="10">Darkwater: consumed</text>
+
+  <!-- Eldergleam -->
+  <rect x="702" y="382" width="11" height="11" fill="#c2571f" stroke="#ffd9b0" stroke-width="1.5" transform="rotate(45 707 387)"/>
+  <text x="720" y="391" fill="#f0a86a" font-size="10">Eldergleam: the source</text>
+
+  <!-- Singing Glacier -->
+  <rect x="788" y="118" width="11" height="11" fill="#6fa3c4" stroke="#d6ecf7" stroke-width="1.5" transform="rotate(45 793 123)"/>
+  <text x="700" y="112" fill="#a8cfe2" font-size="10">Singing Glacier: Hjolmar wears Kyboh</text>
+
+  <!-- Fort Dunstad held beat -->
+  <rect x="540" y="282" width="11" height="11" fill="#4a3d5c" stroke="#c9b8e8" stroke-width="1.5" transform="rotate(45 545 287)"/>
+  <text x="558" y="291" fill="#b3a0d8" font-size="10">Ft. Dunstad: HELD BEAT (falls after Dragonstone)</text>
+
+  <!-- Kynesgrove -->
+  <rect x="648" y="332" width="9" height="9" fill="#444" stroke="#999" stroke-width="1" transform="rotate(45 652 336)"/>
+  <text x="662" y="340" fill="#9aa" font-size="9">Kynesgrove ruin</text>
+
+  <!-- ============ LEGEND ============ -->
+  <rect x="34" y="618" width="400" height="118" fill="#26211b" stroke="#8a7448" stroke-width="1.5"/>
+  <text x="50" y="640" fill="#d8c79a" font-size="13" font-weight="bold">LEGEND</text>
+  <rect x="50" y="652" width="16" height="12" fill="#3d5166" stroke="#7e94a8"/><text x="73" y="662" fill="#bcae89" font-size="10">Imperial-aligned (Suspicion rule)</text>
+  <rect x="50" y="670" width="16" height="12" fill="#5c3a30" stroke="#c47e5a"/><text x="73" y="680" fill="#bcae89" font-size="10">Stormcloak-aligned</text>
+  <rect x="50" y="688" width="16" height="12" fill="#6e5a32" stroke="#cfa84f"/><text x="73" y="698" fill="#bcae89" font-size="10">Neutral island</text>
+  <rect x="50" y="706" width="16" height="12" fill="url(#cult)" stroke="#a98fd6"/><text x="73" y="716" fill="#bcae89" font-size="10">Dragon Cult occupied</text>
+  <rect x="240" y="652" width="16" height="12" fill="url(#plague)" stroke="#8fae6f"/><text x="263" y="662" fill="#bcae89" font-size="10">Plague-sealed</text>
+  <circle cx="248" cy="676" r="6" fill="url(#rot)" stroke="#e0813f"/><text x="263" y="680" fill="#bcae89" font-size="10">Dagon corruption</text>
+  <circle cx="248" cy="694" r="6" fill="#d4452c" stroke="#ffd9b0" stroke-width="1.5"/><text x="263" y="698" fill="#bcae89" font-size="10">Gate 3 fire</text>
+  <circle cx="248" cy="712" r="5" fill="#f5e29a"/><text x="263" y="716" fill="#bcae89" font-size="10">The party</text>
+
+  <text x="966" y="736" text-anchor="end" fill="#6f6248" font-size="10" font-style="italic">Schematic, not geographic. Prices: goods +50% / food +75% everywhere. Update after the Gate 3 choice.</text>
+</svg>

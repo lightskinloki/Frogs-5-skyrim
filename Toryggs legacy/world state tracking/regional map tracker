@@ -1,0 +1,205 @@
+REGIONAL MAP TRACKER -- SKYRIM, HOLD BY HOLD
+Snapshot: post-Riften / post-Forelhost, mid-prep (see "post riften" doc).
+Purpose: read a hold's entry when the cart enters it. Each entry: who
+holds it, what the party sees riding through, dangers, trade, and live
+hooks. Update after every gate choice and clock advance.
+Visual companion: "skyrim world map.svg" in this folder.
+
+GLOBAL CONDITIONS (apply everywhere unless a hold says otherwise)
+  Prices: goods +50%, food +75%. Caravans between warring holds have
+    stopped; checkpoints on every major road.
+  Thalmor warrants: party, Krusp, Esbern -- standing Suspicion/disguise
+    rule in Imperial-aligned holds (Solitude, Whiterun, Markarth).
+  Rumor weather: false-flag paranoia. Strangers are suspected agents;
+    inns ask which side you sell to before they ask your name.
+
+=====================================================================
+THE RIFT  (Riften, Ivarstead, Forelhost ruin, Thornheart Grove)
+=====================================================================
+CONTROL: Stormcloak-aligned, functionally Maven Black-Briar's.
+WHAT THE PARTY SEES: Riften celebrates -- golden light, market chatter,
+  notices thanking the Lanterns and Danica for the Grove. The city is
+  safe and oblivious; the apocalypse is elsewhere. Danica works the
+  Temple of Mara in a hauberk; Krusp stands its door.
+DANGERS: Thieves Guild in the shadows; Maven's eyes everywhere; the
+  poisoned-well aftermath keeps Ivarstead hostile to strangers (the
+  planted Shadowmark has locals blaming the Guild).
+SITES:
+  Forelhost -- lab destroyed by the party. The fortress stands looted
+    and quiet; Rahgot's garrison is gone north with Antoine.
+  Ivarstead -- frightened twice over: the well, and now the mountain.
+    Klimmek drinks at the inn instead of climbing. Foot of Fire B.
+  Thornheart Grove -- cleansed (Act I); the notice-board version credits
+    Danica and the Lanterns.
+TRADE: best-supplied hold the party will see; Maven's monopolies keep
+  shelves stocked at the inflated standard.
+LIVE HOOKS: Grelod/Honorhall [PENDING finale]. Maven's patronage
+  [PENDING]. Balimund's forge investment [PENDING].
+
+=====================================================================
+EASTMARCH  (Windhelm, Kynesgrove, Darkwater Crossing, Eldergleam)
+=====================================================================
+CONTROL: Stormcloak heartland -- and the war's open wound.
+WHAT THE PARTY SEES: refugee columns moving away from three separate
+  ruins: Kynesgrove (dragon), Darkwater (roots), Windhelm (plague).
+  Grey, brittle forest where the pines were green. Woodsmoke off
+  Windhelm with a sweet stench under it.
+DANGERS: plague camps outside Windhelm's barred gates -- restoration
+  magic FEEDS the disease; a healer in those camps is a vector. Hostile
+  spriggans and mutated beasts in all deep forest. The corruption's dead
+  zone around Darkwater widens along the river.
+SITES:
+  Windhelm -- SEALED. Galmar holds the inner barricades; Ulfric behind
+    closed doors; the Afflicted Conclave's hidden Peryite shrine inside
+    the Gray Quarter. Gate 3 Fire A.
+  Darkwater Crossing -- consumed. Roots own the town; the mine is a
+    tomb. The Corrupted Taproot still beats underneath.
+  Kynesgrove -- massacre site of the Awakening; Sahloknir's empty mound.
+  Eldergleam Sanctuary -- inverted into a font of corruption (Gate 1
+    failure); a hostile dungeon and the rot's main body.
+TRADE: collapsed. Food moves under armed escort or it is robbed.
+LIVE HOOKS: Galmar's dying runner begs Davinia. Hroki contract waits
+  inside the sealed city. Conclave scripture = Alfonso's phylactery lead.
+
+=====================================================================
+THE PALE  (Dawnstar, Fort Dunstad approach, the northern coast)
+=====================================================================
+CONTROL: DRAGON CULT. Vokun's occupied fortress-city.
+WHAT THE PARTY SEES (from a distance -- nobody sees it close and
+  reports back): a city with shut gates, lit by nothing, patrolled in
+  formation. Wreckage of the Stormcloak siege camp under fresh snow.
+DANGERS: organized draugr patrols with horn signals; Vaermina nightmare
+  field over the city (sleeping near Dawnstar risks psychic damage);
+  half-buried plague dead from the Cohort's collapse.
+SITES:
+  Dawnstar -- the raised Jarl sits the longhouse as Vokun's thrall.
+    Northern anchor of the Cult; staging ground for Tier 2.
+  Fort Dunstad -- still garrisoned by the living. HELD BEAT: Vokun takes
+    it AFTER the party claims the Dragonstone (Tier 2 trigger).
+TRADE: none. The coast road is abandoned.
+LIVE HOOKS: Frostflow Lighthouse resistance status unknown -- decide
+  when relevant. Silus Vesuius and the Razor shards (Gate 4 material).
+
+=====================================================================
+WHITERUN HOLD  (Whiterun, Riverwood, Bleak Falls Barrow)
+=====================================================================
+CONTROL: Neutral under Balgruuf -- an isolated economic island, squeezed
+  by both armies and by Nahkriin's burned-farm frame job.
+WHAT THE PARTY SEES: fortified checkpoints, grain wagons under guard,
+  a city taking in refugees it cannot feed at +75%.
+DANGERS: Imperial-aligned patrols (standing Suspicion rule); Thalmor
+  presence thickening around Riverwood -- gold-eyed patrols watching the
+  barrow road, hunting Davinia.
+SITES:
+  Bleak Falls Barrow -- the Dragonstone sleeps under a draugr garrison
+    THAT NOW HOSTS Antoine and Ulag, fallen back from Forelhost with
+    Rahgot's backing. A delve target hardening into a Cult strongpoint
+    behind a Thalmor blockade. Gate 3 Fire C, escalating.
+  Riverwood -- barricaded and paranoid; first town in the path if the
+    barrow garrison spills downhill.
+TRADE: functioning but rationed; the only neutral market left standing.
+LIVE HOOKS: Esbern's commission. The Word Wall in the deep barrow.
+  THE ECHO MIMIC IS HERE -- bound to Ulag as his deathlords were, it
+  travels with him. A delve into the barrow walks the party into
+  Kyboh's copy with no warning.
+
+=====================================================================
+THE THROAT OF THE WORLD  (Ivarstead approach, 7,000 Steps, High Hrothgar)
+=====================================================================
+CONTROL: contested between silence and the Dagon Cult.
+WHAT THE PARTY SEES: Waystones bleeding black sap, station by station.
+  Grey robes and horn-and-fire faces above the third shrine. Air that
+  loses the order of moments -- a dropped stone lands before it falls.
+DANGERS: temporal distortion hazards thicken with altitude; cultist
+  ambushes from the rocks; the root network under the mountain is dying
+  and the path dies with it.
+SITES:
+  High Hrothgar -- the Greybeards hold the summit by Voice alone,
+    exhausted, supplies cut. They will not come down.
+  The Time-Wound -- Gaelen the Root-Twister's true target: widen
+    Alduin's tear and let the Unmaking through. Gate 3 Fire B.
+TRADE: one provisioner made this climb weekly. He has stopped.
+LIVE HOOKS: Saijah's migraine is a compass. Klimmek's undelivered
+  supplies are a door-opener with the Greybeards.
+
+=====================================================================
+WINTERHOLD  (the College, the Sea of Ghosts, the Singing Glacier)
+=====================================================================
+CONTROL: nominal Jarl; the College is the only real power.
+WHAT THE PARTY SEES: the broken cliff-town as they left it; scholars
+  buying Dwemer salvage at war prices.
+DANGERS: the coast north of town belongs to whatever Hjolmar wants on
+  it. Sea travel is the only safe approach and it is not safe.
+SITES:
+  The College -- future Dagon target (Ancano/the Eye; Rising Tides
+    material). Urag would pay well for Tower Protocol context.
+  The Singing Glacier -- Hjolmar's seat, wearing Kyboh's body. The pull
+    north the party feels lands here. The trap of the Personal Path.
+TRADE: thin, ship-borne, expensive.
+LIVE HOOKS: GEAR's tonal log points here and says "you could go there."
+  Nora's soul-vessel research has College implications.
+
+=====================================================================
+HJAALMARCH  (Morthal, the marsh)
+=====================================================================
+CONTROL: Imperial-aligned, in name. In practice: locked doors.
+WHAT THE PARTY SEES: a town that survived the party's bargain and knows
+  something fed elsewhere because of a deal struck in the dark. Shutters
+  close when strangers pass. Children are walked indoors.
+DANGERS: hostility, watchfulness, and a militia quick to escort
+  outsiders to the road. Old feeding grounds in the marsh.
+LIVE HOOKS: the Morthal consequence is a debt with no collector yet.
+  If the party ever needs Hjaalmarch's help, this is the price of the
+  Valerius bargain coming due.
+
+=====================================================================
+HAAFINGAR  (Solitude, Dragon Bridge)
+=====================================================================
+CONTROL: Imperial capital; Tullius preparing the eastern push.
+WHAT THE PARTY SEES (if they dare the gates): banners, drill squares,
+  a war economy running hot -- and Thalmor in pairs on every third
+  street. The Suspicion rule bites hardest here.
+DANGERS: General Caelinus's network is alerted to Davinia's movements.
+  Thalmor headquarters. Valerius's court rising beneath the politics.
+SITES:
+  The Blue Palace -- Elisif's court, the future Dark Coronation stage.
+  Castle Dour -- Tullius, Caelinus, and the warrant desk.
+TRADE: best-stocked market in Skyrim, at the standard inflation, for
+  customers who can survive being looked at.
+LIVE HOOKS: Valerius's blackmail dossier (the tax collectors). The
+  Emperor contract gathering in Brotherhood channels. Davinia's father.
+
+=====================================================================
+THE REACH  (Markarth)
+=====================================================================
+CONTROL: Imperial-aligned; the Forsworn frame job has the hold at a
+  rolling boil.
+WHAT THE PARTY SEES: a murdered Dibella priestess's city looking for
+  someone to hang; native Reachfolk rounded up on planted evidence.
+DANGERS: Suspicion rule; mob justice; actual Forsworn answering the
+  crackdown with real raids now.
+LIVE HOOKS: the false-flag evidence (ancient Nord killing wounds, wrong
+  tracks) is still in that temple for anyone who looks. Otar sleeps
+  under the Reach -- Rising Tides material, not yet live.
+
+=====================================================================
+FALKREATH HOLD  (Falkreath, the southern pines)
+=====================================================================
+CONTROL: nominal Jarl; the forest is the real story.
+WHAT THE PARTY SEES: ash-grey pine stands spreading from the east;
+  hunters selling mutated pelts they cannot explain; beasts with extra
+  eyes and fired hides.
+DANGERS: corrupted wildlife; the Dagon rot's southern finger.
+LIVE HOOKS: Sanguine Sanctum (Act I site). The Bloodmoon Hunt and the
+  Razor's Falkreath beats live in Gate 4 -- seeds only for now.
+
+=====================================================================
+UPDATE PROTOCOL
+=====================================================================
+After the Gate 3 choice: rewrite the three fire holds (Eastmarch,
+Throat, Whiterun) per the runsheet ## 11 matrix -- party fire resolved,
+Krusp's fire won-with-attrition, ignored fire escalated. After the
+Dragonstone: fire the Tier 2 beat (Fort Dunstad falls; Pale entry and
+global conditions update -- prices to +75-100%, gates close at night,
+draugr patrols become common encounters). Keep entries to what a rider
+sees and a GM needs; deep lore stays in the source docs.
