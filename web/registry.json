@@ -2059,6 +2059,180 @@
     "first-dragon-soul",
     "krusp-schism-site"
    ]
+  },
+  {
+   "id": "caelan",
+   "name": "Caelan the Twilight Fox",
+   "type": "npc",
+   "aliases": [
+    "caelan"
+   ],
+   "tags": [
+    "designed-npc",
+    "altmer-thief",
+    "master-hero",
+    "statblock-destroyed",
+    "unused-or-check-context"
+   ]
+  },
+  {
+   "id": "vasha",
+   "name": "Vasha (Dark Brotherhood)",
+   "type": "npc",
+   "aliases": [
+    "vasha"
+   ],
+   "tags": [
+    "brotherhood-member",
+    "orion-contact"
+   ]
+  },
+  {
+   "id": "eola",
+   "name": "Eola (Namira coven)",
+   "type": "npc",
+   "aliases": [
+    "eola"
+   ],
+   "tags": [
+    "namira-coven",
+    "the-reach",
+    "path-of-the-flock",
+    "alfonso-future"
+   ]
+  },
+  {
+   "id": "silus",
+   "name": "Silus Vesuius",
+   "type": "npc",
+   "aliases": [
+    "silus"
+   ],
+   "tags": [
+    "dawnstar-resident",
+    "razor-assembler",
+    "gate-4-fuse",
+    "mythic-dawn-museum"
+   ]
+  },
+  {
+   "id": "celestine",
+   "name": "Celestine the Vigilant",
+   "type": "npc",
+   "aliases": [
+    "celestine"
+   ],
+   "tags": [
+    "true-wardens",
+    "vigilant",
+    "attrition-candidate",
+    "fire-b-option"
+   ]
+  },
+  {
+   "id": "torik",
+   "name": "Torik (local guide)",
+   "type": "npc",
+   "aliases": [
+    "torik"
+   ],
+   "tags": [
+    "attrition-candidate",
+    "fire-c-option",
+    "bleak-falls-local"
+   ]
+  },
+  {
+   "id": "aventus",
+   "name": "Aventus Aretino",
+   "type": "npc",
+   "aliases": [
+    "aventus"
+   ],
+   "tags": [
+    "honorhall-orphan",
+    "sacrament-client",
+    "grelod-contract-source"
+   ]
+  },
+  {
+   "id": "ancano",
+   "name": "Ancano",
+   "type": "villain",
+   "aliases": [
+    "ancano"
+   ],
+   "tags": [
+    "villain",
+    "thalmor-agent",
+    "dagon-cult",
+    "eye-of-magnus",
+    "rising-tides",
+    "davinia-rival"
+   ]
+  },
+  {
+   "id": "sildonia",
+   "name": "Sildonia",
+   "type": "villain",
+   "aliases": [
+    "sildonia"
+   ],
+   "tags": [
+    "villain",
+    "dagon-cult",
+    "rising-tides",
+    "college-lockdown"
+   ]
+  },
+  {
+   "id": "otar",
+   "name": "Otar the Mad",
+   "type": "villain",
+   "aliases": [
+    "otar"
+   ],
+   "tags": [
+    "villain",
+    "dragon-cult",
+    "dragon-priest",
+    "sleeps-under-reach",
+    "markarth-siege-future",
+    "dawnbringer-breaker"
+   ]
+  },
+  {
+   "id": "morokei",
+   "name": "Morokei",
+   "type": "villain",
+   "aliases": [
+    "morokei"
+   ],
+   "tags": [
+    "villain",
+    "dragon-cult",
+    "dragon-priest",
+    "endgame-ritual",
+    "labyrinthian",
+    "apotheosis"
+   ]
+  },
+  {
+   "id": "falkreath-prisoners",
+   "name": "The abandoned four (Kust, Hert, the Salvians)",
+   "type": "npc",
+   "aliases": [
+    "kust",
+    "hert",
+    "salvian"
+   ],
+   "tags": [
+    "abandoned",
+    "hall-honored-dead-interior",
+    "thralls-probably",
+    "party-lied-about",
+    "dangling-thread"
+   ]
   }
  ]
 }

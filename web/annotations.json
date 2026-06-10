@@ -690,6 +690,42 @@
    "type": "captured-by",
    "dst": "thalmor",
    "why": "B-team ripple: Riverwood triggered the Thalmor; Delphine taken. Esbern is the Blades last free member - why his Dragonstone ask carries everything."
+  },
+  {
+   "src": "aventus",
+   "type": "commissioned",
+   "dst": "grelod",
+   "why": "The Black Sacrament from a Honorhall orphan: she must suffer and the children must know they are free. The client behind Orion-s contract."
+  },
+  {
+   "src": "falkreath-prisoners",
+   "type": "inside",
+   "dst": "hall-honored-dead",
+   "why": "Left on the slabs when the party sealed the door. Their state after months under interrupted preservation is GM-s to decide - and someone-s to discover."
+  },
+  {
+   "src": "otar",
+   "type": "will-break",
+   "dst": "krusp",
+   "why": "Rising Tides (next gate-map tier): the Markarth siege is where Dawnbringer shatters - a major attrition-ledger entry waiting."
+  },
+  {
+   "src": "eola",
+   "type": "awaits",
+   "dst": "alfonso",
+   "why": "Path of the Flock: the Namira coven in the Reach will recognize the Crown-bearer as prophet - and test whether he can keep the crown he never wears."
+  },
+  {
+   "src": "silus",
+   "type": "assembles",
+   "dst": "razor",
+   "why": "Dawnstar museum project gathering the shards - the Gate 4 fuse that hands Krusp (or the party) the False Dragonborn temptation."
+  },
+  {
+   "src": "ancano",
+   "type": "threatens",
+   "dst": "college",
+   "why": "Rising Tides: the College lockdown and the Eye of Magnus - Nora-s former masters under Dagon-cult siege; Davinia-s political rival."
   }
  ],
  "secrets": [
