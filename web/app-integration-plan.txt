@@ -35,10 +35,14 @@ The project is moving from a browser-only application to a standalone desktop ap
 Application Framework: Electron (Node.js backend, TypeScript/HTML/CSS frontend). This allows for isomorphic TypeScript—sharing data interfaces directly between the UI, the local database, and network payloads.
 
 Networking: A Node.js web server or WebSockets running inside the GM's Electron app. Browser-based players connect directly to the GM's IP.
+Networking Scope Rule: v1 is IN-PERSON-FIRST (LAN / phone hotspot — how most tables actually play: physically together, phones out). Internet play is a follow-up (Phase 6.5) via either a bundled tunnel or WebRTC with a tiny stateless signaling server. A signaling server does not violate Privacy by Architecture — it only brokers the handshake; no game data ever transits it. This decision must be made before Phase 6 begins; it changes the architecture. (NAT traversal / port forwarding is the #1 support nightmare of every self-hosted VTT — do not inherit it casually.)
 
 AI Integration: node-llama-cpp to run .gguf models directly from the local file system. Whisper (running via a background process) for local voice transcription.
+AI Hardware Rule: local LLM quality varies wildly by GM hardware. Ship a small default model, allow bring-your-own .gguf, and let the Mirror Principle absorb every failure gracefully — the manual path is always complete.
 
 Data Structure: All campaigns, encounters, and character data are stored and parsed as clean local JSON files.
+Schema Rule: freeze versioned v1 schemas EARLY (character, encounter, compendium entry, lore web) with explicit version fields, shared as isomorphic TS interfaces across UI, database, and network payloads. Phase 6 (network), Phase 9 (DLC ingestion), and the Lore Web all consume the same data — without schema discipline now, three incompatible dialects grow.
+System-Agnostic Rule: all schemas are system-agnostic. FROGS 5 / Skyrim is reference content, never hardcoded — the engine must accept any ruleset and any setting (original IP flagship, licensed modules later).
 
 THE PLAYER EXPERIENCE (CLIENT)
 The player interface abandons the spreadsheet-style character sheet in favor of a video-game-style Command Center. It organizes data by intent (what can I do right now?) rather than category (what are all my stats?).
@@ -56,7 +60,8 @@ Universal Compendium: A searchable, inline index of all game content, accessible
 
 Encounter Composer: Pre-build, scale, and save encounters. One click loads all enemies into the combat tracker.
 
-Interactive Lore Web: A physics-driven node graph connecting NPCs, locations, and secrets. It auto-aggregates lexical connections from raw notes and allows the GM to author canonical links seamlessly.
+Interactive Lore Web: A physics-driven node graph connecting NPCs, locations, and secrets. It auto-aggregates lexical connections from raw notes and allows the GM to author canonical links seamlessly. (Working prototype exists: the Frogs-5-skyrim repo's _build_web.py scanner + web.html viewer v1.3 — settle-and-freeze physics, drag-to-pin curation layer, candidates engine, secrets matrix.)
+THE FLYWHEEL (the moat — state it everywhere): AI session notes (Phase 7) become corpus, and the Lore Web scans corpus — so the graph grows from ACTUAL PLAY automatically. Prep feeds the graph, play feeds the notes, notes feed the graph, the graph feeds next session's prep. No competitor closes this loop.
 
 Passive AI (Keyword Surfacing): As the GM types (or as the local Whisper model transcribes the GM's speech), the system matches keywords against the compendium and silently pops up reference cards for rules, spells, or monster stats on the edge of the screen.
 
@@ -65,8 +70,11 @@ Active AI (Session Notes): At the end of a session, a local LLM can parse the ra
 DEVELOPMENT ROADMAP
 Phase	Focus	Status
 Phases 1-4	Core rules structure, Player Command Center, data portability, equipment tracking.	Complete
-Phase 5	GM Foundation: Universal compendium, Encounter Composer, manual session notes, and NPC manager.	In Progress
-Phase 6	Electron & Networking Pivot: Wrapping the architecture in Electron. Establishing the local host/client connection so players can join sessions.	Up Next
-Phase 7	The AI Layer: Integrating Whisper for transcription and local GGUF models for keyword surfacing and note generation.	Planned
-Phase 8	Premium Player Polish: Developing the 2D modular avatar system (paper doll) and Canvas-based visual game juice (screen shake, VFX damage indicators).	Planned
-Phase 9	DLC Ecosystem Pipeline: Building the tooling to easily ingest new text adventures into the "App Ready" JSON format for the storefront.	Planned
+Phase 5	GM Foundation: Universal compendium, Encounter Composer, manual session notes, and NPC manager. PLUS: freeze versioned v1 JSON schemas (character / encounter / compendium / lore web) as shared TS interfaces.	In Progress
+Phase 5.5	The Lore Web Port: TS scanner module (port of _build_web.py), file-watcher over the campaign folder, graph panel (settle/freeze physics, drag-to-pin curation with pins stored in campaign JSON, not browser storage), @web inline edge convention, registry/tag editor UI, Candidates ("Loose Threads") and Secrets (GM Screen) panels. Characters from the character manager ARE graph entities.	Planned
+Phase 6	Electron & Networking Pivot: Wrapping the architecture in Electron. Local host/client connection, IN-PERSON-FIRST scope (LAN / hotspot).	Up Next
+Phase 6.5	Internet Play: bundled tunnel OR WebRTC + stateless signaling (decide before Phase 6 starts).	Planned
+Phase 7a	The AI Layer (text): local GGUF keyword surfacing from typed notes + structured session-note drafting from typed/manual notes. Notes feed the Lore Web corpus (the flywheel goes live here).	Planned
+Phase 7b	The AI Layer (voice): Whisper transcription as an enhancement on top of 7a. Ambient table audio (crosstalk, dice) is hard mode - ship only when it degrades gracefully.	Planned
+Phase 8	Premium Player Polish: 2D modular avatar system (paper doll) and Canvas-based game juice (screen shake, VFX damage indicators). PREREQUISITE DECISION: premium licensing without accounts (offline license keys, or GM-host-granted seats) - must not violate Privacy by Architecture.	Planned
+Phase 9	DLC Ecosystem Pipeline: Building the tooling to easily ingest new text adventures into the "App Ready" JSON format for the storefront. System-agnostic from day one.	Planned
