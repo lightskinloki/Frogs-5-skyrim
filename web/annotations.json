@@ -726,6 +726,12 @@
    "type": "threatens",
    "dst": "college",
    "why": "Rising Tides: the College lockdown and the Eye of Magnus - Nora-s former masters under Dagon-cult siege; Davinia-s political rival."
+  },
+  {
+   "src": "valerius",
+   "type": "cousin-of",
+   "dst": "davinia",
+   "why": "Same Caelus bloodline - her father is General Caelinus; Valerius is the family monster two centuries removed. The blackmail, the Crown demand, and the Gilded Cage are all FAMILY pressure. (GM ruling via registry tag, June 2026.)"
   }
  ],
  "secrets": [

@@ -2,86 +2,114 @@
  "_comment": "Entity registry for THE WEB. id = stable key. aliases are matched case-insensitively as whole words/phrases during corpus scan. tags are curated attributes - the discovery engine flags entities that share tags but lack an authored edge.",
  "entities": [
   {
-   "id": "davinia",
-   "name": "Davinia Caelus",
-   "type": "pc",
-   "aliases": [
-    "davinia"
-   ],
-   "tags": [
-    "party",
-    "imperial-blood",
-    "crown-bearer",
-    "soul-in-vessel-host",
-    "memory-traded",
-    "infected-strain-1",
-    "leader",
-    "wizard-sight",
-    "cdi-clock"
-   ]
+    "id": "davinia",
+    "name": "Davinia Caelus",
+    "type": "pc",
+    "aliases": [
+     "davinia"
+    ],
+    "tags": [
+     "party",
+     "imperial-blood",
+     "crown-bearer",
+     "soul-in-vessel-host",
+     "memory-traded",
+     "infected-strain-1",
+     "leader",
+     "wizard-sight",
+     "cdi-clock",
+     "cousin-of-valerius",
+     "blackmail-target",
+     "artifact-rival-valerius",
+     "lie-to-galmar"
+    ]
   },
   {
-   "id": "alfonso",
-   "name": "Alfonso Duet",
-   "type": "pc",
-   "aliases": [
-    "alfonso",
-    "carrion saint",
-    "vrykolas"
-   ],
-   "tags": [
-    "party",
-    "monster",
-    "soul-in-vessel",
-    "plague-author",
-    "peryite-chosen",
-    "namira-touched",
-    "discorporate",
-    "phylactery-bound",
-    "deep-rust-clock",
-    "projection-body",
-    "never-wore-crown"
-   ]
+    "id": "alfonso",
+    "name": "Alfonso Duet",
+    "type": "pc",
+    "aliases": [
+     "alfonso",
+     "carrion saint",
+     "vrykolas"
+    ],
+    "tags": [
+     "party",
+     "monster",
+     "soul-in-vessel",
+     "plague-author",
+     "peryite-chosen",
+     "namira-touched",
+     "discorporate",
+     "phylactery-bound",
+     "deep-rust-clock",
+     "projection-body",
+     "never-wore-crown",
+     "crown-bearer-jagged",
+     "rival-alchemist-antoine",
+     "infected-ulag",
+     "infected-milas-mother",
+     "infected-stormcloak-courier",
+     "plague-source-windhelm",
+     "mentor-nora"
+    ]
   },
   {
-   "id": "saijah",
-   "name": "Saijah",
-   "type": "pc",
-   "aliases": [
-    "saijah",
-    "vena"
-   ],
-   "tags": [
-    "party",
-    "bosmer",
-    "kynareth-vessel",
-    "hircine-courted",
-    "root-husk-raised",
-    "migraine-compass",
-    "crossroads-pending",
-    "hound-named",
-    "white-hair"
-   ]
+    "id": "saijah",
+    "name": "Saijah",
+    "type": "pc",
+    "aliases": [
+     "saijah",
+     "vena"
+    ],
+    "tags": [
+     "party",
+     "bosmer",
+     "kynareth-vessel",
+     "hircine-courted",
+     "root-husk-raised",
+     "migraine-compass",
+     "crossroads-pending",
+     "hound-named",
+     "white-hair",
+     "kynareth-claimed",
+     "hircine-quarry",
+     "passed-over-by-hircine",
+     "hircine-rebound-candidate",
+     "apprentice-hircine",
+     "root-husk-sister-varon",
+     "orion-leverage-target",
+     "danica-kin"
+    ]
   },
   {
-   "id": "orion",
-   "name": "Orion",
-   "type": "pc",
-   "aliases": [
-    "orion"
-   ],
-   "tags": [
-    "party",
-    "monster",
-    "vampire",
-    "daedric-bound",
-    "ring-leashed",
-    "brotherhood-initiate",
-    "double-agent",
-    "tonal-architect",
-    "usurper-track",
-    "secret-murderer"
-   ]
+    "id": "orion",
+    "name": "Orion",
+    "type": "pc",
+    "aliases": [
+     "orion"
+    ],
+    "tags": [
+     "party",
+     "monster",
+     "vampire",
+     "daedric-bound",
+     "ring-leashed",
+     "brotherhood-initiate",
+     "double-agent",
+     "tonal-architect",
+     "usurper-track",
+     "secret-murderer",
+     "valerius-leashed",
+     "valerius-blackmailed",
+     "mentor-nora",
+     "blackmailed-grelod",
+     "killed-argonian-warrens",
+     "fangs-at-mila",
+     "hroki-contract",
+     "argonian-murder-witnessed-by-varon",
+     "saijah-leverage"
+    ]
   },
   {
    "id": "kyboh",
@@ -99,25 +127,33 @@
    ]
   },
   {
-   "id": "bjorn",
-   "name": "Bjorn (the War-Hound)",
-   "type": "npc",
-   "aliases": [
-    "bjorn",
-    "war-hound",
-    "old bjorn"
-   ],
-   "tags": [
-    "party-adjacent",
-    "dragonborn-secret",
-    "dragon-souls",
-    "de-aging",
-    "child-protector",
-    "promise-trauma",
-    "cart",
-    "long-fuse",
-    "not-an-adventurer"
-   ]
+    "id": "bjorn",
+    "name": "Bjorn (the War-Hound)",
+    "type": "npc",
+    "aliases": [
+     "bjorn",
+     "war-hound",
+     "old bjorn"
+    ],
+    "tags": [
+     "party-adjacent",
+     "dragonborn-secret",
+     "dragon-souls",
+     "de-aging",
+     "child-protector",
+     "promise-trauma",
+     "cart",
+     "long-fuse",
+     "not-an-adventurer",
+     "davinia-knows-secret",
+     "orion-suspects",
+     "ismara-studying",
+     "mila-guardian",
+     "lylana-anya-trauma",
+     "kyboh-grief",
+     "sixth-cup-ritual",
+     "sword-carrier"
+    ]
   },
   {
    "id": "mila",
@@ -177,41 +213,56 @@
    ]
   },
   {
-   "id": "varon",
-   "name": "Varon",
-   "type": "npc",
-   "aliases": [
-    "varon"
-   ],
-   "tags": [
-    "cart",
-    "shadowscale",
-    "root-husk-raised",
-    "carved-hound",
-    "loves-saijah",
-    "handler",
-    "report-pending",
-    "surgical-disguise",
-    "void-faith"
-   ]
+    "id": "varon",
+    "name": "Varon",
+    "type": "npc",
+    "aliases": [
+     "varon"
+    ],
+    "tags": [
+     "cart",
+     "shadowscale",
+     "root-husk-raised",
+     "carved-hound",
+     "loves-saijah",
+     "handler",
+     "report-pending",
+     "surgical-disguise",
+     "void-faith",
+     "saijah-rejected-kiss",
+     "orion-handler",
+     "orion-mutual-leverage",
+     "orion-kinship-dawning",
+     "alfonso-sword-reverence",
+     "fire-b-witness",
+     "colony-report-pending",
+     "three-hounds-mirror",
+     "saijah-vana"
+    ]
   },
   {
-   "id": "ylva",
-   "name": "Ylva the Cleaver",
-   "type": "npc",
-   "aliases": [
-    "ylva"
-   ],
-   "tags": [
-    "cart",
-    "werewolf",
-    "hircine-claimed",
-    "passed-over",
-    "fair-chase-doctrine",
-    "pursues-davinia",
-    "counter-agent-unknowing",
-    "rebound-candidate"
-   ]
+    "id": "ylva",
+    "name": "Ylva the Cleaver",
+    "type": "npc",
+    "aliases": [
+     "ylva"
+    ],
+    "tags": [
+     "cart",
+     "werewolf",
+     "hircine-claimed",
+     "passed-over",
+     "fair-chase-doctrine",
+     "pursues-davinia",
+     "counter-agent-unknowing",
+     "rebound-candidate",
+     "hircine-alpha-hound-offer",
+     "saijah-rejection-triggers-rebound",
+     "wrong-shaped-crown",
+     "slipped-leash-candidate",
+     "varon-professional-respect",
+     "alfonso-kindred-rot"
+    ]
   },
   {
    "id": "esbern",
@@ -229,42 +280,62 @@
    ]
   },
   {
-   "id": "danica",
-   "name": "Danica Pure-Spring",
-   "type": "npc",
-   "aliases": [
-    "danica"
-   ],
-   "tags": [
-    "true-wardens",
-    "kynareth-priestess",
-    "cracked-door",
-    "path3-officiant",
-    "left-the-party",
-    "hardened",
-    "attrition-absorber"
-   ]
+    "id": "danica",
+    "name": "Danica Pure-Spring",
+    "type": "npc",
+    "aliases": [
+     "danica"
+    ],
+    "tags": [
+     "true-wardens",
+     "kynareth-priestess",
+     "cracked-door",
+     "path3-officiant",
+     "left-the-party",
+     "hardened",
+     "attrition-absorber",
+     "davinia-former-leader",
+     "krusp-protector",
+     "krusp-true-wardens-commander",
+     "alfonso-kindness-confused-her",
+     "saijah-kin",
+     "ismara-rival-anchor",
+     "path3-requires-reconciliation",
+     "cough-permanent-scar",
+     "hemming-saved",
+     "krusp-attrition-ledger-absorber"
+    ]
   },
   {
-   "id": "krusp",
-   "name": "Krusp Fanck",
-   "type": "npc",
-   "aliases": [
-    "krusp",
-    "ashen blade",
-    "obsidian lantern"
-   ],
-   "tags": [
-    "true-wardens",
-    "legendary-hero",
-    "rival-mirror",
-    "attrition-ledger",
-    "hjolmar-masterwork",
-    "echo-prepped",
-    "soul-stretched",
-    "razor-destined",
-    "daedra-hater"
-   ]
+    "id": "krusp",
+    "name": "Krusp Fanck",
+    "type": "npc",
+    "aliases": [
+     "krusp",
+     "ashen blade",
+     "obsidian lantern"
+    ],
+    "tags": [
+     "true-wardens",
+     "legendary-hero",
+     "rival-mirror",
+     "attrition-ledger",
+     "hjolmar-masterwork",
+     "echo-prepped",
+     "soul-stretched",
+     "razor-destined",
+     "daedra-hater",
+     "danica-protector",
+     "danica-true-wardens-commander",
+     "gate3-second-fire-assignment",
+     "attrition-ledger-rumor-delivery",
+     "titan-ring-wears",
+     "alpha-krusp-prepped",
+     "dislikes-alfonso-orion",
+     "kyboh-neutral",
+     "saijah-kind",
+     "warned-party-at-kynesgrove"
+    ]
   },
   {
    "id": "ismara",
@@ -344,23 +415,30 @@
    ]
   },
   {
-   "id": "antoine",
-   "name": "Antoine of Forelhost",
-   "type": "villain",
-   "aliases": [
-    "antoine"
-   ],
-   "tags": [
-    "villain",
-    "dragon-cult",
-    "rival-alchemist",
-    "forelhost-lineage",
-    "at-bleak-falls",
-    "empty-handed",
-    "will-deduce-blade",
-    "envies-alfonso",
-    "never-met-hjolmar"
-   ]
+    "id": "antoine",
+    "name": "Antoine of Forelhost",
+    "type": "villain",
+    "aliases": [
+     "antoine"
+    ],
+    "tags": [
+     "villain",
+     "dragon-cult",
+     "rival-alchemist",
+     "forelhost-lineage",
+     "at-bleak-falls",
+     "empty-handed",
+     "will-deduce-blade",
+     "envies-alfonso",
+     "never-met-hjolmar",
+     "alfonso-rival",
+     "ulag-harvest-target",
+     "strain2-missing-living-quality",
+     "strain2-rebuilding-at-bleak-falls",
+     "rahgot-backing",
+     "chosen-answered-envied-confession",
+     "copper-mechanism-artisan"
+    ]
   },
   {
    "id": "rahgot",
@@ -430,39 +508,49 @@
    ]
   },
   {
-   "id": "valerius",
-   "name": "Valerius Caelus",
-   "type": "villain",
-   "aliases": [
-    "valerius"
-   ],
-   "tags": [
-    "villain",
-    "pale-court",
-    "vampire-lord",
-    "davinia-father-adjacent",
-    "ring-watcher",
-    "blackmail-holder",
-    "solitude",
-    "molag-bal",
-    "rot-vulnerable"
-   ]
+    "id": "valerius",
+    "name": "Valerius Caelus",
+    "type": "villain",
+    "aliases": [
+     "valerius"
+    ],
+    "tags": [
+     "villain",
+     "pale-court",
+     "vampire-lord",
+     "davinia-father-adjacent",
+     "ring-watcher",
+     "blackmail-holder",
+     "solitude",
+     "molag-bal",
+     "rot-vulnerable",
+     "cousin-of-davinia",
+     "blackmailer",
+     "artifact-seeker-jagged-crown",
+     "imperial-general",
+     "orion-leash-holder",
+     "sent-orion-to-morthal"
+    ]
   },
   {
-   "id": "galmar",
-   "name": "Galmar Stone-Fist",
-   "type": "npc",
-   "aliases": [
-    "galmar"
-   ],
-   "tags": [
-    "stormcloak",
-    "windhelm",
-    "trusts-the-lie",
-    "begging",
-    "uncle-figure",
-    "fire-a"
-   ]
+    "id": "galmar",
+    "name": "Galmar Stone-Fist",
+    "type": "npc",
+    "aliases": [
+     "galmar"
+    ],
+    "tags": [
+     "stormcloak",
+     "windhelm",
+     "trusts-the-lie",
+     "begging",
+     "uncle-figure",
+     "fire-a",
+     "davinia-niece",
+     "plague-victim",
+     "hroki-promoted",
+     "alfonso-plague-source-unknown"
+    ]
   },
   {
    "id": "maven",
@@ -711,20 +799,26 @@
    ]
   },
   {
-   "id": "hircine",
-   "name": "Hircine",
-   "type": "god",
-   "aliases": [
-    "hircine",
-    "white stag"
-   ],
-   "tags": [
-    "daedra",
-    "the-hunt",
-    "courts-quarry",
-    "weredog-offer",
-    "names-beasts"
-   ]
+    "id": "hircine",
+    "name": "Hircine",
+    "type": "god",
+    "aliases": [
+     "hircine",
+     "white stag"
+    ],
+    "tags": [
+     "daedra",
+     "the-hunt",
+     "courts-quarry",
+     "weredog-offer",
+     "names-beasts",
+     "saijah-courted",
+     "ylva-claimed",
+     "varon-carved-hound",
+     "three-hounds-theology",
+     "free-trial-senses-saijah",
+     "alpha-hound-offer-pending"
+    ]
   },
   {
    "id": "kynareth",
