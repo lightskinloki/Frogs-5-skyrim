@@ -1,0 +1,72 @@
+PROJECT VISION: THE TTRPG CONTROLLER
+The Problem: Traditional Virtual Tabletop (VTT) software treats TTRPGs like filing cabinets or PDF readers. They are data repositories, not interfaces.
+The Solution: The human mind is the game engine; we are building the controller. This is a desktop-class digital tabletop engine designed to completely eliminate friction. The goal is that a player can sit down for the first time and play an entire campaign without ever opening a physical rulebook, and a Game Master (GM) can run an entire session without manually looking up a rule.
+
+Core Design Principles
+The Mirror Principle: Every AI feature must have a flawless, fully realized manual equivalent. AI is an opt-in speed multiplier, never a crutch. If a user disables all AI, they still have a premium, complete software product.
+
+Privacy by Architecture: The app is structurally incapable of collecting user data. All AI inference runs locally. No API keys, no cloud processing, no training data collection.
+
+Frictionless Client Play: Players should not have to pay, download heavy software, or manage servers to play in their friend's game.
+
+MONETIZATION & DISTRIBUTION STRATEGY
+The ecosystem is designed to maximize player adoption while monetizing the most invested users (GMs) through convenience, and players through deep visual customization.
+
+1. The Host-Client Model
+The GM App (Paid): The GM purchases the heavy, standalone desktop engine (a one-time purchase). The GM runs this locally and acts as the host server for the table.
+
+The Player App (Free): Players connect to the GM's local host via a standard web browser on their phone, tablet, or laptop. They get full access to the rules, character creation, and the Command Center UI.
+
+2. Player Premium (The "Game Juice" Upgrade)
+Players can optionally purchase a premium client upgrade. This provides zero mechanical advantages. It monetizes identity and visual feedback.
+
+Dynamic Avatars: A modular paper-doll avatar system that visually reflects the character's equipped gear and current state (e.g., looks battered at low HP).
+
+Custom VFX Overlays: Screen-shake effects, custom critical hit animations, and thematic screen borders that react to damage types (e.g., frost crawls the screen on taking ice damage).
+
+Advanced Analytics: Lifetime character performance stats, dice probability audits, and unlimited active character slots.
+
+3. The DLC Ecosystem
+We provide the base game rules and a starter adventure for free. Moving forward, we sell premium adventure modules and settings. While users can buy a cheaper text-only version online, the "App Ready" DLC instantly populates the GM's Encounter Builder, Compendium, and NPC Manager, selling the GM their prep time back.
+
+TECHNICAL ARCHITECTURE
+The project is moving from a browser-only application to a standalone desktop application for the GM to enable seamless local LLM execution, robust file system access, and stable networking.
+
+Application Framework: Electron (Node.js backend, TypeScript/HTML/CSS frontend). This allows for isomorphic TypeScript—sharing data interfaces directly between the UI, the local database, and network payloads.
+
+Networking: A Node.js web server or WebSockets running inside the GM's Electron app. Browser-based players connect directly to the GM's IP.
+
+AI Integration: node-llama-cpp to run .gguf models directly from the local file system. Whisper (running via a background process) for local voice transcription.
+
+Data Structure: All campaigns, encounters, and character data are stored and parsed as clean local JSON files.
+
+THE PLAYER EXPERIENCE (CLIENT)
+The player interface abandons the spreadsheet-style character sheet in favor of a video-game-style Command Center. It organizes data by intent (what can I do right now?) rather than category (what are all my stats?).
+
+The 4-Column Command Center: Weapons, Tactics, Magic, and Items are immediately accessible.
+
+Limited-Use Tracking: Per-combat and per-adventure abilities are tracked end-to-end. Turning on an ability in the portal writes to the local state, and rests automatically clear or preserve used-this-combat states.
+
+Equipment Enchantments: Charge-based active enchantments attach to any equipment item, dynamically tracking depletion and soul-gem recharging.
+
+THE GM EXPERIENCE (HOST)
+The GM interface is a campaign-aware session co-pilot. It handles the math and rules so the GM can handle the story.
+
+Universal Compendium: A searchable, inline index of all game content, accessible via a single keystroke without leaving the combat tracker.
+
+Encounter Composer: Pre-build, scale, and save encounters. One click loads all enemies into the combat tracker.
+
+Interactive Lore Web: A physics-driven node graph connecting NPCs, locations, and secrets. It auto-aggregates lexical connections from raw notes and allows the GM to author canonical links seamlessly.
+
+Passive AI (Keyword Surfacing): As the GM types (or as the local Whisper model transcribes the GM's speech), the system matches keywords against the compendium and silently pops up reference cards for rules, spells, or monster stats on the edge of the screen.
+
+Active AI (Session Notes): At the end of a session, a local LLM can parse the raw transcript and generate a structured draft of the session's combat events, story beats, and NPC interactions for the GM to edit and save.
+
+DEVELOPMENT ROADMAP
+Phase	Focus	Status
+Phases 1-4	Core rules structure, Player Command Center, data portability, equipment tracking.	Complete
+Phase 5	GM Foundation: Universal compendium, Encounter Composer, manual session notes, and NPC manager.	In Progress
+Phase 6	Electron & Networking Pivot: Wrapping the architecture in Electron. Establishing the local host/client connection so players can join sessions.	Up Next
+Phase 7	The AI Layer: Integrating Whisper for transcription and local GGUF models for keyword surfacing and note generation.	Planned
+Phase 8	Premium Player Polish: Developing the 2D modular avatar system (paper doll) and Canvas-based visual game juice (screen shake, VFX damage indicators).	Planned
+Phase 9	DLC Ecosystem Pipeline: Building the tooling to easily ingest new text adventures into the "App Ready" JSON format for the storefront.	Planned

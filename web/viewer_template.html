@@ -26,6 +26,9 @@
   h3{font-size:12px;margin:12px 0 4px;color:var(--dim);letter-spacing:1px;text-transform:uppercase}
   .tag{display:inline-block;background:var(--bg);border:1px solid var(--line);border-radius:8px;
     padding:1px 7px;margin:2px;font-size:11px;color:var(--dim);cursor:pointer}
+  button.act{background:var(--bg);border:1px solid var(--pc);color:var(--pc);
+    font:12px Georgia,serif;padding:4px 10px;margin:0 6px 4px 0;cursor:pointer}
+  button.act:hover{background:var(--pc);color:var(--bg)}
   .tag.hot{border-color:var(--pc);color:var(--pc)}
   .edge{margin:7px 0;padding:7px 9px;background:var(--bg);border-left:3px solid var(--line);font-size:12.5px}
   .edge b{color:var(--ink)} .edge .ty{color:var(--pc);font-style:italic}
@@ -71,12 +74,15 @@
   <button id="helpBtn" title="controls">?</button>
   <div id="hint">
     <b>Controls</b><br>
-    click a node — inspect it in the side panel<br>
-    double-click a node — focus its world (hide everything else)<br>
-    double-click empty space — clear focus<br>
+    click a node — inspect it (camera stays put)<br>
+    drag a node — place AND pin it: pinned positions persist<br>
+    &nbsp;&nbsp;across rebuilds (your curated map layer; ring = pinned)<br>
+    Focus buttons — in the side panel after selecting a node<br>
     hover a gold line — see the relationship and why<br>
     click legend entries — show/hide node types<br>
-    scroll — zoom · drag — pan
+    scroll — zoom · drag empty space — pan<br>
+    <i>layout settles and freezes; unpinned nodes re-flow when
+    the graph changes</i>
   </div>
 </div>
 <div id="side">
@@ -105,11 +111,17 @@ const deg={}; A.forEach(e=>{deg[e.src]=(deg[e.src]||0)+1;deg[e.dst]=(deg[e.dst]|
 
 const cv=document.getElementById('cv'),ctx=cv.getContext('2d');
 let W,H,cam={x:0,y:0,z:1},sel=null,hover=null,panning=false,px=0,py=0;
+let drag=null,dragMoved=false,alpha=1;
 document.getElementById('helpBtn').onclick=()=>{
   const h=document.getElementById('hint');
   h.style.display=h.style.display==='block'?'none':'block';};
 let hiddenTypes=new Set(),focusSet=null,hoverEdge=null;
 function visible(n){return !hiddenTypes.has(n.type)&&(!focusSet||focusSet.has(n.id));}
+// pinned positions persist across rebuilds (curation layer)
+const PINS=JSON.parse(localStorage.getItem('webpins')||'{}');
+N.forEach(n=>{if(PINS[n.id]){n.x=PINS[n.id][0];n.y=PINS[n.id][1];n.pinned=true;}});
+function savePins(){localStorage.setItem('webpins',JSON.stringify(PINS));}
+function wake(){alpha=Math.max(alpha,0.35);}
 function resize(){W=cv.width=cv.parentElement.clientWidth;H=cv.height=cv.parentElement.clientHeight;}
 window.addEventListener('resize',resize);resize();
 
@@ -120,6 +132,8 @@ function springs(){
   return L;
 }
 function step(){
+  if(alpha<0.005)return;            // settled: layout is stable information
+  alpha*=0.996;                      // simulation cools and freezes
   const L=springs();
   for(let i=0;i<N.length;i++)for(let j=i+1;j<N.length;j++){
     const a=N[i],b=N[j];let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy+40,f=2600/d2;
@@ -128,7 +142,8 @@ function step(){
     const d=Math.sqrt(dx*dx+dy*dy)||1,f=(d-len)*k;
     a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f;});
   N.forEach(n=>{n.vx*=0.82;n.vy*=0.82;
-    n.x+=n.vx;n.y+=n.vy;
+    if(n.pinned||n===drag){n.vx=0;n.vy=0;return;}   // pins and held nodes never drift
+    n.x+=n.vx*alpha;n.y+=n.vy*alpha;
     n.x*=0.9995;n.y*=0.9995;});
 }
 function world(mx,my){return{x:(mx-W/2)/cam.z-cam.x,y:(my-H/2)/cam.z-cam.y};}
@@ -158,7 +173,10 @@ function draw(){
     ctx.globalAlpha=dimmed?0.15:1;
     ctx.fillStyle=css(TYPES[n.type]||'--dim');
     ctx.beginPath();ctx.arc(n.x,n.y,r,0,7);ctx.fill();
-    if(n===sel||n===hover){ctx.strokeStyle='#fff';ctx.lineWidth=1.5;ctx.stroke();}
+    if(n.pinned){ctx.strokeStyle='rgba(245,226,154,0.85)';ctx.lineWidth=1.2;
+      ctx.beginPath();ctx.arc(n.x,n.y,r+3,0,7);ctx.stroke();}
+    if(n===sel||n===hover){ctx.strokeStyle='#fff';ctx.lineWidth=1.5;
+      ctx.beginPath();ctx.arc(n.x,n.y,r,0,7);ctx.stroke();}
     if(document.getElementById('showLabels').checked&&(n.type==='pc'||cam.z>0.55||n===sel||n===hover||(deg[n.id]||0)>4)){
       ctx.fillStyle=dimmed?'rgba(216,199,154,0.2)':'#d8c79a';
       ctx.font=(n.type==='pc'?'bold ':'')+'11px Georgia';
@@ -181,10 +199,16 @@ function neighborhood(id){const s=new Set([id]);
   C.forEach(e=>{if(e.a===id)s.add(e.b);if(e.b===id)s.add(e.a);});return s;}
 function loop(){step();draw();requestAnimationFrame(loop);}loop();
 
-cv.addEventListener('mousedown',e=>{panning=true;px=e.offsetX;py=e.offsetY;});
+cv.addEventListener('mousedown',e=>{const w=world(e.offsetX,e.offsetY);
+  const n=pick(w);
+  if(n){drag=n;dragMoved=false;}else{panning=true;}
+  px=e.offsetX;py=e.offsetY;});
 const tip=document.getElementById('edgeTip');
 cv.addEventListener('mousemove',e=>{const w=world(e.offsetX,e.offsetY);
-  if(panning){cam.x+=(e.offsetX-px)/cam.z;cam.y+=(e.offsetY-py)/cam.z;px=e.offsetX;py=e.offsetY;}
+  if(drag){
+    if(Math.abs(e.offsetX-px)>3||Math.abs(e.offsetY-py)>3)dragMoved=true;
+    if(dragMoved){drag.x=w.x;drag.y=w.y;drag.vx=drag.vy=0;wake();}}
+  else if(panning){cam.x+=(e.offsetX-px)/cam.z;cam.y+=(e.offsetY-py)/cam.z;px=e.offsetX;py=e.offsetY;}
   else{hover=pick(w);
     hoverEdge=hover?null:nearestEdge(w);
     if(hoverEdge){
@@ -194,14 +218,13 @@ cv.addEventListener('mousemove',e=>{const w=world(e.offsetX,e.offsetY);
       tip.style.top=(e.offsetY+14)+'px';
     } else tip.style.display='none';}});
 window.addEventListener('mouseup',e=>{
-  if(panning&&Math.abs(e.offsetX-px)<4&&Math.abs(e.offsetY-py)<4){
-    const n=pick(world(e.offsetX,e.offsetY));
-    if(n)select(n.id);}
+  if(drag){
+    if(dragMoved){ // a deliberate move = a pin: position becomes curated information
+      PINS[drag.id]=[Math.round(drag.x),Math.round(drag.y)];
+      drag.pinned=true;savePins();wake();
+    } else select(drag.id);   // plain click = inspect (camera does NOT move)
+    drag=null;}
   panning=false;});
-cv.addEventListener('dblclick',e=>{e.preventDefault();
-  const n=pick(world(e.offsetX,e.offsetY));
-  if(n){focusSet=neighborhood(n.id);select(n.id);}
-  else{focusSet=null;}});
 cv.addEventListener('wheel',e=>{e.preventDefault();
   cam.z*=e.deltaY<0?1.12:0.89;cam.z=Math.max(0.15,Math.min(4,cam.z));},{passive:false});
 function pick(w){let best=null,bd=14;N.forEach(n=>{const d=Math.hypot(n.x-w.x,n.y-w.y);
@@ -215,7 +238,10 @@ function el(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;');}
 function entLink(id){const e=byId[id];return e?`<a class="ent" onclick="select('${id}')">${el(e.name)}</a>`:el(id);}
 function select(id){sel=N[NI[id]];tab='node';
   document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('on',x.dataset.t==='node'));
-  if(typeof flyTo==='function')flyTo(id);render();}
+  render();}
+window.setFocus=id=>{focusSet=neighborhood(id);wake();render();};
+window.clearFocus=()=>{focusSet=null;wake();render();};
+window.unpin=id=>{delete PINS[id];const n=N[NI[id]];if(n)n.pinned=false;savePins();wake();render();};
 window.select=select;
 function render(){
   if(tab==='secrets'){panel.innerHTML='<h3>The Secrets Matrix</h3>'+DATA.secrets.map(s=>{
@@ -230,7 +256,12 @@ function render(){
       ${c.cooc?(' co-occurs ×'+c.cooc):''}</span></div>`).join('');return;}
   if(!sel){panel.innerHTML='<div class="sub" style="padding:8px 0">Click a node. Drag to move it. Scroll to zoom. The gold lines are authored canon; the faint lines are lexical co-occurrence; the red dashes (toggle) are unauthored candidates.</div>';return;}
   const e=byId[sel.id];
-  let h=`<h2>${el(e.name)}</h2><div class="sub" style="padding:0">${e.type}</div>`;
+  let h=`<h2>${el(e.name)}</h2><div class="sub" style="padding:0">${e.type}${sel.pinned?' · 📌 pinned':''}</div>`;
+  h+=`<div style="margin:8px 0">`
+   +`<button class="act" onclick="setFocus('${e.id}')">Focus this world</button>`
+   +(focusSet?`<button class="act" onclick="clearFocus()">Clear focus</button>`:'')
+   +(sel.pinned?`<button class="act" onclick="unpin('${e.id}')">Unpin position</button>`:'')
+   +`</div>`;
   h+='<div>'+e.tags.map(t=>`<span class="tag" onclick="searchTag('${t}')">${el(t)}</span>`).join('')+'</div>';
   const mine=A.filter(x=>x.src===e.id||x.dst===e.id);
   if(mine.length){h+='<h3>Authored edges</h3>'+mine.map(x=>
@@ -266,7 +297,10 @@ document.getElementById('legend').innerHTML=Object.entries(TYPES).map(([t,v])=>
 document.querySelectorAll('#legend span').forEach(s=>s.onclick=()=>{
   const t=s.dataset.type;
   if(hiddenTypes.has(t)){hiddenTypes.delete(t);s.classList.remove('off');}
-  else{hiddenTypes.add(t);s.classList.add('off');}});
+  else{hiddenTypes.add(t);s.classList.add('off');}
+  wake();});
+['showCooc','showCand','showLabels'].forEach(id=>
+  document.getElementById(id).addEventListener('change',wake));
 render();
 </script>
 </body>
