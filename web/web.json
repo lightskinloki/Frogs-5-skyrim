@@ -75,9 +75,6 @@
     "white-hair",
     "kynareth-claimed",
     "hircine-quarry",
-    "passed-over-by-hircine",
-    "hircine-rebound-candidate",
-    "apprentice-hircine",
     "root-husk-sister-varon",
     "orion-leverage-target",
     "danica-kin"
@@ -302,7 +299,7 @@
     "saijah-kin",
     "ismara-rival-anchor",
     "path3-requires-reconciliation",
-    "cough-permanent-scar",
+    "attrition-risk-fire-a",
     "hemming-saved",
     "krusp-attrition-ledger-absorber"
    ]
@@ -5207,13 +5204,13 @@
    "w": 457
   },
   {
-   "a": "bjorn",
-   "b": "saijah",
+   "a": "alfonso",
+   "b": "danica",
    "w": 451
   },
   {
-   "a": "alfonso",
-   "b": "danica",
+   "a": "bjorn",
+   "b": "saijah",
    "w": 451
   },
   {
@@ -5252,13 +5249,13 @@
    "w": 393
   },
   {
-   "a": "davinia",
-   "b": "lanterns",
+   "a": "bjorn",
+   "b": "kyboh",
    "w": 353
   },
   {
-   "a": "bjorn",
-   "b": "kyboh",
+   "a": "davinia",
+   "b": "lanterns",
    "w": 353
   },
   {
@@ -5327,23 +5324,23 @@
    "w": 297
   },
   {
-   "a": "alfonso",
-   "b": "ylva",
-   "w": 295
-  },
-  {
    "a": "saijah",
    "b": "ylva",
    "w": 295
   },
   {
-   "a": "orion",
-   "b": "varon",
-   "w": 290
+   "a": "alfonso",
+   "b": "ylva",
+   "w": 295
   },
   {
    "a": "kyboh",
    "b": "riften",
+   "w": 290
+  },
+  {
+   "a": "orion",
+   "b": "varon",
    "w": 290
   },
   {
@@ -5387,13 +5384,13 @@
    "w": 264
   },
   {
-   "a": "alfonso",
-   "b": "krusp",
+   "a": "ismara",
+   "b": "orion",
    "w": 259
   },
   {
-   "a": "ismara",
-   "b": "orion",
+   "a": "alfonso",
+   "b": "krusp",
    "w": 259
   },
   {
@@ -5402,13 +5399,13 @@
    "w": 258
   },
   {
-   "a": "davinia",
-   "b": "krusp",
+   "a": "krusp",
+   "b": "orion",
    "w": 253
   },
   {
-   "a": "krusp",
-   "b": "orion",
+   "a": "davinia",
+   "b": "krusp",
    "w": 253
   },
   {
@@ -5472,13 +5469,13 @@
    "w": 235
   },
   {
-   "a": "danica",
-   "b": "valerius",
+   "a": "hjolmar",
+   "b": "ismara",
    "w": 233
   },
   {
-   "a": "hjolmar",
-   "b": "ismara",
+   "a": "danica",
+   "b": "valerius",
    "w": 233
   },
   {
@@ -5507,11 +5504,6 @@
    "w": 222
   },
   {
-   "a": "alfonso",
-   "b": "peryite",
-   "w": 220
-  },
-  {
    "a": "bjorn",
    "b": "ismara",
    "w": 220
@@ -5519,6 +5511,11 @@
   {
    "a": "davinia",
    "b": "nora",
+   "w": 220
+  },
+  {
+   "a": "alfonso",
+   "b": "peryite",
    "w": 220
   },
   {
@@ -5542,11 +5539,6 @@
    "w": 216
   },
   {
-   "a": "brotherhood",
-   "b": "orion",
-   "w": 215
-  },
-  {
    "a": "bjorn",
    "b": "valerius",
    "w": 215
@@ -5554,6 +5546,11 @@
   {
    "a": "kyboh",
    "b": "valerius",
+   "w": 215
+  },
+  {
+   "a": "brotherhood",
+   "b": "orion",
    "w": 215
   },
   {
@@ -5577,13 +5574,13 @@
    "w": 208
   },
   {
-   "a": "kyboh",
-   "b": "varon",
+   "a": "dagon",
+   "b": "saijah",
    "w": 205
   },
   {
-   "a": "dagon",
-   "b": "saijah",
+   "a": "kyboh",
+   "b": "varon",
    "w": 205
   },
   {
@@ -5638,13 +5635,18 @@
   },
   {
    "a": "galmar",
-   "b": "orion",
+   "b": "saijah",
    "w": 194
   },
   {
    "a": "galmar",
-   "b": "saijah",
+   "b": "orion",
    "w": 194
+  },
+  {
+   "a": "davinia",
+   "b": "solitude",
+   "w": 192
   },
   {
    "a": "davinia",
@@ -5652,18 +5654,13 @@
    "w": 192
   },
   {
-   "a": "davinia",
+   "a": "bjorn",
    "b": "solitude",
-   "w": 192
+   "w": 191
   },
   {
    "a": "college",
    "b": "orion",
-   "w": 191
-  },
-  {
-   "a": "bjorn",
-   "b": "solitude",
    "w": 191
   },
   {
@@ -5682,13 +5679,13 @@
    "w": 187
   },
   {
-   "a": "brotherhood",
-   "b": "valerius",
+   "a": "kyboh",
+   "b": "nora",
    "w": 187
   },
   {
-   "a": "kyboh",
-   "b": "nora",
+   "a": "brotherhood",
+   "b": "valerius",
    "w": 187
   },
   {
@@ -5702,13 +5699,13 @@
    "w": 184
   },
   {
-   "a": "danica",
-   "b": "ylva",
+   "a": "maven",
+   "b": "orion",
    "w": 183
   },
   {
-   "a": "maven",
-   "b": "orion",
+   "a": "danica",
+   "b": "ylva",
    "w": 183
   },
   {
@@ -5732,13 +5729,13 @@
    "w": 179
   },
   {
-   "a": "krusp",
-   "b": "saijah",
+   "a": "alfonso",
+   "b": "gear",
    "w": 179
   },
   {
-   "a": "alfonso",
-   "b": "gear",
+   "a": "krusp",
+   "b": "saijah",
    "w": 179
   },
   {
@@ -5752,23 +5749,23 @@
    "w": 178
   },
   {
-   "a": "hjolmar",
-   "b": "riften",
-   "w": 177
-  },
-  {
    "a": "gear",
    "b": "kyboh",
    "w": 177
   },
   {
-   "a": "kyboh",
-   "b": "ulag",
-   "w": 175
+   "a": "hjolmar",
+   "b": "riften",
+   "w": 177
   },
   {
    "a": "college",
    "b": "hjolmar",
+   "w": 175
+  },
+  {
+   "a": "dagon",
+   "b": "thalmor",
    "w": 175
   },
   {
@@ -5777,8 +5774,8 @@
    "w": 175
   },
   {
-   "a": "dagon",
-   "b": "thalmor",
+   "a": "kyboh",
+   "b": "ulag",
    "w": 175
   },
   {
@@ -5792,8 +5789,8 @@
    "w": 170
   },
   {
-   "a": "eldergleam",
-   "b": "saijah",
+   "a": "empire",
+   "b": "lanterns",
    "w": 170
   },
   {
@@ -5802,14 +5799,9 @@
    "w": 170
   },
   {
-   "a": "empire",
-   "b": "lanterns",
+   "a": "eldergleam",
+   "b": "saijah",
    "w": 170
-  },
-  {
-   "a": "krusp",
-   "b": "lanterns",
-   "w": 169
   },
   {
    "a": "alfonso",
@@ -5819,6 +5811,11 @@
   {
    "a": "alduin",
    "b": "blades",
+   "w": 169
+  },
+  {
+   "a": "krusp",
+   "b": "lanterns",
    "w": 169
   },
   {
@@ -5857,23 +5854,23 @@
    "w": 164
   },
   {
-   "a": "antoine",
-   "b": "forelhost",
-   "w": 163
-  },
-  {
    "a": "mila",
    "b": "riften",
    "w": 163
   },
   {
-   "a": "bjorn",
-   "b": "galmar",
+   "a": "alfonso",
+   "b": "thalmor",
    "w": 163
   },
   {
-   "a": "alfonso",
-   "b": "thalmor",
+   "a": "antoine",
+   "b": "forelhost",
+   "w": 163
+  },
+  {
+   "a": "bjorn",
+   "b": "galmar",
    "w": 163
   },
   {
@@ -5897,16 +5894,6 @@
    "w": 159
   },
   {
-   "a": "davinia",
-   "b": "ulag",
-   "w": 158
-  },
-  {
-   "a": "alduin",
-   "b": "paarthurnax",
-   "w": 158
-  },
-  {
    "a": "bjorn",
    "b": "college",
    "w": 158
@@ -5917,14 +5904,19 @@
    "w": 158
   },
   {
+   "a": "davinia",
+   "b": "ulag",
+   "w": 158
+  },
+  {
+   "a": "alduin",
+   "b": "paarthurnax",
+   "w": 158
+  },
+  {
    "a": "dagon",
    "b": "dragon-cult",
    "w": 157
-  },
-  {
-   "a": "alfonso",
-   "b": "windhelm",
-   "w": 156
   },
   {
    "a": "davinia",
@@ -5932,9 +5924,9 @@
    "w": 156
   },
   {
-   "a": "saijah",
-   "b": "stormcloaks",
-   "w": 155
+   "a": "alfonso",
+   "b": "windhelm",
+   "w": 156
   },
   {
    "a": "bjorn",
@@ -5942,19 +5934,14 @@
    "w": 155
   },
   {
-   "a": "empire",
-   "b": "orion",
+   "a": "saijah",
+   "b": "stormcloaks",
    "w": 155
   },
   {
-   "a": "krusp",
-   "b": "kyboh",
-   "w": 154
-  },
-  {
-   "a": "lanterns",
-   "b": "stormcloaks",
-   "w": 154
+   "a": "empire",
+   "b": "orion",
+   "w": 155
   },
   {
    "a": "dragon-cult",
@@ -5964,6 +5951,16 @@
   {
    "a": "davinia",
    "b": "thalmor",
+   "w": 154
+  },
+  {
+   "a": "krusp",
+   "b": "kyboh",
+   "w": 154
+  },
+  {
+   "a": "lanterns",
+   "b": "stormcloaks",
    "w": 154
   },
   {
@@ -5977,13 +5974,13 @@
    "w": 152
   },
   {
-   "a": "saijah",
-   "b": "thalmor",
+   "a": "namira",
+   "b": "peryite",
    "w": 151
   },
   {
-   "a": "namira",
-   "b": "peryite",
+   "a": "saijah",
+   "b": "thalmor",
    "w": 151
   },
   {
@@ -5992,13 +5989,13 @@
    "w": 150
   },
   {
-   "a": "alduin",
-   "b": "dragon-cult",
+   "a": "davinia",
+   "b": "empire",
    "w": 148
   },
   {
-   "a": "davinia",
-   "b": "empire",
+   "a": "alduin",
+   "b": "dragon-cult",
    "w": 148
   },
   {
@@ -6007,13 +6004,13 @@
    "w": 148
   },
   {
-   "a": "alfonso",
-   "b": "ulag",
+   "a": "danica",
+   "b": "galmar",
    "w": 147
   },
   {
-   "a": "danica",
-   "b": "galmar",
+   "a": "alfonso",
+   "b": "ulag",
    "w": 147
   },
   {
@@ -6032,13 +6029,13 @@
    "w": 144
   },
   {
-   "a": "forelhost",
-   "b": "riften",
+   "a": "college",
+   "b": "dagon",
    "w": 144
   },
   {
-   "a": "college",
-   "b": "dagon",
+   "a": "forelhost",
+   "b": "riften",
    "w": 144
   },
   {
@@ -6047,14 +6044,19 @@
    "w": 143
   },
   {
+   "a": "alfonso",
+   "b": "eldergleam",
+   "w": 143
+  },
+  {
    "a": "saijah",
    "b": "solitude",
    "w": 143
   },
   {
-   "a": "alfonso",
-   "b": "eldergleam",
-   "w": 143
+   "a": "lanterns",
+   "b": "maven",
+   "w": 142
   },
   {
    "a": "alduin",
@@ -6067,18 +6069,13 @@
    "w": 142
   },
   {
-   "a": "lanterns",
-   "b": "maven",
-   "w": 142
+   "a": "echo",
+   "b": "kyboh",
+   "w": 141
   },
   {
    "a": "esbern",
    "b": "paarthurnax",
-   "w": 141
-  },
-  {
-   "a": "echo",
-   "b": "kyboh",
    "w": 141
   },
   {
@@ -6087,13 +6084,13 @@
    "w": 141
   },
   {
-   "a": "alfonso",
-   "b": "rapier",
+   "a": "antoine",
+   "b": "lanterns",
    "w": 140
   },
   {
-   "a": "antoine",
-   "b": "lanterns",
+   "a": "alfonso",
+   "b": "rapier",
    "w": 140
   },
   {
@@ -6112,8 +6109,8 @@
    "w": 138
   },
   {
-   "a": "alfonso",
-   "b": "korvanjund",
+   "a": "ismara",
+   "b": "nora",
    "w": 138
   },
   {
@@ -6122,8 +6119,8 @@
    "w": 138
   },
   {
-   "a": "ismara",
-   "b": "nora",
+   "a": "alfonso",
+   "b": "korvanjund",
    "w": 138
   },
   {
@@ -6137,8 +6134,8 @@
    "w": 136
   },
   {
-   "a": "alfonso",
-   "b": "empire",
+   "a": "hircine",
+   "b": "saijah",
    "w": 135
   },
   {
@@ -6147,14 +6144,9 @@
    "w": 135
   },
   {
-   "a": "hircine",
-   "b": "saijah",
-   "w": 135
-  },
-  {
    "a": "alfonso",
-   "b": "mila",
-   "w": 134
+   "b": "empire",
+   "w": 135
   },
   {
    "a": "alfonso",
@@ -6162,9 +6154,19 @@
    "w": 134
   },
   {
+   "a": "alfonso",
+   "b": "mila",
+   "w": 134
+  },
+  {
    "a": "mythic-dawn",
    "b": "orion",
    "w": 133
+  },
+  {
+   "a": "esbern",
+   "b": "thalmor",
+   "w": 132
   },
   {
    "a": "riften",
@@ -6179,11 +6181,6 @@
   {
    "a": "forelhost",
    "b": "lanterns",
-   "w": 132
-  },
-  {
-   "a": "esbern",
-   "b": "thalmor",
    "w": 132
   },
   {
@@ -6202,13 +6199,13 @@
    "w": 131
   },
   {
-   "a": "antoine",
-   "b": "saijah",
+   "a": "alfonso",
+   "b": "hemming",
    "w": 130
   },
   {
-   "a": "alfonso",
-   "b": "hemming",
+   "a": "antoine",
+   "b": "saijah",
    "w": 130
   },
   {
@@ -6257,17 +6254,27 @@
    "w": 126
   },
   {
-   "a": "dragon-cult",
-   "b": "dragonborn-question",
-   "w": 125
-  },
-  {
    "a": "forelhost",
    "b": "orion",
    "w": 125
   },
   {
+   "a": "dragon-cult",
+   "b": "dragonborn-question",
+   "w": 125
+  },
+  {
+   "a": "davinia",
+   "b": "kynareth",
+   "w": 125
+  },
+  {
    "a": "danica",
+   "b": "hemming",
+   "w": 125
+  },
+  {
+   "a": "davinia",
    "b": "hemming",
    "w": 125
   },
@@ -6277,28 +6284,8 @@
    "w": 125
   },
   {
-   "a": "davinia",
-   "b": "hemming",
-   "w": 125
-  },
-  {
-   "a": "davinia",
-   "b": "kynareth",
-   "w": 125
-  },
-  {
-   "a": "davinia",
-   "b": "peryite",
-   "w": 124
-  },
-  {
    "a": "gear",
    "b": "hjolmar",
-   "w": 124
-  },
-  {
-   "a": "dragon-cult",
-   "b": "empire",
    "w": 124
   },
   {
@@ -6307,23 +6294,18 @@
    "w": 124
   },
   {
-   "a": "brotherhood",
-   "b": "lanterns",
-   "w": 123
-  },
-  {
    "a": "dragon-cult",
+   "b": "empire",
+   "w": 124
+  },
+  {
+   "a": "davinia",
+   "b": "peryite",
+   "w": 124
+  },
+  {
+   "a": "eldergleam",
    "b": "mythic-dawn",
-   "w": 123
-  },
-  {
-   "a": "brotherhood",
-   "b": "davinia",
-   "w": 123
-  },
-  {
-   "a": "gear",
-   "b": "riften",
    "w": 123
   },
   {
@@ -6332,7 +6314,22 @@
    "w": 123
   },
   {
-   "a": "eldergleam",
+   "a": "gear",
+   "b": "riften",
+   "w": 123
+  },
+  {
+   "a": "brotherhood",
+   "b": "lanterns",
+   "w": 123
+  },
+  {
+   "a": "brotherhood",
+   "b": "davinia",
+   "w": 123
+  },
+  {
+   "a": "dragon-cult",
    "b": "mythic-dawn",
    "w": 123
   },
@@ -6358,7 +6355,7 @@
   },
   {
    "a": "hemming",
-   "b": "saijah",
+   "b": "riften",
    "w": 120
   },
   {
@@ -6367,13 +6364,8 @@
    "w": 120
   },
   {
-   "a": "blades",
-   "b": "paarthurnax",
-   "w": 120
-  },
-  {
-   "a": "hemming",
-   "b": "riften",
+   "a": "lanterns",
+   "b": "windhelm",
    "w": 120
   },
   {
@@ -6382,8 +6374,13 @@
    "w": 120
   },
   {
-   "a": "lanterns",
-   "b": "windhelm",
+   "a": "hemming",
+   "b": "saijah",
+   "w": 120
+  },
+  {
+   "a": "blades",
+   "b": "paarthurnax",
    "w": 120
   },
   {
@@ -6397,11 +6394,6 @@
    "w": 118
   },
   {
-   "a": "korvanjund",
-   "b": "orion",
-   "w": 118
-  },
-  {
    "a": "dragonborn-question",
    "b": "greybeards",
    "w": 118
@@ -6412,9 +6404,9 @@
    "w": 118
   },
   {
-   "a": "hircine",
-   "b": "kynareth",
-   "w": 117
+   "a": "korvanjund",
+   "b": "orion",
+   "w": 118
   },
   {
    "a": "stormcloaks",
@@ -6422,13 +6414,18 @@
    "w": 117
   },
   {
-   "a": "hroki",
-   "b": "saijah",
-   "w": 116
+   "a": "hircine",
+   "b": "kynareth",
+   "w": 117
   },
   {
    "a": "davinia",
    "b": "hroki",
+   "w": 116
+  },
+  {
+   "a": "hroki",
+   "b": "saijah",
    "w": 116
   },
   {
@@ -6437,8 +6434,8 @@
    "w": 116
   },
   {
-   "a": "blades",
-   "b": "riften",
+   "a": "alfonso",
+   "b": "rahgot",
    "w": 115
   },
   {
@@ -6452,23 +6449,23 @@
    "w": 115
   },
   {
-   "a": "alfonso",
-   "b": "rahgot",
-   "w": 115
-  },
-  {
    "a": "hroki",
    "b": "orion",
    "w": 115
   },
   {
-   "a": "alfonso",
-   "b": "hroki",
+   "a": "blades",
+   "b": "riften",
+   "w": 115
+  },
+  {
+   "a": "dagon",
+   "b": "dragonborn-question",
    "w": 114
   },
   {
-   "a": "kynareth",
-   "b": "orion",
+   "a": "alfonso",
+   "b": "hroki",
    "w": 114
   },
   {
@@ -6477,13 +6474,18 @@
    "w": 114
   },
   {
-   "a": "dagon",
-   "b": "dragonborn-question",
+   "a": "kynareth",
+   "b": "orion",
    "w": 114
   },
   {
    "a": "bjorn",
    "b": "kynareth",
+   "w": 113
+  },
+  {
+   "a": "bjorn",
+   "b": "korvanjund",
    "w": 113
   },
   {
@@ -6495,16 +6497,6 @@
    "a": "jagged-crown",
    "b": "orion",
    "w": 113
-  },
-  {
-   "a": "bjorn",
-   "b": "korvanjund",
-   "w": 113
-  },
-  {
-   "a": "dragonborn-question",
-   "b": "riften",
-   "w": 112
   },
   {
    "a": "peryite",
@@ -6522,14 +6514,14 @@
    "w": 112
   },
   {
+   "a": "dragonborn-question",
+   "b": "riften",
+   "w": 112
+  },
+  {
    "a": "forelhost",
    "b": "saijah",
    "w": 111
-  },
-  {
-   "a": "lanterns",
-   "b": "mila",
-   "w": 110
   },
   {
    "a": "bjorn",
@@ -6542,13 +6534,18 @@
    "w": 110
   },
   {
+   "a": "lanterns",
+   "b": "mila",
+   "w": 110
+  },
+  {
    "a": "blades",
    "b": "greybeards",
    "w": 110
   },
   {
-   "a": "antoine",
-   "b": "rahgot",
+   "a": "bjorn",
+   "b": "brotherhood",
    "w": 109
   },
   {
@@ -6557,8 +6554,8 @@
    "w": 109
   },
   {
-   "a": "bjorn",
-   "b": "brotherhood",
+   "a": "antoine",
+   "b": "rahgot",
    "w": 109
   },
   {
@@ -6582,6 +6579,11 @@
    "w": 105
   },
   {
+   "a": "kynesgrove",
+   "b": "lanterns",
+   "w": 104
+  },
+  {
    "a": "peryite",
    "b": "riften",
    "w": 104
@@ -6589,11 +6591,6 @@
   {
    "a": "galmar",
    "b": "hroki",
-   "w": 104
-  },
-  {
-   "a": "kynesgrove",
-   "b": "lanterns",
    "w": 104
   },
   {
@@ -6607,13 +6604,13 @@
    "w": 103
   },
   {
-   "a": "esbern",
-   "b": "lanterns",
+   "a": "hroki",
+   "b": "kyboh",
    "w": 102
   },
   {
-   "a": "hroki",
-   "b": "kyboh",
+   "a": "esbern",
+   "b": "lanterns",
    "w": 102
   },
   {
@@ -6637,8 +6634,18 @@
    "w": 101
   },
   {
+   "a": "bjorn",
+   "b": "hemming",
+   "w": 100
+  },
+  {
    "a": "thalmor",
    "b": "throat",
+   "w": 100
+  },
+  {
+   "a": "solitude",
+   "b": "torygg",
    "w": 100
   },
   {
@@ -6652,23 +6659,13 @@
    "w": 100
   },
   {
-   "a": "bjorn",
-   "b": "hemming",
-   "w": 100
-  },
-  {
-   "a": "solitude",
-   "b": "torygg",
-   "w": 100
+   "a": "dragon-cult",
+   "b": "rahgot",
+   "w": 99
   },
   {
    "a": "lanterns",
    "b": "torygg",
-   "w": 99
-  },
-  {
-   "a": "bjorn",
-   "b": "jagged-crown",
    "w": 99
   },
   {
@@ -6677,8 +6674,8 @@
    "w": 99
   },
   {
-   "a": "dragon-cult",
-   "b": "rahgot",
+   "a": "bjorn",
+   "b": "jagged-crown",
    "w": 99
   },
   {
@@ -6702,24 +6699,19 @@
    "w": 97
   },
   {
-   "a": "ancano",
-   "b": "dagon",
+   "a": "dragonborn-question",
+   "b": "esbern",
    "w": 96
   },
   {
-   "a": "dragonborn-question",
-   "b": "esbern",
+   "a": "ancano",
+   "b": "dagon",
    "w": 96
   },
   {
    "a": "kynesgrove",
    "b": "orion",
    "w": 95
-  },
-  {
-   "a": "davinia",
-   "b": "grelod",
-   "w": 94
   },
   {
    "a": "dragonborn-question",
@@ -6734,6 +6726,11 @@
   {
    "a": "alduin",
    "b": "throat",
+   "w": 94
+  },
+  {
+   "a": "davinia",
+   "b": "grelod",
    "w": 94
   },
   {
@@ -6762,11 +6759,6 @@
    "w": 90
   },
   {
-   "a": "ancano",
-   "b": "davinia",
-   "w": 89
-  },
-  {
    "a": "dragon-cult",
    "b": "greybeards",
    "w": 89
@@ -6774,6 +6766,11 @@
   {
    "a": "davinia",
    "b": "namira",
+   "w": 89
+  },
+  {
+   "a": "ancano",
+   "b": "davinia",
    "w": 89
   },
   {
@@ -6792,13 +6789,8 @@
    "w": 88
   },
   {
-   "a": "namira",
-   "b": "orion",
-   "w": 87
-  },
-  {
-   "a": "constance",
-   "b": "grelod",
+   "a": "jagged-crown",
+   "b": "namira",
    "w": 87
   },
   {
@@ -6812,8 +6804,13 @@
    "w": 87
   },
   {
-   "a": "jagged-crown",
-   "b": "namira",
+   "a": "constance",
+   "b": "grelod",
+   "w": 87
+  },
+  {
+   "a": "namira",
+   "b": "orion",
    "w": 87
   },
   {
@@ -6827,14 +6824,19 @@
    "w": 86
   },
   {
+   "a": "orion",
+   "b": "torygg",
+   "w": 85
+  },
+  {
    "a": "danica",
    "b": "hroki",
    "w": 85
   },
   {
-   "a": "orion",
-   "b": "torygg",
-   "w": 85
+   "a": "rapier",
+   "b": "saijah",
+   "w": 84
   },
   {
    "a": "ancano",
@@ -6847,13 +6849,8 @@
    "w": 84
   },
   {
-   "a": "rapier",
+   "a": "namira",
    "b": "saijah",
-   "w": 84
-  },
-  {
-   "a": "dragon-cult",
-   "b": "throat",
    "w": 83
   },
   {
@@ -6862,13 +6859,13 @@
    "w": 83
   },
   {
-   "a": "namira",
-   "b": "saijah",
+   "a": "dragon-cult",
+   "b": "throat",
    "w": 83
   },
   {
-   "a": "ancano",
-   "b": "college",
+   "a": "alfonso",
+   "b": "kynesgrove",
    "w": 82
   },
   {
@@ -6877,9 +6874,14 @@
    "w": 82
   },
   {
-   "a": "alfonso",
-   "b": "kynesgrove",
+   "a": "ancano",
+   "b": "college",
    "w": 82
+  },
+  {
+   "a": "ancano",
+   "b": "hjolmar",
+   "w": 81
   },
   {
    "a": "orion",
@@ -6892,33 +6894,8 @@
    "w": 81
   },
   {
-   "a": "ancano",
-   "b": "hjolmar",
-   "w": 81
-  },
-  {
-   "a": "ancano",
-   "b": "riften",
-   "w": 80
-  },
-  {
-   "a": "lanterns",
-   "b": "rahgot",
-   "w": 80
-  },
-  {
    "a": "krusp",
    "b": "kynesgrove",
-   "w": 80
-  },
-  {
-   "a": "hircine",
-   "b": "orion",
-   "w": 80
-  },
-  {
-   "a": "peryite",
-   "b": "rapier",
    "w": 80
   },
   {
@@ -6932,8 +6909,28 @@
    "w": 80
   },
   {
+   "a": "peryite",
+   "b": "rapier",
+   "w": 80
+  },
+  {
+   "a": "hircine",
+   "b": "orion",
+   "w": 80
+  },
+  {
    "a": "falkreath",
    "b": "solitude",
+   "w": 80
+  },
+  {
+   "a": "lanterns",
+   "b": "rahgot",
+   "w": 80
+  },
+  {
+   "a": "ancano",
+   "b": "riften",
    "w": 80
   },
   {
@@ -6942,8 +6939,18 @@
    "w": 79
   },
   {
+   "a": "echo",
+   "b": "ulag",
+   "w": 79
+  },
+  {
    "a": "davinia",
    "b": "dawnstar",
+   "w": 79
+  },
+  {
+   "a": "bjorn",
+   "b": "mable",
    "w": 79
   },
   {
@@ -6957,16 +6964,6 @@
    "w": 79
   },
   {
-   "a": "echo",
-   "b": "ulag",
-   "w": 79
-  },
-  {
-   "a": "bjorn",
-   "b": "mable",
-   "w": 79
-  },
-  {
    "a": "dagon",
    "b": "hircine",
    "w": 78
@@ -6977,13 +6974,13 @@
    "w": 78
   },
   {
-   "a": "ivarstead",
-   "b": "saijah",
+   "a": "bjorn",
+   "b": "hircine",
    "w": 77
   },
   {
-   "a": "bjorn",
-   "b": "hircine",
+   "a": "ivarstead",
+   "b": "saijah",
    "w": 77
   },
   {
@@ -7022,8 +7019,8 @@
    "w": 74
   },
   {
-   "a": "empire",
-   "b": "torygg",
+   "a": "dagon",
+   "b": "gaelen",
    "w": 74
   },
   {
@@ -7032,8 +7029,8 @@
    "w": 74
   },
   {
-   "a": "dagon",
-   "b": "gaelen",
+   "a": "ivarstead",
+   "b": "riften",
    "w": 74
   },
   {
@@ -7042,9 +7039,24 @@
    "w": 74
   },
   {
-   "a": "ivarstead",
-   "b": "riften",
+   "a": "empire",
+   "b": "torygg",
    "w": 74
+  },
+  {
+   "a": "dawnstar",
+   "b": "galmar",
+   "w": 73
+  },
+  {
+   "a": "empire",
+   "b": "tullius",
+   "w": 73
+  },
+  {
+   "a": "davinia",
+   "b": "ivarstead",
+   "w": 73
   },
   {
    "a": "bjorn",
@@ -7062,23 +7074,8 @@
    "w": 73
   },
   {
-   "a": "empire",
-   "b": "tullius",
-   "w": 73
-  },
-  {
-   "a": "davinia",
-   "b": "ivarstead",
-   "w": 73
-  },
-  {
-   "a": "dawnstar",
-   "b": "galmar",
-   "w": 73
-  },
-  {
-   "a": "davinia",
-   "b": "echo",
+   "a": "alfonso",
+   "b": "mable",
    "w": 72
   },
   {
@@ -7087,13 +7084,13 @@
    "w": 72
   },
   {
-   "a": "alfonso",
-   "b": "mable",
+   "a": "nora",
+   "b": "rapier",
    "w": 72
   },
   {
-   "a": "nora",
-   "b": "rapier",
+   "a": "alfonso",
+   "b": "gate3",
    "w": 72
   },
   {
@@ -7102,8 +7099,8 @@
    "w": 72
   },
   {
-   "a": "alfonso",
-   "b": "gate3",
+   "a": "davinia",
+   "b": "echo",
    "w": 72
   },
   {
@@ -7117,13 +7114,13 @@
    "w": 71
   },
   {
-   "a": "davinia",
-   "b": "rahgot",
+   "a": "mable",
+   "b": "saijah",
    "w": 71
   },
   {
-   "a": "mable",
-   "b": "saijah",
+   "a": "davinia",
+   "b": "rahgot",
    "w": 71
   },
   {
@@ -7132,13 +7129,8 @@
    "w": 71
   },
   {
-   "a": "davinia",
-   "b": "torygg",
-   "w": 70
-  },
-  {
-   "a": "constance",
-   "b": "maven",
+   "a": "mable",
+   "b": "riften",
    "w": 70
   },
   {
@@ -7147,9 +7139,19 @@
    "w": 70
   },
   {
-   "a": "mable",
-   "b": "riften",
+   "a": "constance",
+   "b": "maven",
    "w": 70
+  },
+  {
+   "a": "davinia",
+   "b": "torygg",
+   "w": 70
+  },
+  {
+   "a": "ivarstead",
+   "b": "lanterns",
+   "w": 69
   },
   {
    "a": "alfonso",
@@ -7157,9 +7159,14 @@
    "w": 69
   },
   {
-   "a": "ivarstead",
-   "b": "lanterns",
-   "w": 69
+   "a": "echo",
+   "b": "orion",
+   "w": 68
+  },
+  {
+   "a": "lanterns",
+   "b": "tullius",
+   "w": 68
   },
   {
    "a": "delphine",
@@ -7172,33 +7179,13 @@
    "w": 68
   },
   {
-   "a": "echo",
-   "b": "orion",
-   "w": 68
-  },
-  {
    "a": "dawnstar",
    "b": "riften",
    "w": 68
   },
   {
-   "a": "lanterns",
-   "b": "tullius",
-   "w": 68
-  },
-  {
-   "a": "alduin",
-   "b": "delphine",
-   "w": 67
-  },
-  {
    "a": "alfonso",
-   "b": "jaha",
-   "w": 67
-  },
-  {
-   "a": "rapier",
-   "b": "riften",
+   "b": "ivarstead",
    "w": 67
   },
   {
@@ -7212,34 +7199,19 @@
    "w": 67
   },
   {
-   "a": "alfonso",
-   "b": "ivarstead",
+   "a": "rapier",
+   "b": "riften",
    "w": 67
   },
   {
-   "a": "gate3",
-   "b": "riften",
-   "w": 66
-  },
-  {
-   "a": "gate3",
-   "b": "saijah",
-   "w": 66
-  },
-  {
-   "a": "danica",
-   "b": "mila",
-   "w": 66
-  },
-  {
-   "a": "falkreath",
-   "b": "thalmor",
-   "w": 66
+   "a": "alfonso",
+   "b": "jaha",
+   "w": 67
   },
   {
    "a": "alduin",
-   "b": "mora",
-   "w": 66
+   "b": "delphine",
+   "w": 67
   },
   {
    "a": "dagon",
@@ -7252,8 +7224,33 @@
    "w": 66
   },
   {
+   "a": "alduin",
+   "b": "mora",
+   "w": 66
+  },
+  {
+   "a": "danica",
+   "b": "mila",
+   "w": 66
+  },
+  {
+   "a": "gate3",
+   "b": "saijah",
+   "w": 66
+  },
+  {
    "a": "dragon-cult",
    "b": "torygg",
+   "w": 66
+  },
+  {
+   "a": "falkreath",
+   "b": "thalmor",
+   "w": 66
+  },
+  {
+   "a": "gate3",
+   "b": "riften",
    "w": 66
   },
   {
@@ -7262,8 +7259,13 @@
    "w": 66
   },
   {
-   "a": "empire",
-   "b": "falkreath",
+   "a": "gaelen",
+   "b": "mythic-dawn",
+   "w": 65
+  },
+  {
+   "a": "bjorn",
+   "b": "ivarstead",
    "w": 65
   },
   {
@@ -7272,8 +7274,8 @@
    "w": 65
   },
   {
-   "a": "gaelen",
-   "b": "mythic-dawn",
+   "a": "empire",
+   "b": "falkreath",
    "w": 65
   },
   {
@@ -7283,8 +7285,8 @@
   },
   {
    "a": "bjorn",
-   "b": "ivarstead",
-   "w": 65
+   "b": "krosulhah",
+   "w": 64
   },
   {
    "a": "orion",
@@ -7292,18 +7294,8 @@
    "w": 64
   },
   {
-   "a": "bjorn",
-   "b": "krosulhah",
-   "w": 64
-  },
-  {
-   "a": "krosulhah",
-   "b": "riften",
-   "w": 63
-  },
-  {
-   "a": "ivarstead",
-   "b": "windhelm",
+   "a": "eldergleam",
+   "b": "gaelen",
    "w": 63
   },
   {
@@ -7312,17 +7304,22 @@
    "w": 63
   },
   {
+   "a": "ivarstead",
+   "b": "windhelm",
+   "w": 63
+  },
+  {
    "a": "gate3",
    "b": "kyboh",
    "w": 63
   },
   {
-   "a": "eldergleam",
-   "b": "gaelen",
+   "a": "krosulhah",
+   "b": "riften",
    "w": 63
   },
   {
-   "a": "ivarstead",
+   "a": "falkreath",
    "b": "orion",
    "w": 62
   },
@@ -7332,7 +7329,7 @@
    "w": 62
   },
   {
-   "a": "falkreath",
+   "a": "ivarstead",
    "b": "orion",
    "w": 62
   },
@@ -7342,13 +7339,8 @@
    "w": 62
   },
   {
-   "a": "jaha",
-   "b": "orion",
-   "w": 61
-  },
-  {
-   "a": "delphine",
-   "b": "paarthurnax",
+   "a": "alfonso",
+   "b": "dragonstone",
    "w": 61
   },
   {
@@ -7357,8 +7349,13 @@
    "w": 61
   },
   {
-   "a": "alfonso",
-   "b": "dragonstone",
+   "a": "delphine",
+   "b": "paarthurnax",
+   "w": 61
+  },
+  {
+   "a": "jaha",
+   "b": "orion",
    "w": 61
   },
   {
@@ -7417,14 +7414,24 @@
    "w": 57
   },
   {
+   "a": "riften",
+   "b": "thornheart",
+   "w": 57
+  },
+  {
    "a": "gate3",
    "b": "orion",
    "w": 57
   },
   {
-   "a": "riften",
-   "b": "thornheart",
-   "w": 57
+   "a": "antoine",
+   "b": "strain2",
+   "w": 56
+  },
+  {
+   "a": "orion",
+   "b": "regent-ring",
+   "w": 56
   },
   {
    "a": "dragon-cult",
@@ -7437,13 +7444,8 @@
    "w": 56
   },
   {
-   "a": "davinia",
-   "b": "tullius",
-   "w": 56
-  },
-  {
-   "a": "antoine",
-   "b": "strain2",
+   "a": "saijah",
+   "b": "thornheart",
    "w": 56
   },
   {
@@ -7452,53 +7454,18 @@
    "w": 56
   },
   {
-   "a": "orion",
-   "b": "regent-ring",
-   "w": 56
-  },
-  {
-   "a": "saijah",
-   "b": "thornheart",
-   "w": 56
-  },
-  {
    "a": "alfonso",
    "b": "strain2",
    "w": 56
   },
   {
-   "a": "dragonborn-question",
-   "b": "mora",
-   "w": 55
-  },
-  {
    "a": "davinia",
-   "b": "razor",
-   "w": 55
-  },
-  {
-   "a": "bjorn",
    "b": "tullius",
-   "w": 55
+   "w": 56
   },
   {
-   "a": "aetherial-matrix",
-   "b": "orion",
-   "w": 55
-  },
-  {
-   "a": "aetherial-matrix",
-   "b": "hjolmar",
-   "w": 55
-  },
-  {
-   "a": "constance",
-   "b": "valerius",
-   "w": 55
-  },
-  {
-   "a": "dragonstone",
-   "b": "riften",
+   "a": "gear",
+   "b": "resonator",
    "w": 55
   },
   {
@@ -7507,13 +7474,43 @@
    "w": 55
   },
   {
-   "a": "gear",
-   "b": "resonator",
+   "a": "aetherial-matrix",
+   "b": "hjolmar",
    "w": 55
   },
   {
-   "a": "dragon-cult",
+   "a": "dragonborn-question",
+   "b": "mora",
+   "w": 55
+  },
+  {
+   "a": "aetherial-matrix",
+   "b": "orion",
+   "w": 55
+  },
+  {
+   "a": "constance",
+   "b": "valerius",
+   "w": 55
+  },
+  {
+   "a": "bjorn",
+   "b": "tullius",
+   "w": 55
+  },
+  {
+   "a": "davinia",
    "b": "razor",
+   "w": 55
+  },
+  {
+   "a": "dragonstone",
+   "b": "riften",
+   "w": 55
+  },
+  {
+   "a": "colony",
+   "b": "saijah",
    "w": 54
   },
   {
@@ -7527,19 +7524,9 @@
    "w": 54
   },
   {
-   "a": "colony",
-   "b": "saijah",
-   "w": 54
-  },
-  {
-   "a": "alfonso",
+   "a": "dragon-cult",
    "b": "razor",
-   "w": 53
-  },
-  {
-   "a": "dragonstone",
-   "b": "saijah",
-   "w": 53
+   "w": 54
   },
   {
    "a": "alfonso",
@@ -7547,8 +7534,28 @@
    "w": 53
   },
   {
+   "a": "alfonso",
+   "b": "constance",
+   "w": 53
+  },
+  {
+   "a": "forelhost",
+   "b": "strain2",
+   "w": 53
+  },
+  {
+   "a": "alfonso",
+   "b": "razor",
+   "w": 53
+  },
+  {
    "a": "davinia",
    "b": "thornheart",
+   "w": 53
+  },
+  {
+   "a": "dragonstone",
+   "b": "saijah",
    "w": 53
   },
   {
@@ -7562,18 +7569,18 @@
    "w": 53
   },
   {
-   "a": "forelhost",
-   "b": "strain2",
-   "w": 53
-  },
-  {
-   "a": "alfonso",
-   "b": "constance",
-   "w": 53
-  },
-  {
    "a": "danica",
    "b": "thornheart",
+   "w": 52
+  },
+  {
+   "a": "dragon-cult",
+   "b": "gaelen",
+   "w": 52
+  },
+  {
+   "a": "forelhost",
+   "b": "strain1",
    "w": 52
   },
   {
@@ -7587,8 +7594,13 @@
    "w": 52
   },
   {
-   "a": "dragon-cult",
-   "b": "dragonstone",
+   "a": "aetherial-matrix",
+   "b": "saijah",
+   "w": 52
+  },
+  {
+   "a": "aventus",
+   "b": "orion",
    "w": 52
   },
   {
@@ -7597,33 +7609,13 @@
    "w": 52
   },
   {
-   "a": "mythic-dawn",
-   "b": "razor",
-   "w": 52
-  },
-  {
-   "a": "forelhost",
-   "b": "strain1",
-   "w": 52
-  },
-  {
-   "a": "aventus",
-   "b": "orion",
-   "w": 52
-  },
-  {
-   "a": "alfonso",
-   "b": "caelinus",
-   "w": 52
-  },
-  {
-   "a": "aetherial-matrix",
-   "b": "saijah",
+   "a": "davinia",
+   "b": "whiterun",
    "w": 52
   },
   {
    "a": "dragon-cult",
-   "b": "gaelen",
+   "b": "dragonstone",
    "w": 52
   },
   {
@@ -7632,23 +7624,18 @@
    "w": 52
   },
   {
-   "a": "davinia",
-   "b": "whiterun",
+   "a": "mythic-dawn",
+   "b": "razor",
    "w": 52
   },
   {
-   "a": "falkreath-prisoners",
-   "b": "valerius",
-   "w": 51
+   "a": "alfonso",
+   "b": "caelinus",
+   "w": 52
   },
   {
-   "a": "regent-ring",
-   "b": "riften",
-   "w": 51
-  },
-  {
-   "a": "bjorn",
-   "b": "dragonstone",
+   "a": "alfonso",
+   "b": "strain1",
    "w": 51
   },
   {
@@ -7657,9 +7644,29 @@
    "w": 51
   },
   {
-   "a": "alfonso",
-   "b": "strain1",
+   "a": "bjorn",
+   "b": "dragonstone",
    "w": 51
+  },
+  {
+   "a": "regent-ring",
+   "b": "riften",
+   "w": 51
+  },
+  {
+   "a": "falkreath-prisoners",
+   "b": "valerius",
+   "w": 51
+  },
+  {
+   "a": "regent-ring",
+   "b": "valerius",
+   "w": 50
+  },
+  {
+   "a": "kynesgrove",
+   "b": "sahloknir",
+   "w": 50
   },
   {
    "a": "aventus",
@@ -7667,18 +7674,8 @@
    "w": 50
   },
   {
-   "a": "antoine",
-   "b": "constance",
-   "w": 50
-  },
-  {
    "a": "caelinus",
-   "b": "valerius",
-   "w": 50
-  },
-  {
-   "a": "caelinus",
-   "b": "orion",
+   "b": "solitude",
    "w": 50
   },
   {
@@ -7688,37 +7685,22 @@
   },
   {
    "a": "caelinus",
-   "b": "solitude",
+   "b": "orion",
    "w": 50
   },
   {
-   "a": "kynesgrove",
-   "b": "sahloknir",
+   "a": "antoine",
+   "b": "constance",
    "w": 50
   },
   {
-   "a": "regent-ring",
+   "a": "caelinus",
    "b": "valerius",
    "w": 50
   },
   {
-   "a": "alfonso",
-   "b": "regent-ring",
-   "w": 49
-  },
-  {
-   "a": "dragon-cult",
-   "b": "strain2",
-   "w": 49
-  },
-  {
-   "a": "antoine",
-   "b": "bleak-falls",
-   "w": 49
-  },
-  {
-   "a": "davinia",
-   "b": "sithis",
+   "a": "bjorn",
+   "b": "constance",
    "w": 49
   },
   {
@@ -7727,13 +7709,18 @@
    "w": 49
   },
   {
-   "a": "dragon-cult",
-   "b": "otar",
+   "a": "alfonso",
+   "b": "regent-ring",
    "w": 49
   },
   {
-   "a": "bjorn",
-   "b": "constance",
+   "a": "davinia",
+   "b": "sithis",
+   "w": 49
+  },
+  {
+   "a": "antoine",
+   "b": "bleak-falls",
    "w": 49
   },
   {
@@ -7742,13 +7729,28 @@
    "w": 49
   },
   {
-   "a": "davinia",
-   "b": "gaelen",
+   "a": "dragon-cult",
+   "b": "otar",
+   "w": 49
+  },
+  {
+   "a": "dragon-cult",
+   "b": "strain2",
+   "w": 49
+  },
+  {
+   "a": "caelinus",
+   "b": "saijah",
    "w": 48
   },
   {
-   "a": "riften",
-   "b": "whiterun",
+   "a": "rahgot",
+   "b": "strain2",
+   "w": 48
+  },
+  {
+   "a": "kyboh",
+   "b": "sahloknir",
    "w": 48
   },
   {
@@ -7757,13 +7759,38 @@
    "w": 48
   },
   {
+   "a": "davinia",
+   "b": "gaelen",
+   "w": 48
+  },
+  {
+   "a": "aventus",
+   "b": "constance",
+   "w": 48
+  },
+  {
+   "a": "caelinus",
+   "b": "danica",
+   "w": 48
+  },
+  {
    "a": "regent-ring",
    "b": "varon",
    "w": 48
   },
   {
-   "a": "rahgot",
+   "a": "davinia",
    "b": "strain2",
+   "w": 48
+  },
+  {
+   "a": "riften",
+   "b": "whiterun",
+   "w": 48
+  },
+  {
+   "a": "aventus",
+   "b": "valerius",
    "w": 48
   },
   {
@@ -7777,38 +7804,18 @@
    "w": 48
   },
   {
-   "a": "aventus",
-   "b": "valerius",
-   "w": 48
+   "a": "alduin",
+   "b": "morokei",
+   "w": 47
   },
   {
-   "a": "caelinus",
-   "b": "danica",
-   "w": 48
+   "a": "alduin",
+   "b": "otar",
+   "w": 47
   },
   {
-   "a": "kyboh",
-   "b": "sahloknir",
-   "w": 48
-  },
-  {
-   "a": "aventus",
-   "b": "constance",
-   "w": 48
-  },
-  {
-   "a": "caelinus",
-   "b": "saijah",
-   "w": 48
-  },
-  {
-   "a": "davinia",
-   "b": "strain2",
-   "w": 48
-  },
-  {
-   "a": "kynareth",
-   "b": "thornheart",
+   "a": "bleak-falls",
+   "b": "lanterns",
    "w": 47
   },
   {
@@ -7822,28 +7829,23 @@
    "w": 47
   },
   {
-   "a": "alduin",
-   "b": "morokei",
-   "w": 47
-  },
-  {
    "a": "aetherial-matrix",
    "b": "riften",
    "w": 47
   },
   {
-   "a": "alduin",
-   "b": "otar",
-   "w": 47
-  },
-  {
-   "a": "aetherial-matrix",
-   "b": "dagon",
+   "a": "kynareth",
+   "b": "thornheart",
    "w": 47
   },
   {
    "a": "bjorn",
    "b": "regent-ring",
+   "w": 47
+  },
+  {
+   "a": "aetherial-matrix",
+   "b": "dagon",
    "w": 47
   },
   {
@@ -7853,22 +7855,12 @@
   },
   {
    "a": "bleak-falls",
-   "b": "lanterns",
-   "w": 47
-  },
-  {
-   "a": "krusp",
-   "b": "sahloknir",
+   "b": "windhelm",
    "w": 46
   },
   {
-   "a": "kyboh",
-   "b": "sithis",
-   "w": 46
-  },
-  {
-   "a": "dragon-cult",
-   "b": "nahkriin",
+   "a": "bleak-falls",
+   "b": "davinia",
    "w": 46
   },
   {
@@ -7878,12 +7870,7 @@
   },
   {
    "a": "bleak-falls",
-   "b": "davinia",
-   "w": 46
-  },
-  {
-   "a": "bleak-falls",
-   "b": "windhelm",
+   "b": "forelhost",
    "w": 46
   },
   {
@@ -7892,8 +7879,18 @@
    "w": 46
   },
   {
-   "a": "bleak-falls",
-   "b": "forelhost",
+   "a": "dragon-cult",
+   "b": "nahkriin",
+   "w": 46
+  },
+  {
+   "a": "kyboh",
+   "b": "sithis",
+   "w": 46
+  },
+  {
+   "a": "krusp",
+   "b": "sahloknir",
    "w": 46
   },
   {
@@ -7902,28 +7899,8 @@
    "w": 45
   },
   {
-   "a": "orion",
-   "b": "thornheart",
-   "w": 45
-  },
-  {
-   "a": "colony",
-   "b": "orion",
-   "w": 45
-  },
-  {
-   "a": "dragon-cult",
-   "b": "morokei",
-   "w": 45
-  },
-  {
    "a": "davinia",
    "b": "sahloknir",
-   "w": 45
-  },
-  {
-   "a": "gaelen",
-   "b": "throat",
    "w": 45
   },
   {
@@ -7932,18 +7909,28 @@
    "w": 45
   },
   {
-   "a": "strain2",
-   "b": "ulag",
-   "w": 44
+   "a": "orion",
+   "b": "thornheart",
+   "w": 45
+  },
+  {
+   "a": "dragon-cult",
+   "b": "morokei",
+   "w": 45
+  },
+  {
+   "a": "colony",
+   "b": "orion",
+   "w": 45
+  },
+  {
+   "a": "gaelen",
+   "b": "throat",
+   "w": 45
   },
   {
    "a": "gaelen",
    "b": "lanterns",
-   "w": 44
-  },
-  {
-   "a": "bleak-falls",
-   "b": "dragon-cult",
    "w": 44
   },
   {
@@ -7952,8 +7939,18 @@
    "w": 44
   },
   {
+   "a": "bleak-falls",
+   "b": "dragon-cult",
+   "w": 44
+  },
+  {
    "a": "bjorn",
    "b": "sahloknir",
+   "w": 44
+  },
+  {
+   "a": "strain2",
+   "b": "ulag",
    "w": 44
   },
   {
@@ -7967,13 +7964,18 @@
    "w": 43
   },
   {
+   "a": "davinia",
+   "b": "vokun",
+   "w": 42
+  },
+  {
    "a": "galmar",
    "b": "vokun",
    "w": 42
   },
   {
-   "a": "paarthurnax",
-   "b": "thalmor",
+   "a": "lanterns",
+   "b": "strain1",
    "w": 42
   },
   {
@@ -7987,8 +7989,8 @@
    "w": 42
   },
   {
-   "a": "lanterns",
-   "b": "strain1",
+   "a": "paarthurnax",
+   "b": "thalmor",
    "w": 42
   },
   {
@@ -7997,18 +7999,13 @@
    "w": 42
   },
   {
-   "a": "davinia",
-   "b": "vokun",
-   "w": 42
+   "a": "brotherhood",
+   "b": "sithis",
+   "w": 41
   },
   {
    "a": "cdi",
    "b": "ismara",
-   "w": 41
-  },
-  {
-   "a": "dawnstar",
-   "b": "vokun",
    "w": 41
   },
   {
@@ -8017,14 +8014,24 @@
    "w": 41
   },
   {
+   "a": "dawnstar",
+   "b": "vokun",
+   "w": 41
+  },
+  {
    "a": "orion",
    "b": "strain1",
    "w": 41
   },
   {
-   "a": "brotherhood",
-   "b": "sithis",
-   "w": 41
+   "a": "glacier",
+   "b": "hjolmar",
+   "w": 40
+  },
+  {
+   "a": "morokei",
+   "b": "otar",
+   "w": 40
   },
   {
    "a": "alfonso",
@@ -8032,13 +8039,8 @@
    "w": 40
   },
   {
-   "a": "nora",
-   "b": "soul-gems-nora",
-   "w": 40
-  },
-  {
-   "a": "glacier",
-   "b": "hjolmar",
+   "a": "solitude",
+   "b": "whiterun",
    "w": 40
   },
   {
@@ -8052,8 +8054,8 @@
    "w": 40
   },
   {
-   "a": "morokei",
-   "b": "otar",
+   "a": "davinia",
+   "b": "glacier",
    "w": 40
   },
   {
@@ -8062,14 +8064,14 @@
    "w": 40
   },
   {
-   "a": "davinia",
-   "b": "glacier",
+   "a": "nora",
+   "b": "soul-gems-nora",
    "w": 40
   },
   {
-   "a": "solitude",
-   "b": "whiterun",
-   "w": 40
+   "a": "alduin",
+   "b": "nahkriin",
+   "w": 39
   },
   {
    "a": "paarthurnax",
@@ -8077,18 +8079,8 @@
    "w": 39
   },
   {
-   "a": "dagon",
-   "b": "sithis",
-   "w": 39
-  },
-  {
-   "a": "empire",
-   "b": "whiterun",
-   "w": 39
-  },
-  {
-   "a": "alduin",
-   "b": "nahkriin",
+   "a": "dragon-cult",
+   "b": "strain1",
    "w": 39
   },
   {
@@ -8102,14 +8094,29 @@
    "w": 39
   },
   {
-   "a": "dragon-cult",
-   "b": "strain1",
-   "w": 39
-  },
-  {
    "a": "alfonso",
    "b": "cdi",
    "w": 39
+  },
+  {
+   "a": "empire",
+   "b": "whiterun",
+   "w": 39
+  },
+  {
+   "a": "dagon",
+   "b": "sithis",
+   "w": 39
+  },
+  {
+   "a": "delphine",
+   "b": "thalmor",
+   "w": 38
+  },
+  {
+   "a": "bjorn",
+   "b": "whiterun",
+   "w": 38
   },
   {
    "a": "darkwater",
@@ -8122,8 +8129,33 @@
    "w": 38
   },
   {
+   "a": "dagon",
+   "b": "glacier",
+   "w": 38
+  },
+  {
+   "a": "orion",
+   "b": "soul-gems-nora",
+   "w": 38
+  },
+  {
+   "a": "anchor-of-stasis",
+   "b": "kyboh",
+   "w": 38
+  },
+  {
+   "a": "anchor-of-stasis",
+   "b": "davinia",
+   "w": 38
+  },
+  {
    "a": "alfonso",
    "b": "anchor-of-stasis",
+   "w": 38
+  },
+  {
+   "a": "cdi",
+   "b": "kyboh",
    "w": 38
   },
   {
@@ -8137,58 +8169,13 @@
    "w": 38
   },
   {
-   "a": "dagon",
-   "b": "glacier",
-   "w": 38
-  },
-  {
-   "a": "anchor-of-stasis",
-   "b": "davinia",
-   "w": 38
-  },
-  {
-   "a": "delphine",
-   "b": "thalmor",
-   "w": 38
-  },
-  {
-   "a": "orion",
-   "b": "soul-gems-nora",
-   "w": 38
-  },
-  {
-   "a": "anchor-of-stasis",
-   "b": "kyboh",
-   "w": 38
-  },
-  {
-   "a": "cdi",
-   "b": "kyboh",
-   "w": 38
-  },
-  {
    "a": "davinia",
    "b": "soul-gems-nora",
    "w": 38
   },
   {
-   "a": "bjorn",
-   "b": "whiterun",
-   "w": 38
-  },
-  {
-   "a": "empire",
-   "b": "vokun",
-   "w": 37
-  },
-  {
-   "a": "hall-honored-dead",
-   "b": "valerius",
-   "w": 37
-  },
-  {
-   "a": "anchor-of-stasis",
-   "b": "hjolmar",
+   "a": "dagon",
+   "b": "sildonia",
    "w": 37
   },
   {
@@ -8197,8 +8184,13 @@
    "w": 37
   },
   {
-   "a": "lanterns",
-   "b": "vokun",
+   "a": "anchor-of-stasis",
+   "b": "hjolmar",
+   "w": 37
+  },
+  {
+   "a": "darkwater",
+   "b": "galmar",
    "w": 37
   },
   {
@@ -8212,13 +8204,13 @@
    "w": 37
   },
   {
-   "a": "cdi",
-   "b": "hjolmar",
+   "a": "lanterns",
+   "b": "vokun",
    "w": 37
   },
   {
-   "a": "stormcloaks",
-   "b": "whiterun",
+   "a": "empire",
+   "b": "vokun",
    "w": 37
   },
   {
@@ -8227,8 +8219,18 @@
    "w": 37
   },
   {
-   "a": "darkwater",
-   "b": "galmar",
+   "a": "stormcloaks",
+   "b": "whiterun",
+   "w": 37
+  },
+  {
+   "a": "cdi",
+   "b": "hjolmar",
+   "w": 37
+  },
+  {
+   "a": "hall-honored-dead",
+   "b": "valerius",
    "w": 37
   },
   {
@@ -8237,23 +8239,8 @@
    "w": 37
   },
   {
-   "a": "dagon",
-   "b": "sildonia",
-   "w": 37
-  },
-  {
-   "a": "balgruuf",
-   "b": "whiterun",
-   "w": 36
-  },
-  {
    "a": "brotherhood",
    "b": "colony",
-   "w": 36
-  },
-  {
-   "a": "dragon-cult",
-   "b": "mora",
    "w": 36
   },
   {
@@ -8262,13 +8249,13 @@
    "w": 36
   },
   {
-   "a": "nenya",
-   "b": "valerius",
+   "a": "solitude",
+   "b": "vokun",
    "w": 36
   },
   {
-   "a": "anchor-of-stasis",
-   "b": "saijah",
+   "a": "balgruuf",
+   "b": "whiterun",
    "w": 36
   },
   {
@@ -8277,24 +8264,19 @@
    "w": 36
   },
   {
-   "a": "solitude",
-   "b": "vokun",
+   "a": "anchor-of-stasis",
+   "b": "saijah",
    "w": 36
   },
   {
-   "a": "kyboh",
-   "b": "resonator",
-   "w": 35
+   "a": "nenya",
+   "b": "valerius",
+   "w": 36
   },
   {
-   "a": "anchor-of-stasis",
-   "b": "nora",
-   "w": 35
-  },
-  {
-   "a": "glacier",
-   "b": "riften",
-   "w": 35
+   "a": "dragon-cult",
+   "b": "mora",
+   "w": 36
   },
   {
    "a": "cdi",
@@ -8303,7 +8285,7 @@
   },
   {
    "a": "darkwater",
-   "b": "riften",
+   "b": "solitude",
    "w": 35
   },
   {
@@ -8317,8 +8299,18 @@
    "w": 35
   },
   {
+   "a": "glacier",
+   "b": "riften",
+   "w": 35
+  },
+  {
+   "a": "anchor-of-stasis",
+   "b": "nora",
+   "w": 35
+  },
+  {
    "a": "darkwater",
-   "b": "solitude",
+   "b": "riften",
    "w": 35
   },
   {
@@ -8327,13 +8319,13 @@
    "w": 35
   },
   {
-   "a": "cdi",
-   "b": "saijah",
-   "w": 34
+   "a": "kyboh",
+   "b": "resonator",
+   "w": 35
   },
   {
-   "a": "rahgot",
-   "b": "tears",
+   "a": "aventus",
+   "b": "saijah",
    "w": 34
   },
   {
@@ -8347,33 +8339,8 @@
    "w": 34
   },
   {
-   "a": "jaha",
-   "b": "seraleth",
-   "w": 34
-  },
-  {
-   "a": "glacier",
-   "b": "orion",
-   "w": 34
-  },
-  {
-   "a": "forelhost",
-   "b": "tears",
-   "w": 34
-  },
-  {
-   "a": "alduin",
-   "b": "konahrik",
-   "w": 34
-  },
-  {
    "a": "darkwater",
    "b": "eldergleam",
-   "w": 34
-  },
-  {
-   "a": "aventus",
-   "b": "saijah",
    "w": 34
   },
   {
@@ -8382,33 +8349,43 @@
    "w": 34
   },
   {
+   "a": "alduin",
+   "b": "konahrik",
+   "w": 34
+  },
+  {
+   "a": "rahgot",
+   "b": "tears",
+   "w": 34
+  },
+  {
+   "a": "glacier",
+   "b": "orion",
+   "w": 34
+  },
+  {
+   "a": "cdi",
+   "b": "saijah",
+   "w": 34
+  },
+  {
+   "a": "jaha",
+   "b": "seraleth",
+   "w": 34
+  },
+  {
+   "a": "forelhost",
+   "b": "tears",
+   "w": 34
+  },
+  {
    "a": "davinia",
    "b": "pale-crown",
    "w": 33
   },
   {
-   "a": "conclave",
-   "b": "windhelm",
-   "w": 33
-  },
-  {
    "a": "alfonso",
    "b": "conclave",
-   "w": 33
-  },
-  {
-   "a": "dragonborn-question",
-   "b": "morokei",
-   "w": 33
-  },
-  {
-   "a": "ismara",
-   "b": "pale-crown",
-   "w": 33
-  },
-  {
-   "a": "balimund",
-   "b": "maven",
    "w": 33
   },
   {
@@ -8423,12 +8400,27 @@
   },
   {
    "a": "balimund",
-   "b": "danica",
-   "w": 32
+   "b": "maven",
+   "w": 33
   },
   {
-   "a": "dragon-cult",
-   "b": "tower-protocol",
+   "a": "conclave",
+   "b": "windhelm",
+   "w": 33
+  },
+  {
+   "a": "ismara",
+   "b": "pale-crown",
+   "w": 33
+  },
+  {
+   "a": "dragonborn-question",
+   "b": "morokei",
+   "w": 33
+  },
+  {
+   "a": "pale-court",
+   "b": "valerius",
    "w": 32
   },
   {
@@ -8437,13 +8429,13 @@
    "w": 32
   },
   {
-   "a": "alfonso",
-   "b": "pale-crown",
+   "a": "sildonia",
+   "b": "throat",
    "w": 32
   },
   {
-   "a": "colony",
-   "b": "riften",
+   "a": "balimund",
+   "b": "danica",
    "w": 32
   },
   {
@@ -8452,28 +8444,18 @@
    "w": 32
   },
   {
-   "a": "thalmor",
-   "b": "tower-protocol",
-   "w": 32
-  },
-  {
-   "a": "sildonia",
-   "b": "throat",
-   "w": 32
-  },
-  {
-   "a": "eldergleam",
-   "b": "sildonia",
-   "w": 32
-  },
-  {
-   "a": "pale-court",
-   "b": "valerius",
-   "w": 32
-  },
-  {
    "a": "alfonso",
    "b": "tears",
+   "w": 32
+  },
+  {
+   "a": "colony",
+   "b": "riften",
+   "w": 32
+  },
+  {
+   "a": "dragon-cult",
+   "b": "tower-protocol",
    "w": 32
   },
   {
@@ -8482,22 +8464,37 @@
    "w": 32
   },
   {
-   "a": "alfonso-plague",
-   "b": "riften",
-   "w": 31
+   "a": "thalmor",
+   "b": "tower-protocol",
+   "w": 32
   },
   {
-   "a": "kyboh",
+   "a": "eldergleam",
+   "b": "sildonia",
+   "w": 32
+  },
+  {
+   "a": "alfonso",
    "b": "pale-crown",
-   "w": 31
+   "w": 32
   },
   {
-   "a": "alfonso-plague",
-   "b": "orion",
+   "a": "lanterns",
+   "b": "tower-protocol",
    "w": 31
   },
   {
    "a": "eldergleam",
+   "b": "pale-crown",
+   "w": 31
+  },
+  {
+   "a": "lanterns",
+   "b": "pale-crown",
+   "w": 31
+  },
+  {
+   "a": "kyboh",
    "b": "pale-crown",
    "w": 31
   },
@@ -8512,18 +8509,18 @@
    "w": 31
   },
   {
-   "a": "lanterns",
-   "b": "pale-crown",
+   "a": "alfonso-plague",
+   "b": "riften",
+   "w": 31
+  },
+  {
+   "a": "alfonso-plague",
+   "b": "orion",
    "w": 31
   },
   {
    "a": "alfonso",
    "b": "colony",
-   "w": 31
-  },
-  {
-   "a": "lanterns",
-   "b": "tower-protocol",
    "w": 31
   },
   {
@@ -8537,18 +8534,13 @@
    "w": 30
   },
   {
-   "a": "pale-crown",
-   "b": "valerius",
-   "w": 30
-  },
-  {
-   "a": "tears",
-   "b": "ulag",
-   "w": 30
-  },
-  {
    "a": "jaha",
    "b": "saijah",
+   "w": 30
+  },
+  {
+   "a": "pale-crown",
+   "b": "valerius",
    "w": 30
   },
   {
@@ -8557,8 +8549,13 @@
    "w": 30
   },
   {
-   "a": "lanterns",
-   "b": "nahkriin",
+   "a": "tears",
+   "b": "ulag",
+   "w": 30
+  },
+  {
+   "a": "mythic-dawn",
+   "b": "tower-protocol",
    "w": 29
   },
   {
@@ -8567,48 +8564,8 @@
    "w": 29
   },
   {
-   "a": "alfonso-plague",
-   "b": "lanterns",
-   "w": 29
-  },
-  {
-   "a": "strain2",
-   "b": "tears",
-   "w": 29
-  },
-  {
-   "a": "balimund",
-   "b": "bjorn",
-   "w": 29
-  },
-  {
-   "a": "nahkriin",
-   "b": "otar",
-   "w": 29
-  },
-  {
-   "a": "balimund",
-   "b": "saijah",
-   "w": 29
-  },
-  {
-   "a": "mythic-dawn",
-   "b": "tower-protocol",
-   "w": 29
-  },
-  {
-   "a": "alfonso-plague",
-   "b": "davinia",
-   "w": 29
-  },
-  {
-   "a": "college",
-   "b": "soul-gems-nora",
-   "w": 29
-  },
-  {
-   "a": "alfonso-plague",
-   "b": "saijah",
+   "a": "lanterns",
+   "b": "nahkriin",
    "w": 29
   },
   {
@@ -8618,62 +8575,52 @@
   },
   {
    "a": "balimund",
+   "b": "saijah",
+   "w": 29
+  },
+  {
+   "a": "alfonso-plague",
+   "b": "lanterns",
+   "w": 29
+  },
+  {
+   "a": "balimund",
+   "b": "bjorn",
+   "w": 29
+  },
+  {
+   "a": "college",
+   "b": "soul-gems-nora",
+   "w": 29
+  },
+  {
+   "a": "strain2",
+   "b": "tears",
+   "w": 29
+  },
+  {
+   "a": "alfonso-plague",
+   "b": "davinia",
+   "w": 29
+  },
+  {
+   "a": "alfonso-plague",
+   "b": "saijah",
+   "w": 29
+  },
+  {
+   "a": "balimund",
    "b": "orion",
    "w": 29
   },
   {
-   "a": "gaelen",
-   "b": "sildonia",
-   "w": 28
-  },
-  {
-   "a": "konahrik",
-   "b": "rahgot",
-   "w": 28
-  },
-  {
-   "a": "forelhost",
-   "b": "morokei",
-   "w": 28
-  },
-  {
-   "a": "balimund",
-   "b": "davinia",
-   "w": 28
-  },
-  {
-   "a": "riften",
-   "b": "tower-protocol",
-   "w": 28
-  },
-  {
-   "a": "saijah",
-   "b": "soul-gems-nora",
-   "w": 28
-  },
-  {
-   "a": "dragonborn-question",
-   "b": "konahrik",
-   "w": 28
-  },
-  {
-   "a": "davinia",
-   "b": "klimmek",
-   "w": 28
-  },
-  {
-   "a": "mora",
+   "a": "nahkriin",
    "b": "otar",
-   "w": 28
+   "w": 29
   },
   {
-   "a": "hall-honored-dead",
-   "b": "nenya",
-   "w": 28
-  },
-  {
-   "a": "alfonso",
-   "b": "klimmek",
+   "a": "sildonia",
+   "b": "thalmor",
    "w": 28
   },
   {
@@ -8682,8 +8629,8 @@
    "w": 28
   },
   {
-   "a": "sildonia",
-   "b": "thalmor",
+   "a": "alfonso",
+   "b": "klimmek",
    "w": 28
   },
   {
@@ -8692,8 +8639,13 @@
    "w": 28
   },
   {
-   "a": "klimmek",
-   "b": "riften",
+   "a": "saijah",
+   "b": "soul-gems-nora",
+   "w": 28
+  },
+  {
+   "a": "riften",
+   "b": "tower-protocol",
    "w": 28
   },
   {
@@ -8702,8 +8654,38 @@
    "w": 28
   },
   {
-   "a": "orion",
-   "b": "resonator",
+   "a": "balimund",
+   "b": "davinia",
+   "w": 28
+  },
+  {
+   "a": "forelhost",
+   "b": "morokei",
+   "w": 28
+  },
+  {
+   "a": "klimmek",
+   "b": "riften",
+   "w": 28
+  },
+  {
+   "a": "davinia",
+   "b": "klimmek",
+   "w": 28
+  },
+  {
+   "a": "dragonborn-question",
+   "b": "konahrik",
+   "w": 28
+  },
+  {
+   "a": "mora",
+   "b": "otar",
+   "w": 28
+  },
+  {
+   "a": "konahrik",
+   "b": "rahgot",
    "w": 28
   },
   {
@@ -8712,14 +8694,19 @@
    "w": 28
   },
   {
-   "a": "alfonso",
-   "b": "deep-rust",
-   "w": 27
+   "a": "gaelen",
+   "b": "sildonia",
+   "w": 28
   },
   {
-   "a": "klimmek",
-   "b": "saijah",
-   "w": 27
+   "a": "hall-honored-dead",
+   "b": "nenya",
+   "w": 28
+  },
+  {
+   "a": "orion",
+   "b": "resonator",
+   "w": 28
   },
   {
    "a": "bards-college",
@@ -8729,26 +8716,6 @@
   {
    "a": "deep-rust",
    "b": "rapier",
-   "w": 27
-  },
-  {
-   "a": "konahrik",
-   "b": "mora",
-   "w": 27
-  },
-  {
-   "a": "klimmek",
-   "b": "lanterns",
-   "w": 27
-  },
-  {
-   "a": "konahrik",
-   "b": "otar",
-   "w": 27
-  },
-  {
-   "a": "esbern",
-   "b": "klimmek",
    "w": 27
   },
   {
@@ -8762,28 +8729,38 @@
    "w": 27
   },
   {
-   "a": "mora",
-   "b": "morokei",
-   "w": 26
+   "a": "konahrik",
+   "b": "mora",
+   "w": 27
   },
   {
-   "a": "saijah",
-   "b": "severance",
-   "w": 26
+   "a": "klimmek",
+   "b": "saijah",
+   "w": 27
+  },
+  {
+   "a": "esbern",
+   "b": "klimmek",
+   "w": 27
   },
   {
    "a": "alfonso",
-   "b": "hall-honored-dead",
-   "w": 26
+   "b": "deep-rust",
+   "w": 27
+  },
+  {
+   "a": "klimmek",
+   "b": "lanterns",
+   "w": 27
+  },
+  {
+   "a": "konahrik",
+   "b": "otar",
+   "w": 27
   },
   {
    "a": "klimmek",
    "b": "windhelm",
-   "w": 26
-  },
-  {
-   "a": "alfonso",
-   "b": "falkreath-prisoners",
    "w": 26
   },
   {
@@ -8797,8 +8774,8 @@
    "w": 26
   },
   {
-   "a": "konahrik",
-   "b": "morokei",
+   "a": "alfonso",
+   "b": "falkreath-prisoners",
    "w": 26
   },
   {
@@ -8807,27 +8784,32 @@
    "w": 26
   },
   {
+   "a": "alfonso",
+   "b": "hall-honored-dead",
+   "w": 26
+  },
+  {
+   "a": "mora",
+   "b": "morokei",
+   "w": 26
+  },
+  {
    "a": "klimmek",
    "b": "orion",
    "w": 26
   },
   {
-   "a": "soul-cairn",
-   "b": "soul-gems-nora",
-   "w": 25
+   "a": "konahrik",
+   "b": "morokei",
+   "w": 26
   },
   {
-   "a": "falkreath-prisoners",
-   "b": "hall-honored-dead",
-   "w": 25
+   "a": "saijah",
+   "b": "severance",
+   "w": 26
   },
   {
-   "a": "dragon-cult",
-   "b": "sildonia",
-   "w": 25
-  },
-  {
-   "a": "alfonso",
+   "a": "mythic-dawn",
    "b": "pale-court",
    "w": 25
   },
@@ -8837,8 +8819,13 @@
    "w": 25
   },
   {
-   "a": "dragon-cult",
+   "a": "alfonso",
    "b": "pale-court",
+   "w": 25
+  },
+  {
+   "a": "dragon-cult",
+   "b": "sildonia",
    "w": 25
   },
   {
@@ -8847,12 +8834,12 @@
    "w": 25
   },
   {
-   "a": "mythic-dawn",
-   "b": "pale-court",
+   "a": "falkreath-prisoners",
+   "b": "hall-honored-dead",
    "w": 25
   },
   {
-   "a": "davinia",
+   "a": "hjolmar",
    "b": "resonator",
    "w": 25
   },
@@ -8862,9 +8849,39 @@
    "w": 25
   },
   {
-   "a": "hjolmar",
+   "a": "dragon-cult",
+   "b": "pale-court",
+   "w": 25
+  },
+  {
+   "a": "davinia",
    "b": "resonator",
    "w": 25
+  },
+  {
+   "a": "soul-cairn",
+   "b": "soul-gems-nora",
+   "w": 25
+  },
+  {
+   "a": "riften",
+   "b": "true-wardens",
+   "w": 24
+  },
+  {
+   "a": "pale-court",
+   "b": "solitude",
+   "w": 24
+  },
+  {
+   "a": "lanterns",
+   "b": "true-wardens",
+   "w": 24
+  },
+  {
+   "a": "morthal",
+   "b": "solitude",
+   "w": 24
   },
   {
    "a": "conclave",
@@ -8872,7 +8889,22 @@
    "w": 24
   },
   {
-   "a": "lanterns",
+   "a": "falkreath-prisoners",
+   "b": "orion",
+   "w": 24
+  },
+  {
+   "a": "antoine",
+   "b": "conclave",
+   "w": 24
+  },
+  {
+   "a": "severance",
+   "b": "varon",
+   "w": 24
+  },
+  {
+   "a": "danica",
    "b": "true-wardens",
    "w": 24
   },
@@ -8887,64 +8919,9 @@
    "w": 24
   },
   {
-   "a": "antoine",
-   "b": "conclave",
-   "w": 24
-  },
-  {
-   "a": "danica",
-   "b": "true-wardens",
-   "w": 24
-  },
-  {
-   "a": "riften",
-   "b": "true-wardens",
-   "w": 24
-  },
-  {
-   "a": "falkreath-prisoners",
-   "b": "orion",
-   "w": 24
-  },
-  {
    "a": "davinia",
    "b": "true-wardens",
    "w": 24
-  },
-  {
-   "a": "severance",
-   "b": "varon",
-   "w": 24
-  },
-  {
-   "a": "morthal",
-   "b": "solitude",
-   "w": 24
-  },
-  {
-   "a": "pale-court",
-   "b": "solitude",
-   "w": 24
-  },
-  {
-   "a": "davinia",
-   "b": "tower-protocol",
-   "w": 23
-  },
-  {
-   "a": "jaha",
-   "b": "kyboh",
-   "w": 23
-  },
-  {
-   "a": "severance",
-   "b": "valerius",
-   "w": 23
-  },
-  {
-   "a": "falkreath-prisoners",
-   "b": "nenya",
-   "w": 23
   },
   {
    "a": "empire",
@@ -8954,6 +8931,16 @@
   {
    "a": "falkreath",
    "b": "hall-honored-dead",
+   "w": 23
+  },
+  {
+   "a": "falkreath-prisoners",
+   "b": "nenya",
+   "w": 23
+  },
+  {
+   "a": "severance",
+   "b": "valerius",
    "w": 23
   },
   {
@@ -8967,9 +8954,14 @@
    "w": 23
   },
   {
+   "a": "jaha",
+   "b": "kyboh",
+   "w": 23
+  },
+  {
    "a": "davinia",
-   "b": "jaha",
-   "w": 22
+   "b": "tower-protocol",
+   "w": 23
   },
   {
    "a": "falkreath",
@@ -8977,13 +8969,8 @@
    "w": 22
   },
   {
-   "a": "bards-college",
-   "b": "orion",
-   "w": 22
-  },
-  {
-   "a": "alfonso",
-   "b": "nenya",
+   "a": "davinia",
+   "b": "jaha",
    "w": 22
   },
   {
@@ -8997,17 +8984,22 @@
    "w": 22
   },
   {
+   "a": "alfonso",
+   "b": "nenya",
+   "w": 22
+  },
+  {
    "a": "conclave",
    "b": "saijah",
    "w": 22
   },
   {
-   "a": "hall-honored-dead",
-   "b": "saijah",
-   "w": 21
+   "a": "bards-college",
+   "b": "orion",
+   "w": 22
   },
   {
-   "a": "nenya",
+   "a": "falkreath-prisoners",
    "b": "saijah",
    "w": 21
   },
@@ -9017,28 +9009,23 @@
    "w": 21
   },
   {
+   "a": "nenya",
+   "b": "saijah",
+   "w": 21
+  },
+  {
+   "a": "hall-honored-dead",
+   "b": "saijah",
+   "w": 21
+  },
+  {
    "a": "falkreath-prisoners",
    "b": "kyboh",
    "w": 21
   },
   {
-   "a": "falkreath-prisoners",
-   "b": "saijah",
-   "w": 21
-  },
-  {
-   "a": "forelhost",
-   "b": "konahrik",
-   "w": 20
-  },
-  {
    "a": "solitude",
    "b": "true-wardens",
-   "w": 20
-  },
-  {
-   "a": "quintus",
-   "b": "solitude",
    "w": 20
   },
   {
@@ -9047,7 +9034,32 @@
    "w": 20
   },
   {
+   "a": "quintus",
+   "b": "solitude",
+   "w": 20
+  },
+  {
+   "a": "alfonso",
+   "b": "resonator",
+   "w": 20
+  },
+  {
+   "a": "davinia",
+   "b": "quintus",
+   "w": 20
+  },
+  {
    "a": "lanterns",
+   "b": "quintus",
+   "w": 20
+  },
+  {
+   "a": "forelhost",
+   "b": "konahrik",
+   "w": 20
+  },
+  {
+   "a": "orion",
    "b": "quintus",
    "w": 20
   },
@@ -9057,19 +9069,19 @@
    "w": 20
   },
   {
-   "a": "davinia",
-   "b": "quintus",
-   "w": 20
+   "a": "resonator",
+   "b": "varon",
+   "w": 19
   },
   {
-   "a": "orion",
-   "b": "quintus",
-   "w": 20
+   "a": "brotherhood",
+   "b": "vasha",
+   "w": 19
   },
   {
-   "a": "alfonso",
-   "b": "resonator",
-   "w": 20
+   "a": "celestine",
+   "b": "solitude",
+   "w": 19
   },
   {
    "a": "celestine",
@@ -9077,13 +9089,18 @@
    "w": 19
   },
   {
-   "a": "nora",
-   "b": "severance",
+   "a": "celestine",
+   "b": "razor",
    "w": 19
   },
   {
    "a": "quintus",
    "b": "valerius",
+   "w": 19
+  },
+  {
+   "a": "celestine",
+   "b": "kyboh",
    "w": 19
   },
   {
@@ -9097,28 +9114,18 @@
    "w": 19
   },
   {
-   "a": "celestine",
-   "b": "solitude",
-   "w": 19
-  },
-  {
-   "a": "celestine",
-   "b": "orion",
-   "w": 19
-  },
-  {
-   "a": "brotherhood",
+   "a": "empire",
    "b": "vasha",
+   "w": 19
+  },
+  {
+   "a": "celestine",
+   "b": "krusp",
    "w": 19
   },
   {
    "a": "lanterns",
    "b": "vasha",
-   "w": 19
-  },
-  {
-   "a": "resonator",
-   "b": "varon",
    "w": 19
   },
   {
@@ -9132,18 +9139,18 @@
    "w": 19
   },
   {
+   "a": "celestine",
+   "b": "orion",
+   "w": 19
+  },
+  {
    "a": "empire",
    "b": "morthal",
    "w": 19
   },
   {
-   "a": "celestine",
-   "b": "kyboh",
-   "w": 19
-  },
-  {
-   "a": "celestine",
-   "b": "razor",
+   "a": "nora",
+   "b": "severance",
    "w": 19
   },
   {
@@ -9152,47 +9159,12 @@
    "w": 19
   },
   {
-   "a": "celestine",
-   "b": "krusp",
-   "w": 19
-  },
-  {
-   "a": "empire",
-   "b": "vasha",
-   "w": 19
-  },
-  {
-   "a": "fort-dunstad",
-   "b": "windhelm",
-   "w": 18
-  },
-  {
-   "a": "quintus",
-   "b": "torygg",
-   "w": 18
-  },
-  {
-   "a": "davinia",
-   "b": "soul-cairn",
-   "w": 18
-  },
-  {
-   "a": "alfonso",
-   "b": "soul-cairn",
-   "w": 18
-  },
-  {
-   "a": "solitude",
-   "b": "vasha",
+   "a": "morthal",
+   "b": "riften",
    "w": 18
   },
   {
    "a": "torygg",
-   "b": "vasha",
-   "w": 18
-  },
-  {
-   "a": "krusp",
    "b": "vasha",
    "w": 18
   },
@@ -9202,8 +9174,23 @@
    "w": 18
   },
   {
+   "a": "davinia",
+   "b": "soul-cairn",
+   "w": 18
+  },
+  {
    "a": "morthal",
    "b": "valerius",
+   "w": 18
+  },
+  {
+   "a": "krusp",
+   "b": "vasha",
+   "w": 18
+  },
+  {
+   "a": "quintus",
+   "b": "torygg",
    "w": 18
   },
   {
@@ -9212,8 +9199,8 @@
    "w": 18
   },
   {
-   "a": "fort-dunstad",
-   "b": "vokun",
+   "a": "solitude",
+   "b": "vasha",
    "w": 18
   },
   {
@@ -9222,14 +9209,19 @@
    "w": 18
   },
   {
-   "a": "morthal",
-   "b": "riften",
+   "a": "alfonso",
+   "b": "soul-cairn",
    "w": 18
   },
   {
-   "a": "orion",
-   "b": "soul-cairn",
-   "w": 17
+   "a": "fort-dunstad",
+   "b": "vokun",
+   "w": 18
+  },
+  {
+   "a": "fort-dunstad",
+   "b": "windhelm",
+   "w": 18
   },
   {
    "a": "fort-dunstad",
@@ -9237,8 +9229,8 @@
    "w": 17
   },
   {
-   "a": "deep-rust",
-   "b": "peryite",
+   "a": "alfonso",
+   "b": "quintus",
    "w": 17
   },
   {
@@ -9247,8 +9239,13 @@
    "w": 17
   },
   {
-   "a": "alfonso",
-   "b": "quintus",
+   "a": "orion",
+   "b": "soul-cairn",
+   "w": 17
+  },
+  {
+   "a": "deep-rust",
+   "b": "peryite",
    "w": 17
   },
   {
@@ -9258,22 +9255,17 @@
   },
   {
    "a": "fort-dunstad",
-   "b": "thalmor",
+   "b": "riften",
+   "w": 16
+  },
+  {
+   "a": "morthal",
+   "b": "orion",
    "w": 16
   },
   {
    "a": "antoine",
    "b": "deep-rust",
-   "w": 16
-  },
-  {
-   "a": "hall-honored-dead",
-   "b": "jaha",
-   "w": 16
-  },
-  {
-   "a": "lanterns",
-   "b": "morthal",
    "w": 16
   },
   {
@@ -9283,12 +9275,7 @@
   },
   {
    "a": "fort-dunstad",
-   "b": "riften",
-   "w": 16
-  },
-  {
-   "a": "resonator",
-   "b": "severance",
+   "b": "thalmor",
    "w": 16
   },
   {
@@ -9297,24 +9284,24 @@
    "w": 16
   },
   {
+   "a": "lanterns",
+   "b": "morthal",
+   "w": 16
+  },
+  {
    "a": "balgruuf",
    "b": "davinia",
    "w": 16
   },
   {
-   "a": "morthal",
-   "b": "orion",
+   "a": "hall-honored-dead",
+   "b": "jaha",
    "w": 16
   },
   {
-   "a": "deep-rust",
-   "b": "forelhost",
-   "w": 15
-  },
-  {
-   "a": "jaha",
-   "b": "nenya",
-   "w": 15
+   "a": "resonator",
+   "b": "severance",
+   "w": 16
   },
   {
    "a": "davinia",
@@ -9323,7 +9310,7 @@
   },
   {
    "a": "hawk-artifacts",
-   "b": "orion",
+   "b": "saijah",
    "w": 15
   },
   {
@@ -9333,83 +9320,18 @@
   },
   {
    "a": "hawk-artifacts",
-   "b": "saijah",
+   "b": "orion",
    "w": 15
   },
   {
-   "a": "bards-college",
-   "b": "torygg",
-   "w": 14
+   "a": "jaha",
+   "b": "nenya",
+   "w": 15
   },
   {
-   "a": "silus",
-   "b": "throat",
-   "w": 14
-  },
-  {
-   "a": "lylana-anya",
-   "b": "riften",
-   "w": 14
-  },
-  {
-   "a": "silus",
-   "b": "thalmor",
-   "w": 14
-  },
-  {
-   "a": "ivarstead",
-   "b": "silus",
-   "w": 14
-  },
-  {
-   "a": "college",
-   "b": "soul-cairn",
-   "w": 14
-  },
-  {
-   "a": "bards-college",
-   "b": "valerius",
-   "w": 14
-  },
-  {
-   "a": "lylana-anya",
-   "b": "orion",
-   "w": 14
-  },
-  {
-   "a": "mythic-dawn",
-   "b": "silus",
-   "w": 14
-  },
-  {
-   "a": "bjorn",
-   "b": "lylana-anya",
-   "w": 14
-  },
-  {
-   "a": "razor",
-   "b": "silus",
-   "w": 14
-  },
-  {
-   "a": "bards-college",
-   "b": "lanterns",
-   "w": 14
-  },
-  {
-   "a": "eldergleam",
-   "b": "silus",
-   "w": 14
-  },
-  {
-   "a": "davinia",
-   "b": "lylana-anya",
-   "w": 14
-  },
-  {
-   "a": "alfonso",
-   "b": "lylana-anya",
-   "w": 14
+   "a": "deep-rust",
+   "b": "forelhost",
+   "w": 15
   },
   {
    "a": "lanterns",
@@ -9417,8 +9339,8 @@
    "w": 14
   },
   {
-   "a": "bards-college",
-   "b": "krusp",
+   "a": "lylana-anya",
+   "b": "riften",
    "w": 14
   },
   {
@@ -9428,7 +9350,42 @@
   },
   {
    "a": "bards-college",
+   "b": "lanterns",
+   "w": 14
+  },
+  {
+   "a": "lylana-anya",
+   "b": "orion",
+   "w": 14
+  },
+  {
+   "a": "ivarstead",
+   "b": "silus",
+   "w": 14
+  },
+  {
+   "a": "silus",
+   "b": "thalmor",
+   "w": 14
+  },
+  {
+   "a": "silus",
+   "b": "throat",
+   "w": 14
+  },
+  {
+   "a": "davinia",
+   "b": "lylana-anya",
+   "w": 14
+  },
+  {
+   "a": "bards-college",
    "b": "davinia",
+   "w": 14
+  },
+  {
+   "a": "college",
+   "b": "soul-cairn",
    "w": 14
   },
   {
@@ -9442,24 +9399,49 @@
    "w": 14
   },
   {
-   "a": "saijah",
+   "a": "bards-college",
+   "b": "krusp",
+   "w": 14
+  },
+  {
+   "a": "mythic-dawn",
+   "b": "silus",
+   "w": 14
+  },
+  {
+   "a": "alfonso",
+   "b": "lylana-anya",
+   "w": 14
+  },
+  {
+   "a": "razor",
+   "b": "silus",
+   "w": 14
+  },
+  {
+   "a": "bards-college",
+   "b": "valerius",
+   "w": 14
+  },
+  {
+   "a": "eldergleam",
    "b": "silus",
    "w": 14
   },
   {
    "a": "bjorn",
-   "b": "pale-ladys-tomb",
-   "w": 13
+   "b": "lylana-anya",
+   "w": 14
   },
   {
-   "a": "alfonso",
-   "b": "stormcloak-courier",
-   "w": 13
+   "a": "bards-college",
+   "b": "torygg",
+   "w": 14
   },
   {
-   "a": "bjorn",
-   "b": "hawk-artifacts",
-   "w": 13
+   "a": "saijah",
+   "b": "silus",
+   "w": 14
   },
   {
    "a": "alfonso",
@@ -9467,18 +9449,23 @@
    "w": 13
   },
   {
-   "a": "hawk-artifacts",
-   "b": "hircine",
-   "w": 13
-  },
-  {
-   "a": "galmar",
+   "a": "alfonso",
    "b": "stormcloak-courier",
    "w": 13
   },
   {
-   "a": "kyboh",
-   "b": "lylana-anya",
+   "a": "bjorn",
+   "b": "pale-ladys-tomb",
+   "w": 13
+  },
+  {
+   "a": "falkreath-prisoners",
+   "b": "seraleth",
+   "w": 13
+  },
+  {
+   "a": "hawk-artifacts",
+   "b": "hircine",
    "w": 13
   },
   {
@@ -9497,8 +9484,18 @@
    "w": 13
   },
   {
-   "a": "falkreath-prisoners",
-   "b": "seraleth",
+   "a": "kyboh",
+   "b": "lylana-anya",
+   "w": 13
+  },
+  {
+   "a": "galmar",
+   "b": "stormcloak-courier",
+   "w": 13
+  },
+  {
+   "a": "bjorn",
+   "b": "hawk-artifacts",
    "w": 13
   },
   {
@@ -9512,23 +9509,13 @@
    "w": 13
   },
   {
-   "a": "torik",
-   "b": "true-wardens",
-   "w": 12
-  },
-  {
-   "a": "riften",
-   "b": "stormcloak-courier",
-   "w": 12
-  },
-  {
-   "a": "razor",
+   "a": "orion",
    "b": "torik",
    "w": 12
   },
   {
-   "a": "davinia",
-   "b": "stormcloak-courier",
+   "a": "riften",
+   "b": "torik",
    "w": 12
   },
   {
@@ -9537,18 +9524,18 @@
    "w": 12
   },
   {
-   "a": "solitude",
-   "b": "torik",
-   "w": 12
-  },
-  {
-   "a": "throat",
-   "b": "torik",
+   "a": "saijah",
+   "b": "stormcloak-courier",
    "w": 12
   },
   {
    "a": "nenya",
    "b": "whiterun",
+   "w": 12
+  },
+  {
+   "a": "davinia",
+   "b": "stormcloak-courier",
    "w": 12
   },
   {
@@ -9562,17 +9549,32 @@
    "w": 12
   },
   {
-   "a": "saijah",
-   "b": "stormcloak-courier",
-   "w": 12
-  },
-  {
-   "a": "orion",
+   "a": "solitude",
    "b": "torik",
    "w": 12
   },
   {
-   "a": "lanterns",
+   "a": "razor",
+   "b": "torik",
+   "w": 12
+  },
+  {
+   "a": "riften",
+   "b": "stormcloak-courier",
+   "w": 12
+  },
+  {
+   "a": "torik",
+   "b": "true-wardens",
+   "w": 12
+  },
+  {
+   "a": "saijah",
+   "b": "torik",
+   "w": 12
+  },
+  {
+   "a": "throat",
    "b": "torik",
    "w": 12
   },
@@ -9582,48 +9584,13 @@
    "w": 12
   },
   {
-   "a": "riften",
-   "b": "torik",
-   "w": 12
-  },
-  {
-   "a": "saijah",
+   "a": "lanterns",
    "b": "torik",
    "w": 12
   },
   {
    "a": "balgruuf",
-   "b": "kyboh",
-   "w": 11
-  },
-  {
-   "a": "rapier",
-   "b": "stormcloak-courier",
-   "w": 11
-  },
-  {
-   "a": "lanterns",
-   "b": "milas-mother",
-   "w": 11
-  },
-  {
-   "a": "milas-mother",
-   "b": "riften",
-   "w": 11
-  },
-  {
-   "a": "falsetto",
-   "b": "whiterun",
-   "w": 11
-  },
-  {
-   "a": "alfonso",
-   "b": "milas-mother",
-   "w": 11
-  },
-  {
-   "a": "davinia",
-   "b": "falsetto",
+   "b": "danica",
    "w": 11
   },
   {
@@ -9632,13 +9599,23 @@
    "w": 11
   },
   {
-   "a": "balgruuf",
-   "b": "danica",
+   "a": "lanterns",
+   "b": "milas-mother",
+   "w": 11
+  },
+  {
+   "a": "davinia",
+   "b": "falsetto",
    "w": 11
   },
   {
    "a": "milas-mother",
-   "b": "saijah",
+   "b": "riften",
+   "w": 11
+  },
+  {
+   "a": "balgruuf",
+   "b": "kyboh",
    "w": 11
   },
   {
@@ -9647,48 +9624,28 @@
    "w": 11
   },
   {
-   "a": "falsetto",
-   "b": "saijah",
-   "w": 10
-  },
-  {
-   "a": "saijah",
-   "b": "seraleth",
-   "w": 10
-  },
-  {
-   "a": "dragonborn-question",
+   "a": "alfonso",
    "b": "milas-mother",
-   "w": 10
+   "w": 11
   },
   {
-   "a": "falkreath",
-   "b": "pale-ladys-tomb",
-   "w": 10
+   "a": "rapier",
+   "b": "stormcloak-courier",
+   "w": 11
+  },
+  {
+   "a": "falsetto",
+   "b": "whiterun",
+   "w": 11
+  },
+  {
+   "a": "milas-mother",
+   "b": "saijah",
+   "w": 11
   },
   {
    "a": "danica",
    "b": "falsetto",
-   "w": 10
-  },
-  {
-   "a": "saijah",
-   "b": "soul-cairn",
-   "w": 10
-  },
-  {
-   "a": "milas-mother",
-   "b": "orion",
-   "w": 10
-  },
-  {
-   "a": "seraleth",
-   "b": "valerius",
-   "w": 10
-  },
-  {
-   "a": "pale-ladys-tomb",
-   "b": "valerius",
    "w": 10
   },
   {
@@ -9697,8 +9654,38 @@
    "w": 10
   },
   {
-   "a": "balgruuf",
-   "b": "empire",
+   "a": "dragonborn-question",
+   "b": "milas-mother",
+   "w": 10
+  },
+  {
+   "a": "saijah",
+   "b": "soul-cairn",
+   "w": 10
+  },
+  {
+   "a": "saijah",
+   "b": "seraleth",
+   "w": 10
+  },
+  {
+   "a": "milas-mother",
+   "b": "orion",
+   "w": 10
+  },
+  {
+   "a": "falsetto",
+   "b": "saijah",
+   "w": 10
+  },
+  {
+   "a": "falkreath",
+   "b": "pale-ladys-tomb",
+   "w": 10
+  },
+  {
+   "a": "pale-ladys-tomb",
+   "b": "valerius",
    "w": 10
   },
   {
@@ -9707,29 +9694,14 @@
    "w": 10
   },
   {
-   "a": "davinia",
-   "b": "dragonbone-shard",
-   "w": 9
+   "a": "balgruuf",
+   "b": "empire",
+   "w": 10
   },
   {
-   "a": "pale-ladys-tomb",
-   "b": "saijah",
-   "w": 9
-  },
-  {
-   "a": "dragonbone-shard",
-   "b": "kyboh",
-   "w": 9
-  },
-  {
-   "a": "dragonbone-shard",
-   "b": "dragonborn-question",
-   "w": 9
-  },
-  {
-   "a": "riften",
-   "b": "stable-boy",
-   "w": 9
+   "a": "seraleth",
+   "b": "valerius",
+   "w": 10
   },
   {
    "a": "bjorn",
@@ -9737,8 +9709,8 @@
    "w": 9
   },
   {
-   "a": "orion",
-   "b": "stable-boy",
+   "a": "pale-ladys-tomb",
+   "b": "saijah",
    "w": 9
   },
   {
@@ -9752,13 +9724,18 @@
    "w": 9
   },
   {
-   "a": "orion",
-   "b": "pale-ladys-tomb",
+   "a": "dragonbone-shard",
+   "b": "riften",
    "w": 9
   },
   {
    "a": "dragonbone-shard",
-   "b": "riften",
+   "b": "orion",
+   "w": 9
+  },
+  {
+   "a": "orion",
+   "b": "pale-ladys-tomb",
    "w": 9
   },
   {
@@ -9768,12 +9745,42 @@
   },
   {
    "a": "dragonbone-shard",
-   "b": "orion",
+   "b": "dragonborn-question",
+   "w": 9
+  },
+  {
+   "a": "davinia",
+   "b": "dragonbone-shard",
+   "w": 9
+  },
+  {
+   "a": "orion",
+   "b": "stable-boy",
+   "w": 9
+  },
+  {
+   "a": "riften",
+   "b": "stable-boy",
+   "w": 9
+  },
+  {
+   "a": "dragonbone-shard",
+   "b": "kyboh",
    "w": 9
   },
   {
    "a": "falsetto",
    "b": "kyboh",
+   "w": 8
+  },
+  {
+   "a": "stable-boy",
+   "b": "windhelm",
+   "w": 8
+  },
+  {
+   "a": "dragonbone-shard",
+   "b": "mila",
    "w": 8
   },
   {
@@ -9787,18 +9794,18 @@
    "w": 8
   },
   {
-   "a": "dragonbone-shard",
-   "b": "mila",
-   "w": 8
+   "a": "empire",
+   "b": "sybil-stentor",
+   "w": 7
+  },
+  {
+   "a": "hofgrir",
+   "b": "saijah",
+   "w": 7
   },
   {
    "a": "stable-boy",
-   "b": "windhelm",
-   "w": 8
-  },
-  {
-   "a": "empire",
-   "b": "sybil-stentor",
+   "b": "strain1",
    "w": 7
   },
   {
@@ -9807,8 +9814,48 @@
    "w": 7
   },
   {
+   "a": "lanterns",
+   "b": "sybil-stentor",
+   "w": 7
+  },
+  {
    "a": "hofgrir",
    "b": "rapier",
+   "w": 7
+  },
+  {
+   "a": "hofgrir",
+   "b": "riften",
+   "w": 7
+  },
+  {
+   "a": "hofgrir",
+   "b": "varon",
+   "w": 7
+  },
+  {
+   "a": "hofgrir",
+   "b": "orion",
+   "w": 7
+  },
+  {
+   "a": "bjorn",
+   "b": "sybil-stentor",
+   "w": 7
+  },
+  {
+   "a": "hofgrir",
+   "b": "strain1",
+   "w": 7
+  },
+  {
+   "a": "stable-boy",
+   "b": "varon",
+   "w": 7
+  },
+  {
+   "a": "falsetto",
+   "b": "riften",
    "w": 7
   },
   {
@@ -9818,17 +9865,27 @@
   },
   {
    "a": "hofgrir",
-   "b": "orion",
+   "b": "rahgot",
    "w": 7
   },
   {
-   "a": "stable-boy",
-   "b": "varon",
+   "a": "saijah",
+   "b": "stable-boy",
    "w": 7
   },
   {
    "a": "college",
    "b": "memory-ledger",
+   "w": 7
+  },
+  {
+   "a": "davinia",
+   "b": "sybil-stentor",
+   "w": 7
+  },
+  {
+   "a": "orion",
+   "b": "sybil-stentor",
    "w": 7
   },
   {
@@ -9838,36 +9895,11 @@
   },
   {
    "a": "hofgrir",
-   "b": "varon",
-   "w": 7
-  },
-  {
-   "a": "hofgrir",
-   "b": "riften",
-   "w": 7
-  },
-  {
-   "a": "falsetto",
-   "b": "riften",
-   "w": 7
-  },
-  {
-   "a": "hofgrir",
-   "b": "rahgot",
+   "b": "windhelm",
    "w": 7
   },
   {
    "a": "solitude",
-   "b": "sybil-stentor",
-   "w": 7
-  },
-  {
-   "a": "stable-boy",
-   "b": "strain1",
-   "w": 7
-  },
-  {
-   "a": "lanterns",
    "b": "sybil-stentor",
    "w": 7
   },
@@ -9877,113 +9909,18 @@
    "w": 7
   },
   {
-   "a": "hofgrir",
-   "b": "saijah",
-   "w": 7
-  },
-  {
-   "a": "saijah",
-   "b": "stable-boy",
-   "w": 7
-  },
-  {
-   "a": "bjorn",
-   "b": "sybil-stentor",
-   "w": 7
-  },
-  {
-   "a": "davinia",
-   "b": "sybil-stentor",
-   "w": 7
-  },
-  {
-   "a": "hofgrir",
-   "b": "strain1",
-   "w": 7
-  },
-  {
-   "a": "orion",
-   "b": "sybil-stentor",
-   "w": 7
-  },
-  {
-   "a": "hofgrir",
-   "b": "windhelm",
-   "w": 7
-  },
-  {
-   "a": "kyboh-gloves",
-   "b": "lanterns",
-   "w": 6
-  },
-  {
-   "a": "varon",
-   "b": "wandering",
-   "w": 6
-  },
-  {
-   "a": "orion",
-   "b": "wandering",
-   "w": 6
-  },
-  {
-   "a": "kyboh-gloves",
-   "b": "valerius",
-   "w": 6
-  },
-  {
-   "a": "codex",
-   "b": "varon",
-   "w": 6
-  },
-  {
-   "a": "codex",
-   "b": "riften",
+   "a": "hall-honored-dead",
+   "b": "seraleth",
    "w": 6
   },
   {
    "a": "kyboh-gloves",
    "b": "orion",
-   "w": 6
-  },
-  {
-   "a": "kynareth",
-   "b": "wandering",
-   "w": 6
-  },
-  {
-   "a": "riften",
-   "b": "wandering",
-   "w": 6
-  },
-  {
-   "a": "codex",
-   "b": "orion",
-   "w": 6
-  },
-  {
-   "a": "balgruuf",
-   "b": "falsetto",
-   "w": 6
-  },
-  {
-   "a": "lanterns",
-   "b": "memory-ledger",
    "w": 6
   },
   {
    "a": "memory-ledger",
-   "b": "ylva",
-   "w": 6
-  },
-  {
-   "a": "davinia",
-   "b": "wandering",
-   "w": 6
-  },
-  {
-   "a": "codex",
-   "b": "strain1",
+   "b": "riften",
    "w": 6
   },
   {
@@ -9992,8 +9929,8 @@
    "w": 6
   },
   {
-   "a": "kyboh-gloves",
-   "b": "saijah",
+   "a": "ismara",
+   "b": "kyboh-gloves",
    "w": 6
   },
   {
@@ -10007,13 +9944,28 @@
    "w": 6
   },
   {
-   "a": "memory-ledger",
-   "b": "nora",
+   "a": "codex",
+   "b": "varon",
    "w": 6
   },
   {
-   "a": "saijah",
+   "a": "memory-ledger",
+   "b": "namira",
+   "w": 6
+  },
+  {
+   "a": "wandering",
+   "b": "ylva",
+   "w": 6
+  },
+  {
+   "a": "varon",
    "b": "wandering",
+   "w": 6
+  },
+  {
+   "a": "codex",
+   "b": "windhelm",
    "w": 6
   },
   {
@@ -10022,7 +9974,22 @@
    "w": 6
   },
   {
-   "a": "wandering",
+   "a": "davinia",
+   "b": "wandering",
+   "w": 6
+  },
+  {
+   "a": "kyboh-gloves",
+   "b": "lanterns",
+   "w": 6
+  },
+  {
+   "a": "kyboh-gloves",
+   "b": "valerius",
+   "w": 6
+  },
+  {
+   "a": "memory-ledger",
    "b": "ylva",
    "w": 6
   },
@@ -10033,22 +10000,37 @@
   },
   {
    "a": "codex",
-   "b": "windhelm",
-   "w": 6
-  },
-  {
-   "a": "memory-ledger",
-   "b": "namira",
-   "w": 6
-  },
-  {
-   "a": "memory-ledger",
-   "b": "riften",
+   "b": "rapier",
    "w": 6
   },
   {
    "a": "codex",
-   "b": "rapier",
+   "b": "riften",
+   "w": 6
+  },
+  {
+   "a": "saijah",
+   "b": "wandering",
+   "w": 6
+  },
+  {
+   "a": "kyboh-gloves",
+   "b": "saijah",
+   "w": 6
+  },
+  {
+   "a": "balgruuf",
+   "b": "falsetto",
+   "w": 6
+  },
+  {
+   "a": "codex",
+   "b": "orion",
+   "w": 6
+  },
+  {
+   "a": "codex",
+   "b": "strain1",
    "w": 6
   },
   {
@@ -10057,18 +10039,63 @@
    "w": 6
   },
   {
-   "a": "hall-honored-dead",
-   "b": "seraleth",
+   "a": "orion",
+   "b": "wandering",
    "w": 6
   },
   {
-   "a": "ismara",
-   "b": "kyboh-gloves",
+   "a": "kynareth",
+   "b": "wandering",
+   "w": 6
+  },
+  {
+   "a": "lanterns",
+   "b": "memory-ledger",
+   "w": 6
+  },
+  {
+   "a": "memory-ledger",
+   "b": "nora",
+   "w": 6
+  },
+  {
+   "a": "riften",
+   "b": "wandering",
    "w": 6
   },
   {
    "a": "hayloft-girl",
+   "b": "saijah",
+   "w": 5
+  },
+  {
+   "a": "caelan",
+   "b": "solitude",
+   "w": 5
+  },
+  {
+   "a": "hayloft-girl",
    "b": "varon",
+   "w": 5
+  },
+  {
+   "a": "hayloft-girl",
+   "b": "windhelm",
+   "w": 5
+  },
+  {
+   "a": "hayloft-girl",
+   "b": "ulag",
+   "w": 5
+  },
+  {
+   "a": "hayloft-girl",
+   "b": "strain1",
+   "w": 5
+  },
+  {
+   "a": "hayloft-girl",
+   "b": "rapier",
    "w": 5
   },
   {
@@ -10082,68 +10109,8 @@
    "w": 5
   },
   {
-   "a": "hayloft-girl",
-   "b": "saijah",
-   "w": 5
-  },
-  {
-   "a": "hayloft-girl",
-   "b": "strain1",
-   "w": 5
-  },
-  {
-   "a": "hayloft-girl",
-   "b": "windhelm",
-   "w": 5
-  },
-  {
-   "a": "hayloft-girl",
-   "b": "rapier",
-   "w": 5
-  },
-  {
-   "a": "hayloft-girl",
-   "b": "ulag",
-   "w": 5
-  },
-  {
-   "a": "caelan",
-   "b": "solitude",
-   "w": 5
-  },
-  {
-   "a": "eola",
-   "b": "jagged-crown",
-   "w": 3
-  },
-  {
-   "a": "eola",
-   "b": "galmar",
-   "w": 3
-  },
-  {
-   "a": "eola",
-   "b": "peryite",
-   "w": 3
-  },
-  {
    "a": "caelan",
    "b": "krusp",
-   "w": 3
-  },
-  {
-   "a": "eola",
-   "b": "windhelm",
-   "w": 3
-  },
-  {
-   "a": "eola",
-   "b": "sithis",
-   "w": 3
-  },
-  {
-   "a": "conclave",
-   "b": "eola",
    "w": 3
   },
   {
@@ -10153,12 +10120,32 @@
   },
   {
    "a": "caelan",
-   "b": "ylva",
+   "b": "kynareth",
+   "w": 3
+  },
+  {
+   "a": "eola",
+   "b": "jagged-crown",
+   "w": 3
+  },
+  {
+   "a": "eola",
+   "b": "windhelm",
    "w": 3
   },
   {
    "a": "caelan",
-   "b": "kynareth",
+   "b": "ylva",
+   "w": 3
+  },
+  {
+   "a": "eola",
+   "b": "sithis",
+   "w": 3
+  },
+  {
+   "a": "eola",
+   "b": "galmar",
    "w": 3
   },
   {
@@ -10167,13 +10154,18 @@
    "w": 3
   },
   {
-   "a": "azura-twins",
-   "b": "davinia",
-   "w": 2
+   "a": "conclave",
+   "b": "eola",
+   "w": 3
   },
   {
-   "a": "azura-twins",
-   "b": "riften",
+   "a": "eola",
+   "b": "peryite",
+   "w": 3
+  },
+  {
+   "a": "caelan",
+   "b": "varon",
    "w": 2
   },
   {
@@ -10183,12 +10175,37 @@
   },
   {
    "a": "azura-twins",
-   "b": "saijah",
+   "b": "davinia",
    "w": 2
   },
   {
    "a": "azura-twins",
-   "b": "kyboh",
+   "b": "saijah",
+   "w": 2
+  },
+  {
+   "a": "caelan",
+   "b": "ulag",
+   "w": 2
+  },
+  {
+   "a": "azura-twins",
+   "b": "riften",
+   "w": 2
+  },
+  {
+   "a": "azura-twins",
+   "b": "thornheart",
+   "w": 2
+  },
+  {
+   "a": "azura-twins",
+   "b": "kynareth",
+   "w": 2
+  },
+  {
+   "a": "azura-twins",
+   "b": "orion",
    "w": 2
   },
   {
@@ -10202,38 +10219,33 @@
    "w": 2
   },
   {
-   "a": "caelan",
-   "b": "ulag",
-   "w": 2
-  },
-  {
    "a": "azura-twins",
-   "b": "thornheart",
+   "b": "kyboh",
    "w": 2
-  },
-  {
-   "a": "caelan",
-   "b": "varon",
-   "w": 2
-  },
-  {
-   "a": "azura-twins",
-   "b": "orion",
-   "w": 2
-  },
-  {
-   "a": "azura-twins",
-   "b": "kynareth",
-   "w": 2
-  },
-  {
-   "a": "titan-ring",
-   "b": "torik",
-   "w": 1
   },
   {
    "a": "titan-ring",
    "b": "true-wardens",
+   "w": 1
+  },
+  {
+   "a": "titan-ring",
+   "b": "windhelm",
+   "w": 1
+  },
+  {
+   "a": "throat",
+   "b": "titan-ring",
+   "w": 1
+  },
+  {
+   "a": "solitude",
+   "b": "titan-ring",
+   "w": 1
+  },
+  {
+   "a": "riften",
+   "b": "titan-ring",
    "w": 1
   },
   {
@@ -10248,22 +10260,7 @@
   },
   {
    "a": "titan-ring",
-   "b": "windhelm",
-   "w": 1
-  },
-  {
-   "a": "solitude",
-   "b": "titan-ring",
-   "w": 1
-  },
-  {
-   "a": "throat",
-   "b": "titan-ring",
-   "w": 1
-  },
-  {
-   "a": "riften",
-   "b": "titan-ring",
+   "b": "torik",
    "w": 1
   }
  ],

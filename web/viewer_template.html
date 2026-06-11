@@ -45,8 +45,14 @@
     border:1px solid var(--pc);padding:8px 11px;font-size:12px;color:var(--ink);
     pointer-events:none;z-index:5;line-height:1.45}
   #edgeTip .ty{color:var(--pc);font-style:italic}
-  #hint{position:absolute;right:10px;bottom:10px;font-size:10px;color:#6f6248;
-    background:rgba(38,33,27,.8);padding:4px 8px;border:1px solid var(--line)}
+  #helpBtn{position:absolute;right:12px;top:12px;width:28px;height:28px;border-radius:50%;
+    background:rgba(38,33,27,.92);border:1px solid var(--line);color:var(--ink);
+    font:bold 15px Georgia,serif;cursor:pointer}
+  #helpBtn:hover{border-color:var(--pc);color:var(--pc)}
+  #hint{position:absolute;right:12px;top:46px;display:none;font-size:12px;color:var(--dim);
+    background:rgba(38,33,27,.96);padding:10px 14px;border:1px solid var(--line);
+    line-height:1.7;z-index:4}
+  #hint b{color:var(--ink)}
   #controls{position:absolute;left:10px;top:10px;background:rgba(38,33,27,.92);
     border:1px solid var(--line);padding:8px 12px;font-size:12px;color:var(--dim)}
   #controls label{display:block;cursor:pointer;margin:2px 0}
@@ -62,7 +68,16 @@
   </div>
   <div id="legend"></div>
   <div id="edgeTip"></div>
-  <div id="hint">click node = inspect · double-click = focus its world · double-click empty = clear · legend = filter types · hover a gold line = why</div>
+  <button id="helpBtn" title="controls">?</button>
+  <div id="hint">
+    <b>Controls</b><br>
+    click a node — inspect it in the side panel<br>
+    double-click a node — focus its world (hide everything else)<br>
+    double-click empty space — clear focus<br>
+    hover a gold line — see the relationship and why<br>
+    click legend entries — show/hide node types<br>
+    scroll — zoom · drag — pan
+  </div>
 </div>
 <div id="side">
   <h1>THE WEB</h1>
@@ -89,7 +104,10 @@ const CAND=DATA.candidates.filter(e=>NI[e.a]!=null&&NI[e.b]!=null);
 const deg={}; A.forEach(e=>{deg[e.src]=(deg[e.src]||0)+1;deg[e.dst]=(deg[e.dst]||0)+1;});
 
 const cv=document.getElementById('cv'),ctx=cv.getContext('2d');
-let W,H,cam={x:0,y:0,z:1},sel=null,hover=null,drag=null,panning=false,px=0,py=0;
+let W,H,cam={x:0,y:0,z:1},sel=null,hover=null,panning=false,px=0,py=0;
+document.getElementById('helpBtn').onclick=()=>{
+  const h=document.getElementById('hint');
+  h.style.display=h.style.display==='block'?'none':'block';};
 let hiddenTypes=new Set(),focusSet=null,hoverEdge=null;
 function visible(n){return !hiddenTypes.has(n.type)&&(!focusSet||focusSet.has(n.id));}
 function resize(){W=cv.width=cv.parentElement.clientWidth;H=cv.height=cv.parentElement.clientHeight;}
@@ -110,7 +128,7 @@ function step(){
     const d=Math.sqrt(dx*dx+dy*dy)||1,f=(d-len)*k;
     a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f;});
   N.forEach(n=>{n.vx*=0.82;n.vy*=0.82;
-    if(drag!==n){n.x+=n.vx;n.y+=n.vy;}
+    n.x+=n.vx;n.y+=n.vy;
     n.x*=0.9995;n.y*=0.9995;});
 }
 function world(mx,my){return{x:(mx-W/2)/cam.z-cam.x,y:(my-H/2)/cam.z-cam.y};}
@@ -163,12 +181,10 @@ function neighborhood(id){const s=new Set([id]);
   C.forEach(e=>{if(e.a===id)s.add(e.b);if(e.b===id)s.add(e.a);});return s;}
 function loop(){step();draw();requestAnimationFrame(loop);}loop();
 
-cv.addEventListener('mousedown',e=>{const w=world(e.offsetX,e.offsetY);
-  const n=pick(w);if(n){drag=n;}else{panning=true;}px=e.offsetX;py=e.offsetY;});
+cv.addEventListener('mousedown',e=>{panning=true;px=e.offsetX;py=e.offsetY;});
 const tip=document.getElementById('edgeTip');
 cv.addEventListener('mousemove',e=>{const w=world(e.offsetX,e.offsetY);
-  if(drag){drag.x=w.x;drag.y=w.y;drag.vx=drag.vy=0;}
-  else if(panning){cam.x+=(e.offsetX-px)/cam.z;cam.y+=(e.offsetY-py)/cam.z;px=e.offsetX;py=e.offsetY;}
+  if(panning){cam.x+=(e.offsetX-px)/cam.z;cam.y+=(e.offsetY-py)/cam.z;px=e.offsetX;py=e.offsetY;}
   else{hover=pick(w);
     hoverEdge=hover?null:nearestEdge(w);
     if(hoverEdge){
@@ -178,12 +194,14 @@ cv.addEventListener('mousemove',e=>{const w=world(e.offsetX,e.offsetY);
       tip.style.top=(e.offsetY+14)+'px';
     } else tip.style.display='none';}});
 window.addEventListener('mouseup',e=>{
-  if(drag&&Math.abs(e.offsetX-px)<4&&Math.abs(e.offsetY-py)<4){select(drag.id);}
-  drag=null;panning=false;});
-cv.addEventListener('dblclick',e=>{const w=world(e.offsetX,e.offsetY);
-  const n=pick(w);
+  if(panning&&Math.abs(e.offsetX-px)<4&&Math.abs(e.offsetY-py)<4){
+    const n=pick(world(e.offsetX,e.offsetY));
+    if(n)select(n.id);}
+  panning=false;});
+cv.addEventListener('dblclick',e=>{e.preventDefault();
+  const n=pick(world(e.offsetX,e.offsetY));
   if(n){focusSet=neighborhood(n.id);select(n.id);}
-  else focusSet=null;});
+  else{focusSet=null;}});
 cv.addEventListener('wheel',e=>{e.preventDefault();
   cam.z*=e.deltaY<0?1.12:0.89;cam.z=Math.max(0.15,Math.min(4,cam.z));},{passive:false});
 function pick(w){let best=null,bd=14;N.forEach(n=>{const d=Math.hypot(n.x-w.x,n.y-w.y);
