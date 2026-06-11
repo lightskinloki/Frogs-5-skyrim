@@ -39,6 +39,14 @@
   #legend{position:absolute;left:10px;bottom:10px;background:rgba(38,33,27,.92);
     border:1px solid var(--line);padding:8px 12px;font-size:11px;color:var(--dim)}
   #legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+  #legend span{cursor:pointer;user-select:none}
+  #legend span.off{opacity:0.3;text-decoration:line-through}
+  #edgeTip{position:absolute;display:none;max-width:340px;background:rgba(29,26,22,.97);
+    border:1px solid var(--pc);padding:8px 11px;font-size:12px;color:var(--ink);
+    pointer-events:none;z-index:5;line-height:1.45}
+  #edgeTip .ty{color:var(--pc);font-style:italic}
+  #hint{position:absolute;right:10px;bottom:10px;font-size:10px;color:#6f6248;
+    background:rgba(38,33,27,.8);padding:4px 8px;border:1px solid var(--line)}
   #controls{position:absolute;left:10px;top:10px;background:rgba(38,33,27,.92);
     border:1px solid var(--line);padding:8px 12px;font-size:12px;color:var(--dim)}
   #controls label{display:block;cursor:pointer;margin:2px 0}
@@ -53,6 +61,8 @@
     <label><input type="checkbox" id="showLabels" checked> labels</label>
   </div>
   <div id="legend"></div>
+  <div id="edgeTip"></div>
+  <div id="hint">click node = inspect · double-click = focus its world · double-click empty = clear · legend = filter types · hover a gold line = why</div>
 </div>
 <div id="side">
   <h1>THE WEB</h1>
@@ -80,6 +90,8 @@ const deg={}; A.forEach(e=>{deg[e.src]=(deg[e.src]||0)+1;deg[e.dst]=(deg[e.dst]|
 
 const cv=document.getElementById('cv'),ctx=cv.getContext('2d');
 let W,H,cam={x:0,y:0,z:1},sel=null,hover=null,drag=null,panning=false,px=0,py=0;
+let hiddenTypes=new Set(),focusSet=null,hoverEdge=null;
+function visible(n){return !hiddenTypes.has(n.type)&&(!focusSet||focusSet.has(n.id));}
 function resize(){W=cv.width=cv.parentElement.clientWidth;H=cv.height=cv.parentElement.clientHeight;}
 window.addEventListener('resize',resize);resize();
 
@@ -106,34 +118,45 @@ function draw(){
   ctx.clearRect(0,0,W,H);ctx.save();
   ctx.translate(W/2,H/2);ctx.scale(cam.z,cam.z);ctx.translate(cam.x,cam.y);
   const hi=sel?neighborhood(sel.id):null;
+  const vis=e=>visible(N[NI[e.src!==undefined?e.src:e.a]])&&visible(N[NI[e.dst!==undefined?e.dst:e.b]]);
   if(document.getElementById('showCooc').checked){
     ctx.lineWidth=0.5;
-    C.forEach(e=>{const a=N[NI[e.a]],b=N[NI[e.b]];
+    C.forEach(e=>{if(!vis(e))return;const a=N[NI[e.a]],b=N[NI[e.b]];
       ctx.strokeStyle=hi&&!(hi.has(e.a)&&hi.has(e.b))?'rgba(138,116,72,0.05)':'rgba(138,116,72,0.16)';
       ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();});}
   if(document.getElementById('showCand').checked){
     ctx.lineWidth=0.8;ctx.setLineDash([4,4]);
-    CAND.forEach(e=>{const a=N[NI[e.a]],b=N[NI[e.b]];
+    CAND.forEach(e=>{if(!vis(e))return;const a=N[NI[e.a]],b=N[NI[e.b]];
       ctx.strokeStyle='rgba(192,80,77,0.35)';
       ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();});
     ctx.setLineDash([]);}
-  ctx.lineWidth=1.3;
-  A.forEach(e=>{const a=N[NI[e.src]],b=N[NI[e.dst]];
+  A.forEach(e=>{if(!vis(e))return;const a=N[NI[e.src]],b=N[NI[e.dst]];
     const on=!hi||(hi.has(e.src)&&hi.has(e.dst));
-    ctx.strokeStyle=on?'rgba(227,179,76,0.55)':'rgba(227,179,76,0.06)';
+    ctx.lineWidth=(e===hoverEdge)?2.6:1.3;
+    ctx.strokeStyle=(e===hoverEdge)?'rgba(255,224,150,0.95)':(on?'rgba(227,179,76,0.55)':'rgba(227,179,76,0.06)');
     ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();});
-  N.forEach(n=>{const r=5+Math.min(deg[n.id]||0,12)*0.9;
+  N.forEach(n=>{if(!visible(n))return;const r=5+Math.min(deg[n.id]||0,12)*0.9;
     const dimmed=hi&&!hi.has(n.id);
     ctx.globalAlpha=dimmed?0.15:1;
     ctx.fillStyle=css(TYPES[n.type]||'--dim');
     ctx.beginPath();ctx.arc(n.x,n.y,r,0,7);ctx.fill();
     if(n===sel||n===hover){ctx.strokeStyle='#fff';ctx.lineWidth=1.5;ctx.stroke();}
-    if(document.getElementById('showLabels').checked&&(cam.z>0.55||n===sel||n===hover||(deg[n.id]||0)>4)){
+    if(document.getElementById('showLabels').checked&&(n.type==='pc'||cam.z>0.55||n===sel||n===hover||(deg[n.id]||0)>4)){
       ctx.fillStyle=dimmed?'rgba(216,199,154,0.2)':'#d8c79a';
       ctx.font=(n.type==='pc'?'bold ':'')+'11px Georgia';
       ctx.fillText(n.name,n.x+r+3,n.y+4);}
     ctx.globalAlpha=1;});
   ctx.restore();
+}
+function nearestEdge(w){
+  let best=null,bd=7/cam.z;
+  A.forEach(e=>{const a=N[NI[e.src]],b=N[NI[e.dst]];
+    if(!visible(a)||!visible(b))return;
+    const dx=b.x-a.x,dy=b.y-a.y,L2=dx*dx+dy*dy||1;
+    let t=((w.x-a.x)*dx+(w.y-a.y)*dy)/L2;t=Math.max(0.08,Math.min(0.92,t));
+    const d=Math.hypot(w.x-(a.x+t*dx),w.y-(a.y+t*dy));
+    if(d<bd){bd=d;best=e;}});
+  return best;
 }
 function neighborhood(id){const s=new Set([id]);
   A.forEach(e=>{if(e.src===id)s.add(e.dst);if(e.dst===id)s.add(e.src);});
@@ -142,13 +165,25 @@ function loop(){step();draw();requestAnimationFrame(loop);}loop();
 
 cv.addEventListener('mousedown',e=>{const w=world(e.offsetX,e.offsetY);
   const n=pick(w);if(n){drag=n;}else{panning=true;}px=e.offsetX;py=e.offsetY;});
+const tip=document.getElementById('edgeTip');
 cv.addEventListener('mousemove',e=>{const w=world(e.offsetX,e.offsetY);
   if(drag){drag.x=w.x;drag.y=w.y;drag.vx=drag.vy=0;}
   else if(panning){cam.x+=(e.offsetX-px)/cam.z;cam.y+=(e.offsetY-py)/cam.z;px=e.offsetX;py=e.offsetY;}
-  else hover=pick(w);});
+  else{hover=pick(w);
+    hoverEdge=hover?null:nearestEdge(w);
+    if(hoverEdge){
+      tip.innerHTML='<b>'+el(byId[hoverEdge.src].name)+'</b> <span class="ty">'+el(hoverEdge.type)+'</span> <b>'+el(byId[hoverEdge.dst].name)+'</b><br>'+el(hoverEdge.why);
+      tip.style.display='block';
+      tip.style.left=Math.min(e.offsetX+16,W-360)+'px';
+      tip.style.top=(e.offsetY+14)+'px';
+    } else tip.style.display='none';}});
 window.addEventListener('mouseup',e=>{
   if(drag&&Math.abs(e.offsetX-px)<4&&Math.abs(e.offsetY-py)<4){select(drag.id);}
   drag=null;panning=false;});
+cv.addEventListener('dblclick',e=>{const w=world(e.offsetX,e.offsetY);
+  const n=pick(w);
+  if(n){focusSet=neighborhood(n.id);select(n.id);}
+  else focusSet=null;});
 cv.addEventListener('wheel',e=>{e.preventDefault();
   cam.z*=e.deltaY<0?1.12:0.89;cam.z=Math.max(0.15,Math.min(4,cam.z));},{passive:false});
 function pick(w){let best=null,bd=14;N.forEach(n=>{const d=Math.hypot(n.x-w.x,n.y-w.y);
@@ -161,7 +196,8 @@ document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{
 function el(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;');}
 function entLink(id){const e=byId[id];return e?`<a class="ent" onclick="select('${id}')">${el(e.name)}</a>`:el(id);}
 function select(id){sel=N[NI[id]];tab='node';
-  document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('on',x.dataset.t==='node'));render();}
+  document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('on',x.dataset.t==='node'));
+  if(typeof flyTo==='function')flyTo(id);render();}
 window.select=select;
 function render(){
   if(tab==='secrets'){panel.innerHTML='<h3>The Secrets Matrix</h3>'+DATA.secrets.map(s=>{
@@ -200,12 +236,19 @@ function doSearch(q){q=q.toLowerCase();
   else hits=DATA.entities.filter(e=>e.name.toLowerCase().includes(q)||e.id.includes(q)||e.tags.some(t=>t.includes(q)));
   panel.innerHTML='<h3>Search</h3>'+hits.map(e=>
     `<div class="edge">${entLink(e.id)}<span class="why">${e.tags.slice(0,6).join(', ')}</span></div>`).join('');
-  if(hits.length===1)select(hits[0].id);
+  if(hits.length===1){select(hits[0].id);flyTo(hits[0].id);}
 }
+function flyTo(id){const n=N[NI[id]];if(!n)return;
+  cam.x=-n.x;cam.y=-n.y;if(cam.z<0.9)cam.z=0.9;}
+window.flyTo=flyTo;
 document.getElementById('search').addEventListener('input',e=>doSearch(e.target.value));
 document.getElementById('builtLine').textContent='built '+DATA.built+' · '+DATA.entities.length+' entities · '+DATA.edges.length+' authored edges · '+DATA.candidates.length+' candidates';
 document.getElementById('legend').innerHTML=Object.entries(TYPES).map(([t,v])=>
-  `<span style="margin-right:9px"><i style="background:${css(v)}"></i>${t}</span>`).join('');
+  `<span style="margin-right:9px" data-type="${t}"><i style="background:${css(v)}"></i>${t}</span>`).join('');
+document.querySelectorAll('#legend span').forEach(s=>s.onclick=()=>{
+  const t=s.dataset.type;
+  if(hiddenTypes.has(t)){hiddenTypes.delete(t);s.classList.remove('off');}
+  else{hiddenTypes.add(t);s.classList.add('off');}});
 render();
 </script>
 </body>

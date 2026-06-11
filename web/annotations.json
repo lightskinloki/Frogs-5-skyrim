@@ -732,6 +732,102 @@
    "type": "cousin-of",
    "dst": "davinia",
    "why": "Same Caelus bloodline - her father is General Caelinus; Valerius is the family monster two centuries removed. The blackmail, the Crown demand, and the Gilded Cage are all FAMILY pressure. (GM ruling via registry tag, June 2026.)"
+  },
+  {
+   "src": "valerius",
+   "type": "wants",
+   "dst": "jagged-crown",
+   "why": "Demands the Crown for his Dark Coronation play - the symbol of the High King in a vampire pretender hands. The party kept it instead."
+  },
+  {
+   "src": "valerius",
+   "type": "blackmails",
+   "dst": "orion",
+   "why": "Holds the tax-collector murder dossier over him (and the party); sent the first blackmail message after Korvanjund."
+  },
+  {
+   "src": "valerius",
+   "type": "leashes",
+   "dst": "orion",
+   "why": "The Ring of the Pale Regent: irremovable, scrying, a tether. Sees what Orion sees."
+  },
+  {
+   "src": "alfonso",
+   "type": "possesses-never-wears",
+   "dst": "jagged-crown",
+   "why": "Carries it cased everywhere; the teeth have never bitten. Possession only - hard canon."
+  },
+  {
+   "src": "alfonso-plague",
+   "type": "kills",
+   "dst": "stormcloak-courier",
+   "why": "Infected via the laced Korvanjund supplies; dying upstairs at the Bee and Barb; will posthumously take the blame for Riften."
+  },
+  {
+   "src": "saijah",
+   "type": "vessel-of",
+   "dst": "kynareth",
+   "why": "The Sentinel Seed: bears the goddess burden without instruction; the migraine is the root network screaming through her."
+  },
+  {
+   "src": "varon",
+   "type": "kin-of",
+   "dst": "saijah",
+   "why": "Root-Husk siblings - uxith-beeko, raised in the same mud-pits. He speaks Jel to her because it is the only unscripted language he has."
+  },
+  {
+   "src": "orion",
+   "type": "contracted-to-kill",
+   "dst": "hroki",
+   "why": "The Brotherhood Type-3 breaking point: kill him (Brotherhood) vs keep him alive as leverage on Galmar (Valerius). Waits at Windhelm."
+  },
+  {
+   "src": "orion",
+   "type": "terrorized",
+   "dst": "mila",
+   "why": "Showed her his fangs deliberately in the Warrens dark. She will not go near him; Bjorn filed it and watches."
+  },
+  {
+   "src": "varon",
+   "type": "handles",
+   "dst": "orion",
+   "why": "Brotherhood quality control: the Hroki contract is the test; failure means Varon becomes executioner."
+  },
+  {
+   "src": "danica",
+   "type": "saved",
+   "dst": "hemming",
+   "why": "The party arrived too late; Danica saved Maven heir - why Maven owes Danica everything and is cold to the party."
+  },
+  {
+   "src": "krusp",
+   "type": "protects",
+   "dst": "danica",
+   "why": "Found her in Riften, guarded her door, became her commander. She is the company conscience; he is its shield."
+  },
+  {
+   "src": "krusp",
+   "type": "wears",
+   "dst": "titan-ring",
+   "why": "Doubles his FP by hammering his soul thin - Hjolmar soul-prep disguised as a boon. He does not know."
+  },
+  {
+   "src": "krusp",
+   "type": "condemns",
+   "dst": "alfonso",
+   "why": "Watched him consume the Kynesgrove cultist; stays his hand only for the charter and Davinia chance to lead. Dawnbringer waits."
+  },
+  {
+   "src": "ylva",
+   "type": "kindred-rot",
+   "dst": "alfonso",
+   "why": "Disgusting and honest - he eats what he kills. She is pulling away (thrall tactics bored her) but the kinship stands."
+  },
+  {
+   "src": "ylva",
+   "type": "pursues",
+   "dst": "davinia",
+   "why": "The Ice Queen project: wineskin, sparring challenge, the direct proposition. Unknowingly the re-anchoring counter to Ismara."
   }
  ],
  "secrets": [
