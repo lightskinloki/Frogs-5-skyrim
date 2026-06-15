@@ -1,0 +1,124 @@
+<svg viewBox="0 0 1040 760" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif" role="img">
+<title>Forelhost Laboratory — the frozen fight</title>
+<desc>Top-down tactical battlemap of Antoine's laboratory at Forelhost. The session resumes here on initiative: the sterilization cage sits displaced on a wedge of stabilized ice with the rapier inside, six False Draugr deploy from the wall alcoves, and four PCs hold the floor.</desc>
+<defs>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#2b2620" stroke-width="1"/>
+  </pattern>
+</defs>
+
+<!-- floor -->
+<rect x="0" y="0" width="1040" height="760" fill="#15120e"/>
+<rect x="40" y="40" width="960" height="680" fill="#221d17"/>
+<rect x="40" y="40" width="960" height="680" fill="url(#grid)"/>
+<rect x="40" y="40" width="960" height="680" fill="none" stroke="#6b5a3c" stroke-width="4"/>
+
+<!-- title block -->
+<text x="52" y="30" fill="#d8c79a" font-size="20" letter-spacing="2">FORELHOST — THE LABORATORY (Section 5)</text>
+<text x="640" y="30" fill="#8a7a54" font-size="12" font-style="italic">resume on initiative · 1 square = 5 ft</text>
+
+<!-- containment threshold door (entry, bottom) -->
+<rect x="470" y="712" width="100" height="16" fill="#3a3128" stroke="#6b5a3c" stroke-width="2"/>
+<text x="520" y="748" fill="#9a8a64" font-size="12" text-anchor="middle">containment threshold (entry · password-sealed)</text>
+
+<!-- Rahgot's open sarcophagus, top center dais -->
+<rect x="440" y="60" width="160" height="92" fill="#2c2620" stroke="#7a6646" stroke-width="2"/>
+<rect x="452" y="72" width="100" height="68" fill="#191510" stroke="#5a4a32" stroke-width="2"/>
+<rect x="556" y="64" width="40" height="84" fill="#3a3026" stroke="#7a6646" stroke-width="2" transform="rotate(14 576 106)"/>
+<text x="520" y="108" fill="#b9a878" font-size="12" text-anchor="middle">RAHGOT'S</text>
+<text x="520" y="124" fill="#b9a878" font-size="12" text-anchor="middle">SARCOPHAGUS</text>
+<text x="520" y="166" fill="#8a7a54" font-size="10.5" text-anchor="middle" font-style="italic">lid shoved aside · he rose and walked out</text>
+
+<!-- wrecked Ulag processing rig, far wall left -->
+<rect x="60" y="70" width="150" height="120" fill="#241c16" stroke="#6b4a3a" stroke-width="2"/>
+<line x1="70" y1="90" x2="200" y2="175" stroke="#7a4a3a" stroke-width="3"/>
+<line x1="200" y1="90" x2="70" y2="175" stroke="#7a4a3a" stroke-width="3"/>
+<circle cx="135" cy="130" r="22" fill="none" stroke="#8a5a44" stroke-width="3"/>
+<text x="135" y="206" fill="#b98878" font-size="11" text-anchor="middle">ULAG RIG (wrecked)</text>
+<text x="135" y="220" fill="#7a6a54" font-size="9.5" text-anchor="middle" font-style="italic">Strain 2.0 harvester — destroyed</text>
+
+<!-- Davinia's button-alcove, right wall top (now open) -->
+<rect x="892" y="96" width="96" height="64" fill="#1c1813" stroke="#5d6e7a" stroke-width="2"/>
+<rect x="906" y="110" width="68" height="36" fill="#10141a" stroke="#3a4650" stroke-width="2"/>
+<text x="940" y="180" fill="#7d96a6" font-size="10.5" text-anchor="middle">hidden alcove</text>
+<text x="940" y="194" fill="#5d6e7a" font-size="9.5" text-anchor="middle" font-style="italic">Alchemy Codex (taken)</text>
+
+<!-- the Tears of Rahgot garden: crescent of dark pulsing soil, center -->
+<path d="M430 430 a120 120 0 0 1 180 0 a120 70 0 0 0 -180 0 z" fill="#1a0f14" stroke="#6b2535" stroke-width="2"/>
+<circle cx="470" cy="424" r="6" fill="#7a2a3a"/><circle cx="500" cy="436" r="6" fill="#7a2a3a"/>
+<circle cx="530" cy="430" r="6" fill="#7a2a3a"/><circle cx="560" cy="436" r="6" fill="#7a2a3a"/>
+<circle cx="540" cy="412" r="5" fill="#92303f"/><circle cx="486" cy="412" r="5" fill="#92303f"/>
+<text x="520" y="470" fill="#b85565" font-size="11" text-anchor="middle">TEARS OF RAHGOT</text>
+<text x="520" y="484" fill="#8a4a54" font-size="9.5" text-anchor="middle" font-style="italic">trap trigger · binding agent</text>
+
+<!-- the displaced sterilization cage on its ice wedge (center, jacked crooked) -->
+<g transform="rotate(-9 520 300)">
+  <!-- ice wedge under it -->
+  <polygon points="452,352 588,352 612,372 430,372" fill="#3a5a6e" stroke="#7fb8d8" stroke-width="2" opacity="0.92"/>
+  <text x="520" y="392" fill="#9fd0e8" font-size="9.5" text-anchor="middle" font-style="italic">stabilized ice — will not melt</text>
+  <!-- cage box -->
+  <rect x="452" y="250" width="136" height="104" fill="#0f0d0a" stroke="#c9b27a" stroke-width="2.5"/>
+  <line x1="486" y1="250" x2="486" y2="354" stroke="#c9b27a" stroke-width="1.5"/>
+  <line x1="520" y1="250" x2="520" y2="354" stroke="#c9b27a" stroke-width="1.5"/>
+  <line x1="554" y1="250" x2="554" y2="354" stroke="#c9b27a" stroke-width="1.5"/>
+  <line x1="452" y1="284" x2="588" y2="284" stroke="#c9b27a" stroke-width="1.5"/>
+  <line x1="452" y1="318" x2="588" y2="318" stroke="#c9b27a" stroke-width="1.5"/>
+  <!-- the rapier + empty robes + cased crown inside -->
+  <line x1="476" y1="338" x2="556" y2="300" stroke="#9a8a78" stroke-width="3"/>
+  <circle cx="476" cy="338" r="4" fill="#b9a878"/>
+  <text x="520" y="330" fill="#cdbf9a" font-size="10" text-anchor="middle">rapier</text>
+</g>
+<text x="520" y="238" fill="#c9b27a" font-size="11" text-anchor="middle">STERILIZATION CAGE (displaced)</text>
+<text x="520" y="224" fill="#8a7a54" font-size="9.5" text-anchor="middle" font-style="italic">Alfonso unmade here · empty robes + cased Crown within</text>
+
+<!-- extraction arm, retracted into right wall -->
+<path d="M960 300 h-70 l-26 18" fill="none" stroke="#6b5a3c" stroke-width="5"/>
+<circle cx="864" cy="318" r="7" fill="none" stroke="#8a7654" stroke-width="3"/>
+<text x="900" y="346" fill="#8a7a54" font-size="9.5" text-anchor="middle">extraction arm</text>
+<text x="900" y="358" fill="#6a5c44" font-size="9" text-anchor="middle" font-style="italic">drew nothing · retracted</text>
+
+<!-- workstations -->
+<rect x="120" y="540" width="120" height="46" fill="#2a241c" stroke="#5a4c34" stroke-width="2"/>
+<rect x="120" y="600" width="120" height="46" fill="#2a241c" stroke="#5a4c34" stroke-width="2"/>
+<rect x="800" y="560" width="120" height="46" fill="#2a241c" stroke="#5a4c34" stroke-width="2"/>
+<text x="180" y="668" fill="#7a6a54" font-size="9.5" text-anchor="middle">workstations</text>
+<text x="860" y="628" fill="#7a6a54" font-size="9.5" text-anchor="middle">workstation</text>
+
+<!-- DRAUGR wall alcoves: 3 left wall, 3 right wall, mid-deploy -->
+<g>
+  <!-- left wall alcoves -->
+  <rect x="44" y="300" width="30" height="40" fill="#0d0b08" stroke="#7a3a3a" stroke-width="2"/>
+  <rect x="44" y="380" width="30" height="40" fill="#0d0b08" stroke="#7a3a3a" stroke-width="2"/>
+  <rect x="44" y="460" width="30" height="40" fill="#0d0b08" stroke="#7a3a3a" stroke-width="2"/>
+  <!-- right wall alcoves -->
+  <rect x="966" y="420" width="30" height="40" fill="#0d0b08" stroke="#7a3a3a" stroke-width="2"/>
+  <rect x="966" y="500" width="30" height="40" fill="#0d0b08" stroke="#7a3a3a" stroke-width="2"/>
+  <rect x="966" y="580" width="30" height="40" fill="#0d0b08" stroke="#7a3a3a" stroke-width="2"/>
+</g>
+
+<!-- draugr tokens (6), deploying inward -->
+<g font-size="13" text-anchor="middle">
+  <circle cx="110" cy="320" r="15" fill="#5a1f25" stroke="#c0504d" stroke-width="2"/><text x="110" y="325" fill="#f0d8d8">D</text>
+  <circle cx="120" cy="400" r="15" fill="#5a1f25" stroke="#c0504d" stroke-width="2"/><text x="120" y="405" fill="#f0d8d8">D</text>
+  <circle cx="110" cy="478" r="15" fill="#5a1f25" stroke="#c0504d" stroke-width="2"/><text x="110" y="483" fill="#f0d8d8">D</text>
+  <circle cx="930" cy="440" r="15" fill="#5a1f25" stroke="#c0504d" stroke-width="2"/><text x="930" y="445" fill="#f0d8d8">D</text>
+  <circle cx="920" cy="520" r="15" fill="#5a1f25" stroke="#c0504d" stroke-width="2"/><text x="920" y="525" fill="#f0d8d8">D</text>
+  <circle cx="930" cy="598" r="15" fill="#5a1f25" stroke="#c0504d" stroke-width="2"/><text x="930" y="603" fill="#f0d8d8">D</text>
+</g>
+
+<!-- PC tokens: Davinia, Saijah, Orion on the floor; rapier already shown in cage -->
+<g font-size="11" text-anchor="middle" font-weight="bold">
+  <circle cx="470" cy="560" r="17" fill="#7a5a16" stroke="#e3b34c" stroke-width="2.5"/><text x="470" y="565" fill="#fff">DAV</text>
+  <circle cx="560" cy="600" r="17" fill="#2f4a26" stroke="#7fa06f" stroke-width="2.5"/><text x="560" y="605" fill="#fff">SAI</text>
+  <circle cx="640" cy="540" r="17" fill="#3a1f3a" stroke="#a98fd6" stroke-width="2.5"/><text x="640" y="545" fill="#fff">ORI</text>
+</g>
+<line x1="640" y1="540" x2="560" y2="312" stroke="#a98fd6" stroke-width="1" stroke-dasharray="3 4" opacity="0.5"/>
+
+<!-- legend -->
+<rect x="724" y="650" width="276" height="86" fill="#1a1610" stroke="#5a4c34" stroke-width="1.5"/>
+<text x="736" y="670" fill="#d8c79a" font-size="12" letter-spacing="1">LEGEND</text>
+<circle cx="744" cy="688" r="8" fill="#5a1f25" stroke="#c0504d" stroke-width="2"/><text x="760" y="692" fill="#c9b8a0" font-size="11">False Draugr ×6 (deploying)</text>
+<circle cx="744" cy="710" r="8" fill="#7a5a16" stroke="#e3b34c" stroke-width="2"/><text x="760" y="714" fill="#c9b8a0" font-size="11">PCs — Davinia / Saijah / Orion</text>
+<rect x="900" y="682" width="14" height="12" fill="#3a5a6e" stroke="#7fb8d8" stroke-width="1.5"/><text x="922" y="692" fill="#c9b8a0" font-size="11">ice</text>
+<rect x="900" y="704" width="14" height="12" fill="#1a0f14" stroke="#6b2535" stroke-width="1.5"/><text x="922" y="714" fill="#c9b8a0" font-size="11">trap soil</text>
+</svg>
