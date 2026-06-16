@@ -1,0 +1,536 @@
+FALSE DRAUGR REFERENCE
+Frogs-5-Skyrim System — For GM Use Only
+Recurring Enemy Type — First Appearance: Forelhost Laboratory (Session 11)
+
+
+________________
+
+
+SECTION 1: WHAT THEY ARE
+
+
+FALSE DRAUGR — "ANTOINE'S BREAKERS"
+
+Antoine of Forelhost built these as laboratory security. They are alchemical
+constructs — copper-plated frames filled with pressurized VENITAS-saturated
+fluid, animated by chemistry, not by death-energy or spiritual bonds. They
+LOOK like Draugr. They are not Draugr. They are not undead. They are not
+alive. They occupy a blind spot between every category the party knows.
+
+Antoine studied Ulag the Breaker his entire life — the only siege engine he
+ever observed up close. The False Draugr are crude working copies of Ulag's
+method: pin, then shatter. They fight like a downscaled Breaker — slow,
+relentless, built to hold a target still so something else can finish it.
+They share his flaw: the brittle resonance that undoes his crystalline core
+undoes them too.
+
+They are not soldiers. They are lab equipment that fights.
+
+
+DESIGN PRINCIPLE: THE FULL INVERSION
+
+Every dimension of a regular Draugr has been deliberately inverted. A party
+that walks in with the standard anti-undead playbook — fire, Turn Undead,
+Detect Undead, sneak past — will have every assumption punished. The things
+that work are the things the party does NOT usually reach for: invisibility,
+cold, lightning, standing still, and pouring healing potions on the enemy.
+
+This is Antoine's design philosophy made flesh: he builds things that look
+familiar but work on entirely different principles. If the party treats them
+like Draugr, the party loses.
+
+
+________________
+
+
+SECTION 2: THE INVERSION TABLE
+
+This table captures the dimension-by-dimension inversion between regular
+Draugr (Sentinel-tier) and False Draugr. Use it as a design compass — if
+a question arises about how False Draugr should behave, check what a regular
+Draugr would do and consider the opposite.
+
+
+DIMENSION             REGULAR DRAUGR                 FALSE DRAUGR
+________________      ________________               ________________
+
+Origin                Ancient, spiritual,            Modern, chemical,
+                      religious devotion             scientific engineering
+
+Animation             Soul-bound (death energy       Alchemical fluids (VENITAS
+                      is the engine)                 compounds, no soul)
+
+Sound                 Vocal — moans, chants in       SILENT — hiss of steam,
+                      Dragon Language, frost          click of copper joints,
+                      breath is exhaled              scrape of metal on stone.
+                                                     No voice. The silence is
+                                                     what makes them wrong.
+
+Senses                Death-energy eyes; detect       Tremorsense — no eyes;
+                      life-force; invisibility        detect vibration through
+                      does NOT fool them             floor/air. Invisibility
+                                                     DOES fool them. Stillness
+                                                     DOES fool them.
+
+Detection spells      Detect Undead: YES             Detect Undead: NO
+                      Detect Life: NO                Detect Life: NO
+                      (They are undead)              (They are neither)
+
+Combat role           OFFENSE — close, flank,        CONTROL — grapple, pin,
+                      overwhelm, kill                contain. They do not try
+                                                     to kill you.
+
+Damage                HIGH (10 melee + 8 AoE         LOW (6 melee), focused on
+                      frost breath)                  debuffs (chemical burns,
+                                                     Numbness, Agility drain)
+
+Range                 Has ranged AoE (Frost          NO ranged ability. Purely
+                      Breath, 15ft cone)             contact, purely melee.
+
+Elemental             Cold-immune, Fire-weak         Fire-immune, Cold-weak,
+                                                     Lightning-weak
+
+Speed                 Moderate (Agi 13), closes      SLOW (Agi 8), holds
+                      distance aggressively          position, does not pursue
+
+Resilience            Undying Loyalty — reassembles   Alchemical Regen — heals
+                      after 0 HP. Hard to KEEP       while active, permanent
+                      dead.                          death at 0 HP. Hard to
+                                                     GET dead.
+
+Death                 Comes back unless              Stays dead. Death splashes
+                      burned / skull crushed         corrosive VENITAS fluid
+                                                     on adjacent creatures.
+
+Tactics               Pack coordination,             Programmed routines, no
+                      adaptive flanking. One         adaptation, predictable
+                      breathes while two close.      to anyone who watches.
+                      Simple but genuinely           Execute fixed scripts.
+                      adaptive.
+
+Anti-undead tools     Turn Undead: WORKS             Turn Undead: NOTHING
+                      Holy magic: disrupts           Holy magic: no effect
+                      Fire: finishes them            Fire: no effect
+                      Skull crush: finishes them     Cold/Lightning: suppresses
+                                                     regen, enables the kill
+
+Alchemical counter    Healing harms undead (lore)     VITALIS harms them — a
+                                                     healing potion poured on
+                                                     them damages them (Essence
+                                                     opposition reaction)
+
+Stat priority         Might 17 > Magic 15 >          Might 14 > Agi 8 >
+                      Agi 13 > Guile 8               Magic 6 > Guile 4
+                      (Strong AND magical)           (No magic, no cunning,
+                                                     moderate strength, slow)
+
+Morale                Devotion — will not break      Programming — cannot break
+                      (spiritual loyalty)            (no morale exists to affect)
+
+Pursuit               Chase within patrol zone        Do NOT pursue at all.
+                                                     Zone defense only.
+
+
+________________
+
+
+SECTION 3: STAT BLOCK
+
+
+FALSE DRAUGR — "ANTOINE'S BREAKERS"
+Type: Alchemical Construct (NOT undead, NOT alive)
+Tier: TL 1-2 Expert
+Count: x4-6 per encounter (adjust to party size and resources)
+
+HP: 35
+DR: 5 (Hardened tissue + copper plating)
+
+  Might:    14
+  Agility:   8
+  Magic:     6
+  Guile:     4
+
+
+IMMUNITIES
+  Fire           (heat-stabilized preservatives; Antoine works with braziers)
+  Poison         (no biology to poison)
+  Disease        (no biology to infect)
+  Fear           (no consciousness to frighten)
+  Alfonso's plague-communion   (alchemical construct, not true undead)
+
+
+WEAKNESSES
+  Cold (x2 damage)
+    Alchemical fluids crystallize. Copper contracts and becomes brittle.
+    Joints seize. The animation medium fractures.
+
+  Lightning (x2 damage + ARC)
+    Copper-plated. Electricity arcs through the entire frame. If two or
+    more False Draugr are within 10 feet of each other when one takes
+    Lightning damage, the arc jumps to adjacent Breakers for half the
+    original damage.
+
+  Sonic / Thunder (Staggered 1 round)
+    The resonance flaw copied from Ulag's crystalline core. Orion's War
+    Horn lands here. A sustained note at the right frequency locks their
+    joints and halts them for a full round.
+
+
+DETECTION BLIND SPOT
+  Detect Life:     No result. They are not alive.
+  Detect Undead:   No result. They are not undead.
+  Detect Magic:    Faint alchemical residue only — registers as ambient,
+                   not as a creature or enchantment. Easily missed.
+  Aura reading:    Nothing. No soul, no spiritual signature, no death-
+                   energy. To magical senses they are furniture.
+
+  A party relying on detection magic to scout will walk into these blind.
+  This is intentional. Antoine built them to be invisible to every standard
+  scan. The only way to know they are there is to see them with your eyes
+  or feel them with your feet (once they are already moving).
+
+
+TREMORSENSE (30 ft)
+  False Draugr have no eyes and cannot see. They detect living things
+  through vibration in the floor and air pressure changes — the copper
+  plating acts as a resonance sensor.
+
+  Invisibility:     Full effect. They cannot see you.
+  Darkness:          Full effect. They cannot see.
+  Conventional stealth (sneaking): DOES NOT WORK. Any creature moving
+    within 30 feet on the same surface is automatically detected. They
+    feel your weight, not your shadow. No Agility roll will help.
+  Being motionless:  Undetectable. Stand perfectly still and they lose you.
+  Being airborne:    Undetectable. Levitation, being carried, standing on
+    furniture — anything that takes weight off the floor.
+
+  TACTICAL IMPLICATION: against regular Draugr, you sneak past (Agility
+  vs Guile). Against False Draugr, sneaking fails — but invisibility
+  potions work, standing still works, and getting off the ground works.
+  The solution set is completely different.
+
+
+ALCHEMICAL REGENERATION
+  At the start of each of its turns, a False Draugr regains 3 HP unless
+  it took Cold or Lightning damage since its last turn.
+
+  This is the inverse of Undying Loyalty:
+    Draugr:       Easy to GET to 0 HP. Hard to KEEP them at 0.
+                  The puzzle is finishing them (fire / skull crush).
+    False Draugr: Hard to GET to 0 HP (they heal). Easy to keep at 0.
+                  The puzzle is suppressing regen (cold / lightning)
+                  and bursting them down.
+
+  Without cold or lightning, a party hacking at them with swords is
+  fighting uphill — 3 HP per round of passive healing on a 35 HP frame.
+  With cold or lightning, the regen stops and damage sticks. The party
+  MUST use their weaknesses to win efficiently.
+
+
+DEATH SPLASH
+  When reduced to 0 HP, the pressurized alchemical fluids rupture.
+  All creatures within 5 feet take 3 chemical damage (VENITAS-saturated
+  fluid, burns on contact).
+
+  This creates a dilemma: melee them down and risk the splash, or use
+  ranged cold/lightning to finish them safely from a distance.
+
+  This is the inverse of the Draugr death-threat:
+    Draugr death:       Threatens you AFTER dying (reassembly).
+    False Draugr death: Threatens you DURING dying (splash).
+
+
+VITALIS VULNERABILITY
+  They are VENITAS-saturated constructs. VITALIS is the opposition Essence.
+
+  A healing potion poured directly onto a False Draugr (Major Action,
+  must be adjacent) deals damage equal to the potion's HP value and
+  ignores DR:
+    Minor Healing Potion:     4 damage (ignores DR)
+    Healing Potion:           8 damage (ignores DR)
+    Plentiful Healing Potion: 12 damage (ignores DR)
+
+  The VITALIS causes an opposition reaction in the animation medium —
+  the fluid curdles, the joints seize, the construct partially collapses.
+
+  This is the reward for a player who has read the Doctrine of Essences
+  and thinks with the alchemy system. It is also thematically perfect:
+  Antoine's Scourge is designed so healing feeds the plague. His constructs
+  have the same principle in reverse — healing kills them.
+
+  GM NOTE: Do not hint at this. The player must reason to it from the
+  alchemy rules. If they do, celebrate it — this is a system mastery
+  reward of the highest order.
+
+
+________________
+
+
+SECTION 4: ATTACKS
+
+
+ATTACK              RANGE    EFFECT
+________________    ______   ________________
+
+Alchemical Blade    Melee    6 damage.
+                             Chemical Burn: target takes 2 additional
+                             damage at the start of their next turn
+                             (VENITAS residue eating into the wound).
+                             Standard Might roll or Numbness: -2 Agility
+                             for 2 rounds.
+
+Restraining         Melee    Contested Might (Hard, -4). Target is
+Grapple                      Restrained. This is their primary function —
+(replaces attack)            pin targets for the cage / sterilization
+                             field and block any rescue attempt.
+
+Breaker's Blow      Melee    10 damage, ignores half the target's DR.
+(recharge: after             On hit: knockback + Staggered (target loses
+a grapple, or                next Major Action).
+every other round)           TELEGRAPHED — twists a shoulder valve and
+                             vents steam first. A ready PC can interrupt
+                             or brace (they must declare they are watching
+                             for the telegraph).
+
+
+ATTACK PHILOSOPHY
+  Everything about their offense is designed to DISABLE, not kill.
+
+  The Alchemical Blade deals low damage (6) but stacks Chemical Burns
+  and Numbness. Each -2 Agility from Numbness makes it progressively
+  harder to escape the NEXT Breaker's Restraining Grapple. They are a
+  team debuff machine — the first one softens you, the second one pins
+  you, the third one Breaker's Blows you while you're held.
+
+  They have NO ranged attacks. No AoE. No frost breath. Purely contact-
+  based threats. If you are not within arm's reach, you are safe. This
+  is the inverse of Draugr Sentinels, who can frost-breathe a 15-foot
+  cone at range.
+
+
+________________
+
+
+SECTION 5: BEHAVIOR
+
+
+PROGRAMMED ROUTINES (NO ADAPTATION)
+
+  False Draugr do not think. They execute behavioral scripts:
+
+  1. Detect vibration → move toward source.
+  2. Reach target → Restraining Grapple (always attempts grapple first).
+  3. Target restrained → Breaker's Blow (the pin-then-shatter sequence).
+  4. Target not restrained → Alchemical Blade (soften with Numbness,
+     then attempt grapple again next turn).
+  5. Multiple targets → always prioritize the NEAREST. Never switch
+     targets mid-routine.
+
+  They do not flank. They do not coordinate. They do not adapt to what
+  the party is doing. They execute the script every round, identically.
+
+  EXPLOITING THE SCRIPT: A player who spends a round observing a specific
+  Breaker (forgoing their own action to watch) can predict exactly what
+  it will do next. Mechanically: they gain Advantage on their next action
+  against that Breaker. This rewards patience — but in the Forelhost
+  encounter, the 5-minute IRL timer creates tension against spending a
+  turn watching instead of acting.
+
+
+CONTAINMENT BEHAVIOR
+
+  They fight to CONTAIN, not kill. Their entire role is to hold targets
+  in place for the sterilization field / cage trap. In the Forelhost
+  encounter specifically:
+    - They prioritize anyone approaching the containment cage.
+    - They grapple and pin anyone attempting to free the caged PC.
+    - They do not pursue outside the laboratory.
+    - They do not pursue at all — if a target leaves their 30-foot
+      tremorsense range, they return to patrol.
+
+  For recurring encounters outside Forelhost:
+    They guard whatever Antoine (or whoever controls them) has told them
+    to guard. They do not pursue beyond their designated zone. They do
+    not adapt their patrol routes. They are guard dogs with no initiative.
+
+
+SILENCE
+
+  They make no vocalizations. No moans. No chants. No breath.
+
+  What the party hears:
+    - The hiss of pressurized steam venting from shoulder valves.
+    - The click-click-click of copper joints articulating.
+    - The scrape of copper-plated feet on stone.
+    - A low, rhythmic thrumming — the alchemical fluids circulating
+      inside the frame — audible only in close proximity.
+
+  This is one of their most unsettling qualities. Draugr ANNOUNCE
+  themselves with moans and chanting. False Draugr are wrong precisely
+  because they are quiet. The silence tells the party that these are
+  not the dead. These are something else.
+
+
+________________
+
+
+SECTION 6: HOW THE PARTY WINS
+
+
+THE PARTY'S ANTI-DRAUGR PLAYBOOK (DOES NOT WORK)
+
+  Fire:              Immune. Does nothing.
+  Turn Undead:       No effect. They are not undead.
+  Detect Undead:     Returns nothing. They are not undead.
+  Detect Life:       Returns nothing. They are not alive.
+  Sneaking past:     Fails. Tremorsense auto-detects movement.
+  Holy magic:        No effect. No soul, no spiritual bond to disrupt.
+  Standard melee:    Works, but alchemical regeneration heals 3/round.
+                     An uphill grind without elemental support.
+
+
+WHAT ACTUALLY WORKS
+
+  Cold damage:       x2 damage AND suppresses regeneration. Frost spells,
+                     GLACIES potions, Frost Salts thrown at them, cold
+                     environments. The fluids crystallize, the copper
+                     becomes brittle, the joints seize.
+
+  Lightning damage:  x2 damage AND suppresses regeneration AND arcs to
+                     adjacent Breakers for half damage. Shock spells,
+                     FULGUR compounds, Void Salts. The copper frame
+                     conducts the full charge.
+
+  Sonic / Thunder:   Staggered 1 round. The resonance flaw from Ulag.
+                     Orion's War Horn. A sustained note at the right
+                     frequency. Buys time, doesn't deal damage.
+
+  Invisibility:      Full effect. CAECITAS potions, Invisibility spells.
+                     Walk right past them.
+
+  Standing still:    They lose you. Freeze in place and they return to
+                     patrol. Requires discipline under pressure.
+
+  Getting airborne:  Levitation, being carried, standing on furniture.
+                     Removes weight from the floor, removes detection.
+
+  VITALIS (healing   Pouring a healing potion on them deals the potion's
+  potions as weapon): HP value as damage, ignoring DR. The alchemy system
+                     mastery reward.
+
+  Called shots to    Hard Agility (-4). Disable a limb — removes grapple
+  joints:            capability (arm) or movement (leg). They are
+                     mechanical, not spiritual. Unlike true Draugr, whose
+                     animation is holistic, their joints are physical
+                     linkages that can be severed.
+
+  Observing the      Forfeit a turn to watch a specific Breaker. Gain
+  script:            Advantage on the next action against it. They are
+                     predictable because they cannot adapt.
+
+
+________________
+
+
+SECTION 7: RECURRING USE NOTES
+
+
+WHERE THEY APPEAR
+
+  First: Forelhost Laboratory (Session 11, Riften arc).
+         Lab security for Antoine's containment trap.
+
+  Future: Anywhere Antoine has had time to set up a workspace.
+          Anywhere the Dragon Cult's Forelhost line has operated.
+          Potentially mass-produced if Antoine acquires the resources
+          and the time — a squad of these guarding a chokepoint is a
+          very different encounter than six in an open lab.
+
+
+SCALING FOR FUTURE ENCOUNTERS
+
+  The base stat block is Expert-tier. For recurring use at higher party
+  tiers, scale as follows:
+
+  Advanced Breaker (party at Adept tier):
+    HP 45. DR 6. Regen 4/turn. Alchemical Blade 8 damage.
+    Numbness becomes -3 Agility. Breaker's Blow 12 damage.
+    Same weaknesses, same behavioral script. More durable, more punishing.
+
+  Siege Breaker (party at Master tier):
+    HP 60. DR 8. Regen 5/turn. Alchemical Blade 10 damage.
+    Add: Pressurized Spray (recharge, 15ft cone, 6 chemical damage,
+    Standard Might or Blinded 1 round — VENITAS fluid sprayed from
+    chest vents). Breaker's Blow 15 damage.
+    This is the version Antoine builds when he is no longer improvising.
+
+  The behavioral script does NOT scale. They never get smarter. They get
+  tougher and more punishing, but the same observational exploit works
+  at every tier. The party that learned the trick at Expert tier carries
+  that knowledge forward. That is the reward for paying attention.
+
+
+NARRATIVE FUNCTION
+
+  False Draugr are Antoine's signature — the way a player recognizes his
+  work. When the party enters a space and finds copper-plated silent
+  things standing in alcoves, they know Antoine has been here. They know
+  what to expect (the script, the weaknesses, the containment role) and
+  they know what they are walking into.
+
+  They are also the party's proof that Antoine builds weapons by copying
+  things he has studied. He studied Ulag — he built the Breakers. If the
+  party ever wonders what else Antoine could build, the answer is: copies
+  of anything he has had time to study. This is his method. He observes,
+  he replicates, he improves. The Breakers are the simplest expression
+  of it. What comes next will be worse.
+
+
+________________
+
+
+SECTION 8: OPEN QUESTIONS (TO SETTLE IN FUTURE SESSIONS)
+
+
+  1. Can the party salvage a destroyed Breaker for parts?
+     The copper plating is valuable. The alchemical fluid residue could be
+     studied. A character with alchemy knowledge might reverse-engineer
+     the animation medium. Is this a loot opportunity or a narrative one?
+
+  2. Can the party reprogram a Breaker?
+     They run on behavioral scripts. If someone understood the scripting
+     mechanism, could they redirect one? This is probably Master-tier
+     alchemy or enchantment if it is possible at all.
+
+  3. Does Antoine improve them between encounters?
+     If the party fights Breakers and wins, does Antoine learn from the
+     loss and adjust? His design philosophy suggests yes — he iterates.
+     But the behavioral script is a fundamental limitation of the
+     construct type. He can make them tougher but not smarter. That gap
+     is his blind spot — he copies Ulag's strength but not Ulag's
+     rudimentary cunning.
+
+  4. Are there other construct types?
+     Antoine studied Ulag — the Breakers copy Ulag. If Antoine studies
+     other things (a mage, an animal, a different combat style), could
+     he build constructs that copy THOSE? Different stat profiles,
+     different scripts, same core weaknesses? This opens a design space
+     for future encounters.
+
+  5. What happens to Breakers outside the death ward?
+     Inside Forelhost, the sterile environment preserves them indefinitely.
+     Outside, exposed to weather and biological contamination, do they
+     degrade over time? Are they field-deployable or lab-only? This has
+     implications for where the party might encounter them.
+
+
+________________
+
+
+END OF DOCUMENT
+
+Cross-reference: Forelhost dungeon module (first appearance, combat encounter)
+Cross-reference: RUNSHEET - Riften finale (abbreviated stat block, encounter flow)
+Cross-reference: Gear, Consumables, and the Forge (damage values, potion values)
+Cross-reference: On the Doctrine of Essences (VITALIS / VENITAS opposition rules)
+Cross-reference: Alchemy GM Reference (Essence-to-Effect mapping)
