@@ -1,0 +1,863 @@
+Adventure 1: First Steps — The Windhelm Catacombs
+Campaign: Ismara's Doom — The Parks Group
+ Tier: Apprentice (1 AP)
+ Players: 4-6
+ Estimated Play Time: 2-3 Sessions
+ Reward: 700-1000 Gold per player, 1 Powerful Item, 1-2 Moderate Items, 1 Advancement Point
+Companion Document: Adventure 1: Windhelm City Profile & Stat Blocks — contains the Windhelm city profile (services, shops, unique locations), city events table for downtime, persistent NPC profiles, full stat blocks for non-combat NPCs (Helgrid, Quintus, Wulfgar, Jorleif, Brunwulf, generic guards), and contingencies. All combat stat blocks are inline in this document where they're used. The companion doc is for prep and between-scene reference, not mid-game lookup.
+
+Adventure Summary
+The party arrives in Windhelm seeking treatment for the Khajiit's rotjoint. A gate guard recognizes them — his cousin serves in Winterhold's guard, and word of the Frostmere heroes traveled faster than Bjorn's cart. They're welcomed into the city as known quantities.
+While Helgrid examines the Khajiit's rotjoint at the Temple of Arkay (which everyone in Windhelm calls the Temple of Talos), the first Pale Fever victim is brought in — a dockworker developing geometric ice markings on his skin. The markings look identical to the Khajiit's rotjoint scarring. The same guard who let them in witnesses this and vouches for them to Windhelm's captain of the guard: these are the people who handled the Frostmere situation. They're hired to investigate.
+The investigation leads to Calixto Vividius — a collector and amateur necromancer who has been conducting experiments in the ancient Atmoran catacombs beneath the Hall of the Dead. The trail of disappearances, the sounds from below, and Calixto's own helpful suggestions all point the party toward the catacombs. He's trying to achieve true resurrection by reverse-engineering Atmoran consciousness-preservation techniques from the ruins. His meddling has activated the catacombs' ancient psychic defense wards, which scramble spatial reasoning and make navigation a disorienting nightmare.
+The party must navigate the warded catacombs, survive Calixto's defenses and the awakened Draugr Guardian, confront Calixto in his workshop, and destroy his work. A satisfying, complete adventure.
+The truth they won't realize for several more sessions: the Pale Fever was never Calixto's doing. He was a hack copying notation he didn't understand. The geometric marks on the living people were always Ismara's. The timing just overlapped perfectly.
+
+Session Dashboard
+Review in prep. Glance at during play.
+The Clock: The Pale Fever
+The Pale Fever does not exist when the party arrives. It begins because Ismara begins placing nodes. Track by in-game time.
+Time
+Status
+Detail
+Day 1
+Nothing
+Party arrives. Ismara surveys from outside.
+Day 1 (later)
+First case
+First victim brought to the temple. Markings appear. Party gets hired.
+Day 2
+3 cases
+More victims. City is scared.
+Day 3
+6+ cases
+Quarantine talk. Guards on edge. First person freezes solid.
+
+Ismara places 2-3 nodes during the party's stay. The timing overlaps with the discovery of Calixto's work. Everyone assumes the two are connected. They are not.
+The Second Clock: Calixto's Work (the false lead)
+GM only. Not player-facing.
+Calixto has been in the catacombs for three weeks before the party arrives. He is a genuine threat — but he is not causing the Pale Fever.
+What he IS causing:
+Disappearances (3 people — gravediggers and beggars taken for experiments)
+The Guardian awakening (his energy draw destabilized it)
+The psychic wards activating (his ritual work triggers ancient defenses)
+What he is NOT causing:
+The geometric ice marks on living people
+The Pale Fever
+People freezing solid in the streets
+Player Status Board
+THE KHAJIIT (The Consort)
+Condition: Rotjoint from Frostmere. Joint swelling, pain.
+Penalties: -2 Agility TN on fine motor tasks.
+Goal: Find treatment → Helgrid at the Temple of Arkay. She prescribes, Quintus compounds the salve.
+Special: Stays outside with Ismara initially. Rotjoint scarring has geometric patterns matching the Pale Fever marks.
+THE ORC (The Hungry One)
+Condition: Namira's attention. No mechanical effect yet.
+Penalties: None.
+Goal: No stated goal. Watch what they engage with.
+PLAYERS 3-6
+Condition: Normal.
+Penalties: None.
+Goal: Undefined. Give each an NPC connection.
+NPC Voice Reference
+NPC
+Voice
+Opening Line
+Ismara
+Silent. Writes three words. Precise.
+"Calculating." (written)
+Bjorn
+Warm, unhurried, pragmatic storyteller.
+"Well. That complicates things."
+Helgrid
+Dry, clinical, frightened underneath.
+"This is not a disease."
+Calixto
+Enthusiastic collector, warm, too curious.
+"Fascinating! Tell me everything."
+Brunwulf
+Tired veteran, decent man.
+"Windhelm has enough problems."
+Quintus
+Practical Imperial alchemist, pharmacist.
+"Helgrid sent you? Let me see the formula."
+Wulfgar
+Elderly, excited, ignored by court.
+"These are anchoring marks!"
+Jorleif
+Weary steward, practical authority.
+"The Jarl doesn't need to hear about this yet."
+Guard Hrolf (Hugo)
+
+
+Young, proud, a little starstruck.
+"You're them! The Frostmere lot!"
+
+Where Things Are
+Location
+Who Needs It
+What Happens There
+Outside the Gates
+Khajiit, Ismara
+Private time, first node
+The City Gates
+All
+Guard Hrolf recognizes them
+Candlehearth Hall
+All
+Rooms, rumors, meet Calixto
+The Gray Quarter
+Khajiit (salve pickup)
+Quintus compounds Helgrid's prescription, Suvaris
+Temple of Arkay ("Temple of Talos")
+Khajiit, then All
+THE HOOK. Healing, first victim arrives.
+Hall of the Dead
+All
+THE DUNGEON entrance. Investigation leads here. Catacombs below.
+The Catacombs
+All
+THE DUNGEON (5 sections)
+Palace of the Kings
+Any (optional)
+Wulfgar (translation), Jorleif
+
+
+Scenes in Play Order
+Scene: The Road — New Travelers
+Function: Introduce the new players. Get them comfortable in the cart, in the group, and in the world before any problems arrive.
+Location: The road south of Windhelm. Bjorn's cart, moving. Cold, flat landscape. Maybe an hour out from the city.
+Read Aloud
+"You have all been traveling together for a few days now. You're in the back of Bjorn's cart — it's cramped, it smells like old furs and road dust, but it's warmer than walking. The road has been quiet.
+Bjorn slows the cart to a stop. There's some conversation outside — muffled through the canvas. Then Bjorn opens the back flap.
+'Make some room. We've picked up a few new travelers. I'm sure you'll get along.'"
+Allow the new players to introduce themselves. Start with race and name. Let them describe what the group sees. Let the veteran players respond in character. Give this five to ten minutes of unstructured conversation — people settling in, getting comfortable, the social texture of strangers in a cart.
+What the new players notice in the cart:
+There is a figure in the back corner, wrapped in heavy furs and cloth. It does not move. It does not speak. It radiates a cold that has nothing to do with the weather — like sitting next to an open root cellar. The veteran players do not acknowledge this figure or explain it unless the new players ask.
+If the new players ask about the figure:
+The veteran players decide what to say. This is their problem to manage. Do not intervene.
+If they explain honestly: the new players now know they're traveling with a dead woman. Good luck.
+If they deflect: the new players know something is off but not what. The cold from the corner of the cart doesn't stop.
+If nobody asks: that's fine too. The figure is present. It will become relevant shortly.
+Exit → The cart continues toward Windhelm. Scene: The Road — The Problem.
+
+Scene: The Road — The Problem
+Function: Before the party reaches the gate, Bjorn forces the conversation about Ismara. The city is visible. The guards are visible. The problem needs solving now.
+Location: The road, half a mile from Windhelm's bridge. Bjorn has stopped the cart.
+Read Aloud
+"Windhelm rises from the frozen landscape ahead — dark stone, Stormcloak blue on the towers, coal smoke on the wind. You can see the bridge and the gate checkpoint from here. Two guards.
+Bjorn stops the cart. He turns around in his seat and looks at all of you — then at the wrapped figure in the back corner. He doesn't say anything for a moment. Then:"
+"So. That's Windhelm. Guards at the gate, and they check what comes through."
+He looks at Ismara. Looks back at the party.
+"I've been through those gates a hundred times. They know my face. But they don't know hers, and she's —" He pauses. "Not easy to explain."
+He waits. He is not going to solve this for them.
+What needs to happen here: The party has to decide what to do with Ismara before they reach the checkpoint. This is a planning scene — let them talk it out. The new players are present for this conversation. How the veteran players handle it — how much they reveal, how casually they discuss hiding an undead woman — tells the new players everything they need to know about what kind of group they've joined.
+If the party asks Bjorn for suggestions: "Could bury her under the cargo. Under enough furs, in the dark — maybe. Your call." He is a resource, not a decision-maker.
+If the party asks Ismara: She produces a note. "I can wait." She is patient. She has waited four thousand years.
+Before the party splits up, Bjorn tells the Khajiit: "If those hands are still giving you trouble, there's a temple inside the walls. Priests of Arkay — though everyone calls it the Temple of Talos these days. They'll sort you out."
+Exit → The party has a plan (or doesn't). They approach the gate. Scene: The Gate.
+
+Scene: The Gate
+Function: Hrolf recognizes them. They execute their plan for Ismara. They enter the city.
+Location: The bridge checkpoint. Two guards.
+Read Aloud
+"As your cart approaches the bridge, the younger guard straightens and squints at you. His eyes go wide.
+'Wait — I know you. You're the ones from Winterhold! My cousin serves in Jarl Korir's guard. He wrote about you. You cleared that barrow — the Pale Lady business!' He's grinning. The older guard looks skeptical but interested.
+Improvise from: Wind off the river. Khajiit caravan to the south. Hrolf's enthusiasm — he's a young man who has just recognized heroes from a letter his cousin sent.
+What's in This Room
+Guard Hrolf (Hugo): Young Nord, eager, knows who they are. Starstruck. He'll wave them through. He's the link between their reputation and the coming job — he'll be present when the first victim arrives and will vouch for them.
+The Older Guard: Veteran, bored. "Frostmere, eh? Keep your weapons sheathed inside." Doesn't obstruct Hrolf.
+Hrolf (Hugo)'s attention: He is looking right at the cart. He wants to see everything the heroes have. Whatever plan the party made in the previous scene, they execute it now under Hrolf (Hugo)'s enthusiastic gaze. If they're hiding Ismara, Hrolf (Hugo)'s nosiness is the obstacle. If they're leaving her outside, his attention is on them, not the cart.
+The Moves: Getting In
+Option A: Leave Ismara outside with the Khajiit → Works. What they did last time. Hrolf doesn't question it — Khajiit caravans camp outside all the time.
+Option B: Hide Ismara in the cart → Guile (Standard) to keep Hrolf (Hugo) distracted while Bjorn drives through. Hrolf (Hugo) is chatty and distractible.
+Success: Through. Hrolf (Hugo) waves the cart past.
+Failure: Hrolf (Hugo) asks "What's in the cart? Can I see?" He's not suspicious — excited and nosy. Hard Guile (-2) or a firm "It's cargo, lad."
+Option C: Something else → Set difficulty. Let them try.
+Exit → Order of Business, then The Hook.
+Living World Note — Stormcloak Intelligence: Hrolf (Hugo) just announced the party's identity loudly at the gate. Ulfric's agents are everywhere in Windhelm — they are in the middle of a careful intelligence operation, gauging support across every hold. A group of armed outsiders who cleared a barrow in Winterhold and are now arriving with a heavily-wrapped silent companion will be noted. Not acted on. Noted. If the party ever feels watched in Candlehearth Hall, this is why. It produces nothing in Adventure 1. It's background that exists whether or not the players find it.
+
+Scene: Outside the Walls
+Function: Deepen Khajiit-Ismara relationship. She shows the notebook. She places her first node.
+Location: Sheltered spot outside the walls. Late afternoon.
+Read Aloud (Khajiit player only)
+"The others disappear through the gate with the eager young guard chattering at them. Then it's just the two of you. Ismara stands at the outcropping's edge, looking at Windhelm the way a builder looks at a foundation — her head tilting, tracking something only she can see.
+Your hands ache. The rotjoint has been worse in the cold. She notices. She always notices. She produces her notebook and holds it out to you."
+Ismara in This Scene
+If Asked About...
+She Writes...
+What she's planning
+"I am learning. The world has changed."
+The notebook's geometry
+Traces a line toward the horizon. "Structure."
+Their relationship
+"You chose differently than anyone has. I am still considering what that means."
+The rotjoint
+"I did not intend this." She does not offer directions — she hasn't been here in four thousand years.
+
+Ismara's First Node: A laborer heading home along the road. Ismara walks past. Hand on the shoulder — brief, natural. She walks away. If the Khajiit sees it and asks: "This one is necessary." If pressed: "All of them are." This person becomes the first Pale Fever victim hours later.
+Exit → Khajiit enters the city for treatment.
+
+The Order of Business
+Run the Seize the Day roll. Each player gets 10-20 minutes.
+The Khajiit → Rotjoint Treatment
+Location: The Temple of Arkay (everyone in Windhelm calls it the Temple of Talos — the priests insist it's Arkay's temple and that Talos is worshipped here alongside all the other Divines, but nobody listens). Helgrid is a priest of Arkay and a trained healer. She splits her time between the temple and the Hall of the Dead.
+Helgrid examines the Khajiit's hands. She's thorough. She asks when it started, whether the pain is constant, whether the swelling responds to warmth. Then she goes quiet.
+"The scarring is ahead of the inflammation. That's backwards."
+She picks up the hand again, turns it.
+"Rotjoint spreads outward from the joint capsule. This started somewhere else and the joint reacted to it. Like the pattern was already there and the tissue —"
+She sets the hand down.
+"I can manage the pain. The source is beyond what I can do here. A Master Restoration mage, maybe. The College."
+She writes a formula on a scrap of parchment. "Quintus Navale, Gray Quarter. He'll compound this. Come back if it changes."
+Cost: 20g for Helgrid's examination and initial poultice. 50g for a two-week salve supply from Quintus. Effect: Penalty reduced from -2 to -1 Agility TN with salve.
+[GM note: She noticed something. She doesn't know what. She's not going to speculate to a patient about something she can't explain — she's a professional. The observation is present. It is not flagged. Do not have Helgrid say anything else about the scarring unless directly pressed, and even then: "I don't know. That's the honest answer."]
+GM Note: The Khajiit is already at the temple when the first Pale Fever victim arrives. This is not a coincidence you need to engineer — it's the natural result of them seeking treatment. The Hook flows directly from this scene.
+The Orc → Suvaris Atheron
+Location: An alley off the main Gray Quarter street. A Dunmer woman, older, sitting against the wall with a cloth bundle in her lap. She pulls it close when she hears someone coming.
+If the Orc is loud or direct, she hides the bundle behind her and says nothing. If they're quiet, or if they sit down:
+"It's from the Hall. The ones they prepare." She doesn't look up. "I take a little. At night. I know what you're going to say."
+Beat.
+"It tastes cold. Not — not cold like meat is cold. Cold like." She stops. "Old."
+She finally looks up.
+"I can hear something when I do it. Not words."
+She stops there. Looks back at the bundle.
+[GM note: Do not narrate the Orc's response. Do not tell the player what their character feels. Set the scene and stop. Whatever the Orc does with this is the Namira thread beginning or not beginning. Follow their lead.]
+Living World Note — The Gray Quarter Network: The Gray Quarter is not just a ghetto. It's a community that has been in Windhelm for two generations and has stopped waiting for Nord goodwill. Underneath Brunwulf's visible advocacy is a quieter network — Dunmer who move information between the Quarter, the docks, and the Argonian workers outside the walls. They know things about Windhelm's underside that nobody in the Palace of Kings knows. Suvaris is part of this community. If other players talk to Dunmer beyond her, they'll hear that the Quarter has been watching strange things for weeks — not the Pale Fever (which hasn't started yet) but the general awareness of a neighborhood used to being ignored that has developed its own ways of paying attention. This isn't a new scene. It's depth behind the scenes you already have.
+Players 3-6 → NPC Connections
+Brunwulf Free-Winter: Decent retired veteran. Good anchor.
+Calixto Vividius: Approaches the party. Warm, curious, charming. Asks about Frostmere. He is the villain. He's gathering intelligence. Play him as genuinely likeable. Do not telegraph menace.
+Stormcloak Recruiter: Political texture.
+Gray Quarter Merchant: Dunmer being harassed. Intervention earns trust.
+
+Scene: The Hook
+Function: The quest begins. The first Pale Fever victim arrives at the temple while Helgrid is examining the Khajiit.
+Location: The Temple of Arkay.
+Read Aloud
+"Helgrid is mid-examination when the heavy door slams open.
+Guard Hrolf (Hugo) stumbles in supporting a dockworker twice his size. The man's arm is bare despite the cold, and on his skin — geometric markings, angular and precise, emerging from within rather than drawn on. Blue-white. Faintly luminous.
+Helgrid looks at the dockworker's arm. Then at the Khajiit's hands, still on the examination table. Back to the arm.
+She doesn't say anything for a moment. Then: 'Get Jorleif.'"
+Improvise from: The dockworker's eyes are open. He's conscious. He can't speak clearly. The marks don't hurt — he keeps saying that, confused, like he expected them to. Helgrid is examining both the Khajiit's scarring and the dockworker's marks, going back and forth. She is not speaking because she is working. When she does speak, it's clipped.
+Helgrid After the Read-Aloud
+She examines the dockworker in silence for two minutes. Then, to whoever is closest:
+"The geometry is the same."
+She means the dockworker's marks and the Khajiit's scarring. She doesn't elaborate. She looks at the marks again.
+"These aren't applied. They're coming from inside the tissue. I've never —"
+She stops. Looks at the Khajiit's hands again.
+"Get Jorleif. Now."
+If Asked About...
+Response
+The markings
+"From inside. Not drawn on, not tattooed, not — from inside." She doesn't finish.
+The catacombs
+"I also tend the Hall of the Dead. There are tunnels beneath it. Old. I've been hearing sounds for weeks — grinding. I reported it." She doesn't say nobody came. Her face says it.
+The disappearances
+"Three people. Gravedigger. A beggar. A drifter who'd been sleeping near the Hall. Maybe a month."
+Payment
+"I can't. But Jorleif can."
+
+Jorleif Arrives
+He reads the room fast.
+"Hrolf (Hugo) says you handled the Frostmere situation." He looks at the dockworker. At the marks. "That was an undead problem in ancient ruins."
+He looks at Helgrid.
+"I have disappearances near the Hall of the Dead — which is sitting on ancient ruins."
+Beat.
+"Tell me that's a coincidence."
+They have to confirm credentials. They have to lie about Frostmere, or at least not correct whatever Korir's report said.
+If they accept: "Eight hundred gold for results. Find out what's in those catacombs. Find the missing people. Stop whatever is causing this."
+✓ Quest Accepted: 800g.
+Living World Note — The City's Misinterpretation: When the Pale Fever spreads to Day 2 and Day 3, Windhelm's official response will be to treat it as a disease originating from the Gray Quarter. This is wrong and reflects existing prejudice rather than evidence — the Fever shows no preference for Dunmer. But the quarantine talk on Day 3, if the party is still in the city, will be aimed at the wrong neighborhood. The party walks into a city that is already misinterpreting its own crisis. If they have left by then, this continues without them — the quarantine is eventually enforced against the Gray Quarter. Brunwulf's position becomes more difficult. The dock network starts moving information about the frozen people along its existing channels.
+Exit → Investigation (optional) or straight into the dungeon.
+
+Scene: The Investigation (Optional)
+Calixto (about the marks): "Geometric marks? Fascinating — and troubling. Structural notation. If someone is using that on living people... The catacombs beneath the Hall are Atmoran construction. If the source is down there, it would make sense." He's directing them to the catacombs where his own work is. He believes his work is righteous.
+Wulfgar (at the Palace): Translates marks as structural anchoring notation. "Load-bearing walls in something."
+Brunwulf (about disappearances): "The gravedigger vanished three weeks ago. Then a beggar. Then a drifter. All near the Hall. The guard doesn't care."
+
+Scene: Day 2 Morning — Hrolf's Walking Tour of Horror
+Function: Transition from investigation to dungeon. Hrolf (Hugo) walks the party through what happened overnight.
+Location: Starts at the cart. Moves through the city.
+Hrolf (Hugo) at the Cart
+Hrolf (Hugo) arrives early. He hasn't slept. He doesn't sit down. "I need you to come with me." He shares, if asked: "Four more overnight. Same marks. Galmar talking about closing the Gray Quarter gates. He doesn't know what else to do."
+Stop 1: The Temple — The Dunmer Victim
+Hrolf (Hugo) brings them to the temple first. The Dunmer dockworker from yesterday is now worse. His eyes are open. They were brown yesterday. Now they're pale blue-white, the irises crystallized into something that catches the light like cut glass. Beautiful. Wrong. He is no longer moving. His chest rises so slowly you have to watch for ten seconds to see it. His crystalline eyes track Helgrid as she moves around the table. Helgrid confirms, "Whatever this is, it's not killing him. It's —"
+Stop 2: The Hall of the Dead — Calixto's Progression
+Hrolf (Hugo) leads them to the Hall of the Dead to see Calixto's latest victim. Helgrid pulls back the shroud on the latest victim, found last night at the base of the Hall's exterior steps. The notation is elaborate — covering both arms and the chest in dense geometric patterns. The organs have partially crystallized but the body didn't rupture, didn't shatter. It just... stopped. Almost like the Dunmer at the temple. But the marks are ruptured, messy, hand-carved from outside. Cut into the skin. Not emerging from within. Helgrid, looking at the previous victims next to him: "Whoever did this is getting better at it."
+Stop 3: Quintus's Shop
+The party goes on their own initiative. Quintus opens the door, looking exhausted. The Khajiit is standing fully crystallized. He is fully crystalline. His fur has taken on a faint blue-white sheen. He is beautiful and terrible and completely still. If they try to move the Khajiit dockworker: He cannot be moved. He is completely immovable, as if he has been physically 'anchored' to the foundation of the building.
+Scene: Ismara's Apology Note
+Ismara approaches the Khajiit player privately and hands them a written note. The note should be simple and direct: 'The infection was not my intention. I am sorry for the pain.' She does not wait for a response.
+After the Walk — The Decision
+The party has seen everything. Three threads point at the catacombs: the disappearances, the sounds Helgrid reported, and the missing gravedigger.
+Ismara, if she's with them (or when they return to the cart):
+She has been waiting. When the Khajiit returns, Ismara holds out a note:
+"I would like to see what is beneath this city. Will you take me?"
+If they say yes: she goes with them. See Ismara behavior notes in the dungeon sections below.
+If they say no or later: she goes on her own. They will find her already inside — most likely in the ancient ritual chamber (Node 1, Section 2).
+If nobody returns to check on her: she's already there when they arrive.
+
+Ismara in the Catacombs — Behavior Notes
+These notes apply throughout the dungeon. Reference them as needed in each section.
+If the party brings her (Path A):
+She walks with them. She does not automatically navigate — four thousand years have passed and things may have shifted. But she is present, engaged, and responsive.
+In the upper catacombs, she touches the walls as she walks. Runs her fingers along the fitted stone. She is reading them the way you'd read a familiar book in a new edition.
+If the Khajiit walks beside her, she writes: "I knew people who laid these stones."
+If asked about the architecture: "This was a hall. Not a tomb. People lived here." She looks around. "The ceiling was painted."
+She is not sad. She is remembering. She is standing somewhere she recognizes for the first time in four thousand years.
+In the maze (Section 2):
+The wards affect Ismara differently. Where the party experiences vertigo and disorientation, she experiences something more like recognition. The wards were built using principles she developed. They scramble her perception the same way, but she understands WHY, which gives her an advantage if the party thinks to ask.
+If they ask her for help navigating: She examines the nearest wall. Writes: "The notation cycles. Move between pulses."
+If they ask about the wards: "Defense. Against intruders." A pause. Then, with what might be pride: "It still works."
+In Calixto's Workshop (Section 3):
+She examines the notation on the vellum sheets. Picks one up. Looks at it the way a musician looks at sheet music transcribed by someone who can't read notes. Sets it down.
+If asked what she thinks: "He is copying. Poorly."
+If asked about the figure on the slab: She examines it briefly. Writes: "The substrate is wrong. The binding requires —" She stops writing. Crosses it out with a single line. Writes instead: "It would not have worked."
+[GM note: She almost explained how to do it correctly. She caught herself. The crossed-out line is visible to the Khajiit if they're watching. She chose not to teach them. File this.]
+She does not touch Viola or the slab figure. Her interest in Calixto's work is academic and dismissive.
+In the Boss Fight (Section 4):
+When Calixto sees Ismara, he sees a Draugr in ancient armor. Dangerous. He directs the Guardian at her first.
+Ismara does not fight unless the party is losing. She positions herself near a wall, out of the main combat, and watches.
+If the party is losing badly (multiple characters down): Ismara acts. She raises a hand and a wall of black ice rises between the Guardian and the party — buying them a round to regroup. First time they see her use magic. She does not explain.
+If Calixto speaks his "bring her back" line while Ismara is present: She watches him. She does not react visibly. But the Khajiit, if watching her, might notice her hand tighten on her notebook.
+[GM note: Calixto is trying to resurrect someone using a bastardized version of a technique Ismara invented. He is doing it badly and killing people. Ismara's reaction is not anger — it's something she can't fully express through a Draugr body. Recognition. Something adjacent to pity.] pick up here.
+If the party doesn't bring her (Path B):
+They find her in the maze — most likely Node 1. She went on her own.
+"You hear scratching before you see her. Not Draugr scratching — deliberate, rhythmic, like someone writing quickly.
+Ismara is sitting on the floor of the chamber, her back against the base of one of the seven frozen figures. Her notebook is open across her knees and she is writing with a speed and focus you haven't seen from her before. Pages of notation — dense, geometric, filling every margin.
+The frozen figures tower above her. She is sitting among them like someone who has come home to a house full of old photographs.
+She looks up when you arrive. She holds up the notebook — a page covered in annotations, comparisons, arrows connecting her notation to the figures' skin. She is excited. This is the most animated you have ever seen her."
+If the Khajiit is present, she writes: "Look at this. Look at what they built."
+She wants to show them. She wants to share this.
+
+The Journey — Descent into the Catacombs
+Read Aloud
+"Helgrid's key turns in the lock with a sound like a bone breaking. Cold air rushes up — not Windhelm cold. Older cold. The stairs descend into fitted stone corridors: precise Atmoran blocks joined without mortar, burial alcoves lining both walls.
+Most alcoves are sealed. But as you descend: fresh boot prints in the dust. Someone has been here recently. And often. The prints lead deeper."
+Clues: Guile (Standard) — one person, medium build, soft-soled shoes. Heavy loads in, light loads out. Faint smell of embalming fluid and bone meal.
+
+The Dungeon: The Windhelm Catacombs
+Environmental Effect: 1 FP per hour. Ancient cold from the Atmoran stone. Track time.
+
+Section 1: The Guardian
+Function: First combat. Something has disturbed the dead down here.
+Read Aloud
+"The corridor opens into a burial chamber. Four alcoves are shattered open from the inside. The boot prints cut straight through without stopping — whoever walks these halls isn't bothered by what's in here.
+Two figures stand motionless in the far corner. Ancient Nords, desiccated, rusted armor, blue-burning eyes. Frost crawls from their feet. They turn toward your light."
+Interactive elements: Broken alcoves (cover, +2 DR from ranged), frost on floor (difficult terrain), boot prints (Calixto walks past with a control amulet).
+Enemies: Frost Draugr (×2) — Apprentice TL 1 Minion
+Stat
+Value
+Might
+15
+Agility
+11
+Magic
+13
+Guile
+8
+HP
+__ / 18
+FP
+— (does not use FP)
+DR
+3 (Ancient Nordic Armor)
+Immune
+Fear, Poison, Disease
+Weak
+Fire (+2 damage from all fire sources)
+
+
+Attack
+Type
+Range
+Effect
+Ancient War Axe
+Major Action
+Melee
+5 damage
+Frost Breath
+Major Action
+15ft cone
+3 cold damage to all in cone. Might (15) vs target's Might TN. Failure: Slowed 1 round.
+
+Passives:
+Frost Aura (adjacent): 1 cold damage to any character within 5ft at the start of Draugr's turn.
+Undead Resilience: Immune to fear, poison, disease.
+Behavior: Advance toward nearest living target. Frost Breath on Round 1 if multiple targets in cone. Axe closest target every subsequent round. No tactics, no fear, no retreat.
+Loot (per Draugr): Ancient Nord War Axe (5 damage, 1H), 10-20 gold, 1× Frost Salts (15g alchemical ingredient).
+Win conditions: Obvious = fight. Smart = fire (+2). Brilliant = kite through alcove cover. Desperate = retreat upstairs.
+When they die: "The blue light dies. The frost melts. In the silence — something from deeper. Not Draugr. A voice. Chanting."
+Loot
+Item
+Notes
+2× Ancient Nord War Axe
+5 damage, 1H
+~40 gold per player
+Ancient coins
+2× Potion of Minor Healing
+6 HP each
+Draugr Control Amulet
+Draugr within 10ft hesitates 1 round. Single use. Calixto's spare.
+2× Frost Salts
+Alchemical
+
+Scaling:
+4 players: Replace 1 Draugr with 1 Frost Spider:
+Frost Spider — Apprentice TL 1 Minion
+Stat
+Value
+Might
+11
+Agility
+15
+Magic
+8
+Guile
+13
+HP
+__ / 12
+FP
+— (does not use FP)
+DR
+1 (Chitin)
+Immune
+Poison
+Weak
+Fire (+2 damage)
+
+
+Attack
+Type
+Range
+Effect
+Venomous Bite
+Major Action
+Melee
+4 damage. Might (11) vs target's Might TN. Failure: 2 poison damage at start of target's next turn.
+Web Spit
+Major Action
+20ft
+No damage. Agility (15) vs target's Agility TN. Failure: Restrained 1 round (cannot move, Disadvantage on Agility rolls).
+
+Passives:
+Wall Crawler: Moves on walls and ceilings. Ignores difficult terrain.
+Ambush Predator: First attack from hidden position (ceiling, behind pillar) is made with Advantage.
+Behavior: Web Spit from ceiling to restrain, then drops to Bite. Retreats to ceiling below half HP. Flees at 3 HP.
+Loot: 1× Frostbite Venom (apply to weapon, +2 poison on next hit), Spider Silk (10g alchemical).
+6 players: 3 Frost Draugr. Third emerges from an alcove behind the party on Round 2.
+→ Section 2: The Puzzle
+
+Section 2: The Puzzle — The Atmoran Confusion Ward
+Function: Psychic maze. The corridors are fixed. The party's perception isn't. 5-minute real-time timer.
+Read Aloud
+"The corridor widens into a network of passages — all identical. Atmoran notation covers every wall. The torchlight catches the carvings and for a moment the geometric patterns seem to move, rearranging in the corner of your vision.
+You blink. The corridor ahead looks exactly like the one you just came from. Something about this place is wrong in a way you can't articulate."
+How to Run the Maze
+Step 1: Set a 5-minute timer on your phone. Put it on the table. When asked: "You'll see."
+Step 2: Use a 9-node schematic drawn on a notecard (keep hidden):
+1 --- 2 --- 3
+|           |
+4     5     6
+|           |
+7 --- 8 --- 9
+
+Connections: 1-2, 2-3, 1-4, 3-6, 4-7, 6-9, 7-8, 8-9, 2-5, 5-8
+Key locations:
+Node 8: boss room
+Node 5: Calixto's workshop door (the goal)
+Node 4: Ancient ritual chamber (seven frozen figures, ice-crowned woman panel)
+Node 3: Calixto's supply cache (his map solves the maze)
+Node 7: Namira chamber (Orc content)
+Node 9: Draugr patrol (2 Frost Draugr, avoidable)
+Nodes 2, 1, 6: Empty corridors. Atmosphere only.
+Step 3: Every 5 minutes, rotate the schematic 90° clockwise. Nodes don't change — relative positions do from the party's perspective. They say "north," you interpret based on current orientation.
+Step 4 — Sensory Cue: Each rotation: "A wave of vertigo — brief but intense. The torchlight flickers. The corridor ahead looks unfamiliar, as if you've never seen it. Then it passes. But something has changed."
+What the Party Can Do
+Figure out the pattern: If they connect vertigo to the 5-minute intervals. Magic (Standard) confirms: "The wards pulse on a cycle. Your perception shifts, not the corridors." Once they know, they can plan moves between pulses.
+Resist magically: Magic (Hard -2) suppresses the effect on one person for 10 minutes (two cycles). They guide the group.
+Find Calixto's map (Node 3): Solves the maze completely.
+Brute force: Try every direction. Works but costs time (FP drain) and risks encounters.
+Node Contents
+Node 4 — The Ancient Ritual Chamber:
+Seven figures stand in the chamber. Not burial positions — standing, upright, spaced with mathematical precision. Ancient Nords in ceremonial dress, not armor. Their skin is covered in geometric notation — the same system as the Pale Fever marks, as the Khajiit's scarring, as the crude copies in Calixto's workshop. But these are older, more elaborate, and written with a fluency that makes even Wulfgar's best translations look like a child's primer.
+They are dead. Long dead. Unlike the crystallized victims in the city above, these figures' eyes are closed. Whatever process was meant to happen here was interrupted before completion. They froze mid-ritual. They have been standing here ever since.
+The notation on their skin, if anyone examines it closely (Guile Standard or anyone who has worked with Wulfgar): Each figure's marks are different — different positions in a larger pattern. If mapped, the seven positions form a geometric structure that uses the same spatial logic as the Pale Fever victims' positions in the city above. Same system. Much older. Smaller scale.
+A carved panel on the far wall shows a crowned figure at the center of lines radiating outward in every direction. The lines connect to smaller figures at their ends. Architectural notation borders it. The carving is stylized Atmoran work, worn by four thousand years.
+[GM note: Describe this as a diagram. A system. Something technical. Don't name the figure. Don't specify "ice crown" — it's stylized, worn. A crown shape is present. The party is looking at a fragment of the original ritual schematic carved by practitioners of Ismara's discipline.]
+If Ismara is present (either path):
+She moves among the figures slowly. She touches one's face. She examines the notation on its skin — traces a line with her finger the way you'd trace a line of handwriting you recognize.
+She is quiet for a long time.
+If the Khajiit asks what she's looking at, or what she's thinking, she writes:
+"They were practicing what I taught. A smaller version. It should have worked at this scale."
+She looks at the figures again. Touches the one nearest to her on the shoulder.
+"Something interrupted them before they could finish."
+She knows what interrupted them. The Dragon Cult sealed this place the same way they sealed her. She does not say this. She touches the frozen figure's shoulder one more time and moves on.
+[GM note: She is mourning. Not dramatically. But she is standing in a room with seven people who tried to continue her work after she was imprisoned and were stopped and frozen here as a consequence. She taught principles. They tried to practice them. She has been frozen upstairs while they were frozen downstairs. Let the Khajiit player see this. Let them see her being a person, not an intellect.]
+Node 3 — Calixto's Supply Cache: Map (solves maze), ~50g/player, Scroll of Flame Cloak, 3× Minor Healing.
+Node 7 — Namira Chamber: Sealed room past a collapse. A body, not decomposed, hands folded. Symbol on the floor — not Atmoran, not Nordic. Older. The Orc feels something. Describe the room only. If they touch the body: settling warmth. If moved: it decomposes within hours.
+Node 9 — Draugr Patrol: 2 Frost Draugr (same stats as Section 1 above). Avoidable (Agility Standard stealth) or fought. The timer doesn't pause for combat.
+Random Encounter (after 25 min): A Frost Draugr emerges in the party's current node. Communicates: keep moving.
+✓ Maze Navigated → Section 3: The Setback
+
+Section 3: The Setback — Calixto's Workshop
+Function: Reveal Calixto's work. Find victims. The setback: Calixto has fled deeper, collapsing the passage behind him.
+Read Aloud
+"The door opens into a space that makes your stomach turn.
+Worktables covered in alchemical equipment — retorts, alembics, soul gem fragments, jars of organs. Ritual circles in chalk and blood. Atmoran notation copied badly onto vellum, annotated in frantic Common handwriting.
+Two alcoves modified into cells. One holds a woman — alive, gagged, terrified, geometric marks carved into her arms by hand. Not from within like the dockworker's. Cut with a knife. The other cell is empty. Dark stains.
+On a stone slab: a figure no longer fully human. Stitched, augmented, covered in messy, ruptured carved notation. Not moving. The notation is precise, almost surgical, but still hand-carved from outside, not emerging from within. Calixto's best work. Still not good enough.
+A journal lies open. The handwriting is Calixto's.
+Behind the slab, a passage leads deeper. Fresh rubble blocks it — collapsed deliberately. Footsteps retreating on the other side. Running."
+Key Details
+Viola Giordano (prisoner): Alive. Confirms Calixto. "The museum man. He did this." Her hand-cut marks are visually similar to but distinctly different from the Pale Fever's organic marks. A clue the party won't understand yet.
+The Figure on the Slab: Assembled body. His most refined attempt — the notation is precise, almost surgical, recognizably close to the marks on the Pale Fever victims. Almost. But hand-carved from outside, not emerging from within. Calixto's best work. Still not good enough.
+Calixto's Progression — Visible in the Workshop:
+On the worktables: vellum sheets pinned in chronological order. Early sheets show crude notation — big, imprecise, with frustrated annotations in the margins: "Wrong. Wrong. WHY wrong." Later sheets show finer work, smaller notation, fewer margin notes. The most recent sheet is almost clean — the notation is precise, careful. Almost.
+Preserved samples in jars: sections of skin with notation carved into them, preserved in alchemical fluid. Early samples show ragged cuts, torn tissue. Later samples show cleaner incisions, more precise geometry. He has been saving his practice work.
+The Missing Gravedigger:
+If the party reaches the workshop on Day 2 (before Night 3): The missing gravedigger is in the second cell. Alive. Gagged. Marks partially carved into his arms — Calixto started working on him last night but didn't finish. He is terrified. He can be freed the same way as Viola (Agility Standard or Might Standard on the lock). His wife filed the missing person report at the temple that morning. Returning him to her is the resolution of that thread.
+If the party reaches the workshop on Day 3 (after Night 3 — see contingency below): The gravedigger is on the slab. Crystallized — Calixto's first passable success. The cell holds a new victim.
+Calixto's Journal — Key Entries:
+"Week 1: The preservation matrices in the lower chamber are extraordinary. Those seven figures are still intact after millennia. If the substrate can maintain consciousness for that duration —"
+"Week 2: The notation is more complex than I realized. I can copy the shapes but the underlying logic escapes me. I need more subjects. The technique requires precision I haven't achieved yet."
+"Week 3: Subject 2 is gone. The notation doesn't tolerate imprecision — or rather, it does something with it that I wasn't expecting. I have to be more careful."
+"[Recent — no date:] Something has changed in the last two days. The wards have intensified dramatically. I don't know the cause — it's not my work. Something is resonating with the foundation stones. From outside, I think. Whatever it is, it's making everything unstable. I need to accelerate."
+"[Final entry:] Visitors today. They had marks — the real marks, not mine. The Khajiit especially. The notation on her joints is fluent. Accent marks I've never seen. Someone who actually understands the system is working in this city and I do not know who they are. The resonance from outside is stronger than ever. I must accelerate. If I can achieve one clean binding before whoever is doing this finds me, I can prove the technique works. Then it won't matter how crude my early attempts were. The result is what matters."
+GM Note: "Something resonating from outside" is Ismara's arrival. The final entry confirms Calixto saw the Khajiit's marks in his shop during Session 1 and recognized them as fluent — the "real thing" versus his copies. He knows someone else is working the same system properly. He doesn't know it's Ismara. He's racing to prove his own technique works before he's found. This is in his journal for the party to find.
+The Collapsed Passage: Clear rubble (Very Hard Might -4, loud) or find the side fissure (Guile Standard, quiet, Agility Standard to navigate).
+Loot
+Item
+Notes
+Calixto's Journal
+Evidence. Partial Atmoran notation notes.
+Necromancer's Amulet (Moderate)
++2 Magic for Conjuration. Worth 150g. Morally questionable.
+Alchemical Supplies
+Worth 100g.
+~40 gold per player
+Calixto's funds.
+
+✓ Viola Rescued. ✓ Calixto Identified. → Section 4: The Climax
+
+Section 4: node 8 The Climax — Calixto's Final Stand
+Function: Boss fight. Calixto mid-ritual, with the Guardian as his unwilling weapon. He thinks he controls it. He doesn't.
+If the party never met Calixto above ground, replace the opening of the read-aloud with: "A man stands at the far end, hunched over a crude altar of bones. He's wearing fine clothes — ruined now, stained with blood. Not armor. Not robes. The clothes of someone who belongs in a drawing room, not a crypt." Everything else plays the same. After the fight, the House of Curiosities key on his body and Viola's testimony connect him to the city above.
+Read Aloud
+"The fissure drops you into the largest chamber yet. Ceiling arching twenty feet above, pillars carved as warriors, iron braziers at each corner filled with dark oil. The cold freezes your breath before it leaves your lips.
+Calixto stands at the far end, hunched over a crude altar of bones. The friendly collector is gone — clothes stained with blood, hands shaking as he carves notation into the skin of a bound man on the altar.
+Behind Calixto, something massive looms by the cracked sarcophagus. Nine feet tall, ancient plate armor crusted with ice, a greatsword of black iron. A Draugr Crypt Guardian. Its blue-fire eyes are fixed on Calixto's back with what might be hatred. A bone-and-wire amulet around Calixto's neck pulses — keeping it in check. Barely.
+Calixto hears you. He turns. His eyes are fevered.
+'You don't understand. I'm so close. The Atmorans preserved consciousness for millennia and I've cracked their method. One more subject. Everything I've done — it's been for this. To bring her back.'
+He's not talking to you. He's convincing himself."
+Interactive Elements
+Four braziers: Lit = -1 Guardian DR each + suppresses Frost Aura within 15ft. Fire source + Minor Action to light while adjacent.
+Pillars: Full cover. Guardian can smash them (3 damage in 5ft, Agility Standard halves).
+Calixto's amulet: HP 5, DR 0. Called shot (-2 penalty) to target, or remove in melee (contested Agility vs Calixto's Guile 14). Destroyed/removed = Guardian turns on Calixto immediately.
+Bound drifter: Agility Standard to free while adjacent. He will flee.
+
+Boss: Calixto Vividius — Apprentice TL 2 Controller pick up here!!!!!! Start!!!! Frank!!!
+Stat
+Value
+Might
+10
+Agility
+12
+Magic
+16
+Guile
+14
+HP
+__ / 22
+FP
+__ / 16
+DR
+1 (Fine Clothes)
+Immune
+Nothing
+Weak
+Nothing. He is mortal and fragile.
+
+
+Attack
+Type
+Range
+Cost
+Effect
+Paralyzing Bolt
+Major Action
+30ft
+4 FP
+4 damage. Magic (16) vs target's Magic TN. On hit: Slowed 1 round.
+Drain Life
+Major Action
+Touch
+6 FP
+6 damage. Magic (16) vs target's Might TN. Calixto heals 3 HP.
+Command Guardian
+Minor Action
+Line of sight
+0 FP
+Directs the Guardian to attack a specific target this round. Without this, Guardian acts on its own.
+
+Passive — Desperate Scholar: Not a trained combatant. Fights from maximum range. If any melee attacker closes to within 5ft, he panics — next action is always Drain Life or flee.
+Passive — The Control Amulet: While intact and worn, Calixto can Command Guardian. If destroyed or removed, Guardian immediately attacks Calixto and ignores all other targets until he is dead.
+Behavior:
+Round 1: Command Guardian (Minor) → most armored party member. Paralyzing Bolt (Major) → most dangerous ranged attacker or caster.
+Subsequent: Maintain distance. Command + Bolt each round. Retreat if approached.
+Cornered: Drain Life on whoever is closest. Desperate and sloppy.
+Amulet breaks: One round of frozen panic (does nothing). Then tries to flee. Will not make it if Guardian is alive.
+Loot (on body): Fine clothes (ruined), 30 gold, House of Curiosities key, personal journal (references "her" without naming — see below).
+Calixto's Motivation — GM Only: Do not define who "her" is before the session. If pressed: "She was — she understood what I was trying to do. She believed in it. And then she was gone." He does not name her. A lover, a mentor, a collaborator, a daughter — whatever lands hardest at the table is correct.
+
+Boss: Draugr Crypt Guardian — Apprentice TL 3 Boss
+Stat
+Value
+Might
+17
+Agility
+11
+Magic
+15
+Guile
+8
+HP
+__ / 48 (see scaling)
+FP
+— (does not use FP)
+DR
+5 (Ancient Ceremonial Plate) — reduced by 1 per lit brazier (min 1)
+Immune
+Fear, Poison, Disease, Cold
+Weak
+Fire (+2 damage from all fire sources)
+
+
+Attack
+Type
+Range
+Effect
+Black Iron Greatsword
+Major Action
+Melee (10ft reach)
+8 damage. Critical (roll of 1): target knocked prone.
+Frost Storm (1/combat)
+Major Action
+20ft radius centered on self
+5 cold to all in radius. Might (17) vs target's Might TN — success halves. Extinguishes 1 lit brazier (Guardian's choice).
+Pillar Smash (replaces Greatsword)
+Major Action
+Melee
+Destroys 1 pillar. 3 damage within 5ft. Agility Standard halves.
+
+Passive — Frost Aura (10ft): 2 cold damage to anyone starting their turn within 10ft. Suppressed within 15ft of a lit brazier.
+Passive — Undead Resilience: Immune to fear, poison, disease, effects targeting the living.
+Passive — Ancient Plate: DR 5 base. Each lit brazier reduces DR by 1 (minimum 1).
+Phase Transition at 24 HP (half health):
+Immediately uses Frost Storm, even if already used. This is a second use.
+Frost Storm extinguishes 1 brazier.
+After this round: prioritizes destroying lit braziers with Pillar Smash. Attacks highest-damage party member otherwise.
+Behavior (amulet intact): Follows Calixto's commands reluctantly. Attacks designated target. Moves slowly. Eyes flick to Calixto between every swing.
+Behavior (amulet broken): Immediately attacks Calixto. Ignores all other targets until he is dead. Then turns on party. No longer reluctant.
+Phase 2 (24 HP and below): Frost Storm triggers. Prioritizes destroying braziers and pillars. Attacks highest-damage dealer otherwise.
+Scaling:
+Party Size
+Guardian HP
+Calixto HP
+Additional
+4 players
+35
+18
+—
+5 players
+48
+22
+—
+6 players
+55
+22
+1 Frost Draugr (Section 1 stats) emerges on Round 3
+
+
+How Players Win
+Obvious: Fight both simultaneously. Very difficult.
+Smart: Destroy the amulet. Guardian kills Calixto. Light braziers. Fight weakened Guardian.
+Brilliant: All four braziers + amulet destroyed + Scroll of Flame Cloak from cache. Guardian at DR 1, no aura, taking fire. Melts.
+Desperate: Free the drifter and flee. Guardian eventually kills Calixto on its own.
+Narrative: Talk Calixto down (Very Hard Guile -4). He drops the amulet voluntarily. Guardian kills him. He knows it's coming. Tragic, not triumphant.
+When Calixto Dies
+If the Guardian kills him:
+"The Guardian's sword falls like a headsman's axe. Calixto doesn't scream. He looks up at the ancient face of the thing he thought he'd mastered and whispers something you can't hear. Then the frost takes him."
+If the party kills him:
+"The light leaves his eyes with profound disappointment — not in you, but in himself. His hand reaches toward the slab, stretching to touch it one last time. He doesn't reach."
+When the Guardian Dies
+"The blue fire flickers and dies. The frost binding its armor cracks and shatters. The massive form sags into its sarcophagus. The cold recedes. The vibration stops. In the stillness: dripping water. The ice is melting."
+Loot
+Item
+Notes
+Winterbane Greatsword (Powerful)
+2H, 7 base damage, +2 vs undead (9 total). Frost runes pulse blue-white when undead within 30ft. Requires Might 13 to wield; below that, Disadvantage.
+Guardian's Ceremonial Plate (Moderate)
+Heavy Armor, DR 4. Ornate ancient Nordic with geometric notation engraved. Worth 200g. Requires Might 14 without movement penalty.
+~60 gold per player
+Around the sarcophagus.
+2× Potion of Greater Healing
+12 HP each.
+
+Every round remember:
+Frost Aura: 2 cold, 10ft, suppressed near lit braziers
+DR = 5 minus lit braziers (minimum 1)
+Command Guardian as Minor Action if amulet intact
+Drifter on the altar
+FP drain: 1/hour still active
+→ Section 5: The Reward
+
+Section 5: The Reward — The Burial Vault
+Read Aloud
+"Beyond the Guardian's chamber, a vault that hasn't seen light in four thousand years. Torchlight catches gold — carefully placed offerings around a stone altar. Ancient weapons on pedestals. Jewelry in niches.
+On the altar, a necklace of silver chain bearing a pendant of pale blue crystal. It pulses with faint inner light, like a slow heartbeat."
+Treasure
+Item
+Notes
+Pendant of the Deep (Moderate)
+Cold Resistance: -2 to all cold damage (min 0). Glows blue underground.
+~100 gold per player
+Ancient coins and jewelry.
+2× Potion of Greater Healing
+12 HP each.
+2× Potion of Frost Resistance
+1 hour.
+Scroll of Lesser Ward
+Single use barrier.
+Atmoran Artifacts
+Worth 200g to a collector.
+
+Hidden Discovery (Guile Standard): Behind the altar, a carved panel — the same crowned figure as in Node 1, but here with more detail. The lines extending from the figure reach the edges of the panel and continue, as if the image was always meant to be part of something larger. Architectural notation borders it.
+[GM note: Describe this as what it is — a diagram, a system, something technical. Don't name "a woman" or "ice crown" specifically. The carving is stylized Atmoran work, four thousand years old, worn. A crown is present. The figure's gender is not clearly readable. They're looking at a fragment of the original ritual schematic. They don't know that. They're not supposed to know that yet.]
+✓ Dungeon Complete.
+
+The Resolution
+The Return
+Helgrid is at the Hall of the Dead when they come back up. When she sees Viola she closes her eyes for a moment.
+Jorleif arrives within the hour. Reads the journal. Sets it down.
+"The museum man." He doesn't finish the thought. He doesn't need to.
+Payment: 800 gold. No delay. Reputation: Known in Windhelm. Guards nod. Brunwulf spreads the word. Windhelm Favor: +1 social rolls with Windhelm Nords in future.
+The Morning
+Hrolf (Hugo) finds them before they've finished breakfast.
+"Three more. Overnight." He looks tired. "Same marks. Helgrid says — after you killed him. After you cleared the catacombs. She says whatever put those marks on the dockworker wasn't in those catacombs."
+He doesn't know what to do with that. Neither does anyone else.
+Report this as fact. Don't frame it. The Pale Fever continues. They solved a real crime. The thing they were hired to stop was never what they thought it was.
+Award: "You each gain 1 Advancement Point."
+The Rumor Mill
+Bjorn has heard things. He presents these at breakfast or on the way out of the city.
+Path of Prophecy: "Pale road's got people standing in the fields. Not travelers — standing. Just standing there. Word is it's not just here."
+Path of Steel: "Ulfric's pushing toward Whiterun. Roads west are going to be complicated."
+Path of Fortune: "Jarl of Morthal's offering a bounty. Disappearances in the marshes. Locals say vampires."
+Ismara, at some point during the morning, produces a note and holds it out to whoever is nearest.
+It says: "West."
+Living World Note — Windhelm After the Party Leaves: Ulfric's intelligence operation continues — his agents are moving through three other holds by the time the party reaches the Pale. The Pale Fever continues and Windhelm's response worsens: the quarantine is enforced against the Gray Quarter despite the disease showing no preference for Dunmer. Brunwulf's position becomes untenable. The dock network starts moving information about the frozen people along its existing channels — by Adventure 3 there is a whisper network about the phenomenon that has no accurate information but has very good geographic coverage. The party will hear echoes of Windhelm's situation in cities they haven't visited yet, carried by people they never met.
+
+Adventure 1 Checklist
+✓ Quest Reward: 800g from Jorleif
+✓ Dungeon Loot: Winterbane (powerful), Plate (moderate), Pendant (moderate), Necromancer's Amulet (moderate), gold, consumables
+✓ Calixto: Defeated. Self-contained villain. Done.
+✓ Pale Fever: NOT RESOLVED. Continues. Real cause unknown.
+✓ Rotjoint: Managed by Helgrid, salve from Quintus. -1 with salve.
+✓ Namira: Planted
+✓ Ismara Clues: Carved panel, matching scarring, timing overlap, continuing Fever, journal's "resonating from outside." All present. None flagged.
+✓ AP Earned: 1 per player. Total: 2 AP.
+
+Loot Summary
+Section
+Gold/Player
+Key Items
+Order of Business
+-70g
+Rotjoint treatment (20g Helgrid + 50g Quintus salve)
+Section 1 (Guardian)
+~40g
+War Axes, Minor Healing, Control Amulet, Frost Salts
+Section 2 (Puzzle)
+~50g
+Map, Flame Cloak scroll, Minor Healing
+Section 3 (Setback)
+~40g
+Journal, Necromancer's Amulet, Alchemy supplies
+Section 4 (Boss)
+~60g
+Winterbane, Plate, Greater Healing
+Section 5 (Reward)
+~100g
+Pendant, Greater Healing, Frost Resistance, Ward scroll, Artifacts
+Quest Reward
+~160g
+Windhelm Favor
+
+Total/player: ~750-1000g. Items: 1 Powerful, 2 Moderate. AP: 1. Matches Apprentice Tier.
+
+Night 3 Contingency — Calixto Succeeds
+If the party does not enter the catacombs by the end of Day 2, or enters but retreats before reaching Calixto, he has one more night to work.
+What happens on Night 3:
+Calixto takes the missing gravedigger and performs his most refined attempt yet. For the first time, it doesn't fail catastrophically. The gravedigger does not explode. Does not rupture. Does not shatter. The notation holds. The body crystallizes — standing, eyes open, geometric marks visible on the skin.
+But it is not clean. Not like Ismara's work.
+The morning of Day 3:
+The gravedigger is found standing in the street outside the Hall of the Dead. Crystallized. Alive — technically. Eyes open but unfocused, not tracking movement the way Ismara's victims do. The geometric marks are present but uneven — some lines thicker than others, angles slightly off, spacing inconsistent. Where Ismara's marks emerge from within the skin seamlessly, like they grew there, Calixto's look like they were pushed through from the outside and got stuck halfway. The crystallization is cloudy rather than clear — more dirty ice than cut glass.
+But it is not clean. Not like Ismara's work. The crystallization is cloudy rather than clean, crystalline — more dirty ice than cut glass. The marks look like someone was guessing.
+Helgrid, if she examines both side by side:
+"This isn't the same. The marks on the others are precise, consistent, architectural. This one looks like someone was guessing."
+[GM note: This is actually useful for the investigation. Two different quality levels means two different sources. Calixto's crude success gives them evidence that there are two separate things happening — one competent and one amateur. They still don't know who the competent one is. But they now have proof that Calixto's work and the Pale Fever are not the same hand. Whether they draw that conclusion depends on whether they're looking.]
+What Calixto does after his first success:
+He doesn't stop. He is elated. He goes back for another subject. The disappearances accelerate. If the party doesn't enter the catacombs by Day 4, two more people go missing. The dungeon still works exactly the same when they finally go down — Calixto is still there, still working. The missing gravedigger on the slab is just replaced by his latest acquisition.
+
+Ismara's Background Activity
+GM tracking only.
+Day 1: Surveys from outside the walls. Places first node (road laborer — becomes first Pale Fever victim that evening).
+Day 2: Places second node (Gray Quarter laborer).
+Day 3: Places third node (beggar near the docks). Tells the Khajiit: "I have what I need here."
+Living World Note — The Docks: The docks run a secondary economy that Ulfric's court officially doesn't see. Contraband, information, people moving without papers. The Argonian workers are part of this network — not criminals, just people excluded from legal structures who have built parallel ones. A dockworker disappearing into the Pale Fever doesn't trigger an immediate city response because dockworkers go missing sometimes. The system is built to not notice. This is why Ismara's first node can vanish into the phenomenon without anyone mounting an investigation until Helgrid forces the issue at the temple.
+Clues present in this adventure, none flagged:
+Helgrid noticing the scarring is wrong without being able to explain it
+The Khajiit potentially witnessing the node placement without context
+Node 1 and vault diagrams — present, architectural, uninterpreted
+Calixto's journal noting something resonating from outside — cause unstated
+The Fever continuing after Calixto's death — reported as fact, not framed
+None of these connect. They are not supposed to connect yet. They are threads. The weaving happens later.
+
+GM Prep Checklist
+Before Monday:
+[ ] 5-6 Ismara notes on index cards
+[ ] Windhelm sketch map
+[ ] 9-node maze schematic on notecard (practice rotating)
+[ ] 5-minute timer ready
+[ ] Stat blocks printed with blank HP trackers
+[ ] Calixto journal entries as a prop page
+[ ] Names for unnamed NPCs
+[ ] Loot per section on a reference card
+[ ] Rotjoint apology note card for Ismara — write in advance, hand physically to Khajiit player
+[ ] 2-3 additional Ismara catacombs note cards: "I knew people who laid these stones." / "They were practicing what I taught." / "He is copying. Poorly."
+[ ] Know which victims are Ismara's and which are Calixto's — track on a separate note. The party conflates them. You cannot.
+[ ] Know where Ismara is at all times during the dungeon. If they didn't bring her, she is in Node 1.
+[ ] Quintus's emotional state ready — he found his crystallized partner this morning
+During:
+[ ] Track in-game days
+[ ] Track FP drain
+[ ] Run 5-minute timer in maze
+[ ] Track braziers and amulet in boss fight
+[ ] Track Khajiit seeing node placement
+[ ] Track Orc and Namira chamber
+[ ] Track NPC engagement
+[ ] Note Calixto interactions before reveal
+[ ] Track Ismara's behavior in the catacombs — what she shows the party, what she withholds
+[ ] Track Khajiit's reaction to the apology
+[ ] Track whether the party notices the progression in Calixto's victims at the Hall
+[ ] Track whether anyone connects Calixto's journal entry about "the real marks" to the Khajiit
+[ ] Note whether Ismara almost explains the binding technique and stops herself (Section 3)
+After:
+[ ] Record choices, surprises, NPC engagement
+[ ] Note Orc's Namira level
+[ ] Note Khajiit's Ismara scenes
+[ ] Note what other players gravitated toward
+[ ] Which rumor chosen? Prep accordingly.
+[ ] Record Pale Fever reaction post-Calixto
+
+
+
