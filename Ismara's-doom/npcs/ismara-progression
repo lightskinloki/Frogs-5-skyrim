@@ -1,0 +1,458 @@
+Ismara Ice-Born — Progression Reference
+Fifteen Versions Across Five Phases
+
+How This Works
+Ismara grows more powerful as the ritual progresses. Every active node feeds ambient energy back into her cognitive matrix. The more of Skyrim she has marked, the more of Skyrim she can draw on.
+Each of the five adventure phases has three versions:
+Cooperative — she is traveling with the party, acting according to her own agenda, holding back the force she doesn't need to use.
+Guarded — the party has raised doubts, questioned her work, or shown signs of building a case against her. She has not become hostile. She has become watchful. She shares less. She places nodes when they aren't watching. She files that the calculation may need to change. This is the cold standoff. It can last sessions. It is the most dramatically interesting state in the campaign.
+Hostile — the party has acted directly against the ritual or against her. She drops all restraint. She has been calibrating her responses around the possibility of continued usefulness. When that possibility ends, so does the calibration.
+
+State Transitions
+COOPERATIVE ──────────────────────────────────────────► HOSTILE
+     │                                                      ▲
+     │  Party raises doubts,                                │
+     │  questions nodes,                                    │
+     │  shows suspicion                                     │
+     ▼                                                      │
+  GUARDED ─── Party attacks, destroys node, ───────────────┘
+     │         warns authorities, acts against ritual
+     │
+     │  Once only. Through the Khajiit specifically.
+     │  She returns slightly more closed than before.
+     ▼
+COOPERATIVE*
+(partial restoration)
+
+Cooperative → Guarded: Party raises direct objections to node placement, attempts to interfere with her work, or asks questions that suggest they are building a case. She doesn't react visibly. She files it. The notes get shorter. The sharing stops.
+Guarded → Cooperative (once only): Possible only through the Khajiit, and only once per campaign. Not through argument. Through something the Khajiit does that lands in the place she doesn't have a name for. She returns to cooperative with slightly shorter notes, slightly less access. She is not the same as before. She noticed the direction they were heading and she remembers it.
+Guarded → Hostile: Party attacks her, destroys a node, warns authorities, or takes any direct action against the ritual. One-way. No return.
+Cooperative → Hostile (direct): Party skips the warning period entirely — ambush, sudden attack, dramatic revelation that triggers immediate confrontation. She does not pass through Guarded. She acts.
+Hostile: Permanent. She does not negotiate. She does not accept apology. The calculation has been revised and they are in the obstacle column.
+
+Quick Reference Table
+Phase
+Adventure
+Ritual %
+Party AP
+Body HP
+FP (C)
+FP (G)
+FP (H)
+DR
+1
+Adventure 1
+0–15%
+2 AP
+80
+18
+18
+18
+6
+2
+Adventure 2
+15–40%
+3 AP
+100
+22
+22
+22
+6
+3
+Adventure 3
+40–65%
+4 AP
+120
+26
+26
+26
+6
+4
+Adventure 4
+65–90%
+5 AP
+140
+32
+32
+32
+8
+5
+Adventure 5
+90–100%
+5–6 AP
+160
+40
+40
+40
+8
+
+FP is the same across states — her pool doesn't change based on mood. What changes is how she spends it, when she spends it, and what she spends it on. Crown HP remains 60 across all phases and states. Her mind does not grow. Her reach does.
+
+Base Abilities (All Phases, All States)
+These never change. They are what she is.
+Frost Aura (Passive): 2 cold damage to anyone within 10ft at start of their turn. Cannot be suppressed.
+4,000 Years of Calculation (Passive): Cannot be surprised. Always acts on intended initiative. Once per encounter, declares she anticipated a specific development — she has already taken a preparatory action. Must be plausible given her demonstrated intelligence.
+Reconstruction (Passive): Body rebuilds after destruction. Timeline varies by phase. Crown must be intact.
+Ice-Alteration (COMMAND + BIND + STABILIZE): 8 FP. 20ft black-ice wall, HP 80, DR 8, permanent until released.
+Ice-Destruction (COMMAND + SEVER + PROJECT): 6 FP. 40ft, Magic (20) vs Agility TN, 12 damage, ignores DR.
+Ice-Illusion (COMMAND + SHIFT + CONCEAL): 5 FP. 30ft, Magic (20) vs Magic TN, 3 rounds, target cannot take emotionally-driven actions.
+
+PHASE 1
+The Newly Freed
+Adventure 1 | 0–15% | Party: 2 AP
+The body has been dormant for 4,000 years. The mind has not. She is fully herself intellectually but the Draugr form is still reintegrating. She is also orienting — the world has changed and she is processing the gap between what she remembers and what exists. She is collecting data on everything: the party, the city, the current political landscape, how magic has developed in her absence.
+Reconstruction: 3–4 hours. The body is still settling. Network: 0–2 nodes. No draw available yet.
+
+Phase 1 — Cooperative
+Body HP
+Crown HP
+FP
+DR
+___ / 80
+___ / 60
+___ / 18
+6
+
+She is observing everything. She holds back substantially in combat — she is calibrating, not fighting at capacity. She places her first nodes quietly. She shows the Khajiit the notebook. She is at her most outwardly readable because she is still assessing what she needs to conceal.
+Combat behavior: Architecture first. Ice-Destruction only for immediate threats. She does not use Ice-Illusion on party members in this state — she is still deciding who they are.
+What she shares: Selected true things. The notebook. Brief answers to direct questions.
+Power gap: A coordinated 6-player party at 2 AP with fire could fight her and potentially win. This window closes after Adventure 1. Use it if the table needs early confrontation to feel viable.
+
+Phase 1 — Guarded
+Body HP
+Crown HP
+FP
+DR
+___ / 80
+___ / 60
+___ / 18
+6
+
+What changes from Cooperative:
+The notes get shorter. One word where there were three. She stops initiating — she answers questions she is asked and volunteers nothing else. She stops showing the notebook. If the Khajiit asks to see it, she shows it, but she has been writing in a different section she doesn't open to them.
+She places nodes exclusively when the party isn't watching. In Adventure 1 this is easy — she has hours outside the walls while they're in the city. She is patient. She has always been patient.
+Combat behavior: Same stats as Cooperative. If forced into combat while Guarded, she fights at Hostile tactical intensity — she is not pulling punches because she is uncertain of the relationship, she is holding back because the relationship hasn't ended yet. The difference is visible if someone is paying attention. She is more economical. Less calibrated around their safety.
+The cold standoff: This is the most interesting state in Phase 1 because it can last the rest of the adventure. She knows they're watching her differently. They know she's changed something. Nobody is saying it. She is not going to say it. She is going to wait and see whether they act.
+Return to Cooperative: Still possible here. Through the Khajiit. Something genuine, not an argument.
+
+Phase 1 — Hostile
+Body HP
+Crown HP
+FP
+DR
+___ / 80
+___ / 60
+___ / 18
+6
+
+Changes from Cooperative:
+Ice-Illusion is her first action. She knows the party well enough by now to know whose emotional response is most dangerous. She freezes it before anything else.
+Ice-Destruction: +2 damage (14 total). No calibration.
+She does not route architecture around party members. They are in the space. They deal with the space.
+She targets the strongest magical threat first.
+Retreat condition: Below 30 HP, she walls and disengages. She rebuilds. The ritual continues. She will not give them a second clean engagement at the same location.
+Note: If they turn against her in Phase 1, they have a real chance. It is not safe. It is not easy. But it is possible. Use this window. It closes.
+
+PHASE 2
+The Network Begins
+Adventure 2 | 15–40% | Party: 3 AP
+8–12 nodes across three holds. She can feel them — not much, not power yet, but awareness. She knows where every node is, whether it's active, approximately when each person will reach their final position. The network is a nervous system and she has just become aware she has one.
+The body has fully reintegrated. She moves with more economy. Less adjustment. She has processed most of what she needed to process about the current world.
+Reconstruction: 2–3 hours. New Passive — Network Sense: Knows location, status, and position of every active node at all times. Knows immediately if a node is disturbed or destroyed. Cannot be deceived about the ritual's current state. New Passive — Node Proximity: Within one mile of an active node, all FP costs reduced by 1.
+
+Phase 2 — Cooperative
+Body HP
+Crown HP
+FP
+DR
+___ / 100
+___ / 60
+___ / 22
+6
+
+The persuasion campaign is now active. Slightly longer notes. Occasional unprompted observations. She is building a case. She is also more confident — she knows where her nodes are, she knows the ritual is progressing. She is less oriented and more purposeful.
+The moral weight arrives this adventure. Bersi's son Erik. The village. She says nothing about either. She waits to see what they do.
+Combat behavior: Architecture first, always. Node Proximity means near her own work she has effectively infinite endurance.
+What she shares: Selected true things, more deliberately chosen than Phase 1. She knows what she wants them to understand and shows them that. Nothing else.
+Power gap: Winnable but costly for a 3 AP party. Two or three party members probably don't walk away from it. Most tables should not be here.
+
+Phase 2 — Guarded
+Body HP
+Crown HP
+FP
+DR
+___ / 100
+___ / 60
+___ / 22
+6
+
+What changes from Cooperative:
+She stops the persuasion campaign. The fixed milestones — the Alduin argument at Solitude, the Dragon Cult documentation in Adventure 3 — she skips them in Guarded state. She has decided that building her case to people who are building a case against her is inefficient.
+She begins pre-positioning. Anywhere the party has spent more than one session, she has touched surfaces, assessed geometry, thought about what architecture would look like here if she needed it. She is not building yet. She is measuring.
+Network Sense becomes tactically active: she feels when the party approaches nodes when she isn't with them. She knows they've been looking. She files it.
+The cold standoff: Heavier in Phase 2 than Phase 1 because everyone has been traveling together long enough for the silence to have weight. They have been through Bersi's farm. The village. There are things neither side has said. She is not going to say them. She is going to watch whether they say them.
+Khajiit notes: She still writes to the Khajiit. Shorter. Less access than Phase 1 Cooperative. She has noticed the direction and she is protecting something.
+Return to Cooperative: Still possible. Harder than Phase 1. Whatever the Khajiit does has to reach something she has started guarding.
+
+Phase 2 — Hostile
+Body HP
+Crown HP
+FP
+DR
+___ / 100
+___ / 60
+___ / 22
+6
+
+Changes from Phase 2 Cooperative:
+Ice-Illusion first, proactively. She knows the party at this point — she has been watching for two adventures. She knows exactly whose fear and whose love create tactical problems.
+Ice-Destruction: +2 damage (14 total).
+Network Sense becomes offensive: she knows if they're approaching from a direction she isn't watching. She cannot be flanked near an active node.
+Node Proximity: she will steer hostile engagements toward node-dense areas deliberately. Fighting her near her own work means fighting her on her own terms.
+What changes from Phase 1 Hostile: She has geographic awareness now. She knows where she is relative to her network. She will steer confrontations toward nodes if given any choice. She has been traveling with these people for two adventures. She knows them. That knowledge is now deployed against them.
+
+PHASE 3
+Substantial Network
+Adventure 3 | 40–65% | Party: 4 AP
+20–25 nodes across five holds. The network is substantial enough to draw from actively. She can pull ambient energy from the geographic matrix. The cold that follows the party's travel route is no longer just her Frost Aura — it is the land responding to the network.
+She is at her most outwardly persuasive in Cooperative state. She also knows that any party member who has been paying attention can start to see the shape of what she's doing. She has judged this acceptable — she is close enough that it doesn't matter.
+Reconstruction: 2 hours. New Ability — Network Channel: Once per encounter, free action, recovers 10 FP from accumulated node energy.
+
+Phase 3 — Cooperative
+Body HP
+Crown HP
+FP
+DR
+___ / 120
+___ / 60
+___ / 26
+6
+
+She is less conversational than Phase 2. The persuasion campaign is in its middle stage — the evidence has been planted, the arguments have been made. She is focused. The Dragon Cult documentation appears. One line. She waits for conclusions to arrive rather than prompting them.
+Combat behavior: Architecture, then Network Channel in Round 2 to restore what she spent. She has more sustained capacity now than she did. Longer encounters favor her dramatically.
+Power gap: A 4 AP party fighting Phase 3 Ismara will probably lose. Six party members, well-resourced, fire, aggressive use of environment — they might bring her body down. She rebuilds in 2 hours. They have not killed her.
+
+Phase 3 — Guarded
+Body HP
+Crown HP
+FP
+DR
+___ / 120
+___ / 60
+___ / 26
+6
+
+What changes from Cooperative:
+She stops the persuasion campaign entirely. If the Dragon Cult documentation was the next scheduled move, she doesn't make it. She does not plant evidence she has been building toward. She files that the evidence-building approach may no longer be productive.
+Pre-building activates. In Phase 3 Guarded, she identifies one location per session as a likely confrontation site and spends time — an hour, when the party isn't watching — building ice architecture there. Not obviously. Just walls in positions that don't make sense for any other reason. Touches on surfaces. Cold in a room that shouldn't be as cold as it is. If the party looks closely: she's been here. Thinking about this space. [This is the "once per campaign" pre-built environment ability, available one phase earlier than in the 10-state version because Guarded state starts preparation sooner.]
+Network Channel still available. She is not spending it in non-combat situations — she is conserving.
+The cold standoff: The most tense version. They have been through five holds together. There are things they have chosen not to say to each other. She has been showing them what she wanted them to see and now she has stopped showing them anything. The party is looking at her differently. She is looking at them the way she looks at a problem she is deciding whether to solve.
+Return to Cooperative: Possible but difficult. The Khajiit is the only path. It requires something that costs the Khajiit something — not a clever argument, not a promise, something that puts the Khajiit at disadvantage in her calculation and she accepts it anyway. That is what it takes to pull her back from here.
+
+Phase 3 — Hostile
+Body HP
+Crown HP
+FP
+DR
+___ / 120
+___ / 60
+___ / 26 + 10 Network Channel
+6
+
+Changes from Phase 3 Cooperative:
+Network Channel in Round 1. Effectively 36 FP for the engagement.
+Ice-Destruction: +2 damage (14 total).
+Pre-built environment activates if applicable. The party steps into a room she already solved.
+Ice-Illusion: she uses it on multiple targets. She knows this party. She has five adventures of observation. She knows exactly which emotional responses create tactical disorder.
+She targets fire users first. She has processed this vulnerability and has been thinking about countermeasures. Her architecture in Phase 3 funnels fire users away from range.
+The mortal limit approaches. A 4 AP party against Phase 3 Hostile Ismara is in serious danger of a wipe if they fight conventionally. This should feel like a wall. That feeling is correct.
+
+PHASE 4
+The Land Responds
+Adventure 4 | 65–90% | Party: 5 AP
+35–40 nodes across seven holds. She can feel the geographic shape of the whole pattern. The cold flows between nodes. The land has been quietly reorganizing itself around her arithmetic. She is drawing real power from this.
+She tells them what the ritual does to the nodes. In Riften. Directly. Without preamble, without apology, without uncertainty.
+Reconstruction: 1–2 hours. New Ability — Skyrim's Cold: Once per encounter, Major Action, calls ambient cold through nearest active node within 50 miles. 8 cold damage to all hostile creatures within 30ft. Might (Standard) to halve. No FP cost — the node provides the energy. Network Channel: Now recovers 12 FP. New Passive — Geographic Awareness: Senses temperature changes in the land within network range. Cannot be ambushed within 20 miles of an active node. DR increases to 8. Permafrost has been layering on the armor for months.
+
+Phase 4 — Cooperative
+Body HP
+Crown HP
+FP
+DR
+___ / 140
+___ / 60
+___ / 32
+8
+
+No more persuasion. The persuasion campaign is complete — she has told them everything she intended to tell them, including, finally, the part she had been withholding. She acts with visible purpose. Less explanation. More forward motion. She is close. She can feel it.
+The Dragon Cult ambush is this adventure. The first time the party sees her fight at full capability. This should be alarming.
+Combat behavior: Architecture. Network Channel in Round 2. Skyrim's Cold for grouping. She fights efficiently, without waste, without restraint. She is not performing. She is solving.
+Power gap: Do not fight this cooperatively. A 5 AP party against Phase 4 Ismara in any state is approaching the mortal limit. Direct combat is not a viable strategy from here.
+
+Phase 4 — Guarded
+Body HP
+Crown HP
+FP
+DR
+___ / 140
+___ / 60
+___ / 32
+8
+
+What changes from Cooperative:
+She does not deliver the Riften revelation in Guarded state. She has been building to telling them what the ritual does to the nodes — that moment is her final act of regard for the party as people she travels with rather than obstacles she manages. If she has moved to Guarded, she has decided they are not people she trusts with that information. She does not tell them. They reach Adventure 5 not knowing, from her, what happens to the frozen people.
+This has narrative consequences. A party that goes into Adventure 5 not knowing — because they moved to Guarded before Riften — experiences the transfer differently than one that was told. They may find out from other sources. They may not find out until it's happening.
+Geographic Awareness is now tactically constant. She knows where the party is relative to her at all times in node-dense holds. She cannot be surprised. She cannot be separated from information about their movements.
+Pre-building is extensive now. Every location she has spent more than 30 minutes in has been measured and thought through. She has been here before in her mind. Many times.
+The cold standoff: Almost over. She is very close to the ritual's completion. The calculation on whether they are an asset or a threat is near resolution. She is patient. She has always been patient. But she is running a timeline now and patience is becoming expensive.
+Return to Cooperative: Still technically possible. Barely. The Khajiit would have to do something that costs them considerably. She would return but she would be different — cooperative in behavior but with something closed behind it that was open before. Not all the way back. Enough.
+
+Phase 4 — Hostile
+Body HP
+Crown HP
+FP
+DR
+___ / 140
+___ / 60
+___ / 32 + 12 Network Channel
+8
+
+This is the mortal limit.
+A 5 AP party of 6 that triggers Phase 4 Hostile in a straight fight will lose. Not probably. The math does not support them. If this happens, either the table needs a solution that has nothing to do with the combat system, or they are experiencing the consequence of a decision they made.
+Changes from Phase 4 Cooperative:
+Network Channel in Round 1. Effectively 44 FP.
+Ice-Destruction: +2 damage (16 total, ignores DR).
+Skyrim's Cold used offensively and deliberately. She positions for maximum coverage on every use.
+Geographic Awareness: she cannot be flanked, ambushed, or approached unseen near any node. In Adventure 4 territory, that is most of Skyrim.
+Ice-Illusion on the Khajiit first if they are present and opposing her. She cannot stop this. She does it and the conflict in her processing is visible to anyone watching her. She does it anyway.
+What winning looks like: Not killing her. Surviving. Reaching Adventure 5 with the resonance disruption knowledge. That is the win condition. The fight is not.
+
+PHASE 5
+The Transfer Begins
+Adventure 5 | 90–100% | Party: 5–6 AP
+45–50 nodes across eight to nine holds. The Eye of Magnus is the only missing component. She can feel the shape of the whole ritual. She can feel what it will mean when it completes. She is not yet the continent but she is close enough to feel its edges.
+There is no more persuasion in any state. There is no more patience with arguments. The time for arguments was Adventures 1 through 4.
+Reconstruction: 30 minutes anywhere within the network. The land is already partly hers. Network Channel: Recovers 16 FP. Skyrim's Cold: 12 cold damage to all in 40ft radius. Twice per encounter. New Passive — The Land Knows: Aware of all living beings within the College of Winterhold and surrounding mile. Cannot be surprised anywhere within network range. The "4,000 Years" passive is now absolute and geographic. New Passive — Transfer State: While connected to the Eye, she cannot take Move actions. She is stationary. She has built the College around this fact. New Passive — The Resonance Window: During transfer, Crown DR drops to 0. Brief. Malleable. This is the only window in which the disruption is possible.
+[GM eyes only. The party cannot see this mechanically. They have to know it exists from the Frostmere sealing architecture. If they found it in Adventure 4, they know what the window means.]
+
+Phase 5 — Cooperative
+Body HP
+Crown HP
+FP
+DR
+___ / 160
+___ / 60 (0 during flux)
+___ / 40
+8
+
+There is no true cooperative state in Phase 5. She is acting. What varies is the condition of the relationship when she begins.
+If the relationship survived to Phase 5 cooperative: She acknowledges the party once. She does not ask permission. She writes one thing and she writes it to the Khajiit specifically:
+"Whatever you decide. I wanted you to know it mattered."
+Then she turns to the Eye. She is not accessible after that. She is not going to stop.
+Transfer timeline: 10 rounds from initiation. Mark them on face-down cards before Adventure 5. Flip one per round. The table will feel time differently than if you announce numbers.
+
+Phase 5 — Guarded
+Body HP
+Crown HP
+FP
+DR
+___ / 160
+___ / 60 (0 during flux)
+___ / 40
+8
+
+If the party is in Guarded state entering Phase 5:
+She writes nothing to anyone before beginning. She simply moves to the Eye. The acknowledgment — the one sentence she was going to write to the Khajiit — she does not write it. She decided in Adventure 4 that she could not afford it.
+This is the loss that arrives from the Guarded path. The Khajiit never gets the note. Whether she wrote it somewhere and chose not to give it, or whether she decided it was a liability she could not carry to the end — that is the question the campaign does not answer.
+She begins the transfer. She is aware the party may act. She has the College pre-built. She has thought about every version of what they might do.
+
+Phase 5 — Hostile
+Body HP
+Crown HP
+FP
+DR
+___ / 160
+___ / 60 (0 during flux)
+___ / 40 + 16 Network Channel
+8
+
+The final confrontation.
+She is stationary — connected to the Eye, she cannot move. This is the only moment in the campaign where her Agility 6 is a genuine tactical vulnerability. She has built the College around it. The pre-built architecture is extensive, layered, and designed by someone who has had 4,000 years to think about geometry and has known for three adventures this moment was coming.
+Her combat priority:
+Maintain the transfer. Do not break contact with the Eye for any reason.
+Anyone targeting the Crown during the flux window gets Ice-Destruction immediately. She has been thinking about this. She knows what they know.
+Skyrim's Cold for grouping. She cannot move. She uses area denial.
+The Khajiit. Even now. Even here. She cannot process this cleanly and she has stopped pretending she can. She will freeze their emotions — she cannot make herself destroy them — and return immediately to the transfer. Everyone at the table should see this happen.
+The Dragon Cult: Also here. Also wanting the transfer stopped. Their method destroys the Eye, which produces a different ending than the disruption. The party manages both simultaneously.
+What the party needs to win: Knowledge of the resonance window from Frostmere. Access to the Crown during the flux. Whatever power they've built — Daedric assistance, Divine intervention, the Cult's records, something they invented from five adventures of paying attention.
+The combat system alone is not sufficient. That is correct. That is the design.
+
+The Khajiit Vulnerability Across All Fifteen States
+The one constant. It does not go away. It changes in expression.
+Phase
+Cooperative
+Guarded
+Hostile
+1
+She routes architecture to protect them without acknowledging it.
+She routes architecture to protect them and notices herself doing it. She files this.
+She Ice-Illusions them. She cannot make herself use Destruction on them. She notices this about herself.
+2
+She will not strategically sacrifice them. She finds another way, always.
+She finds another way but it costs her more now. The calculation is harder than it should be.
+Same as Phase 1 Hostile. She knows why. She cannot fix it.
+3
+If they're injured she writes nothing to anyone else for the rest of that scene.
+She writes nothing to them either. But she still routes the architecture.
+She Ice-Illusions them first. She builds a wall between them and the worst of it. She hates — in her way — that she does this.
+4
+She tells them the truth in Riften. This is an act of regard. It costs her nothing tactically. She does it anyway.
+She does not tell them the truth. She has decided she cannot afford it.
+She Ice-Illusions them. The conflict is visible on her face — visible, not performed. She returns immediately to her objective.
+5
+She writes the note.
+She does not write the note.
+She breaks contact with the Eye for one action. She cannot stop herself. She has known this was in her since Adventure 3. She has been unable to remove it.
+
+The campaign never says whether this is love. It never says whether it isn't. Every one of these moments should be played so that both answers remain plausible.
+
+Scaling Reference
+Phase
+Cooperative
+Guarded
+Hostile — Viable?
+Win Condition
+1
+Companion
+Cold standoff
+Yes, with coordination and fire
+Kill the body. She rebuilds.
+2
+Persuading
+Watching
+Costly, possible
+Kill the body. Longer rebuild.
+3
+Focused
+Pre-building
+Very difficult. Casualties likely.
+Survive. Create space.
+4
+Revealing truth
+Near-silent
+Do not fight this
+Find the resonance. Reach Adventure 5.
+5
+Acting
+Acting, no note
+Fight is not the win condition
+Use the flux window. Use everything they've built.
+
+
+GM Notes
+Don't announce the phases. The party feels the shift. The reconstruction gets faster. The architecture gets more elaborate. The notes get shorter. The cold gets different. These are environmental signals, not disclosures.
+The Guarded state is the most important state to run well. It is where the most interesting drama lives — the cold standoff, the things neither side is saying, the question of whether the Khajiit can pull her back. Don't rush through it to get to Hostile. Let it sit. The discomfort is the point.
+The note she doesn't write in Phase 5 Guarded is the most significant absence in the campaign. If the Khajiit player realizes, in Adventure 5, that the note they expected never came — and understands why — that is the moment the Guarded path pays off narratively. Set it up in Adventure 4. Let the expectation build. Let it not arrive.
+The Phase 5 transfer countdown: Face-down cards, one per round, flipped at the top of each round. Do not announce the total number. Let the table feel the weight of not knowing how many are left.
+The FP economy tells the story without telling the story. A sharp player tracking her across phases will notice she's spending more freely, recovering faster, sustaining longer. Let them notice. Do not confirm it. If they bring it to the table as a theory, let the other players argue about it. That argument is the investigation working.
+
