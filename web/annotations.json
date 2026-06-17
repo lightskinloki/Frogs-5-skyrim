@@ -834,6 +834,36 @@
    "type": "pursues",
    "dst": "davinia",
    "why": "The Ice Queen project: wineskin, sparring challenge, the direct proposition. Unknowingly the re-anchoring counter to Ismara."
+  },
+  {
+   "src": "jasper",
+   "type": "was-replaced-by",
+   "dst": "davinia",
+   "why": "Davinia's player's FIRST character; Jasper died in the Pale Lady's Tomb (session 1) and Davinia replaced him. His return is a beat aimed at that one player."
+  },
+  {
+   "src": "jasper",
+   "type": "gave-self-to",
+   "dst": "mythic-dawn",
+   "why": "WILLINGLY gave his flesh to the Dawn - a convert, not a hostage. Proposed why: the Atronach (negation/emptiness) who died before he was anyone, told by the Dawn that his emptiness was holy (Dagon = the Unmaking)."
+  },
+  {
+   "src": "jasper",
+   "type": "serves",
+   "dst": "gaelen",
+   "why": "Gaelen's lieutenant; defends the ritual space while Gaelen works, then retreats/escapes. Reveal lands via Gaelen's monologue ('he gave it to the Dawn')."
+  },
+  {
+   "src": "jasper",
+   "type": "foil-of",
+   "dst": "echo",
+   "why": "The two dead-ally-as-enemy beats, deliberately opposite: Kyboh (Echo) = stolen/copied victim; Jasper = willing convert. Spaced apart - Ulag+Echo are gone from Bleak Falls when the party arrives so they don't collide."
+  },
+  {
+   "src": "jasper",
+   "type": "died-at",
+   "dst": "pale-ladys-tomb",
+   "why": "Died there session 1. Ismara did NOT kill him - resonance only (he died where the thing now in Davinia's head sleeps). The Dawn's Winterhold presence (College arc) covers how they got him."
   }
  ],
  "secrets": [

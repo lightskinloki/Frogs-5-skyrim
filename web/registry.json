@@ -2326,6 +2326,30 @@
     "party-lied-about",
     "dangling-thread"
    ]
+  },
+  {
+   "id": "jasper",
+   "name": "Jasper Avalon (the Atronach)",
+   "type": "villain",
+   "aliases": [
+    "jasper avalon",
+    "jasper"
+   ],
+   "tags": [
+    "proposed-not-built",
+    "davinia-first-pc",
+    "dunmer-mage",
+    "the-atronach",
+    "willing-convert",
+    "gave-flesh-to-dawn",
+    "mythic-dawn",
+    "gaelen-lieutenant",
+    "died-pale-ladys-tomb",
+    "victim-vs-willing-foil-of-echo",
+    "defends-then-retreats",
+    "rebuild-at-ap-10",
+    "yura-shabriri-pattern"
+   ]
   }
  ]
 }
