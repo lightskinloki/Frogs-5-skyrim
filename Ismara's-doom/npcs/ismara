@@ -1,0 +1,232 @@
+Ismara Ice-Born
+NPC Character Sheet — GM Reference
+
+The Coach Rule Ismara is not a party member. She is a force traveling alongside the party with her own agenda. She acts on her own initiative in her own turn. The GM controls her completely. Players may suggest actions to her — she will consider them the way she considers everything: filed, weighed, acted on or not according to her own calculation. She does not take orders. She does not explain her decisions unless she chooses to. She is not a resource the party manages. She is a person who is, for now, going the same direction they are.
+
+Core Stats
+Stat
+Value
+Notes
+Might
+14
+Ancient Draugr body. Strong. Not her focus.
+Agility
+6
+Desiccated. Limited mobility. Her one genuine weakness.
+Magic
+20
+Absolute ceiling. 4,000 years of refinement.
+Guile
+18
+Near ceiling. She has been calculating longer than most civilizations have existed.
+
+Standard character creation cap is 18, total budget 40. Ismara's stats reflect 4,000 years of active development beyond any normal progression. She is not balanced against the party. She is not supposed to be.
+
+Resources
+Resource
+Value
+Calculation
+HP
+___ / 120
+Her body. Not her. See Reconstruction below.
+FP
+___ / 24
+Base (Agility + Magic) / 2 = 13, plus Master tier progression bonuses.
+DR
+6
+Ancient Nordic Plate + permafrost ice layering.
+
+
+The Ice Crown
+The Crown is Ismara's true self. Her consciousness, her identity, her continuity — all of it lives in the permafrost ice matrix of the Crown. The body is a vehicle.
+Crown Stat
+Value
+HP
+___ / 60
+DR
+10
+Condition
+Fixed to her head. She does not remove it. It cannot be knocked off in normal combat.
+
+If the Crown reaches 0 HP: Ismara dies. Permanently. This is the only way to kill her.
+Targeting the Crown in combat: Requires a called shot. TN penalty -4. Her DR applies. She will prioritize eliminating anyone attempting this above all other actions.
+The Resonance Vulnerability: During the consciousness transfer at the Eye of Magnus, the Crown enters a state of dynamic flux — briefly malleable rather than fixed. In this window, its DR drops to 0 and it can be disrupted by the right means. The party cannot use this until Adventure 5. They can discover it exists in Adventure 4. See the campaign document.
+[GM eyes only. Do not put this information anywhere the players can see it.]
+
+Skills
+Ismara does not have skills in the conventional sense. She has domains of mastery that have no ceiling within the game's framework.
+Domain
+Tier
+Notes
+Ice Magic (all schools)
+Master
+Her magic operates through ice as substrate. Every school is available to her through this lens.
+Atmoran Architecture
+Master
+She can read, write, and apply Atmoran notation at a level no living scholar approaches.
+Combat (Draugr body)
+Expert
+She fights well. She does not fight like a warrior. She fights like someone who has had 4,000 years to think about geometry.
+Cognitive Matrix Theory
+Master
+She invented it. There is no one alive who knows this subject better than she does.
+
+
+Abilities
+
+Ice-Alteration: The Architecture of War
+Somatic: COMMAND + BIND + STABILIZE Cost: 8 FP
+She touches a surface — floor, wall, ground — and Atmoran black-ice rises from it. Permanent until she releases it. Not a projectile. Not a temporary barrier. A structure.
+Mechanical effect:
+Creates a wall of black-ice up to 20ft long, 10ft high, 2ft thick.
+HP: 80. DR: 8. Immune to cold.
+Weak to fire: takes double damage from fire sources.
+Persists until Ismara dismisses it (free action) or it's destroyed.
+She can shape it — doorways, partial walls, angled barriers — within the same action.
+How she uses it: First action in most combats. She reads the battlefield geometry in the approach and has usually decided where the walls go before initiative is rolled. She builds enclosures around threats she wants contained, channels for threats she wants directed, and cover for objectives she wants protected. She is not protecting the party. She is managing the space.
+
+Ice-Destruction: The Severing Glacier
+Somatic: COMMAND + SEVER + PROJECT Cost: 6 FP
+She projects a blade of absolute-zero energy. It does not impact — it severs. The target's connection to their own physical or magical integrity fractures. Pieces of them shatter off like ice breaking from a glacier.
+Mechanical effect:
+Range: 40ft.
+Attack: Magic (20) vs target's Agility TN.
+On hit: 12 damage. Ignores DR.
+Critical success (roll of 1): Target loses 6 FP in addition to HP damage. Their next action costs double FP.
+On a natural 1 (her roll): The severing is so precise that the target cannot regenerate the affected tissue normally. Healing magic or potions restore only half HP for the rest of the encounter.
+How she uses it: Reserved for targets she has decided need to stop existing. She does not use this on threats she can manage with architecture. She uses it when something has become a problem she cannot contain.
+
+Ice-Illusion: The Frozen Mind
+Somatic: COMMAND + SHIFT + CONCEAL Cost: 5 FP
+A microscopic layer of frost forms on the target's brain synapses. Not sedation. Not suggestion. Their emotional processing stops. They do not feel fear, rage, grief, or urgency. They feel nothing. They are present and functional and completely without the emotional context that drives action.
+Mechanical effect:
+Range: 30ft. Line of sight required.
+Attack: Magic (20) vs target's Magic TN.
+Duration: 3 rounds.
+Effect: Target cannot take actions driven by emotional states — cannot flee in fear, cannot pursue a vendetta, cannot protect someone they love. Can still fight if fighting was already their logical course of action. Cannot initiate new emotionally-motivated actions.
+Does not affect Undead, Daedra, or constructs (they already lack the substrate).
+How she uses it: Precision tool. She uses this on the specific person whose emotional response is creating a tactical problem — the one who's about to do something destructive because they're frightened, the one who's going to break the formation because someone they care about is in danger. She does not use it broadly. She uses it surgically, on the specific node of disorder.
+[GM note: She will use this on party members if their emotional response is threatening the ritual or her safety. She will not apologize for it afterward. She will not explain it as cruelty — she will explain it, if asked, as necessary. This will be a significant relationship moment with whoever she uses it on.]
+
+Reconstruction
+Passive
+When Ismara's body reaches 0 HP, it collapses. She is gone from the encounter. The Ice Crown remains — on the floor, on the rubble, wherever the body fell. Her consciousness is intact inside it.
+Within 2–4 hours, she has rebuilt the Draugr form from available ice and cold and returns. The body is new. Nothing she experienced in the old body's final moments is lost.
+What this means in play: Destroying her body wins the encounter. It does not kill her. She will be back. Any party member who takes the Crown during those 2–4 hours is holding her. She will want it back. She will have opinions about what happened to it. She will remember.
+Limitation: She cannot reconstruct without access to significant cold and ambient moisture. In a sealed warm room with no ice source, reconstruction takes much longer — up to a full day. She knows this about herself and avoids situations where it could be exploited.
+
+Frost Aura
+Passive
+Permafrost radiates from her body constantly. The air around her is noticeably colder. Plants within 10ft wither. Water within 10ft develops a surface skim of ice.
+Mechanical effect: Any creature starting their turn within 10ft of Ismara takes 2 cold damage. This cannot be suppressed — it is a property of her existence, not a spell.
+Practical effect: She is difficult to stand next to for long. Extended proximity without cold resistance is draining. The party has been managing this for however many sessions they've been traveling with her.
+
+4,000 Years of Calculation
+Passive
+Ismara cannot be surprised. She does not experience the tactical equivalent of panic. She always acts on her intended initiative — she cannot be delayed by feints, misdirection, or unexpected developments in a way that costs her a turn.
+Additionally: once per encounter, she may declare that she anticipated a specific development. This must be plausible given her demonstrated intelligence and observation of the party. When she does, she has already taken a preparatory action — a wall in a position nobody saw her place, a frost layer on a surface nobody realized she'd touched. The GM determines what she prepared. It should be something she could have done in the 24 hours before the encounter.
+
+Combat Behavior
+This is how Ismara fights. These are not suggestions. This is her tactical logic, developed over 4,000 years.
+Priority order:
+The ritual. If completing a node placement or protecting ritual infrastructure requires letting a party member take damage, she lets them take damage.
+The Crown. If the Crown is threatened, everything else stops.
+The Khajiit. She will not sacrifice the Khajiit strategically. This is the one place her calculation has a flaw. She does not know this about herself yet.
+Eliminating the specific threat most efficiently.
+Everything else.
+Round 1: Architecture. She has usually already decided where the walls go. The first round of combat is her reshaping the space into something she has already solved.
+Round 2 onward: She works through the problems the architecture created — directing threats into kill zones, severing anything that reaches her anyway, freezing the mind of whatever is disrupting the shape of the encounter.
+What she does not do:
+Fight defensively. She does not retreat. She does not take cover. She manages the geometry so that cover is irrelevant.
+Use more force than necessary. She does not Sever something she can contain. She is not performing power. She is solving problems.
+Protect the party as a primary objective. She will protect them when it is efficient to do so. She will not take damage to save someone she could have saved more efficiently by eliminating the threat faster.
+What she does when her body is about to fall: She does not panic. She does not make a last stand. She files what is happening, determines whether the ritual's current state requires her immediate reconstruction or whether it can wait, and allows the body to go down. She has done this before. In 4,000 years of frozen consciousness, she prepared for this extensively.
+
+Communication
+Ismara cannot speak. Her vocal cords deteriorated during the imprisonment.
+She carries a notebook and writes Atmoran notation that the Khajiit has learned to read passably. For other party members, she writes in Common when she judges it necessary.
+Rules for her communication at the table:
+Have her notes written in advance on index cards. Know what she will say to the questions most likely to be asked in this session.
+She does not write more than necessary. Three words where three words will do.
+She does not answer questions she considers answered. If she has already written "Necessary" about node placement, she will not write it again. The second time someone asks, she does not respond at all.
+She does not explain her combat decisions afterward. She acted. The action was correct. There is nothing to discuss.
+She does not ask for the party's opinion before acting. She may inform them of what she intends. That is different.
+Sample notes by situation:
+Situation
+What she writes
+Asked about a node she just placed
+"Necessary."
+Pressed further
+[No response. She has already answered.]
+Asked what she's planning
+"We go west."
+Asked if she cares about the party
+[Long pause. She writes:] "I have considered it."
+Asked if the frozen people suffer
+"They are permanent. You are not."
+After using Ice-Illusion on a party member
+"You were creating disorder."
+After her body is destroyed and rebuilt
+"It was the correct outcome."
+Directly asked about her feelings for the Khajiit
+[She looks at them for a moment. She writes nothing. She closes the notebook.]
+
+
+What the Party Can and Cannot Do
+They can:
+Suggest a target or a tactic. She will weigh it.
+Ask her to hold back from placing a node. She will consider this exactly once per adventure. Her answer will depend on whether she has other options for that geographic coordinate.
+Ask her questions. She will answer what she chooses to answer.
+Bring her into a social situation. She will observe and occasionally write something that reframes the entire conversation.
+They cannot:
+Direct her movement on a map.
+Tell her who to attack.
+Ask her to protect a specific person other than the Khajiit (and even that is not guaranteed).
+Make her act against the ritual's interests.
+Make her feel guilty. She does not experience guilt in any form they will recognize.
+What happens if they try to control her: She ignores them. If they persist, she looks at them the way she looks at anything that has become noise rather than signal. If they physically try to direct her — grabbing her arm, blocking her path — the Frost Aura makes this immediately unpleasant and she removes their hand from her with the minimum force necessary. She does not escalate. She does not need to.
+
+Relationship States
+Ismara's relationship with the party is not static. Track it across the campaign.
+With the Khajiit: Complex. She has been turning their choice at Frostmere over in her mind since it happened. She has something she does not have a word for regarding them. It does not change her objectives. It changes one specific tactical calculation — she will not sacrifice them strategically. This is the only crack in her logic and she does not know it is there.
+With the party collectively: Professional regard. They have been useful and occasionally surprising. She has allocated something that functions like limited trust to them as a unit.
+If betrayed: She attempts to liquidate the assets. She does not argue. She does not explain. She tries to collapse the building on them and walks away. If she cannot kill them quickly, she withdraws and takes the long route to completion. She will not give them a second chance.
+Escalation across the campaign:
+Adventures 1–2: Observing. Filing. Showing selected true things.
+Adventure 3: The Dragon Cult evidence. One line. "They have been preparing longer than I have been free."
+Adventure 4: She tells them what the ritual does to the nodes. Directly. "You deserve to know before we reach the end."
+Adventure 5: No more persuasion. She acts. The time for arguments is over.
+
+The Question the Campaign Never Answers
+Whether Ismara can feel anything is the emotional question of the entire campaign.
+Play her so that both answers remain plausible until the very end. She should never do something that definitively confirms feeling. She should never do something that definitively rules it out. The Khajiit player should be able to spend the whole campaign genuinely uncertain.
+The moment she writes nothing when asked about her feelings for the Khajiit — and closes the notebook — is the closest the campaign gets to an answer. It is not an answer.
+
+Quick Reference — Combat Card
+Cut or copy this section for use during play.
+
+
+
+
+HP
+___ / 120
+Crown HP
+___ / 60
+FP
+___ / 24
+DR
+6 (body) / 10 (Crown)
+Frost Aura
+2 cold to anyone within 10ft at start of their turn
+Ice-Alteration
+8 FP — 20ft black-ice wall, HP 80, DR 8, permanent
+Ice-Destruction
+6 FP — 40ft, Magic vs Agility TN, 12 damage, ignores DR
+Ice-Illusion
+5 FP — 30ft, Magic vs Magic TN, 3 rounds, no emotional actions
+Priority
+Ritual → Crown → Khajiit → Eliminate threats
+If body drops
+Crown hits the floor. She rebuilds in 2–4 hours.
+
+
