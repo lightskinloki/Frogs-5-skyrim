@@ -410,13 +410,13 @@ SUPPORTING:
     mages, NOT wizards. They hold the summit against the corruption by Voice
     alone, exhausted; they will not come down. Reaching them opens the Way
     of the Voice and hands the party the word TOWER (the hard reveal). They
-    have NO arcane sight: they cannot see Ismara, cannot sense Bjorn's
-    dragon soul, cannot name a Dragonborn (no one can). [GM TBD: can Voice-
-    masters sense DIVINE/Daedric claims — Hircine's mark on Ylva, the stag
-    on Saijah — through spiritual attunement to Kyne, even with no arcane
-    sight? Or are those invisible to them too? Rule it before the monastery
-    scene; this also fixes The Hound and the Wolf's "they see divine claims"
-    line, which currently assumes yes.]
+    have NO special senses of ANY kind (GM ruling, confirmed): no arcane
+    sight, no divine/spiritual sight. They cannot see Ismara, cannot sense
+    Bjorn's dragon soul, cannot perceive Hircine's mark on Ylva or the stag
+    on Saijah, cannot name a Dragonborn (no one can). What they DO have:
+    they know WHERE the Word Walls are for specific shouts a seeker might
+    want — but none of them can shout, so even that is reference, not power.
+    The monastery beat is scholarship and the Way of the Voice, full stop.
   REWARD (Section 5): Way of the Voice opened; Bjorn-question advanced; the
     Throat STAUNCHED not sealed (a finger cut, not the body — echoing
     Darkwater). Gaelen escaped. The party LEAVES KNOWING the main plot.
@@ -443,26 +443,25 @@ SECTION 5 — The Sealing / The Cost: staunched not sealed; the paced realizatio
   seeds; the pull toward the true heart (→ Danica); node-saving door opens;
   Saijah's thread ADVANCED, not resolved.
 
-DOC RECONCILIATION (pending — the de-rush, do alongside building this):
-  - The Hound and the Wolf: relabel the weredog as the THIRD approach; rip
-    "bind both arcs to the single crossroads scene (Bleeding Stair)" out of
-    Section III (resolution moves to the first reckoning); rewrite Section IV
-    (Bleeding Stair) to ADVANCE-ONLY; artifacts crystallize at RESOLUTION;
-    fix Section VIII pacing; STOP superseding saijah 2's pacing (restore
-    saijah 2 + Players/saijah as authoritative).
-  - gate 3 (Fire B): "Saijah's crossroads resolved" -> "advanced; resolution
-    deferred to the first reckoning."
-  - Npcs/Varon XVII: Fire B = witnesses escalation, not the four-hander.
-  - The Winter Ledger: note Path 3 resolves at the heart/Razor endgame.
-  - Npcs/ylva: Fire B = rivalry ignites; rebound + bond are later.
-  - The Hound and the Wolf: "The Greybeards see divine claims" line — they
-    are NOT mages; reconcile with the Greybeards-have-no-arcane-sight ruling
-    (pending the divine-attunement TBD in IX).
-  - Npcs/Bjorn: add the Dragon-Born awakening progression (speed via Mila on
-    the journey; self-taught shouts from Word Walls; all three words at once).
-  - THE WEB: fix advance-vs-resolve why-text; add the resolution-anchor edge
-    (saijah resolves at gaelen-death/razor); rerun _build_web.py.
-  - memory saijah-ylva-parallel.md: rewrite the pacing canon.
+DOC RECONCILIATION (the de-rush — DONE June 2026 unless noted):
+  - [DONE] The Hound and the Wolf: weredog relabeled THIRD approach; the
+    "bind to the single crossroads scene at the Bleeding Stair" language
+    ripped (resolution -> first reckoning); Section IV reframed ADVANCE-ONLY;
+    artifacts crystallize at RESOLUTION; Section VIII pacing fixed; saijah 2
+    restored as authoritative on pacing; Greybeards "see divine claims" line
+    voided (no senses); Mila-climbs note added.
+  - [DONE] gate 3 (Fire B): "crossroads resolved" -> "advanced, deferred";
+    "recognition of Bjorn" at the Greybeards voided.
+  - [DONE] Npcs/Varon XVII: Fire B = witnesses escalation, not the four-hander.
+  - [DONE] The Winter Ledger: Path 3 timing note (resolves at the heart/Razor).
+  - [DONE] THE WEB: advance-vs-resolve why-text fixed; resolution-anchor edge
+    added (saijah crossroads-resolves-at gaelen); rebuilt.
+  - [DONE] memory saijah-ylva-parallel.md: pacing canon rewritten.
+  - [OK AS-IS] Npcs/ylva: base sheet already says they "haven't bonded yet"
+    — consistent with rivalry-now / rebound-later; no edit needed.
+  - [PENDING] Npcs/Bjorn: add the Dragon-Born awakening progression (speed via
+    Mila on the journey; self-taught shouts from Word Walls; all three words
+    at once). Do when we touch Bjorn's sheet next.
 
 =====================================================================
 XI. OPEN TBDs (decide when building)
@@ -475,7 +474,14 @@ XI. OPEN TBDs (decide when building)
   or a later chosen moment in the development stretch.
 - Bjorn's first Word Wall: location (Bleak Falls vs. High Hrothgar) and how a
   cart-side NPC reaches a wall (see IX-B).
-- Can the Greybeards sense divine/Daedric claims through Kyne-attunement,
-  or are those invisible to them too (see IX, Supporting)?
-- The weredog offer was the THIRD approach (stag #1, senses #2) — confirm the
-  relabel lands across saijah 2 / The Hound and the Wolf during the de-rush.
+- [RESOLVED] Greybeards sense divine claims? NO — they have no special senses
+  of any kind; they only know Word Wall locations. (C ruling, applied.)
+- [RESOLVED] Weredog = THIRD approach (stag #1, senses #2) — relabel applied
+  across The Hound and the Wolf + memory.
+- JASPER AVALON (proposed, GM thinking): Davinia's player's dead first PC
+  (died in the Pale Lady's Tomb), reanimated/remade by the Dagon cult as an
+  enemy — Yura/Shabriri pattern. Differentiate from the Echo: Jasper = SOUL
+  still inside (enslaved, conscious), the Echo = hollow copy. Hook: he died
+  to the Pale Lady = Ismara = the thing Davinia now carries (GM to CONFIRM
+  the tomb-lady = Ismara link). Motive: revenge against stasis -> embraces
+  Dagon's unmaking. Fits Ivarstead as Gaelen's lieutenant. NOT yet built.

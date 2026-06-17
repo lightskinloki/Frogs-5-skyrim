@@ -233,13 +233,19 @@
    "src": "saijah",
    "type": "resolves",
    "dst": "ylva",
-   "why": "The rebound binding: Saijah's crossroads choice resolves Ylva's arc in the same scene (accept = faith breaks; refuse = the hound-shaped boon offered to a wolf)."
+   "why": "The rebound binding: Saijah's crossroads choice resolves Ylva's arc in the SAME scene - but that scene is the LATE reckoning (Gaelen-kill / Razor), NOT Ivarstead. At the Bleeding Stair it is only rivalry; the bond must grow first."
+  },
+  {
+   "src": "saijah",
+   "type": "crossroads-resolves-at",
+   "dst": "gaelen",
+   "why": "RESOLUTION ANCHOR: Saijah's patron choice (and the Ylva rebound, and the Hawk-artifact crystallization) fires at the first real reckoning - the Gaelen-kill at the Eldergleam heart, or the Mehrunes' Razor moment, whichever comes first. NOT at Ivarstead; Ivarstead only advances it (saijah 2 is authoritative: 'a culmination, not a pop quiz')."
   },
   {
    "src": "kynareth",
    "type": "answers-on",
    "dst": "ivarstead",
-   "why": "Her silence breaks only on a mercy ACTION on the mountain - environmental, no words."
+   "why": "Her silence breaks only on a mercy ACTION on the mountain - environmental, no words. A cryptic Bjorn/Sovngarde vision = the reason to endure; an advance, not a resolution. Comes BEFORE Hircine's quiet-the-migraine temptation."
   },
   {
    "src": "varon",
@@ -257,7 +263,7 @@
    "src": "varon",
    "type": "witnesses",
    "dst": "gate3",
-   "why": "Present at the Fire B crossroads scene (four-hander). Afterward: the report home he must write or falsify."
+   "why": "At Fire B he witnesses the ESCALATION (god's interest, senses, rivalry), NOT a resolved choice - the four-hander resolution is the later reckoning. Afterward: the report home he must write or falsify."
   },
   {
    "src": "varon",
