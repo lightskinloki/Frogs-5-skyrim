@@ -68,25 +68,104 @@ WAKEFUL -- the riding state.
   sight only of what the steel could "face") and can speak into the mind
   of whoever holds him, skin to metal. No one else hears it. No healing
   occurs while wakeful.
-  CASTING THROUGH A WIELDER: a willing bearer can lend Alfonso their
-  hands. The wielder supplies the somatic component; the blade supplies
-  the rest (per the somatic-grammar system -- consult the book, don't
-  improvise components). Costs are Alfonso's as normal (FP or Surface
-  Rust via Transmutation of Life); the roll is the WIELDER'S own Magic,
-  modified by difficulty as usual. A swordsman fencing with Alfonso
-  while Alfonso casts down their arm is the new tactical shape of the
-  character -- let it be good, and let it be unsettling to watch.
+
+WIELDING THE BLADE -- THE BORROWED BODY
+(supersedes the old "casting through a wielder" rule):
+  A WILLING bearer can pick Alfonso up, use him, and -- early on -- set
+  him down again. While he is Wakeful in a living hand:
+  - HE ACTS THROUGH THEM. Once per round Alfonso takes one EXTRA MAJOR
+    ACTION that HE wholly dictates (his player declares and resolves it):
+    move, speak, strike, or cast -- whatever he wants, through the
+    bearer's body. PHYSICAL acts use the BEARER'S stats (his mind, their
+    arm). MAGIC uses ALFONSO'S Magic (his near-ceiling score) and his
+    full known spell list. Costs are Alfonso's as normal (FP, or Surface
+    Rust via Transmutation of Life). This stays inside the core rule --
+    Alfonso is the caster, rolling his OWN stat; the bearer is the focus,
+    not the roller.
+    >> This is the answer to "Alfonso is benched as a sword." He is not.
+       His player keeps acting -- through someone else's hands.
+  - IT INFECTS THEM. Skin-to-iron contact seeds Alfonso's Strain in a
+    living bearer AUTOMATICALLY -- the plague does not care that Alfonso
+    is fond of them, and (like everything below) he does not control it.
+    Apply by the bearer's vulnerability: DAVINIA is the WORST possible
+    bearer (the Strain feeds on her Restoration and the Crown); Saijah
+    burns it off; Orion's vampirism makes it unpredictable. Infection is
+    the one cost even a single fight's pickup cannot dodge.
+
+THE TENANCY -- the iron seats itself in the living (GM-SECRET):
+  This is the trap, and it is the IRON'S NATURE, never Alfonso's will.
+  Two souls cannot share one body without the anchor-soul taking root --
+  the same way Ismara overtakes Davinia, only cruder and less patient,
+  and sharpened by Namira's pull (Sec. IV: "why go back to the meat at
+  all"). CRUCIALLY, ALFONSO DOES NOT KNOW IT IS HAPPENING and cannot feel
+  it advance. From inside he only notices he can do MORE through the body
+  over time, and reads it as deepening rapport -- never as what it is. He
+  learns the truth only when it completes (Tenancy, below).
+  Track SATURATION secretly, per bearer. +1 stage per SESSION the rapier
+  is carried on a person (a brief mid-fight pickup-and-drop does NOT tick;
+  making him your kit does). Carrying him DORMANT still ticks -- the anchor
+  seeks a host even asleep; only the dictated action needs Wakeful.
+
+  S0  BEARING     Bearer keeps full Major + Minor. Alfonso: +1 dictated
+                  action/round. The bearer may set him down freely.
+  S1  SATURATED   Bearer keeps full Major + Minor. Alfonso: +2 dictated
+                  actions/round. Intrusive "Alfonso" impulses leak into the
+                  bearer. Setting him down is now a CONTESTED MAGIC roll:
+                  the bearer's OWN (original) Magic vs Alfonso's Magic --
+                  the iron resists; the man does not know it does.
+  S2  THE TURN    The swap begins. Alfonso takes the bearer's MAJOR action;
+                  the bearer keeps only their Minor and a shrinking sense of
+                  self. Contested release as S1. POINT OF NO EASY RETURN
+                  (see decay).
+  S3  TENANCY     Full inversion: Alfonso runs the body's MAJOR AND MINOR;
+                  the bearer is reduced to ONE action of their own per round.
+                  Contested release now at DISADVANTAGE. AND THIS IS WHERE
+                  ALFONSO FINDS OUT -- the reveal lands on BOTH players at
+                  once: his player is handed the bearer's body to puppet and
+                  learns the growing power he enjoyed was him eating a
+                  friend; the bearer's player learns they are being evicted
+                  from their own skin.
+
+  DECAY / THE OUT: below S2, Saturation fades when he is NOT borne (GM
+  pace: ~1 stage per long rest spent apart) -- so rotating bearers and
+  setting him down keeps everyone safe. At S2 (The Turn) and beyond it no
+  longer fades on its own; the iron has purchase. Rotate early, or pay.
+  GM HANDLING: keep the track and the end-state OFF the table. Let the
+  players FEEL the bearer fading in the open (Alfonso doing more, the
+  bearer doing less) without ever naming the rule -- exactly as Ismara is
+  played on Davinia.
+
+NORA -- WHY NEVER HER, AND HOW TO SHOW IT
+(the foreshadow you owe the table BEFORE anyone carries him for real):
+  Nora has spent the campaign practicing the Transmutation of Life and
+  soul-vessel binding -- she has deliberately loosened her own soul in its
+  housing, which is exactly the purchase the iron wants. She does not
+  saturate per session; she saturates per SCENE -- the curve that takes
+  others whole adventures takes her an evening.
+  THE FORESHADOW BEAT (run it the first time she so much as holds him):
+  the wrongness is INSTANT and visible to everyone. She goes still; her
+  cadence shifts mid-sentence into something not hers; she does not want to
+  give him back, and bristles when asked. If Davinia is looking with the
+  Sight, she SEES it -- the iron sinking a root into Nora in seconds, where
+  in anyone else it would take days. The table takes the lesson without a
+  word of rules: never let Nora hold that sword. (This is the mechanical
+  WHY behind "she will volunteer and must not be allowed to.")
 
 REFORM AND REFUSAL (restating the session ruling): reformation is pure
 will, never a timer. Forcing the body back advances Deep Rust; remaining
 the blade arrests it, and Dormant rest reverses it. He can stay a sword
-as long as he likes. Right now he likes.
+as long as he likes. Right now he likes. (Reforming ends any Tenancy in
+progress -- a body of his own has no bearer to colonize.)
 
 WHO CARRIES HIM is a loaded question, and the table should feel it.
-  - Nora (18) will volunteer, and should not be allowed to. Alfonso
-    persisting as a willed soul in metal is a live proof-of-concept for
-    her parents' gems and FALSE confirmation they are "still in there."
-    Every hour she carries him, her dark turn accelerates.
+  - ROTATE, OR DON'T CARRY HIM AT ALL. Per The Tenancy, any single
+    long-term bearer slides toward losing themselves. The safe pattern is
+    no permanent sword-bearer: pick him up for the fight, set him down
+    after.
+  - Nora (18) will volunteer, and must NOT be allowed to -- she saturates
+    fastest (above), AND Alfonso persisting as a willed soul in metal is a
+    live proof-of-concept for her parents' gems and FALSE confirmation
+    they are "still in there." Every scene she holds him, two clocks run.
   - The Crown travels with the blade. Its Symbiotic Return now expresses
     as a quiet gravitation toward whatever pack or bedroll holds the
     rapier -- two artifacts of one heresy, pooling. It has still never
