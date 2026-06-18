@@ -92,20 +92,25 @@ subtitle("The guards deploy. Alfonso is a rapier on the floor under the jacked-u
 label("THE ENEMY", red=True)
 statcard([
     "**FALSE DRAUGR  x4-6   (TL1-2 Expert)  --  Antoine's make, NOT true undead**",
-    "HP 35   |   DR 5 (hardened tissue + copper)",
-    "Immune:  poison / disease / cold / fear / Alfonso's plague-communion",
-    "Weak:    FIRE (x2 dmg)  |  Sonic-Thunder (staggered 1 round)",
-    "Might 15    Agility 10    Magic 6    Guile 2  (there is no mind in here)",
+    "HP 35   |   DR 5 (chem-hardened tissue + copper plate)",
+    "Immune:  FIRE / poison / disease / fear / Alfonso's plague-communion",
+    "Weak:    COLD x2  AND  LIGHTNING x2  (both also STOP its regen)  |  Sonic = Staggered 1 rd",
+    "         Lightning ARCS: 2+ within 10 ft -> half-damage jumps to each neighbor.",
+    "Might 14    Agility 8 (SLOW, holds ground)    Magic 6    Guile 4  (rigid scripts, no mind)",
+    "REGEN:  +3 HP at the start of its turn UNLESS it took cold or lightning since last turn.",
+    "SPLASH: at 0 HP the pressurized fluid bursts -- 3 chem dmg to all within 5 ft.",
     "",
-    "Atk  Alchemical Blade -- melee 8 dmg; Standard Might or Numbness (-1 Agi, 2 rds)",
-    "Atk  Restraining Grapple (replaces atk) -- contested Might (Hard -4) -> Restrained;",
-    "        multiple pile on one target. Their JOB: pin, not kill.",
-    "Mindless: rigid scripts. A feint, a lure, bait all work -- they do NOT adapt.",
-    "        They activate with the cage and do not pursue past the lab.",
+    "Atk  Alchemical Blade -- melee 6 dmg, +2 burn next turn; Std Might or Numbness (-2 Agi, 2 rds)",
+    "Atk  Restraining Grapple (replaces atk) -- contested Might (Hard -4) -> Restrained; pile on.",
+    "Atk  Breaker's Blow (telegraphed: vents steam first; recharge after a grapple / every other rd)",
+    "        -- 10 dmg, ignores half DR, knockback + Staggered. A readied PC can brace or interrupt.",
+    "JOB: PIN then SHATTER -- soften with the Blade, grapple, Breaker's Blow the held target.",
 ])
+gm("THE INVERSION IS THE FIGHT -- they are built to punish the anti-draugr playbook. FIRE DOES NOTHING. **Cold, lightning, and sound are the answer, and the party is holding all three:** Saijah's chain-lightning ARCS across the clustered frames (and stops their regen); Davinia's Aegis-frost and Alfonso's Wall of Frost bite double and stop the regen; Orion's War Horn staggers. Without cold/lightning they heal 3/round and it's a grind -- with it, damage sticks.")
 gm("ALFONSO'S COMMUNION IS DEAD HERE -- no Dragon Cult substrate. If his player reaches to seize them, it does **nothing**. Let him feel the blank -- the second time Antoine neutralized him (caged body + useless gift).")
-bullet("**Fire and sound wreck them** -- Orion's War Horn staggers; any flame is double damage.")
-bullet("They grapple/pin whoever goes for the cage, the panel, or the rapier. **Holding them off is the price of the rescue.**")
+bullet("**Tremorsense, not sight** (30 ft): sneaking FAILS (they feel your weight), but standing perfectly still, going invisible, or getting OFF the floor (onto the jacked-up cage, the ice block, a workstation) makes you vanish to them. Mindless -- rigid scripts, a feint or lure works.")
+bullet("They grapple/pin whoever goes for the cage, the ice, or the rapier. **Holding them off is the price of the rescue.**")
+gm("VITALIS KILL (do NOT hint -- system-mastery reward): they are VENITAS-saturated, so a healing potion POURED on one (Major action, adjacent) deals its HP value as damage and ignores DR -- 4 / 8 / 12 for Minor / Healing / Plentiful. If a player reasons to it from the Essence rules, celebrate it.")
 
 label("RECOVER THE RAPIER")
 plain("The rapier is sealed under Alfonso's stabilized ice. STABILIZE means heat, time, and Dispel do **nothing** -- but it resists entropy, not force, so the ice is still **breakable by raw muscle**: a **Hard Might roll (-4)** or two, or a heavy blow, cracks a gap to pull the blade out -- worked under the Draugr's grapples. Simplest of all: once Alfonso reforms, he unmakes his own ice and reclaims it.")
@@ -116,7 +121,7 @@ plain("Reformation is **his will alone.** He can pull a body back together in mi
 bullet("**Reform** (by will): back in play. The cost is rust -- forcing the body back advances his **Deep Rust.**")
 bullet("**Stay a sword** (by will): out of play -- carried, unable to act -- BUT discorporate, his **Deep Rust stops advancing and may even REVERSE.** Resting in the phylactery is how he heals. A real reason to stay gone.")
 gm("Why he might refuse to return: Antoine's confession just held a mirror to him (chosen / answered / envied), and rest mends the rust. Let him choose to linger as the blade if his player wants it. Don't narrate what it costs him.")
-gm("THE NORA BEAT -- do NOT miss this: Nora (14) carries her dead parents' souls in two black gems and is secretly building toward seating them in a living vessel. Alfonso CHOOSING to persist as a willful soul in a blade is a live proof-of-concept of her whole plan -- and false confirmation that her parents are 'still in there,' intact and recoverable. It is not true; she does not know that. Play her watching the sword; it accelerates her dark turn. (See `Npcs/Nora the haunted`.)")
+gm("THE NORA BEAT -- do NOT miss this: Nora (18) carries her dead parents' souls in two black gems and is secretly building toward seating them in a living vessel. Alfonso CHOOSING to persist as a willful soul in a blade is a live proof-of-concept of her whole plan -- and false confirmation that her parents are 'still in there,' intact and recoverable. It is not true; she does not know that. Play her watching the sword; it accelerates her dark turn. (See `Npcs/Nora the haunted`.)")
 
 # ============================================================ SARCOPHAGUS
 scene("2   THE OPEN SARCOPHAGUS  --  the first room a real villain occupied")
@@ -209,7 +214,7 @@ plain("She misses her mother -- the one who **sold her for 100 gold** and skooma
 gm("Her safe person is **Saijah** (the warm hand). She will not go near **Orion** (he showed her his fangs in the dark) and is wary of **Alfonso**. Do NOT resolve the mother thread here -- it stays in the background (see OPEN THREADS). Play the child, not a tiny adult.")
 label("THE OTHERS")
 bullet("**Bjorn:** the man who was HORRIFIED they bought a child is now her fiercest guardian -- that's the root of the Vow. Also chewing on the Grelod truth (quiet fury). He may be the one who mentions Mila's been asking about the Ratway.")
-bullet("**Nora (14):** avoids Mila -- she's barely more than a kid herself -- and stays heads-down working through what Alfonso and Orion taught her. Primed (unknowingly) for the sword-reveal in the lab.")
+bullet("**Nora (18):** avoids Mila -- she's barely more than a kid herself -- and stays heads-down working through what Alfonso and Orion taught her. Primed (unknowingly) for the sword-reveal in the lab.")
 bullet("**Ylva:** raw about the Hircine favour that fell on **Saijah** unasked; she wants to be an alpha she will never be. Restless, needling, too close in Saijah's space. (GM only: a door stays open to make her powerful another way -- she has no idea it exists.)")
 bullet("**Varon:** the deadliest thing on Tamriel, reduced to a nervous goof since he tried to kiss Saijah and she bolted -- replaying it, plotting how to fix it.")
 bullet("**GEAR:** has been closely studying Mila -- the construct cataloguing the child. **Esbern:** buried in research, hiding, winding tighter toward 'we leave NOW.'")

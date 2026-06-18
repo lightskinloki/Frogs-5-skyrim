@@ -300,12 +300,21 @@ COMBAT: THE FALSE DRAUGR (LAB SECURITY) -- ANTOINE'S OWN MAKE, NOT TRUE UNDEAD
     the point: Antoine, weeks gone, already accounted for the party's strongest tool. Let
     Alfonso try the communion and feel it fail.
   - **FALSE DRAUGR x4-6** (TL 1-2 Expert) HP: 35 | DR: 5 (chemically hardened tissue + copper)
-    * *Immune*: Poison, Disease, Cold, Fear, Alfonso's plague-communion.
-    * *Weak*: Fire (DOUBLE damage -- the preservative is flammable), Sonic/Thunder (Staggered 1 round -- disrupts the crude alchemical motor).
-    * *Stats*: Might 15 / Agility 10 / Magic 6 / Guile 2 (near-zero -- there is no mind in here).
+    >> FULL stat block + every inversion mechanic: **GM Guide/False Draugr Reference**. THE DESIGN
+       IS THE INVERSION -- every regular-draugr assumption is flipped, so the anti-undead playbook
+       (fire, Turn Undead, sneaking) FAILS and the tools nobody uses on draugr (cold, lightning,
+       invisibility, standing still, healing potions) WIN. Do NOT run them as fire-weak draugr.
+    * *Immune*: **Fire** (heat-stabilized preservatives), Poison, Disease, Fear, Alfonso's plague-communion.
+    * *Weak*: **Cold (DOUBLE)** and **Lightning (DOUBLE)** -- both also SUPPRESS its regeneration; Lightning ARCS to any Breaker within 10 ft for half damage. Sonic/Thunder (Staggered 1 round -- the resonance flaw copied from Ulag).
+    * *Stats*: Might 14 / Agility 8 (SLOW -- holds ground, does not pursue) / Magic 6 / Guile 4 (rigid scripts -- there is no mind in here).
+    * *Alchemical Regeneration*: +3 HP at the start of its turn UNLESS it took cold or lightning damage since its last turn. (Hard to GET to 0 -- easy to KEEP there. The puzzle is suppressing the regen, not the killing blow.)
+    * *Death Splash*: at 0 HP the pressurized fluid ruptures -- all within 5 ft take 3 chemical damage.
+    * *Vitalis vulnerability* (do NOT hint): a healing potion poured ON one (Major action, adjacent) deals its HP value as damage and ignores DR -- 4 / 8 / 12 for Minor / Healing / Plentiful. VITALIS curdles the VENITAS medium. System-mastery reward only.
+    * *Tremorsense (30 ft)*: no eyes -- they feel weight through the floor. Sneaking FAILS (auto-detected); invisibility, standing perfectly still, and getting airborne (off the floor) all make a creature vanish to them.
     * *Attacks*:
-      - Alchemical Blade (melee): 8 damage. On hit, Standard Might roll or suffer **Numbness** (-1 Agility for 2 rounds; mild paralytic coating).
+      - Alchemical Blade (melee): 6 damage, +2 burn at the start of the target's next turn. On hit, Standard Might roll or suffer **Numbness** (-2 Agility for 2 rounds; paralytic coating that makes the NEXT grapple easier).
       - Restraining Grapple (melee, replaces attack): contested Might (Hard, -4). Target is **Restrained**. Multiple can pile on one target. This is their JOB: pin and hold, not kill -- Antoine wants live specimens and the party kept off the extraction.
+      - Breaker's Blow (melee; recharge after a grapple, or every other round): 10 damage, ignores half the target's DR, knockback + **Staggered**. TELEGRAPHED -- it vents a shoulder valve first; a PC watching for it can brace or interrupt. The "shatter" half of pin-then-shatter.
     * *Behavior*: They fight to **contain**, not kill. MINDLESS -- they run rigid scripts, do not adapt, do not focus-fire cleverly; a feint, a lure, or bait works on them where it never would on Ulag. They activate when the cage drops (part of the same system) and do not pursue outside the Laboratory.
 
 Rahgot's sarcophagus (OPEN): What they see: A massive stone sarcophagus, lid shoved aside, interior empty. Ward-runes dark. A body-impression in the dust. If they investigate (Magic TN 12): The ward-runes were a death-sleep preservation system ΓÇö keeping the occupant in suspended animation for millennia. They were deactivated deliberately, from the inside. Whatever was in here woke up on its own and walked out. The dust impression shows a large humanoid form wearing a mask. The sarcophagus carvings identify the occupant: Rahgot, Dragon Priest of the Last Redoubt.

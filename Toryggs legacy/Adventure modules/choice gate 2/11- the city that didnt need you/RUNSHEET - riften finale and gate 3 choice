@@ -989,15 +989,24 @@ STAT: False Draugr  x4-6  (TL1-2 Expert) -- ANTOINE'S OWN MAKE, NOT TRUE UNDEAD
     in this room -- the SECOND time Antoine neutralizes him (caged body + useless ability).
     GM: let him try it and feel it fail; that blank is the point.
   HP 35 | DR 5 (chemically hardened tissue + copper)
-  Immune poison/disease/cold/fear/Alfonso's plague-communion
-  Weak FIRE (x2 dmg -- the preservative is flammable) | Sonic/Thunder (staggered 1 round
-    -- disrupts the crude alchemical motor)
-  Might 15 | Agility 10 | Magic 6 | Guile 2 (near-zero -- there is no mind in here)
-  Atk Alchemical Blade -- melee, 8 dmg; Standard Might roll or Numbness (-1 Agi, 2 rds;
-    mild paralytic coating)
+  >> THE DESIGN IS THE INVERSION -- do NOT run them as fire-weak draugr. Full block:
+     GM Guide/False Draugr Reference.
+  Immune FIRE/poison/disease/fear/Alfonso's plague-communion
+  Weak COLD (x2) AND LIGHTNING (x2) -- both also SUPPRESS its regen; Lightning ARCS to any
+    Breaker within 10 ft for half | Sonic/Thunder (staggered 1 round -- the resonance flaw
+    copied from Ulag)
+  Might 14 | Agility 8 (SLOW) | Magic 6 | Guile 4 (rigid scripts -- there is no mind in here)
+  REGEN +3 HP at start of its turn UNLESS it took cold/lightning since last turn.
+  SPLASH at 0 HP: 3 chem dmg to all within 5 ft. TREMORSENSE 30 ft (no eyes -- sneaking
+    fails; stillness / invisibility / getting airborne defeat it). VITALIS: a healing potion
+    poured on one deals its HP value ignoring DR (4/8/12) -- system-mastery reward, don't hint.
+  Atk Alchemical Blade -- melee, 6 dmg + 2 burn next turn; Standard Might roll or Numbness
+    (-2 Agi, 2 rds; paralytic coating that eases the next grapple)
   Atk Restraining Grapple (replaces attack) -- contested Might (Hard, -4) -> Restrained.
     Multiple can pile on one target. This is the JOB: pin and hold, not kill (Antoine
     wants live specimens and the party held off the extraction).
+  Atk Breaker's Blow (recharge after a grapple / every other round) -- 10 dmg, ignores half
+    DR, knockback + Staggered. TELEGRAPHED (vents steam first); a readied PC can brace/interrupt.
   Behavior: contain, not kill. MINDLESS -- they run rigid scripts, do not adapt, do not
     focus-fire cleverly; a feint, a lure, or bait works on them where it never would on
     Ulag. They activate when the cage drops (part of the same system) and do not pursue
