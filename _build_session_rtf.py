@@ -77,6 +77,13 @@ raw("\\pard\\sb60\\sa40\\cf2\\b\\fs44 NEXT SESSION -- FORELHOST FINALE -> GATE 3
 raw("\\pard\\sa200\\cf5\\i Picks up the instant we froze: the trap sprang, Alfonso is a rapier on the cage floor, the False Draugr are stepping out. Open on initiative. Self-contained -- run the night from here. (Old runsheet kept as the play-log.)\\i0\\cf1\\par\n")
 rule()
 
+label("TONIGHT: ISMARA AT THE WHEEL  (Davinia's player is late)", red=True)
+plain("Davinia's player asked that **Ismara play Davinia** until she arrives. Run it -- and treat it as a milestone: the party's **first real contact with Ismara as a person who can take the wheel and talk back.**")
+gm("CDI DOES NOT ADVANCE TONIGHT (GM ruling) -- a cost-free loan of the wheel, not a Sovereign's Domain integration-check. What it DOES do is set the precedent: Ismara can drive, and converse. Future takeovers can carry the usual cost; tonight is the gracious demonstration.")
+bullet("**Combat:** a cooler, sharper tactician who PROTECTS the body above all -- spends power freely, takes no risks, never invoices a rescue. Fights with **Ismara's Aegis (frost -- a False Draugr weakness)** and the telekinetic mace; pointedly **will NOT cast Restoration** (the Strain feeds on it). Her Sight reads the False Draugr as eerie soulless BLANKS -- 'furniture that moves' -- and she'll say so, fascinated.")
+bullet("**She talks** if engaged, and may open unprompted: helpful, dry, regal, and she NEVER lies -- sees the party as hers to keep (shield-thanes) and files everything. Marquee beat: **Ismara meeting Alfonso-the-sword** -- two souls housed in objects; she's the one voice that fully grasps what he is, and the Crown is already pooling toward his rapier.")
+gm("FULL playbook + per-member talking points: `Npcs/Ismara` Sec. VIII (new). Keep her honest, keep her sentences short when she's working, and let the table leave liking her more than is comfortable.")
+
 label("STATE AT THE FREEZE", red=True)
 bullet("Alfonso moved to destroy the Tears; the cage dropped -- but they **fought it**: Davinia knocked the cage upward with her telekinetic mace while Alfonso threw a **Wall of Frost under the bars** (jacking it off the floor) and **enchanted the ice with a single Stabilize component** -- the ice is stable and long-lasting, holding the cage jacked up. He was a breath from breaking out when the **timer ran out** -- the field fired and **unmade him anyway**. His soul is in the **rapier on the floor under the jacked-up cage**, and because the cage is displaced, **the extraction arm can't reach it.**")
 bullet("Antoine's **False Draugr** are stepping out of the wall alcoves now. Inside/around the cage: **Davinia, Saijah, Orion** (+ Alfonso-as-rapier). Bjorn, Mila, Nora, Esbern, Varon, GEAR, Ylva are outside with the cart.")
@@ -211,6 +218,7 @@ exit_("The long climb back down. The infection works at its set severity; thread
 rule()
 raw("\\pard\\sb120\\sa200\\cf2\\b\\fs40 RIFTEN WRAP\\b0\\fs24\\cf1\\par\n")
 raw("\\pard\\sa200\\cf5\\i None of this happened yet -- the party went straight into Forelhost. Run it before or after the dungeon as the table moves.\\i0\\cf1\\par\n")
+gm("PACING / TRIAGE -- the night is big; protect the spine. LOAD-BEARING (do not cut): the lab fight + rapier recovery, the open-sarcophagus / Konahrik reveal, and the **Gate 3 choice + fire matrix** (the session MUST end on a committed fire). Everything in this Riften Wrap is MODULAR -- run what time allows, any order. If short: prioritize the **Maven debrief** (bounty + promotion) and the **Gate-3 due-diligence + Bjorn/horse**; Hemming, Balimund, and the camp vignettes can compress or carry. **Orion's Grelod infiltration is a whole set-piece** -- if he commits, strongly consider giving it its OWN session rather than cramming it. Land Gate 3 clean over rushing six social scenes.")
 
 # ================= THE CAMP =================
 scene("THE CAMP  --  WHILE YOU WERE GONE")
