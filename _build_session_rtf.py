@@ -221,17 +221,52 @@ raw("\\pard\\sa200\\cf5\\i None of this happened yet -- the party went straight 
 gm("PACING / TRIAGE -- the night is big; protect the spine. LOAD-BEARING (do not cut): the lab fight + rapier recovery, the open-sarcophagus / Konahrik reveal, and the **Gate 3 choice + fire matrix** (the session MUST end on a committed fire). Everything in this Riften Wrap is MODULAR -- run what time allows, any order. If short: prioritize the **Maven debrief** (bounty + promotion) and the **Gate-3 due-diligence + Bjorn/horse**; Hemming, Balimund, and the camp vignettes can compress or carry. **Orion's Grelod infiltration is a whole set-piece** -- if he commits, strongly consider giving it its OWN session rather than cramming it. Land Gate 3 clean over rushing six social scenes.")
 
 # ================= THE CAMP =================
-scene("THE CAMP  --  WHILE YOU WERE GONE")
-subtitle("They were a day-plus in Forelhost; the cart-camp by the canal lived a little. Small, human beats -- weave them through the wrap, don't dump them at once. Mila is the spine.")
-label("MILA (8) -- the ache, Warrens-shaped")
-plain("She misses her mother -- the one who **sold her for 100 gold** and skooma money, alive right now three floors down in the Warrens. But she's eight and Warrens-hard, so it never comes out as tears in front of anyone (tears are a liability where she's from). It leaks sideways: oblique logistics (\"is Windhelm far? could someone get word down to the Ratway?\"), testing whether they'd let her go back, going hard and quiet, hoarding the soft bread for someone who isn't there.")
-gm("Her safe person is **Saijah** (the warm hand). She will not go near **Orion** (he showed her his fangs in the dark) and is wary of **Alfonso**. Do NOT resolve the mother thread here -- it stays in the background (see OPEN THREADS). Play the child, not a tiny adult.")
-label("THE OTHERS")
-bullet("**Bjorn:** the man who was HORRIFIED they bought a child is now her fiercest guardian -- that's the root of the Vow. Also chewing on the Grelod truth (quiet fury). He may be the one who mentions Mila's been asking about the Ratway.")
-bullet("**Nora (18):** avoids Mila -- she's barely more than a kid herself -- and stays heads-down working through what Alfonso and Orion taught her. Primed (unknowingly) for the sword-reveal in the lab.")
-bullet("**Ylva:** raw about the Hircine favour that fell on **Saijah** unasked; she wants to be an alpha she will never be. Restless, needling, too close in Saijah's space. (GM only: a door stays open to make her powerful another way -- she has no idea it exists.)")
-bullet("**Varon:** the deadliest thing on Tamriel, reduced to a nervous goof since he tried to kiss Saijah and she bolted -- replaying it, plotting how to fix it.")
-bullet("**GEAR:** has been closely studying Mila -- the construct cataloguing the child. **Esbern:** buried in research, hiding, winding tighter toward 'we leave NOW.'")
+scene("THE CAMP  --  THE RETURN  (the canal camp, dusk)")
+subtitle("The company reunites after a day-plus apart -- and the party comes back CHANGED (Ismara fronting in Davinia's body, Alfonso a sword in Saijah's hand). Each beat below has a line to say and a thing it offers; weave them, Mila first. Marked [PLAYED] = already happened, now canon.")
+readaloud([
+    "The cart-camp sits where you left it, tucked against the canal wall below the Bee and Barb -- woodsmoke, wet stone, the green smell of the water. Esbern's lantern burns in the wagon; Nora's bent over her books in its light. Mila's on the tailgate, the heel of a loaf going stale in her fist. Bjorn's at the fire, and he's on his feet before you've cleared the bridge, counting heads the way he does now.",
+    "Four went south to that mountain, and four come back -- but the count doesn't sit right with him, and you watch the moment he sees why. The one in the grey cloak walks like Davinia and isn't quite: skin gone silver-pale, hair fallen straight, the eyes a degree too calm. And one of you carries a rapier held wrong for a weapon -- held the way you'd carry something that's awake.",
+])
+gm("The camp's first look at BOTH changes. Don't explain either -- let the crew react and the players manage it. Mila and Bjorn below PLAYED this session (canon now); the rest are live for any return to this camp.")
+
+label("MILA (8) -- the safe hand, and the question  [PLAYED]")
+plain("She doesn't run -- Warrens kids don't run -- but when **Saijah** crosses the camp her shoulders come down a notch. She goes to her, takes her hand, holds it. After a while, not looking at anyone:")
+plain("**MILA:** \"...When can I go home? I don't mean now. Just -- when. Is all.\"")
+gm("What it offers: the going-home ache, no clean answer (her mother sold her; thread stays open -- see OPEN THREADS). Saijah is the safe hand; she keeps clear of **Orion** (he showed her his fangs). Don't solve it -- let Saijah hold it. She will NOT cry in front of anyone.")
+
+label("MILA -> BJORN -- the question that landed wrong  [PLAYED]")
+plain("Earlier she'd gone to Bjorn -- she likes him -- and asked the thing a sharp, lonely kid asks the strangest grown-up in camp:")
+plain("**MILA:** \"Why do you feel like more than one person? Like there's somebody else in there with you.\"")
+gm("She's brushing the BIGGEST SECRET (the two dragon souls / the de-aging) and can't name it -- she just feels it. REACTION (Bjorn): it unsettled him badly; no anger, he goes quiet and finds somewhere else to be, and has kept his distance since. The guardian recoiling from the child who sees too much -- the Vow still holds underneath; friction, not a break. NEVER let her perceptiveness become Dragonborn-confirmation.")
+
+label("MILA -> ISMARA -- 'where's Davinia?'  [PLAYED]")
+plain("She clocked the silver skin before any adult said a word:")
+plain("**MILA:** \"You're not her. Where's Davinia?\"   **ISMARA** (gentle, unhurried): \"Oh -- no need to fret, little one. Davinia's right here. She's only resting; I'm minding things for her.\"")
+gm("Classic Ismara: true, warm, closes the question without a lie. Mila didn't press. Leave the small unease in -- a sharp kid only half-buys it. (Ismara files Mila as 'sharp.')")
+
+label("BJORN -- the horse  [opens the unresolved beat]")
+plain("Once the camp's settled he plants himself in front of you, gruff, the real thing on his mind:")
+plain("**BJORN:** \"Mable's done. Took bad hurt off that dragon and she's earned her field -- she'll stay long enough to teach the new one the ropes, then home to my farm to live easy. Which leaves us short a horse, and a cart's no good without one.\" A breath. \"I've put in every coin I've got. I'm asking the rest from you. A GOOD one, mind -- not some broke-down nag.\"")
+gm("Opens the horse decision (its own scene). The tell: he glances at Mila on 'a cart's no good' -- it's her he's thinking of. UNRESOLVED at session end; the loneliness beat is gated behind a quality mount (Grey/Black Mare).")
+
+label("NORA (18) -- the sword")
+plain("Her eyes haven't left the rapier in Saijah's hand since you crossed the bridge. She closes her book.")
+plain("**NORA:** \"That's... him. He's in there, isn't he. He chose to stay.\" Quiet, certain, hungry. \"...May I hold it?\"")
+gm("THE FORESHADOW (Sentient Sword Sec. III). If anyone lets her: run the instant-wrongness -- she stills, her voice goes wrong, she won't want to give it back; Saijah or Bjorn should clock that Nora + that sword is OFF. REACTION (Nora rebuffed): she retreats, stung, files it as one more reason her work matters. Either way the table learns, wordlessly: never Nora.")
+
+label("YLVA -- the favour she didn't get")
+plain("She's been circling **Saijah** since Hircine's favour fell on her unasked. Too close, needling:")
+plain("**YLVA:** \"Smell different, don't you. He's got his eye on you, and you didn't even kneel for it. Some of us would have.\"")
+gm("Rivalry, not bond (the rebound is far off). Offers a dig at Saijah's patron-pull and a little menace. GM only: a door stays open to make Ylva powerful another way -- she has no idea it exists.")
+
+label("VARON -- the deadliest goof")
+plain("The most lethal blade on Tamriel, reduced to hovering since he tried to kiss Saijah and she bolted. He catches you alone:")
+plain("**VARON:** \"Does she -- is she still -- never mind. Forget I said. ...How was the mountain.\"")
+gm("Light relief + the Saijah thread. He won't push the Grelod clock here -- too distracted. No mechanics; texture and a laugh.")
+
+label("GEAR & ESBERN")
+bullet("**GEAR:** has been quietly cataloguing Mila -- the construct studying the child. If addressed, states flat observations ('elevated stress markers; she rations food she does not eat') with no notion it's unsettling.")
+bullet("**ESBERN:** buried in his books and winding tighter -- \"We should not be sitting still. We leave soon -- yes?\" Nudges (gently) toward Bleak Falls / the Dragonstone.")
 
 # ================= SCENE 9: ORION / GRELOD =================
 scene("9   ORION'S BUSINESS: GRELOD / HONORHALL")
@@ -349,6 +384,12 @@ subtitle("They hold enough to satisfy the contract (Forelhost location + the Mea
 readaloud(["Up a narrow stair to a door you didn't know existed: a small, functional office. A heavy oak table buried in ledgers, trade-route maps, correspondence under half the holds' seals. An iron lockbox bolted to the floor. Maven at the head -- no housecarls, no drink, no performance. The amused matriarch is gone. This is the woman who runs Riften's criminal infrastructure, working. 'Sit. Show me what you found.'"])
 bullet("**The intel:** a living Dragon Priest (Rahgot) + his alchemist (Antoine) out of FORELHOST poisoned her Meadery (Tears of Rahgot). If they ran the dungeon: the journals, sealed culture samples, the Strain 2.0 folder.")
 plain("Her hands go still -- not because she knows Rahgot (she doesn't) but the implication: an ancient power used her city as a test site and her operation as an ingredient. \"A Dragon Priest. An hour south of my city. Using my Meadery to run a field test. He doesn't know my name. He will.\"")
+label("HOW MAVEN TAKES IT  (run her reactions -- don't just read the offer)")
+bullet("**To the intel itself:** the amused matriarch is GONE. Very still, then very precise -- the woman who actually runs Riften, working a threat to it. She does not fear Rahgot; she is OFFENDED. \"He used my city. My operation. As an INGREDIENT.\" She wants him found.")
+bullet("**To the cosmic scale (Strain 2.0 / apotheosis):** she doesn't grasp it and won't pretend to -- she narrows it to what she owns: \"I don't care what he wants to become. I care that it started in my mead. Cut the root.\"")
+bullet("**If they ACCEPT (patron):** brisk, satisfied, instant -- counts the advance, names terms, treats them as hers from that breath. The warmth is transactional but real: \"Good. You're mine now. Try not to make me regret it.\"")
+bullet("**If they REFUSE:** no anger -- a long look and a cooling. \"...Pity. I don't ask twice.\" She still PAYS the bounty (a debt is a debt), but the open doors quietly shut -- no network, no harbor, no advance. NOT an enemy; she remembers. She'll still send them to Hemming (that gratitude is his, not hers to withhold). [THIS is the branch they took.]")
+bullet("**If they NEGOTIATE:** independence and refusal-rights she grants easily (she respects a hard bargainer); transparency into HER business is a flat no -- press it and the temperature drops fast.")
 bullet("**The 5,000g bounty:** counted out of the lockbox. Debt settled.")
 plain("**THE PROMOTION (the patron offer):** \"Hunt Antoine and his master. Dismantle it. Bring me Antoine ALIVE. In return, the Black-Briar family is your PATRON -- funding, safe harbor in any hold my name reaches, my network Solitude to Windhelm, protection. My enemies become yours. The Obsidian Lanterns become my hand. Deniable. Well compensated.\"")
 bullet("**Why alive:** \"A dead alchemist doesn't unmake what's in my mead, doesn't say who else drank it, doesn't name who he answers to. The antidote, the exposure list, the name above him. Then he can die.\"")

@@ -64,6 +64,13 @@ GM NOTES
   Normal weight, prefixed with a bold maroon "GM:". Kept SHORT -- a beat per note, not
   a paragraph brick. This is your-eyes-only truth and adjudication.
 
+NPC REACTION  ("HOW THEY TAKE IT")
+  For any NPC the party brings something to, or negotiates with: the NPC's RESPONSE to
+  the likely player moves -- accept / refuse / the big reveal -- written as behaviour +
+  an actual line, not just the offer. A social scene is branches, not a monologue. The
+  absence of this element is what makes an NPC read as a vending machine (the Maven
+  failure: we wrote what she offered, never how she TOOK the news).
+
 BULLETED BEATS
   One idea per bullet, brown bullet glyph, whitespace between. Discoveries, options,
   consequences -- anything scannable becomes bullets, never prose.
@@ -121,19 +128,39 @@ If in doubt, fewer colours. Bold carries most of the emphasis; colour marks KIND
 
 
 ====================================================================
-4  THE SCENE TEMPLATE  (the repeating unit)
+4  THE SCENE TEMPLATE  (TWO archetypes -- pick by what the scene IS)
 ====================================================================
 
+Every scene is one of two kinds. They share the skeleton (numbered maroon header +
+grey "what this is" line) but REQUIRE different bodies. Build to the archetype; never
+let a character scene collapse into a list of GM notes.
+
+A. SET-PIECE / LOCATION SCENE  (a room, a fight, a puzzle, a dungeon beat)
   SCENE HEADER (maroon, numbered)
   "what this is" subtitle (grey italic)
-
-  >> READ ALOUD          the player-facing description (blue), broken into paragraphs
+  >> READ ALOUD          the place, the moment (blue), broken into paragraphs
   GM: ...                truth + adjudication (short)
   LABEL                  e.g. INVESTIGATE / COMBAT / LOOT
     bullet beats         one idea each
     >> HANDOUT -- title  full in-world text, inlined, opt-in depth
     STAT / MECHANIC CARD  bordered monospace block
   EXIT -> next scene
+
+B. CHARACTER / SOCIAL SCENE  (a camp, an NPC meeting, a farewell, a negotiation)
+  SCENE HEADER (maroon, numbered)
+  "what this is" subtitle (grey italic)
+  >> READ ALOUD          the MOMENT they walk into -- the place, the mood, who is here,
+                         and what just changed (blue). A character scene gets a read-
+                         aloud too; "no room to describe" is NOT licence to skip it.
+  then, PER NPC, a PLAYABLE BEAT -- never a bio:
+    LABEL (the NPC)      e.g. MILA / BJORN / MAVEN
+    GM:                  one line of "what it is / what it offers"
+    a SPOKEN LINE        at least one -- a >> READ ALOUD snippet or  NPC: "dialogue"
+    NPC REACTION         for anyone the party engages: how they take the likely moves
+  EXIT -> next scene
+
+  THE TEST: could the GM run B cold, off the page, WITHOUT inventing dialogue? If the
+  beat is who-they-are and what-mood with nothing to SAY, it is prep, not a scene.
 
 
 ====================================================================
@@ -151,6 +178,29 @@ A lore drop does up to three jobs. Keep them apart:
     it never gates the night.
 
 Standing fix for the one failure mode: the clue is never in the dump.
+
+
+====================================================================
+5B  THE CHARACTER-SCENE MODEL  (the second standing failure mode)
+====================================================================
+
+Section 5 fixes the lore failure. This fixes the SCENE failure:
+
+  A BEAT IS NEVER A CHARACTER SHEET.
+
+A scene written as character-state -- who the NPC is, what mood they're in, their
+psychology -- is PREP, not a runnable scene. At the table it leaves the GM holding a
+bio and improvising the whole moment (this is exactly what happened to the camp scene;
+the GM had to build it live). Psychology is the skeleton; the scene is the flesh: a
+thing to SAY (a read-aloud or a line) and a thing to DO/OFFER, per NPC.
+
+  - WRONG (prep):  "Mila misses her mother; it leaks sideways; she's Warrens-hard."
+  - RIGHT (scene): the read-aloud of her on the tailgate + MILA: "Is Windhelm far?
+                   ...Hypothetical." + GM: what it tests, who she'll let close.
+
+And an NPC the players bring news to or bargain with needs REACTION beats (how they
+take it) or they read as a vending machine. The offer is half a scene; the response
+is the other half.
 
 
 ====================================================================
@@ -187,3 +237,9 @@ time a tight rules object should be glanced at rather than read.
 8. Does the .rtf validate (balanced braces) and open cleanly in WordPad?
 9. Does every READ-ALOUD pass the WRITING GUIDE self-check (no cold, no negation, no
    omniscience, no writing the players' actions)?
+10. Is every scene built to its ARCHETYPE (set-piece vs character/social), and does
+    EVERY scene -- camp and social included -- open with a read-aloud moment?
+11. Does every NPC beat carry at least one thing to SAY (a line), not just who they
+    are? (No beat is a character sheet.)
+12. Does every NPC the party engages have REACTION guidance -- how they take the
+    accept / refuse / reveal?
