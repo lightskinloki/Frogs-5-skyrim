@@ -251,7 +251,7 @@
    "src": "varon",
    "type": "loves",
    "dst": "saijah",
-   "why": "The one authentic emotion that survived the surgery; the dodge taught him roles can't win her and he has no self to offer instead."
+   "why": "The one authentic emotion that survived the surgery. Ch.23: mortified by the dodged kiss, he decided he'd made her uncomfortable and STEPPED BACK - and when she sought him out (to carry Alfonso's sword) he RAN. The deadliest blade fleeing the one person he wants near - the tragic inversion of 'Saijah seeks him out'."
   },
   {
    "src": "varon",
@@ -284,16 +284,10 @@
    "why": "Varon's feelings for Saijah are the crack in the Brotherhood's enforcement. If Saijah learns she is being used, she never forgives Orion - and Nora's exit dies with it."
   },
   {
-   "src": "varon",
-   "type": "reveres",
-   "dst": "rapier",
-   "why": "Voluntary discorporation into stillness is the closest thing to Sithis-worship he has seen a living person perform; sits near it on watches."
-  },
-  {
    "src": "ismara",
-   "type": "holds",
+   "type": "drives",
    "dst": "davinia",
-   "why": "Integration Tier 4; CDI 0.45 against the 0.5 cliff. The SECOND suppression (after grant 5) crosses the line - one honest fair-warning speech, then she stops asking."
+   "why": "EXTENDED SWAP (Ch.23): Davinia gave in - after an aerosolized-Strain gas-cloud infection and the party urging her - and ceded the wheel to halt the disease. Ismara now FRONTS (silver skin, straight hair); Davinia is displaced into her subconscious 'basement', looping the circus / clown's-hand father-memory with Ismara standing in her erased mother's place. In-fiction CDI unchanged; the real cost is the meta 'IRL CDI' (make her rewarding to play). Still Integration Tier 4; the 0.5 cliff (second suppression) remains the in-fiction line."
   },
   {
    "src": "ismara",
@@ -389,7 +383,7 @@
    "src": "bjorn",
    "type": "guards",
    "dst": "mila",
-   "why": "The Vow: second chance at the promise he failed (Lylana and Anya). If the party's darkness catches her, he packs the cart and never returns."
+   "why": "The Vow: second chance at the promise he failed (Lylana and Anya); if the party's darkness catches her, he packs the cart and never returns. Ch.23 FRICTION: Mila asked why he 'feels like more than one person' (brushing his two-souls secret) and it unsettled him - he now keeps his distance. The guardian recoiling from the child who sees too much; the Vow holds underneath."
   },
   {
    "src": "bjorn",
@@ -417,9 +411,9 @@
   },
   {
    "src": "maven",
-   "type": "patronizes",
+   "type": "cooled-on",
    "dst": "lanterns",
-   "why": "PENDING finale: the 5k bounty, the promotion, the golden cage. Cold because Danica got the glory."
+   "why": "Ch.23: they REFUSED her patron offer (funding, harbor, network, advance). She paid the 5k bounty - a debt is a debt - and cooled; NOT an enemy, but 'she remembers a no'. They chose independence over the golden cage."
   },
   {
    "src": "thalmor",
@@ -485,13 +479,13 @@
    "src": "codex",
    "type": "held-by",
    "dst": "lanterns",
-   "why": "Davinia's button-alcove find at Forelhost - Antoine's family master text, four thousand years of craft, now in the party's hands."
+   "why": "Antoine's family master text (4,000 years of craft), taken at Forelhost - now held by Davinia/ISMARA, who is studying it to build the Strain cure (a simplified player-facing version represents what Ismara extracts)."
   },
   {
    "src": "tears",
    "type": "blocks",
    "dst": "strain2",
-   "why": "The binding agent: take or destroy the Tears and Antoine's production stalls; leave them and it continues. Choice pending at the frozen fight."
+   "why": "Ch.23: the party TOOK SAMPLES but did NOT destroy the bed - so Antoine's binding-agent source is INTACT and production can continue. The choice that would have crippled him went unmade."
   },
   {
    "src": "pale-ladys-tomb",
@@ -827,13 +821,13 @@
    "src": "ylva",
    "type": "kindred-rot",
    "dst": "alfonso",
-   "why": "Disgusting and honest - he eats what he kills. She is pulling away (thrall tactics bored her) but the kinship stands."
+   "why": "Ch.23: Alfonso-as-a-sword is the ULTIMATE form of the 'hiding behind others' cowardice she despised (he can't fight at all - needs a bearer). The physical kindred-rot (she kept sleeping with him 'mostly') curdles into disgust + an unnamed grief; the kinship doesn't survive it whole."
   },
   {
    "src": "ylva",
    "type": "pursues",
    "dst": "davinia",
-   "why": "The Ice Queen project: wineskin, sparring challenge, the direct proposition. Unknowingly the re-anchoring counter to Ismara."
+   "why": "Her real romance (never physical - Alfonso was the physical one). Ch.23: with Alfonso gone-as-a-man she's ALL IN on Davinia, pursuing harder - but 'Davinia' is ISMARA now (extended swap), whom Ylva HASN'T MET; her pursuit walks into the queen. (Was the unwitting re-anchoring counter; now complicated by the swap.)"
   },
   {
    "src": "jasper",
@@ -864,6 +858,48 @@
    "type": "died-at",
    "dst": "pale-ladys-tomb",
    "why": "Died there session 1. Ismara did NOT kill him - resonance only (he died where the thing now in Davinia's head sleeps). The Dawn's Winterhold presence (College arc) covers how they got him."
+  },
+  {
+   "src": "saijah",
+   "type": "bears",
+   "dst": "rapier",
+   "why": "'Saijfonso' (Ch.23): she recovered and now carries/wields the discorporate Alfonso. Skin-to-iron auto-infected her (Hircine burns it out); while he is Wakeful he acts and speaks through her. Stage 0 Bearing - one fight carries no Tenancy risk."
+  },
+  {
+   "src": "ylva",
+   "type": "hates",
+   "dst": "saijah",
+   "why": "Ch.23: Hircine's favour fell on Saijah unasked, AND Saijah now carries/wields Alfonso (Ylva's kindred). The disgust, the old pull, and an unnamed grief all vent at the one target she is allowed to hate."
+  },
+  {
+   "src": "ylva",
+   "type": "will-collide-with",
+   "dst": "ismara",
+   "why": "Loaded, unplayed: Ylva is all-in on pursuing 'Davinia' - but Davinia is Ismara now, and the two have never met. Her pursuit walks straight into the silver queen wearing the body she wants."
+  },
+  {
+   "src": "ismara",
+   "type": "recognizes",
+   "dst": "rapier",
+   "why": "Ch.23: the two soul-vessels spoke. She alone fully grasps what Alfonso is - a soul that jumped to iron without a lattice and survived (her parallel experiment) - and names the Crown pooling toward his rapier and the bearer 'borrowing trouble' (the Tenancy he cannot feel)."
+  },
+  {
+   "src": "lanterns",
+   "type": "invested-in",
+   "dst": "balimund",
+   "why": "Ch.23: 12,000g into the Borgakh forge buy. Unlocks burnt-slot restoration + the courier 'Lantern mark' (master-grade work on the road); 3k short of best-in-Skyrim (15k cumulative). A clean ally - the pointed opposite of Maven's refused leash."
+  },
+  {
+   "src": "hemming",
+   "type": "gifted-letter",
+   "dst": "lanterns",
+   "why": "Ch.23: the Letter of Introduction - once per major city, flip one grey-area NPC to Friendly; each use permanently entangles the Lanterns with the Black-Briar network. Sincere (he thinks they 'sent' Danica, who saved his life); kept even after refusing Maven."
+  },
+  {
+   "src": "rahgot",
+   "type": "travels-with",
+   "dst": "antoine",
+   "why": "Ch.23: AWAKE and LOOSE - his sarcophagus stood open and empty (he woke on his own, pushed the lid off one-handed, walked out masked). Now traveling with Antoine, his alchemist-servant; the science is Antoine's, the want (vengeance / the Tier-3 Scourge) is Rahgot's. The party's first crossing with a true Dragon Priest."
   }
  ],
  "secrets": [
