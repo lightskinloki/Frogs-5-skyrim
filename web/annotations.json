@@ -407,7 +407,7 @@
    "src": "hayloft-girl",
    "type": "knows",
    "dst": "lanterns",
-   "why": "Watched them murder the stable boy via Fury-horse and dispose of the alley body. Dangling thread; the night did not collect her."
+   "why": "Watched them murder the stable boy via Fury-horse and dispose of the alley body. Ch.22: Maven's people SILENCED her off-screen ('some simply tidy up') - the thread is CLOSED, not dangling; Hofgrir has no witness left to give."
   },
   {
    "src": "maven",
@@ -900,6 +900,18 @@
    "type": "travels-with",
    "dst": "antoine",
    "why": "Ch.23: AWAKE and LOOSE - his sarcophagus stood open and empty (he woke on his own, pushed the lid off one-handed, walked out masked). Now traveling with Antoine, his alchemist-servant; the science is Antoine's, the want (vengeance / the Tier-3 Scourge) is Rahgot's. The party's first crossing with a true Dragon Priest."
+  },
+  {
+   "src": "maven",
+   "type": "silenced",
+   "dst": "hayloft-girl",
+   "why": "Ch.22 ('some simply tidy up'): Maven's people disappeared the child who saw the Lanterns murder the stable boy and dump the alley body - the loose end tidied to keep the city quiet. Hofgrir grieves a dead boy and a vanished girl; there is no testimony to find."
+  },
+  {
+   "src": "ismara",
+   "type": "empowers-by-consuming",
+   "dst": "davinia",
+   "why": "THE SOVEREIGN'S GIFTS (power sheet, Toryggs legacy/): god-tier winter power usable ONLY while Ismara drives. Holding the wheel is free; USING a greater/sovereign gift SPENDS a piece of the submerged Davinia (a memory, a warmth) and advances the merger toward the 0.5 cliff. The 'IRL CDI' trap made mechanical - the more the player enjoys wielding her, the less of Davinia remains to surface. Brake: re-anchoring (Ylva's warmth). Player handout hides the cumulative cost; GM master tracks it."
   }
  ],
  "secrets": [
@@ -1008,6 +1020,17 @@
    "detonation": "The fair warning is delivered ONCE, in Ismara's honest voice, at the second ask. After that yes, no cure path can begin."
   },
   {
+   "secret": "The Sovereign's Gifts are a consumption engine (power now, Davinia spent)",
+   "know": [
+    "ismara",
+    "GM"
+   ],
+   "must-not-learn": [
+    "davinia's player (the handout shows per-use prices only - never the cumulative cost or the 0.5 cliff)"
+   ],
+   "detonation": "Usable only while Ismara drives; each greater/sovereign gift consumes the submerged Davinia and advances the merger. The player wields god-power and spends their own character to do it. Cross 0.5 and there is not enough Davinia left to ever surface."
+  },
+  {
    "secret": "Krusp's soul is stretched thin - prepped for an Echo (Ring of the Titan's Eye)",
    "know": [
     "hjolmar"
@@ -1032,14 +1055,16 @@
    "detonation": "None for Mila ever; for Riften, background rot blamed on the dead Stormcloak courier."
   },
   {
-   "secret": "The hayloft girl witnessed the stable-boy murder and the body disposal",
+   "secret": "The hayloft girl witnessed the stable-boy murder - and Maven silenced her",
    "know": [
-    "hayloft-girl"
+    "hayloft-girl",
+    "maven",
+    "GM"
    ],
    "unknown-to": [
     "the entire party"
    ],
-   "detonation": "Dangling thread, GM's timing; a child in Maven's city who knows what the heroes are."
+   "detonation": "CLOSED (Ch.22, 'some simply tidy up'): Maven's people disappeared the witness before the party could pull the thread. Not a hook - a quiet horror: the city tidied a child to stay quiet, and Hofgrir has no testimony to give."
   },
   {
    "secret": "Saijah is Hircine's quarry and Kynareth's vessel - the Colony knows neither",
