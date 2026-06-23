@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+
+# session scratchpad — overwritten every session, never commit
+final-session-quick-notes.txt
