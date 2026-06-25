@@ -1,0 +1,289 @@
+PLANNING SCRATCH — WORKING DOC (live ideas, NOT canon)
+=====================================================================
+PURPOSE: This is the single working surface for ideas we are still iterating on.
+Nothing here is canon. Nothing here gets written into the source of truth (the
+narrative chapters, character/world/faction docs, the web, the runnable modules)
+until the GM explicitly says a piece is FINAL and to apply it — then it is one
+clean reviewed pass. Default: the canon files stay frozen; we churn HERE.
+
+LEGEND:  [LOCKED] = GM-confirmed canon, ready to apply when we touch the right doc.
+         [PROPOSED] = on the table, leaning yes, needs a final yes.
+         [OPEN] = unresolved question / decision pending.
+         [TODO] = a build task (stat block, tables, module section).
+
+Canonical references this scratch points back to (do NOT duplicate, just extend):
+  - IVARSTEAD — the bleeding stair (planning)   [the design bible for Fire B]
+  - gate 3                                       [the three fires]
+  - THE FALL OF RIFTEN (future planning)         [elder-dragon razing, party-only]
+  - Npcs/Danica, Npcs/Krusp Fanck, Npcs/Bjorn, Players/saijah 2
+
+=====================================================================
+1. SCOUT-DRAGON CANON  [LOCKED — corrected this session, do NOT re-break]
+=====================================================================
+- Two scout dragons are seeded at the Ivarstead JOURNEY; the party HIDES from them.
+- They SCOUT Riften and LEAVE. They NEVER attack Riften. Scouting is all they do to it.
+- Their scouting makes the cult MORE confident the Dragonborn is in Riften:
+    -> RIFTEN is destroyed by the ELDER DRAGON (high-confidence target = heavier
+       weapon; the unwinnable Balrog-of-Moria finale, PARTY present — Fall of Riften).
+    -> the two scouts are PROMOTED to destroy WINDHELM (lower-confidence target,
+       where the Dragonborn merely MIGHT be).
+- WHY the cult is doing this at all: as far as they know there is NO Dragonborn, and
+  yet a dragon SOUL was permanently eaten (only a Dragonborn does that). They are
+  terrified/panicking. Deeper truth: dragons fear TRUE (soul) death above all.
+- HOW they extrapolate Riften: triangulate from the two dragon-death sites
+  (Kynesgrove/Sahloknir + the pass near Riften/Krosulhah) + ANTOINE'S intel (he knows
+  the Lanterns and the Rift).
+- At Ch.24's point in the story: only THREE dragons have EVER been sighted (Alduin,
+  vanished; the two killed). Nobody knows scouts are abroad searching YET. So NO scout
+  mention / allusion belongs in the narrative yet. (Already scrubbed from Ch.24.)
+
+=====================================================================
+2. THE WINDHELM / KRUSP / DANICA THREAD  [mostly PROPOSED — reconcile before building]
+=====================================================================
+- [PROPOSED, leaning yes] The two scouts, promoted, RAZE WINDHELM — "lesser
+  devastation" (scouts damage a city; only the elder ERASES one — clean escalation to
+  Riften's total erasure). Deepens party guilt: they hid from these exact two on the road.
+- [LOCKED-ish] The cult thinks KRUSP is the Dragonborn (famous hero) -> the dragons
+  hunt him at Windhelm -> this IGNITES his False-Dragonborn arc (consistent with Krusp
+  doc Act IV "marked as False Dragonborns"). Krusp + Danica are at Windhelm (Fire A).
+- [LOCKED] TIMELINE (GM corrected): Krusp+Danica go to WINDHELM while the party is at
+  IVARSTEAD -> then an IN-BETWEEN adventure -> THEN Riften falls (party only). By the
+  Fall of Riften they are NOT in Windhelm (Markarth/Solitude/Morthal region). They are
+  never at Riften's fall.
+- [OPEN] Reconciliation w/ Fall of Riften doc: if the 2 scouts raze Windhelm and survive
+  (lesser), do they then continue to Riften? The corrected canon says the ELDER razes
+  Riften and the scouts do NOT return — so the scouts' itinerary ends at/after Windhelm,
+  NOT at Riften. Confirm the scouts' final disposition.
+- [OPEN] Does the Windhelm raze happen DURING or AFTER Krusp+Danica's plague-purge
+  (Fire A)? Fire A is already a plague/Antoine/Vokun fire; the dragon raze layers on top.
+- [OPEN] The ORPHANED revive-beat: the old Fall-of-Riften "party drops two dragons that
+  revive because no Dragonborn took the soul (buried Bjorn tragedy)" was attached to
+  scouts-at-Riften, which is now invalid. Relocate (Windhelm with Krusp? the road?) or
+  cut. Do NOT re-place scouts at Riften to salvage it. (Flagged in the Fall of Riften doc.)
+- [OPEN] TPK PREP — the road dragon-hide: two Krosulhah-tier dragons (different
+  archetypes) = a TPK if the party FIGHTS instead of hiding. Decide the "they fought
+  anyway" branch: (a) true TPK, telegraphed relentlessly so running is obviously the only
+  play, or (b) forced-loss escape (scattered/captured, Bjorn's speed saving Mila).
+
+=====================================================================
+3. THE ROAD-TO-IVARSTEAD LEG (scope of the thing we're building first)  [scope LOCKED]
+=====================================================================
+Contents of this leg = ROAD ONLY (town arrival is the NEXT segment):
+  - Travel through the Rift toward Ivarstead.
+  - The two-dragon HIDE (detection-as-a-clock; party's own assets are the complications).
+  - BJORN'S SPEED — SECOND flare. [LOCKED] It already flared ONCE (Mila's arrival in
+    Riften, Ch.21). The road flare is an ESCALATION, not the first awakening. Triggered by
+    MILA in danger. Read by the table as rejuvenation, NEVER the Dragonborn.
+  - Personal-investment downtime: players pursue their threads (Alfonso/Ismara's alchemy
+    via the Forelhost Codex, Orion's tonal/Severance work, etc.) + NPC connection beats.
+  - ESBERN earns his keep (see §10): reads/interprets the threat, pushes the Dragonstone,
+    is a hunted Thalmor liability. Deliver via PLAY, never a lore-dump ([[lore-delivery-feedback]]).
+  - A RESPITE: one brief fun breather — a roving BARD or KHAJIIT CARAVAN to trade with,
+    learn about the world, hear rumors. A pocket of warmth before the mountain.
+  - Horses on the road: the new WAR HORSE (Black Mare, fearless — see §4) works; MABLE
+    (old, dragon-traumatized from Krosulhah) is the one that SPOOKS = the detection tell.
+  - Time-corruption: essentially NORMAL physics on the road; the gradient's faint outer
+    fringe begins only at the very approach to town (barely perceptible). Full temporal
+    horror is the town + mountain (next segments).
+
+=====================================================================
+4. THE WAR HORSE — THE BLACK MARE  [LOCKED facts; stat block TODO]
+=====================================================================
+[LOCKED]
+- Bought for 12,000g. Hofgrir's prize, the BEST animal in the Rift, the one Bjorn wanted.
+  Haggling only RAISES her price. (NOT the Fury Horse — that cheap 1,500-5,000g
+  traumatized menu option was never bought.)
+- IMMUNE TO FEAR. Fearless, brave, will charge a dragon HEAD-ON with no hesitation. A
+  "rattle" in her is ANTICIPATION (eager for the fight), not fear. Quality of breeding +
+  war-training, NOT magic.
+- A true destrier: bigger/stronger/faster/deeper-winded; war-trained (Mable is wagon-broke).
+- A combatant: tramples, kicks, charge adds impact — fights beside the cart, not just pulls it.
+- Conditioned for the long road: out-marches/out-lasts ordinary mounts.
+- MABLE: not retired. Teaches the new warhorse the routes/harness, THEN Bjorn takes her
+  home to WINDSTAD MANOR (his Hjaalmarch lakeside place; see §8). A reserved future beat.
+[PROPOSED flavor] Mila bonds with the proud mare fastest (Warrens kid reads a wary animal).
+[TODO] Formal d20 stat block / companion entry: warbeast statline, FEARLESS/immune-to-fear
+  (charges a dragon), charge + trample, long-road stamina. Objectively the best mount.
+
+=====================================================================
+5. TEMPORAL-WEATHER MECHANIC (the mountain + town distortion)  [core LOCKED; tables TODO]
+=====================================================================
+SYSTEM: FROGS is d20-ONLY. Speed = number of ACTIONS (not movement distance).
+[LOCKED]
+- PROXIMITY-BASED. Each ZONE owns its OWN SET of d20 weather tables. Zone sets get
+  nastier the HIGHER UP the mountain (the gradient): town = faintest, the upper Steps /
+  the undercroft = worst. NOTE (see §10): the distortion is a SIDE EFFECT — the Throat is a
+  Tower being corrupted from its undercroft that HAPPENS to have a Time-Wound on it; the cult
+  is NOT targeting the Time-Wound. The temporal chaos is the byproduct, not the cult's aim.
+- The GM holds a REAL-WORLD TIMER/ALARM. It fires with NO warning to the players (GM holds
+  the phone) — they learn to dread the sound. On the alarm, the GM rolls a d20 to pick which
+  table within the CURRENT zone's set is now active ("the weather shifts").
+- Players roll a d20 TEMPO at the START of their turn on the active table -> sets their
+  action economy this turn. Example mid-tier table:
+      1-2  Frozen   (0 actions, time skips you)
+      3-6  Dragging (1 action)
+      7-15 In step  (normal)
+      16-19 Quickened (+1 action)
+      20   Unmoored (double)
+  Nastier tables widen toward the extremes (more 1-4 Frozen / more high Unmoored). Worst
+  (the Wound) adds secondary horrors (spell resolves next round; damage before the attack;
+  forced reposition).
+- GRADIENT = TWO dials: nastier table-SETS higher up AND the alarm fires MORE OFTEN higher up.
+- ENEMIES CHEAT the weather: Dagonites ignore Frozen/Dragging, or roll twice keep better, or
+  simply choose — they SURF the Tide rather than suffer it. (This is the hook for §6.)
+[OPEN] Enemy cheat = always-on, or a RESOURCE the party can strip/disrupt?
+[OPEN] Town version: town is mostly fodder combat + SOCIAL, so its mechanic should be more
+  social/informational distortion (conversations stutter, answers before questions, clues
+  out of chronological order) with only a LIGHT Tempo hiccup in fights. Build separately.
+[TODO] Build every zone's full d20 table-set + the Wound's secondary-horror list as one
+  clean rules block the runsheet (and town build) inherit.
+
+=====================================================================
+6. YLVA -> SAIJAH (perceiving the cheat)  [LOCKED principle]
+=====================================================================
+- Ylva is an NPC (GM-run). She perceives the temporal CHEATING via her WEREWOLF /
+  Hircine HUNT-RHYTHM instinct: she feels the broken cadence of a fight as a physical
+  wrongness (hackles, growl) — can't name "temporal weather," but KNOWS a foul happened.
+- "Referee's Wrath" = a GM-controlled reaction punishing the specific cheater.
+- CRITICAL PRINCIPLE [LOCKED]: narrating an NPC's perception must DEVELOP A PLAYER, not the
+  NPC. So Ylva sensing the cheat exists to develop SAIJAH (PC): Saijah witnesses it, and it
+  FORESHADOWS Saijah's own future Hircine gift — the same hunt-rhythm sense, EARNED by her as
+  she hunts greater and greater prey. Ylva demonstrates; Saijah grows from it.
+
+=====================================================================
+7. DANICA — "LOSING HER BODY = FINDING HERSELF"  [APPROVED to apply; pending one clean pass]
+=====================================================================
+(GM said "write it in." Capture here; apply to Npcs/Danica + a memory on the GM's go.)
+- Danica SLOWLY LOSES MORE OF HER BODY over time — the SAME progressive loss as Davinia —
+  but INVERTED in meaning: where Davinia's loss represents LOSING herself (to Ismara),
+  Danica's loss represents FINDING herself. A deliberate mirror.
+- This is SEPARATE from the lung-scarring. The scarred lungs = ALFONSO'S PLAGUE (her
+  Windhelm/Fire A attrition). The body-loss/deformity = DRAGON-FIRE (a different cause).
+- Cause: she throws herself between a CIVILIAN and a dragon's fire, and she would do it
+  every single time — because that is who Danica is.
+- THEMATIC ENGINE (the simultaneous "proved right" moment, read through Davinia's lean):
+    leaning ISMARA  -> "Ismara was right; I should have used my power to keep her safe
+                        forever — she offered that from the start."
+    leaning DANICA  -> "Danica was right; I should have refused the power and been there to
+                        protect her — I never should have sent her away."
+    DANICA'S truth  -> NEITHER. It had nothing to do with Davinia or Ismara. She shielded a
+                        stranger and would do it again. The projections are the party's.
+- Timing [LOCKED ORDER]: 1) lungs scar at WINDHELM (plague). 2) TWO whole adventures pass.
+  3) THEN a separate DRAGON ATTACK maims her (limb). NOT at Windhelm, NOT the Windhelm raze,
+  NOT simultaneous with the lungs. (See §10.)
+
+=====================================================================
+8. WINDSTAD MANOR (reference)  [memory-level fine; off the documented map]
+=====================================================================
+- Bjorn's lakeside home, HJAALMARCH — salt marshes NE of Morthal, on the water; isolated,
+  fog, occasional wild attacks; Hearthfire fish-hatchery fits a fisherman. Mable's retirement.
+- The web does NOT have Morthal/Hjaalmarch accurately (Valerius went to Morthal at Orion's
+  direction) — so pull from memory for now; verify only if it becomes load-bearing.
+
+=====================================================================
+9. APPLY QUEUE (write to source-of-truth ONLY on explicit GM sign-off, one clean pass each)
+=====================================================================
+[ ] Danica deformation beat (§7) -> Npcs/Danica + a memory.     (GM said "write it in")
+[ ] War horse stat block (§4) -> new companion entry/doc.
+[ ] Temporal-weather rules block (§5) -> rules doc + Ivarstead runsheet.
+[ ] Bjorn doc: note the speed already flared at Mila's arrival (Ch.21); road flare = 2nd.
+[ ] Ivarstead RUNSHEET build (the road leg first; bible -> runnable).
+[ ] Eventual RIPPLE: present-reality tracker + CURRENT TRUTH banners + web for this session's
+    deltas (war horse bought, Ismara driving, Alfonso a sword, etc.) — when GM calls for it.
+[x] CANON CORRECTIONS APPLIED (this session): gate 3 + bible (ritual = undercroft/Tower, time
+    incidental; Section 4 renamed; Jasper named); plan update + overview (Elder-Scroll blindness
+    mechanic); factions/new mythic dawn (CURRENT TRUTH banner — Vlagoth DELETED, Gaelen at the
+    Throat in person, Jasper lieutenant).
+
+=====================================================================
+10. WHAT HAPPENS NEXT + GM CORRECTIONS (this session — supersede anything above that conflicts)
+=====================================================================
+
+ESBERN — re-introduction + usefulness  [LOCKED]
+- He has been HIDING IN THE CART (false bottom) since they recruited him — staying down
+  because the THALMOR would spot him in/around Riften (warrants on him). He stays hidden
+  until they are FIRMLY on the open road, away from Riften.
+- THE COMEDIC RE-INTRODUCTION (GM intent): the party FORGOT they have him. Once firmly on
+  the open road, Esbern REVEALS himself out of the cart — the funny "oh right, we've been
+  hauling a whole Blade loremaster this entire time" beat. THIS is how he comes back into play.
+- THEN he is the MAIN-QUEST ENGINE: reads the war (Dagon vs Dragon Cult, the Tower, what a
+  dragon sighting means), relentlessly PUSHES the Dragonstone (Bleak Falls), and remains a
+  hunted Thalmor LIABILITY (warrants; Thalmor massing near Riverwood/Bleak Falls).
+- DELIVERY: loremaster = dense-dump risk. Give him a PROBLEM TO SOLVE WITH the party;
+  embed the lore in play; never a wall of exposition. [[lore-delivery-feedback]]
+- He was always part of the Ivarstead plan — just forgotten in the moment; he IS on the climb.
+
+IVARSTEAD — CORRECTIONS  [LOCKED — override the older docs; see CANON CORRECTIONS in §9]
+- THE RITUAL IS *NOT* AT THE TIME-WOUND. It is in the UNDERCROFT of High Hrothgar, close
+  to the ROOT of the mountain. The cult's target is the TOWER (the Throat of the World as a
+  world-pillar). They corrupt the TOWER — not the Time-Wound.
+- THE TIME DISTORTION IS INCIDENTAL. The Throat HAPPENS to have a Time-Wound on it;
+  corrupting the Tower destabilizes the mountain and that interacts with the existing
+  Time-Wound to throw the temporal chaos. The Time-Wound has NOTHING to do with the cult's
+  ritual or intentions. (Same god as the Oblivion Crisis: Mehrunes Dagon.)
+- EVERYONE CLIMBS — Esbern included, the HORSE included. The party CAN try to leave some
+  behind, but it is explicitly UNSAFE. The INN is the least-bad shelter, but NOT safe: if
+  they shelter there it gets ATTACKED and people are hurt (and they must get the horse
+  inside). ANYTHING LEFT OUTSIDE is attacked. This is a PREVIEW of Dagon taking a space —
+  the KVATCH / Oblivion-Crisis register. "No haven at the foot" = active Dagon assault.
+- PAARTHURNAX / THE SUMMIT IS NOT HERE. The summit (Paarthurnax + the actual peak
+  Time-Wound) is literally SEALED — only a SHOUT can clear the way (Clear Skies in canon).
+  It opens only AFTER Bjorn accepts he is the Dragonborn OR the party does the
+  False-Dragonborn ritual. The Ivarstead objective (the UNDERCROFT) is a SEPARATE,
+  accessible location. NO Paarthurnax reveal at Ivarstead.
+
+DANICA — ORDER OF EVENTS  [LOCKED]
+- 1) WINDHELM (Fire A): lungs scar (PLAGUE). 2) TWO whole adventures pass. 3) THEN a
+  separate DRAGON ATTACK maims her (limb / progressive deformity; the mirror-inversion of
+  Davinia — losing body = FINDING herself). NOT at Windhelm, NOT the Windhelm raze, NOT
+  simultaneous with the lungs.
+
+CANON CORRECTIONS — APPLIED to source-of-truth (this session; see APPLY QUEUE)
+- ELDER SCROLL READING — CORRECTED MECHANIC [LOCKED]: mortals CAN read an Elder Scroll. The
+  cost is BLINDNESS, not failure. (Already established at MZINCHALEFT — mortals / the Snow-Elf
+  processors read scrolls there.) Even a DRAGONBORN goes blind EVENTUALLY — a Dragon Soul buys
+  more reads / more resistance, NOT immunity.
+  • THE MECHANIC: when a character reads it, the PLAYER literally gets access to the LORE WEB
+    (the web app) at the table — they gain the knowledge. AFTER the read, the CHARACTER is
+    permanently BLIND: permanent DISADVANTAGE on ALL sight-related rolls of every kind, with
+    NO workarounds.
+  • WHY: it is NOT nerve degradation. It is ONTOLOGICAL OVERLOAD — mortals were never meant to
+    process that bandwidth, so the faculty degrades.
+  • So DELETE the old `plan update` premise "mortals can't read the Scroll without a Dragon
+    Soul" — FALSE. The real limit is the blindness cost. (Dragonrend needing a Dragonborn is a
+    SEPARATE question.)
+- RITUAL LOCATION [LOCKED]: the ritual is in the UNDERCROFT of High Hrothgar, at the
+  BASE/root of the Throat of the World — corrupting the TOWER (the Throat as a world-pillar;
+  Eldergleam corruption extended through the roots to the Throat's base, per `factions/new
+  mythic dawn` Op "The Bleeding Mountain"; the bible names the site "the undercroft," Sec X).
+  The time-fracture is the SIDE EFFECT (the Throat has a Time-Wound); the cult does NOT target
+  the Time-Wound.
+- ON-SITE VILLAIN [LOCKED — RESOLVED]: GAELEN is personally at the Throat (his "greedy second
+  project," bible Section II) — the party FINALLY meets a real main villain (after Valerius).
+  His intro/speech is already written. JASPER AVALON = the lieutenant they FIGHT and put down
+  here. VLAGOTH IS DELETED — never fleshed out, removed entirely.
+  TO FIX on sign-off: (a) `gate 3` (Fire B) + bible Section IV's "ritual at the Time-Wound /
+  widen Alduin's tear" → undercroft/Tower, time incidental; (b) `factions/new mythic dawn` →
+  REMOVE Vlagoth (the Third-Pillar / "Time prophet / PREPARING" entries) and the remote-
+  direction framing — the Throat is GAELEN's in person; the lieutenant is JASPER.
+
+ANTOINE / BLEAK FALLS — CONFIRMED good. Strain 2.0 rig rebuilds on the Dragonstone; Ulag,
+  Rahgot's backing, Kyboh's Echo waiting; 6-8 wk clock; Thalmor blockade. The festering fire.
+
+=====================================================================
+11. DIRGE — MAVEN'S RECKONING FOR GRELOD  [LOCKED — record so we don't forget]
+=====================================================================
+- TRIGGER: when MAVEN learns the Lanterns killed GRELOD, she sends DIRGE after them. (This is
+  how the ch.24 "Maven-Honorhall loaded gun" expresses — character-driven, not a public ruin.)
+- TIMING: probably AFTER Ivarstead, on the road to BLEAK FALLS.
+- WHY IT LANDS: the Lanterns already met Dirge (the Ratway gate — the "Dirge." / "Lanterns."
+  nod that became a tradition) and, for some reason, really LIKE him.
+- THE SCENE: Dirge finds them and shares a calm, friendly MEAL — easy, warm. Then: "Welp.
+  Best get to it." — and he starts trying to kill them.
+- DIRGE = AP 16.
+- HIS HEART ISN'T IN IT: if he starts LOSING, he tries to calm things down / de-escalate. If
+  he KILLS ONE of them, he STOPS IMMEDIATELY — "Well, job's done." — nods — "Lanterns." —
+  and leaves.
+- TONE: bittersweet and a little funny; a friend doing a job he doesn't relish. The contract
+  is the contract.
+- [TODO] Dirge AP-16 stat block when we build the Bleak Falls approach.
