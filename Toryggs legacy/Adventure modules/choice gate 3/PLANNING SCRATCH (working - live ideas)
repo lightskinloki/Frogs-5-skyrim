@@ -1053,3 +1053,122 @@ GM NOTES:
   - Show the world (the camp's faces, the frost, the winged shape); never narrate Orion's inner life.
   - DRAMATIC IRONY (GM-only, §18): he is disciplining the very hand that will (DB arc) open his throne,
     and meeting the rival claimant who voids his dynasty plan — never grasping either fully (yet).
+
+=====================================================================
+§20 — CONTEST ROLL LEVEL-GAP RULES [PROPOSED]
+=====================================================================
+RULE: When a contested roll involves an opponent whose level exceeds yours, apply a
+penalty equal to (gap − 5) rounded DOWN to the nearest 5. Minimum 0.
+
+  Gap 1–4   → no penalty
+  Gap 5–9   → −5
+  Gap 10–14 → −10
+  Gap 15–19 → −15
+  Gap 20–24 → −20
+  Gap 25+   → −25
+
+APPLIES TO: contested will-vs-will checks — resisting compulsion, intimidation,
+direct override of another's action/intent.
+DOES NOT APPLY TO: environmental, stealth, lore, task-based, or any non-contested roll.
+  (GM still sets those in the moment.)
+STACKING: the gap penalty REPLACES the task difficulty — does NOT stack with it.
+  Take whichever is larger (more punishing), not both.
+
+EXAMPLE — Valerius (AP 30–35) vs. party (AP ~10):
+  Gap 20 → −20. Alfonso (magic score +22): needs 9+ on the die. Hard but possible.
+  Gap 25 → −25. Alfonso: needs 14+ on the die. Very unlikely without further boosts.
+  This is INTENTIONAL: the numbers set up "find a way to close the gap" not "no roll."
+
+TODO: write into a proper system rules doc (GM Guide or standalone) next full session.
+
+=====================================================================
+§21 — VALERIUS SHEET SCRATCH [PROPOSED — needs clean NPC doc]
+=====================================================================
+FULL NAME: Valerius Caelinus
+TYPE: Vampire lord (apex; AP 30–35)
+FRAMING: NOT "mortal-scale Molag Bal." He is the ARCHITECT OF STASIS — a collector of
+  people, a builder of dependency. Domination through gravity not violence. The velvet
+  glove. Courteous, cultured, unhurried. The horror is the kindness in his ownership.
+
+SUCCESSION CLAIM:
+  - Genuine Caelus bloodline, ~32nd in line (same tier as Davinia).
+  - Has been OVERSTATING himself as 4th–5th to Elisif and the court.
+  - Nobody has cared enough to check. The claim is real; the position is inflated.
+  - Davinia's claim (also ~32nd) is the narrative mirror that voids his dynasty play.
+  - Orion's DB arc (Emperor assassination) is what opens the vacancy he's building toward.
+
+WEB OF LEVERAGE:
+  - Jarl Elisif: seduction/dependency in progress (his primary political play in Solitude)
+  - Orion: broken tool — compelled, interrogated, maimed; now a leash not an asset
+  - The Crown: once he learns Alfonso destroyed it → plots Alfonso's death + ruin (CLOCK)
+  - Davinia/Ismara: seed planted at the reckoning; does not know what he's really looking at
+
+POWER CALIBRATION:
+  - AP 30–35 (set before final session confirmation; lean AP 35 for endgame-wall feel)
+  - Contest gap vs party AP 10 = −20 to −25. Unbeatable at current tier. Full stop.
+  - When HE acts on them (compel, interrogate, maim), GM may narrate it directly — no roll.
+    If a PC tries to RESIST/contest, they roll at the −20/−25 gap penalty (never "no roll").
+  - Vampire lord form (winged) = exit image; not a combat form the party ever fights now
+
+PERSONALITY NOTES:
+  - Never raises his voice. Never threatens. States consequences as facts.
+  - Restraint > execution. Orion maimed not killed — still useful.
+  - Sees the party as furniture that moved. Not rivals. Not enemies yet.
+  - Will become an enemy the moment he learns about the Crown.
+
+ORION FAILURE LADDER:
+  1. This session: interrogated, compelled, maimed, used to fetch Davinia → leash established
+  2. Crown discovery: Valerius learns Alfonso destroyed it → Alfonso death-plot begins
+  3. TBD: escalation toward Solitude / the full dynasty play
+
+TODO: build clean Npcs/Valerius doc (same format as other NPC docs) next full session.
+  Strip "the Rival" framing from factions/valerius and the pale court; keep as political ref.
+
+=====================================================================
+§22 — WHAT VALERIUS IS MINING (interrogation intel) [PROPOSED]
+=====================================================================
+FRAME: He is not gathering tactical intel (camp location, next move). He is doing
+DONOR PROFILING — for each party member, the ONE lever that turns obstacle into asset.
+What do they NEED, FEAR, or WANT that he can become the supplier of? He collects people
+by becoming the thing they can't do without. Orion is the involuntary informant.
+
+PER MEMBER — what Valerius wants to learn (his pressure-point read):
+  - ALFONSO: "What is the sword, and what does it still want to be human for?" He'll prize
+    the DRIFT — a thing slowly losing itself, increasingly compelled to be picked up, is the
+    PERFECT dependency object. Also: who does it answer to? (Nora.) Lever = offer to slow the
+    forgetting / restore the body. (He CANNOT, but the promise is the hook.) Crown not yet known.
+  - DAVINIA: "Who is she really, and is her claim a threat or an instrument?" (see §22b below)
+  - SAIJAH: "What is she hunting, and what is hunting her?" The Hircine pull / the rejected boon.
+    Lever = a hunter wants worthy prey and a clean conscience; he can supply quarry OR absolution.
+  - ORION (the informant himself): already reading him live — the Sithis emptiness, the wanting-
+    of-nothing. Hardest to lever (you can't bribe someone who wants nothing) → so he uses FEAR
+    and OWNERSHIP instead of desire. The maiming IS the lever for Orion: shame, leash, obedience.
+  - NORA (18): Orion's pressure point ONLY — she is Alfonso's APPRENTICE, nothing romantic there,
+    ever. She has already tried to sleep with Orion, and Orion is interested. Valerius reads this
+    live off Orion: the one thing the empty man still leans toward. Lever = pull the assassin
+    through the one want he still has. Azura/Black Star noted as a curiosity, not yet understood.
+    (Through Nora he does NOT hold Alfonso — that was a misread; strike it.)
+  - BJORN: notes the temperament (hates aristocracy) but reads it as crude, beneath leverage —
+    UNDERESTIMATES him. Does NOT sense the Dragonborn (long fuse, unsensable). Dramatic irony:
+    the one he dismisses is the one who opens his throne.
+  - YLVA / others: peripheral; logs the weredog/Hircine thread as ambient, not a priority lever.
+
+GENERAL RULE for what Orion CAN leak: relationships, fears, dependencies, who-loves-whom,
+who-needs-what. NOT: anything Orion himself doesn't know (the Crown's fate, Bjorn's DB nature,
+what Davinia truly is). The intel is only as good as Orion's own blind spots — keeps secrets safe.
+
+§22b — WHAT VALERIUS WANTS FROM DAVINIA (the personal audience) [PROPOSED]
+WHY HE NEEDS HER IN PERSON (won't take it secondhand from Orion):
+  - The succession. She is the ONE other living Caelus claim at his tier (~32nd). To Elisif/court
+    he is selling himself as 4th–5th and effectively sole-viable. A second genuine claimant is
+    either his greatest threat (she can expose the inflation / be raised against him) or his
+    greatest instrument (combine the claims; a Caelus union doubles the legitimacy he's faking).
+  - He wants to TAKE HER MEASURE himself: ally, marry-into, neutralize, or own. He decides which
+    only by sitting across from her — that's a him-thing, not delegable.
+  - THE NAG (GM-only): something about her is OFF and he can't name it. He's an apex predator of
+    stasis and she reads as older/stiller/colder than a Breton woman should — the Ismara underneath.
+    He doesn't know it's a Merethic queen wearing her. He just knows his instincts won't settle.
+    This is the SEED (per §19): play the unease, never the reveal. The player drives whether Ismara
+    surfaces. He leaves more unsettled than he arrived — the first being in centuries he can't fully read.
+  - DANGER he doesn't see: in courting/assessing a Caelus union, he's negotiating with the very
+    thing built to erase Davinia. If Ismara ever wanted a throne again, he just offered her a road in.
