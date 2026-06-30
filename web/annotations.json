@@ -912,6 +912,90 @@
    "type": "empowers-by-consuming",
    "dst": "davinia",
    "why": "THE SOVEREIGN'S GIFTS (power sheet, Toryggs legacy/): god-tier winter power usable ONLY while Ismara drives. Holding the wheel is free; USING a greater/sovereign gift SPENDS a piece of the submerged Davinia (a memory, a warmth) and advances the merger toward the 0.5 cliff. The 'IRL CDI' trap made mechanical - the more the player enjoys wielding her, the less of Davinia remains to surface. Brake: re-anchoring (Ylva's warmth). Player handout hides the cumulative cost; GM master tracks it."
+  },
+  {
+   "src": "peryite",
+   "type": "brother-of",
+   "dst": "akatosh",
+   "why": "CANON (GM): two dragon-natured spirits of time and order, alike but for their philosophy of time (Akatosh preserves the cycle; Peryite is the pitiless decay it requires). This kinship is WHY Peryite alone can grant Alfonso a lesser, mortal draconic form - the only non-Akatosh route to a Dragonborn-adjacent thing."
+  },
+  {
+   "src": "mara",
+   "type": "wife-of",
+   "dst": "akatosh",
+   "why": "Mara (Davinia's Aedric anchor) is Akatosh's wife; Peryite (Alfonso's anchor) is his brother. Both leads' roads home orbit the dragon-god of time - the same axis as the campaign's missing-Dragonborn wound."
+  },
+  {
+   "src": "peryite",
+   "type": "opposed-to",
+   "dst": "namira",
+   "why": "The opposed halves of decay: Peryite's rot is form/cycle/RENEWAL (holds the world out of the ooze); Namira's is formlessness/void/DISSOLUTION (the pull back into it). The seam between them is the engine of Alfonso's arc."
+  },
+  {
+   "src": "namira",
+   "type": "face-of",
+   "dst": "sithis",
+   "why": "By the Khajiit telling Namira is the darkness that filled Lorkhan's heart - the dark twin, a spawn of Sithis; the nearer, mortal-meddling face of the Void. Sithis is the deeper void behind her."
+  },
+  {
+   "src": "sithis",
+   "type": "antithesis-of",
+   "dst": "akatosh",
+   "why": "Sithis = the soul of Padomay, the cosmic opposite of Anu/Anuiel (Akatosh/Auriel's lineage) - the un-creation force. This is why ORION (Dark Brotherhood/Sithis) is the only PC whose gods oppose the time-god."
+  },
+  {
+   "src": "molag-bal",
+   "type": "opposed-to",
+   "dst": "arkay",
+   "why": "Bal made vampirism as an INSULT to Arkay's cycle of life and death (a frozen dead-end that mocks the cycle). This is why the Vrykolas (Alfonso, Peryite's cycle) is the anti-vampire, and why Orion's redemption pole is Arkay."
+  },
+  {
+   "src": "molag-bal",
+   "type": "patron-of",
+   "dst": "valerius",
+   "why": "Father of vampires; the Pale Court ultimately drinks from Bal's original corruption. Valerius's bloodline and the Ring's leash on Orion trace to him."
+  },
+  {
+   "src": "namira",
+   "type": "courts",
+   "dst": "alfonso",
+   "why": "The Devouring Mother: she keeps him in perpetual struggle while feeding him gifts (the leash). Her gifts feel like belonging; each ties him tighter to the void. Synthesis = robbing her of the one thing she won't grant: the end of the struggle (the Vrykolas, a theft from a god)."
+  },
+  {
+   "src": "mara",
+   "type": "anchors",
+   "dst": "davinia",
+   "why": "Davinia's Aedric anchor and the exact antithesis of Ismara: Mara = Nir (dies to give life) vs Ismara (kills to live); Mara's UNCOERCED consent vs Ismara's consent-cultivation; the real unconditional parent Ismara only performs. Mara's blind spot (honor family even if rotten) is Davinia's own wound."
+  },
+  {
+   "src": "orion",
+   "type": "serves",
+   "dst": "sithis",
+   "why": "Via the Dark Brotherhood. With Molag Bal's leash (the Ring), Orion is the ONLY PC pulled toward Akatosh's enemies - the ensemble's internal fault-line, sinister by personality (the false hero) AND by what his gods want. Redemption pole = Arkay (rejoin the cycle)."
+  },
+  {
+   "src": "akatosh",
+   "type": "is-the-axis-of",
+   "dst": "lanterns",
+   "why": "The whole party is a constellation around the dragon-god of time (the missing Dragonborn + returning Alduin IS the campaign): Alfonso->Peryite (brother), Davinia->Mara (wife), Saijah the dragon-hunter (Kyne's Voice + Hircine), Orion-> his enemies (Sithis/Molag)."
+  },
+  {
+   "src": "orion",
+   "type": "killed",
+   "dst": "grelod",
+   "why": "Ch.24: first kill-by-decision - lashed Alfonso's rapier to an arrow, Saijah fired Alfonso into her heart; flawless unseen extraction. The strike detonated Alfonso's plague through Honorhall (children, Constance, responding guards all infected) - the Honorhall plague seed. The city mourns a monster."
+  },
+  {
+   "src": "maven",
+   "type": "loaded-threat-over",
+   "dst": "lanterns",
+   "why": "Ch.24: the party REFUSED her patronage AND killed her lieutenant Grelod unsanctioned. If she ever connects the Lanterns to Honorhall she ruins them publicly (city, law, grief on her side). Character path: she sends DIRGE after them when she learns. Cooler, not yet an enemy - the fuse is lit, contingent on discovery."
+  },
+  {
+   "src": "valerius",
+   "type": "will-maim",
+   "dst": "orion",
+   "why": "Ch.24: Valerius ordered Constance enthralled; Orion DISOBEYED (left her to die with the house). The Ring saw all of it. The pending reckoning: Valerius takes Orion's off-hand below the elbow (off-hand minor actions become major until a prosthesis). Deploy on the road or early at Ivarstead."
   }
  ],
  "secrets": [

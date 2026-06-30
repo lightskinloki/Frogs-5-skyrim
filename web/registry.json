@@ -51,7 +51,12 @@
     "infected-milas-mother",
     "infected-stormcloak-courier",
     "plague-source-windhelm",
-    "mentor-nora"
+    "mentor-nora",
+    "vrykolas-not-undead",
+    "drift-clock",
+    "synthesis-imperative",
+    "peryite-akatosh-brother-path",
+    "anti-vampire-mirror"
    ]
   },
   {
@@ -105,7 +110,16 @@
     "fangs-at-mila",
     "hroki-contract",
     "argonian-murder-witnessed-by-varon",
-    "saijah-leverage"
+    "saijah-leverage",
+    "killed-grelod",
+    "first-kill-by-decision",
+    "disobeyed-valerius",
+    "off-hand-reckoning-pending",
+    "fanboys-krusp",
+    "anti-akatosh-only-pc",
+    "sithis-and-molag-pulled",
+    "inverse-of-party",
+    "arkay-redemption-pole"
    ]
   },
   {
@@ -353,7 +367,14 @@
     "never-lies",
     "stasis",
     "grant-ledger",
-    "knows-resonator"
+    "knows-resonator",
+    "merethic-queen",
+    "wants-to-rule-again",
+    "erases-not-merges",
+    "driving-davinia-extended",
+    "false-mother",
+    "mora-aligned",
+    "order-plus-knowledge"
    ]
   },
   {
@@ -499,7 +520,10 @@
     "warm-sincere",
     "nymic-surgery",
     "razor-touched",
-    "time-wound-target",
+    "throat-tower-undercroft-target",
+    "time-distortion-is-side-effect",
+    "in-person-at-throat",
+    "jasper-lieutenant",
     "fire-b-boss",
     "corrupted-eldergleam"
    ]
@@ -526,7 +550,10 @@
     "artifact-seeker-jagged-crown",
     "imperial-general",
     "orion-leash-holder",
-    "sent-orion-to-morthal"
+    "sent-orion-to-morthal",
+    "orion-disobeyed-thrall-order",
+    "off-hand-reckoning-pending",
+    "molag-bal-bloodline"
    ]
   },
   {
@@ -559,25 +586,32 @@
    "tags": [
     "riften",
     "power-broker",
-    "patron-pending",
-    "owes-danica",
-    "golden-cage"
+    "patronage-refused",
+    "cooler-not-enemy",
+    "grelod-was-her-lieutenant",
+    "loaded-public-threat",
+    "dirge-reckoning-pending",
+    "golden-cage-declined",
+    "remembers-a-no"
    ]
   },
   {
    "id": "grelod",
-   "name": "Grelod the Kind",
+   "name": "Grelod the Kind (deceased)",
    "type": "npc",
    "aliases": [
     "grelod"
    ],
    "tags": [
+    "dead",
     "riften",
     "honorhall",
     "secret-monster",
     "publicly-beloved",
-    "contract-target",
-    "pending-finale"
+    "killed-by-alfonso-arrow",
+    "honorhall-plague-seed",
+    "city-mourns-a-monster",
+    "mavens-lieutenant"
    ]
   },
   {
@@ -631,8 +665,9 @@
    ],
    "tags": [
     "honorhall",
-    "enthrall-target",
-    "pending-finale"
+    "infected-dying",
+    "not-thralled",
+    "orion-disobeyed-valerius-over-her"
    ]
   },
   {
@@ -874,7 +909,100 @@
     "daedra",
     "unmaking",
     "razor",
-    "mythic-dawn"
+    "mythic-dawn",
+    "wants-existence-to-dominate-rebuild"
+   ]
+  },
+  {
+   "id": "akatosh",
+   "name": "Akatosh / Auriel",
+   "type": "god",
+   "aliases": [
+    "akatosh",
+    "auriel",
+    "alkosh"
+   ],
+   "tags": [
+    "aedra",
+    "time",
+    "dragon-god",
+    "the-axis",
+    "missing-dragonborn-source",
+    "alduin-dichotomy",
+    "peryite-brother",
+    "mara-husband",
+    "one-god-two-faces"
+   ]
+  },
+  {
+   "id": "mara",
+   "name": "Mara",
+   "type": "god",
+   "aliases": [
+    "mara",
+    "mother mara"
+   ],
+   "tags": [
+    "aedra",
+    "love-of-connection",
+    "unconditional",
+    "nir-mother-of-creation",
+    "akatosh-wife",
+    "davinia-anchor",
+    "uncoerced-consent",
+    "anti-ismara"
+   ]
+  },
+  {
+   "id": "molag-bal",
+   "name": "Molag Bal",
+   "type": "god",
+   "aliases": [
+    "molag bal",
+    "molag"
+   ],
+   "tags": [
+    "daedra",
+    "domination",
+    "corrupts-the-noble",
+    "father-of-vampires",
+    "anti-cycle",
+    "wants-existence-to-dominate",
+    "valerius-patron",
+    "vrykolas-defined-against",
+    "bjorn-latent-hook"
+   ]
+  },
+  {
+   "id": "sheogorath",
+   "name": "Sheogorath / Jyggalag",
+   "type": "god",
+   "aliases": [
+    "sheogorath",
+    "jyggalag",
+    "madgod"
+   ],
+   "tags": [
+    "daedra",
+    "madness",
+    "order-cursed-to-madness",
+    "exhaust-of-imposed-order",
+    "davinia-shatter-pole",
+    "two-in-one"
+   ]
+  },
+  {
+   "id": "arkay",
+   "name": "Arkay",
+   "type": "god",
+   "aliases": [
+    "arkay"
+   ],
+   "tags": [
+    "aedra",
+    "cycle-of-life-death",
+    "enemy-of-undeath",
+    "orion-redemption-pole"
    ]
   },
   {
