@@ -15,20 +15,6 @@ GM RULES BLOCK — "TWO SHADOWS" (the dragon hide)
 The hide is the set-piece. It is NOT a fight — two Krosulhah-tier dragons on open ground is a
 TPK, and the whole point is to teach that hiding is the only play. Run it as a NOTICE CLOCK, d20.
 
-ONE STORM DRAGON, ONE FIRE DRAGON. They hunt by different senses. A party that understands the
-  difference can play them against each other. A party that doesn't will feed both at once.
-  STORM DRAGON: hunts by air pressure, ground vibration, and electrical resonance. Detects
-    movement (wheels, hooves), magical activity (tonal hum, aura-work), and the dead-zone
-    pressure of something hiding. Overhead signature: sharp clean-edged shadow, geometric banking
-    turns, air cracks almost-audibly when it climbs. Wingbeats precise and staccato. Smells of
-    ozone and nothing alive.
-  FIRE DRAGON: hunts by heat signature and scent. Detects body heat, metabolic odor (blood,
-    breath, fear-sweat, rot), and thermal plumes from any warm surface. Overhead signature:
-    wavy, shimmering shadow (heat-distortion wraps it), lazy muscular glide on thermals.
-    Wingbeats deep and slow. Smells of sulfur and charred stone. The air ahead of it warms.
-  THE CORE TENSION: silence and stillness mask the storm dragon. Cold and scent-suppression
-    mask the fire dragon. The party cannot do both at once without cost.
-
 THE NOTICE TRACK: 6 boxes, starts empty. The two dragons hunt/feed overhead; they are NOT
   scripted to engage. They tick toward awareness on the party's OWN mistakes.
 
@@ -54,25 +40,20 @@ FAIL STATE: Notice hits 6 -> the cart is spotted -> the dragons dive. TELEGRAPH 
   throat) so the table runs/scatters rather than rolling initiative. If they fight anyway it is
   a TPK and you warned them. (This is the teeth that keep the hide honest.)
 
-THE TELLS (5 complications, each tied to an asset and one dragon type):
-  BEAT 1 — MABLE SPOOKS [FIRE DRAGON] (charred brimstone on the wing-wind hits the old mare
-    before anything else does — predator-scent in the thermals). Bjorn rolls (animal-handling/
-    Agility). The BLACK MARE in harness beside her = one step EASIER (the fearless horse steadies
-    the frightened one — the purchase paying off). Hot wind. The new mare's nostrils flare first.
-  BEAT 2 — GEAR HUMS [STORM DRAGON] (amber lamp + tonal whine = atmospheric resonance; the
-    pressure-hunter hears the air singing around it). Saijah/Orion (Guile). GEAR needs PERMISSION
-    to power down (callback to the Cognitorium threshold) — a quick beat. Killing the hum masks
-    from the storm dragon; it does nothing for the fire dragon.
-  BEAT 3 — ALFONSO'S ROT-AURA [FIRE DRAGON] (rot = metabolic decay = heat-signature + scent
-    plume drifting downwind; a fire dragon's nose is extraordinary). Saijah (bearer). Alfonso
-    pulls the aura tight through the bearer-link — auto-success if she lets him drive the hand.
-  BEAT 4 — A SMALL HUMAN SOUND [STORM DRAGON] (Mila's frightened breath, a wet cough — a
-    vibration-spike in the pressure field; the pressure-hunter hears discontinuity in the
-    silence). Bjorn or Saijah — comfort, not a stat; steadying Mila IS the roll. Tender beat.
-  BEAT 5 — HEAT BLOOM [FIRE DRAGON] (the cart's warmth glows to a diving eye; frost turns
-    slick water underneath the frame). Davinia/Ismara. Ismara can sheathe it in cold (Aegis
-    turned inward) — BUT using the gift TICKS THE CDI; a quiet temptation. The cart cannot be
-    silenced AND iced at once without burning both actions — choose.
+THE TELLS (5 complications, each tied to an asset):
+  BEAT 1 — MABLE SPOOKS (old mare smells wing-wind, wants to bolt). Bjorn rolls
+    (animal-handling/Agility). The BLACK MARE in harness beside her = one step EASIER (the
+    fearless horse steadies the frightened one — the purchase paying off).
+  BEAT 2 — GEAR HUMS (amber lamp + tonal whine carry). Saijah/Orion (Guile). GEAR needs
+    PERMISSION to power down (callback to the Cognitorium threshold) — a quick beat.
+  BEAT 3 — ALFONSO'S ROT-AURA drifts downwind (a dragon's nose is keen). Saijah (bearer).
+    Alfonso pulls the aura tight through the bearer-link — auto-success if she lets him drive
+    the hand.
+  BEAT 4 — A SMALL HUMAN SOUND (Mila's frightened breath, a wet cough). Bjorn or Saijah —
+    comfort, not a stat; steadying Mila IS the roll. Tender beat.
+  BEAT 5 — HEAT BLOOM (the cart's warmth glows to a diving eye). Davinia/Ismara. Ismara can
+    sheathe it in cold (Aegis turned inward) — BUT using the gift TICKS THE CDI; a quiet
+    temptation.
 
 THE WORST MOMENT (Beat 5, or on any failure that puts the dragons lowest): the danger reaches
   MILA — Bjorn's flare (Scene 6).
@@ -82,21 +63,21 @@ SCENE 1 — THE OPEN ROAD (and the man in the floor)
 =====================================================================
 [Set this once Riften is well behind them — lake out of sight, road climbing into open country.]
 
-READ ALOUD: "The gates of Riften fall behind you and the road climbs into autumn — gold hills,
-clean cold air, the cart finding its rhythm on dry stones. There is space out here. Room to
-breathe. The Rift opens wide around you, all amber and pine, and the quiet after a city is its
-own kind of medicine. Mable plods, steady as old faith. The black mare walks beside her, head
-up, ears easy, reading the world and finding nothing in it to fear. And from somewhere under
-the cart's floorboards, muffled by canvas and the false bottom, a dry old voice says, with
-enormous dignity: '...Are we far enough now? My legs have fallen asleep.'"
+READ ALOUD: "The gates of Riften shrink behind you and then they are gone, swallowed by a fold
+of golden hills[language here is a little odd fix so it doesnt say swallowed, maybe fading into the golden hills of grass or something]. The road climbs. The autumn light is thin and clean, the cart wheels find
+their rhythm, and for the first time in longer than any of you can remember, nothing is on fire
+and no one is bleeding[lets find another way to say this something more uplifting and encouraging, lets describe what they have not what they dont have if that makes sense, we dont need to say for the first time nothing is on fire, describe what they are actually feeling the relife the peace whatever, but describing what isnt there is bad writing, telling them what not to feel is not the right way.]. Mable plods. The new black mare walks beside her like a soldier who has
+never once been afraid[clunky revise phrasing to make more sense about the new horse "like a soldier who has never once been afraid" ridiculous thats bad writing it isnt a good comparison to make because youre comparing to something you then still have to further describe to paint the picture. this is the same problem as earlier]. And from somewhere under the cart's floorboards, muffled by canvas and
+the false bottom, a dry old voice says, with enormous dignity: '...Are we far enough now? My
+legs fell asleep a day ago.'"
 
 THE BEAT (COMEDY): nobody has thought about Esbern since Riften. Let it land — a pause, then the
 slow dawning. Play it for the laugh.
 
 ESBERN (climbing out, stiff, blinking at the open sky):
-  "You forgot me. The last Blade. The only living loremaster who can read Alduin's Wall — and I
-  have been lying in a false floor for two days because not one of you remembered I was down
-  there." (beat) "Magnificent. Truly. The fate of the world is in remarkable hands."
+  "You forgot me. You — a Blade. The last loremaster of an extinct order, the only man alive who
+  can read Alduin's Wall — riding in the cargo for two days because none of you remembered I was
+  there." (beat) "Magnificent. Truly. The fate of the world is in marvelous hands." [this is confusingly written]
 
 WHY HE WAS DOWN THERE (deliver in play, not a lecture): if asked —
   "The Thalmor have a standing warrant on me, and Riften is crawling
@@ -108,16 +89,9 @@ WHY HE WAS DOWN THERE (deliver in play, not a lecture): if asked —
 SCENE 2 — ESBERN EARNS HIS KEEP
 =====================================================================
 The strategic briefing — but NEVER a wall of lore. Give him a MAP and let the party pull it out
-of him by asking. He answers in pieces, plain, reacting to what THEY know. He unfolds it
-against the side of the cart: a conspiracy web. Forty years of obsessive work on a large hide
-base, pinned over with torn parchment scraps, connected by four colors of string:
-  RED = confirmed resurrections (Sahloknir, Krosulhah — he keeps LOOKING at those two nodes)
-  BLACK = suspected burial sites dotted across Skyrim in a cramped, decades-old hand
-  GREEN = cult infrastructure (ritual sites, safehouses, the Eldergleam, the Throat undercroft)
-  GOLD = artifacts — radiating outward from one central blank node he won't stop touching
-THE HOOK: the blank node is Bleak Falls Barrow. The Dragonstone. The missing translation key
-that would make every other string on the web mean something. He hates that blank more than
-anything he has hated in forty years of paranoid scholarship.
+of him by asking. He answers in pieces, plain, reacting to what THEY know. He unrolls a cracked [lets actually make a conspiracy web]
+hide map weighted with stones — dragon burial mounds in a cramped, obsessive hand, decades of
+them. THE HOOK: the map is incomplete, and he hates that.
 
 - ON THE TWO APOCALYPSES (if they describe the black sap / the cult): "Two different ends,
   walking toward us from two directions. The dragons want to rule a dead world. These
@@ -142,32 +116,17 @@ SCENE 3 — THE RESPITE (the Khajiit caravan)
 =====================================================================
 A deliberate breath. Warmth, color, the world being alive. NO threat.
 
-READ ALOUD: "The smell hits before the sight — cardamom and cumin and woodsmoke and something
-sweeter under it, faintly foreign. Then the light: lanterns strung between tent poles, half a
-dozen canvas pavilions in rust and saffron and deep blue arranged in a loose crescent off the
-verge, brass braziers burning at the edges for warmth and spectacle both. Bolts of dyed fabric
-hang on lines between the poles. Somewhere inside a hand-drum beats. This is the Khajiit camp —
-not a caravan moving through but a small city that springs up in the margin between 'inside the
-walls' and 'on the road,' because the walls have never opened for them. A woman in a coat of a
-hundred patches steps out from the largest tent and spreads her arms wide. 'Ah — travelers! Good
-ones, this one can tell. The road is kinder with company. Come — Ahkari has tea, has trinkets,
-has STORIES, and the stories are free because no one ever buys them anyway.'"
+READ ALOUD: "The road bends around a stand of red oaks and there they are — three painted wagons
+drawn off the verge, lantern-strung in the falling dusk, a cookfire snapping, and the smell of
+spiced meat and something sweeter under it. A Khajiit in a coat of a hundred patches spreads her
+arms wide as you approach[i think it should be like theyve set up camp like its a several tents arranged together instead of a moving caravan or something lets imply they are walking instead of using carts, and they set up these temporary little towns outside the cities cause they arent alowed inside, its like a small traveling ren faire of exotic and interesting goods, will be very useful to any alchemists and people looking for exotic weapons]. 'Ah — travelers! Good ones, this one can tell, the road is kinder
+with company. Come, come — Ahkari has tea, has trinkets, has STORIES, and the stories are free
+because no one buys them anyway.'"
 
 AHKARI (caravan mistress) — warm, shrewd, a fence and a gossip. Use her for three things:
 
-(1) TRADE. Stock is thinner than she'd like — disrupted caravans, inflated road costs; she's
-    nervous but hiding it under hospitality. She buys surplus from the party at good prices
-    (she needs to restock). She sells:
-    ALCHEMY (Alfonso / Ismara's cure thread): moonflower petals (silvery, cold to touch),
-      nightshade in suspension jars, powdered moonstone, luminous cave-fungi. Rare. She knows
-      exactly what she has and prices accordingly.
-    RANGING (Saijah): non-standard fletched arrows (heartwood — lighter, keener flight), dried
-      reagents for camp-alchemy (spider silk, moon salt, powdered bone for poisons), a rolled
-      huntsman map of old Khajiit caravan routes through the Rift.
-    GENERAL: spiced travel-bread that keeps for weeks, dried fruit, waterskins, rope, small
-      enchanted curios labeled in Khajiit script nobody in the party can read.
-    Haggling is social, not a fight. Fair prices as a rule — but she needs to restock and will
-    go lower on bulk trades than she'd normally consider.
+(1) TRADE. She'll buy/sell — reagents (good for the alchemy thread), small enchanted oddments,
+    arrows for Saijah, road food. Fair-ish prices; haggling is social, not a fight.
 
 (2) RUMORS (roll d20 or pick — feed the campaign):
    1-5   "Ivarstead is emptying. Half the village ran. The other half is too poor or too
@@ -249,7 +208,7 @@ THE SITUATION: The moment Ismara rises from the cure-work — Ylva stands up. Sh
   feeling; she doesn't reach for them. Instead she challenges: a sparring match, an arm-wrestle,
   something immediate and physical. This is how Ylva resolves confusion. She wants contact with
   the silver woman. She doesn't know yet if she wants to fight her or hold her. It doesn't matter.
-  She is in front of her now, and she is waiting.
+  She is in front of her now, and she is waiting. [ i just dont know if this is the right call here for ylva and if it is the right call it needs to be moved to davinias section so we dont accidentally skip it and move to another person in case i think the vignette is over, as it requires scrolling ad stuff]
 
 ISMARA'S CHOICE (player-driven): The silver woman can engage, deflect with cool precision, or
   simply walk past. All three land differently on Ylva. Ismara looking at her with Davinia's eyes
@@ -292,7 +251,7 @@ IF ORION ENGAGES — they sleep together. And then, immediately:
 
 GM: Do not soften this. The beat with Nora exists so that Valerius has something to threaten
   beyond Orion's body. He now knows about her.
-
+[lets have her ask saijah, ylva, and ismara for advice on this actually as another vignette prior to this one]
 ---------------------------------------------------------------------
 VIGNETTE 5 — SAIJAH (late evening, after camp quiets)
 ---------------------------------------------------------------------
@@ -342,33 +301,15 @@ BEAT: Mila brushes the mare. Somewhere in the middle of it her hands stop shakin
 =====================================================================
 SCENE 5 — THE SHADOW ON THE SNOW (THE HIDE)
 =====================================================================
-The open stretch — a high, treeless saddle, the cart fully exposed, nowhere to go. Mid-day.
-Then the light changes.
+The open stretch — a high, treeless saddle of road, the cart exposed, nowhere to run. Mid-day.
+Then the light changes. [we need a very vivid and accurte description here cause its what the players will use to strategize how to hide from the dragons]
 
-GM TERRAIN BRIEF (establish this before or as the threat arrives — players will use it to plan):
-  The saddle is roughly 400 meters of bare pale stone and snow-dusted ground, road running
-  straight across. The sky is enormous up here. What the party has to work with:
-    LOW SCREE BANKS (2-3 feet of loose rock flanking the road — concealment if prone, not cover)
-    SHALLOW DRAINAGE CUTS off the road's edge (barely wide enough for a person lying flat)
-    THE CART (the largest and most visible profile on the saddle by far)
-    THE HORSES (add significantly to the thermal and acoustic signature)
-  What they do NOT have: trees, walls, boulders, structures, any fold in the ground deep enough
-  to drop behind. The saddle is functionally naked. Going still and cold and silent is the only
-  play. Running makes them bigger targets. Fighting is death.
-
-READ ALOUD: "The road tops the rise and the world becomes sky. No trees. No walls. Nothing
-between you and the open cold but four hundred meters of bare pale stone, and the cart is the
-only dark thing on it. You are halfway across when the temperature drops and the air smells
-wrong — sulfur and ozone together, two different wrongnesses layered — and then the first shadow
-sweeps the snow. Sharp-edged, geometric, fast. A second crosses it immediately after, this one
-rippling at the edges like heat off a forge in summer. And then the sound: a double heartbeat
-in the air above you — a precise tearing crack of wings and under it a deep, slow muscular
-THRUM — and you know that sound. You have heard it twice. You nearly died both times.
-   There are two of them up there. Wheeling. Hunting. The snow glows white beneath you like a
-lantern held up to the dark.
-   They have not seen you yet.
-   You have a cart. Two horses. A child. An old man. And four hundred meters of open ground with
-nowhere to go and no world where you win a fight."
+READ ALOUD: "The road tops a bare rise and the land opens — no trees, no walls, a long white
+saddle of ground with the sky enormous over it. You are halfway across when the light goes
+wrong. Not a cloud. A SHADOW — vast, fast, wing-shaped — sweeps across the snow ahead of you,
+and then a second one crosses it, and the air shudders with a sound you have heard only twice
+before and will never forget: the long, tearing wingbeat of a dragon. Two of them. Wheeling.
+Hunting. They have not seen you yet." [this doesnt sell the drama of the moment and the imperitive to hide this needs to be utter dread, this needs to be terrifying they need to know immediatly that trying to fight them is a death sentance]
 
 FRAME THE STAKES OUT LOUD, HARD: the party fought ONE dragon and barely lived. There are TWO. On
 open ground. With a child and an old man in a cart. There is no version of this fight you
@@ -413,17 +354,6 @@ Ratway stairs in Riften (Ch.21); the table has one prior data point and still no
 Davinia, through Ismara's Sight, sees the doubled sun of his soul flare bright and bank down
 again — one more silent data point, no name for it. Hold the secret.
 
-THE DRAGONS REGISTER SOMETHING: Bjorn moves at roughly Kyboh-speed (~13 m/s) — fast enough
-  to cover 6 meters in under half a second. This is wrong for a man his age. Both dragons catch
-  it, but it's already over by the time they process it.
-  FIRE DRAGON: registers a metabolic heat spike from explosive muscle exertion — already fading.
-    Its head tilts toward the cart for a fraction of a second, then banks away. Inconclusive.
-  STORM DRAGON: catches a pressure-discontinuity — something moved and stopped, too fast to
-    resolve. Air displacement without sustained vibration. Strange. It does not act on it.
-  RESULT: neither dragon engages. But Davinia, through Ismara's Sight, sees the fire dragon's
-    head tilt toward Bjorn. She alone catches it. One more data point. Still no name for any of
-    this.
-
 BJORN (gruff, deflecting, not meeting anyone's eye): "...Adrenaline. You'd be fast too, with that
 thing overhead. Get her down. Keep moving."
 
@@ -450,23 +380,18 @@ SCENE 7 — THE FAINT WRONGNESS (approach; transition out)
 The dragons are gone — banked away, dwindling, the sky empty again. Relief. And then, as the road
 finally bends toward the mountain's foot, the first hairline crack in the world.
 
-GM: Begin SONG OF THE SISTERS (Hans Zimmer) — Gaelen's theme — as the cart crests the saddle
-and the dragons depart. Let it run under the descent and into the town segment.
-
 READ ALOUD: "The two shadows shrink into the east and are gone, and the breath you didn't know
-you were holding goes out of all of you at once. Nobody speaks. The relief is too large for
-words and too fragile to touch.
-   The road drops toward a valley. At the bottom of it, small and grey against the immensity of
-the mountain behind it, sits Ivarstead. You are nearly there. And it's nothing — a flicker,
-the kind of thing you'd miss if you weren't already raw — but as the cart rolls down the last
-mile you each catch it, once: a footprint appearing in the mud of the road a heartbeat BEFORE
-Bjorn's boot comes down to make it. A word someone said, echoing back off the rocks in their
-own voice a moment too late. Faint enough that you wonder if you imagined it. Real enough that
-nobody says so.
+you were holding goes out of all of you at once. The road drops toward a valley, and at the
+bottom of it, small and grey against the immensity of the mountain behind it, sits Ivarstead. You
+are nearly there. And it's nothing, really — you'd miss it if you weren't raw from a day of being
+hunted — but as the cart rolls down the last mile, you each catch it, once: a footprint in the
+mud of the road that appears a heartbeat BEFORE Bjorn's boot comes down to make it. A word
+someone said, echoing back off the rocks a moment too late, in their own voice. Small. Barely
+there. The faintest edge of something the closer you get, the worse it will be.
    The mountain waits. And the time on it is already beginning to come loose."
 
 -> HAND OFF to the IVARSTEAD / TOWN segment (the Dagon assault on the town, the bleeding
-   Waystones, Saijah's double-migraine trigger, the temporal-weather mechanic switching on).
+   Waystones, Saijah's double-migraine trigger, the temporal-weather mechanic switching on). [mostly fine, just needs some parts written better]
 
 =====================================================================
 OPEN / TO FINISH (flagged, not yet decided)
