@@ -119,7 +119,10 @@
     "anti-akatosh-only-pc",
     "sithis-and-molag-pulled",
     "inverse-of-party",
-    "arkay-redemption-pole"
+    "arkay-redemption-pole",
+    "traded-vampire-book-collateral",
+    "outed-vampire-to-guild",
+    "grelod-stab-killer"
    ]
   },
   {
@@ -595,7 +598,10 @@
     "loaded-public-threat",
     "dirge-reckoning-pending",
     "golden-cage-declined",
-    "remembers-a-no"
+    "remembers-a-no",
+    "holds-hayloft-testimony",
+    "fuse-is-assembly-not-discovery",
+    "holds-orion-vampire-secret-via-guild"
    ]
   },
   {
@@ -611,10 +617,11 @@
     "honorhall",
     "secret-monster",
     "publicly-beloved",
-    "killed-by-alfonso-arrow",
     "honorhall-plague-seed",
     "city-mourns-a-monster",
-    "mavens-lieutenant"
+    "mavens-lieutenant",
+    "killed-by-rapier-stab",
+    "stab-murder-not-plague-death"
    ]
   },
   {
@@ -668,9 +675,9 @@
    ],
    "tags": [
     "honorhall",
-    "infected-dying",
     "not-thralled",
-    "orion-disobeyed-valerius-over-her"
+    "orion-disobeyed-valerius-over-her",
+    "infected-incubating-asymptomatic"
    ]
   },
   {
@@ -737,8 +744,11 @@
     "riften",
     "witness",
     "knows-the-lanterns",
-    "dangling-thread",
-    "child"
+    "child",
+    "silenced-by-maven",
+    "testimony-transferred-to-maven",
+    "saw-homeless-woman-killed-same-mo",
+    "saw-orion-feed"
    ]
   },
   {
@@ -2480,6 +2490,54 @@
     "victim-vs-willing-foil-of-echo",
     "rebuild-at-ap-10",
     "yura-shabriri-pattern"
+   ]
+  },
+  {
+   "id": "brynjolf",
+   "name": "Brynjolf",
+   "type": "npc",
+   "aliases": [
+    "brynjolf"
+   ],
+   "tags": [
+    "riften",
+    "thieves-guild",
+    "mavens-lieutenant",
+    "holds-orion-vampire-secret",
+    "honorhall-pipeline-placement",
+    "book-collateral-contact"
+   ]
+  },
+  {
+   "id": "dirge",
+   "name": "Dirge",
+   "type": "npc",
+   "aliases": [
+    "dirge"
+   ],
+   "tags": [
+    "riften",
+    "thieves-guild",
+    "mavens-enforcer",
+    "ratway-sentry",
+    "grelod-reckoning-trigger"
+   ]
+  },
+  {
+   "id": "black-briars",
+   "name": "The Black-Briar family",
+   "type": "faction",
+   "aliases": [
+    "black-briar",
+    "black-briars",
+    "blackbriar"
+   ],
+   "tags": [
+    "riften",
+    "power-broker",
+    "monopolists-of-change",
+    "owns-jarl-guild-guild",
+    "fall-of-riften-doomed"
    ]
   }
  ]

@@ -1008,6 +1008,48 @@
    "type": "covets-desecrated",
    "dst": "jagged-crown",
    "why": "His coronation legitimacy symbol (the Jagged Crown) was fused with Namira by Alfonso and can never be recovered or safely worn. He does not know this yet; discovering Alfonso is responsible triggers his death-and-ruin campaign against Alfonso."
+  },
+  {
+   "src": "maven",
+   "type": "already-holds-evidence-on",
+   "dst": "orion",
+   "why": "THE MAVEN FUSE (assembly, not discovery): Maven + her Guild already hold every piece linking Orion/the Lanterns to Grelod's STAB-murder. Via the SILENCED hayloft girl she holds testimony that the Lanterns stab-kill and cover up in her city (the homeless woman, same rapier-stab MO as Grelod) and that Orion feeds like a vampire. Via the book-collateral beat her Guild independently knows Orion is a vampire, used a 'train under Grelod' pretext, and reclaimed his collateral the day before Grelod died. Nothing left to discover; the fuse waits only on her ATTENTION turning hostile. All PRIVATE ammunition, never a public case."
+  },
+  {
+   "src": "orion",
+   "type": "outed-vampire-to",
+   "dst": "maven",
+   "why": "The Ratway book-collateral beat (ch.20/21 Flagon): Orion put up his Cyrodiilic-vampire book ('Debate with the Undead') as collateral to BRYNJOLF (the Thieves Guild, Maven's) under a 'train under Grelod' cover. That effectively told the Guild he is a vampire; they let the book go later but kept the knowledge - the real collateral. Second broker to hold his vampirism, alongside Valerius."
+  },
+  {
+   "src": "maven",
+   "type": "silenced-and-kept-testimony",
+   "dst": "hayloft-girl",
+   "why": "Ch.22: the surviving hayloft witness was silenced off-screen by Maven ('some simply tidy up'). Silencing did not erase the testimony - it transferred it into Maven's PRIVATE files: the girl saw Orion+Alfonso kill the homeless woman by rapier-stab (the MO that matches Grelod) and saw Orion feed (vampire tell). Hofgrir has no testimony to give; Maven has it all."
+  },
+  {
+   "src": "brynjolf",
+   "type": "knows-vampire-secret-of",
+   "dst": "orion",
+   "why": "The Ratway book-collateral beat: Orion put up his Cyrodiilic-vampire book as collateral to Brynjolf under a 'train under Grelod' cover, effectively confirming he is a vampire. Brynjolf kept the knowledge (the real collateral) and reports to Maven."
+  },
+  {
+   "src": "maven",
+   "type": "commands",
+   "dst": "dirge",
+   "why": "Dirge is Maven's Guild enforcer (the Ratway chokepoint sentry). When Maven's attention turns hostile and she assembles the Grelod evidence she already holds, Dirge is the hand she sends to kill the responsible Lantern(s)."
+  },
+  {
+   "src": "maven",
+   "type": "commands",
+   "dst": "brynjolf",
+   "why": "Brynjolf runs the Thieves Guild's Riften operation as Maven's primary criminal lieutenant; the Honorhall pipeline is his placement operation under her protection."
+  },
+  {
+   "src": "maven",
+   "type": "thematic-mirror-of",
+   "dst": "davinia",
+   "why": "Maven is who Davinia becomes on her own - the same flaw Danica named (ch.20: 'you decide for people and call it love; it's control') with 40 more years, real power, and no one left to name it. Same parent-echo (Caelinus arranged Davinia's life like a campaign; Maven runs family+city the same way), same love-as-control tell (the chair by dying Hemming = sending Danica away 'for her own good'). Davinia is pulled to this endpoint by her own nature AND by Ismara, who runs the identical control-as-love logic at cosmic scale. Maven/Hemming/Davinia = one triangle (become power, or refuse it). See factions/the black-briars X."
   }
  ],
  "secrets": [
