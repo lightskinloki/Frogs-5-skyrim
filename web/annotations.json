@@ -996,6 +996,18 @@
    "type": "will-maim",
    "dst": "orion",
    "why": "Ch.24: Valerius ordered Constance enthralled; Orion DISOBEYED (left her to die with the house). The Ring saw all of it. The pending reckoning: Valerius takes Orion's off-hand below the elbow (off-hand minor actions become major until a prosthesis). Deploy on the road or early at Ivarstead."
+  },
+  {
+   "src": "valerius",
+   "type": "secretly-funds",
+   "dst": "krusp",
+   "why": "FROZEN thread (formerly mislabeled 'the Rival'): Valerius anonymously funnels resources/intel to Krusp toward a False Dragonborn path - a manufactured hero he can eventually buy or manipulate, vs. a true Dragonborn (Bjorn) he cannot control or sense. Krusp never knows the source. Do not develop before the Krusp finale."
+  },
+  {
+   "src": "valerius",
+   "type": "covets-desecrated",
+   "dst": "jagged-crown",
+   "why": "His coronation legitimacy symbol (the Jagged Crown) was fused with Namira by Alfonso and can never be recovered or safely worn. He does not know this yet; discovering Alfonso is responsible triggers his death-and-ruin campaign against Alfonso."
   }
  ],
  "secrets": [
