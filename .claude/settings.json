@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "echo 'RE-GROUND FIRST: FROGS 5 Skyrim campaign. Before asserting any story fact or doing design work, read CLAUDE.md and Toryggs legacy/AI_README, then open the actual source (narrative chapters read IN ORDER are authoritative; trackers lag). Never state campaign canon from memory or the context summary.'",
+            "statusMessage": "Re-grounding in the campaign source..."
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "printf '%s' '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"additionalContext\":\"CANON-WRITE CHECK: If this edits a source-of-truth doc (The Narrative/, world state tracking/, web/, Players/, Npcs/, factions/, Adventure modules/), verify every factual claim against source (cite chapter/line) before saving. Silent inaccuracies in canon are the worst failure mode.\"}}'"
+          }
+        ]
+      }
+    ]
+  }
+}
