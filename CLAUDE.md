@@ -19,8 +19,14 @@ the source of record. When they disagree, the repo wins.
    how / when) must come from the source doc, with the chapter or line in hand — not from
    memory, not from inference, not from the context summary. If you cannot cite it, say
    "I need to check," then open the file. Never fill a plot or physical gap with a
-   plausible invention. (Today's failures — "Grelod died of plague," the invented arrow
+   plausible invention. (The failures — "Grelod died of plague," the invented arrow
    and wound-trail — were all this.)
+   THIS APPLIES EQUALLY TO RULES AND MECHANICS. Any claim about what a rule says — how
+   multipliers stack, what a spell costs, what an item does — gets the same cite-or-check
+   treatment as a story fact. The rules docs are canon too. (The named example: an
+   "additive multiplier" convention was invented mid-session while the real rule —
+   multipliers MULTIPLY, per legendary difficulty's Formula of Pain examples — sat
+   already-read in the transcript. Mechanics math felt exempt from Rule 1. It is not.)
 
 2. THE CONTEXT SUMMARY IS A WORKING-STATE HANDOFF, NOT A STORY RECORD. A /compact summary
    captures what we are DOING — tasks, decisions, workflow, current state. It does NOT hold

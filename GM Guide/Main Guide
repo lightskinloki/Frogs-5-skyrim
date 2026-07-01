@@ -15,7 +15,9 @@ Standard: +0 to TN. (The default difficulty for most adventuring tasks).
 Hard: -4 to TN. (The task requires training, specialized tools, or is performed under duress).
 Very Hard: -6 to TN. (The task is improbable for the average person).
 Nearly Impossible: -8 to TN. (The task requires luck or mastery).
-Impossible: -12 to TN. (The task is not possible for an average person to even attempt.)
+Impossible: -14 to TN. (The task is not possible for an average person to even attempt.)
+Mythic: -20 to TN. (The absolute ceiling of task difficulty. Reserved for feats of legend; success requires extraordinary stats, stacked advantages, or a critical. -20 is a "find a way," never a "no.")
+THIS IS THE ONE TRUE DIFFICULTY LADDER. It is identical everywhere it appears (Reference tables, players guide, Called Shots). -20 is the hard ceiling for ordinary task difficulty; only the Contest Level-Gap Penalty below may exceed it, because it measures power gap between beings, not task difficulty.
 Opposed Checks: When a player's action is directly opposed by an NPC (like arm-wrestling or sneaking past a guard), both roll against their relevant stats. If the player succeeds their roll AND the NPC fails theirs, the player succeeds. If both succeed, the one who rolled lower (further from their target number) wins.
 Contest Level-Gap Penalty: This applies specifically to WILL-VS-WILL contests — resisting compulsion/domination, contested intimidation, or any check where you are directly resisting another being's attempt to override your action or intent. It does NOT apply to opposed physical/skill checks like arm-wrestling or stealth (use Opposed Checks above for those), and it does not apply to environmental, task-based, or lore rolls (set those difficulties by feel, as normal).
 When the opposing being's AP Tier exceeds yours, apply a penalty to your Target Number based on the gap in AP:
@@ -33,9 +35,10 @@ Your Role: Say "Yes" to the concept, then check the Soul Gem to determine the nu
 The Golden Rule: Use the Spell List to determine damage. If they want a "Ring of Fireballs," it does the damage of the Fireball spell. The Soul Gem determines if the item is powerful enough to hold that spell.
 1. Binding Spells (Damage & Effect)
 When a player binds a spell to an item (either to Cast it or Strike with it), the Soul Gem limits the Tier of the spell they can use.
-Petty Soul: Supports Novice spell effects (e.g., Flames - 1 Damage).
-Grand Soul (White): Supports Apprentice & Adept spell effects (e.g., Fireball - 5 Damage).
-Black Soul: Supports Expert spell effects (e.g., Incinerate - 8 Damage). Note: Using an item bound with a Black Soul triggers a catastrophe check on a Nat 20 failure.
+Petty Soul: Supports Novice spell effects (e.g., Flames - 3 Damage).
+Grand Soul (White): Supports Apprentice & Adept spell effects (e.g., Fireball - 9 Damage).
+Black Soul: Supports Expert spell effects (e.g., Incinerate - 12 Damage). Note: Using an item bound with a Black Soul triggers a catastrophe check on a Nat 20 failure.
+(These example damages come straight from the Spell List, which is always the authority for spell numbers.)
 2. Stat Bonuses (Target Numbers)
 Petty Soul: +1 to Stat Score.
 Grand Soul (White): +2 to Stat Score.
@@ -86,164 +89,57 @@ Combat should be fast, evocative, and easy to manage. This framework allows you 
 A. The Tiered Threat System
 Every creature has a Threat Level (TL) from 1 (Minion) to 3 (Boss). Its power scales based on the party's current Tier of play. The creation process is now unified into a single, powerful table.
 Step 1: Determine the Party's Tier
-First, determine the party's Tier based on their average Advancement Points (AP).
+First, determine the party's Tier based on their average Advancement Points (AP). These bands are THE canonical tier definitions, used identically by every table in every document.
 Novice Tier (0-3 AP): Competent local heroes.
 Apprentice Tier (3-6 AP): Regional up-and-comers.
 Adept Tier (6-9 AP): Well-known hold champions.
-Expert Tier (9-12 AP): Legendary heroes of Skyrim.
-Master Tier (15+ AP): Mythic, world-saving legends.
+Expert Tier (9-15 AP): Legendary heroes of Skyrim.
+Master Tier (15-25 AP): World-saving legends.
+Mythic Tier (25+ AP): Beings of living myth. This tier has no upper bound — the system's AP tree fully buys out around 181 AP (every skill Mastered, every stat at its cap), a soft ceiling no realistic campaign reaches. Mythic-tier enemies are built from FLOORS, not tables: the rules state minimums and trust the GM to scale upward to the party (see the Scaled Monster table in Reference tables).
 Step 2: Generate the Enemy's Complete Stats
-Cross-reference the enemy's Threat Level (TL) with the Party's Tier to find all of its core statistics.
-How to Use the "Stat Scores" Column:
-The scores are listed as Primary/Secondary/Tertiary/Dump. Assign the Primary score to the enemy's main stat based on its Archetype (e.g., Might for a Brute), and distribute the other three scores as you see fit.
-Scaled Monster Creation Table
-TL
-Party Tier
-Stat Scores (P/S/T/D)
-HP Range
-Base Dmg
-Base DR
-1
-Novice (0 AP)
-14/12/10/8
-8-16
-4
-2-4
-
-
-Apprentice (1-2 AP)
-15/13/11/8
-14-22
-6
-3-5
-
-
-Adept (3-4 AP)
-16/14/12/8
-18-28
-8
-4-6
-
-
-Expert (5-6 AP)
-17/15/13/8
-24-34
-10
-5-7
-
-
-Master (7+ AP)
-18/16/14/8
-28-42
-12
-6-8
-2
-Novice (0 AP)
-15/13/10/8
-16-26
-6
-3-5
-
-
-Apprentice (1-2 AP)
-16/14/11/8
-24-38
-8
-4-6
-
-
-Adept (3-4 AP)
-17/15/12/8
-34-50
-10
-5-7
-
-
-Expert (5-6 AP)
-18/16/13/8
-44-64
-12
-6-8
-
-
-Master (7+ AP)
-19/17/14/8
-58-80
-15
-7-9
-3
-Novice (0 AP)
-16/14/10/8
-35-50
-8
-5-7
-
-
-Apprentice (1-2 AP)
-17/15/11/8
-48-65
-10
-7-9
-
-
-Adept (3-4 AP)
-18/16/12/8
-65-85
-13
-9-11
-
-
-Expert (5-6 AP)
-19/17/13/8
-85-110
-16
-11-13
-
-
-Master (7+ AP)
-20/18/14/8
-110-150
-20
-13-15
-
+Cross-reference the enemy's Threat Level (TL) with the Party's Tier in the SCALED MONSTER STATISTICS table in GM Guide/Reference tables. That table is the SINGLE authoritative source for enemy stat arrays, HP, Damage, and DR at every tier (Novice through Mythic), with Legendary-scaling HP already baked into its numbers. The full table deliberately lives in exactly one document so it can never again drift into two conflicting versions.
+How to Use the "Stat Scores" Column: scores are listed as Primary/Secondary/Tertiary/Dump. Assign the Primary score to the enemy's main stat based on its Archetype (e.g., Might for a Brute), and distribute the other three as you see fit.
 
 B. Encounter Balancing Made Clear
 The balancing formula remains simple: the total Threat Level of all enemies should be roughly equal to the number of Player Characters.
 C. Example Monster Stat Blocks (Built with the Correct System)
 Bandit Marauder (TL 1 Brute) GM Note: For this bandit, we're using a specific weapon (Steel War Axe, Dmg 3) instead of the table's Base Dmg of 4 to give the encounter a specific flavor. The table provides a baseline, but feel free to customize enemy gear!
-Novice Tier Version (Party has 0 AP)
+Novice Tier Version (Party at 0-3 AP)
 Stats:
 Might: 14, Agility: 12, Magic: 8, Guile: 10
-HP: 12, DR: 3
+HP: 20, DR: 2
 Damage: 3 (Steel War Axe, Hack & Slash)
 Abilities & Tactics: Has Power Attack (+2 damage once per combat). Charges the nearest enemy to use it as soon as possible.
 Loot: Steel War Axe, Hide Armor (DR 1), 2d6 Gold.
-Expert Tier Version (Party has 5-6 AP)
+Expert Tier Version (Party at 9-15 AP)
 Stats:
 Might: 17, Agility: 15, Magic: 8, Guile: 13
-HP: 30, DR: 6
-Damage: 5 (Ebony War Axe, Hack & Slash)
+HP: 100, DR: 11
+Damage: 15 (Ebony War Axe, Hack & Slash — per the Gear list)
 Abilities & Tactics: Has Power Attack (+4 damage once per combat) and Battle Cry (Minor Action to give an ally Advantage). Uses Battle Cry to support its leader, then charges a vulnerable target.
 Loot: Ebony War Axe, Scaled Armor (DR 2), 2d20 Gold.
 Troll (TL 3 Brute)
-Novice Tier Version (Party has 0 AP)
+Novice Tier Version (Party at 0-3 AP)
 Stats:
 Might: 16, Agility: 14, Magic: 8, Guile: 10
-HP: 45, DR: 6
-Base Damage: 8 (Claws)
+HP: 180, DR: 4
+Base Damage: 10 (Claws)
 Abilities & Tactics: Has Regeneration 4 (heals 4 HP/turn unless hit by fire), Two Attacks, and Fire Weakness (+2 damage from fire). Attacks relentlessly, using its high Might to resist effects.
 Loot: Troll Fat, 1 Humanoid Skull.
-Expert Tier Version (Party has 5-6 AP)
+Expert Tier Version (Party at 9-15 AP)
 Stats:
 Might: 19, Agility: 17, Magic: 8, Guile: 13
-HP: 100, DR: 12
-Base Damage: 16 (Claws)
+HP: 900, DR: 22
+Base Damage: 41 (Claws)
 Abilities & Tactics: Has Greater Regeneration 8, Frenzied Assault (three attacks), Fire Weakness (+4 damage from fire), and Stomp (Minor Action, forces adjacent enemies to make an Agility roll with a Hard (-2) penalty or be knocked prone). Uses Stomp to control the field before focusing its assault on a prone target.
 Loot: Troll Fat (x3), 1 Humanoid Skull, a half-digested enchanted ring.
 
 
 4. Rewards & Character Progression
-Since this system is designed for disconnected, episodic adventures, a traditional XP system is too slow. Instead, we use a milestone-based Advancement Point (AP) system that rewards the completion of a story.
+This system uses milestone-based Advancement Points (AP) rather than XP: players earn AP for completing a story milestone (typically 1 AP per completed adventure).
+Dragon Kills (standing bonus rule — dragons are always worth more):
+Regular dragon: 2 AP to the character who lands the killing blow; 1 AP to every other participant.
+Elder dragon: 4 AP for the killing blow; 2 AP for participation.
 
 Cost (AP)
 Upgrade Option & Description
@@ -297,30 +193,35 @@ Rewards in this system are handled in two ways: Incidental Loot dropped by enemi
 Incidental Loot: Most of the gold, basic potions, and mundane equipment the party finds will come directly from the bodies of their defeated foes, as detailed in their monster stat blocks.
 Major Treasure: The significant magical items and large sums of gold are the ultimate prize for completing the adventure, typically found in Section 5. Use the following framework to budget the total rewards for an adventure based on the Party's Tier.
 Rewards Framework by Adventure Tier
+(AP ranges below are the canonical tier bands — the same ones used everywhere.)
 Tier
 AP Range
 Gold / Player
 Magical Items
 Novice
-0 AP
+0-3 AP
 400-600 Gold
 1-2 Moderate Items (Apprentice-perk level).
 Apprentice
-1-2 AP
+3-6 AP
 700-1000 Gold
 1 Powerful Item (Adept-perk) & 1-2 Moderate Items.
 Adept
-3-4 AP
+6-9 AP
 1200-1600 Gold
 1-2 Powerful Items (Adept-perk) & 1 Rare Item (Expert-perk).
 Expert
-5-6 AP
+9-15 AP
 2000-2500 Gold
 2-3 Rare Items (Expert-perk level).
 Master
-7+ AP
+15-25 AP
 3000+ Gold
 1 Legendary Artifact & multiple Rare Items.
+Mythic
+25+ AP
+GM's discretion
+Artifact-tier rewards, unique and story-forged. No table governs this tier — like Mythic monsters, Mythic rewards are built to the party, floor-not-ceiling.
 
 
 Managing the Forge: Running the Upgrade System

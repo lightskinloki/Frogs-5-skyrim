@@ -238,7 +238,13 @@ own TN:
   Hard:               -4 to the player's TN
   Very Hard:          -6 to the player's TN
   Nearly Impossible:  -8 to the player's TN
+  Impossible:        -14 to the player's TN
+  Mythic:            -20 to the player's TN (the HARD CEILING for task difficulty;
+                      only the Contest Level-Gap Penalty may exceed -20)
 ALWAYS write difficulty (e.g., "Hard Magic roll (-4)") NEVER a fixed number.
+DAMAGE STACKING: flats add first, then ALL multipliers MULTIPLY together (the
+"Formula of Pain" worked examples in Toryggs legacy/legendary difficulty are the
+authority). Never invent additive-multiplier math.
 This applies to every document: runsheets, modules, stat blocks, everything.
 
 Resources:
@@ -247,7 +253,9 @@ Resources:
   DR  -- Damage Reduction (flat subtracted from incoming damage)
   AP  -- Advancement Points (character progression)
 
-Tiers: Novice / Apprentice / Adept / Expert / Master
+Tiers (canonical AP bands, identical in every doc): Novice 0-3 / Apprentice 3-6 /
+  Adept 6-9 / Expert 9-15 / Master 15-25 / Mythic 25+ (no ceiling; Mythic enemies
+  are built from FLOORS — minimum stats, GM scales up; see Reference tables)
 Threat Levels: TL1 (minor enemy) / TL2 (significant) / TL3 (boss)
 Boss types: Standard Boss, Apex Villain (Master + 8AP), Legendary Hero (20AP)
 

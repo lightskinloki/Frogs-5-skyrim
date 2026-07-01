@@ -1,6 +1,6 @@
 Appendix C: GM's Quick Reference Tables
 Difficulty Modifiers
-Apply this modifier to a player's Target Number for a specific roll.
+Apply this modifier to a player's Target Number for a specific roll. This is THE unified ladder — identical in the Main Guide, the players guide, and the Called Shot menu. -20 (Mythic) is the hard ceiling for task difficulty; only the Contest Level-Gap Penalty (Main Guide) may exceed it.
 Difficulty
 Modifier
 Example
@@ -14,14 +14,20 @@ Standard
 +0
 The default for most actions.
 Hard
--2
+-4
 Picking a rusty lock in the dark; persuading a hostile Jarl.
 Very Hard
--4
+-6
 Swimming upstream in a powerful current.
 Nearly Impossible
--6
+-8
 Calming a raging dragon with words alone.
+Impossible
+-14
+Feats beyond mortal norms; attempting them at all is remarkable.
+Mythic
+-20
+The ceiling of possibility. Success takes legendary stats, stacked advantages, or a critical — a "find a way," never a "no."
 
 
 Common Task Rolls (GM Reference)
@@ -92,175 +98,40 @@ TL 3 (Boss): Dragon Priests, Dragons, Vampire Lords. (Solo threat).
 Assign Stats: Use the P/S/T/D array. Assign the highest number to their main attribute (e.g., Might for a Bear, Magic for a Wizard) and the lowest to their weakness.
 
 SCALED MONSTER STATISTICS
-Party Tier
-Threat Level (TL)
-Role
-Stat Array (P / S / T / D)
-HP
-Damage
-DR
-NOVICE
-TL 1
-Minion
-14 / 12 / 10 / 8
-10
-4
-0-2
-(0 - 3 AP)
-TL 2
-Elite
-15 / 13 / 10 / 8
-25
-6
-3
-Local Heroes
-TL 3
-BOSS
-16 / 14 / 10 / 8
-60
-8
-4
+THE SINGLE AUTHORITATIVE MONSTER TABLE. The Legendary-scaling HP multipliers (Minions x2, Elites x2.5, Bosses x3) are ALREADY BAKED INTO every HP value below - never apply them a second time. Tier bands are the canonical ones (Main Guide, Step 1). TL1/TL2 Damage and DR were derived proportionally from the GM-calibrated TL3 row (TL1 ~50%, TL2 ~75%) - playtest and adjust freely.
 
+NOVICE (0-3 AP) - Local Heroes
+TL 1 Minion: 14 / 12 / 10 / 8 - HP 20 - Dmg 5 - DR 2
+TL 2 Elite: 15 / 13 / 10 / 8 - HP 63 - Dmg 8 - DR 3
+TL 3 BOSS: 16 / 14 / 10 / 8 - HP 180 - Dmg 10 - DR 4
 
+APPRENTICE (3-6 AP) - Regional
+TL 1 Minion: 15 / 13 / 11 / 8 - HP 40 - Dmg 8 - DR 4
+TL 2 Elite: 16 / 14 / 11 / 8 - HP 113 - Dmg 12 - DR 6
+TL 3 BOSS: 17 / 15 / 11 / 8 - HP 300 - Dmg 16 - DR 8
 
+ADEPT (6-9 AP) - Hold Champions
+TL 1 Minion: 16 / 14 / 12 / 8 - HP 70 - Dmg 13 - DR 7
+TL 2 Elite: 17 / 15 / 12 / 8 - HP 175 - Dmg 20 - DR 11
+TL 3 BOSS: 18 / 16 / 12 / 8 - HP 540 - Dmg 26 - DR 14
 
+EXPERT (9-15 AP) - Legendary
+TL 1 Minion: 17 / 15 / 13 / 8 - HP 100 - Dmg 20 - DR 11
+TL 2 Elite: 18 / 16 / 13 / 8 - HP 250 - Dmg 31 - DR 17
+TL 3 BOSS: 19 / 17 / 13 / 8 - HP 900 - Dmg 41 - DR 22
 
+MASTER (15-25 AP) - World-Saving Legends
+TL 1 Minion: 18 / 16 / 14 / 8 - HP 160 - Dmg 33 - DR 16
+TL 2 Elite: 19 / 17 / 14 / 8 - HP 375 - Dmg 50 - DR 24
+TL 3 BOSS: 20 / 18 / 14 / 8 - HP 1500 - Dmg 66 - DR 32
 
-
-
-
-
-
-
-
-
-APPRENTICE
-TL 1
-Minion
-15 / 13 / 11 / 8
-20
-6
-2-3
-(3 - 6 AP)
-TL 2
-Elite
-16 / 14 / 11 / 8
-45
-9
-5
-Regional
-TL 3
-BOSS
-17 / 15 / 11 / 8
-100
-12
-6
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ADEPT
-TL 1
-Minion
-16 / 14 / 12 / 8
-35
-9
-4
-(6 - 9 AP)
-TL 2
-Elite
-17 / 15 / 12 / 8
-70
-12
-7
-Hold Champions
-TL 3
-BOSS
-18 / 16 / 12 / 8
-180
-16
-9
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-EXPERT
-TL 1
-Minion
-17 / 15 / 13 / 8
-50
-12
-6
-(9 - 12 AP)
-TL 2
-Elite
-18 / 16 / 13 / 8
-100
-16
-9
-Legendary
-TL 3
-BOSS
-19 / 17 / 13 / 8
-300
-20
-11
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MASTER
-TL 1
-Minion
-18 / 16 / 14 / 8
-80
-16
-8
-(15+ AP)
-TL 2
-Elite
-19 / 17 / 14 / 8
-150
-20
-12
-Mythic
-TL 3
-BOSS
-20 / 18 / 14 / 8
-500+
-30+
-15
-
+MYTHIC (25+ AP) - Living Myth: FLOORS, NOT STATS
+Mythic-tier enemies are not built from a table. Every number below is a MINIMUM; there are no maximums. The GM is trusted to scale upward to match what the party can actually handle - these are floors, never targets.
+Stat Array floor: 22 / 20 / 18 / 16 (stats above 20 are legal at this tier)
+TL 1 Minion: HP 300+ - Dmg 35+ - DR 25+
+TL 2 Elite: HP 750+ - Dmg 85+ - DR 35+
+TL 3 BOSS: HP 2000+ - Dmg 190+ - DR 50+
+Design anchor: the Mythic Boss DR floor (50) equals the maximum SUSTAINED Damage Reduction a fully optimized player can achieve (top armor + all-crit smithing + Dragonhide + Ebonyflesh + double enchantments). A maxed player is almost a Mythic boss - the floor of this tier is the ceiling of the players.
 
 STAT ARRAY KEY
 P (Primary): The creature's main offensive/defensive stat (e.g., Might for a Warrior). They almost never fail this roll.
@@ -271,6 +142,7 @@ DAMAGE & DR RULES
 Base Damage: This is the flat damage dealt by a standard attack.
 Power Attacks: Add +2 Damage.
 Critical Hits: Multiply Total Damage by x2.
+THE STACKING LAW (Formula of Pain — see legendary difficulty's worked examples, which are the authority): add ALL flat bonuses first to build the Base Hit, then multiply ALL multipliers together. Multipliers multiply — they never add. (Example: Base 11, Sneak x3, Crit x2 = 11 x 3 x 2 = 66.) Flat x2-damage ITEMS are unique GM-granted artifacts only (e.g., Kyboh's Titan Gloves) — never a commissionable enchantment.
 
 
 Damage Reduction (DR): This is subtracted from every incoming hit.

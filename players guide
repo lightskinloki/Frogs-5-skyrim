@@ -433,7 +433,12 @@ With this final step, your character is complete. You have your stats, your skil
 Character Progression: Forging Your Legend
 Your legend is not forged in a single day. As you complete perilous adventures and overcome great challenges, your skills will sharpen and your power will grow. This system uses a milestone-based progression. Instead of tracking experience points, you earn Advancement Points (AP) for completing your objectives.
 Earning Advancement Points
-The path to power is simple: succeed. At the end of a successful adventure (a one-shot), every player gains 1 Advancement Point. You can spend your AP immediately or save it for more expensive upgrades.
+The path to power is simple: succeed. At the end of a successful adventure, every player gains 1 Advancement Point. You can spend your AP immediately or save it for more expensive upgrades.
+Dragon Kills (standing rule — dragons are always worth more): a regular dragon awards 2 AP to whoever lands the killing blow and 1 AP to every other participant. An elder dragon awards 4 AP for the killing blow and 2 AP for participation.
+The Tiers of Play
+Your total AP determines your Tier — the scale of legend your deeds have reached:
+Novice (0-3 AP) - Apprentice (3-6 AP) - Adept (6-9 AP) - Expert (9-15 AP) - Master (15-25 AP) - Mythic (25+ AP).
+Mythic has no upper limit. The full AP tree (every skill Mastered, every stat at cap) buys out around 181 AP — a horizon, not a destination.
 Spending Advancement Points
 You can spend your accumulated AP on any of the options from the list below. This is how you customize your hero's growth, choosing to deepen your specializations or broaden your talents.
 Cost (AP)
@@ -706,7 +711,7 @@ Cost: You pay FP for the hand-cast spell only. The Staff loses a charge.
 2. Scrolls (The Forbidden Loophole)
 Scrolls contain completed magical formulas written by ancient masters. They are the only way to bypass the "Skill Tier" limit.
 The Mechanic: You cast a spell from one hand and read a matching Scroll with the other.
-The Master Exception: This is the only way to Dual Cast a Master Spell. If you are a Master of Destruction, you can cast Fire Storm (25 FP) and read a Scroll of Fire Storm simultaneously.
+The Master Exception: This is the only way to Dual Cast a Master Spell. If you are a Master of Destruction, you can cast Fire Storm (18 FP, per the Spell List) and read a Scroll of Fire Storm simultaneously.
 Cost: FP for the spell + The Scroll is destroyed.
 Effect: Resonance. The effects are doubled. (Note: A Dual Cast Master Spell is a city-leveling event).
 Summary Table
@@ -907,7 +912,7 @@ Target is Silenced (Cannot cast Spells/Shout) for 1 round.
 The Sever
 Cut a specific rope/chain at range (Environmental Trigger).
 Impossible
--10
+-14
 The Gap Shot
 Attack Ignores Damage Reduction (DR).
 
@@ -917,7 +922,7 @@ Attack Ignores Damage Reduction (DR).
 The Disarm
 Target drops their Main Weapon.
 Mythic
--12
+-20
 The Eye Shot
 Target is Blinded (Permanent Disadvantage) for the encounter.
 

@@ -1305,3 +1305,236 @@ no third option (cf. Nora vs. what Ismara might make of her; Alfonso's Vrykolas 
 - The orphanage is a literal CHILD-INTO-GUILD PIPELINE (Grelod ran it, Constance was the
   seamless successor) — sharper than the video's "controls the next generation" speculation.
   Keep ours; it has teeth.
+
+=====================================================================
+§25 — THE RULES AUDIT: CONSOLIDATED SPEC [READY TO APPLY — pending final GM sign-off]
+=====================================================================
+Full read of GM Guide/Main Guide, GM Guide/Reference tables, players guide, and
+Toryggs legacy/legendary difficulty (all four in full, cover to cover). Findings and the
+locked design below. ORIGIN: three competing versions exist because the system started as
+a persistent-character ONE-SHOT ruleset (Main Guide literally says "designed for
+one-shots"; AP award = flat 1/adventure) and was converted to long-form campaign play
+after the players asked — nobody went back and reconciled the math for the new format.
+Legendary difficulty was bolted on later, by hand, without AI help, after the GM caught a
+player cheating numbers and tried to redo the math solo — hence partial/inconsistent
+integration. Not sloppiness; an honest gap from doing this alone.
+
+--- FINDING 1: THREE DIFFERENT DIFFICULTY LADDERS EXIST ---
+Main Guide §2:        VeryEasy+4/Easy+2/Standard+0/Hard-4/VeryHard-6/NearlyImpossible-8/Impossible-12
+Reference tables:      VeryEasy+4/Easy+2/Standard+0/Hard-2/VeryHard-4/NearlyImpossible-6 (no Impossible/Mythic)
+players guide (Called Shot Menu): Hard-4/VeryHard-6/NearlyImpossible-8/Impossible-10/Mythic-12
+None reach the new -20 ceiling. Reference tables' numbers are exactly HALF of Main Guide's
+for identical labels. Only the Called Shot Menu (an Archery-specific submenu, not a general
+ladder) has ever had a "Mythic" rung, and it caps at -12, not -20.
+
+--- FINDING 2: AP TIER BANDS CONTRADICT WITHIN Main Guide ITSELF ---
+Main Guide Step 1 (prose "Party Tier"):    Novice 0-3/Apprentice 3-6/Adept 6-9/Expert 9-12/Master 15+ (12-15 undefined gap)
+Main Guide's OWN inline monster table:      Novice 0/Apprentice 1-2/Adept 3-4/Expert 5-6/Master 7+
+Main Guide's Rewards Framework:             matches the SECOND system, not the first
+Reference tables' monster table:            matches the FIRST system
+Proof it's broken in practice: party is AP 9-10 right now. Per Reference tables (Expert
+9-12) they're solidly mid-Expert. Per Main Guide's own inline table (Master 7+) they're
+already Master tier. Same party, same AP, two different answers.
+
+--- FINDING 3: TWO FULL MONSTER STAT TABLES DISAGREE EVEN WHERE LABELS MATCH ---
+Main Guide Master/TL1: 18/16/14/8, HP 28-42, dmg 12, DR 6-8.
+Reference tables Master/TL1: 18/16/14/8, HP 80, dmg 16, DR 8.
+Same stat array, different HP/damage — direct consequence of Finding 2.
+
+--- FINDING 4: "MYTHIC" HAS NEVER EXISTED AS A REAL TIER, ONLY AS FLAVOR TEXT ---
+Both docs use "Mythic" as an adjective describing Master tier ("Master Tier (15+ AP):
+Mythic, world-saving legends") — not a tier above it. Zero scaling differentiation between
+AP 15 and AP 181 (see Finding 6). This session's Contest Level-Gap Penalty (§20, built
+against a AP 30-35 Valerius) is what surfaced the need for a real Mythic tier + a -20
+ceiling on the ORDINARY difficulty ladder — that's the origin of this whole audit.
+
+--- FINDING 5: `legendary difficulty` IS ALREADY DECLARED CANON, JUST NOT WIRED IN ---
+Its own last line: "Toryggs legacy uses this." Most of its content ISN'T actually special —
+crit=x2 is word-for-word identical to the plain baseline rule in Reference tables AND
+players guide (fully consistent everywhere it's stated — no fix needed, just say it once).
+Villain Actions and Phase Bars are ALREADY present verbatim in Reference tables' own Boss
+Mechanics section. The ONE genuinely new mechanical addition is the HP MULTIPLIER (Minions
+x2, Lieutenants x2.5, Bosses x3; damage/DR untouched) — this needs to be baked directly
+into the new consolidated monster table's numbers, not left as a manual step a GM has to
+remember (which is exactly how "vibing the enemies" happened).
+
+--- FINDING 6: THE TRUE "NOTHING LEFT TO BUY" AP CEILING = 181 AP (calculated, not guessed) ---
+Skills (13 total, Novice-to-Master, 4 promotion steps each):
+  Novice->Apprentice: 1 AP promotes TWO skills -> ~7 AP for all 13
+  Apprentice->Adept:  1 AP each -> 13 AP
+  Adept->Expert:      2 AP each -> 26 AP
+  Expert->Master:     3 AP each -> 39 AP
+  Subtotal: ~85 AP to master every skill.
+Stats (Might/Agility/Magic/Guile): every build starts at a fixed 40-point total (confirmed
+across every Standing Stone + point-buy); AP-method cap is 18/stat = 72 max; gap = 32
+points x 3 AP = 96 AP, invariant regardless of build.
+TOTAL: 85 + 96 = 181 AP to buy out literally everything obtainable via AP.
+RESOURCE TRAINING (+2 HP or +2 FP per AP) has NO stated cap — GM RULING (confirmed): leave
+it uncapped on purpose. It's a SOFT cap, not a hard one: by AP 181 the marginal value of
++1 HP/+1 FP is functionally nothing, so nothing stops a table from nominally "playing past"
+181, but there's no real benefit to doing so. 181 is the meaningful ceiling.
+
+=====================================================================
+LOCKED DESIGN (GM-confirmed, ready to write into the four docs)
+=====================================================================
+1. ONE DIFFICULTY LADDER (replaces all three; the Called Shot Menu's -4/-6/-8 already agree
+   with Main Guide's Hard/VeryHard/NearlyImpossible, kept as-is):
+     Very Easy:          +4
+     Easy:                +2
+     Standard:            +0
+     Hard:                -4
+     Very Hard:           -6
+     Nearly Impossible:   -8
+     Impossible:         -14  [LOCKED — revised from the -12 legacy value: -8 to -12 to -20
+                                was an uneven -4-then-8 jump; -8/-14/-20 makes the last two
+                                steps even (-6, -6), reads smoother]
+     Mythic:             -20  [HARD CEILING for ordinary task difficulty — LOCKED]
+   Contest Level-Gap Penalty (§20/Main Guide) is UNCHANGED and stays uncapped/open-ended on
+   purpose — it measures raw power-gap between beings, not task difficulty, and is meant to
+   share Mythic's "no ceiling" philosophy. Gap 25+ AP -> -25 (and further by GM extrapolation
+   if a gap ever exceeds 25) remains correct as originally built.
+
+2. AP TIER BANDS (replaces BOTH competing systems; one canonical band-set):
+     Novice:      0-3 AP
+     Apprentice:  3-6 AP
+     Adept:       6-9 AP
+     Expert:      9-15 AP   [party is here now, AP 9-10, "early Expert" — confirmed accurate]
+     Master:     15-25 AP   [a real, closed tier now — "far off," as intended]
+     Mythic:      25+ AP    [no ceiling by design — see LOCKED item 3]
+   ~155 AP of the ~181-AP tree remains unspent even at Mythic's floor — deliberate, so
+   growth continues visibly all the way to and through Alduin.
+
+3. MYTHIC TIER = FLOOR-ONLY MONSTER DESIGN (the key structural innovation — solves needing
+   to hand-calculate scaling all the way to AP 181):
+   Mythic-tier monster stat blocks state MINIMUM values only (e.g., "minimum 1000 HP,
+   minimum 95 damage on a basic attack") — no maximum. The GM is explicitly trusted to
+   scale ABOVE the floor to match actual party capability and play style. This replaces
+   needing a precise AP-181-calibrated table; Mythic doesn't need one by design.
+
+4. CONSOLIDATED MONSTER TABLE [DRAFTED — pending GM review, not yet applied]. Retires
+   BOTH Main Guide's inline table and Reference tables' table as two separate/conflicting
+   sources. Base stat arrays and HP kept from Reference tables (the system that already
+   matched the correct wide AP bands); HP then multiplied by the legendary-difficulty
+   modifier (TL1 x2 / TL2 x2.5 / TL3 x3) so the multiplier is BAKED IN, not a separate
+   step. Damage/DR untouched per legendary difficulty's own rule (HP only).
+
+   FINAL NUMBERS [LOCKED after the full damage/DR calibration pass, July 2026]. TL3 (Boss)
+   damage and DR rows were calibrated directly with the GM (damage steepened because PC
+   base hits of 11-18 made the old values read as harmless; DR anchored to Expert=22 with
+   an accelerating curve, Mythic Boss DR = 50 = the calculated max sustained player DR).
+   TL1/TL2 damage and DR are PROPORTIONAL DERIVATIONS from the locked TL3 row (TL1 ~50%,
+   TL2 ~75%, matching the old table's internal ratios) — playtest and adjust freely.
+   HP carries the legendary-difficulty multiplier (x2/x2.5/x3) BAKED IN.
+
+   NOVICE (0-3 AP):
+     TL1 Minion: 14/12/10/8, HP 20,  Dmg 5,  DR 2
+     TL2 Elite:  15/13/10/8, HP 63,  Dmg 8,  DR 3
+     TL3 Boss:   16/14/10/8, HP 180, Dmg 10, DR 4
+   APPRENTICE (3-6 AP):
+     TL1: 15/13/11/8, HP 40,  Dmg 8,  DR 4
+     TL2: 16/14/11/8, HP 113, Dmg 12, DR 6
+     TL3: 17/15/11/8, HP 300, Dmg 16, DR 8
+   ADEPT (6-9 AP):
+     TL1: 16/14/12/8, HP 70,  Dmg 13, DR 7
+     TL2: 17/15/12/8, HP 175, Dmg 20, DR 11
+     TL3: 18/16/12/8, HP 540, Dmg 26, DR 14
+   EXPERT (9-15 AP) [widened from 9-12; party is here now at AP 9-10]:
+     TL1: 17/15/13/8, HP 100, Dmg 20, DR 11
+     TL2: 18/16/13/8, HP 250, Dmg 31, DR 17
+     TL3: 19/17/13/8, HP 900, Dmg 41, DR 22
+   MASTER (15-25 AP) [now a real closed band]:
+     TL1: 18/16/14/8, HP 160,  Dmg 33, DR 16
+     TL2: 19/17/14/8, HP 375,  Dmg 50, DR 24
+     TL3: 20/18/14/8, HP 1500, Dmg 66, DR 32
+
+   MYTHIC (25+ AP) — FLOOR-ONLY, no maximums, GM scales freely above every number:
+     Stat array floor: 22/20/18/16 (stats above 20 are legal at this tier; 22 = the
+     system's known hard cap for players, so Mythic monsters START there)
+     TL1 Minion floor:  HP min 300,  Dmg min 35,  DR min 25
+     TL2 Elite floor:   HP min 750,  Dmg min 85,  DR min 35
+     TL3 Boss floor:    HP min 2000, Dmg min 190, DR min 50
+     DESIGN ANCHOR (GM-locked): Mythic Boss DR floor = 50 = the calculated maximum
+     SUSTAINED player DR (Daedric armor 6 + six all-crit smith slots +18 + Dragonhide 10
+     + Ebonyflesh 8 + two Black Soul enchants +6 = 48, ~50 with edge stacking). "A maxed
+     player is ALMOST a Mythic boss" — the floor of the tier equals the ceiling of the
+     players. GM inflates per-encounter from there; these are minimums, never targets.
+     (TL1/TL2 Mythic DR scaled proportionally from the locked Boss 50 — playtest.)
+
+5. LEGENDARY DIFFICULTY FOLDED IN AS BASELINE (stop treating as an opt-in module; it's
+   already declared canon):
+     - Crit = x2 damage on a Natural 1: stated ONCE, as the universal baseline rule (it
+       already was, in three places independently — just consolidate the statement).
+     - Villain Actions + Phase Bars: stated ONCE in the Boss Mechanics section (already
+       baseline in Reference tables; legendary difficulty's version was a duplicate).
+     - HP Multiplier (Minions x2/Lieutenants x2.5/Bosses x3): the one truly new piece —
+       baked directly into the new consolidated monster table (item 4), not kept separate.
+
+6. DRAGON-KILL AP BONUS [LOCKED — new house rule, previously unwritten anywhere; needs to
+   go into the Rewards & Progression section of Main Guide/players guide]:
+     Regular dragon kill: 2 AP for the killing blow, 1 AP for participation.
+     Elder dragon kill:   4 AP for the killing blow, 2 AP for participation.
+   Elder dragon values are exactly double the regular dragon's — clean, easy to remember.
+   Reflects "dragons are worth more" as a standing GM policy, not a one-off.
+
+=====================================================================
+7. THE DAMAGE-CEILING CALIBRATION (the math pass that validated everything above) [LOCKED]
+=====================================================================
+THE STACKING LAW (settled after real confusion — this is why it's written down):
+Multipliers MULTIPLY together. The authority is legendary difficulty's own "Formula of
+Pain" worked examples ("11 Base x 3 Sneak x 2 Crit = 66"). Add all flats first, then
+multiply all multipliers. There is no additive-multiplier convention in this system.
+
+THE PHANTOM x2 (root cause of the session's confusion, now exorcised): the "x2 damage
+item" in legendary difficulty's examples is KYBOH'S TITAN GLOVES — a unique artifact
+Hjolmar forged him, NOT a commissionable enchantment. The Gear doc's enchanting
+categories (Fortify Attribute / Expand Reserves / Regeneration / spell-strike) contain
+no flat damage-multiplier enchant. RULING [LOCKED]: x2-damage items are ARTIFACT-ONLY,
+GM-granted, never commissionable. All ceiling math below excludes them.
+
+MAXIMUM SINGLE-HIT CEILINGS (all crits on smithing, two strike enchants where legal —
+Incinerate 12 + Icy Spear 10 per the SPELL LIST values, which are authoritative):
+  ASSASSIN (Glass Dagger — its x4 sneak beats Daedric's higher base):
+    8 + 15 smith + 3 PA + 22 enchants = 48 base x4 sneak-crit = 192/hit
+  ARCHER (Dragonbone Crossbow, bow + arrow enchants stack per GM ruling):
+    20 + 18 smith + 22 bow + 12 arrow = 72 base x2 sneak-crit x2 Bullseye = 288/hit
+    (+ Breaching ignores 3 DR)
+  MAGE (Fire Storm + Master Robes, Overcharged 2 held turns):
+    33 base x4 charge = 132 RAW (AOE spells cannot crit per legendary difficulty's own
+    clarification; if a table allows the CAST roll to crit an AOE: 264)
+  GREATSWORD — measured per TURN, not per hit (its design pays out twice via Finesse's
+  free-attack-on-crit): 22+18+22+3 = 65 base; nat-1 = 130 + free second attack ~130 =
+  ~260/turn, ~285-300 with stacked Power Attacks. THE GM'S REMEMBERED "~300 GREATSWORD"
+  NUMBER IS CORRECT — it was a TURN total (and/or Titan-Gloves-era math from the manual
+  rebuild period when Kyboh's x2 artifact was legitimately in the party).
+SOFT-CAP LEVERS (intentionally uncapped, confirmed): Power Attack stacking (melee, FP-
+fed), Infinite Overcharge (mage, turns-fed + total vulnerability). Archer has neither —
+highest reliable once-per-combat burst instead. Three different shapes of "maximum."
+
+OPEN GM RULINGS (log, decide at leisure):
+  a) AOE-crit: RAW says AOE/resist spells never crit. GM described "a Firestorm crit" —
+     if cast-roll crits are allowed on AOE, mage burst doubles. UNDECIDED; docs stay RAW.
+  b) Rage-Finesse chain: does Berserker Rage's "attacks are considered Critical
+     Successes" trigger the Greatsword's free-attack rider, or only a natural 1? If yes,
+     Orc greatsword = strongest sustained melee in the system. UNDECIDED.
+
+NEW STALE-VALUE FINDINGS (fix in the apply pass):
+  - Main Guide's enchanting examples cite PRE-REBUILD spell damages: "Flames - 1"
+    (Spell list: 3), "Fireball - 5" (list: 9), "Incinerate - 8" (list: 12). Spell list
+    wins per Main Guide's own Golden Rule ("Use the Spell List to determine damage").
+  - players guide's Scroll Dual Cast example says "Fire Storm (25 FP)" — Spell list says
+    18 FP. Fix to 18.
+
+=====================================================================
+NEXT STEPS
+=====================================================================
+- RESOLVED + LOCKED: Impossible = -14; dragon AP = 2/1 regular, 4/2 elder; Mythic floors
+  (item 4, incl. Boss DR 50 = max-sustained-player-DR anchor); stacking law; artifact-only
+  x2 items; all ceiling numbers (item 7).
+- APPLY PASS (this session): unified ladder + tier bands + consolidated monster table
+  (SINGLE SOURCE: full table lives in GM Guide/Reference tables ONLY; Main Guide points
+  to it — two copies is how the drift happened) + legendary-difficulty folded to baseline
+  + dragon AP rule + stale-value fixes across: GM Guide/Main Guide, GM Guide/Reference
+  tables, players guide, Toryggs legacy/legendary difficulty, AI_README mechanics section.
+- Called Shot Menu: align its Impossible/Mythic rungs to the unified ladder (-14/-20).
+- STILL PENDING AFTER THIS: the FP-cost verification pass; then the Skyrim codex app
+  files audit (check app content against established rules truth).
