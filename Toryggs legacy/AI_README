@@ -5,6 +5,15 @@ For AI assistants reading this campaign for the first time.
 This file tells you how to read the rest of this folder. Read this first.
 Then follow the reading order below before attempting any design work.
 
+OPERATING RULES (binding on everything below): the repo-root CLAUDE.md holds the hard
+operating discipline — cite-or-check (never fabricate), the context summary is a
+working-state handoff NOT a story record, verify before writing to canon, obey method
+instructions literally, always think with the GM, re-ground on degradation. CLAUDE.md
+auto-loads every session (for any model) and points here. These exist because relying on
+built-in/session memory instead of THIS REPO caused a serious failure — including a major
+NPC's name being silently corrupted. The repo is the memory of record; when in doubt, open
+the source doc.
+
 
 =======================================================
 I. WHAT THIS IS
@@ -32,7 +41,7 @@ II. CRITICAL RULES - INTERNALIZE THESE BEFORE ANYTHING ELSE
 =======================================================
 
 1. THE NARRATIVE IS STRICTLY LINEAR.
-   21 chapters. Sequential. No branching. Never propose branching paths, alternate
+   24 chapters (and counting). Sequential. No branching. Never propose branching paths, alternate
    timelines, or "what if they chose X" structures. The story has one timeline.
 
 2. KYBOH IS DEAD AND CANNOT BE RECOVERED.
@@ -136,7 +145,8 @@ TIER 1 - ORIENTATION (read these first, in order)
                                                     (cross-check against narratives)
 
 TIER 2 - THE STORY (what actually happened)
-  The Narrative/chapter 1 through chapter 21     -- READ IN ORDER, always authoritative
+  The Narrative/chapter 1 through chapter 24     -- READ IN ORDER, always authoritative
+                                                    (chapter count grows; read to the latest)
   world state tracking/post kynsegrove           -- state snapshot after Kynesgrove
   world state tracking/post korvanjund           -- state snapshot after Korvanjund
 
@@ -184,7 +194,14 @@ TIER 6 - NPCS AND FACTIONS
   Npcs/Mila                      -- orphan taken in by party post-Riften
   factions/dragon cult           -- the primary antagonist faction overview
   factions/new mythic dawn       -- Gaelen's faction (allied with Dragon Cult)
-  factions/valerius and the pale court -- Valerius Caelus; Orion's vampire master
+  Npcs/Valerius                  -- Valerius CAELUS: character/GM-voice reference (the
+                                    Architect of Stasis; AP 30-35; the off-hand reckoning).
+                                    NAME: he is CAELUS (ancient root); Davinia + her father
+                                    are CAELINUS (cadet branch). Never "Valerius Caelinus."
+  factions/valerius and the pale court -- Valerius Caelus; the Pale Court political/clock
+                                    layer (character detail now lives in Npcs/Valerius)
+  factions/the black-briars      -- Maven & the Black-Briar family: the Maven Fuse (Grelod),
+                                    Dirge, the Davinia mirror; supersedes scattered Maven notes
   factions/thalmor               -- Aldmeri Dominion presence and agenda
   factions/the blades            -- Esbern; Sky Haven Temple; Alduin's Wall
   factions/bards college         -- check for current relevance
@@ -294,21 +311,15 @@ Former ally turned villain:
 VII. THE WORLD STATE RIGHT NOW
 =======================================================
 
-(Approximate - always cross-check against narrative chapters)
-
-- Act III: The Mortal Limit (current)
-- Party location: Bee and Barb, Riften, post-Riften adventure
-- Alfonso: Vrykolas; bears the Jagged Crown; plague epidemic in Windhelm is his work
-- Davinia: relying more on the Crown of the Pale Lady; Galmar's trust at risk
-- Orion: full vampire; Dark Brotherhood initiate; Valerius's leash around his neck
-- Saijah: Kynareth vessel; Hircine crossroads approaching; feels Eldergleam's death
-- Bjorn: de-aging with each dragon soul; Greybeards have not yet summoned him
-- Kyboh: dead. Body is Hjolmar-Kyboh. Party does not know this yet.
-- Valerius: established in Solitude; blackmail material (murdered tax collectors) in hand
-- Galmar: holding Windhelm barricades as the plague rages; trusts Davinia (not yet)
-- Esbern: recruited; needs the Dragonstone from Bleak Falls to activate Alduin's Wall
-- Eldergleam: corrupted by Gaelen; Eastmarch forests dying; Saijah has not processed this
-- Dragon Cult clock: active; Tier 1 Destabilization; false-flag ops ongoing
+DO NOT KEEP A WORLD-STATE SNAPSHOT HERE. A second snapshot in this file only drifts and
+becomes a false authority — this one had gone stale by many chapters (it described a
+pre-Forelhost, pre-Riften-wrap state). For the CURRENT world state, read, in this order:
+  1. The latest narrative chapters (currently through chapter 24), IN ORDER — always the
+     authoritative record of what has actually happened.
+  2. world state tracking/present reality- update constantly — the living quick-reference.
+     It still lags the chapters; cross-check, never treat it as final.
+Only these. Never state current world state from memory, from this file, or from a
+context summary.
 
 
 =======================================================
