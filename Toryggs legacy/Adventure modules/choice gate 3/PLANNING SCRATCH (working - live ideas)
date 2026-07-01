@@ -1536,5 +1536,17 @@ NEXT STEPS
   + dragon AP rule + stale-value fixes across: GM Guide/Main Guide, GM Guide/Reference
   tables, players guide, Toryggs legacy/legendary difficulty, AI_README mechanics section.
 - Called Shot Menu: align its Impossible/Mythic rungs to the unified ladder (-14/-20).
-- STILL PENDING AFTER THIS: the FP-cost verification pass; then the Skyrim codex app
-  files audit (check app content against established rules truth).
+- FP-COST VERIFICATION PASS [DONE, July 2026]: spell costs internally consistent by tier
+  (Novice 1-3 / Apprentice 3-5 / Adept 6-8 / Expert 9-10 / Master 15-25); perk costs
+  consistent (2-3 FP low-tier actives, 9 FP Master combat actives, 15 FP defensive
+  ultimates); Dual Cast = combined cost, fine. FIXED: players guide Kaelen example cited
+  a nonexistent perk "Great Critical Charge" (real Two-Handed Adept perk = Devastating
+  Charge, which cannot move that turn — example said "after moving"; both corrected).
+  NOTED, defensible as-is: Augmentation's cost table (3/6/8/12) prices upcasting slightly
+  below true higher-tier spell costs — intentional-looking (an augmented low spell is
+  weaker than the real thing) UNLESS Amplify can be taken multiple times in one cast.
+  OPEN GM RULING (c): can the SAME Augment (e.g., Amplify) be applied more than once to
+  a single cast? If yes, augmented Flames at Expert power ~matches Incinerate for 1 less
+  FP — cap it or price it; if no, all costs are fine as written.
+- NEXT: the Skyrim codex app files audit — app lives in C:\Users\fbrown\Projects (parent
+  folder); check app rules content against the newly consolidated truth.
