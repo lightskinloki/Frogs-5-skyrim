@@ -17,6 +17,16 @@ Very Hard: -6 to TN. (The task is improbable for the average person).
 Nearly Impossible: -8 to TN. (The task requires luck or mastery).
 Impossible: -12 to TN. (The task is not possible for an average person to even attempt.)
 Opposed Checks: When a player's action is directly opposed by an NPC (like arm-wrestling or sneaking past a guard), both roll against their relevant stats. If the player succeeds their roll AND the NPC fails theirs, the player succeeds. If both succeed, the one who rolled lower (further from their target number) wins.
+Contest Level-Gap Penalty: This applies specifically to WILL-VS-WILL contests — resisting compulsion/domination, contested intimidation, or any check where you are directly resisting another being's attempt to override your action or intent. It does NOT apply to opposed physical/skill checks like arm-wrestling or stealth (use Opposed Checks above for those), and it does not apply to environmental, task-based, or lore rolls (set those difficulties by feel, as normal).
+When the opposing being's AP Tier exceeds yours, apply a penalty to your Target Number based on the gap in AP:
+Gap of 1-4 AP: No penalty.
+Gap of 5-9 AP: -5 to TN.
+Gap of 10-14 AP: -10 to TN.
+Gap of 15-19 AP: -15 to TN.
+Gap of 20-24 AP: -20 to TN.
+Gap of 25+ AP: -25 to TN.
+This penalty REPLACES the standard difficulty modifier for that roll — it does not stack with Hard/Very Hard/etc. Always use whichever penalty is larger (more severe).
+Why this exists: a towering gap in power should feel survivable-on-a-miracle, not impossible. A -20 or -25 penalty is not a "no" — it is a "you need a critical success, a stat far above the norm, or an outside advantage to even have a chance," which sets the precedent that the players can close the gap through play (buffs, allies, leverage) rather than simply being told they cannot act. When a Master-tier antagonist (like a AP 30-35 apex threat) is not directly resisted, the GM may simply narrate their action succeeding without a roll — the penalty above only governs the case where a player character chooses to contest it.
 Managing the Enchanter: The Mathematics of Magic
 When a player commissions a magic item using the rules in the Items list, your role is to sanity-check their request against the power of the soul they provide. You say "Yes" to the concept, then check the Soul Gem to determine the numbers.
 Your Role: Say "Yes" to the concept, then check the Soul Gem to determine the numbers.

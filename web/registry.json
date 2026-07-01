@@ -530,10 +530,11 @@
   },
   {
    "id": "valerius",
-   "name": "Valerius Caelus",
+   "name": "Valerius Caelinus",
    "type": "villain",
    "aliases": [
-    "valerius"
+    "valerius",
+    "caelinus"
    ],
    "tags": [
     "villain",
@@ -543,7 +544,6 @@
     "ring-watcher",
     "blackmail-holder",
     "solitude",
-    "molag-bal",
     "rot-vulnerable",
     "cousin-of-davinia",
     "blackmailer",
@@ -553,7 +553,10 @@
     "sent-orion-to-morthal",
     "orion-disobeyed-thrall-order",
     "off-hand-reckoning-pending",
-    "molag-bal-bloodline"
+    "architect-of-stasis",
+    "genuine-caelus-claim-inflated",
+    "ap-30-35",
+    "npc-doc-built"
    ]
   },
   {

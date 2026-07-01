@@ -1055,8 +1055,13 @@ GM NOTES:
     and meeting the rival claimant who voids his dynasty plan — never grasping either fully (yet).
 
 =====================================================================
-§20 — CONTEST ROLL LEVEL-GAP RULES [PROPOSED]
+§20 — CONTEST ROLL LEVEL-GAP RULES [APPLIED — see GM Guide/Main Guide,
+  "Contest Level-Gap Penalty," added after the Opposed Checks section]
 =====================================================================
+NOTE: while placing this, found the difficulty ladder itself is INCONSISTENT across
+docs — Main Guide uses Hard -4/Very Hard -6/Nearly Impossible -8/Impossible -12;
+Reference tables uses Hard -2/-4/-6; players guide archery table uses -4/-6/-8 with
+different labels. Feeds directly into the planned codex audit (below, §23).
 RULE: When a contested roll involves an opponent whose level exceeds yours, apply a
 penalty equal to (gap − 5) rounded DOWN to the nearest 5. Minimum 0.
 
@@ -1082,7 +1087,9 @@ EXAMPLE — Valerius (AP 30–35) vs. party (AP ~10):
 TODO: write into a proper system rules doc (GM Guide or standalone) next full session.
 
 =====================================================================
-§21 — VALERIUS SHEET SCRATCH [PROPOSED — needs clean NPC doc]
+§21 — VALERIUS SHEET SCRATCH [APPLIED — see Npcs/Valerius, built from this scratch;
+  faction doc "the Rival"/forged-genealogy language corrected/flagged; web registry
+  updated (name→Valerius Caelinus, molag-bal tags removed, new tags added, rebuilt)]
 =====================================================================
 FULL NAME: Valerius Caelinus
 TYPE: Vampire lord (apex; AP 30–35)
@@ -1123,6 +1130,16 @@ ORION FAILURE LADDER:
 
 TODO: build clean Npcs/Valerius doc (same format as other NPC docs) next full session.
   Strip "the Rival" framing from factions/valerius and the pale court; keep as political ref.
+
+=====================================================================
+§23 — CODEX / RULES AUDIT (future task, not started) [TODO]
+=====================================================================
+Full audit of the player-facing AND GM-facing rules content (codex/GM Guide/players
+guide/Reference tables) for internal contradictions and out-of-date rules — same class
+of bug as the difficulty-ladder mismatch found while placing §20 (three different
+number sets for Hard/Very Hard/Nearly Impossible across GM Guide/Main Guide, GM Guide/
+Reference tables, and players guide). Needs its own pass; do not start until explicitly
+picked up.
 
 =====================================================================
 §22 — WHAT VALERIUS IS MINING (interrogation intel) [PROPOSED]
