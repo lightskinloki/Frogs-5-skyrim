@@ -2538,6 +2538,23 @@
     "owns-jarl-guild-guild",
     "fall-of-riften-doomed"
    ]
+  },
+  {
+   "id": "black-mare",
+   "name": "The Black Mare",
+   "type": "npc",
+   "aliases": [
+    "black mare"
+   ],
+   "tags": [
+    "companion",
+    "warhorse",
+    "fearless",
+    "cart-crew",
+    "fifth-soldier",
+    "bjorns-deliberate-choice",
+    "mila-won-her-over"
+   ]
   }
  ]
 }
