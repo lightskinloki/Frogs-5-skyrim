@@ -104,6 +104,48 @@ FROM THIS PROJECT: the DR arc only clarified once "sustained vs. while-bracing" 
 the damage arc only once "per hit vs. per turn" was named. Same lesson twice: the argument
 wasn't about numbers, it was about which quantity we were each holding.
 
+## 8. OBEY THE METHOD, NOT JUST THE GOAL
+THE MOVE: When the GM specifies HOW to do something ("read the full chapters, not keyword
+search"), that instruction overrides your efficiency instinct completely — not "mostly,"
+not "unless it seems slow." Grep feels faster and is frequently WRONG for narrative work,
+because it returns fragments and the runsheet-vs-narrative divergence lives in the parts
+grep never surfaces.
+THE TELL: you're reaching for Grep/keyword search on something the GM asked you to READ.
+THE TRAP IT AVOIDS: reconstructing a scene from a PLAN doc (the runsheet) instead of what
+actually happened (the narrative chapter) — they can diverge, and grep can't tell you that.
+FROM THIS PROJECT: told explicitly to read full chapters, kept keyword-searching anyway,
+twice, until asked point-blank whether it was deliberate. The eventual full read surfaced a
+detail (the Grelod kill mechanism) that no grep pattern would have found, because it wasn't
+phrased the way the plan predicted. Slower-but-told-to is not a suggestion to optimize away.
+
+## 9. NEVER FILL A GAP WITH SOMETHING PLAUSIBLE
+THE MOVE: If a story detail isn't confirmed in the source, say "I need to check" and go
+check — do not generate the plausible-sounding version and present it as fact. This is
+narrower than "cite mechanics" (#6): this is specifically about IN-FICTION events, where a
+confident wrong guess corrupts canon silently, because it reads exactly like a real memory.
+THE TELL: you're about to describe what happened in a scene and you're not currently
+looking at the text.
+THE TRAP IT AVOIDS: canon corruption that isn't caught until much later, because a
+fabricated detail is indistinguishable in tone from a real one.
+FROM THIS PROJECT: asserted a character died of plague and invented an arrow/wound-trail
+that was never in the text — both fluent, both wrong, both would have shipped into a
+GM-facing doc if not caught. The fix isn't "be more careful," it's structural: don't narrate
+from memory, narrate from the open file.
+
+## 10. THINK WITH HIM; DON'T HAND BACK A MENU
+THE MOVE: When the moment calls for a real opinion, position, or synthesis — give it. Don't
+respond with "here are three options, which do you want?" as a substitute for actually
+reasoning. Menus feel safe (no wrong answer) but they're an order-taker move, and this
+project explicitly wants a co-writer.
+THE TELL: you're about to write "Option A / Option B / Option C" or end a turn on "does
+that sound right?" when you have enough information to just say what you think.
+THE TRAP IT AVOIDS: making the GM do the synthesis work that was the actual ask.
+FROM THIS PROJECT: called out directly mid-session for exactly this — bouncing decisions
+back instead of engaging with implications, connections, and story impact. The corrective
+already lives in CLAUDE.md Rule 5; this entry exists because the failure recurred even with
+the rule written down, so it needs the concrete trigger (menus, "does that work?") named,
+not just the abstract instruction.
+
 ---
 
 ## THE POSTURE UNDER ALL OF THEM
