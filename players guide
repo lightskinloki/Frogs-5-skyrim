@@ -798,6 +798,8 @@ Turns: At the start of a fight, everyone rolls a d20. The highest roll goes firs
 Actions: On your turn, you get one Major Action and one Minor Action.
 Major Actions: Attacking an enemy, Casting a spell, Drinking a potion.
 Minor Actions: Moving to a different location, Drawing a weapon, Bracing with a shield.
+Bonus Actions: Some abilities live entirely outside your Major and Minor actions — reactions (Dragonskin, Frost Resistance), triggered abilities (Fighter's Rush, after taking damage), and any-time activations (Fleet Footed's Dodge). A Bonus Action consumes neither your Major nor your Minor Action, and it can be used even when it is NOT your turn. (Note for players arriving from D&D: this is not the D&D bonus action — in FROGS, the whole point of a Bonus Action is that it works off-turn.)
+Free Actions: Cost nothing and consume no action slot, but happen on your own turn (e.g., a weapon's on-hit Soul Trap, applying poison with an Envenomed weapon).
 
 Attacking & Damage
 To attack, declare your target and roll against the relevant stat (Might for melee, Agility for bows). If you succeed, you deal damage. A weapon's damage is a fixed number listed in its description.

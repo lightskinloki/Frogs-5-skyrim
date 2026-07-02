@@ -1548,5 +1548,16 @@ NEXT STEPS
   OPEN GM RULING (c): can the SAME Augment (e.g., Amplify) be applied more than once to
   a single cast? If yes, augmented Flames at Expert power ~matches Incinerate for 1 less
   FP — cap it or price it; if no, all costs are fine as written.
-- NEXT: the Skyrim codex app files audit — app lives in C:\Users\fbrown\Projects (parent
-  folder); check app rules content against the newly consolidated truth.
+- CODEX APP AUDIT [DONE, July 2026]: app was largely AHEAD of the docs (spell damages,
+  gear damages, perk names, Fire Storm 18 FP all already correct). Fixed in app:
+  enemies.ts fully recalibrated to the consolidated monster table (Elder Dragon = first
+  Mythic-floor creature); Impossible/Mythic ladder rungs added to types + module parser;
+  FP formula corrected to add-first-then-divide.
+- BONUS ACTIONS [RESOLVED — DO NOT "FIX" AGAIN]: the app's Bonus/Free enchantment slots
+  are a DELIBERATE FROGS house rule, not D&D leakage (I wrongly purged them; reverted).
+  BONUS ACTION = zero-cost, consumes no Major/Minor, usable even OFF-TURN (reactions,
+  triggered abilities, any-time activations — Dragonskin, Fighter's Rush, Fleet Footed).
+  FREE ACTION = zero-cost but on your own turn only (on-hit Soul Trap, Envenomed poison).
+  Name kept by GM decision (the D&D collision is inverted — D&D's bonus is on-turn-only —
+  but the table speaks it fluently; the fix was WRITING IT DOWN). Now defined in the
+  players guide (Combat > Actions) and flagged in AI_README's mechanics section.

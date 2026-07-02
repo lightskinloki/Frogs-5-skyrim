@@ -245,6 +245,10 @@ ALWAYS write difficulty (e.g., "Hard Magic roll (-4)") NEVER a fixed number.
 DAMAGE STACKING: flats add first, then ALL multipliers MULTIPLY together (the
 "Formula of Pain" worked examples in Toryggs legacy/legendary difficulty are the
 authority). Never invent additive-multiplier math.
+ACTION ECONOMY: Major / Minor / BONUS / Free. BONUS ACTION is a deliberate FROGS
+house category (defined in the players guide): zero-cost and usable even OFF-TURN
+(reactions, triggered abilities, any-time activations). It is NOT the D&D bonus
+action — D&D's is on-turn-only, nearly the opposite. Never "fix" this as D&D leakage.
 This applies to every document: runsheets, modules, stat blocks, everything.
 
 Resources:
