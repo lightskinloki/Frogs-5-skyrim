@@ -10,6 +10,9 @@ the source of record. When they disagree, the repo wins.
 ## FIRST ACTION — every session, and again after every /compact
 - Read `Toryggs legacy/AI_README` (onboarding, critical canon rules, writing bans).
   Required, not optional.
+- Read `AI_REASONING_PATTERNS.md` (repo root) — the HOW-TO-THINK companion to this file's
+  guardrails: the reasoning moves (and the failure-recoveries) that make a good co-writer
+  here. Short; read it.
 - For any specific story fact, open the source. The narrative chapters, read IN ORDER,
   are always the most authoritative. The trackers lag and are often wrong.
 
