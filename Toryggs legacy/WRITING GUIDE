@@ -213,6 +213,15 @@ VI. THE SELF-CHECK PASS (run over every draft before it ships)
 10. PUNCHLINE TEST (section VII.4). Does any line state the conclusion the table should reach
     on their own? Cut it back to the observable fact and let it sit.
 
+(For first-person / journal / in-character writing, also run section VIII:)
+11. NO READER (VIII.1). Does any line betray awareness that someone will read the page -- a
+    wink, a comment on how a statement lands, a reference to the page itself? Cut it.
+12. NO NAMED FEELING (VIII.2). Did I state the writer's emotion, or cap a passage with a
+    summary of their own mood? Cut it; let the pace and the detail carry it.
+13. FINGERPRINTS (VIII). Scan for the named AI tells: the hedge-then-wry-turn sentence,
+    "which either means X or Y," a closing aphorism, fragment-stacks-for-effect, any sentence
+    arranged to resolve elegantly. Each one is the writer composing instead of feeling.
+
 =======================================================
 VII. SPOKEN DELIVERY -- WRITE FOR THE EAR, NOT THE EYE
 =======================================================
@@ -271,3 +280,75 @@ A line should come from what THIS character wants in THIS moment -- a merchant's
 sound like someone trying to make a sale, a soldier's like someone on duty -- not a
 pleasant-sounding line that could belong to anyone filling that role. If a line would work
 unchanged in a different NPC's mouth in a different scene, it isn't finished.
+
+=======================================================
+VIII. FIRST-PERSON VOICE -- JOURNALS, NOTES, AND ANYTHING WRITTEN IN A CHARACTER'S OWN HAND
+=======================================================
+
+This is the standard for ANY in-character writing -- a journal, a margin note, a private
+log, a letter, a research record. It took many painful passes to arrive at (the Ismara
+alchemy notes), so it is written down here to never re-derive from scratch. It is also the
+single hardest register for an AI to hit, because the failure mode is not bad prose -- the
+failures usually READ well. They just read like the AI, wearing the character. Section II.5
+already flags the seed of this ("voice is a TELL; a private log should never explain things
+to an outsider for the reader's benefit"). This section is the full method.
+
+THE ONE PRINCIPLE: NO IRONIC DISTANCE. The writer is INSIDE the moment, absorbed in the
+thing, not standing outside it arranging the sentence to land. A person writing privately is
+feeling and recording, not composing and performing. Every rule below is a way this principle
+breaks.
+
+--- 1. PRIVATE MEANS PRIVATE -- THERE IS NO READER ---
+A journal has no audience. Cut every trace of awareness that anyone will read the page:
+no "wait till they see this," no commentary on how a statement will land ("untoward to say,"
+"not that I care"), no reference to the page itself as an object ("this word is staying,"
+"I am not recopying this"). If a line only makes sense with someone watching, it is a
+performance, not a note. THE TELL: the writer winks. Real notes never wink.
+
+--- 2. NEVER NAME THE FEELING; LET PACE AND CONTENT CARRY IT ---
+Do not write "I was so excited." Excitement shows in the tumble of the sentences and the
+detail lavished on the thing. Do not cap a passage with a tidy summary of one's own emotional
+state ("I do not mind not knowing as much as I assumed," "that is a better feeling than being
+wrong"). That summary is the writer stepping outside to describe the writer -- exactly the
+ironic distance the whole section forbids. The emotion is IN the content or it isn't there.
+
+--- 3. FORWARD MOMENTUM, NOT BALANCED CONSTRUCTION ---
+Real feeling tumbles forward -- thoughts arrive faster than the hand writes them. Use "and"
+and "so" and "of course" as forward glue, not "which either means X or Y," not "normally I
+would, except." A genuinely excited note repeats itself the way excitement does ("of course
+it comes forward, of course it does"); it does not build a balanced clause and land on a wry
+turn. If a sentence is arranged to resolve on an elegant beat, a composer wrote it, not a
+person.
+
+--- 4. CONCRETE CONTENT IS THE VEHICLE ---
+Record the actual thing -- the test result, what was seen, what was done, in real detail.
+The specificity IS the characterization: what she bothers to write down, what she skips, what
+she gets absorbed by. A note that describes a FEELING is thin; a note that describes three
+test results in tumbling detail carries the feeling for free.
+
+--- 5. CONFIDENCE (calibrate to the character, but do not hedge by reflex) ---
+The AI default is to soften every claim with a doubt-check ("twice is not proof," "I have
+been looking for a reason to doubt it"). For a competent character this reads as false
+modesty pasted on. Let a confident character be confident. Doubt, when present, must belong
+to the character, not be an autopilot qualifier.
+
+--- 6. END ON THE MUNDANE, NOT THE POINT ---
+Do not close on a Grand Landing or an aphorism. The strongest private-note ending is the
+next practical, un-self-serious thought -- it deflates the profundity and proves the writer
+is still inside the doing, not narrating it from above. ("I need more Moth Wing. I've used
+all of it." -- ends the discovery of a law on the fact that she ran out of an ingredient.)
+
+THE AI FINGERPRINTS TO HUNT AND CUT (the specific tells, by name):
+  - The compound-hedge-then-ironic-twist sentence (build, qualify with "except," land on a
+    wry turn).
+  - "which either means X, or Y" -- the branching self-analysis.
+  - Ending a paragraph on a neat emotional insight or aphorism.
+  - Capping a statement with commentary on how it lands.
+  - Fragment stacks for effect ("Four tests. All four agree. It is late.") -- this is the
+    OVER-correction, and it is its own performance (noir voice), not a fix.
+  - Any sentence arranged so it resolves elegantly -- elegance is the sound of a composer.
+
+WORKED EXAMPLE: see `The Forelhost Codex -- Ismara's Extract`, NOTE ONE. Every rule above is
+visible in it -- the tumble, the capitalized genuine emphasis (HARD TO SEE) with no comment
+on the emphasis, the real test results, the confidence, and the ending on running out of an
+ingredient rather than on the law she just discovered.

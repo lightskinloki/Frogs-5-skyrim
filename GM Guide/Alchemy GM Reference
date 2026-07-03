@@ -960,6 +960,71 @@ THE TEARS OF RAHGOT -- MECHANICAL RESOLUTION (why VITALIS accelerates instead of
   Stay is GRAVITAS-heavy with NO VITALIS, starving the Tears' binding mechanism rather than
   feeding it.
 
+THE FULL FORMULA (reconstruction, verified against the current ingredient catalogue --
+  Section 4/Additional Catalogue above; GM reference only, not something a Novice or even
+  most Adepts could derive or execute)
+
+  11 distinct ingredients, 21 total items in the pot -- 55 opposition pairs to audit. This
+  is what "near-impossible to work out cold" means mechanically, not just narratively.
+
+  Ingredient          Copies   Essences
+  Nightshade          4        VENITAS[P] (pure)
+  Deathbell           3        VENITAS[P], GRAVITAS[S]
+  Nirnroot            3        CAECITAS[P], VENITAS[S], FULGUR[T]
+  Skeever Tail        2        VENITAS[P], AGILITAS[T]
+  Chokeberry          2        VENITAS[P], GRAVITAS[S], CAECITAS[T]
+  Falmer Ear          2        CAECITAS[P], VENITAS[S], GRAVITAS[T]
+  Human Heart         1        ANIMA[P], VENITAS[S], FORTITAS[T]
+  Hagraven Feather    1        ANIMA[P], VENITAS[S], CAECITAS[T]
+  Vampire Dust        1        ANIMA[P], CAECITAS[S], VITALIS[T]
+  Bone Meal           1        VENITAS[P], GRAVITAS[S], ANIMA[T]
+  Tears of Rahgot     1        [LEGENDARY] VENITAS[P], ANIMA[S], CAECITAS[T], [SPECIAL: The Binding]
+
+  THE OPPOSITION AUDIT (why it doesn't collapse):
+  - VITALIS<->VENITAS: the only VITALIS anywhere in the pot is Vampire Dust's VITALIS[T] --
+    against a wall of VENITAS[P], that's Tertiary Negation only. No Primary VITALIS exists
+    in the brew, so no collapse. This is the knife's edge the whole compound balances on --
+    one wrong ingredient with a Primary or Secondary VITALIS ruins everything.
+  - GRAVITAS<->AGILITAS: the GRAVITAS[S] sources (Deathbell/Chokeberry/Bone Meal) vs Skeever
+    Tail's AGILITAS[T] -- Secondary Negation. The stray AGILITAS gets crushed; irrelevant,
+    since propagation is the Tears' job, not an Essence expressed by the base compound.
+  - CAECITAS<->FULGUR: CAECITAS[P] (multiple sources) vs Nirnroot's own FULGUR[T] --
+    Tertiary Negation, consistent with Nirnroot's known internal paradox (Section 4).
+  - FORTITAS<->ANIMA: Human Heart's FORTITAS[T] vs the ANIMA[P] stack -- Tertiary Negation.
+  - IGNIS<->GLACIES: neither present. No interaction.
+
+  THE TRAP A LESSER ALCHEMIST FALLS INTO: Imp Stool is a common, obvious VENITAS[P] source
+  -- but it carries VITALIS[S] (Section 4). Drop it into this formula and VITALIS[S] vs the
+  VENITAS[P] wall produces Secondary Negation fighting the brew's own payload. Any
+  journeyman poisoner reaches for Imp Stool by reflex. Antoine did not. That choice --
+  knowing which common ingredient to leave OUT -- is as much the formula's signature as
+  anything he put in.
+
+HOW IT WAS CREATED (GM narrative account -- for adjudicating questions, not a scene to
+  read aloud verbatim; deliver it in pieces if it ever surfaces in play)
+  Antoine had two things no independent alchemist has ever had together: the family Codex
+  (four thousand years of Forelhost annotation on the Doctrine, including the empirical
+  record of what the Tears of Rahgot actually do -- knowledge no Doctrine-trained
+  practitioner outside the bloodline possesses) and the Tears themselves, a [LEGENDARY]
+  reagent that breaks the Law of Opposition by design rather than accident.
+  The formula above was NOT his first attempt. The Codex's own margins (Ismara's source
+  material) record generations of Forelhost alchemists testing VENITAS compounds against
+  the Tears before Antoine's work -- most of them either too weak to propagate reliably, or
+  unstable enough to burn out in their own host before spreading. Antoine's contribution
+  was the CONCENTRATION discipline this document's new mechanic describes: using precise
+  copy-ratios (Nightshade at 4, tapering down to the Tears themselves at exactly 1) to
+  force a compound where VENITAS dominates completely, every possible VITALIS contamination
+  is kept below Primary, and the Tears' Binding has nothing to compete against. Where his
+  ancestors treated the Codex's ratios as suggestion, Antoine treated them as the actual
+  mechanism -- the same discipline Ismara is only now, independently, beginning to
+  rediscover in her own notes (see The Forelhost Codex -- Ismara's Extract). That
+  parallel is not a coincidence: she is walking the same road he already walked, from the
+  same source text, toward a use of it he'd consider a betrayal of everything he built.
+  Deployment (sourced, Antoine's Journal 1): the finished Strain went into Riften via the
+  mead vats. ~73% transmission, ~89% lethality untreated within 14 days, ~94% with
+  Restoration applied -- the healer's hand making it worse being the whole design, not an
+  accident of the recipe.
+
 
 ________________
 
