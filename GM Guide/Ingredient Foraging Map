@@ -1,0 +1,150 @@
+INGREDIENT FORAGING MAP
+GM reference. Companion to: Alchemy GM Reference (ingredient Essence data), the regional
+map tracker (political/plot state -- NOT used here, since terrain doesn't change when a
+hold changes hands). First full draft; adjust freely.
+
+=====================================================================
+THE MECHANIC
+=====================================================================
+Foraging is its own roll -- not tied to a skill, not tied to a stat. Each region below has
+a d20 table: every number 1-20 maps to a SPECIFIC ingredient, not a range or a band. Tables
+are ordered so LOW rolls land on the rarest/best finds and HIGH rolls land on the most
+common ones, matching how the rest of the system already treats a low roll as the good one.
+
+GENERAL FORAGING (not hunting anything specific): roll d20 in the region you're in, look up
+that number on that region's table, that's what you found. Quantity: 1.
+
+TARGETED FORAGING (you know a specific ingredient grows here and you're hunting it): find
+its number (N) on the region's table. Roll d20.
+  Roll <= N: you find it. QUANTITY = (N - roll) + 1.
+  Roll > N: you don't find your target. Whatever's at your rolled number is the GM's call
+    to award instead, or nothing -- an empty afternoon either way.
+This means rare ingredients (low N) are both hard to find AND scarce even on a good roll --
+you can never roll below 1, so a target at N=3 caps out at quantity 3 no matter how well you
+roll. Common ingredients (high N) are easy to find and can turn up in real quantity on a
+good roll. No separate rule needed; it falls out of the math.
+
+FOUND EVERYWHERE -- the same five ingredients occupy slots 16-20 on every table below,
+since they're common enough to not need a region:
+  20  Wheat
+  19  Blue Mountain Flower
+  18  Nightshade
+  17  Thistle Branch
+  16  Garlic
+
+=====================================================================
+THE RIFT  (temperate forest, lakeside, Riften)
+=====================================================================
+   1  Hagraven Feather        6  Falmer Ear             11  Honeycomb
+   2  Vampire Dust            7  Canis Root              12  Blue Butterfly Wing
+   3  Ectoplasm                8  Mora Tapinella          13  Butterfly Wing
+   4  Nirnroot                 9  Nordic Barnacle         14  River Betty
+   5  Luna Moth Wing          10  Bee                     15  Blisterwort
+
+=====================================================================
+EASTMARCH  (volcanic tundra, Windhelm, Kynesgrove)
+=====================================================================
+   1  Daedra Heart             6  Jazbay Grapes           11  Giant's Toe
+   2  Spawn Ash                7  Dragon's Tongue         12  Troll Fat
+   3  Fire Salts                8  Creep Cluster           13  Bone Meal
+   4  Ashen Grass Pod          9  Spider Egg              14  Skeever Tail
+   5  Flame Stalk              10  Chaurus Eggs            15  Imp Stool
+
+=====================================================================
+THE PALE  (snow coast, Dawnstar)
+=====================================================================
+   1  Frost Salts               6  Frost Mirriam           11  Hawk Beak
+   2  Ice Wraith Teeth          7  White Cap                12  Hawk Feathers
+   3  Slaughterfish Scales      8  Silverside Perch         13  Hawk's Egg
+   4  Slaughterfish Egg         9  Salmon Roe               14  Purple Mountain Flower
+   5  Snowberries               10  Elves Ear                15  Small Pearl
+
+=====================================================================
+WHITERUN HOLD  (plains, farmland, Bleak Falls Barrow)
+=====================================================================
+   1  Falmer Ear                 6  Eye of Sabre Cat        11  Pine Thrush Egg
+   2  Bone Meal                  7  Mudcrab Chitin          12  Yellow Mountain Flower
+   3  Vampire Dust                8  Tundra Cotton           13  Chicken's Egg
+   4  Giant's Toe                9  Lavender                14  Salt Pile
+   5  Sabre Cat Tooth            10  Rock Warbler Egg        15  Grass Pod
+
+=====================================================================
+THE THROAT OF THE WORLD  (extreme altitude, the 7,000 Steps, High Hrothgar)
+=====================================================================
+   1  Frost Salts                6  Hawk Beak               11  White Cap
+   2  Glowing Mushroom           7  Hawk Feathers           12  Rock Warbler Egg
+   3  Void Salts                  8  Ice Wraith Teeth         13  Purple Mountain Flower
+   4  Snowberries                 9  Elves Ear                14  Yellow Mountain Flower
+   5  Frost Mirriam               10  Salt Pile                15  Grass Pod
+
+=====================================================================
+WINTERHOLD  (glacier, sea coast, the College, Blackreach approach)
+=====================================================================
+   1  Void Essence                6  Ice Wraith Teeth        11  Frost Mirriam
+   2  Glow Dust                   7  Slaughterfish Scales     12  Nirnroot
+   3  Wisp Wrappings               8  Salmon Roe               13  Crimson Nirnroot
+   4  Daedra Heart                 9  Silverside Perch         14  Hawk's Egg
+   5  Frost Salts                  10  Snowberries              15  Elves Ear
+
+=====================================================================
+HJAALMARCH  (the marsh, Morthal)
+=====================================================================
+   1  Hagraven Claw               6  Swamp Fungal Pod         11  Marshmerrow
+   2  Namira's Rot                 7  Giant Lichen              12  Luminous Russula
+   3  Chokeberry                   8  Canis Root                13  Slaughterfish Egg
+   4  Chokeweed                    9  Netch Jelly               14  Slaughterfish Scales
+   5  Deathbell                    10  Poison Bloom              15  River Betty
+
+=====================================================================
+HAAFINGAR  (Solitude, Dragon Bridge, the capital coast)
+=====================================================================
+   1  Void Salts                  6  Salmon Roe               11  Scalon Fin
+   2  Daedra Heart                 7  Silverside Perch          12  Hawk Beak
+   3  Pearl                        8  Glassfish                 13  Hawk Feathers
+   4  Small Pearl                  9  Angelfish                 14  Redwort Flower
+   5  Slaughterfish Scales         10  Goldfish                  15  Rock Warbler Egg
+
+=====================================================================
+THE REACH  (mountains, Markarth, Forsworn territory)
+=====================================================================
+   1  Falmer Ear                  6  Hagraven Feather         11  Juniper Berries
+   2  Chaurus Eggs                 7  Gleamblossom              12  Torchbug Thorax
+   3  Chaurus Hunter Antennae      8  Bleeding Crown             13  Glowing Mushroom
+   4  Spider Egg                   9  Fly Amanita                14  Grass Pod
+   5  Hagraven Claw                 10  Namira's Rot               15  Fire Petal
+
+=====================================================================
+FALKREATH HOLD  (southern pine forest, the lumber country)
+=====================================================================
+   1  Troll Fat                   6  Eye of Sabre Cat         11  Honeycomb
+   2  Spriggan Sap                 7  Aspen Catkin              12  Blisterwort
+   3  Taproot                      8  Ashen Grass Pod           13  Imp Stool
+   4  Boar Tusk                    9  Pine Thrush Egg           14  Mora Tapinella
+   5  Bear Claws                    10  Bee                       15  Butterfly Wing
+
+=====================================================================
+CREATURE-SOURCED (harvested after a kill -- add directly to loot, no foraging roll)
+=====================================================================
+  Troll -> Troll Fat            Draugr / Skeleton -> Bone Meal
+  Flame Atronach -> Fire Salts   Frost Atronach -> Frost Salts
+  Storm Atronach -> Void Salts   Wisp / Wispmother -> Glow Dust, Wisp Wrappings
+  Vampire -> Vampire Dust        Falmer -> Falmer Ear
+  Hagraven -> Hagraven Feather/Claw   Chaurus -> Chaurus Eggs
+  Chaurus Hunter -> Chaurus Hunter Antennae   Spider -> Spider Egg
+  Giant -> Giant's Toe            Sabre Cat -> Sabre Cat Tooth, Eye of Sabre Cat
+  Boar / Bristleback -> Boar Tusk  Bear -> Bear Claws
+  Skeever -> Skeever Tail          Mudcrab -> Mudcrab Chitin
+  Slaughterfish -> Slaughterfish Egg/Scales   Netch -> Netch Jelly
+  Kagouti -> Kagouti Hide           Dreugh -> Dreugh Wax
+  Ogre -> Ogre's Teeth              Minotaur -> Minotaur Horn
+  Dremora -> Daedra Heart           Ash Spawn -> Spawn Ash
+  Hawk -> Hawk Beak/Feathers/Egg    Ice Wraith -> Ice Wraith Teeth
+  Human/sapient (ethics apply, Alchemy Reference Section 7) -> Human Heart, Human Flesh,
+    Corrupted Human Heart
+
+=====================================================================
+CAUGHT (fishing -- tied to a body of water, not a region roll; use as a simple d10 if a
+scene calls for it, or just hand it over as color when someone fishes)
+=====================================================================
+  Angelfish, Angler Larvae, Glassfish, Goldfish, Histcarp, Juvenile Mudcrab, Lyretail
+  Anthias, Pearlfish, Pygmy Sunfish, Salmon Roe, Scalon Fin, Silverside Perch, Spadefish
