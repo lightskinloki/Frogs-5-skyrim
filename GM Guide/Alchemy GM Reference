@@ -87,6 +87,25 @@ Step 6 — Potency Roll (Player's Choice, Optional)
   If using a Calcinator: Roll twice, take the lower result (Advantage).
 
 
+CONCENTRATION: RANKING ESSENCES ACROSS MULTIPLE INGREDIENTS
+  Copy-count sets rank. When a brew uses more than one unit of a given ingredient, the
+  number of copies determines how that ingredient's Essences weigh against the rest of the
+  pot -- more copies of an ingredient pull its Essences toward the FOREFRONT of the final
+  compound; fewer copies leave them further back.
+
+  Example: a 3-ingredient hierarchy where Ingredient A leads, B is secondary, C is
+  tertiary -- brew 3 units of A, 2 of B, 1 of C. The ratio of copies is the sculpting tool
+  a master uses to force a precise hierarchy instead of letting everything the pot express
+  land flat and undifferentiated.
+
+  This does not replace the Law of Affinity -- it sharpens it. Affinity already says shared
+  Essences amplify each other; concentration is the dial that lets a brewer deliberately
+  choose WHICH Essence dominates the final expression when a brew draws on many ingredients
+  at once, rather than leaving the balance to chance. GM adjudication, not rigid math: weigh
+  the copy-ratios, then rule on which Essences land as the compound's effective
+  Primary/Secondary/Tertiary in play, same spirit as every other ruling in this document.
+
+
 TOOL MODIFIER STACKING (FULL REFERENCE)
   No tools:              Base Standard. Potency roll may improve.
   Mortar & Pestle only:  Same as above. Required to brew at all. Without it, only
@@ -429,6 +448,125 @@ Stalhrim (trace material in potions)
   GLACIES [S]    (frost damage — cold crystalline nature)
   GM NOTE: Rare ingredient. FULGUR[P] and GLACIES[S] are not an opposing pair.
   Stalhrim compounds produce shock resistance with a frost secondary.
+
+
+________________
+
+
+ADDITIONAL CATALOGUE (ORIGINAL COMPENDIUM -- built for this system, not transcribed from any
+external source; recognizable ingredient names used as flavor, Essence profiles designed on
+purpose for this game. Growing toward a target of 100-150 total entries; this is a first
+batch.)
+
+Moon Sugar
+  GLACIES [P]
+  FORTITAS [S]
+  ANIMA [T]
+  Use: Elsweyr trade good. Cold/magicka profile, not a stimulant -- resist the genre
+  assumption that it "should" be a speed ingredient; it isn't, on purpose. Skooma (the
+  finished, refined product) does NOT use this profile -- Skooma is a completed consumable
+  with its own direct effects, outside the Essence system entirely (see Section 9 note).
+
+Garlic
+  FORTITAS [P]
+  VITALIS [S]
+  GRAVITAS [T]
+  Use: Clean, common resistance base. Pairs with Blue Mountain Flower or Wheat without any
+  Opposition risk.
+
+Nightshade
+  VENITAS [P]
+  Use: Deliberately single-Essence. The first poison a Novice reaches for -- nothing to
+  weigh, nothing to combine wrong. Not every ingredient needs three tiers to be complete.
+
+Troll Fat
+  VITALIS [P]
+  FORTITAS [S]
+  AGILITAS [T]
+  Use: Trolls regenerate fast and move in violent bursts. This is the exact ingredient
+  Section 6's own worked example predicted before this entry existed -- canonized here.
+
+Falmer Ear
+  CAECITAS [P]
+  VENITAS [S]
+  GRAVITAS [T]
+  Use: Deep-dwelling, twisted, slow. Also predicted by Section 6's worked example;
+  canonized with a third tier added for a hidden GRAVITAS source a master can exploit.
+
+Fire Petal
+  IGNIS [P]
+  AGILITAS [S]
+  VITALIS [T]
+  Use: A second IGNIS source distinct from Fire Salts' fire+resistance pairing -- this one
+  leans toward burning energy. The VITALIS[T] lets a master build a fire compound with a
+  real, if small, self-healing component nobody would think to combine it for.
+
+Frost Mirriam
+  GLACIES [P]
+  CAECITAS [S]
+  FORTITAS [T]
+  Use: A hardy plant that survives the cold it carries. Second GLACIES source; gives
+  CAECITAS a second entry point too.
+
+Spriggan Sap
+  AGILITAS [P]
+  VITALIS [S]
+  ANIMA [T]
+  Use: Ties AGILITAS to plant-vitality and nature-spirit rather than animal speed --
+  thematically distinct from Canis Root/Juniper Berries.
+
+Hagraven Feather
+  ANIMA [P]
+  VENITAS [S]
+  CAECITAS [T]
+  Use: Witch-adjacent, spirit-and-decay. A real Opposition trap: combine carelessly with a
+  FORTITAS brew and the FORTITAS/ANIMA pair collapses or weakens depending on tier.
+
+Daedra Heart
+  ANIMA [P]
+  VENITAS [S]
+  IGNIS [T]
+  Use: Rare, potent, Oblivion-adjacent. Sits alongside Human Heart in the sapient/
+  otherworldly ethics tier (Section 7).
+
+Ectoplasm
+  ANIMA [P]
+  CAECITAS [S]
+  VITALIS [T]
+  Use: A ghost is an echo of vitality once whole. Ties into the campaign's existing undead
+  material.
+
+Aspen Catkin
+  AGILITAS [P]
+  VITALIS [S]
+  CAECITAS [T]
+  Use: Original addition, not adapted from any external list -- tied to the gold-leaved
+  aspens of the Fire B tent-fair scene. Wind-scattered seeds, gone as fast as they came.
+
+Dragon's Tongue
+  IGNIS [P]
+  FORTITAS [S]
+  AGILITAS [T]
+  GRAVITAS [Q]  (Quaternary -- legendary-tier exception; see note below)
+  Use: A dragon-touched ingredient carries more than a plant does. The Quaternary GRAVITAS
+  is the overwhelming presence a dragon carries even in a trace ingredient.
+  QUATERNARY TIER RULE: reserved for legendary/relic-tier ingredients only, and reading it
+  requires MORE than Adept's "all Essences" Rawcraft ceiling -- a true Master-only
+  perception, above the Doctrine's own three-tier structure. Most ingredients never have one.
+
+Bone Meal
+  VENITAS [P]
+  GRAVITAS [S]
+  ANIMA [T]
+  Use: Undead-derived (skeletons, Draugr). Matches Section 6's own worked example for a
+  draugr's preserved tooth (VENITAS/ANIMA), with a GRAVITAS secondary for the weight of
+  long-dead bone.
+
+Chokeberry
+  VENITAS [P]
+  GRAVITAS [S]
+  CAECITAS [T]
+  Use: A strong decay-and-drag poison ingredient; rare, associated with vampire lairs.
 
 
 ________________
@@ -803,6 +941,24 @@ DENYING IT AT THE SOURCE
   The Tears of Rahgot are the binding agent; nothing else propagates the Strain. Taking or
   destroying the Tears at Forelhost cripples Antoine's ability to make more (the party may
   not register they are making this choice -- see the Forelhost runsheet).
+
+THE TEARS OF RAHGOT -- MECHANICAL RESOLUTION (why VITALIS accelerates instead of collapsing)
+  A live tension in the existing rules: the Law of Opposition says a Primary VITALIS meeting
+  a Primary VENITAS in a compound should simply COLLAPSE (Primary Negation) -- yet the Strain
+  is explicitly fed, not cancelled, by VITALIS/Restoration. Those two established facts don't
+  reconcile under the normal Law. This is not a contradiction to quietly ignore; it is the
+  Tears' actual function.
+  [LEGENDARY] Tears of Rahgot: VENITAS[P], ANIMA[S], CAECITAS[T], [SPECIAL: The Binding]
+  THE BINDING inverts the Law of Opposition for this compound only -- rather than letting
+  incoming VITALIS oppose and cancel the VENITAS normally, the Tears bind the two together,
+  so a healer's Restoration feeds the rot instead of fighting it. No plant carries this
+  property and no amount of Doctrine study derives it -- the Doctrine's own law says it
+  cannot be done. Knowing the Tears break the rule requires the Codex itself (or equivalent
+  in-world discovery); this is precisely why a player attempting to reverse-engineer the
+  Strain cold, from alchemical theory alone, is working against something the theory says is
+  impossible. This is also why the Keeper's Stay works as a counter and healing doesn't: the
+  Stay is GRAVITAS-heavy with NO VITALIS, starving the Tears' binding mechanism rather than
+  feeding it.
 
 
 ________________

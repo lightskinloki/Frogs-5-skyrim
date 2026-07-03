@@ -40,6 +40,12 @@ the source of record. When they disagree, the repo wins.
    trackers, character/faction docs, THE WEB), verify each factual claim against source.
    Silent corruption of the record — small inaccuracies the GM does not always catch — is
    the single worst failure mode. Guard against it every single time.
+   THIS APPLIES ONE STEP EARLIER TOO: before DRAFTING a new scene, check whether it already
+   has a locked design in a scratch doc, and build FROM that design — not from a genre-default
+   instinct. (The failure: the Fire B Reckoning scene had a specific private-interrogation
+   structure already locked in scratch §18/19, and the draft quietly rebuilt it as a generic
+   public-camp confrontation instead. It read fine and was completely wrong, because real
+   planning work already existed and went unread. Use the resources the GM already gave you.)
 
 4. OBEY METHOD INSTRUCTIONS LITERALLY. When the GM says HOW to do something ("read the full
    chapters, not keyword search"), that overrides any efficiency instinct. It is not a

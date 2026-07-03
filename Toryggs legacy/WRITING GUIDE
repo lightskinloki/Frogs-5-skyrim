@@ -205,3 +205,69 @@ VI. THE SELF-CHECK PASS (run over every draft before it ships)
    the characters meet it? Reorder to match.
 7. SHOW, DON'T INSTRUCT. The read-aloud shows; the feeling and the meaning live in the
    GM-only note beneath it.
+8. SPOKEN TEST (section VII.1). In every sentence, does the subject and verb land before any
+   qualifying or interrupting clause? If a clause delays the sentence's own grammar to
+   manufacture a reveal, reorder it.
+9. BREATH TEST (section VII.2). Can every sentence be said aloud in one breath, with no
+   mid-clause pause needed to parse it? Split any that can't.
+10. PUNCHLINE TEST (section VII.4). Does any line state the conclusion the table should reach
+    on their own? Cut it back to the observable fact and let it sit.
+
+=======================================================
+VII. SPOKEN DELIVERY -- WRITE FOR THE EAR, NOT THE EYE
+=======================================================
+
+Read-aloud text is performed once, live, out loud, by a human looking up from the page at
+four other people. That is a different discipline from prose written to be read silently --
+and it is the gap that keeps producing bad read-alouds, because "write for a listener" was
+previously stated as a goal with no method attached. For an AI writer this matters doubly:
+there is no way to hear a draft back and catch what only reveals itself by ear, so the rules
+below are deliberately mechanical -- checkable on the page, without an ear, every time.
+
+--- 1. CHRONOLOGICAL SYNTAX, NOT JUST CHRONOLOGICAL CONTENT ---
+
+Section II.5 already bans out-of-order KNOWLEDGE (don't narrate the approach once they're
+already inside). This rule is stricter and sits one level down, inside the sentence: don't
+delay a sentence's OWN grammatical resolution to manufacture a reveal. Say the subject, then
+the verb, then what happens. A reader can scan ahead to resolve a garden-path sentence; a
+listener cannot -- the suspense-through-withheld-syntax move that works on a page just
+produces confusion spoken cold.
+
+  BEFORE: "Not at you -- just low, a hunting pass, its downdraft slamming the saddle like a
+           fist."
+  AFTER:  "The dragon dives low over the saddle -- a hunting pass, not at you -- and the
+           downdraft slams into the cart like a fist."
+
+--- 2. ONE BREATH, ONE IDEA ---
+
+If a sentence needs a silent pause mid-clause to parse on a first pass, split it. Target: the
+GM can read any single sentence in one breath, without backtracking to re-parse it before
+finishing it aloud.
+
+--- 3. LIMIT INTERRUPTION ---
+
+One em-dash or parenthetical aside per sentence, maximum. Stacking two or three interruptions
+into one sentence is a page-reading device -- the eye can hold the suspended clause and come
+back to it. Spoken cold, stacked interruptions just blur into noise.
+
+--- 4. LET THE DETAIL DO THE CONCLUDING -- DON'T NARRATE THE PUNCHLINE ---
+
+This extends Rule II.1 (never write a PC's realization) to world description generally: state
+the observable fact and stop. Do not add the authorial "and isn't that telling" beat on top of
+it -- that is the GM concluding out loud for the table, not describing a scene.
+
+  BEFORE: "Pack-laden travois lean against the tentpoles; these people came on FOOT, carrying
+           all of it."
+  AFTER:  "No cart stands among the tents. No horse is picketed nearby. Pack-frames lean
+           against every tentpole."
+
+  (the observable absence is stated; the conclusion -- they travel entirely on foot -- is left
+  for the table to reach themselves, exactly the present-evidence/GM-only-meaning split II.5
+  already establishes)
+
+--- 5. DIALOGUE CARRIES ITS SPEAKER'S ACTUAL STAKES, NOT A GENERIC VOICE ---
+
+A line should come from what THIS character wants in THIS moment -- a merchant's line should
+sound like someone trying to make a sale, a soldier's like someone on duty -- not a
+pleasant-sounding line that could belong to anyone filling that role. If a line would work
+unchanged in a different NPC's mouth in a different scene, it isn't finished.

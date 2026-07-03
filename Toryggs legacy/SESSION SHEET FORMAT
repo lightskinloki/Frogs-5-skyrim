@@ -112,6 +112,14 @@ If in doubt, fewer colours. Bold carries most of the emphasis; colour marks KIND
 
 - SELF-CONTAINED. Inline every stat block, NPC line, clue, handout, rule, and
   consequence the night needs. A cross-reference to another file is a failure.
+- RUNNABLE MEANS RUNNABLE -- INLINE THE MECHANIC AT EVERY POINT OF USE. If a scene invokes a
+  clock, table, or rule that was defined earlier in the document, restate what running it
+  actually looks like IN THIS SCENE -- never "see the rules block above" or a bare pointer. A
+  GM running this cold, live, will not flip back. (The Fire B failure: the Notice Clock was the
+  entire mechanic Scene 5 exists to run, and the scene body never restated it -- only a single
+  downstream beat survived. This is the same failure as the load-bearing-scene rule below, in
+  mechanical form, and it is especially unacceptable because a complete, self-running module is
+  the actual target -- it's what the eventual module-creation tool in the app depends on.)
 - NO HARD-WRAP. Let WordPad word-wrap. Hard-wrapping is what made the old bricks.
   Keep paragraphs SHORT and lean on bullets + blank space instead.
 - NUMBER EVERY SCENE. Scenes run in order; the reader counts down them.
@@ -162,6 +170,24 @@ B. CHARACTER / SOCIAL SCENE  (a camp, an NPC meeting, a farewell, a negotiation)
   THE TEST: could the GM run B cold, off the page, WITHOUT inventing dialogue? If the
   beat is who-they-are and what-mood with nothing to SAY, it is prep, not a scene.
 
+  HARD CONSTRAINT -- EVERY VIGNETTE ROUTES THROUGH A PC, NEVER NPC-TO-NPC. If two NPCs have
+  something to develop between them, stage it INSIDE a player's vignette -- never as a
+  standalone scene where both participants are GM-controlled. An NPC-NPC scene is not a
+  vignette, it's a cutscene: the table spectates instead of playing. (The Fire B failure:
+  Ismara+Ylva and Nora+GEAR both collapsed into the GM narrating two NPCs at each other. If an
+  NPC thread needs to move, find the PC whose scene it moves inside of -- it always exists;
+  Nora's whole vignette sequence should have carried her consultations with Ylva and Ismara
+  as color inside HER scene, not as separate NPC-only beats.)
+
+  THE DISTRIBUTION TECHNIQUE -- an NPC arc doesn't have to fit inside ONE PC's vignette. Spread
+  it as short appearances across SEVERAL PC vignettes in the same scene block: a beat in one
+  PC's scene, a beat in another's, a payoff in a third. This gives the NPC a real throughline
+  without ever needing a standalone NPC-to-NPC scene, and it plays more alive at the table than
+  one consult delivered in a single sitting. (Origin: Nora's "seeking advice about Orion" arc --
+  rather than one separate consult scene, she surfaces briefly in Ismara's vignette, then
+  Saijah's, then pays off in her own scene with Orion. Any NPC subplot that would otherwise
+  need its own scene is a candidate for this same treatment.)
+
 
 ====================================================================
 5  THE LORE-DELIVERY MODEL  (unchanged -- keep the three jobs separate)
@@ -204,6 +230,27 @@ is the other half.
 
 
 ====================================================================
+5C  THE LOAD-BEARING RULE  (the third standing failure mode)
+====================================================================
+
+If a scene is PLANNED -- if it exists because other scenes were built to lead into it -- it
+gets the SAME full treatment as any other numbered scene: real dialogue, real read-aloud, both
+branches actually written. It never gets a synopsis with bullet-point outcomes standing in for
+the scene itself.
+
+Improv at the table is fine and expected -- that is what live play is for. But a scene that was
+BOTHERED TO BE PLANNED and then gets shortchanged in prep isn't improv, it's unfinished work
+wearing a scene's shape. Mark these explicitly while drafting (LOAD-BEARING) so effort doesn't
+quietly ration itself near the end of a long build, which is exactly when it tends to happen.
+
+  THE FIRE B FAILURE: three prior vignettes (Saijah, Ylva, Ismara) were built specifically to
+  walk Nora toward her scene with Orion -- the actual payoff every other beat was pointing at --
+  and that scene got two sentences of synopsis instead of a written scene. The setup got full
+  treatment; the payoff didn't. That is backwards, and it is the single worst thing this
+  document has done to the GM's trust in a draft.
+
+
+====================================================================
 6  STAT / MECHANIC CARDS  (how the bordered blocks read)
 ====================================================================
 
@@ -243,3 +290,10 @@ time a tight rules object should be glanced at rather than read.
     are? (No beat is a character sheet.)
 12. Does every NPC the party engages have REACTION guidance -- how they take the
     accept / refuse / reveal?
+13. Does every read-aloud pass the SPOKEN TEST, BREATH TEST, and PUNCHLINE TEST (WRITING
+    GUIDE section VII)?
+14. Is every vignette driven by or aimed at a PC -- zero standalone NPC-to-NPC scenes?
+15. Is every LOAD-BEARING scene (one other scenes were built to lead into) written in full --
+    dialogue and read-aloud, not synopsis with bullet outcomes?
+16. Is every mechanic a scene invokes restated at ITS point of use, not just pointed at from
+    an earlier rules block?

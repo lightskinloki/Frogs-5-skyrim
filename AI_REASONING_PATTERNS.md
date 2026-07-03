@@ -146,6 +146,72 @@ already lives in CLAUDE.md Rule 5; this entry exists because the failure recurre
 the rule written down, so it needs the concrete trigger (menus, "does that work?") named,
 not just the abstract instruction.
 
+## 11. WRITE FOR THE EAR, NOT THE EYE
+THE MOVE: Read-aloud text is performed once, live, out loud — a different discipline than
+prose meant to be read silently. You cannot hear a draft back, so don't reach for a "feel";
+use the CHECKABLE rules instead (WRITING GUIDE section VII): chronological syntax (subject and
+verb before any suspense-clause), one breath per sentence, one interruption per sentence max,
+state the observable detail and let the table draw the conclusion instead of narrating it.
+THE TELL: a read-aloud sentence delays its own subject/verb for a reveal, or a line lands the
+conclusion FOR the table instead of the fact that would let them reach it themselves.
+THE TRAP IT AVOIDS: prose that reads well silently and fails completely spoken cold at a table
+— which is exactly what "write for a listener," stated as a goal with no method, produced.
+FROM THIS PROJECT: the dragon-swoop line ("not at you — just low, a hunting pass...") and the
+Ahkari tent description ("these people came on FOOT, carrying all of it") both read fine
+silently and both got flagged hard — because a page-suspense device and an authorial punchline
+are exactly the moves that die spoken aloud, once, cold, to four people.
+
+## 12. VIGNETTES ROUTE THROUGH A PC, NEVER NPC-TO-NPC
+THE MOVE: hard constraint, no exceptions (SESSION SHEET FORMAT section 4B): every vignette is
+driven by, or aimed at, a player character. If two NPCs have something to develop, stage it
+INSIDE a PC's scene, never as a standalone exchange where both participants are GM-controlled.
+THE TELL: you're about to write a scene where neither participant is a player character.
+THE TRAP IT AVOIDS: a vignette quietly becoming a cutscene — the table spectates the GM instead
+of playing.
+FROM THIS PROJECT: Ismara+Ylva and Nora+GEAR both collapsed into narrating two NPCs at each
+other. The fix isn't softer prose, it's structural: NPC-NPC content only exists as color
+inside a PC's vignette.
+
+## 13. IF YOU PLANNED IT, IT GETS THE FULL TREATMENT
+THE MOVE: a scene that exists because other scenes were built to lead into it (SESSION SHEET
+FORMAT 5C, "load-bearing") gets full dialogue and full read-aloud — never a synopsis with
+bullet-point outcomes standing in for the scene. Improv at the table is fine; a PLANNED scene
+shortchanged in prep is not improv, it's unfinished work wearing a scene's shape.
+THE TELL: you're about to write "If X: [one line]. If Y: [one line]" for a scene multiple other
+scenes were built to walk toward.
+THE TRAP IT AVOIDS: effort quietly rationing itself near the end of a long build, exactly on
+the scenes where it matters most.
+FROM THIS PROJECT: three vignettes were built specifically to walk Nora toward her scene with
+Orion — the actual payoff — and that scene got two sentences of synopsis. The setup got full
+treatment; the payoff didn't. The GM's reaction wasn't "needs more detail," it was that the
+work he'd already paid for got treated as if it hadn't happened.
+
+## 14. USE THE RESOURCES HE ALREADY GAVE YOU (see CLAUDE.md Rule 3)
+THE MOVE: before drafting a scene, check whether it already has a locked design in a scratch
+doc, and build FROM it — not from a genre-default instinct. This is Rule 3 (verify before
+writing canon) applied one step earlier: verify before DRAFTING, not just before finalizing.
+THE TELL: a scene "feels" like it should go a certain way, for a beat the GM has already spent
+real session time designing.
+THE TRAP IT AVOIDS: discarding real planning work by accident — which reads to the GM as the
+work never having existed at all.
+FROM THIS PROJECT: the Reckoning already had a private, Orion-compelled-away-from-camp
+structure locked in scratch §18/19 before this draft existed. The draft rebuilt it as a public
+camp confrontation — perfectly serviceable, and completely wrong, because the real designed
+version was sitting in a file that went unread.
+
+## 15. RUNNABLE MEANS RUNNABLE — INLINE THE MECHANIC WHERE IT'S USED
+THE MOVE: if a scene invokes a mechanic (a clock, a table, a rule), restate what running it
+looks like AT THAT POINT, in full, every time — never "see the rules block above." A GM
+running this live, cold, will not flip back.
+THE TELL: a scene says "run the [X] rules (see top of Part One)" instead of actually restating
+what that looks like in this scene's body.
+THE TRAP IT AVOIDS: a load-bearing mechanic silently vanishing from the scene it was supposed
+to run in — the same failure as #13, in mechanical rather than narrative form.
+FROM THIS PROJECT: the Notice Clock — the entire mechanic Scene 5 exists to run — got reduced
+to a pointer and one downstream beat; the clock itself never appears in the scene body. This
+one matters beyond this module: "complete" is the actual target, not an aspiration — it's what
+the eventual in-app module-creation tool depends on.
+
 ---
 
 ## THE POSTURE UNDER ALL OF THEM
