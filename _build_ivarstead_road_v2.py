@@ -8,7 +8,7 @@
 
 import os
 
-OUT = r"C:\Users\fbrown\Projects\Frogs-5-skyrim\Toryggs legacy\Adventure modules\choice gate 3\FIRE B PART ONE - THE ROAD (redraft).rtf"
+OUT = r"C:\Users\fbrown\Projects\Frogs-5-skyrim\Toryggs legacy\Adventure modules\choice gate 3\FIRE B - THE ROAD & THE BLEEDING STAIR (redraft).rtf"
 
 HEADER = (
     r"{\rtf1\ansi\ansicpg1252\deff0"
@@ -84,8 +84,8 @@ def rule():
     raw("\\pard\\brdrb\\brdrs\\brdrw20\\brdrcf2\\sb60\\sa220\\par\n")
 
 # ============================================================ TOP
-raw("\\pard\\sb60\\sa40\\cf2\\b\\fs44 FIRE B, PART ONE -- THE ROAD (redraft)\\b0\\fs24\\cf1\\par\n")
-raw("\\pard\\sa200\\cf5\\i Covers the road leg only -- the Spine through THE RECKONING -- the section already reviewed in the first-draft full module. Part Two (Ivarstead onward) is unreviewed and lives only in that original file for now; it stays untouched as the record of why the rules below (WRITING GUIDE VII, SESSION SHEET FORMAT 4B/5C) exist. Riften gates -> the foot of the 7,000 Steps.\\i0\\cf1\\par\n")
+raw("\\pard\\sb60\\sa40\\cf2\\b\\fs44 FIRE B -- THE ROAD & THE BLEEDING STAIR (redraft)\\b0\\fs24\\cf1\\par\n")
+raw("\\pard\\sa200\\cf5\\i Riften gates -> the foot of the 7,000 Steps -> Ivarstead -> the undercroft of High Hrothgar. The campaign's relaunch: one place, one escalating problem, a clean arc with a curtain. ~3 sessions. Self-contained -- run the whole fire from this file. (Full redraft: Part One reviewed and rebuilt with the GM; Part Two rebuilt to the same craft rules, first GM review pass still to come.)\\i0\\cf1\\par\n")
 rule()
 
 label("THE SPINE (hold these three lines all module)", red=True)
@@ -93,6 +93,7 @@ bullet("**This is an INTRODUCTION.** It ADVANCES threads and RESOLVES nothing pe
 bullet("**Frame the objective OUT LOUD as THE RITUAL, never as Gaelen's head.** If they think the mission is 'kill Gaelen,' his escape is a robbery. If they know it is 'stop the Unmaking,' his escape is just Thursday.")
 bullet("**Secrets that must hold:** Bjorn's speed reads as REJUVENATION, never Dragonborn (no one can sense a Dragonborn -- not even the Greybeards, who have NO special senses of any kind). Ismara stays unwitnessed by the monastery. The two scout dragons' target stays unknowable.")
 plain("**Roster on the move:** Davinia (ISMARA fronting -- silver skin), Saijah (bearing ALFONSO the rapier), Orion. These three are the PCs; everyone else on the cart is a companion NPC. Cart: Bjorn, Mila, Esbern (hidden until Scene 1), Nora, GEAR, Ylva, Varon. Animals: Mable (old, dragon-shaken) + the BLACK MARE (fearless warhorse -- sheet: Npcs/the black mare). Krusp & Danica are GONE to Windhelm.")
+gm("BEFORE THE TABLE SITS DOWN: hand Davinia's player Ismara's Note One (The Forelhost Codex -- Ismara's Extract, player handout) at the start of the session. Whether he reads it right then or later is his call -- just get it into his hands. Note One's own discovery (the Concentration ratio) already happened OFF-SCREEN, in the gap between Forelhost and leaving Riften -- no scene needed for it, just hold it as already-true. She had Luna Moth Wing to test with because Bjorn picked some up at a Riften apothecary as part of his usual pre-departure supply run -- background fact, not a scene either.")
 
 rule()
 raw("\\pard\\sb120\\sa200\\cf2\\b\\fs40 PART ONE -- THE ROAD\\b0\\fs24\\cf1\\par\n")
@@ -174,11 +175,13 @@ label("TRADE -- the exotic fair (reflavored, but every mechanical item cites the
 bullet("**Sun's Dust** -- a dried ash-country fungus, sharp and bitter. A FINISHED consumable, ready to use -- not a raw ingredient (GM: treat as a Cure Poison Potion, per the Gear Doc).")
 bullet("**Weeper's Tears** -- a marsh venom in a wax-sealed vial, from bogs south of here. A RAW alchemy ingredient (VENITAS[P], GRAVITAS[S] -- Alchemy GM Reference), not finished; feeds Nora/Ismara's bench.")
 bullet("**Moon Sugar** -- sold openly, a normal caravan good. Raw ingredient (GLACIES[P]/FORTITAS[S]/ANIMA[T] -- Alchemy GM Reference). **Skooma** -- the refined, finished product, sold quieter, a step removed from the open stall. This caravan is deliberately the easiest place in the campaign to find either. [Skooma's dose/addiction effects are a separate design item, not yet built -- do not adjudicate a first use until that's written.]")
+bullet("**A handful of Rare Curios** (Alchemy GM Reference, Batch Three -- genuinely Khajiit-caravan stock, priced accordingly): Alocasia Fruit, Bog Beacon, Comberry, Marshmerrow, Saltrice. Ahkari can name where each one is from if asked; she likes explaining her own stock more than most of what she sells.")
 bullet("**An Elsweyr-style curved saber**, out of the trade routes south -- mechanically the new Curved Blade type (**6 damage, Flowing Strike** -- Gear Doc), reflavored; Ahkari will demonstrate the curve is not decoration.")
 bullet("**An exotic hunting bow**, strung with something that is not gut -- mechanically a Tier-3 bow (**9 damage, Envenomed**: apply a poison as a Free Action instead of a Minor); Ahkari will not say what the string actually is.")
 bullet("**Paralysis Poison x2** (Rare) -- on a successful hit, the target makes a Might roll or is Paralyzed, losing their next turn completely. \"The good kind, from a woman near Hammerfell who owes Ahkari a favor she will not explain.\"")
 bullet("**A coin that's always warm** -- no mechanical effect at all, priced as a curiosity. Pure flavor; sell it as a keepsake, not a magic item.")
 bullet("Road food, arrows for Saijah, fair-ish prices. Haggling is social, not a fight.")
+plain("**ESBERN, at the curved blades:** the caravan doesn't carry the Blades' own Akaviri-tradition steel -- but Esbern still crosses over to look, turns one over in his hands, and gets quietly, genuinely interested in the craft. \"Not our old style. But whoever ground this edge understood the same thing we did.\" A small, real beat -- not a purchase, not a lead, just an old scholar recognizing a cousin discipline.")
 label("THE TRADE OF INFORMATION (this IS how Ahkari knows things -- play it as the mechanism, not a random trade)")
 plain("She raises a rumor, and then she PROBES -- she wants more on that exact topic, not a swap of unrelated gossip. This is the actual demonstration of how a Khajiit caravan ends up holding better information than half the holds: not magic, just always asking the follow-up question. Pick or roll one to open with, then react live to what the table gives back before moving to the next.")
 label("HER RUMORS (each one is an opening, not a statement -- she follows up on whichever one lands)")
@@ -205,7 +208,9 @@ scene("4   DOWNTIME & CONNECTION -- the camp vignettes")
 subtitle("Fire going, no walls, no Thalmor. Every vignette routes through a PC (Ismara/Davinia, Saijah, or Orion) -- never NPC-to-NPC. Never write a player's line or decision.")
 
 label("VIGNETTE A -- ISMARA, APART FROM THE FIRE (early evening, camp's edge)")
-gm("Davinia's player is driving ISMARA directly while she fronts this module -- so this is a PC scene, not an NPC one, and gets a SITUATION, never a scripted line. Ismara has taken herself off from the main fire tonight -- her own choice of ground, not a summons -- Codex open, rapier in reach, working a real technical fork in tonight's passage: one reading slows the rot faster but costs the patient strength for a week, the other's gentler and slower. That's all you supply. Whether she raises it with anyone, works it in silence, or does something else with her evening entirely, is the player's call -- ask \"what does Ismara do out here,\" then run whatever she gives you.")
+gm("Davinia's player is driving ISMARA directly while she fronts this module -- so this is a PC scene, not an NPC one, and gets a SITUATION, never a scripted line. Ismara has taken herself off from the main fire tonight -- her own choice of ground, not a summons -- Codex open, rapier in reach. Note One (Concentration, and the three basic recipes) already happened, off-screen, before the session -- nothing to re-litigate here. Two things sit in front of her tonight, and letting them collide IS the scene.")
+gm("FIRST -- hands-on RAWCRAFT, a real teaching moment: she's got whatever untested ingredients came out of Ahkari's fair (Weeper's Tears, or any of the Rare Curios -- Alocasia Fruit, Bog Beacon, Comberry, Marshmerrow, Saltrice) that she hasn't identified yet. Let the player actually pick one and Rawcraft it -- chew it, or read the arcane shape directly with the Sight (established, faster) -- and tell them what Essence(s) it reveals for real, off the Alchemy GM Reference. This is the player genuinely learning the mechanic by doing it as her, live, not being told about it.")
+gm("SECOND -- Antoine's Journal 1 is open beside her: the documented Strain-1.0 data (Restoration ACCELERATES the Strain instead of curing it -- sourced fact, already established). As she works real Opposition with her hands, watching a Primary VITALIS actually meet a Primary VENITAS and cancel out to nothing, the contradiction is sitting right there for her to notice: by everything she's learning tonight, what Antoine built should not be alchemically possible. DO NOT resolve this or explain why it works -- that's the Tears of Rahgot, saved for much later. DO NOT script her reaction or her conclusion -- she is a PC; present both threads as facts and ask \"what does Ismara do with that,\" then run whatever comes back. Unease, curiosity, dismissal, or nothing at all tonight are all fine answers.")
 plain("**YLVA** notices her peel off and follows without being asked -- she doesn't do subtlety, and she doesn't ask permission to be somewhere. She just walks over, sits down close enough to be a presence, and gets out her whetstone right there instead of at the fire. No question, no opening line. She's decided this is where she is now, and she's comfortable enough in silence not to fill it.")
 gm("ISMARA'S RESPONSE to Ylva just being there is entirely the player's call too -- acknowledge her, ignore her, keep working, say something. Whatever it is, let it sit; this doesn't need to resolve into anything before Nora shows up.")
 plain("A while later, NORA finds them both out here -- this is the first beat of her evening-long throughline of asking around about Orion (continues in Vignette B, pays off in Vignette C). She asks straight, a little nervous: \"Can I ask you both something? How do you know if wanting someone is worth what it costs?\"")
@@ -248,6 +253,17 @@ readaloud([
 ])
 bullet("**SAIJAH'S OPENING (player-driven):** what she does with that -- says something, moves closer, lets Alfonso speak, or just stays quiet and present -- is entirely the player's call. If Alfonso speaks, give him something real and in his own voice: he understands promises and their cost better than anyone at this fire, and he isn't sentimental about saying so.")
 plain("Bjorn gets up and shows Mila the mare instead of finishing the moment with words -- left side, breathing even, hands open. The black mare, unbothered by almost everything, suffers the careful child where she suffers nobody else. Mila brushes her. Somewhere in the middle of it her hands stop shaking, and whoever's watching -- Bjorn, Saijah, both -- gets to actually be there for it instead of just narrated at.")
+
+reflabel("DOWNTIME OPTION -- FORAGING (any PC, before dark; optional)")
+refplain("Its own d20 roll, no skill, no stat (Ingredient Foraging Map). GENERAL: roll d20 on the Rift table below, get 1 of whatever the number says. TARGETED (hunting a specific ingredient they know grows here): find its number N on the table; roll at or under N to find it, and quantity = (N - roll) + 1. Roll over N = an empty look-around, or GM's call to hand them the rolled entry instead.")
+statcard([
+    "**THE RIFT -- FORAGE d20 (low = rarer find)**",
+    " 1 Hagraven Feather   6 Falmer Ear       11 Honeycomb          16 Garlic",
+    " 2 Vampire Dust       7 Canis Root       12 Blue Butterfly Wing 17 Thistle Branch",
+    " 3 Ectoplasm          8 Mora Tapinella   13 Butterfly Wing      18 Nightshade",
+    " 4 Nirnroot           9 Nordic Barnacle  14 River Betty         19 Blue Mountain Flower",
+    " 5 Luna Moth Wing    10 Bee              15 Blisterwort         20 Wheat",
+])
 exit_("Morning. The open stretch.", "5  THE HIDE")
 
 # ---- SCENE 5
@@ -284,6 +300,8 @@ readaloud([
 plain("For one impossible instant Bjorn crosses ground no man his age should be able to cross -- there, and then between the child and the falling stone -- and it doesn't feel strange to him at all. It feels like the easiest thing he's done all week. He doesn't look at his hands. He doesn't look at anything but Mila, checking her over once, fast, the way he's checked her a hundred times before, already breathing like it's over.")
 gm("WHAT THE TABLE MAY CONCLUDE: the old mercenary is reviving -- youth, speed, the War-Hound returning. A rejuvenation. Eerie. That is ALL. The Dragonborn truth does NOT surface and must not leak (his FIRST flare was the Ratway stairs, Ch.21 -- one prior data point, still no word for it). Davinia, through Ismara's Sight, sees the doubled sun of his soul flare bright and bank down -- one more silent data point. Hold the secret.")
 plain("**BJORN** (gruff, not meeting anyone's eye): \"...Adrenaline. You'd be fast too, with that thing overhead. Get her down. Keep moving.\"")
+gm("THE DIRECTION THEY LEAVE IN: the dragons bank away EAST, down the long line of the valley -- and if any player asks where that heading points, answer honestly and plainly: back the way the party came. Into the heart of the Rift. Toward Riften. State the facts, never the conclusion; a player paying attention can orient themselves, and that quiet dread is theirs to assemble.")
+refplain("[Open production idea: a simple regional map prop for this beat -- the party's position, the road, and the dragons' heading drawn on it -- would let a sharp player do the orientation themselves. Also flagged: a battlemap for the logging cut, possibly with small animated fly-over moments. Neither built in this pass.]")
 exit_("The shadows shrink east and are gone. That night, or held for later -- the Reckoning.", "THE RECKONING")
 
 # ---- RECKONING
@@ -306,7 +324,247 @@ bullet("**THE EXIT:** only now the drama. He thanks her -- or the camp, whoever 
 gm("ORION'S EXPERIENCE: the horror isn't the pain, it's being OWNED -- forced to betray his party with his own mouth and maim himself with his own hand, entirely offstage, and then made to walk back into the firelight and perform normal in front of people who have no idea yet what just happened to him. Let the player choose how he wears that when he returns; never narrate his inner life for him.")
 gm("If Vignette C fired (either branch), Valerius already knows about Nora. He needs to do nothing with it tonight. Knowing is the leverage, banked for later.")
 
-plain("**[END OF THIS DRAFT -- Scene 7 (\"The Faint Wrongness\") and all of Part Two remain unreviewed and stay in the original full-module file for now. Once this road leg is signed off, they get the same redraft treatment.]**")
+# ---- SCENE 7
+scene("7   THE FAINT WRONGNESS -- the approach")
+subtitle("The bridge scene. Normal physics end here; the first time-slips arrive on the last mile.")
+readaloud([
+    "The two shadows shrink into the east and are gone, and the breath goes out of all of you at once. The road drops toward a valley, and at the bottom of it sits Ivarstead, small and grey against the mountain behind it. You are nearly there.",
+    "Then, on the last mile, each of you catches it -- once, and only once. A footprint appears in the mud of the road a heartbeat before Bjorn's boot comes down to make it. A word someone said comes back off the rocks a moment too late, in their own voice. The cart's shadow lags a half-step behind the cart.",
+    "Small things. The mountain stands ahead, and the whole road bends toward it.",
+])
+gm("One slip per character, once each, unrepeated -- let each player pick how theirs lands or hand them one. Do NOT explain. The weather system switches ON at the town line; this mile is its knock at the door.")
+exit_("Part Two. The temporal weather switches ON at the town line.", "PART TWO -- IVARSTEAD")
+
+rule()
+raw("\\pard\\sb120\\sa200\\cf2\\b\\fs40 PART TWO -- IVARSTEAD & THE BLEEDING STAIR\\b0\\fs24\\cf1\\par\n")
+raw("\\pard\\sa200\\cf5\\i The party's first contact with the Dagon apocalypse and with Gaelen the Root-Twister. Advance, never resolve: the Tower cosmology lands HARD; everything personal stays loaded. The town -> the ascent -> High Hrothgar -> the undercroft -> the sealing.\\i0\\cf1\\par\n")
+
+reflabel("GM RULES -- THE TEMPORAL WEATHER (proximity zones + the alarm)", red=True)
+refplain("The distortion is a SIDE EFFECT: the cult corrupts the TOWER from the undercroft; the mountain's existing Time-Wound turns that violence into weather. The cult does not target the Wound and does not control the weather -- they just know how to surf it. Each scene below restates its own zone at the point of use; this is the master card.")
+statcard([
+    "**HOW IT RUNS (core, locked):**",
+    "1. The GM sets a REAL-WORLD ALARM (phone, hidden). It fires with NO warning;",
+    "   the players learn to dread the sound.",
+    "2. On the alarm: GM rolls d20 -> picks which table in the CURRENT ZONE's set is",
+    "   active ('the weather shifts'). Announce nothing but the sensation.",
+    "3. In combat, every character rolls d20 TEMPO at the start of their turn on the",
+    "   active table -> that is their action economy this turn.",
+    "4. THE GRADIENT = two dials: higher zones have NASTIER tables AND the alarm",
+    "   fires MORE OFTEN.",
+    "5. SEPARATION IS EXPOSURE: anyone who strays from the group slips out of the",
+    "   shared 'now' -- they face this zone's weather ALONE, no one to pull them",
+    "   back into sequence. A tight, roped body is the only anchor.",
+    "",
+    "**ENEMIES CHEAT:** Dagonites carry grafted TIDE-SHARDS (obsidian slivers fused",
+    "at the sternum) -- they choose their Tempo result instead of rolling. THE",
+    "COUNTER: destroy the shard -- a Called Shot (Very Hard -6), or Sunder aimed at",
+    "it, or it shatters on their death -- and that cultist rolls like everyone else.",
+    "Ylva FEELS every cheat as a broken hunt-rhythm (hackles, growl) before any",
+    "mortal can name it.",
+])
+statcard([
+    "**ZONE TABLES (d20 TEMPO -- roll at start of each combat turn)**",
+    "",
+    "ZONE 0 -- THE TOWN (faintest; alarm ~every 25 min real time)",
+    "  1 Frozen (0 actions) | 2-4 Dragging (Major OR Minor) | 5-16 In step (normal)",
+    "  | 17-19 Quickened (+1 Minor) | 20 Unmoored (full extra turn after this one)",
+    "  Social distortion instead of combat weather: see Scene 8's card.",
+    "",
+    "ZONE 1 -- THE LOWER STEPS, Waystones 1-2 (alarm ~15 min)",
+    "  1-2 Frozen | 3-5 Dragging | 6-15 In step | 16-19 Quickened | 20 Unmoored",
+    "",
+    "ZONE 2 -- THE UPPER STEPS, Waystone 3 -> High Hrothgar (alarm ~10 min)",
+    "  1-3 Frozen | 4-7 Dragging | 8-13 In step | 14-18 Quickened | 19-20 Unmoored",
+    "",
+    "ZONE 3 -- THE UNDERCROFT (worst; alarm ~6 min)",
+    "  1-4 Frozen | 5-8 Dragging | 9-12 In step | 13-17 Quickened | 18-20 Unmoored",
+    "  PLUS: any natural 1 or 20 on Tempo ALSO triggers a SECONDARY HORROR (d20):",
+    "   1-4  your spell/attack this turn resolves at the START of your NEXT turn",
+    "   5-8  damage you deal this turn already landed LAST round (retroactive; if the",
+    "        target acted since, it staggers them now instead)",
+    "   9-12 echo-step: you are suddenly 15 ft from where you stood (GM places you",
+    "        where you were 1 round ago)",
+    "   13-16 doubled: act twice this turn, then LOSE your next turn entirely",
+    "   17-20 the initiative order reshuffles (reroll all) at this turn's end",
+])
+refplain("The zone tables and secondary-horror list are built to the locked dials (scratch 5); adjust freely at the table -- the ALARM and the DREAD are the mechanic, the numbers are servants.")
+
+reflabel("GM RULES -- SAIJAH'S DOUBLE MIGRAINE", red=True)
+statcard([
+    "**THE DOUBLE MIGRAINE (triggers the instant she touches the first black sap)**",
+    "Two Towers scream at once: the Eldergleam she always feels + the Throat under",
+    "fresh assault. While anywhere in the corrupted zone (the whole Stair):",
+    "   -2 Guile   |   -2 Agility   |   +2 damage taken from all sources",
+    "Sustained and brutal BY DESIGN -- the player must FEEL it, because that ache is",
+    "exactly what gives Hircine's 'I can make it stop' its hook (Scene 11).",
+    "(Replaces the -1 city penalty here.)",
+])
+
+# ---- SCENE 8
+scene("8   THE FOOT OF THE STAIR -- Ivarstead is the bottom edge of the unmaking")
+subtitle("Set-piece + social. The frightened half-empty town, the first Waystone, the inn that is not a haven. ZONE 0.")
+readaloud([
+    "Ivarstead is a handful of grey houses pressed against the biggest thing in the world. Half of them stand with their doors open. Through the nearest doorway a table is still set for a meal, and a dresser hangs open with clothes trailing out of it into the mud. Smoke rises from three chimneys. A barricade of farm carts and fence posts blocks the lane toward the river, and nobody stands behind it.",
+    "At the bridge, the first Waystone leans in its socket, and it is bleeding: a slow black sap crawling UP the carved stone, against gravity, pooling in the old runes until they read wet and dark. Where a drop falls, it falls slowly -- slower than it should, like it is falling through deeper water than the world's.",
+    "A big man sits on the inn's steps with a loaded pack at his feet. He watches you come up the road the way a man watches the first help arrive at a fire that has already taken the roof.",
+])
+plain("**KLIMMEK:** \"You came. Gods -- somebody came.\" (a breath, steadying) \"I still have the supplies for the monastery. Been packed nine days. Every time I set foot past the third stone something... happens to the walk. Hours go by that I don't remember walking. Once I came down and my beard had grown out three days. The masters are up there ALONE, and I can't -- I can't make the climb.\" He pushes the pack toward you. \"You're climbing. I know you are. Take it. Please.\"")
+bullet("**If they take the pack:** he grips whoever takes it by the forearm, hard, and can't speak for a second. \"Tell them Klimmek sent it. Tell them I tried.\"")
+bullet("**If they hesitate or refuse:** he doesn't argue. He carries the pack back to the inn steps, sets it where it can be seen from the whole square, and starts asking -- quietly, doggedly -- what it would take. Coin. Meals. His fishing boat. He has already decided they're climbing; he's only finding the price.")
+bullet("**If they ask him to come along:** he tries. He makes it fifty steps past the bridge and stops dead at the edge of the third stone's reach, sweating, and his legs will not go on. \"...You see it now. It isn't cowardice. The mountain won't have me.\" A live demonstration of what the Stair does, before they set foot on it.")
+gm("SAIJAH -- STATION 1 fires at the Waystone: hand her player the sensation -- the black sap NAGS, familiar, can't place it. An itch, not a recognition. (The DOUBLE MIGRAINE fires the instant she TOUCHES it -- debuff card ON for the rest of the Stair.) DAVINIA/ISMARA -- hand her player what the Sight shows: the corruption reads as a structured working running DOWN into the mountain's root, not spilling up from the stone. What either player does with what they're handed is theirs.")
+reflabel("THE TOWN'S BROKEN TIME (Zone 0 -- social, not lethal)")
+statcard([
+    "**TOWN DISTORTION (color any conversation with one of these; light touch):**",
+    "- An answer arrives BEFORE the question finishes being asked.",
+    "- A villager repeats the last exchange verbatim, unaware; it plays like an echo.",
+    "- Someone thanks the party for a thing they have not done yet.",
+    "- A door is heard closing a full breath before it visibly closes.",
+    "In fights here: Zone 0 Tempo (1 Frozen | 2-4 Dragging | 5-16 In step |",
+    "17-19 Quickened | 20 Unmoored), alarm rare. The horror is social first.",
+])
+label("NO HAVEN AT THE FOOT (the everyone-climbs logic -- play it, don't announce it)", red=True)
+bullet("The corruption is creeping DOWN into the streets, and Dagonites move through the empty half of town after dark. There is nowhere safe to leave a child, an old man, or a horse.")
+bullet("**The lesson the fiction teaches:** to wait below is to wait inside the thing they came to stop. Bjorn will not be parted from Mila; the party will not abandon either of them; and on the mountain, the weather ISOLATES stragglers. The whole crew climbs as one -- guarding their two most precious people up a mountain of cosmic horror.")
+label("THE INN NIGHT -- the attack (runnable, not a summary)", red=True)
+gm("Written for the inn, the least-bad shelter -- but if the party beds down anywhere else in town, the attack finds them there instead. The register is the point, not the address.")
+readaloud([
+    "The attack comes at the dark end of the night, when the common-room fire has burned to coals. Glass breaks somewhere at the back of the inn. Then the front door booms -- once, twice, something heavy swung against it -- and through the shutter slats you can see torchlight, five points of it, spreading to circle the building.",
+    "A voice outside begins to recite. It is calm, level, patient -- the cadence of a prayer -- and the words are about fire, and gates, and the mercy of a clean unmaking.",
+])
+gm("RUN IT: 4 DAGONITE CULTISTS + 1 SHARD ZEALOT (cards below). Zone 0 Tempo for everyone; the cultists CHEAT theirs via tide-shards -- if this is the party's first sight of a cheat, fire Ylva's Referee's Wrath beat (Scene 9) HERE instead of on the Stair. They come to BURN, not to loot: this is the Kvatch register, what Dagon taking a space looks like. Anything left OUTSIDE -- cart, supplies, animals -- is torched or taken. The mare comes INSIDE (fearless, she walks in like she has always lived indoors; Mable has to be dragged and hooded). Two villagers sheltering in the common room get grabbed through a window mid-fight -- alive, hurt, screaming -- savable if someone moves NOW. The zealot fights to the end; surviving cultists withdraw chanting when it falls. Dawn comes grey.")
+statcard([
+    "**DAGONITE CULTIST  x4-8  (TL1, Expert)** -- razor-scarred, ash-grey robes",
+    "HP 100  |  Dmg 20 (jagged glass-steel)  |  DR 11  |  17/15/13/8 (P=Might or Magic)",
+    "Tide-shard graft: CHOOSES Tempo (see weather card) until the shard is destroyed.",
+    "Fights to the end; retreat is not in the liturgy.",
+    "",
+    "**SHARD ZEALOT  (TL2, Expert)** -- the graft has spread up the throat; voice doubles",
+    "HP 250  |  Dmg 31  |  DR 17  |  18/16/13/8 (P=Magic)",
+    "Casts Ash Shell (4 FP) and Firebolt (3 FP, 6 dmg) between blade-work.",
+    "Cheats Tempo; on its death the shard bursts -- 5 dmg to all within 5 ft.",
+])
+exit_("Dawn after the inn night. Klimmek's pack on someone's shoulders. The first of seven thousand steps.", "9  THE BLEEDING STEPS")
+
+# ---- SCENE 9
+scene("9   THE BLEEDING STEPS -- the ascent")
+subtitle("ZONES 1-2. Waystone by Waystone the world comes loose. Dagonite ambushes that cheat. Saijah stations 2-4. Keep the rope tight.")
+readaloud([
+    "The Steps are older than any road you have walked -- worn hollow in the middle by seven thousand years of pilgrims -- and they climb out of the valley in long switchbacks that vanish into cloud. Every few hundred steps a Waystone stands in its socket, and every one of them is bleeding the same slow black sap, the runes drowned dark.",
+    "At the first stone the snow around your boots falls UPWARD for three heartbeats, a soft reversed flurry, and settles as if nothing happened. By the third stone your own voices start coming back off the rock faces a moment too late. By the fourth, you walk beside your own afterimages -- a half-second echo of each of you, following a half-step behind.",
+])
+refplain("ZONE 1 through Waystone 2 (Tempo: 1-2 Frozen | 3-5 Dragging | 6-15 In step | 16-19 Quickened | 20 Unmoored; alarm ~15 min). ZONE 2 from Waystone 3 up (1-3 Frozen | 4-7 Dragging | 8-13 In step | 14-18 Quickened | 19-20 Unmoored; alarm ~10 min). Run the alarm honestly -- the dread of the sound is the mechanic.")
+gm("ROPE RULE, said out loud once: stay together. Anyone who strays faces the weather ALONE -- this zone's Tempo with nobody to pull them back into the shared now.")
+label("SAIJAH -- STATIONS 2-4 (paced, never a lecture; hand her player each one as sensation)")
+bullet("**Station 2 (deeper):** she PLACES the signature -- \"I've felt this before\" (Thornheart; the Solitude temple tree) -- but it reads as coincidence. Two points, no pattern. Hers to voice or sit on.")
+bullet("**Station 3:** the migraine DOUBLES -- two simultaneous sources, which makes no sense to her. The -2/-2/+2 is fully on. Something is deeply wrong; she does not know what.")
+bullet("**Station 4 (Gaelen's voice -- through the corrupted leylines, to her alone, mid-climb):** warm, sincere, reasonable: \"You feel it as pain because you were taught the cage is your body. Forests that burn and regrow in a breath. Beasts that never stop becoming. I am not breaking anything, little sentinel. I am opening a door that was nailed shut before you were born.\" -- and the SCALE slips: \"...prisons. I have been opening them for years. This is not the first, or the last.\" A clue she cannot yet hold.")
+label("COMBAT -- THE CHEATED GAME (Dagonite ambushes)", red=True)
+gm("Use CULTISTS + a ZEALOT per ambush (cards, Scene 8). They surf the weather: stolen turns, doubled moves, strikes out of sequence -- while the party rolls Tempo. Make the unfairness VISIBLE. Then let the party break the shards and even the game -- that reversal is the fun.")
+plain("**YLVA -- THE REFEREE'S WRATH (this develops SAIJAH, not Ylva):** the first time a cultist cheats, Ylva's hackles rise BEFORE it happens -- she growls at empty air a half-second early, then the cheat comes. She cannot name 'temporal weather'; she knows a FOUL happened. \"They're cheating. The hunt has RULES.\" Her fury is theological -- the laws make the game sacred; these people spit on the game itself. Saijah, watching, is seeing the exact hunt-rhythm sense Hircine could one day give HER.")
+plain("**VARON** (falling in at Ylva's shoulder, blades reversed): \"Then we kill them properly. Inside the rules. For once, hound, we agree.\" She doesn't answer him. Her growl changes register -- and the two who cannot stand each other fight back to back, aligned. Give it one beat out loud.")
+label("THE OTHERS ON THE CLIMB (each one routed through a player)")
+bullet("**NORA'S GEMS (whoever looks at her during a weather shift):** the two black gems at her throat are stuttering -- the light inside them doubling, like two heartbeats out of step. She's clutching them and saying nothing. A horror beat, not a resolution; whether anyone goes to her is the table's call.")
+bullet("**ALFONSO (through the bond, to Saijah):** she feels him brace every time the weather shifts -- a flinch in the iron, each time, that he will not explain. If she presses him: \"Ask me at the bottom of the mountain, hunter.\" (He does not know what broken time does to a soul living in a sword. He does not want to learn it here.)")
+bullet("**BJORN:** his speed may FLICKER again on the climb if Mila is threatened -- shorter than the road flare, still read as rejuvenation, never named. Davinia's Sight logs one more silent data point if her player looks.")
+exit_("The last switchback. Grey stone walls in the cloud. The monastery.", "10  HIGH HROTHGAR")
+
+# ---- SCENE 10
+scene("10   HIGH HROTHGAR -- the quarantine of the masters")
+subtitle("Character scene at the top of the world. The TOWER hard-reveal, Kynareth's first new word in years, and the Ring feeding it all to Solitude.")
+readaloud([
+    "The monastery is grey stone against grey sky, and the doors stand barred from within. When they open -- slowly, to Klimmek's pack and your knock -- the man inside has a face like a starved hawk, and his hands keep trembling after he grips the door to still them.",
+    "Behind him, in the great bare hall, three more grey-robed figures sit in a triangle around a brazier, and the air between them HUMS -- a note below hearing, steady as a heartbeat. You feel it in your teeth, in the floor, in the old stone. The hum never wavers, not even for them to breathe.",
+    "Underneath it all, faint and constant, the mountain is trying to shake itself apart -- and the hum is holding it, barely, the way a hand holds a lid down on a boiling pot.",
+])
+plain("**MASTER ARNGEIR** (voice cracked from disuse and overuse at once): \"You climbed through THAT. Then you have seen what is happening to the mountain.\" (he looks at the pack, and something in the hawk face almost breaks) \"...Klimmek's bread. Forgive me. It has been -- some time.\"")
+label("WHAT THE MASTERS GIVE (scholarship, not senses)")
+bullet("**THE HARD REVEAL -- the word TOWER:** \"You stand on one of the pillars of the world. The Throat is a TOWER -- one of the stones that holds Mundus against Oblivion. The zealots below are not desecrating a holy place. They are cutting a load-bearing wall of the WORLD. The shaking you feel in time is the Tower beginning to fail.\" -> The party LEAVES KNOWING they are in the main plot. Land it plainly.")
+bullet("**The Way of the Voice OPENS:** the masters accept the party as the first help to reach them; the door stands open hereafter (scholarship, Word Wall locations for seekers -- the masters themselves cannot shout offensively enough to leave; holding the mountain takes everything they have).")
+bullet("**If the party asks them to come fight:** ARNGEIR: \"If one of us stands up from this circle, you will feel the reason in the floor before your next breath.\" He is not refusing. He is describing a load-bearing wall.")
+bullet("**What they CANNOT do (hold this line):** no special senses of ANY kind. They do not see Ismara in Davinia. They do not sense anything in Bjorn. They cannot name a Dragonborn -- no one can. They hold the summit by Voice and endurance, and they are losing.")
+bullet("**The geography clue:** \"The working is BELOW us -- in the undercroft, at the mountain's root. The summit path is SEALED (only a Shout clears it, and none of us can be spared from the holding). Whatever you came to stop, you will find it downstairs.\"")
+label("KYNARETH'S REVEAL (Saijah -- station 5; the goddess, NOT the masters)")
+gm("At Kyne's own peak, the goddess finally gives Saijah something NEW -- hand her player the vision itself, cryptic, non-verbal, the first fresh thing after all the repeated instructions: an IMAGE she cannot decode -- a wind carrying a great soul upward, toward a hall of mist and warriors -- and a certainty, wordless and enormous, that her ENDURING matters to the end of the world. Somewhere in the image, unnamed, a shape like a big man standing between a child and the sky. She gets a FEELING about Bjorn, never a label. What she does with any of it is hers. GM-only: this is the reason to endure the pain -- delivered the night BEFORE Hircine offers to end it.")
+label("THE OTHERS AT THE MONASTERY")
+bullet("**DAVINIA/ISMARA (two things to hand her player, separately):** FIRST, what the Sight shows -- hers are the only eyes that can READ the Tower: the leyline lattice, the corruption's shape crawling up the root like ivy under the skin of the world. A Sight showcase; hand her the picture and let her do with it what she likes. SECOND, make sure the player knows what her own gift could do here: FREEZE the wound locally -- stasis set against chaos, tactically real. GM-side only: using it advances the CDI. Put the option on the table once, plainly, and run whatever she chooses. Do not push it and do not forbid it. (The masters see none of this either way.)")
+bullet("**ORION -- the tonal architect:** the corruption is a FREQUENCY phenomenon and he is the one person equipped to read it as MECHANISM. Diagnostic Song against the hum: he maps the working's structure -- this feeds Scene 11's disruption options and his Severance research. ARNGEIR, after the Song (the masters' respect, earned and real): \"We shout. You listen. I begin to think listening was always the deeper school.\" THE GUT-PUNCH (GM-only, say nothing): the Ring has fed Valerius the entire apocalypse, live, all climb.")
+bullet("**GEAR** (he climbed; everyone climbs): quantifies the break -- \"local causality variance exceeds Dwemer tonal tolerances by a factor of nine. I have no protocol for this. I find I do not enjoy that.\" Pairs with Orion. Light.")
+bullet("**ESBERN:** among the masters' books like a starving man at a feast -- and the one who says the OTHER quiet part: \"The Wall shows a council of heroes when the Dragonborn fails. It never shows what holds the SKY up while they argue. Now we know.\"")
+exit_("Down the inner stair. The hum fades above; something older hums below.", "11  THE UNDERCROFT")
+
+# ---- SCENE 11
+scene("11   THE RITUAL IN THE UNDERCROFT -- Gaelen at the root")
+subtitle("The boss. ZONE 3 -- the worst weather. Objective: DISRUPT THE RITUAL. Gaelen escapes by design; Jasper does not.")
+readaloud([
+    "The undercroft is older than the monastery above it -- a vaulted root-cellar of the world, columns of living rock running down into dark that breathes. The Dagonites have made it a garden. Red light comes up out of carved channels in the floor, all of them running inward to a central well where the mountain's root stands exposed: a column of something older than stone. And growing INTO it, like ivy into a wall, black sap-lines climb upward from an array of obsidian shards arranged in a blooming spiral.",
+    "A Bosmer moves through the array unhurried, crimson chitin catching the light, one arm a grafted mass of charred heartwood and obsidian that gestures at things he is not looking at. He is adjusting each shard with the care of a man tuning an instrument he loves.",
+    "Without turning, in a voice that is warm and genuinely pleased: 'Oh -- visitors. Good. I hoped the mountain would manage to be heard. Come in, come in. You are not interrupting; nothing can interrupt this. But company is rare, and I have wanted to meet you for the longest time.'",
+])
+label("GAELEN -- HOW HE PLAYS (unsettling, never evil)")
+bullet("The warm, sincere, reasonable CENTER of an apocalypse. He talks like an ally trying to get compatriots to stop suffering for a stagnant world: the Aedra gave mortals a CELL -- linear time, fragile flesh; Dagon offers the KEY; the Unmaking is HEALING.")
+bullet("**THE QUIET WISH (plant it -- overheard when he thinks no one listens, to no one):** \"I want it to be perfect. Please... let it be perfect.\" Not a plea, not a crack in a mask -- the closest thing his altered architecture has to hope. Every projection the players make onto it will be slightly wrong. He should leave the table unable to dismiss him.")
+bullet("**THE YLVA EXCHANGE (give both liturgies one beat, out loud):** GAELEN: \"Rules are the bars, hunter. I am unbending them.\" YLVA (shaking with a fury even she cannot name): \"The rules are what make the hunt HOLY. Prey runs, hunter chases, the fastest wins -- that is the whole church. You are not freeing anything. You are pissing on the game.\" The most theologically serious person in the room about why the Unmaking is wrong is the werewolf.")
+bullet("**ALFONSO -- the duel only he can have (Saijah feels it land through the bond before a word is said):** GAELEN (finding the rapier in the room without being shown it): \"You of all things know the cage, brother. Rot is the door. Help me open it.\" ALFONSO (aloud, after a pause one beat too long -- the pause IS the almost): \"Decay FEEDS, gardener. The leaf rots so the root eats. Yours starves. You are not opening a door -- you are salting the field it stood in.\" Quiet horror for Saijah's player to sit with: how close her sword's own philosophy runs to the abyss, and how long he took to answer.")
+label("HIRCINE'S TEMPTATION (Saijah -- station 6, in the doorway of the boss)")
+gm("Just before or during the fight, the Hunter's voice -- the morning after Kynareth finally spoke: \"Little sentinel. That noise in your skull. I can make it STOP.\" He is not lying. THE HIDDEN COST he simply does not mention: the channel that screams is the same channel the goddess speaks through -- silence the pain and you silence KYNARETH (the Mzinchaleft principle: silence is not always peace). NO weredog offer, NO choice resolved here -- the senses may sharpen a moment (a taste), and the offer HANGS. If the player accepts outright anyway, do not block it -- but that is her player firing the crossroads early, not the module.")
+label("THE FIGHT -- DISRUPT THE WORKING", red=True)
+plain("**Frame it out loud (again): the objective is the RITUAL.** The spiral array feeds the sap-lines into the root. Break enough of it and the working collapses. Gaelen defends the work, not himself; Jasper defends GAELEN.")
+bullet("**THE ARRAY:** 5 anchor-shards (obsidian, waist-high). Each: **25 HP, DR 10** -- or a **Hard Might (-4)** wrench to topple one bodily, or Orion's tonal counter-note (**Hard Magic -4**, guided by his Scene 10 mapping) to crack one at range. Every anchor down weakens the weather one step in here (Zone 3 -> 2 -> 1...); at THREE down the working is DISRUPTED (win condition); all five down = staunched as clean as this ever gets.")
+refplain("ZONE 3 TEMPO, restated for this fight (alarm ~6 min): 1-4 Frozen | 5-8 Dragging | 9-12 In step | 13-17 Quickened | 18-20 Unmoored. Any natural 1 or 20 also triggers a SECONDARY HORROR -- d20 on the master card's sub-table (delayed resolution / retroactive damage / echo-step / doubled-then-lost turn / initiative reshuffle). The cultists cheat it, the party endures it, and every anchor destroyed evens the game a step -- the mechanical arc IS the story arc.")
+statcard([
+    "**GAELEN THE ROOT-TWISTER (Apex Villain -- full sheet: Npcs/new mythic dawn leader)**",
+    "Magic 21 (cannot fail a Magic roll)  Agility 17  Guile 15  Might 8",
+    "HP 40 (Paradise Mantle: regen -- outheal or shut off)  |  FP 35  |  DR 22 (23 vs spells)",
+    "Mythic Dawn chitin skin; Daedric graft-arm acts on its own initiative.",
+    "HE IS NOT HERE TO DIE: at disruption (3 anchors down) he PHASES -- the collapsing",
+    "weather releases his half-untimed soul and he falls back to the Eldergleam plan.",
+    "If somehow cornered before that, he spends everything to phase early.",
+    "",
+    "**JASPER AVALON (lieutenant -- ~AP 10 character build; he does NOT retreat)**",
+    "Dunmer mage, THE ATRONACH. Might 4  Agility 6  Magic 19  Guile 12",
+    "HP 9 (glass -- his defense is absorption and ash)  |  FP 16  |  DR 8 (Ebonyflesh up)",
+    "SPELL ABSORPTION (Atronach stone): once per combat, negates a hostile spell",
+    "and regains its FP cost.  Ancestor's Wrath (Dunmer): 1/adventure fire aura.",
+    "Casts: Incinerate (9 FP, 12 dmg) | Ash Shell (4 FP, Might roll or encased 2 rds)",
+    "| Ash Rune (10 FP) | Lightning Bolt (3 FP). Tide-shard graft: cheats Tempo.",
+    "FIGHTS TO THE END defending the ritual space. Dies here. One-and-done.",
+])
+label("THE JASPER REVEAL (via Gaelen -- this is how the consent lands loud)", red=True)
+gm("Present the recognition to Davinia's player first and plainly: Davinia KNEW this man -- Jasper Avalon, dead in the Pale Lady's tomb -- and Ismara holds that memory. What she does with recognizing him is hers. Then GAELEN (mild, without pausing his work): \"It seems you were familiar with this vessel... that is unfortunate, for he is gone. As for his flesh -- he gave it to the Dawn.\"")
+plain("Jasper was a secret Dagon devotee IN LIFE -- a lone worshipper, long before he died in the Pale Lady's tomb. Nothing was stolen. If the party tries to TALK to him, he CAN speak -- and what he says is worse than silence: he is content. The empty, discarded man was told his emptiness was HOLY, and he gave himself gladly, because it was the first time anything ever wanted him.")
+gm("VICTIM vs WILLING is the differentiator from the Echo: Kyboh was stolen (rage FOR him); Jasper GAVE himself (nothing to save). Do not soften either half.")
+label("GAELEN'S ESCAPE (at 3 anchors down -- run it exactly)", red=True)
+readaloud([
+    "The third anchor cracks and the whole undercroft LURCHES -- the red light guttering, the sap-lines withering back out of the root like ivy burned at the stem. Gaelen watches it happen with his head tilted, the way a man watches weather ruin a picnic.",
+    "'Hm. Unfinished, then.' He looks at you -- genuinely, unhurriedly interested. 'You finally showed up. Do you know, I had begun to think no one was coming, all these years. How wonderful. Something new.'",
+    "The broken time reaches for him and he steps INTO it, the way you would step into a doorway -- and he is a half-second behind himself, and then a full second, and then he is an afterimage the room forgets to keep.",
+])
+gm("He falls back to the ELDERGLEAM -- the primary plan the party has never touched, still running perfectly. They did not beat him; they interrupted a man who reached for a second prize. He recurs with a grievance now attached -- curious, not vengeful. Scarier.")
+exit_("The weather stills. The mountain stops shaking. It is not healed.", "12  THE SEALING & THE COST")
+
+# ---- SCENE 12
+scene("12   THE SEALING & THE COST -- staunched, not sealed")
+subtitle("The curtain. Rewards, the seeds that finish growing AFTER, and the doors this module opens.")
+readaloud([
+    "The masters come down the inner stair when the shaking stops -- slowly, holding the walls, men walking after weeks at an oar. Arngeir stands a long time at the wounded root, where the black lines have withered to scars in the stone.",
+    "'Staunched,' he says at last. 'A cut finger, bound. The body of the thing that attacked this mountain is still out there, and still working.' He looks at each of you in turn, and bows -- the full bow, to all of you. 'The Way of the Voice is open to you. It is a small thing to offer the people who held up the sky. It is what we have.'",
+])
+label("REWARDS")
+bullet("**1 AP each** (a full fire completed) -- plus dragon-kill AP if any dragon somehow died this module (it should not have).")
+bullet("**The Way of the Voice:** High Hrothgar open as sanctuary + scholarship; the masters know WHERE Word Walls are for specific shouts a seeker might want (they cannot shout them; reference, not power).")
+bullet("**Loot:** the zealots' tide-shards, inert now -- crystallized wrong-time, priceless to a researcher and mildly unwholesome to carry. NORA wants them badly and says so out loud. Whether ISMARA wants them is her player's business -- just make sure the player knows what they are. Klimmek's gratitude, and Ivarstead's -- the town half-returns as word spreads the mountain has quieted.")
+label("SEEDS PLANTED (they finish growing AFTER the module -- do not harvest early)")
+bullet("**Saijah's realization (station 7, ON THE ROAD OUT, days later):** gildergreens + the Throat + the word TOWER + TWO migraines finally assemble -- one tree, it is a Tower, TWO Towers are under attack, and there is a HEART she has never found. The module plants; the realization grows. Let her player say it first if they get there.")
+bullet("**The heart-hunt -> DANICA:** the true Eldergleam's location is the chosen sisters' deepest secret (a women's mystery -- no man may ever know). Three living sisters: Danica, one in Whiterun (cold to the Lanterns -- Danica's letters made the party the temple's cautionary tale), one visiting Solitude. The road to the cure runs through the reconciliation. The braid is now load-bearing.")
+bullet("**The two cure-routes (set up, never forced):** KYNARETH -- heal the heart (needs Danica). HIRCINE -- no Danica needed at all: the Alpha and the cull. If reconciliation looks impossible, Hircine's road becomes the shortcut priced in Saijah's soul.")
+bullet("**Node-saving (the standing open door):** every gildergreen node is SAVEABLE; the party has simply kept not going. From here on, offer node-defense chances on the road; the Solitude node (slow, strong, a chosen sister already present) is the best first savable win.")
+bullet("**Valerius knows everything** the Ring saw -- the Tower, the apocalypse, the party's capabilities. File it; spend it later.")
+bullet("**Gaelen, unfinished:** \"you finally showed up.\" The Eldergleam campaign continues off-screen. He is curious about them now. That is worse.")
+label("CONSEQUENCE LEDGER (what the OTHER fires did while they climbed)")
+bullet("**Fire A (Krusp & Danica at Windhelm):** rumor arrives -- the plague fought to a standstill at a cost. Danica's cough, when they finally hear her again, has teeth in it. [Attrition canon: her lungs.]")
+bullet("**Fire C (ignored -- Bleak Falls):** Antoine rebuilds unobserved on top of the Dragonstone. The 6-8 week Strain 2.0 clock RUNS. Esbern says the Dragonstone line again on the road out. He will keep saying it.")
+exit_("The cart rolls down out of the grey hills with the mountain quiet behind it -- and the Dragonstone pressure, the Dirge reckoning, and the road to Bleak Falls ahead.", "NEXT MODULE: FIRE C / BLEAK FALLS")
 
 # ---------------------------------------------------------------- write
 rtf = HEADER + "".join(buf) + FOOTER
