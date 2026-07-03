@@ -243,11 +243,13 @@ COMMON INGREDIENTS (FOUND IN SKYRIM WILDERNESS)
 Blue Mountain Flower
   VITALIS [P]
   CAECITAS [S]    (resist magic property in Skyrim maps to concealment of self)
+  FORTITAS [T]    (hardy enough to grow at altitude)
   Use: Primary healing source. Foundational recipe ingredient.
 
 Wheat
   VITALIS [P]
   FORTITAS [S]   (fortify health maps to physical hardening/resilience)
+  GRAVITAS [T]   (a grounding staple grain)
   Use: Most common VITALIS secondary. Combines with Blue Mountain Flower
   for the basic healing potion. Clean: no opposition interactions.
 
@@ -319,6 +321,9 @@ Juniper Berries
 Luna Moth Wing
   CAECITAS [P]   (invisibility)
   FORTITAS [S]   (fortify one-handed — physical empowerment)
+  ANIMA [T]      (moon-touched, spirit-adjacent — and quietly load-bearing: this trace is
+                  part of why this ingredient matters to the Note Three cure design later.
+                  Say nothing; it reads as flavor until it doesn't.)
   Use: Primary invisibility source. Clean CAECITAS carrier.
 
 Nirnroot
@@ -571,11 +576,16 @@ Chokeberry
 Lavender
   ANIMA [P]
   VITALIS [S]
+  CAECITAS [T]   (a faint quieting-of-the-senses, matching its calming reputation)
   Use: Common, grows wild, easy to find. Calm and mental clarity map cleanly to ANIMA; the
   VITALIS secondary is the gentle restorative warmth lavender carries in most folk use.
   Pairs cleanly with Mora Tapinella: ANIMA amplifies via Affinity (strong magicka), and the
   VITALIS[S]/VENITAS[S] Secondary Negation mutes Tapinella's poison trace instead of
   leaving it or amplifying it.
+
+Weeper's Tears -- VENITAS[P], GRAVITAS[S]. Uncommon. A marsh venom, wax-sealed -- boggy
+  water drags at whatever it touches, on top of the poison. Sold at Ahkari's tent fair
+  (Fire B module) as a raw ingredient, not a finished item.
 
 BATCH TWO -- toward the 100-150 target (recognizable names, original Essence design; terse
 entries below match the original catalogue's own concise style rather than the longer
