@@ -1085,7 +1085,9 @@
     "leash",
     "scrying",
     "irremovable",
-    "severance-target"
+    "severance-target",
+    "reads-orions-senses-not-thoughts",
+    "cannot-hear-telepathy"
    ]
   },
   {
@@ -2554,6 +2556,84 @@
     "fifth-soldier",
     "bjorns-deliberate-choice",
     "mila-won-her-over"
+   ]
+  },
+  {
+   "id": "ahkari",
+   "name": "Ahkari",
+   "type": "npc",
+   "aliases": [
+    "ahkari"
+   ],
+   "tags": [
+    "khajiit",
+    "caravan-merchant",
+    "fire-b-respite",
+    "information-broker",
+    "noticed-alfonso"
+   ]
+  },
+  {
+   "id": "arngeir",
+   "name": "Master Arngeir",
+   "type": "npc",
+   "aliases": [
+    "arngeir"
+   ],
+   "tags": [
+    "greybeards",
+    "high-hrothgar",
+    "way-of-the-voice",
+    "fire-b-scholar",
+    "cannot-be-spared-from-the-holding"
+   ]
+  },
+  {
+   "id": "high-hrothgar",
+   "name": "High Hrothgar",
+   "type": "location",
+   "aliases": [
+    "high hrothgar",
+    "the monastery"
+   ],
+   "tags": [
+    "throat",
+    "greybeards",
+    "way-of-the-voice",
+    "fire-b-part-two",
+    "tower-hard-reveal"
+   ]
+  },
+  {
+   "id": "undercroft",
+   "name": "The Undercroft (High Hrothgar)",
+   "type": "location",
+   "aliases": [
+    "undercroft",
+    "the root-cellar"
+   ],
+   "tags": [
+    "throat",
+    "gaelen-ritual-site",
+    "zone-3",
+    "worst-temporal-weather",
+    "jasper-dies-here"
+   ]
+  },
+  {
+   "id": "tide-shard",
+   "name": "Tide-Shards",
+   "type": "concept",
+   "aliases": [
+    "tide-shard",
+    "tide shards"
+   ],
+   "tags": [
+    "dagonite-graft",
+    "cheats-tempo",
+    "destructible-called-shot",
+    "loot-crystallized-wrong-time",
+    "nora-wants-them"
    ]
   }
  ]

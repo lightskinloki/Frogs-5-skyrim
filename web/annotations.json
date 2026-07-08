@@ -123,12 +123,6 @@
   },
   {
    "src": "gear",
-   "type": "leaks-to",
-   "dst": "valerius",
-   "why": "No opsec ever: GEAR within Orion's earshot is GEAR within the Ring's earshot."
-  },
-  {
-   "src": "gear",
    "type": "needs",
    "dst": "resonator",
    "why": "Stage 3 quest object - reads soul-gem harmonics; unlocks the Arkngthamz revelation."
@@ -374,6 +368,30 @@
    "why": "Corrupt the THROAT-TOWER from its undercroft/base (NOT the Time-Wound — the time-distortion is an incidental side effect of corrupting a Tower that happens to have a Time-Wound). Fire B's boss and his table INTRODUCTION; lieutenant Jasper Avalon is fought on-site."
   },
   {
+   "src": "gaelen",
+   "type": "rituals-in",
+   "dst": "undercroft",
+   "why": "Fire B Scene 11: the spiral array of anchor-shards feeding sap-lines into the mountain's exposed root. He phases out at 3/5 anchors down (win condition) and falls back to the Eldergleam plan - not killed here."
+  },
+  {
+   "src": "jasper",
+   "type": "dies-at",
+   "dst": "undercroft",
+   "why": "Fire B Scene 11: fights to the end defending the ritual, unlike Gaelen who escapes. One-and-done, contrasted deliberately with Kyboh/the Echo (stolen vs. willing)."
+  },
+  {
+   "src": "arngeir",
+   "type": "leads",
+   "dst": "greybeards",
+   "why": "Fire B Scene 10: speaks for the circle holding the Throat's Tower together by Voice and endurance; cannot be spared from the holding to fight or descend."
+  },
+  {
+   "src": "ahkari",
+   "type": "noticed",
+   "dst": "alfonso",
+   "why": "Fire B Scene 3, rumor 20: 'You've a sword that watches people' - then looks away on purpose and refuses to ask more. The one rumor she doesn't follow up on is itself the tell."
+  },
+  {
    "src": "ylva",
    "type": "offended-by",
    "dst": "mythic-dawn",
@@ -396,12 +414,6 @@
    "type": "is-secretly",
    "dst": "dragonborn-question",
    "why": "LONG FUSE: nobody can sense or confirm a Dragonborn; the party assembles it themselves, Paarthurnax era. Prep never names him."
-  },
-  {
-   "src": "mila",
-   "type": "never-learns",
-   "dst": "milas-mother",
-   "why": "No discovery thread exists. Her Ratway question has no holder of the answer; somewhere on the road it quietly stops being asked. Do not resolve."
   },
   {
    "src": "hayloft-girl",
@@ -608,6 +620,12 @@
    "why": "Road to Riften: soul two. Orion said the Dragonborn question out loud. Nobody listened."
   },
   {
+   "src": "saijah",
+   "type": "killed",
+   "dst": "krosulhah",
+   "why": "Ch.19: mountain pass, the road back to Riften from Winterhold - Saijah's chain-lightning arrow through GEAR (lodged in the dragon's ruined eye socket) delivered the final blow. This is what drew Hircine's attention (saijah 2, GM notes)."
+  },
+  {
    "src": "krusp",
    "type": "schism-with",
    "dst": "lanterns",
@@ -692,6 +710,18 @@
    "why": "B-team ripple: Riverwood triggered the Thalmor; Delphine taken. Esbern is the Blades last free member - why his Dragonstone ask carries everything."
   },
   {
+   "src": "esbern",
+   "type": "last-free-member-of",
+   "dst": "blades",
+   "why": "Delphine captured by the Thalmor (Riverwood ripple). Standing warrant on him too - the reason he rides hidden under the cart floor (Fire B Scene 1) rather than openly."
+  },
+  {
+   "src": "esbern",
+   "type": "wants",
+   "dst": "dragonstone",
+   "why": "'Bleak Falls Barrow. There is a stone in it... Everything we do until we have that stone is a flinch, not a plan.' Planted, not resolved, across every module - he says it again on the road out of Fire B (Ignored Bleak Falls is the Fire C escalation, Ch.24 world-state delta)."
+  },
+  {
    "src": "aventus",
    "type": "commissioned",
    "dst": "grelod",
@@ -708,6 +738,66 @@
    "type": "will-break",
    "dst": "krusp",
    "why": "Rising Tides (next gate-map tier): the Markarth siege is where Dawnbringer shatters - a major attrition-ledger entry waiting."
+  },
+  {
+   "src": "rahgot",
+   "type": "commands",
+   "dst": "otar",
+   "why": "Dragon cult doc: Rahgot is Supreme Commander of Surface Operations, coordinating three simultaneous fronts after Krosulhah's loss compressed the Cult's timeline. Otar runs the Siege of Markarth (pre-positioning Draugr in the Reach, triggers Gate 3)."
+  },
+  {
+   "src": "rahgot",
+   "type": "commands",
+   "dst": "nahkriin",
+   "why": "Dragon cult doc: same three-front coordination - Nahkriin runs the False Flag Initiative (Eastmarch/Pale border), activated ahead of schedule. See nahkriin -> ivarstead/whiterun edges for what that operation actually does."
+  },
+  {
+   "src": "rahgot",
+   "type": "points-to",
+   "dst": "konahrik",
+   "why": "One of the five priest-pins on Esbern's board (with Nahkriin, Vokun, Otar, Morokei). The carving in his own tomb at Forelhost names the sixth mask above them - a secret even he doesn't act like he consciously holds; his behavior (coordination over fury) is the only outward sign."
+  },
+  {
+   "src": "otar",
+   "type": "points-to",
+   "dst": "konahrik",
+   "why": "Same five-priest structure as Rahgot. Otar the Mad building quietly in the Reach instead of raging is the second data point in Esbern's anomaly (old-texts fury vs. observed patience) - the thing Ismara's Rahgot's-tomb information, if offered, would explain."
+  },
+  {
+   "src": "davinia",
+   "type": "witnessed",
+   "dst": "konahrik",
+   "why": "Ch.23 (lines 177-186): Ismara/Davinia read the carving inside Rahgot's tomb at Forelhost - five priests, a sixth mask, 'when the five become one, the faithful shall ascend' - and delivered the interpretation live. Esbern was NOT present (Ch.22: he was outside with the cart / among his books). She holds the only copy of this outside the Cult itself."
+  },
+  {
+   "src": "esbern",
+   "type": "may-learn-if-told",
+   "dst": "konahrik",
+   "why": "Fire B design (Scene 2 conditional beat, this session): fires ONLY if a player volunteers what Davinia/Ismara saw in Rahgot's tomb. He cannot arrive at KONAHRIK on his own - only at the unexplained anomaly (Rahgot the Angry / Otar the Mad's reputation vs. their patient, coordinated behavior since waking) that her information would resolve. Never scripted, never fished for."
+  },
+  {
+   "src": "nahkriin",
+   "type": "poisoned",
+   "dst": "ivarstead",
+   "why": "False Flag Initiative (post riften doc): a planted Shadowmark points locals at the Thieves Guild for the well. Civil-war paranoia machinery, not personal - but the town is frightened twice over by the time Fire B arrives (the well, and now the mountain), and Scene 8 as built doesn't play that first layer. Open question for the GM: fold it into Klimmek's welcome, or rule the mountain has eclipsed it."
+  },
+  {
+   "src": "nahkriin",
+   "type": "framed",
+   "dst": "maven",
+   "why": "The Ivarstead Shadowmark points at Maven's Guild specifically, not the Guild in general - one more log on the civil-war/faction paranoia fire Nahkriin is building (also the burned farm at Whiterun, the desecrated temple at Markarth)."
+  },
+  {
+   "src": "nahkriin",
+   "type": "burned",
+   "dst": "whiterun",
+   "why": "Same False Flag Initiative campaign as the Ivarstead well - a farm burned to deepen Stormcloak/Imperial mutual suspicion. Dragon Cult Tier 1 background rot, mature by the time the party reaches Fire B."
+  },
+  {
+   "src": "dragon-cult",
+   "type": "commanded-by",
+   "dst": "rahgot",
+   "why": "Dragon cult doc: Rahgot is Supreme Commander of Surface Operations, coordinating Antoine (Scourge Protocol), Nahkriin (False Flag), and Otar (Siege of Markarth) after Krosulhah's death compressed the Cult's timeline from passive observation to active campaign."
   },
   {
    "src": "eola",
@@ -861,15 +951,21 @@
   },
   {
    "src": "saijah",
-   "type": "bears",
+   "type": "formerly-bore",
    "dst": "rapier",
-   "why": "'Saijfonso' (Ch.23): she recovered and now carries/wields the discorporate Alfonso. Skin-to-iron auto-infected her (Hircine burns it out); while he is Wakeful he acts and speaks through her. Stage 0 Bearing - one fight carries no Tenancy risk."
+   "why": "'Saijfonso' (Ch.23): she carried/wielded the discorporate Alfonso for a stretch - skin-to-iron auto-infected her (Hircine burned it out); while he was Wakeful he acted and spoke through her. SUPERSEDED Ch.24: after Nora saturated toward the Tenancy on telekinetic contact alone (no touch needed), the company stopped physically bearing him at all. Saijah specifically can't hold Kynareth's channel and Alfonso at once, so she stepped back for good, not just this leg."
+  },
+  {
+   "src": "orion",
+   "type": "carries",
+   "dst": "rapier",
+   "why": "Ch.24 onward: moved telekinetically, whoever's turn it is - Orion did it for the Grelod kill and currently carries him on the road to Ivarstead. Rotates; Bjorn decides logistics of where he rides in the cart."
   },
   {
    "src": "ylva",
    "type": "hates",
    "dst": "saijah",
-   "why": "Ch.23: Hircine's favour fell on Saijah unasked, AND Saijah now carries/wields Alfonso (Ylva's kindred). The disgust, the old pull, and an unnamed grief all vent at the one target she is allowed to hate."
+   "why": "Origin, Ch.23: Hircine's favour fell on Saijah unasked, AND Saijah carried/wielded Alfonso at the time (Ylva's kindred). The disgust, the old pull, and an unnamed grief all vented at the one target she was allowed to hate. Saijah no longer bears the rapier (Ch.24) but the rift it opened between them hasn't closed."
   },
   {
    "src": "ylva",
@@ -1010,6 +1106,18 @@
    "why": "His coronation legitimacy symbol (the Jagged Crown) was fused with Namira by Alfonso and can never be recovered or safely worn. He does not know this yet; discovering Alfonso is responsible triggers his death-and-ruin campaign against Alfonso."
   },
   {
+   "src": "morokei",
+   "type": "wants",
+   "dst": "jagged-crown",
+   "why": "Dragon cult doc: the Cult can't use the desecrated Crown for legitimacy, but may attempt to steal it for Morokei's apotheosis ritual (an ancient symbol of Nordic divine right - a potential power source). Labyrinthian is staging the ritual."
+  },
+  {
+   "src": "morokei",
+   "type": "will-collide-with",
+   "dst": "valerius",
+   "why": "Dragon cult doc: both want the same Crown for opposite reasons - Valerius for political legitimacy, the Cult for the apotheosis ritual. Flagged to create conflict at Gate 3 (Blood of a Prince) if both factions move on Solitude. Currently unplayed."
+  },
+  {
    "src": "maven",
    "type": "already-holds-evidence-on",
    "dst": "orion",
@@ -1053,6 +1161,17 @@
   }
  ],
  "secrets": [
+  {
+   "secret": "Ismara runs the party's telepathic network - it is not innate to them",
+   "know": [
+    "ismara"
+   ],
+   "misbelieved-by": [
+    "party (thinks the telepathy is simply theirs, has forgotten or never realized she operates it)"
+   ],
+   "detonation": "Every silent tactical exchange, every thought they thought was private between each other, has been running through her the whole time - a backdoor into every party member's mindscape they never consented to and never noticed using. Reframes the telepathy itself as one more thing she's quietly holding, not a party asset.",
+   "seed-note": "GM: needs one small, non-load-bearing reminder planted before the real reveal (this session flagged it, not yet placed) so it doesn't land out of nowhere later."
+  },
   {
    "secret": "The rapier is Alfonso's phylactery (the kill-switch)",
    "know": [

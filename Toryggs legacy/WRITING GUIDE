@@ -352,3 +352,119 @@ WORKED EXAMPLE: see `The Forelhost Codex -- Ismara's Extract`, NOTE ONE. Every r
 visible in it -- the tumble, the capitalized genuine emphasis (HARD TO SEE) with no comment
 on the emphasis, the real test results, the confidence, and the ending on running out of an
 ingredient rather than on the law she just discovered.
+
+IX. SPOKEN NPC VOICE -- DIALOGUE AND IN-WORLD PERFORMANCE
+=======================================================
+
+Section VIII is about writing that has no audience. This section is the opposite case --
+dialogue and in-world performance (a character speaking, a storyteller telling a story) --
+which DOES have an audience, but the audience is other characters in the fiction, not the
+table. The failure mode here is different from VIII's ironic distance, but it is the same
+root cause: the AI performing a person instead of writing one. It surfaced hard in the Fire B
+redraft (Esbern's Scene 1-2 dialogue, Ahkari's fireside story) and cost a full stop on a GM
+read-through. Written down so it is never re-derived from scratch.
+
+THE ONE PRINCIPLE: A CHARACTER IS A PERSON WITH STAKES, NOT A VEHICLE FOR AN IDEA. Every line
+has to come from what THIS person, in THIS moment, actually wants -- reassurance, information,
+to be believed, to not be alone. It cannot come from what the scene needs the audience to
+learn, or from a generic register ("wise old mentor," "sassy merchant," "grim warrior") doing
+the talking instead of the individual.
+
+--- 0. THE ROOT RULE -- STATED FLATLY, ON PURPOSE, BECAUSE SUBTLETY IS THE FAILURE MODE ---
+This rule is written in blunt, repeated, over-explicit language DELIBERATELY. Every rule below
+this one is a specific symptom of breaking this one rule. An AI that is bad at WRITING subtext
+cannot be trusted to correctly JUDGE its own subtlety either -- so this cannot be stated once,
+elegantly, and left to be inferred. It has to be stated so plainly that it cannot be misread.
+
+  THE RULE, IN PLAIN WORDS: DO NOT NARRATE THE SUBTEXT. EVER. If a character has a private
+  reason, a want, a feeling, or an intention behind an action, THE READER DOES NOT GET TOLD
+  THE REASON IN WORDS. The reason must be proven ONLY by what the character visibly does.
+  The moment a sentence NAMES the motive, the subtext stops being subtext -- it becomes a
+  label glued onto the thing, and the thing itself goes flat.
+
+  THE SAME RULE, RESTATED A SECOND WAY: write WHAT a character does. Do not write WHY, unless
+  a character says the why out loud themselves, in dialogue, for their own reason to say it.
+  Narration is not allowed to know a character's private motive and announce it to the reader.
+
+  THE SAME RULE, RESTATED A THIRD WAY, AS A TEST: could a camera film this line? A camera can
+  film a man crossing a room and putting his hand out. A camera CANNOT film "he doesn't want
+  an audience for this" -- that is an invisible internal state, not an action. If a line
+  describes something a camera could not capture, it is narrating subtext instead of writing
+  action. Cut the clause, or convert it into something visible.
+
+  WORKED EXAMPLE (Fire B, this session, the exact failure that produced this rule):
+  CUT: "Klimmek finds them at the loading -- doesn't wait for the gate, doesn't want an
+  audience for it." This NAMES his motive ("doesn't want an audience") instead of showing it,
+  and it is ALSO two negations stacked in one clause (independently banned -- see the
+  fingerprint list below).
+  KEPT: "Klimmek finds them at the loading, cart still half-packed, and goes straight to
+  Bjorn." Nothing about his motive is stated. The privacy, the lack of ceremony, the fact that
+  he isn't making a show of it -- ALL of that is communicated MORE effectively than the cut
+  version, purely through WHERE the action happens (the loading, not the gate) and WHAT he
+  does (goes straight to one person, not the group). The reader infers the exact same thing
+  the cut version stated outright. Nothing was lost by cutting the stated motive. Everything
+  was gained -- this is the whole point of subtext, and it is why stating it destroys it.
+
+  MORE FAR MORE CAN BE COMMUNICATED BY STRATEGICALLY NOT SAYING SOMETHING THAN BY SAYING
+  EVERYTHING. Trust the reader. Every other rule in this section is downstream of this one:
+  the unearned lecture, the meta-aware line, the performer who interrupts their own
+  performance, the mic-drop -- every single one is a different way of stating a subtext that
+  should have been left to show itself through action alone.
+
+--- 1. NO SELF-CONTRADICTING SINCERITY ---
+Do not write a line that performs an emotion while a nearby stage direction or follow-up line
+undercuts it (a character who says "I'll assume that was deliberate" and then immediately
+asks "...was it, though?" -- the second line retroactively makes the first one a lie). If a
+character is choosing to believe something, let them believe it. The doubt, if there is one,
+belongs in a LATER beat, not stapled to the same breath.
+
+--- 2. NOBODY GETS TO LECTURE WHO HASN'T EARNED IT ---
+A character correcting, scolding, or delivering a "here's what you did wrong" beat needs to
+have standing to do that in this specific relationship, right now. Being older, wiser, or
+right is not standing. If the scene doesn't call for a lecture, don't dress a line up as one
+even briefly, and don't undercut a moment of genuine warmth by having the character suddenly
+assert they "know what's really going on" one line later. Let warmth stay warmth.
+
+--- 3. NO META-AWARE LINES THAT BREAK A REAL REACTION ---
+"I am allowed to notice when I am being made fun of, you know" is the shape to avoid: a
+character stepping half outside the scene to comment on the scene, which reads as the writer
+signaling cleverness rather than the character having a feeling. If a character notices
+something, they react to it in-scene (leave, deflect, call it out plainly) -- they do not
+announce that they have the right to notice it.
+
+--- 4. PERFORMERS DO NOT BREAK THEIR OWN PERFORMANCE ---
+This applies specifically to in-world storytellers, orators, bards -- anyone performing a
+story to other characters. A real performer, especially in an oral-tradition culture, does
+NOT stop mid-story to editorialize about their own telling ("this is the part I like best").
+That is amateur, and it breaks the fiction that this is a practiced, professional performance.
+If the performer has a favorite part, it shows in HOW they tell it (slowing down, relishing
+detail), never in a meta-comment about liking it.
+
+--- 5. NO "NOT X, IT'S Y" MIC-DROPS ---
+Watch for the rhetorical flourish where a line sets up a wrong idea just to knock it down with
+a punchier alternative ("It isn't a hymn -- it's a plan," "Alduin isn't their god. He's their
+door."). One or two of these per scene reads as a writer reaching for a quotable line, not a
+person talking. A person arriving at a hard realization stumbles, repeats themselves, trails
+off, does business with their hands -- they do not land a clean epigram on the first pass.
+
+--- 6. GROUND EVERY IN-WORLD LEGEND IN THE ACTUAL NARRATIVE ---
+An NPC telling a story about the party, or about something "everyone's heard," must be built
+from what genuinely happened, per the narrative chapters -- never invented from scratch, even
+as a safe-feeling reskin. An invented story about an unrelated event fails on two counts: it
+risks being bad on its own writing merits, AND it wastes the actual point of the beat, which
+is usually to show how the world currently perceives the party. Check the narrative folder
+FIRST. The right true event is almost always sitting there already.
+
+THE AI FINGERPRINTS TO HUNT AND CUT (spoken-dialogue specific, in addition to Section VIII's
+list, which still applies to any internal-monologue-shaped line):
+  - Self-contradicting sincerity (says X, immediately implies not-X).
+  - An unearned lecture, even a gentle one.
+  - A character breaking their own scene to comment on it ("I am allowed to notice...").
+  - A performer interrupting their own performance to editorialize.
+  - The "not X, it's Y" mic-drop, especially stacked more than once in a scene.
+  - Every character defaulting to the same register -- smug, arch, quippy, faintly ironic --
+    regardless of who they are or what they actually want in the scene ("adult animation
+    dialogue": characters as vehicles for a knowing tone instead of individuals with real
+    stakes).
+  - Narrating a character's private motive, want, or unspoken feeling instead of just their
+    action (Rule 0's camera test: if it isn't filmable, it's stated subtext, and it must go).

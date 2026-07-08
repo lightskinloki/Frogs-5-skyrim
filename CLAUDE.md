@@ -60,6 +60,20 @@ the source of record. When they disagree, the repo wins.
    RED FLAG that you are running on the thin summary instead of the source. When you notice
    it — or the GM does — stop and re-read AI_README plus the relevant docs before continuing.
 
+7. NEVER NARRATE SUBTEXT — SHOW ONLY THE ACTION. If a character has a private motive, want,
+   or unspoken feeling behind something they do, write what they DO, never a clause naming
+   WHY. THE CAMERA TEST: could this line be filmed? A camera can film a man crossing a room.
+   It cannot film "he doesn't want an audience for this" — that's an invisible internal
+   state, not an action. Stating the subtext in words destroys it; the reader infers more
+   from the bare action alone than from a sentence that announces the feeling.
+   (The failure: "Klimmek finds them at the loading -- doesn't wait for the gate, doesn't
+   want an audience for it," cut to "Klimmek finds them at the loading, cart still
+   half-packed, and goes straight to Bjorn." The second version communicates MORE with the
+   motive removed. Full statement, restated multiple ways: WRITING GUIDE Section IX, Rule 0
+   — also in AI_README Rule 5 and AI_REASONING_PATTERNS #16. Repeated across files on
+   purpose: an AI bad at writing subtext cannot be trusted to correctly judge its own
+   subtlety, so this does not get to live as one inferrable sentence anywhere.)
+
 ## WORKFLOW (detail in AI_README + the docs themselves)
 - LOCAL-FIRST: never git commit or push unless the GM explicitly asks THIS turn.
 - Plan in scratch (one working doc); do not edit canon source-of-truth until the GM signs

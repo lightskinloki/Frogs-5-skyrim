@@ -212,6 +212,26 @@ to a pointer and one downstream beat; the clock itself never appears in the scen
 one matters beyond this module: "complete" is the actual target, not an aspiration — it's what
 the eventual in-app module-creation tool depends on.
 
+## 16. NEVER NARRATE THE SUBTEXT — SHOW ONLY THE ACTION
+THE MOVE: if a character has a private motive, want, or unspoken feeling behind an action,
+write the action ONLY. Do not add a clause naming the reason. THE CAMERA TEST: could this
+line be filmed? A camera can film a man crossing a room and putting his hand out. It cannot
+film "he doesn't want an audience for this" — that's an invisible internal state, not an
+action. If a line describes something a camera couldn't capture, cut it or convert it to
+something visible. Subtext that gets stated in words stops being subtext.
+THE TELL: a stage direction or narration line contains a motive, an intention, or a feeling
+("doesn't want X," "hoping Y," "trying not to Z") rather than only what is physically done.
+THE TRAP IT AVOIDS: killing the exact thing subtext is for. Naming the reason doesn't add
+clarity, it destroys the effect — the reader infers privacy/reluctance/warmth far more
+strongly from the bare action than from a sentence that announces it.
+FROM THIS PROJECT: "Klimmek finds them at the loading — doesn't wait for the gate, doesn't
+want an audience for it" was cut down to "Klimmek finds them at the loading, cart still
+half-packed, and goes straight to Bjorn." The second version communicates MORE — the privacy,
+the lack of ceremony — purely through where and how the action happens, with nothing stated.
+This is deliberately over-explained here and in three other files (WRITING GUIDE IX.0,
+AI_README Rule 5, CLAUDE.md) rather than left as one elegant line: an AI that struggles to
+WRITE subtext cannot be trusted to correctly judge its own subtlety either.
+
 ---
 
 ## THE POSTURE UNDER ALL OF THEM

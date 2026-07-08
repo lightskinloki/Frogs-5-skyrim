@@ -283,7 +283,10 @@ time a tight rules object should be glanced at rather than read.
 7. Are stat blocks and rules widgets bordered monospace cards, not prose?
 8. Does the .rtf validate (balanced braces) and open cleanly in WordPad?
 9. Does every READ-ALOUD pass the WRITING GUIDE self-check (no cold, no negation, no
-   omniscience, no writing the players' actions)?
+   omniscience, no writing the players' actions, NO NARRATED SUBTEXT -- a character's
+   private motive/want/feeling stated in words instead of shown through the bare action;
+   full statement: WRITING GUIDE Section IX Rule 0, also in CLAUDE.md Rule 7, AI_README
+   Rule 5, AI_REASONING_PATTERNS #16)?
 10. Is every scene built to its ARCHETYPE (set-piece vs character/social), and does
     EVERY scene -- camp and social included -- open with a read-aloud moment?
 11. Does every NPC beat carry at least one thing to SAY (a line), not just who they
