@@ -74,6 +74,38 @@ the source of record. When they disagree, the repo wins.
    purpose: an AI bad at writing subtext cannot be trusted to correctly judge its own
    subtlety, so this does not get to live as one inferrable sentence anywhere.)
 
+## WORKFLOW GATES (added July 2026 after a session where every soft rule failed at once;
+## these are enforcement mechanisms, not guidance — each is verifiable by the GM at a glance)
+
+G1. THE CITATION GATE. No draft goes in front of the GM — dialogue, scene prose, or any
+    canon claim — unless the SAME message shows the source check first: file + line, QUOTED.
+    Not "I checked" — the actual quoted text. A draft with no citation above it is invalid;
+    the GM rejects it unread. This is the mechanical form of Rule 1: the check must be
+    VISIBLE in the output, because internal process cannot be audited and repeatedly wasn't
+    happening. (The failures this bought: Klimmek written from base-game Skyrim instead of
+    Ch.20-22; Bjorn characterized off three grep hits instead of his doc; "I don't have the
+    specifics" claimed about facts recorded in multiple repo files.)
+
+G2. READ-ONLY DEFAULT. "Check / look at / review X" produces a REPORT and zero edits,
+    always. Editing requires the GM to have said fix / change / add / write THIS turn.
+    Ambiguous instruction = ask one line, don't pick the more active interpretation.
+
+G3. NOTES ARE ANSWERED IN PLACE. The GM's bracketed annotations are resolved at the exact
+    spot they sit, each one read back referencing his note before the fix is applied. Never
+    relocate a note's edit, never reinterpret which scene it "should" apply to, never delete
+    a note without addressing it. His note placement IS the instruction.
+
+G4. BATCH SIZE OF ONE. Voice/prose fixes go one beat at a time: propose in chat, GM
+    corrects, apply only on his yes, then the next beat. No multi-fix sweeps — a wrong
+    assumption in fix two silently poisons fixes three through ten.
+
+G5. LINE-BY-LINE IS THE EDITING MODEL. Flag-passes (GM reads, marks problems, AI fixes the
+    marks) are RETIRED for prose — they assume the draft is mostly right with local errors,
+    and this project's failure mode is drafts wrong at the ROOT (wrong person, wrong facts,
+    wrong tone), where patching a mark just produces the next wrong version of the same
+    beat. Prose is built the way the Klimmek/Bjorn farewell finally got right: scene by
+    scene, line by line, together, nothing written to file until it has survived the GM.
+
 ## WORKFLOW (detail in AI_README + the docs themselves)
 - LOCAL-FIRST: never git commit or push unless the GM explicitly asks THIS turn.
 - Plan in scratch (one working doc); do not edit canon source-of-truth until the GM signs
