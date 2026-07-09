@@ -147,7 +147,7 @@ refplain("[PRODUCTION TASK, locked: build an interactive SVG pin-board prop -- h
 scene("2   ESBERN'S WEB -- the strategic briefing")
 subtitle("Runs on the moving cart, not a stop. Never a wall of lore -- he shows them the web and they pull answers out of it by touching pins.")
 readaloud([
-    "Esbern braces the folding board against his knees, timing it against the cart's sway, and unrolls a cracked hide map across it, weighting the corners with whatever's at hand. Over it goes the board itself, strung with pins and red-and-grey twine -- thirty years of a Ratway wall, folded down small enough to close in one motion and shove back under the floor if the wrong eyes ever look in.",
+    "Esbern pins the map to the cart's inside wall -- thirty years of work down under the sewers finally sees the light of day.",
 ])
 plain("**TWO COLORS OF THREAD, and he is fanatical about never letting them touch.**")
 label("RED THREAD -- the dragons (a war)")
