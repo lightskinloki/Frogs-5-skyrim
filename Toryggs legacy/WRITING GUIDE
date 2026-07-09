@@ -455,6 +455,30 @@ risks being bad on its own writing merits, AND it wastes the actual point of the
 is usually to show how the world currently perceives the party. Check the narrative folder
 FIRST. The right true event is almost always sitting there already.
 
+--- 7. THE PURPOSE TEST -- EVERY LINE NEEDS A REASON FOR THE SPEAKER, NOT THE READER ---
+Before writing a line of dialogue, ask what the SPEAKER gets out of saying it -- not what
+the audience needs to learn. If the only honest answer is "the reader needs this
+information," the line fails, no matter how true or relevant the fact is. Real dialogue
+serves the speaker's own want in that moment: to obtain something, to warn, to be believed,
+to ask for help, to change what happens next. A character does not state something merely
+because it is true and the writer needed it said out loud.
+THE TELL: dialogue that only restates something the LISTENER already knows about their own
+situation (their own capabilities, their own relationship to the speaker). Nobody says these
+things out loud to people who already know them -- that is the writer informing the reader
+through a character's mouth, not a person talking to another person.
+THE FIX: when a line of pure information has no reason to be spoken, look for something the
+character ALREADY, DEMONSTRABLY wants elsewhere in the scene, and route the line through
+that want instead of stating the fact bare.
+WORKED EXAMPLE (Fire B, this session): CUT -- Esbern, admitting he doesn't know where four
+sleeping dragon priests are, telling the party: "You're the first people I've had who can
+actually go look." The party already knows they're mobile and he isn't; the line tells them
+nothing, asks for nothing, changes nothing -- it exists only because the writer wanted the
+dynamic stated. FIXED -- tie the same admission to something he already, demonstrably wants
+(he wants the Dragonstone, stated plainly a few lines later in this same scene): "He looks
+at the blank spaces on the map where their tombs should be. 'That's what the Dragonstone
+would tell me. Without it, I'm guessing at graves.'" Same admission, now in service of his
+own want instead of decoration draped over a fact the writer needed conveyed.
+
 THE AI FINGERPRINTS TO HUNT AND CUT (spoken-dialogue specific, in addition to Section VIII's
 list, which still applies to any internal-monologue-shaped line):
   - Self-contradicting sincerity (says X, immediately implies not-X).
@@ -468,3 +492,5 @@ list, which still applies to any internal-monologue-shaped line):
     stakes).
   - Narrating a character's private motive, want, or unspoken feeling instead of just their
     action (Rule 0's camera test: if it isn't filmable, it's stated subtext, and it must go).
+  - A line that only restates something the listener already knows about themselves (Rule 7's
+    purpose test: what does the SPEAKER get from saying this, not the reader).

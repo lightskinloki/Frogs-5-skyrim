@@ -232,6 +232,24 @@ This is deliberately over-explained here and in three other files (WRITING GUIDE
 AI_README Rule 5, CLAUDE.md) rather than left as one elegant line: an AI that struggles to
 WRITE subtext cannot be trusted to correctly judge its own subtlety either.
 
+## 17. DIALOGUE NEEDS A REASON FOR THE SPEAKER, NOT THE READER
+THE MOVE: before writing a line, ask what the SPEAKER gets from saying it — not what the
+audience needs to learn. "The reader needs this information" is not a reason a character
+has to speak. Real dialogue serves the speaker's own want: to obtain something, warn, be
+believed, ask for help, change what happens next.
+THE TELL: a line that only restates something the LISTENER already knows about their own
+situation — nobody says that out loud to people who already know it. That's the writer
+informing the reader through a character's mouth, not a person talking to a person.
+THE TRAP IT AVOIDS: exposition dressed as dialogue — a fact the writer needed conveyed,
+draped over a character instead of routed through something they actually want.
+FROM THIS PROJECT: Esbern, admitting he doesn't know where four sleeping dragon priests
+are, drafted as "You're the first people I've had who can actually go look." The party
+already knows they're mobile and he isn't — the line asks for nothing, changes nothing.
+Fixed by routing the same admission through his established want (the Dragonstone, paid
+off a few lines later in the same scene): "That's what the Dragonstone would tell me.
+Without it, I'm guessing at graves." Same fact, now in service of a want instead of
+decoration. Full statement: WRITING GUIDE IX.7.
+
 ---
 
 ## THE POSTURE UNDER ALL OF THEM

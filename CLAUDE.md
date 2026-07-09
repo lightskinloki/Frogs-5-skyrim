@@ -74,6 +74,22 @@ the source of record. When they disagree, the repo wins.
    purpose: an AI bad at writing subtext cannot be trusted to correctly judge its own
    subtlety, so this does not get to live as one inferrable sentence anywhere.)
 
+8. EVERY LINE OF DIALOGUE NEEDS A REASON FOR THE SPEAKER, NOT THE READER. Before writing a
+   line, ask what the SPEAKER gets from saying it — not what the audience needs to learn.
+   "The reader needs this information" is not a reason a character has to speak. Real
+   dialogue serves the speaker's own want: to obtain something, warn, be believed, ask for
+   help, change what happens next. THE TELL: a line that only restates something the
+   LISTENER already knows about their own situation — nobody says that out loud to people
+   who already know it; that is the writer informing the reader through a character's
+   mouth. THE FIX: when a fact has no reason to be spoken, route it through something the
+   character already, demonstrably wants elsewhere in the scene.
+   (The failure: Esbern, admitting he doesn't know where four sleeping dragon priests are,
+   telling the party "You're the first people I've had who can actually go look" — they
+   already know they're mobile and he isn't; the line asks for nothing, changes nothing.
+   Fixed by routing the same admission through his established want, the Dragonstone, paid
+   off a few lines later in the same scene: "That's what the Dragonstone would tell me.
+   Without it, I'm guessing at graves." Full statement: WRITING GUIDE Section IX, Rule 7.)
+
 ## WORKFLOW GATES (added July 2026 after a session where every soft rule failed at once;
 ## these are enforcement mechanisms, not guidance — each is verifiable by the GM at a glance)
 
@@ -105,6 +121,23 @@ G5. LINE-BY-LINE IS THE EDITING MODEL. Flag-passes (GM reads, marks problems, AI
     wrong tone), where patching a mark just produces the next wrong version of the same
     beat. Prose is built the way the Klimmek/Bjorn farewell finally got right: scene by
     scene, line by line, together, nothing written to file until it has survived the GM.
+
+G6. THE DIALOGUE AUDIT GATE. Before any line of dialogue for a named character goes in
+    front of the GM, show an explicit pass/fail check against WRITING GUIDE Section IX's
+    numbered rules (0 through 7) IN THE SAME MESSAGE — not a claim that it was checked, the
+    actual rule-by-rule read against the draft, visible. A line with no shown audit is
+    invalid, same standing as an uncited canon claim under G1. This exists because self-
+    auditing was happening internally, inconsistently, and invisibly — fixing whichever rule
+    was most recently flagged while a DIFFERENT rule quietly broke in the same draft (fix
+    the negation, a mic-drop appears; fix the mic-drop, an omniscience error appears). The
+    GM was doing the checklist by hand, one violation at a time, across many rounds, because
+    the checklist was never actually run in full before a draft was shown. It has to be run
+    in full, every time, and the run has to be visible or it isn't verifiable.
+    NAME THE ACTUAL FAILURE MODE, NOT A EUPHEMISM FOR IT: this is not a "generic register
+    that reads fine on a first pass." It is a specific, recognizably bad register — smug,
+    quippy, mic-drop-hungry, performing cleverness instead of writing a person — and it was
+    caught immediately, every time, by the GM. It never passed unnoticed. Do not describe it
+    as subtle or as a plausible default; it is neither.
 
 ## WORKFLOW (detail in AI_README + the docs themselves)
 - LOCAL-FIRST: never git commit or push unless the GM explicitly asks THIS turn.
