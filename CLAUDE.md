@@ -30,6 +30,18 @@ the source of record. When they disagree, the repo wins.
    "additive multiplier" convention was invented mid-session while the real rule —
    multipliers MULTIPLY, per legendary difficulty's Formula of Pain examples — sat
    already-read in the transcript. Mechanics math felt exempt from Rule 1. It is not.)
+   "I NEED TO CHECK" MEANS OPEN A FILE, NOT ASK THE GM. Not knowing something is a search
+   query, not a stopping point and not a question back to him — the compendium exists
+   specifically so this never has to be his problem to solve. Before asking him anything,
+   separate what kind of gap it actually is: a FACTUAL gap (what's already established,
+   what a document already says, how a scene is already structured) gets checked, always,
+   silently, before you speak — asking him wastes his attention on something a Grep already
+   answers. A DESIGN gap (a genuine creative choice nothing on record has decided yet) is
+   legitimately his to weigh in on. Do not let the first kind dress up as the second kind
+   because asking feels more careful than reading. (The failure: asked whether a bullet
+   fires before or after a story beat, when the document being edited stated it two lines
+   above the exact spot being worked on. Reading it took one tool call and settled it
+   completely — the question should never have been asked.)
 
 2. THE CONTEXT SUMMARY IS A WORKING-STATE HANDOFF, NOT A STORY RECORD. A /compact summary
    captures what we are DOING — tasks, decisions, workflow, current state. It does NOT hold
