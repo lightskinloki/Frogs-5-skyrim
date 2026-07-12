@@ -250,6 +250,23 @@ off a few lines later in the same scene): "That's what the Dragonstone would tel
 Without it, I'm guessing at graves." Same fact, now in service of a want instead of
 decoration. Full statement: WRITING GUIDE IX.7.
 
+## 18. GIVE THE FACT, NOT THE USE
+THE MOVE: environmental description should be usable, not just atmospheric — a concrete,
+sized physical detail a player could turn into a tactic. State the fact and stop. Never name
+the tactical conclusion yourself ("you could take cover here") — that does the players'
+thinking for them. Scale details against something the party already knows (their own cart,
+their own gear) instead of an abstract unit; it reads faster and pictures better spoken cold.
+THE TELL: a description names what something is FOR ("thick enough to hide behind") instead
+of just what it IS ("wide as their cart").
+THE TRAP IT AVOIDS: two failures at once — flavor text that carries no weight, and the
+narrated-punchline failure (WRITING GUIDE VII.4) applied to the environment instead of the
+plot.
+FROM THIS PROJECT: a cave-column description went through three drafts chasing atmosphere
+("dark that breathes," then an acoustic claim that didn't even hold up physically — stone
+reflects sound, it doesn't absorb it) before landing on "wide as their cart, disappearing
+overhead into shadow." The fix wasn't a better mood image. It was dropping the mood image
+entirely for a plain, sized fact the players could act on without being told how.
+
 ---
 
 ## THE POSTURE UNDER ALL OF THEM
