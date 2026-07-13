@@ -1,0 +1,359 @@
+FROGS 5 DIALOGUE EVALUATION GUIDE
+Companion to the WRITING GUIDE. Read both before writing any NPC dialogue.
+
+The WRITING GUIDE establishes the prose rules -- what words earn their place, how to show
+instead of state, how to write for the ear. This guide sits one level above those rules and
+asks a different question: does the dialogue WORK AS HUMAN SPEECH? The WRITING GUIDE catches
+bad sentences. This guide catches scenes where every sentence is clean and none of them sound
+like a person actually talking.
+
+The framework below is adapted from a breakdown of how dialogue fails in popular media --
+specifically the pattern of technically functional lines that no real person would ever say.
+The term for this failure is FAIRY TALE DIALOGUE.
+
+=======================================================
+I. WHAT FAIRY TALE DIALOGUE IS
+=======================================================
+
+Fairy tale dialogue is the simplification of a character to a caricature who speaks in one
+repetitive, predictable dimension. Like characters in a fairy tale, every line is safe,
+expected, and -- if spoken in the real world -- completely absurd.
+
+The defining feature: the characters do not sound like people. They sound like ROLES. The
+funny one is always funny. The blunt one is always blunt. The nervous one is always nervous.
+Every line lands exactly where you expect it to, and no line surprises you, because no line
+comes from a real human reaction -- it comes from a character sheet's one-word description.
+
+In a fairy tale, this is fine. In a story that asks its audience to care about people in
+danger, it is fatal. The audience cannot invest in a character who does not sound like a
+person, no matter how high the stakes are supposed to be.
+
+HOW TO SPOT IT: if you can predict what a character will say before they say it based solely
+on their archetype -- the cautious one will caution, the brave one will rally, the comic
+relief will quip -- the dialogue has collapsed into fairy tale mode.
+
+=======================================================
+II. THE THREE METRICS -- WHAT DIALOGUE HAS TO DO
+=======================================================
+
+All dialogue must satisfy three requirements simultaneously. Each one is necessary; none is
+sufficient alone.
+
+--- 1. PROPULSION ---
+Dialogue must advance the story. It exposes information (context: why things are the way they
+are) and drives action (plot: where the story goes next). Character speech is the most
+efficient tool a story has for revealing what the audience needs to know and triggering what
+happens next.
+
+This is the easiest requirement to hit. The only constraint is the information that needs
+expressing, and human language offers near-infinite ways to express any given piece of
+information.
+
+THE TEST: after this exchange, does the audience know something they didn't, or has
+something changed that wasn't changed before? If neither, the dialogue is stalling.
+
+--- 2. CHARACTERIZATION ---
+Dialogue must sound like it comes from a specific person, not a plot-delivery device. It
+should reflect voice, personality, history, and the character's relationship to whoever
+they are talking to. This is what makes the journey -- the individual scenes -- worth
+experiencing, not just the destination.
+
+This is harder than propulsion because it requires filtering every line through a specific
+character. But it is still a large target. There are many correct ways to give a character
+a distinctive voice.
+
+THE TEST: could this line be spoken by a different character in a different scene and still
+work unchanged? If yes, it is not characterized -- it is plot wearing a character's name.
+(This test is identical to WRITING GUIDE VII.5 because it IS the same principle.)
+
+--- 3. BELIEVABILITY ---
+Dialogue must sound like something a real person would actually say in that situation. Not
+a cleaned-up, articulate, theatrically convenient version of what they might say -- the
+actual messy, limited, half-formed thing a real human being would produce under those
+specific circumstances.
+
+This is the hardest requirement and the smallest target because real people are, frankly,
+boring and reserved compared to fictional characters. Real people trail off, repeat
+themselves, talk past each other, avoid the point, get stuck on the wrong detail, and
+rarely produce a clean epigram on the first try. This mundanity is not a flaw to overcome
+-- it is the raw material that makes dialogue land.
+
+THE TEST: say the line out loud in the character's situation. Does it sound like something
+a real person -- of that age, background, emotional state, and relationship to the
+listener -- would actually say? Not "could theoretically say if they were very articulate
+and had time to compose their thoughts," but WOULD say, right now, under pressure, without
+a script.
+
+=======================================================
+III. THE ORDER OF OPERATIONS -- BELIEVABILITY FIRST
+=======================================================
+
+The three metrics are not created equal in difficulty.
+
+Propulsion is the most flexible. Nearly infinite ways to get information across.
+Characterization is moderately constrained. Many ways to voice a specific character.
+Believability is the most strict. Severely limited by how people actually talk.
+
+THE CRITICAL INSIGHT: because believability is the hardest target to hit, it must be the
+FIRST filter applied to any dialogue -- not the last.
+
+The fairy tale dialogue failure happens when writers work in the WRONG order:
+  1. Start with propulsion (what does the audience need to know?)
+  2. Add characterization (how can I make this sound like this character?)
+  3. Treat believability as an afterthought (does this sound real? ...close enough)
+
+By the time believability is considered, the line is already locked into a shape dictated
+by information delivery and character voice, and there is no room left for it to also
+sound human. The result: propulsive, characterized, completely absurd dialogue.
+
+THE CORRECT ORDER:
+  1. Start with believability (what would a real person actually say here?)
+  2. Filter through characterization (what would THIS specific person say?)
+  3. Ensure propulsion (does the scene still move forward?)
+
+When believability comes first, the other two requirements are EASIER to achieve, not
+harder -- because real human speech already contains character (people do not talk the same
+way) and already moves situations forward (people talk to GET things, not to deliver
+exposition). The hard work is done; the other two ride on top of it.
+
+THE FROGS 5 APPLICATION: this maps directly onto existing rules. WRITING GUIDE IX.7 (the
+Purpose Test) is a believability-first check -- "what does the SPEAKER get from saying
+this?" is asking whether a real person would say this line for a real reason. CLAUDE.md
+Rule 8 (every line needs a reason for the speaker) is the same principle from the
+enforcement side. The order-of-operations framework is the WHY behind those rules: they
+work because they force believability to be the first filter, not the last.
+
+=======================================================
+IV. THE OVERLAP PROBLEM -- WHY FAIRY TALE DIALOGUE IS TEMPTING
+=======================================================
+
+Propulsion and characterization are somewhat exclusive to each other. Getting to the point
+(propulsion) and living in the moment (characterization) pull in opposite directions. The
+overlap -- dialogue that is both efficient AND distinctive -- is already a surprisingly
+small target to hit.
+
+Fairy tale dialogue lives in this overlap. It IS propulsive and characterized. That is why
+it feels like it works and why writers settle for it -- because hitting two out of three
+requirements already took real effort.
+
+But believability overlaps with BOTH of those targets only in a tiny sliver. Dialogue that
+is propulsive, characterized, AND believable is an incredibly small window. This explains
+why so much dialogue in popular media sounds wrong -- the target is genuinely hard, and
+most writers are satisfied with two out of three.
+
+THE UNCOMFORTABLE TRUTH: fairy tale dialogue is not lazy writing. It is the result of real
+effort applied in the wrong order. Acknowledging that the writers are TRYING -- and still
+failing -- is what makes the order-of-operations correction so important. It is not about
+trying harder. It is about trying DIFFERENTLY.
+
+=======================================================
+V. HOW TO BRAINSTORM BELIEVABLE DIALOGUE -- THE METHOD
+=======================================================
+
+When building a scene with dialogue, follow this sequence:
+
+--- STEP 1: ESTABLISH WHAT THE CHARACTERS KNOW ---
+Before writing a single line, map what each character in the scene knows and does not know
+at that exact moment. Not what the AUDIENCE knows. Not what the WRITER knows. What each
+individual character, with their specific history and information access, actually has in
+their head right now.
+
+Characters who know different things will naturally talk past each other, ask questions the
+audience already knows the answer to, fixate on the wrong detail, or miss the point entirely.
+This is not a flaw -- this IS believability.
+
+--- STEP 2: ESTABLISH WHAT THE CHARACTERS FEEL ---
+Given what they know and what they have just been through, what is their emotional state?
+Not their archetype's default emotion. Their ACTUAL state, right now, given the specific
+events of the last few hours or days.
+
+A nine-year-old who has been dragged through a war zone does not engage in rational discourse.
+They cry, or they shut down, or they cling to the nearest safe thing, or they lash out. The
+emotional reality of the situation CONSTRAINS what dialogue is possible, and that constraint
+is a gift -- it automatically eliminates the fairy tale options.
+
+--- STEP 3: ESTABLISH WHAT EACH CHARACTER WANTS ---
+Not what the scene needs them to want. What THEY want, as a person, in this moment. This
+maps directly to WRITING GUIDE IX.7 (the Purpose Test): every line must serve the speaker's
+want, not the audience's need.
+
+A character's want in a scene is usually simple and personal: to feel safe, to be believed,
+to not be alone, to understand what is happening, to make it stop. These small, human wants
+produce dialogue that sounds like people -- because they ARE what people actually talk about
+under pressure.
+
+--- STEP 4: LET THE WANTS COLLIDE ---
+Dialogue happens when characters with different knowledge, different emotional states, and
+different wants try to talk to each other. The scene writes itself when these elements
+conflict naturally -- which they almost always do, because real people are rarely on the
+same page.
+
+Do NOT choreograph the collision to land on a predetermined beat. Let the wants play out
+and find where the scene naturally arrives. If the scene needs to end in a specific place
+for plot reasons (propulsion), reverse-engineer the emotional path that would get real
+people there -- do not force the characters to skip ahead to the destination.
+
+--- STEP 5: CHECK PROPULSION LAST ---
+After the believable, characterized dialogue exists, ask: does the scene move the story
+forward? If yes, done. If not, adjust -- but adjust by changing the CIRCUMSTANCES, not the
+dialogue. Give the characters a different piece of information, or put them in a slightly
+different situation, so that their REAL reactions naturally produce the plot movement you
+need. Never paste propulsive lines onto a believable scene -- that is how fairy tale
+dialogue gets born.
+
+=======================================================
+VI. THE FAILURE MODES -- SPECIFIC PATTERNS TO CATCH
+=======================================================
+
+These are the recognizable shapes fairy tale dialogue takes. Each one is a symptom of
+prioritizing propulsion or characterization over believability.
+
+--- 1. THE HR EMPLOYEE ---
+A character -- especially a child or someone under extreme duress -- speaks with the calm,
+measured, complete-sentence diction of a corporate professional. Full clauses, no
+interruptions, vocabulary beyond their plausible range. This happens when the writer needs
+information delivered cleanly and forgets that stressed humans do not deliver information
+cleanly.
+
+THE FIX: stress the speaker. Interrupt them. Let them struggle with words. Let the
+information come out messy and incomplete -- the audience will piece it together, and the
+effort of piecing it together will make them more invested, not less.
+
+--- 2. THE QUIP FACTORY ---
+Every character gets one reliable comedic or dramatic note that they hit in every scene
+regardless of context. The funny one quips during a crisis. The serious one scowls. The
+nerd explains. Every line is a mic-drop, and none of them feel like conversation.
+
+THE FIX: take the character's reliable note away for this scene. What does the funny
+character say when nothing is funny? What does the nerd say when the explanation does not
+help? Characters are most themselves when their default mode fails them.
+
+--- 3. THE SYNCHRONIZED SWIM ---
+Characters are weirdly on the same page, finish each other's sentences, immediately
+understand metaphors and plans, and arrive at the same conclusion simultaneously. Real
+people do not synchronize. They misunderstand, talk over each other, need things repeated,
+and arrive at conclusions at different speeds.
+
+THE FIX: let at least one character be behind. Let someone not get it. Let someone fixate
+on the wrong part of what was just said. Disagreement and confusion are not obstacles to
+good dialogue -- they ARE good dialogue.
+
+--- 4. THE EXPOSITION PUPPET ---
+A character says something no person would say out loud because the audience needs to hear
+it. Recap dialogue, catch-up monologues, characters explaining things to people who already
+know them. This is WRITING GUIDE IX.7's failure mode (the Purpose Test), but it is worth
+restating here because it is the single most common symptom of propulsion-first writing.
+
+THE FIX: if information needs to reach the audience and no character has a real reason to
+say it out loud, do not force it into dialogue. Use action, environment, or a brief
+narrated beat instead. Or find a character who genuinely DOES need to say it -- to someone
+who genuinely does NOT know it -- and route it through that real exchange.
+
+--- 5. THE SHAKESPEARE ---
+A character -- especially a child, or anyone who should be inarticulate -- stands up and
+delivers a perfectly structured, rhetorically polished speech. Complete with thesis
+statement, supporting arguments, and a rousing conclusion. No real person talks like this,
+especially not under pressure, and especially not children.
+
+THE FIX: break the speech. Have someone interrupt. Have the speaker lose their thread. Let
+the point come out in three frustrated half-sentences instead of one clean paragraph. The
+messiness is not a loss of craft -- it IS the craft. Messy delivery that sounds real will
+always hit harder than a polished speech that sounds fake.
+
+--- 6. THE ARCHETYPE LOCK ---
+Every character's lines are predictable based solely on their role. The cautious one always
+cautions. The leader always rallies. The innocent one always asks naive questions. Characters
+never break type, never surprise, never say something their archetype "wouldn't" say. This is
+the core mechanism of fairy tale dialogue and the hardest one to catch, because each individual
+line seems "in character" even though the cumulative effect is a cast of robots.
+
+THE FIX: find ONE moment in the scene where a character says something their archetype would
+not predict. The cautious one snaps. The leader admits they do not know. The tough one asks
+for help. ONE break from type per scene is enough to shatter the fairy tale and remind the
+audience these are people.
+
+=======================================================
+VII. THE AGE TEST -- CHILDREN ESPECIALLY
+=======================================================
+
+Children are the canary in the fairy tale dialogue coal mine. When dialogue sounds wrong, it
+almost always sounds wrongest in children's mouths, because children have the smallest
+vocabulary, the least emotional regulation, and the most limited rhetorical ability.
+
+A nine-year-old:
+  - Does not use words like "evil," "nasty," or "lies" in the abstract, evaluative way an
+    adult would. They use concrete, immediate language: "He's bad," "She's lying," "I saw it."
+  - Does not construct arguments. They make assertions and get frustrated when the assertions
+    are not accepted.
+  - Does not engage in rational discourse under stress. They cry, yell, shut down, cling, or
+    run.
+  - Talks in short bursts, not paragraphs. Interrupts. Gets interrupted. Loses their train of
+    thought.
+  - Fixates on one concrete detail instead of synthesizing the big picture. ("He locked the
+    door" matters more to a scared nine-year-old than "he's trying to destroy the world.")
+
+THE RULE: if a line sounds wrong in a child's mouth, it is probably wrong in an adult's mouth
+too -- just less obviously. Children expose the problem because they have less range to hide
+behind. Use child characters as a diagnostic: if the dialogue passes the child test, it will
+almost certainly pass for adults.
+
+THE FROGS 5 APPLICATION: many NPCs in this project are young, rural, uneducated, or under
+extreme stress -- all conditions that constrain speech in the same ways childhood does. A
+farmer under siege does not construct rhetoric. A teenager in a war zone does not deliver
+exposition. Apply the age test broadly: if the character's circumstances would limit their
+speech, let the speech BE limited.
+
+=======================================================
+VIII. THE DIALOGUE SELF-CHECK (run alongside the WRITING GUIDE's self-check)
+=======================================================
+
+This check runs BEFORE the WRITING GUIDE's Section VI pass. The WRITING GUIDE checks whether
+the prose is clean. This check asks whether the dialogue is HUMAN.
+
+1. ORDER-OF-OPERATIONS CHECK. Was believability the first filter? Or was the line written to
+   deliver information first and then dressed up to sound like a person? If the latter, start
+   over from what a real person would actually say.
+
+2. PREDICTION CHECK. Can you predict this line based solely on the character's archetype? If
+   yes, the line is fairy tale. Find the human reaction that the archetype would not predict.
+
+3. SYNCHRONIZATION CHECK. Are the characters too much on the same page? Do they finish each
+   other's thoughts, immediately understand each other, or arrive at the same conclusion at
+   the same time? If yes, break the synchronization. Let someone misunderstand.
+
+4. SAY-IT-OUT-LOUD CHECK. Say the line out loud, in character, in context. Does it sound like
+   something a person would say? Not "could say" -- WOULD say, naturally, without a script.
+   If you wince, the line fails.
+
+5. AGE-AND-CIRCUMSTANCE CHECK. Is this character speaking beyond their plausible vocabulary,
+   composure, or rhetorical ability given their age, education, emotional state, and the
+   specific pressure of this moment? If yes, downgrade the line to what they can actually
+   produce.
+
+6. WANT CHECK. (Identical to WRITING GUIDE IX.7, restated here because it is the single most
+   important believability test.) What does the SPEAKER get from saying this? If the only
+   honest answer is "the audience needs this information," the line fails.
+
+7. COLLISION CHECK. Do the characters in this scene have different knowledge, different
+   emotional states, and different wants? If everyone is aligned, the scene will feel fake
+   no matter how good the individual lines are. Introduce asymmetry.
+
+=======================================================
+IX. RELATIONSHIP TO EXISTING GUIDES
+=======================================================
+
+This guide does NOT replace any existing rule. It adds a LAYER that sits above the sentence-
+level checks in the WRITING GUIDE and the enforcement gates in CLAUDE.md.
+
+The hierarchy:
+  1. THIS GUIDE asks: is this dialogue believable as human speech? (Scene-level check.)
+  2. WRITING GUIDE Section IX asks: does each line serve the speaker's want, avoid the
+     fingerprint patterns, and pass the camera test? (Line-level check.)
+  3. WRITING GUIDE Sections VII-VIII ask: is the prose clean, spoken-ready, and free of AI
+     tells? (Word-level check.)
+  4. CLAUDE.md's Dialogue Audit Gate (G6) asks: has each rule been visibly checked before the
+     draft goes in front of the GM? (Process-level check.)
+
+Run them in this order. A line that passes the WRITING GUIDE's checks but fails this guide's
+believability test is still fairy tale dialogue -- it is just well-written fairy tale dialogue.
+The audience can tell the difference.

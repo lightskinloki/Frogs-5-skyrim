@@ -22,8 +22,18 @@ I. WHAT THIS IS
 A campaign run using FROGS 5, a fully custom tabletop RPG system (NOT D&D,
 NOT 5e - do not conflate them). Set in Skyrim (The Elder Scrolls).
 The Dragonborn never appeared - that is the premise. The players
-are the Skyrim Wardens, a special-ops group chartered by the doomed High King
-Torygg. The campaign is now in Act III: The Mortal Limit.
+are the OBSIDIAN LANTERNS (never "the Wardens" -- that name belongs to Krusp
+Fanck's separate group, the True Wardens, a distinct organization the party
+has crossed paths with, not a name for the party itself), a special-ops group
+chartered by the doomed High King Torygg. The campaign is now in Act III: The
+Mortal Limit.
+  >>> RECURRING ERROR, FIX ON SIGHT: this file previously called the party
+  "the Skyrim Wardens" for an unknown number of sessions. That single line
+  was the root cause of the party being repeatedly mislabeled throughout the
+  campaign's prep documents. "Obsidian Lanterns" appears correctly in 56+
+  other files; "Skyrim Wardens" appeared ONLY here. If you see "the Wardens"
+  used for the party anywhere (not Krusp's True Wardens), it is wrong -- fix
+  it at the source, don't just patch the one instance you found. <<<
 
 There are five player characters:
   Alfonso        -- Vrykolas (plague-vampire hybrid); bearer of the Jagged Crown
