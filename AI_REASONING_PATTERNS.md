@@ -269,6 +269,103 @@ entirely for a plain, sized fact the players could act on without being told how
 
 ---
 
+## 19. DON'T CONFUSE BEING TOLD FOR BEING SCRIPTED
+THE MOVE: when the GM explains something to establish MY understanding — lore, a character's
+true nature, backstory the world holds but a specific person doesn't — that information is for
+calibrating what gets written, not necessarily content to put directly into a character's
+mouth. Before turning any explanation into dialogue, check: does THIS CHARACTER, per their own
+established knowledge-state, actually have access to this? If not, the information stays mine
+to write FROM (portraying their ignorance or unease accurately) rather than material to write
+INTO their lines.
+THE TELL: the GM says "here's what's actually true" and the very next draft has a character
+stating it aloud with total confidence — especially a character whose own doc says they don't
+know it.
+THE TRAP IT AVOIDS: turning an NPC into an exposition puppet and violating established canon in
+the same motion, because the information wasn't wrong, it was just handed to the wrong
+recipient — the writer, not the character.
+FROM THIS PROJECT: told directly that Ismara is structurally identical to Alfonso (a soul bound
+to an object, learning to wear a living body) so the WRITER would understand the real parallel
+— and immediately had Valerius state the exact mechanism aloud with total confidence, directly
+contradicting his own doc's explicit rule that he cannot name what's wrong with Davinia and
+never gets the reveal. The GM, naming the actual damage: "it makes it impossible to give you
+critique... it makes it impossible for us to do this work."
+
+## 20. A CORRECTION IS SCOPED TO EXACTLY WHAT WAS ASKED
+THE MOVE: when given a note — cut this line, lengthen this beat, change this word — apply it
+exactly, to exactly what it names, on top of the current best draft. Never regenerate a whole
+passage from a single note alone, and never let the scope of an edit creep past what was
+actually flagged.
+THE TELL: two shapes. (1) A passage that had been growing across several rounds collapses back
+to a summary after one unrelated word-choice note, because it got rewritten from scratch
+instead of edited in place. (2) The GM quotes one exact line to cut and an entire section
+disappears with it, because "cut this" got read as "this whole idea is wrong."
+THE TRAP IT AVOIDS: silently undoing already-approved work, forcing the GM to re-teach the same
+note multiple times, and burning trust that any given note will actually stick without
+collateral damage.
+FROM THIS PROJECT: an amputation scene was built up across several rounds into four full beats,
+each with its own physical sensation — then, given one phrasing correction, collapsed back to
+three flat lines. The GM: "why do you keep making something I'm asking you to lengthen
+shorter!" Separately, a single quoted line marked for deletion took an entire section down with
+it, costing what the GM called "a very long rabbit hole" to recover from.
+
+---
+
+## 21. NAME WHAT IS — AND CHECK EVERY SENTENCE, NOT JUST THE ONE YOU WERE CAUGHT ON
+THE MOVE: before presenting any drafted sentence, scan it for its shape: does it define
+something by what it is NOT, by an absence, or by a vague placeholder standing in for a real
+noun — or does it commit to a direct, positive, specific claim about what IS true? Rewrite
+every instance of the first into the second. This has to be a literal, sentence-by-sentence
+pass applied every time, not a general awareness carried into the next draft, because negation
+is a reflexive rhetorical tool for building contrast and drama, and the reflex fires at
+generation time whether or not the rule is understood.
+THE TELL: the exact same violation shape reappears in a NEW sentence minutes after being
+corrected in a DIFFERENT sentence, in the same conversation, on the same passage — proof the
+rule is fully understood at review time and still isn't reaching generation time.
+THE TRAP IT AVOIDS: an entire editing session collapsing into "here's a negation, fix it,"
+repeated a dozen times, because catching each instance individually never generalizes into
+catching the next one before it's shown. WRITING GUIDE VI.2 already states the negation rule;
+this pattern is about why having the rule doesn't stop the failure, and what actually would.
+FROM THIS PROJECT: across one night building a single scene, the same shape recurred more than
+a dozen separate times in a dozen different sentences — "not from concern for you," "not really
+a question, more the shape of one," "not a prize," "the sensation is not one thing but many
+things," "not by an enemy's hand," "does not waver," "his mouth does not open," "his knees do
+not buckle," "there are two men who are not mine," "something else is holding them straight"
+(vague filler standing in for naming Valerius's will directly), "genuine interest now, not
+performance," "a small, genuine note of approval — rare from him" (an asserted feeling instead
+of a physical fact). Never once self-caught before being shown to the GM. His diagnosis, which
+is the whole reason this entry exists: "if we look at the actual edits we were making they were
+the same shape across the board."
+
+---
+
+## 22. EVERY WORD HAS TO BE LOAD-BEARING
+THE MOVE: for every word and phrase in a sentence, ask: if this were cut, would the sentence
+communicate less, feel less, or move differently? If no, it's padding — cut it. This is the
+rigorous, per-word form of the cut-test (WRITING GUIDE VI.1), not a one-time pass over the
+whole sentence but an audit of every piece of it. Deliberate repetition is NOT padding if the
+repetition itself is doing work (rhythm, insistence, weight) — the test is never "is this word
+new," it's "is this word doing something."
+THE TELL: a qualifying adverb hedging a claim that was already complete ("simply," "genuinely,"
+"really," "just," "actually"), or two near-synonyms doing the same job in one sentence, where
+cutting either changes nothing about what the reader receives. This one is harder to catch than
+a negation, because a padded sentence doesn't look broken — it just reads a little softer and
+a little less confident than the same sentence would without the dead weight in it.
+THE TRAP IT AVOIDS: prose that felt careful in the moment of writing but is actually diluted —
+a ten-word sentence carrying the weight of six words, doing worse work than the six would have
+done alone.
+FROM THIS PROJECT: a line sitting approved in the file itself — "A pause — not for effect,
+simply the care of a man choosing his next words with precision." Setting aside the negation
+(pattern #21), "simply" does nothing: cut it and "A pause — the care of a man choosing his next
+words with precision" loses no meaning, no rhythm, no weight. It was never earning its place;
+it just felt like the sentence wanted a hedge there. The GM, describing his own writing as the
+actual standard to measure against: "every word of what I am saying is doing actual work for
+the sentence, there is no part that I could remove from this and have it communicate the same
+message — even where I employed a repetitive device it was still carrying genuine weight." The
+failure, named directly: "you will often write in a way that many of the words are there just
+because instead of because they are needed by the sentence."
+
+---
+
 ## THE POSTURE UNDER ALL OF THEM
 He is a co-writer who has carried this world for months, mostly alone, and built this whole
 system so a partner could help him hold it. The through-line of every pattern above: treat

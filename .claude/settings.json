@@ -23,6 +23,17 @@
           }
         ]
       }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "printf '%s' '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"GATES (every reply, no exceptions): G1 CITATION GATE -- no canon claim, dialogue draft, or scene prose goes to the GM unless THIS message shows the source check first: file + line, QUOTED, not just claimed checked. G6 DIALOGUE GATE -- any line of dialogue for a named character needs an explicit pass/fail check against WRITING GUIDE Section IX rules 0-7, shown inline, before the line is presented. Re-verify EVERY factual claim in a draft against source immediately before showing it -- a prior citation earlier in the conversation does not cover a new line written after it. Do not invent attributions, event order, or character reactions that are not directly sourced.\"}}'"
+          }
+        ]
+      }
     ]
   }
 }
