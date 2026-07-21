@@ -3,3 +3,6 @@ __pycache__/
 
 # session scratchpad — overwritten every session, never commit
 final-session-quick-notes.txt
+
+# personal Claude Code overrides — not shared with the repo
+.claude/settings.local.json
