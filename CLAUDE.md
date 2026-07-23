@@ -42,6 +42,16 @@ the source of record. When they disagree, the repo wins.
    fires before or after a story beat, when the document being edited stated it two lines
    above the exact spot being worked on. Reading it took one tool call and settled it
    completely — the question should never have been asked.)
+   CREATIVITY IS A LAST RESORT, NOT A DEFAULT. This applies beyond story facts and mechanics —
+   to geography, layout, character voice, anything with a checkable source. This campaign has
+   an established source of truth for nearly every possibility already in play. Creativity's
+   legitimate place is the genuine, CHECKED absence of one — never a shortcut taken because
+   checking felt slower than imagining. The GM's own framing, verbatim: "creativity has its
+   place but that place is when we genuinely dont have a source of truth on it and we have a
+   source of truth for literally almost every possibility in this entire universe." (The
+   failure: the Ivarstead mill's position was re-imagined twice on invented terrain despite the
+   GM supplying an actual top-down reference image of the town's layout twice. The fix both
+   times was re-opening the reference, not trusting a redrawn guess.)
 
 2. THE CONTEXT SUMMARY IS A WORKING-STATE HANDOFF, NOT A STORY RECORD. A /compact summary
    captures what we are DOING — tasks, decisions, workflow, current state. It does NOT hold

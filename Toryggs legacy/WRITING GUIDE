@@ -497,6 +497,26 @@ at the blank spaces on the map where their tombs should be. 'That's what the Dra
 would tell me. Without it, I'm guessing at graves.'" Same admission, now in service of his
 own want instead of decoration draped over a fact the writer needed conveyed.
 
+--- 8. A LINE DOES NOT EXPLAIN WHY IT IS BEING SAID ---
+Watch for a character narrating the reason for their own utterance INSIDE the utterance: "I'll
+tell you X, because Y." "I'm saying this because..." "The reason I ask is..." This is a
+distinct failure from Rule 0 (narrated subtext) -- here the character isn't hiding a private
+motive, they're announcing a public, stated one, but doing it in a way no real speaker does.
+People do not narrate the rhetorical scaffolding of their own sentence while using it; they
+just say the thing. The "because" clause is the writer's own justification for the line
+leaking into the character's mouth -- proof the writer needed the line's purpose to be legible
+on the page, not proof the character would ever say it that way.
+THE TELL: a line built as [STATEMENT], because [JUSTIFICATION FOR MAKING THE STATEMENT] --
+especially when the justification is about the ACT OF SPEAKING itself, not about the world.
+THE FIX: cut the justifying clause and let the statement stand on its own, OR route the "why"
+into blocking/GM direction instead of dialogue, OR hold it back as a separate later beat the
+character reveals only if asked.
+WORKED EXAMPLE (Fire B, Ivarstead redraft, this session): CUT -- Wilhelm: "I'll tell you what
+you're walking into, because nobody told us, and I watched what that cost." He is narrating
+why he's about to speak, not speaking. FIXED -- cut the frame entirely; he just starts telling
+them what happened, in fragments, and a GM note ("he stops there unless pushed") carries the
+information about HOW he tells it, instead of him announcing his own reason for telling it.
+
 THE AI FINGERPRINTS TO HUNT AND CUT (spoken-dialogue specific, in addition to Section VIII's
 list, which still applies to any internal-monologue-shaped line):
   - Self-contradicting sincerity (says X, immediately implies not-X).
@@ -512,3 +532,68 @@ list, which still applies to any internal-monologue-shaped line):
     action (Rule 0's camera test: if it isn't filmable, it's stated subtext, and it must go).
   - A line that only restates something the listener already knows about themselves (Rule 7's
     purpose test: what does the SPEAKER get from saying this, not the reader).
+  - A line that explains, in the same breath, why it is being said (Rule 8's self-justifying
+    dialogue: "I'll tell you X, because Y" -- narrating the line's own reason for existing).
+
+=======================================================
+X. GAME-WRITING VS. BOOK-WRITING -- DISCOVERABLE ITEMS ARE PROMISES, NOT FLAVOR
+=======================================================
+
+This guide is written for a GAME, not a novel. In prose fiction, every detail exists purely to
+serve the reader's experience, and nothing more is owed once the sentence is written. In this
+game, the party is not a reader -- they are agents who can act on what's described, and every
+object flagged as interactive (behind a Notice roll, a Search, an Investigation, anything
+gated by a check with a difficulty) has made an implicit promise: THERE IS SOMETHING HERE, and
+the harder the check, the more the game has told the player they'll get if they clear it.
+
+THE FAILURE: writing a discoverable object for its THEMATIC weight (a nice image, an implied
+mystery, a moment that "feels" resonant) without asking what actually happens when a player
+spends a roll and their character's attention on it. A ledger with "a different hand in the
+last few entries" is a strong image on the page -- but the moment it's gated behind a Hard
+Notice check, it has stopped being a page and become a PROP. Players will read it, discuss it,
+try to act on it. If there's nothing behind the implication, the game just told them a real
+lead existed and then had none -- which is a broken promise, not a plot beat.
+
+THE RULE: before attaching a roll and a difficulty to any object, decide what it ACTUALLY
+contains, in enough detail that a player who reads it back to you could reasonably act on it.
+If you don't want to build that yet, don't gate it behind a check -- describe it as flavor in
+the read-aloud instead, where nothing was promised. A difficulty and a roll are the line
+between "here's what the room looks like" and "here's a thing I am telling you matters."
+
+WORKED EXAMPLE (Fire B, Ivarstead redraft, this session): a mill-owner's ledger, found on a
+Hard Notice check, was written with an implied hook -- "someone else has been keeping this
+book since whoever started it stopped being able to" -- and nothing else behind it. The GM's
+correction, verbatim: "if we keep this we need to actually write that journal for this to
+work... this ledger would need to carry some actual information if we make it a roll and then
+a hard roll then what they get from the hard roll needs to actually be useful... this is a
+hold over from book writing where we control every character but this is game writing, if you
+give players an item like that and explicitly state theres information and lore there we have
+to create that for them to experience." The fix is either (a) actually write the object's real
+content, or (b) cut it back to un-gated flavor that promises nothing. Thematic resonance is
+never a substitute for the object doing its job.
+
+=======================================================
+XI. CREATIVITY ONLY WHERE THERE IS NO SOURCE OF TRUTH
+=======================================================
+
+This campaign has an established source of truth for nearly every possibility already in play --
+geography (world state tracking, real-world Skyrim lore), character voice (existing docs, prior
+narrative), mechanics (GM Guide, Players guide), history (the narrative chapters, the lore
+books), prior design decisions (PLANNING SCRATCH, the gate files). Creativity's legitimate place
+is the genuine, CHECKED absence of a source -- not a shortcut taken because checking is slower
+than imagining.
+
+THE RULE: before inventing any detail -- a building's position, a character's reaction, a rule's
+mechanic, a piece of history -- check whether a source already answers it. If one exists, use
+it. If checking would take one tool call and imagining takes none, that is not a reason to
+imagine; it is the tell that imagining was the wrong move.
+
+WORKED EXAMPLE (this session): the mill's position relative to the river was re-imagined twice on
+invented terrain despite the GM having supplied an actual reference image of Ivarstead's layout
+twice. The correct move both times was to re-open the reference, not to redraw the geography from
+a feel for what seemed right. The GM's framing, verbatim: "creativity has its place but that
+place is when we genuinely dont have a source of truth on it and we have a source of truth for
+literally almost every possibility in this entire universe."
+
+Full statement: CLAUDE.md Rule 1 (CITE OR CHECK), AI_REASONING_PATTERNS #9 (NEVER FILL A GAP
+WITH SOMETHING PLAUSIBLE) and #25.

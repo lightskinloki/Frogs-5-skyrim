@@ -11,6 +11,83 @@ LEGEND:  [LOCKED] = GM-confirmed canon, ready to apply when we touch the right d
          [OPEN] = unresolved question / decision pending.
          [TODO] = a build task (stat block, tables, module section).
 
+=====================================================================
+*** HANDOFF NOTE — session end 2026-07-23 (next AI: read this FIRST) ***
+=====================================================================
+CONTEXT FOR WHOEVER PICKS THIS UP: The FIRE B redraft RTF was originally drafted by
+Fable 5 as a test and is riddled with LOAD-BEARING LOGIC ERRORS baked in as
+plausible-sounding prose — not just prose problems. Read every beat against "is this
+even POSSIBLE / in-character in our established rules," not just "does it read well."
+The Gaelen error below is the archetype.
+
+WHERE WE ARE: Scene 8 (Foot of the Stair / Ivarstead) is REBUILT and in good shape
+(see the RTF). We were mid-way through mapping and pressure-testing Scene 9 (the climb)
+when the session ended. Nothing in Scene 9 has been edited yet — the decisions below
+are AGREED IN CHAT but NOT yet applied to the RTF.
+
+--- THE FIVE-ROOM STRUCTURE FOR FIRE B [LOCKED this session] ---
+The DUNGEON is the MOUNTAIN. Ivarstead (Scene 8) is the HOOK/APPROACH, NOT a room —
+same as Winterhold is not part of the Pale Lady's Tomb dungeon (see `Adventure modules/
+1- the pale ladys tomb`, Sections 1-5 all inside the barrow). The five rooms live on
+the mountain:
+  ROOM 1 — Entrance & Guardian:  base of the Steps — cross into the corrupted zone,
+     first Waystone, the first Dagonite ambush guards the way up. [ambush-as-guardian
+     PROPOSED, GM hadn't final-confirmed]
+  ROOM 2 — Puzzle / Roleplaying: the climb proper — the temporal-weather PUZZLE (learn
+     Tempo, the rope rule, break the tide-shards) + Saijah's corruption-sense stations.
+  ROOM 3 — Trick / Setback:      the FROST TROLL (Dagon-corrupted), near the top, right
+     before the monastery door. [TODO — not built yet; see below]
+  (INTERSTITIAL) — High Hrothgar (Scene 10): the REST + the Tower revelation. Not a
+     numbered room; the breather between Setback and Climax. THIS is why the troll goes
+     BEFORE the rest (so it isn't mini-boss -> boss back to back).
+  ROOM 4 — Climax:               the Undercroft (Scene 11) — Gaelen, the anchors, Jasper.
+  ROOM 5 — Reward & Revelation:  the Sealing (Scene 12).
+
+--- GAELEN'S VOICE ON THE CLIMB — CUT ENTIRELY [LOCKED] ---
+The Fable draft's Scene 9 "Station 4 (Gaelen's voice through the corrupted leylines, to
+Saijah, mid-climb)" (RTF ~line 596) is DELETED. Two reasons, both fatal:
+  1) NO MECHANISM exists for Gaelen to speak to her — zero path in our canon.
+  2) It CONTRADICTS his entire ideology (`gate 3` lines 121-135: warm, sincere, wants
+     them to CHOOSE freely, "does not want to kill the party"). Forcing into her mind
+     before he's even met them makes him the generic cultist the doc forbids. His
+     RESTRAINT is the characterization. First party contact with Gaelen = the Undercroft,
+     in person, as invitation.
+  LEGIT CHANNELS STAY: Kynareth reaches Saijah at High Hrothgar (station 5), Hircine at
+  the Undercroft (station 6) — GODS can speak to her; Gaelen cannot and wouldn't.
+  So the climb's Saijah-stations = PURE corruption-sense (the Tower under assault, the
+  Dagon signature deepening, the migraine worsening). No voice, no person — dread from
+  the PLACE only.
+
+--- FROST TROLL (Room 3 Setback) — build state [TODO] ---
+  - Dagon-CORRUPTED frost troll; real Skyrim has a frost troll on the 7,000 Steps below
+    High Hrothgar (matches placement). It is the SETBACK, not a climax.
+  - Terrain [LOCKED by GM]: NOT a narrow ravine. A path between a slight overhang/cave
+    and a large rock face that makes a WIND TUNNEL (low visibility, blowing snow). 4-5
+    can stand abreast — limited movement space, not a squeeze. The cart is NOT here (it's
+    in Ivarstead's stable); Mable/Balthazzar MAY or may not be present.
+  - Tier: NOT decided yet (Minor Dragon ladder was for dragons; troll tier still OPEN).
+  - DO NOT stat NPCs/PCs — GM manages player+companion sheets (incl. GEAR, who has long-
+    standing combat stats). Design the encounter, not the character numbers.
+
+--- DRAGON TIER LADDER [LOCKED — already applied to GM Guide/Main Guide, players guide] ---
+  Minor -> Regular -> Elder -> Enhanced -> (Paarthurnax/Alduin, off-ladder). AP doubles
+  per band: Minor & Regular 2/1, Elder 4/2, Enhanced 8/4, top 16/8. Greybeards each =
+  Minor Dragon-tier (the FLOOR — below Regular; corrected 3x, do not inflate them).
+
+--- NEXT STEPS when work resumes ---
+  1) Finish pressure-testing Room 2 (temporal-weather puzzle + Dagonite ambush) for more
+     Fable-baked impossibilities, same as the Gaelen cut.
+  2) Apply the Scene 9 fixes to the RTF: delete Station 4 (Gaelen voice); convert Saijah's
+     climb-stations to pure corruption-sense.
+  3) Build the frost-troll Setback (encounter design + read-aloud), then the High Hrothgar
+     rest/resupply beat (Greybeards have little use for potions — they're Minor-Dragon-
+     strong and Thu'um doesn't use magicka; resupply is thin/flavor unless the party
+     brought Klimmek's pack up and asks).
+  WORKFLOW REMINDER for the next AI: work beat-by-beat, propose in chat BEFORE writing to
+  the RTF, show the source check (file+line quoted) above any canon claim or dialogue, and
+  run the WRITING GUIDE Section IX (rules 0-8) audit on every NPC line. RTF edits: after
+  each edit, verify braces balance (python: content.count('{')==content.count('}')).
+
 Canonical references this scratch points back to (do NOT duplicate, just extend):
   - IVARSTEAD — the bleeding stair (planning)   [the design bible for Fire B]
   - gate 3                                       [the three fires]
@@ -222,10 +299,24 @@ IVARSTEAD — CORRECTIONS  [LOCKED — override the older docs; see CANON CORREC
   Time-Wound to throw the temporal chaos. The Time-Wound has NOTHING to do with the cult's
   ritual or intentions. (Same god as the Oblivion Crisis: Mehrunes Dagon.)
 - EVERYONE CLIMBS — Esbern included, the HORSE included. The party CAN try to leave some
-  behind, but it is explicitly UNSAFE. The INN is the least-bad shelter, but NOT safe: if
-  they shelter there it gets ATTACKED and people are hurt (and they must get the horse
-  inside). ANYTHING LEFT OUTSIDE is attacked. This is a PREVIEW of Dagon taking a space —
+  behind, but it is explicitly UNSAFE. This is a PREVIEW of Dagon taking a space —
   the KVATCH / Oblivion-Crisis register. "No haven at the foot" = active Dagon assault.
+  [SHARPENED this session — built into FIRE B redraft Scene 8, "NO HAVEN AT THE FOOT":
+  the inn shelters BY DAY and FAILS AT NIGHT (the cultists come through the whole town
+  after dark). The town's defenders — the watch, the able-bodied — are ALREADY DEAD (they
+  went down the Riften road with Temba and didn't come back). Wilhelm is the LAST, and one
+  man holds no door. So the town cannot be saved by defending it; the party's only real
+  leverage is the CLIMB (they alone can reach the Greybeards / carry Klimmek's pack). FIXED
+  CONSEQUENCE: (a) everyone climbs together → FOUR live — Wilhelm, Fastred, the two children
+  (the ones who can't fight and can't climb, who hide); the rest of Ivarstead is already
+  lost. (b) the party leaves ANY of their own behind (to guard the inn / "keep Mila safe
+  here") → that person is drawn into the town's doomed defense and DIES in it, however
+  capable, and the WHOLE town dies with them, the four included — one defender turns a night
+  of hiding into a battle the town cannot win. There is NO version where leaving someone is
+  safe. NEVER script the party reaching this — present the room + the journal + Wilhelm's
+  account (WRITING GUIDE II.1); the INN NIGHT attack is the fiction answering if they split.
+  "Least-bad shelter" stands: it's the only place to bed down IF they choose to stay the
+  night — least-bad ≠ safe, no contradiction.]
 - PAARTHURNAX / THE SUMMIT IS NOT HERE. The summit (Paarthurnax + the actual peak
   Time-Wound) is literally SEALED — only a SHOUT can clear the way (Clear Skies in canon).
   It opens only AFTER Bjorn accepts he is the Dragonborn OR the party does the
@@ -1471,12 +1562,32 @@ LOCKED DESIGN (GM-confirmed, ready to write into the four docs)
      - HP Multiplier (Minions x2/Lieutenants x2.5/Bosses x3): the one truly new piece —
        baked directly into the new consolidated monster table (item 4), not kept separate.
 
-6. DRAGON-KILL AP BONUS [LOCKED — new house rule, previously unwritten anywhere; needs to
-   go into the Rewards & Progression section of Main Guide/players guide]:
+6. DRAGON-KILL AP BONUS [LOCKED — new house rule; now written into Main Guide + players guide
+   Rewards & Progression sections]:
      Regular dragon kill: 2 AP for the killing blow, 1 AP for participation.
      Elder dragon kill:   4 AP for the killing blow, 2 AP for participation.
    Elder dragon values are exactly double the regular dragon's — clean, easy to remember.
    Reflects "dragons are worth more" as a standing GM policy, not a one-off.
+   THE DRAGON TIER LADDER [LOCKED — five bands, this session, per real Skyrim dragon-type
+   names plus two named exceptions]:
+     Minor Dragon (floor — freshly-raised/wounded dragons, e.g. Sahloknir, `Adventure modules/
+       5- echoes of a fallen king` line 797: "Adept Tier, TL 3 Boss," HP 150, DR 10, Dmg 35,
+       ground-only kit. Each GREYBEARD, individually, is Minor Dragon-tier — confirmed THREE
+       times this session after I kept wrongly inflating them upward; they are BELOW Regular,
+       nowhere near Elder.)
+     Regular Dragon (e.g. Krosulhah, `choice gate 2/10- the magical metropolis/part 2` line
+       1140: labeled "TL3 BLOOD DRAGON" in our own file already — same HP/DR as Sahloknir but
+       a meaningfully nastier kit: Aerial Dominance, Predator's Focus, phased grounding.)
+     Elder Dragon (2x Regular — the existing locked AP rule above.)
+     Enhanced Dragon (Serpentine Dragon / Durnehviir / Odahviing-tier uniques.)
+     Paarthurnax / Alduin — OFF the ladder entirely; story-tier, never a combat band.
+   AP values [ALL FIVE BANDS NOW LOCKED — each doubles the one below it]:
+     Minor dragon kill:    2 AP killing blow, 1 AP participation (SAME as Regular — the tier
+                           changes combat difficulty, not AP value).
+     Regular dragon kill:  2 AP killing blow, 1 AP participation.
+     Elder dragon kill:    4 AP killing blow, 2 AP participation.
+     Enhanced Dragon kill: 8 AP killing blow, 4 AP participation.
+     Paarthurnax/Alduin-tier: 16 AP killing blow, 8 AP participation.
 
 =====================================================================
 7. THE DAMAGE-CEILING CALIBRATION (the math pass that validated everything above) [LOCKED]

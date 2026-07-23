@@ -366,6 +366,71 @@ because instead of because they are needed by the sentence."
 
 ---
 
+## 23. A LINE DOES NOT EXPLAIN WHY IT IS BEING SAID
+THE MOVE: check every line of dialogue for a clause that justifies the line's own existence —
+"I'll tell you X, because Y," "I'm saying this because...," "the reason I ask is...". Cut the
+justifying clause, or route the "why" into blocking/GM direction, or hold it back as a later
+beat revealed only if asked. This is a distinct failure from pattern #16 (narrated subtext):
+here the character isn't hiding a private motive, they're announcing a stated one — but no real
+speaker narrates the rhetorical scaffolding of their own sentence while using it. They just say
+the thing.
+THE TELL: a line shaped as [STATEMENT], because [JUSTIFICATION FOR SAYING THE STATEMENT] —
+especially when the justification is about the act of speaking itself, not about the world.
+THE TRAP IT AVOIDS: this reads as diligence in the moment of writing — it looks like the line
+is doing extra work to earn its place (per #22), when it is actually the opposite: the writer's
+own need for the line's purpose to be legible on the page, leaking into the character's mouth.
+FROM THIS PROJECT: Wilhelm, drafted mid-session for the rebuilt Ivarstead scene: "Sit. I'll
+tell you what you're walking into, because nobody told us, and I watched what that cost." The
+GM's correction, verbatim: "why is the because there at all? why is he explaining every word he
+says? this trend is bad and it is persistent. you constantly make these meta statements about
+what you are saying while you are saying it." FIXED — the framing sentence was cut entirely;
+Wilhelm just starts telling them what happened in fragments, and a GM note ("he stops there
+unless pushed") carries the delivery instead of him announcing his own reason for delivering it.
+Full statement: WRITING GUIDE Section IX, Rule 8.
+
+---
+
+## 24. A GATED CLUE IS A PROMISE, NOT A MOOD
+THE MOVE: before putting a roll and a difficulty on any discoverable object, decide what it
+actually contains — real, usable content, not just a resonant image. If the content isn't
+built yet, don't gate it; describe it as un-gated read-aloud flavor instead, where nothing was
+promised.
+THE TELL: an object description that implies depth ("someone else has been keeping this book,"
+"the letters trail off mid-sentence") without the depth existing anywhere — a Hard check
+attached to a thematic image instead of a payoff.
+THE TRAP IT AVOIDS: this looks like good game design in the moment of writing — an evocative
+detail with a mechanic wrapped around it — but it's actually a broken promise waiting to
+happen: a player spends a roll and real attention chasing a lead that dead-ends because it was
+never built as one.
+FROM THIS PROJECT: Temba's ledger (Ivarstead rebuild, this session) — gated behind a Hard
+Notice check, described only as having "a different hand" in the last entries, no actual
+content behind it. The GM's diagnosis, verbatim: "this exposes a bad pattern where you make
+something thematic without the thought of what it implies... this is a hold over from book
+writing where we control every character but this is game writing — if you give players an
+item like that and explicitly state theres information and lore there we have to create that
+for them to experience." Full statement: WRITING GUIDE Section X.
+
+---
+
+## 25. CREATIVITY IS LICENSED ONLY BY A CHECKED ABSENCE, NEVER BY CONVENIENCE
+THE MOVE: before inventing any detail, ask whether a source of truth already exists for it —
+this campaign has one for nearly everything (geography, voice, mechanics, history, prior
+decisions). If a source exists, use it. Invention is legitimate only in its genuine, CHECKED
+absence — never because checking felt like more effort than imagining.
+THE TELL: reaching for what "feels right" for a detail that is one Grep or one Read away from
+being simply known.
+THE TRAP IT AVOIDS: this masquerades as efficiency — imagining is faster than checking — but it
+produces confident-sounding wrong answers in a universe built specifically so that answer
+already exists somewhere.
+FROM THIS PROJECT: the Ivarstead mill's position was re-imagined twice despite the GM supplying
+an actual top-down reference image of the town twice. The fix both times was re-opening the
+reference, not trusting a redrawn guess. The GM's framing, verbatim: "creativity has its place
+but that place is when we genuinely dont have a source of truth on it and we have a source of
+truth for literally almost every possibility in this entire universe." Full statement: CLAUDE.md
+Rule 1, WRITING GUIDE Section XI, pattern #9.
+
+---
+
 ## THE POSTURE UNDER ALL OF THEM
 He is a co-writer who has carried this world for months, mostly alone, and built this whole
 system so a partner could help him hold it. The through-line of every pattern above: treat
