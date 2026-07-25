@@ -1237,6 +1237,150 @@ HOW IT WAS CREATED (GM narrative account -- for adjudicating questions, not a sc
 ________________
 
 
+SECTION 11: MOON SUGAR AND SKOOMA
+
+Skooma is refined from moon sugar. They are the same plant at two stages of
+processing, and they are not interchangeable at the table. BOTH are addictive,
+and they are addictive in DIFFERENT SHAPES -- moon sugar traps you inside a
+single day, skooma traps you across a life. Moon sugar's true danger is that
+it is legal, cheap, everywhere, and that it eventually stops being enough.
+
+================================================================
+MOON SUGAR -- THE RAW INGREDIENT
+================================================================
+  GLACIES [P] / FORTITAS [S] / ANIMA [T] (full entry in Section 4)
+  Legal, sold openly, a normal caravan good. Behaves as any other raw
+  ingredient when brewed into something else.
+  CONSUMED RAW: +5 FP regen per turn for 20 real minutes at the table.
+  This sits exactly AT the system's hard cap (Main Guide: "never regen more
+  than 5 FP per turn total") and therefore does not stack with any other regen
+  source past 5. It is the strongest legal Focus effect in the game and it
+  breaks no rules.
+
+  ---- THE BINGE (moon sugar's addiction shape) ----
+  Moon sugar burns fast and leaves fast. Its trap is not the long game; it is
+  that you cannot stop taking it TODAY.
+
+  WITHIN-DAY TOLERANCE (resets every dawn):
+     1st dose today .... 20 minutes
+     2nd dose today .... 15 minutes
+     3rd dose today .... 10 minutes
+     4th+ dose today ...  5 minutes
+
+  THE DIP: the moment a dose expires, -2 to all Stat Scores for one in-fiction
+  hour. ANOTHER DOSE CLEARS IT INSTANTLY. That is the entire binge engine --
+  the cheapest way out of the dip is always the next pinch, and the next pinch
+  is legal and in your pocket.
+
+  THE WALL: on the 4th dose in a single day and every dose after it, the dip
+  no longer expires on its own. It becomes -4 to all Stat Scores and lasts
+  until a LONG REST, and further doses no longer clear it. The binge ends when
+  the body stops answering, not when the user decides.
+
+  HABIT (moon sugar's version of dependence): using moon sugar on FIVE
+  CONSECUTIVE in-fiction days establishes a habit. Thereafter, any day without
+  it carries -2 to all Stat Scores until they use. This does NOT escalate
+  further and never damages HP -- moon sugar makes you worse, not dying.
+     BREAKING IT: three consecutive in-fiction days without a dose clears the
+     habit entirely. Fast in, fast out.
+
+  ---- THE ON-RAMP (this is what moon sugar is FOR, structurally) ----
+  A habitual user is running most days at -2 unless they dose, and their doses
+  are buying less time than they used to within any given day. The obvious
+  answer sitting one stall over is the refined product, which has no daily
+  ceiling and does not merely improve the Focus economy but deletes it.
+  Nobody decides to start taking skooma. They decide moon sugar has stopped
+  being enough.
+
+================================================================
+SKOOMA -- THE REFINED PRODUCT
+================================================================
+  A finished consumable with direct effects, outside the Essence system
+  entirely. It cannot be brewed by ordinary alchemy and cannot be combined
+  with anything.
+  EFFECT: UNLIMITED FP for 20 real minutes at the table.
+  This is not regen, so the 5 FP/turn cap does not apply -- there is nothing
+  to cap. It removes FP as a cost for the duration.
+  WHY THIS IS ENORMOUS: per-turn FP regen exists only on Grand or Black soul
+  enchanted gear. Most builds have none, and recover FP only by resting. For
+  those characters skooma does not improve the Focus economy; it deletes it
+  for twenty minutes.
+
+------------------------------------------------------------------
+THE DOSE LADDER (skooma's addiction mechanic)
+------------------------------------------------------------------
+TRACK ONE NUMBER: DOSES TAKEN, lifetime, per character. The player never sees
+this number and it is never announced.
+
+1. TOLERANCE -- what twenty minutes costs
+     Doses 1-2 .... 1/2 bottle
+     Doses 3-5 .... 1 bottle
+     Doses 6-9 .... 1 1/2 bottles
+     Doses 10+ .... 2 bottles
+   The effect NEVER weakens. Only the price rises. This presents to the player
+   as an inventory problem, never as a penalty.
+
+2. THE CRASH -- scales off the AMOUNT CONSUMED, not the dose count.
+   Applied when the twenty minutes end.
+     1/2 bottle ..... Max FP -2 until a Long Rest
+     1 bottle ....... Max FP -4 until a Long Rest, -2 all Stat Scores
+     1 1/2 bottles .. Max FP HALVED until a Long Rest, -2 all Stat Scores
+     2 bottles ...... Max FP HALVED, -4 all Stat Scores, and a Short Rest
+                      restores no FP at all -- only a Long Rest does
+   (Penalty form follows existing precedent -- Main Guide already uses
+   "reduce maximum FP until a Long Rest.")
+
+3. THE LOOP -- why this works
+   The player never chooses a worse crash. They choose the same twenty
+   minutes. Tolerance raises the dose required; the crash scales off the dose;
+   so chasing an unchanged high escalates the punishment with no decision point
+   where the harm was selected. The drug never stops working perfectly. That is
+   the entire trap.
+
+4. DEPENDENCE -- begins at DOSE 6, when one bottle stops being enough.
+   Counted in IN-FICTION DAYS since the last dose.
+     1 day ....... -2 all Stat Scores
+     2 days ...... -4 all Stat Scores, Long Rest restores nothing
+     3+ days ..... 1 HP lost per 10 REAL MINUTES at the table, continuously,
+                   until they dose
+   ANY dose clears all dependence penalties instantly and completely.
+   The cure is always in the bag and it always works.
+
+5. CLEAN
+   30 in-fiction days with no dose resets tolerance to zero. Relapse resumes at
+   the previous count -- the counter itself never clears.
+
+------------------------------------------------------------------
+RULINGS (both substances)
+------------------------------------------------------------------
+REDOSING MID-EFFECT (skooma): extends the duration. It does NOT trigger a
+  second crash -- the crash is calculated once, off the TOTAL consumed in that
+  sitting. This is the main way a player escalates their own crash bracket
+  without ever choosing to.
+
+STACKING: moon sugar taken during skooma does nothing. Unlimited already
+  exceeds any regen value. The two habits are tracked SEPARATELY and a person
+  can carry both at once.
+
+UNIVERSAL: these rules apply to any character who uses either substance.
+
+GM HANDLING: never announce tolerance, dependence, habit, or the counters.
+  When more is needed, that is a shopping problem. When a crash or a dip lands,
+  describe fatigue, not a mechanic. Let the player discover the shape of it
+  late, from their own sheet drifting downward.
+  The first genuinely bad moment is not a penalty. It is the first time the
+  character doses to stop feeling worse rather than to feel good. Nothing
+  changes mechanically at that instant. Say nothing about it.
+
+OPEN (not yet set): price per bottle of skooma, and whether any character in
+  the party could learn to refine skooma from moon sugar. Skooma sits outside
+  the Essence system, so ordinary alchemy cannot do it -- but a non-ordinary
+  route is a live question with a bench alchemist in the party.
+
+
+________________
+
+
 END OF DOCUMENT
 
 Cross-reference: Gear, Consumables, and the Forge (consumable ladder values)
