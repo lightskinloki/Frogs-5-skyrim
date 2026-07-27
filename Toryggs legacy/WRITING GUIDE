@@ -74,6 +74,23 @@ State the positive fact.
 
 (There is one legitimate use of negation -- see section III.)
 
+  COROLLARY -- NEVER WRITE A LINE THAT ONLY PARSES AGAINST AN EARLIER DRAFT.
+  The most common way this rule gets broken is not carelessness; it is OVERCORRECTION. Told
+  a passage was too loud, the writer adds sentences reporting that things are quiet. Told a
+  detail was wrong, he adds a line contradicting the wrong detail. Every one of those is a
+  subtractive negation with extra steps -- and worse, it is an EDITING NOTE WEARING PROSE.
+  The GM reads the current text COLD. He is not holding the draft being answered. A sentence
+  whose only job is to refute a version he cannot see does nothing on the page except waste
+  his attention and signal that the writer is arguing with himself in the manuscript.
+  THE TEST: cover every previous draft. Does this sentence still earn its place with no
+  knowledge of what came before it? If its whole function is "and note that the earlier
+  problem is now absent," cut it -- do not rephrase it. The fix for a wrong line is its
+  REMOVAL, never a second line commenting on the removal.
+  (The failure: told a summoning arrived too loudly, the redraft added "The camp's fire keeps
+  its shape. The horses keep their heads down." Read cold those are two sentences about a
+  campfire behaving like a campfire. They existed solely to answer a previous draft in which
+  the fire was flattened. Full statement: CLAUDE.md G9, AI_REASONING_PATTERNS #28.)
+
 --- 4. DO NOT INVENT CONNECTIONS THE STRUCTURE DOESN'T SUPPORT ---
 
 When two factions, threats, or plot threads are established as separate, do not link, contrast,
@@ -435,6 +452,24 @@ undercuts it (a character who says "I'll assume that was deliberate" and then im
 asks "...was it, though?" -- the second line retroactively makes the first one a lie). If a
 character is choosing to believe something, let them believe it. The doubt, if there is one,
 belongs in a LATER beat, not stapled to the same breath.
+
+  COROLLARY -- COMPOSURE IS CHARACTERIZATION. A polished, quotable, well-built line is
+  itself a claim about the speaker: that they had the presence of mind to build it. Over
+  horror -- a friend maimed, a body, a child hurt -- that claim reads as a person the sight
+  is not costing anything, which is to say a villain or a dissociative, no matter how warm
+  the words are. The register characterizes independently of the content, and it overrides
+  the content.
+  WHAT TO WRITE INSTEAD: shock is people running their own DEFAULTS, badly. Do not invent a
+  reaction for the moment; find what that character already does when they care about
+  someone, and let it fire and miss. Bjorn's default is help-and-understand, so his hands go
+  out for an arm that is not there and he asks a question nobody answers. Compare his one
+  established shock beat, Npcs/Bjorn line 70 -- "the dam broke... He dropped to one knee in
+  front of Mila" and asked her name. Get low, get close, ask. No composure anywhere in it.
+  THE TEST: if the line would survive being pulled out and quoted, it is too composed for
+  the moment. A person in shock does not produce quotable sentences.
+  (The failure: Bjorn given "Sit down. Whatever you're going to tell me, tell it sitting"
+  over Orion's severed arm. It scans as warm and it is not -- it is a man in full command of
+  a room at the exact instant he should be in none of it.)
 
 --- 2. NOBODY GETS TO LECTURE WHO HASN'T EARNED IT ---
 A character correcting, scolding, or delivering a "here's what you did wrong" beat needs to

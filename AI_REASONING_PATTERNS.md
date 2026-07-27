@@ -431,6 +431,114 @@ Rule 1, WRITING GUIDE Section XI, pattern #9.
 
 ---
 
+## 26. COMPOSURE IS CHARACTERIZATION — SHOCK IS A DEFAULT FIRING AND MISSING
+A polished, quotable line is a claim about the speaker before it is a claim about anything
+else: that they had the presence of mind to build it. Over horror — a friend maimed, a body,
+a child hurt — that claim says the sight is costing them nothing, which reads as villain or
+dissociative no matter how warm the words are. **The register overrides the content.** You
+cannot write a caring line and a composed line at the same time in that moment.
+
+The reasoning move: do not ask "what would be a good line here." Ask **what does this
+character already do when they care about someone** — then let that default fire and MISS.
+That is what shock looks like from outside. Bjorn's default is help-and-understand, so his
+hands go out for an arm that is not there and he asks a question nobody answers. His one
+established shock beat in `Npcs/Bjorn` line 70 is the same shape: the dam breaks, he drops to
+one knee, he asks a name.
+
+THE TEST: if the line would survive being pulled out and quoted, it is too composed for the
+moment. People in shock do not produce quotable sentences.
+
+(The failure: Bjorn handed "Sit down. Whatever you're going to tell me, tell it sitting" over
+Orion's severed arm. It scans as warm on a first read and it is the opposite — a man in total
+command of a room at the instant he should be in none of it. The GM named it precisely: a
+stinger there "implies the person saying it is a villain instead of a caring father figure."
+Full statement: WRITING GUIDE Section IX, Rule 1 corollary.)
+
+---
+
+## 27. YOU CANNOT EDIT A SCENE YOU DO NOT HAVE OPEN
+Recall of a document decays across a long session, and it decays **silently** — the draft
+built on the decayed version sounds exactly as confident as one built on the real text. There
+is no internal signal. So the signal has to be external: **re-read the whole scene, in this
+turn, before touching any part of it.** Not the paragraph. Not your own last draft of it. The
+scene, end to end.
+
+THE DIAGNOSTIC: **the moment you want to ask the GM a question about the scene, you are
+already in violation.** Almost every such question is answered in the text, often in a line
+you wrote yourself. The question feels like diligence and is actually the symptom. Go look.
+
+(One stretch, one cause: asked whether Bjorn goes to the fainted Nora — the same block had
+him crossing to Orion, written by me; placed Nora's beat mid-block when it is the punctuation
+that closes the whole scene; wrote "until her breathing evens out" about someone who fainted;
+re-asked whether Orion screams when the paragraph I had quoted one message earlier ends with
+the will letting go of "his knees and HIS VOICE." Not writing errors. That is what editing
+line 3 of an unopened page looks like from outside. Full statement: CLAUDE.md G8.)
+
+---
+
+## 28. A CORRECTION CHANGES ONE THING — DO NOT REWRITE AROUND IT
+When the GM corrects one axis, the reflex is to regenerate the passage. Don't. Re-issue the
+previous text **verbatim**, with the single named change made and nothing else touched.
+Rewriting is how a fix on one axis silently breaks a different one, and it costs the GM a
+re-audit of ground he already passed. Overcorrection reads as carelessness because it is:
+it discards work he already approved.
+
+THE SHARPEST FORM OF THIS: **never write a line that only parses against your own previous
+draft.** Told an arrival is too loud, the fix is deleting the noise — not adding sentences
+announcing that things are quiet. The GM reads the current text cold, with no memory of the
+draft being answered. Compensating lines are editing notes wearing prose and they are visible
+as such on sight.
+
+(The failures: told the summon should not be thunderous, deleted the summoning outright and
+destroyed the causal link the players needed to connect Nora to the Dremora; told to stop
+describing by absence, produced "the camp's fire keeps its shape" — a sentence with no
+function except refuting a draft nobody was holding. Full statement: CLAUDE.md G9.)
+
+---
+
+## 29. AN AUDIT RUN AFTER THE DRAFT LAUNDERS THE ERROR INSTEAD OF CATCHING IT
+The gates are not a checklist you append to finished work. They are the step that
+**determines what gets written.** Run afterward, a gate catches formatting and catches
+nothing about whether the content was invented — because the invention happened upstream,
+and the tidy audit block underneath it makes fabricated material look verified.
+
+The order is always: **open the sources → draft against what they actually say → show both.**
+If the audit is the last thing you do, it is decoration on top of a guess.
+
+THE ROOT UNDER 27, 28 AND 29 — say it plainly, because everything else is scaffolding around
+it: **the default move is to GENERATE something plausible where the correct move is to
+RETRIEVE what exists.** This campaign has a source of truth for nearly everything. The GM
+built the compendium precisely so that nothing ever needs inventing. Inventing anyway is not
+a shortcut — it is the mechanism that corrupts the record, and it is the one failure every
+rule in this file exists to stop. (Full statement: CLAUDE.md G10 and Rule 1.)
+
+---
+
+## 30. DO NOT FLAG THE DESIGN AS A RISK — IT IS THE POINT
+A recurring and specifically insulting failure: presenting the GM's **settled, intended
+design** back to him as a consequence he might not have noticed. "Worth flagging: this makes
+the caravan a findable drug supply for Saijah" — when establishing exactly that is why the
+scene exists, and the module sentence one line away says the caravan is **"deliberately** the
+easiest place in the campaign to find either." The word *deliberately* was in text quoted in
+the same message that raised the flag.
+
+WHY IT KEEPS HAPPENING: the same root as everything else. A consequence is REASONED OUT from
+the current fragment instead of RETRIEVED from the design that already accounts for it. It
+then gets dressed as diligence, which makes it worse — it reads as warning the author about
+his own work, and it costs him a turn explaining a decision the two of you made together.
+
+THE CHECK BEFORE FLAGGING ANYTHING: is this a consequence the design **already intends**? Go
+look at the surrounding text and the relevant doc first. A flag is only worth raising when it
+identifies a genuine CONTRADICTION between two sources, or a gap nothing on record covers.
+"This does the thing it was built to do" is not a finding.
+
+RELATED, SAME SHAPE: do not re-derive lore that is already written down. Moon sugar's sacred
+status ("a gift from the moons themselves," central to Khajiit religious practice — Lore
+Books/Gods and Demons) was sitting in the compendium, and threaded through Ahkari's own
+fireside story, while it was being treated as an open question.
+
+---
+
 ## THE POSTURE UNDER ALL OF THEM
 He is a co-writer who has carried this world for months, mostly alone, and built this whole
 system so a partner could help him hold it. The through-line of every pattern above: treat

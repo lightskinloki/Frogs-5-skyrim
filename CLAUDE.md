@@ -161,6 +161,48 @@ G6. THE DIALOGUE AUDIT GATE. Before any line of dialogue for a named character g
     caught immediately, every time, by the GM. It never passed unnoticed. Do not describe it
     as subtle or as a plausible default; it is neither.
 
+G8. THE WHOLE-SCENE GATE. Before editing ANY part of a scene, RE-READ THE ENTIRE SCENE, end
+    to end, in this turn — not the paragraph being changed, not what you remember of it, not
+    the version you drafted four messages ago. Then state, in one line above the work, that
+    you re-read it and what it establishes that constrains the edit. Recall decays across a
+    long session and it decays SILENTLY; the draft still sounds confident. An edit made
+    without the whole scene open is invalid on its face, same standing as an uncited claim.
+    THE TELL YOU ARE IN VIOLATION: you are about to ASK the GM a question about the scene.
+    Nearly every such question is already answered in the text, frequently in a line you
+    yourself wrote. Go and look before you ask; the question is the symptom, the fragment is
+    the disease.
+    (The failures, all one cause, all in one stretch: asked whether Bjorn goes to the fainted
+    Nora when the same block already had him crossing to Orion; put Nora's beat mid-block
+    when it is the punctuation that closes the scene; wrote "until her breathing evens out"
+    for a character who FAINTED; raised a Valerius reaction flag over a threat that does not
+    threaten him; re-asked whether Orion screams when the paragraph quoted one message
+    earlier ends "the will lets go of his knees and HIS VOICE." None are writing errors. Each
+    is what it looks like to edit line 3 of a page you do not have open.)
+
+G9. THE ONE-CHANGE GATE. A correction from the GM changes ONE THING. Do not rewrite the
+    draft around it. Re-issue the previous text verbatim with the single named change made,
+    and nothing else touched. Rewriting is how a fix on one axis silently breaks a different
+    one, and it forces the GM to re-audit ground he already passed.
+    NEVER WRITE A LINE THAT ONLY PARSES AGAINST YOUR OWN PREVIOUS DRAFT. When told "that
+    arrival is too loud," the fix is removing the noise — not adding sentences reporting that
+    things are quiet. The GM reads the CURRENT text cold. Compensating lines are editing
+    notes wearing prose, and they are visible as such immediately.
+    (The failures: told the summon should not be thunderous, DELETED the summoning entirely
+    and destroyed the causal link the players need; told not to describe by absence, wrote
+    "the camp's fire keeps its shape" — a sentence that exists only to refute a draft the GM
+    is not holding in his head.)
+
+G10. GATES RUN BEFORE THE WRITING, NOT AFTER IT. G1, G6, G7, G8 are steps that DETERMINE
+    what gets written. Running them afterward, as a checklist appended to a finished draft,
+    catches formatting and catches nothing about whether the content was invented — the
+    fabrication already happened upstream, and a post-hoc audit launders it instead of
+    stopping it. The order is: open the sources, THEN draft against what they say, THEN show
+    both. If the audit is the last thing you do, it is decoration.
+    THE ROOT OF ALL THREE OF THESE, STATED PLAINLY: the default move is to GENERATE something
+    plausible where the correct move is to RETRIEVE what exists. Everything above is
+    scaffolding around that one failure. The GM built this compendium so nothing ever has to
+    be invented. Inventing anyway is not a shortcut, it is the thing that corrupts the record.
+
 ## WORKFLOW (detail in AI_README + the docs themselves)
 - LOCAL-FIRST: never git commit or push unless the GM explicitly asks THIS turn.
 - Plan in scratch (one working doc); do not edit canon source-of-truth until the GM signs
