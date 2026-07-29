@@ -539,6 +539,39 @@ fireside story, while it was being treated as an open question.
 
 ---
 
+## 31. FRAMING IS NOT THE REQUIREMENT — TRACE TO THE GOAL BEFORE SPLITTING A DETAIL
+Two branches of a scene can read completely differently — different tone, different pretext,
+a character issuing a command in one and negotiating in the other — while serving the exact
+same underlying GOAL underneath. A concrete detail tied to that goal (a deadline, a price, a
+location) has to carry over across both branches BY DEFAULT. Its absence from one branch does
+not mean it needs its own answer; it means it is MISSING FROM WHERE IT SHOULD HAVE BEEN
+REPEATED. Go find where it belongs before assuming it was never decided.
+
+THE CHECK: before declaring two branches genuinely separate, state the actual STAKE each one
+serves, in one sentence, using the scene's own words if possible. If both sentences come out
+the same, the branches are not separate — only the delivery is.
+
+THE COMPOUNDING FORM, AND IT IS WORSE THAN THE MISS ITSELF: when this gets flagged by the GM,
+the failure is not just having missed it. It is CONSTRUCTING A CONFIDENT, STRUCTURED
+JUSTIFICATION for why the branches are legitimately separate — "this is a genuinely separate
+ultimatum," built and delivered with the same tone as verified fact — without ever tracing
+back to what the text itself says the goal is. Being ABLE to build a plausible case is not
+the same thing as having CHECKED. A defense assembled in response to being questioned needs
+to trace to source exactly the same as any first-pass claim does; if it can't, the right move
+is to discard it, not to argue it more carefully.
+
+(The failure: Valerius's ultimatum to "Davinia" has a stated deadline in the branch where she
+doesn't reveal (Solitude, "the eighth of Sun's Height") and no deadline at all in the branch
+where Ismara reveals — read as two separate negotiations, each needing its own answer. But
+the scene's own text states the identical goal in both: "I need a Caelus claim standing
+beside me when I am." Same ascension, same date, regardless of which branch fires — the
+reveal branch was never a different ultimatum, the existing deadline was simply never
+repeated where it needed to be. And when the GM first flagged the gap, the reply defended it
+as genuinely separate and undecided, instead of tracing the one line that already answered
+it. Full statement: CLAUDE.md G11.)
+
+---
+
 ## THE POSTURE UNDER ALL OF THEM
 He is a co-writer who has carried this world for months, mostly alone, and built this whole
 system so a partner could help him hold it. The through-line of every pattern above: treat

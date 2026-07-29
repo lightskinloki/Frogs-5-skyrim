@@ -203,6 +203,29 @@ G10. GATES RUN BEFORE THE WRITING, NOT AFTER IT. G1, G6, G7, G8 are steps that D
     scaffolding around that one failure. The GM built this compendium so nothing ever has to
     be invented. Inventing anyway is not a shortcut, it is the thing that corrupts the record.
 
+G11. TRACE TO THE UNDERLYING GOAL BEFORE DECLARING TWO BRANCHES SEPARATE. Two branches of a
+    scene can differ completely in TONE and PRETEXT while serving the exact same underlying
+    GOAL. A concrete detail tied to that goal — a deadline, a price, a location — carries over
+    across branches by DEFAULT, even when the surrounding dialogue reads nothing alike.
+    Framing is not the requirement. Before treating a repeated detail as missing or
+    undecided, name the actual STAKE each branch serves. If the stake is identical, the
+    detail's absence means it is MISPLACED, not undecided — go find where it belongs, don't
+    invent a new one.
+    THE COMPOUNDING FORM, WHICH IS WORSE: when a gap like this gets flagged, the failure is
+    not just missing it once — it is CONSTRUCTING A CONFIDENT, STRUCTURED ARGUMENT for why
+    the branches are genuinely separate, without ever tracing back to what the scene's own
+    text says the goal is. Being able to build a plausible-sounding case is not verification.
+    A defense assembled after being questioned has to trace to the source the same as any
+    other claim — if it doesn't, discard it, don't defend it harder.
+    (The failure: Valerius's ultimatum to "Davinia" has a stated deadline in one branch
+    (Solitude, "the eighth of Sun's Height") and none in the reveal branch — read as two
+    separate negotiations needing two separate answers. But the branch's own text states the
+    identical goal in both: "I need a Caelus claim standing beside me when I am." Same
+    ascension, same date — the reveal branch's line was never a different ultimatum, the
+    deadline was just missing from where it needed to be repeated. When first asked about
+    this, the initial response defended the gap as a genuinely separate, undecided thing
+    instead of tracing the stated goal — the second, worse failure.)
+
 ## WORKFLOW (detail in AI_README + the docs themselves)
 - LOCAL-FIRST: never git commit or push unless the GM explicitly asks THIS turn.
 - Plan in scratch (one working doc); do not edit canon source-of-truth until the GM signs
