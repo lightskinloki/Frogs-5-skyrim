@@ -218,6 +218,25 @@ Maces (Bone Breaker): Brutal and heavy. Mace attacks ignore 1 point of the targe
 War Axes (Hack & Slash): Vicious and sharp. When you hit with a Power Attack, the target also takes 1 Bleed damage at the start of their next turn.
 Daggers (Assassin's Blade): Fast and concealable. Dagger attacks deal triple (x3) damage on a successful attack from Sneak (instead of the usual double).
 
+Weapon Property Resistances, Immunities & Vulnerabilities (creature design)
+
+WHY THIS EXISTS: elemental Weakness tags (Fire Weakness, and so on -- see GM Guide, Main Guide) already let a creature's nature interact with what a player throws at it. This extends the same idea to WEAPON PROPERTY instead of damage element -- some creatures aren't built to answer a fine cutting edge, or can't be pierced, or come apart under blunt trauma, independent of whether the weapon happens to be fire-enchanted or plain steel. It reuses the four existing weapon-property categories (Finesse, Bone Breaker, Hack & Slash, Assassin's Blade) directly. There is no new stat for players to track, and this is NOT a general slashing/bludgeoning/piercing damage-type layer sitting on top of the weapon list -- it is keyed to the weapon's PROPERTY exactly as already defined, nothing else. A War Axe is Hack & Slash, full stop, regardless of how a player describes swinging it.
+
+THE THREE TIERS (apply to one Weapon Property at a time; a creature can carry more than one tag, e.g., Immune to Finesse AND Vulnerable to Bone Breaker):
+
+RESISTANT -- damage from that Weapon Property is halved (round down), applied after the creature's DR. Use this for "this usually isn't the right tool, but it still works."
+
+IMMUNE -- damage from that Weapon Property is reduced to 0. The attack still resolves (it can still trigger on-hit effects that aren't damage, at GM discretion), it simply does no harm. Reserve full immunity for cases where the fiction has actually established why a specific weapon property genuinely cannot work -- never assign it for convenience, and never stack it on more than one Property for the same creature, or the players lose too much of their kit at once.
+
+VULNERABLE -- damage from that Weapon Property is increased. Scale the bonus the same way Fire Weakness already scales by tier (see GM Guide, Main Guide: +2 at Novice tier, +4 at Expert tier) -- or, for a boss-tier creature where this is meant to be a real strategic answer rather than a minor edge, double damage from that Property entirely, the same way the Frost Troll doubles all fire damage in every phase (Fire B, Section 3B). Pick whichever scale matches how central the weakness is meant to be to that fight.
+
+WORKED EXAMPLES:
+-- A newly-crossed lesser Daedra sheds a fine cutting edge but has no answer for blunt trauma: Immune to Finesse (Swords, Greatswords do no damage). War Axes, Maces, and Daggers all connect normally -- those are separate Weapon Property categories, not part of a broader "edged weapon" grouping, so this one tag doesn't quietly wall out three other weapon types too.
+-- A heavily armored construct has no exposed joints or seams for a dagger's point to find, but a mace's weight still staggers it through the plating: Resistant to Assassin's Blade, Vulnerable to Bone Breaker.
+-- A creature with thin, easily-torn hide but a dense, glancing-resistant frame: Vulnerable to Hack & Slash, Resistant to Finesse.
+
+GM NOTE: put the tag on the stat block's Abilities & Tactics line exactly like an elemental Weakness tag (e.g., "Immune to Finesse," "Resistant to Assassin's Blade," "Vulnerable to Hack & Slash, +4 damage"). Default to Resistant or Vulnerable rather than Immune -- a full immunity should be rare and earned by the fiction, not a routine design tool, so that no single character's weapon choice gets locked out of a fight entirely.
+
 Tier 1: Basic Materials 4dmg
 Weapon Name
 Damage
