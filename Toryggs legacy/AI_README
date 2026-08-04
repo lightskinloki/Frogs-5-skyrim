@@ -9,10 +9,37 @@ OPERATING RULES (binding on everything below): the repo-root CLAUDE.md holds the
 operating discipline — cite-or-check (never fabricate), the context summary is a
 working-state handoff NOT a story record, verify before writing to canon, obey method
 instructions literally, always think with the GM, re-ground on degradation. CLAUDE.md
-auto-loads every session (for any model) and points here. These exist because relying on
+auto-loads every session for Claude Code specifically; AGENTS.md is the same rules,
+word-for-word in substance, for Codex. Whatever tool you are, find your tool's own
+auto-loaded file (or ask the GM which one applies) and read it — not "any model reads
+CLAUDE.md," two parallel files for two different tools. These exist because relying on
 built-in/session memory instead of THIS REPO caused a serious failure — including a major
 NPC's name being silently corrupted. The repo is the memory of record; when in doubt, open
 the source doc.
+
+A NOTE FOR TOOLS OTHER THAN CLAUDE CODE — REPLICATING `.claude/settings.json`: CLAUDE.md
+and AGENTS.md are STATIC — loaded once per session, and easy to silently drift away from
+over a long one (CLAUDE.md Rule 6, "RE-GROUND ON DEGRADATION"). Claude Code additionally
+enforces this campaign's discipline DYNAMICALLY, through the version-controlled hooks
+config at `.claude/settings.json` (NOT `.claude/settings.local.json` — that one is a
+personal, gitignored override file per its own comment in `.gitignore`; never treat it as
+shared config, never commit into it). That file re-injects reminders automatically at
+three points, not just once at session start:
+  - SessionStart: a short "re-ground in the source, not memory" nudge.
+  - PreToolUse, matching Edit|Write: before every file edit, a reminder to verify
+    factual claims against source before writing to canon.
+  - UserPromptSubmit: the full citation/dialogue/whole-scene GATES text, re-injected
+    before EVERY message — this is what stops the discipline from quietly fading out
+    over a long session the way a once-loaded file can.
+If your tool has an equivalent mechanism (per-turn custom instructions, pre-tool-call
+hooks, anything that injects text at a fixed point rather than once at load), build your
+own version aimed at the SAME three moments, using the EXACT text already written in
+`.claude/settings.json`'s hook commands — open that file directly and read the actual
+strings; do not reconstruct them from memory or from what you have seen fire during a
+session (Rule 1 applies to this exactly the same as to a story fact). If your tool has no
+such mechanism at all, there is no automatic substitute: the discipline is on you to
+supply by hand, and Rule 6 is the one to lean on hardest, since nothing will nag you into
+re-grounding the way it nags a Claude Code session.
 
 
 =======================================================
