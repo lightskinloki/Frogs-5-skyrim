@@ -9,6 +9,8 @@ Privacy by Architecture: The app is structurally incapable of collecting user da
 
 Frictionless Client Play: Players should not have to pay, download heavy software, or manage servers to play in their friend's game.
 
+Marketplace as Convenience, Not Utility: Every paid item sits on top of a complete, fully-functional base experience — the marketplace accelerates or personalizes, it never gatekeeps functionality. Sibling to the Mirror Principle: that one draws this line for AI (manual path always complete), this one draws it for monetization (free path always complete). Already the shape of the DLC Ecosystem below (a free/text version of every module always exists; money buys the app-ready convenience of it) — stated here as a general rule so future features default to following it instead of re-deriving it each time.
+
 MONETIZATION & DISTRIBUTION STRATEGY
 The ecosystem is designed to maximize player adoption while monetizing the most invested users (GMs) through convenience, and players through deep visual customization.
 
@@ -21,6 +23,7 @@ The Player App (Free): Players connect to the GM's local host via a standard web
 Players can optionally purchase a premium client upgrade. This provides zero mechanical advantages. It monetizes identity and visual feedback.
 
 Dynamic Avatars: A modular paper-doll avatar system that visually reflects the character's equipped gear and current state (e.g., looks battered at low HP).
+Far-horizon evolution of this: a real parametric character creator (Cyberpunk 2077 / Black Desert-style sliders and components, not an AI-generated image) replaces the flat paper-doll long-term. One built character asset drives both the portrait and the rigged battle-map model described under Far-Horizon Vision below — same identity, two renders. New races and appearance modifiers (hairstyles, body options, cosmetic items) become the sellable content here, following the Marketplace-as-Convenience principle above: the base creator and its default options ship included; new races/modifiers are the optional purchase, purely cosmetic, same zero-mechanical-advantage rule already governing this whole section.
 
 Custom VFX Overlays: Screen-shake effects, custom critical hit animations, and thematic screen borders that react to damage types (e.g., frost crawls the screen on taking ice damage).
 
@@ -37,7 +40,7 @@ Application Framework: Electron (Node.js backend, TypeScript/HTML/CSS frontend).
 Networking: A Node.js web server or WebSockets running inside the GM's Electron app. Browser-based players connect directly to the GM's IP.
 Networking Scope Rule: v1 is IN-PERSON-FIRST (LAN / phone hotspot — how most tables actually play: physically together, phones out). Internet play is a follow-up (Phase 6.5) via either a bundled tunnel or WebRTC with a tiny stateless signaling server. A signaling server does not violate Privacy by Architecture — it only brokers the handshake; no game data ever transits it. This decision must be made before Phase 6 begins; it changes the architecture. (NAT traversal / port forwarding is the #1 support nightmare of every self-hosted VTT — do not inherit it casually.)
 
-AI Integration: node-llama-cpp to run .gguf models directly from the local file system. Whisper (running via a background process) for local voice transcription.
+AI Integration: node-llama-cpp to run .gguf models directly from the local file system. Voice transcription: see Phase 7b — Vosk (default, small offline model) with Whisper as a still-undecided opt-in tier, not a settled single-model choice.
 AI Hardware Rule: local LLM quality varies wildly by GM hardware. Ship a small default model, allow bring-your-own .gguf, and let the Mirror Principle absorb every failure gracefully — the manual path is always complete.
 
 Data Structure: All campaigns, encounters, and character data are stored and parsed as clean local JSON files.
@@ -67,6 +70,14 @@ Passive AI (Keyword Surfacing): As the GM types (or as the local Whisper model t
 
 Active AI (Session Notes): At the end of a session, a local LLM can parse the raw transcript and generate a structured draft of the session's combat events, story beats, and NPC interactions for the GM to edit and save.
 
+FAR-HORIZON VISION (well beyond the current roadmap — recorded now so it doesn't get lost, not scoped or scheduled)
+
+A full tactical battlemap staging area for combat, evolving out of the existing combat tracker: real positioning, and procedural animations played on player models for actions taken. Rendering approach: dithering and parallax to fake 3D depth and scene composition while keeping a 2D pixel-art look — high-fidelity, not chibi-stylized, so it reads as the actual character, not a generic sprite. Purpose: let remote play (Discord, etc.) be as tactically alive as sitting at the table together, not to replace in-person play.
+
+Explicitly reconciled against this doc's own opening thesis ("the human mind is the game engine; we are building the controller," rejecting VTTs as passive data repositories): this stays consistent because it is (1) fully opt-in and unnecessary for play, (2) a builder the GM authors with — chosen aesthetic, chosen level of detail, never premade scenes — not a content repository, (3) driven by the same character/combat state the app already tracks and visualizes (the existing combat tracker already mediates combat through HP/FP/turn-order UI; this extends that precedent rather than introducing a new one), and (4) built on the parametric character creator above, so what's on the stage is still the player's own authored choice, not the app deciding anything for them.
+
+Vector-based GM-authored environments, with asset packs sold per DLC/module (same DLC Ecosystem pattern as adventure modules — pre-authored content a GM assembles) and an option to import custom textures/models for GMs who want to go further.
+
 DEVELOPMENT ROADMAP
 Phase	Focus	Status
 Phases 1-4	Core rules structure, Player Command Center, data portability, equipment tracking.	Complete
@@ -75,6 +86,6 @@ Phase 5.5	The Lore Web Port: TS scanner module (port of _build_web.py), file-wat
 Phase 6	Electron & Networking Pivot: Wrapping the architecture in Electron. Local host/client connection, IN-PERSON-FIRST scope (LAN / hotspot).	Up Next
 Phase 6.5	Internet Play: bundled tunnel OR WebRTC + stateless signaling (decide before Phase 6 starts).	Planned
 Phase 7a	The AI Layer (text): local GGUF keyword surfacing from typed notes + structured session-note drafting from typed/manual notes. Notes feed the Lore Web corpus (the flywheel goes live here).	Planned
-Phase 7b	The AI Layer (voice): Whisper transcription as an enhancement on top of 7a. Ambient table audio (crosstalk, dice) is hard mode - ship only when it degrades gracefully.	Planned
-Phase 8	Premium Player Polish: 2D modular avatar system (paper doll) and Canvas-based game juice (screen shake, VFX damage indicators). PREREQUISITE DECISION: premium licensing without accounts (offline license keys, or GM-host-granted seats) - must not violate Privacy by Architecture.	Planned
+Phase 7b	The AI Layer (voice): full tiered design now in skyrim-codex/docs/GM-CAMPAIGN-SUITE.md §13, supersedes the single-model assumption below. Non-AI multi-track session recorder (any device, volume-trace speaker cues, zero model) as the standalone foundation; Vosk (small offline model, vocabulary-biased against the campaign entity graph, per-table enrollment/correction) as the default transcription tier; Whisper as a still-undecided opt-in tier pending real-audio testing. Ambient table audio (crosstalk, dice) is hard mode either way - ship only when it degrades gracefully.	Planned
+Phase 8	Premium Player Polish: 2D modular avatar system (paper doll) and Canvas-based game juice (screen shake, VFX damage indicators). Far-horizon: evolves into the parametric character creator + battlemap staging area described above. PREREQUISITE DECISION: premium licensing without accounts (offline license keys, or GM-host-granted seats) - must not violate Privacy by Architecture.	Planned
 Phase 9	DLC Ecosystem Pipeline: Building the tooling to easily ingest new text adventures into the "App Ready" JSON format for the storefront. System-agnostic from day one.	Planned

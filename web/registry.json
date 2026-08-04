@@ -1501,7 +1501,9 @@
     "fire-b",
     "bleeding-waystones",
     "time-distortion",
-    "predicted-first"
+    "predicted-first",
+    "water-sap-tainted",
+    "inn-survivors-slow-clock-stoppable-by-greybeards-aid"
    ]
   },
   {
@@ -2634,6 +2636,42 @@
     "destructible-called-shot",
     "loot-crystallized-wrong-time",
     "nora-wants-them"
+   ]
+  },
+  {
+   "id": "temba",
+   "name": "Temba",
+   "type": "npc",
+   "aliases": [
+    "temba"
+   ],
+   "tags": [
+    "ivarstead",
+    "caravan-leader",
+    "missing",
+    "possible-survivor",
+    "clannfear-transformation-answer-key",
+    "fire-b"
+   ]
+  },
+  {
+   "id": "wilhelm",
+   "name": "Wilhelm",
+   "type": "npc",
+   "aliases": [
+    "wilhelm"
+   ],
+   "tags": [
+    "ivarstead",
+    "innkeeper",
+    "last-man-standing",
+    "secretly-a-coward",
+    "let-others-carry-the-risk",
+    "water-sap-tainted",
+    "slow-transformation-clock",
+    "locked-to-live-through-fire-b",
+    "begs-for-greybeards",
+    "fire-b"
    ]
   }
  ]
