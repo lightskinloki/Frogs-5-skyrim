@@ -11,10 +11,30 @@ GM only needs to name a hook when one is wanted.
 heading rules, indented scripture/quote blocks, and margin annotations from a *second* voice (the counterweight).
 Each book gets its own palette. Reviewed line-by-line before file when dialogue/canon claims are involved.
 
-**Done so far:** The Way of the Voice (Greybeards) · The Dawn Is Yours (Mythic Dawn, w/ soul-carving clue).
+**Done so far:**
+- The Way of the Voice (Greybeards)
+- The Dawn Is Yours (Mythic Dawn, w/ soul-carving clue)
+- A Notebook on Atronachs and Their False Kin (Wren Calder, apprentice — Daedric Atronachs vs. mortal-made golems)
+- On the Far Side of the Wheel (Magister Ithendar Vael — Conjuration cosmology/somatic terms) [Tier 4 Conjuration — DONE]
+- On the Negotiable Law (Cassian Threll — Alteration as renegotiated law) [Tier 4 Alteration — DONE]
+- The Scourge and the Cure (Vexis Velruan's testament — Destruction used to cure disease; ends committed to the Shivering Isles)
+- On the Blade They Call Umbra (Hjolmar Ice-Shaper — forensic study of the artifact sword Umbra)
+- The Red Legions (Battlespire instructor's case-study chronicle of Mehrunes Dagon's historical interventions) [informs Daedra/Dagon entry]
+- What I Would Not Say Aloud ("E." = Elisif the Fair — private diary; grief over Torygg, courtship w/ unnamed ancient-blooded Cyrodiilic suitor, drift toward Dagon/Mythic Dawn sympathy; mentions "the Wardens," Falk Firebeard gone, Sybille Stentor, a Dawnstar museum-keeper descended from a Mythic Dawn agent; ends on cliffhanger)
+- What I Understand of Broken Time ("Martin" = Martin Septim, post-Kvatch — digest of Vivec's "untime" teaching; worked example is the Throat of the World/Alduin/Felldir; unnamed Blades-coded traveling companion)
+
+Note: Wren Calder, Ithendar Vael, and Cassian Threll (Atronachs/Far Side of the Wheel/Negotiable Law) form a matched
+College-of-Winterhold trilogy — same institution, same year (4E 201), all citing "Imedril of Artaeum" as a shared
+authority. Treat Imedril as a recurring in-world citation across future magic-school books.
+
+Elisif and Martin books are unplanned additions outside the original queue structure — noted here as confirmed
+canon per GM. Elisif's book in particular is load-bearing (Dagon-sympathy arc) — cross-reference before writing
+any faction/NPC material touching her, the Blue Palace, or Solitude politics.
+
 **Already covered — do NOT duplicate:** Dragon Priests · The Elder Scroll · Vampirism · Draconic Genesis/Ysgramor ·
 Alchemy (Codex + Doctrine of Essences) · Enchanting/somatic grammar (Structure of Magical Law) · Soul Trap ·
-Gods and Demons (the Divine *overview* — the per-god books must go DEEPER/in-voice, not parallel to it).
+Gods and Demons (the Divine *overview* — the per-god books must go DEEPER/in-voice, not parallel to it) ·
+Conjuration, Alteration (see Tier 4, now built) · Umbra (artifact) · Atronachs/false kin.
 
 ---
 
@@ -89,7 +109,11 @@ Priority by campaign relevance:
 ## TIER 4 — THE SCHOOLS OF MAGIC (build last)
 Skyrim's five, each by a practitioner-partisan who thinks THEIR school is the real one (argumentative, not neutral).
 Avoid duplicating: Enchanting, Alchemy, Soul Trap (already have books).
-- [ ] **Destruction** · [ ] **Restoration** · [ ] **Alteration** · [ ] **Conjuration** · [ ] **Illusion**
+- [x] **Destruction** — *The Scourge and the Cure* (Vexis Velruan)
+- [ ] **Restoration**
+- [x] **Alteration** — *On the Negotiable Law* (Cassian Threll)
+- [x] **Conjuration** — *On the Far Side of the Wheel* (Ithendar Vael)
+- [ ] **Illusion**
 
 **Research per school:** the school's philosophy + signature spells. Claude cross-checks the somatic-component
 grammar (`Structure of Magical Law`) so they stay consistent with the magic system.

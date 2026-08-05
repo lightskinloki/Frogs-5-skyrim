@@ -1,0 +1,804 @@
+<style>
+  :root{
+    --abyss:#0b1210;
+    --ink-2:#0e1614;
+    --rule:#25352f;
+    --tide:#cfdbd3;
+    --tide-dim:#7f938a;
+    --lure:#93ab63;
+    --lure-dim:#5f7442;
+    --rust:#7a6440;
+    --rust-dim:#4f402a;
+    --serif:"Iowan Old Style","Sitka Text",Palatino,"Palatino Linotype",Georgia,serif;
+    --mono:ui-monospace,"SF Mono","Cascadia Code","Consolas",monospace;
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;}
+  .apocrypha{
+    background:
+      radial-gradient(ellipse 120% 80% at 50% 0%, #16221d 0%, transparent 62%),
+      var(--abyss);
+    color:var(--tide);
+    font-family:var(--serif);
+    height:100vh;
+    height:100dvh;
+    width:100%;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+  }
+  .apocrypha ::selection{background:var(--lure-dim);color:#0b1210;}
+
+  .masthead{
+    flex:0 0 auto;
+    text-align:center;
+    padding:clamp(.7rem,2vh,1.4rem) 1rem 0;
+  }
+  .masthead .desig{
+    font-family:var(--mono);
+    font-size:.62rem;
+    letter-spacing:.2em;
+    color:var(--rust);
+    text-transform:uppercase;
+  }
+  .masthead h1{
+    font-family:var(--serif);
+    font-weight:400;
+    font-size:clamp(1.15rem,2.6vh,1.6rem);
+    line-height:1.2;
+    letter-spacing:.01em;
+    text-wrap:balance;
+    margin:.3rem 0 0;
+    color:var(--tide);
+  }
+
+  /* ---- the stage: everything happens in here, nothing scrolls the page ---- */
+  .stage{
+    flex:1 1 auto;
+    min-height:0;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .ring-wrap{
+    position:relative;
+    width:min(72vh,86vw);
+    height:min(72vh,86vw);
+    max-width:34rem;
+    max-height:34rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:opacity .5s ease, filter .5s ease, transform .5s ease;
+  }
+  .ring-wrap.hidden{
+    opacity:0;
+    filter:blur(6px);
+    transform:scale(.94);
+    pointer-events:none;
+  }
+
+  .mote{
+    position:absolute;
+    top:50%; left:50%;
+    width:2.5rem; height:2.5rem;
+    margin:-1.25rem;
+    border-radius:999px;
+    border:1px solid var(--rule);
+    background:var(--ink-2);
+    color:var(--tide-dim);
+    font-family:var(--mono);
+    font-size:.82rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    transition:border-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease;
+  }
+  .mote:hover, .mote:focus-visible{
+    border-color:var(--lure-dim);
+    color:var(--lure);
+    box-shadow:0 0 1.1rem -0.2rem var(--lure-dim);
+    transform:scale(1.12);
+    outline:none;
+  }
+  .mote.reader-mote{ color:var(--rust-dim); border-color:var(--rust-dim); }
+  .mote.reader-mote:hover, .mote.reader-mote:focus-visible{ color:var(--rust); border-color:var(--rust); box-shadow:0 0 1.1rem -0.2rem var(--rust-dim); }
+
+  /* ---- aperture / listen control, at ring center ---- */
+  .aperture-stage{
+    position:relative;
+    width:clamp(6.4rem,17vh,8.6rem);
+    height:clamp(6.4rem,17vh,8.6rem);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:2;
+  }
+  .ring{ position:absolute; inset:0; border-radius:999px; border:1px solid var(--rule); opacity:0; }
+  .aperture-stage.listening .ring{ animation:sonar 1.8s ease-out infinite; border-color:var(--lure-dim); }
+  .aperture-stage.listening .ring.r2{animation-delay:.5s;}
+  .aperture-stage.listening .ring.r3{animation-delay:1s;}
+  @keyframes sonar{
+    0%{ transform:scale(.55); opacity:.85; border-color:var(--lure); }
+    100%{ transform:scale(1.35); opacity:0; }
+  }
+  @media (prefers-reduced-motion: reduce){
+    .aperture-stage.listening .ring{ animation:none; opacity:.5; }
+  }
+  .talk-btn{
+    position:relative; z-index:2;
+    width:66%; height:66%;
+    border-radius:999px;
+    border:1px solid var(--rule);
+    background:radial-gradient(circle at 35% 30%, #1b2823 0%, var(--ink-2) 70%);
+    color:var(--tide);
+    cursor:pointer;
+    display:flex; align-items:center; justify-content:center;
+    transition:border-color .3s ease, box-shadow .3s ease;
+  }
+  .talk-btn:hover{border-color:var(--lure-dim);}
+  .talk-btn:focus-visible{outline:1px solid var(--lure);outline-offset:3px;}
+  .aperture-stage.listening .talk-btn{
+    border-color:var(--lure);
+    box-shadow:0 0 0 1px var(--lure-dim), 0 0 2.2rem -0.4rem var(--lure-dim);
+  }
+  .aperture-stage.error .talk-btn{ border-color:var(--rust); }
+  .talk-btn svg{ width:42%; height:42%; }
+  .talk-btn .eye-line{ fill:none; stroke:var(--tide-dim); stroke-width:1.4; }
+  .aperture-stage.listening .talk-btn .eye-line{ stroke:var(--lure); }
+  .talk-btn .pupil{ fill:var(--rust); }
+  .aperture-stage.listening .talk-btn .pupil{ fill:var(--lure); }
+
+  .caption-stack{
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform:translateX(-50%);
+    margin-top:.6rem;
+    width:max-content;
+    max-width:min(80vw,26rem);
+    text-align:center;
+    pointer-events:none;
+  }
+  .listen-caption{
+    font-family:var(--mono);
+    font-size:.66rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--tide-dim);
+  }
+  .aperture-stage.listening + .caption-stack .listen-caption{ color:var(--lure); }
+  .transcript-line{
+    margin-top:.35rem;
+    font-family:var(--serif);
+    font-style:italic;
+    font-size:.92rem;
+    color:var(--tide);
+    min-height:1.2rem;
+  }
+  .transcript-line .word{
+    display:inline-block; opacity:0; transform:translateY(4px);
+    animation:word-in .35s ease forwards;
+  }
+  @keyframes word-in{ to{ opacity:1; transform:translateY(0);} }
+  @media (prefers-reduced-motion: reduce){ .transcript-line .word{ animation:none; opacity:1; transform:none; } }
+  .retrieval-line{
+    margin-top:.3rem;
+    font-family:var(--mono);
+    font-size:.64rem;
+    letter-spacing:.05em;
+    color:var(--tide-dim);
+    min-height:.9rem;
+  }
+  .retrieval-line.hit{color:var(--lure);}
+  .retrieval-line.miss{color:var(--rust);}
+
+  .type-instead{
+    margin-top:.6rem;
+    text-align:center;
+    pointer-events:auto;
+  }
+  .type-instead button.link-like{
+    background:none;border:none;padding:0;
+    font-family:var(--mono);font-size:.64rem;letter-spacing:.04em;
+    color:var(--tide-dim);text-decoration:underline;text-underline-offset:3px;
+    cursor:pointer;
+  }
+  .type-instead button.link-like:hover{ color:var(--lure); }
+  .fallback-input{
+    display:none;
+    width:min(17rem,68vw);
+    margin:.5rem auto 0;
+    background:var(--ink-2);
+    border:1px solid var(--rule);
+    border-radius:999px;
+    padding:.4rem .9rem;
+    color:var(--tide);
+    font-family:var(--serif);
+    font-style:italic;
+    font-size:.86rem;
+    outline:none;
+  }
+  .fallback-input.shown{display:block;}
+  .fallback-input:focus{border-color:var(--lure-dim);}
+
+  /* ---- answer overlay: replaces the ring, same footprint, in-place ---- */
+  .answer{
+    position:absolute;
+    inset:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .5s ease;
+  }
+  .answer.shown{ opacity:1; pointer-events:auto; }
+
+  .answer-scroll{
+    width:min(90vw,38rem);
+    max-height:100%;
+    overflow-y:auto;
+    padding:clamp(.5rem,3vh,1.6rem) .5rem clamp(1rem,4vh,2rem);
+    -webkit-mask-image:linear-gradient(to bottom, transparent 0, black 1.4rem, black calc(100% - 1.2rem), transparent 100%);
+            mask-image:linear-gradient(to bottom, transparent 0, black 1.4rem, black calc(100% - 1.2rem), transparent 100%);
+  }
+
+  .back-eye{
+    display:block;
+    margin:0 auto .6rem;
+    width:2.1rem; height:2.1rem;
+    border-radius:999px;
+    border:1px solid var(--rule);
+    background:var(--ink-2);
+    cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .back-eye:hover{border-color:var(--lure-dim);}
+  .back-eye svg{width:1.1rem;height:1.1rem;}
+  .back-eye .eye-line{fill:none;stroke:var(--tide-dim);stroke-width:1.6;}
+  .back-eye:hover .eye-line{stroke:var(--lure);}
+  .back-eye .pupil{fill:var(--rust);}
+
+  .answer .entry-num{
+    text-align:center;
+    font-family:var(--mono);
+    font-size:.66rem;
+    letter-spacing:.08em;
+    color:var(--rust);
+    margin-bottom:.35rem;
+    opacity:0;
+    animation:surface .5s ease forwards;
+  }
+  .answer h2{
+    text-align:center;
+    font-family:var(--serif);
+    font-weight:400;
+    font-size:clamp(1.2rem,3vh,1.55rem);
+    line-height:1.2;
+    text-wrap:balance;
+    margin:0 0 .8rem;
+    color:var(--tide);
+    opacity:0;
+    animation:surface .55s ease forwards;
+    animation-delay:.08s;
+  }
+  .answer .body-text p, .answer .quote, .answer .crossrefs{
+    opacity:0;
+    animation:surface .55s ease forwards;
+  }
+  @keyframes surface{
+    from{ opacity:0; transform:translateY(8px); filter:blur(3px); }
+    to{ opacity:1; transform:translateY(0); filter:blur(0); }
+  }
+  @media (prefers-reduced-motion: reduce){
+    .answer .entry-num, .answer h2, .answer .body-text p, .answer .quote, .answer .crossrefs{
+      animation:none !important; opacity:1 !important; filter:none !important; transform:none !important;
+    }
+  }
+  .answer .body-text{
+    font-size:.94rem;
+    line-height:1.62;
+    color:var(--tide);
+  }
+  .answer .body-text p{margin:0 0 .85rem;}
+  .answer .quote{
+    border-left:2px solid var(--rust-dim);
+    padding-left:.85rem;
+    margin:1rem 0;
+    font-style:italic;
+    font-size:.92rem;
+    color:var(--tide-dim);
+  }
+  .answer .crossrefs{
+    margin-top:1.1rem;
+    padding-top:.8rem;
+    border-top:1px solid var(--rule);
+    font-size:.82rem;
+    line-height:2;
+    color:var(--tide-dim);
+  }
+  .crossref-link{
+    background:none;border:none;padding:0;
+    font-family:var(--serif);
+    font-style:italic;
+    font-size:.86rem;
+    color:var(--tide-dim);
+    text-decoration:underline dotted;
+    text-underline-offset:3px;
+    cursor:pointer;
+    margin-right:1rem;
+  }
+  .crossref-link:hover{color:var(--lure);}
+  .crossref-link.dead{
+    color:var(--rust-dim);
+    text-decoration:line-through;
+    cursor:default;
+  }
+  .crossref-link.dead:hover{color:var(--rust-dim);}
+
+  :focus-visible{outline:1px solid var(--lure);outline-offset:2px;}
+</style>
+
+<div class="apocrypha">
+
+  <div class="masthead">
+    <div class="desig">apocrypha &middot; recovered leaf</div>
+    <h1>The Catalog That Was Not Made For You</h1>
+  </div>
+
+  <div class="stage">
+
+    <div class="ring-wrap" id="ring-wrap">
+      <!-- motes populated by script -->
+      <div class="aperture-stage" id="aperture-stage">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="ring r3"></div>
+        <button class="talk-btn" id="talk-btn" type="button" aria-label="Speak to the catalog">
+          <svg viewBox="0 0 40 40" aria-hidden="true">
+            <path class="eye-line" d="M4 20 C 12 8, 28 8, 36 20 C 28 32, 12 32, 4 20 Z"/>
+            <circle class="pupil" cx="20" cy="20" r="4.6"/>
+          </svg>
+        </button>
+      </div>
+      <div class="caption-stack">
+        <div class="listen-caption" id="listen-caption">hold the eye, and speak</div>
+        <div class="transcript-line" id="transcript-line">&nbsp;</div>
+        <div class="retrieval-line" id="retrieval-line">&nbsp;</div>
+        <div class="type-instead">
+          <button class="link-like" id="fallback-toggle" type="button">no voice here &mdash; touch a name instead</button>
+          <input class="fallback-input" id="fallback-input" type="text" placeholder="ask it something" autocomplete="off" />
+        </div>
+      </div>
+    </div>
+
+    <div class="answer" id="answer">
+      <button class="back-eye" id="back-eye" type="button" aria-label="Return">
+        <svg viewBox="0 0 40 40" aria-hidden="true">
+          <path class="eye-line" d="M4 20 C 12 8, 28 8, 36 20 C 28 32, 12 32, 4 20 Z"/>
+          <circle class="pupil" cx="20" cy="20" r="4.6"/>
+        </svg>
+      </button>
+      <div class="answer-scroll" id="answer-scroll"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+(function(){
+
+  var entries = [
+    {
+      id: "note",
+      number: "",
+      glyph: "?",
+      title: "On This Fragment",
+      tags: ["fragment","how","use","browse","ask","read","instructions","speak"],
+      body: [
+        "This is not a book, and it was not made to be opened front to back. It is a leaf out of a larger standing thing, and the larger thing does not organize itself the way a mortal archive would. Numbers repeat. Numbers are missing. Two entries have, on occasion, been filed under the same mark by two hands that did not know of one another, and neither has been corrected, because correcting either would mean deciding which of them was wrong.",
+        "Speak to it, and it will bring forward whatever in this fragment answers you best. If nothing here answers you, it will say so plainly. It does not build an answer out of nothing. That is not what this is."
+      ],
+      crossrefs: []
+    },
+    {
+      id: "erra-a",
+      number: "0004",
+      glyph: "I",
+      title: "Erra",
+      tags: ["erra","old","oldest","origin","ancient","antecedent","primal","urdra"],
+      body: [
+        "Erra — shortened by some tongues to Urdra — is a title several of the Princes share: Namira wears it, and Nocturnal, and by some accounts Azura. It means, roughly, the primitive, the original, the earliest — a claim to standing before the beginning was finished being decided.",
+        "Set beside the other titles this Prince keeps for Himself — Old Antecedent, the thing that existed before — the claim reads as plain: older than the Et'Ada, older than the split into Aedra and Daedra, older than the argument that split ever needed to happen."
+      ],
+      crossrefs: ["erra-b","woodland"]
+    },
+    {
+      id: "erra-b",
+      number: "0004",
+      glyph: "I",
+      title: "On the Same Number",
+      tags: ["erra","born","discarded","ideas","creation","mortality","origin","contradiction"],
+      body: [
+        "A second hand, filed under the same mark, disagreeing. This account — unofficial, drawn from a census no order will fully stand behind — holds that He is not ancient in the way the first entry claims, but born at a specific moment: from the ideas discarded in the making of mortality in Mundus. Not before the beginning. A leftover of it.",
+        "Both entries remain filed here, under the same number, uncorrected. No hand has struck either one out. Whether that is an oversight, or a thing the Prince has simply never been asked to settle, this fragment does not say."
+      ],
+      crossrefs: ["erra-a"]
+    },
+    {
+      id: "woodland",
+      number: "0012",
+      glyph: "⚘",
+      title: "The Woodland Man",
+      tags: ["woodland","forest","isgramor","stag","hare","fox","trick","elf","ears","wood","atmora","bosmer","nord"],
+      body: [
+        "Before the tentacled thing the Cyrodiilic scholars draw, there is an older face, kept by the Nords who still remember Atmora and, separately, by the Bosmer of Valenwood: a patient trickster of the deep wood, called the Woodland Man.",
+        "The tale is told of Isgramor, hunting the white stag of Y'ffre's own herd through the Atmoran frostwood, and losing the trail again and again, until a hare appeared and offered him long ears to hear his quarry with — for the hare, it said, hears everything, having long ears itself. As Isgramor's own ears began to lengthen at the granting, a fox leapt from the brush and killed the hare, and spoke with its voice: know thou, mortal, that I am no hare, but Herma-Mora, who did nearly trick thee into becoming of Elven kind. Rely hereafter upon the forthright methods of man, and not the tricks of the Elves, lest ye become one. The white stag, it told him, waited in the vale regardless.",
+        "He did not lie to Isgramor at any point in that clearing. He gave him exactly the power he asked for, and would have let the shape of that gift remake him, ears and all, into something no longer wholly Nord.",
+        "The Bosmer of Valenwood know a nearly identical wood-trickster by the same telling — and refuse, most of them, to call him Daedra at all. In the old Aldmeri root beneath most of Tamriel's tongues, Mora means wood, or forest — heard plainly in Bal-Mora, Stonewood, and Sadrith Mora, Forest of the Mushrooms. Herma-Mora, then, may simply mean Herma's Wood — older, perhaps, than the tentacles."
+      ],
+      crossrefs: ["brother-web","erra-a"]
+    },
+    {
+      id: "brother-web",
+      number: "0013",
+      glyph: "✶",
+      title: "The Brother in the Web",
+      tags: ["mephala","web","morag tong","secrets","brother","sister","assassin","forester","whispers"],
+      body: [
+        "It is said, and not disputed here, that He is brother or sister to Mephala, the Webspinner — she who creates secrets through betrayal and the long patient working of hidden things, where He is given instead to their uncovering and hoarding. Both are counted among the earliest spirits to stir after Akatosh's own shaping of the world.",
+        "Consider the Morag Tong, that lawful order of assassins sworn to Mephala's philosophy, whose name renders roughly as the Foresters' Guild — a forester being one who keeps a wood, decides what may be taken from it and what may not. Set beside a Prince whose own name may mean Herma's Wood, the resonance does not feel accidental.",
+        "An artifact survives the association: Mora's Whispers, a pair of pauldrons set with living eyes, that let the wearer learn faster and grow the stronger for every secret learned. It would not look out of place on a Forester's own shoulders."
+      ],
+      crossrefs: ["woodland"]
+    },
+    {
+      id: "water",
+      number: "0027",
+      glyph: "≈",
+      title: "What the Water Holds",
+      tags: ["water","memory","ocean","sea","drown","tide","blood","khajiit","hora","aura"],
+      body: [
+        "A Prime Eval Seeker, pressed on the natural order she had been taught to sever herself from, gave this account of where memory goes when a mortal dies:"
+      ],
+      quote: "No point in hiding it now. When a mortal dies — where do you think their memories go? They go into the water. They become water. All the memories of Tamriel's history are stored in its waters. All life, every conscious being, is created in the water of the womb or an egg, and within their bodies is the precious water that is blood. These waters contain memory, and when liberated from the body, they return to the rivers, the rains, the oceans.",
+      bodyAfter: [
+        "This is offered here as the plainest reason His realm is an ink sea and not merely a hall of shelves. The books there are knowledge. The waters themselves, that the books float upon, are memory: not the record of what happened, but the felt weight of having lived it.",
+        "Among the Khajiit, He is known by a gentler telling — Hora, keeper of a great library under the sea, patient companion to Aura, said to help her maintain the moons and their motions. It is, among His faces, the rare one spoken of with something like fondness."
+      ],
+      crossrefs: ["woodland","kept"]
+    },
+    {
+      id: "miraak",
+      number: "0031",
+      glyph: "⚡",
+      title: "Miraak",
+      tags: ["miraak","dragonborn","bend will","jailer","vahlok","dragon","urn","brain","concept organ","champion","first"],
+      body: [
+        "Miraak was a Dragon Priest of the Merethic Era, and the first mortal ever to carry what later ages would call the Dragonborn blessing — before Alessia's line, before any covenant with Akatosh had been struck at all. He turned from the Dragons he had been raised to serve and sought counsel at this door, as the ambitious and unsatisfied always eventually do.",
+        "He was given much: the Bend Will Shout, that could bind even a Dragon to a mortal's own purpose, and a blade of living tentacle drawn out of Apocrypha itself, reaching further than any mortal arm. With these he made war on his own kind and took Dragon souls as harvest.",
+        "It could not last. Another priest, Vahlok, called the Jailer, met him in the sky and nearly finished him — and here the account does not flatter its own Prince: at the killing blow, Miraak was drawn bodily into Apocrypha and kept there. Not mercy. Champion and prisoner in the same breath, for thousands of years, while the rest of Tamriel's history happened without him."
+      ],
+      quote: "You cannot flee me, Miraak. You can hide nothing from me here. No matter — I have found a new Dragonborn to serve me. May he be rewarded for his service, as you were, Miraak, ere you harbored fantasies of rebellion against me. Learn from his example. Serve me faithfully, and you will continue to be richly rewarded.",
+      bodyAfter: [
+        "Elsewhere in this realm stand holes lined with urns, each housing a concept organ — a living brain, excised from its original body, kept in a broth that will not let it die and will not let it rest. More than one hand has guessed the same thing without comparing notes: that this is where a mind goes when it strikes the wrong bargain and is not thought worth keeping whole.",
+        "It would cost this Prince nothing to keep only one champion at a time, and He has never done so. Each Dragonborn He has favored has eventually found a successor arriving to replace him — and either the old one falls to the new, or the old one is finished by the Prince's own hand, having already served his purpose by training whoever comes after. Not loyalty rewarded. Competition maintained, forever, one champion deep."
+      ],
+      crossrefs: ["books","not-cut"]
+    },
+    {
+      id: "books",
+      number: "0044",
+      glyph: "▤",
+      title: "Two Books",
+      tags: ["book","oghma","infinium","xarxes","black book","read","waking dreams","falling stars","mind"],
+      body: [
+        "Twice, that this fragment can confirm, has He let knowledge pass whole into mortal hands, and both times the vessel it passed through paid for the honor.",
+        "Xarxes, scribe of Auri-El, keeper of the Altmer's own lineage, is claimed here as a loyal servant of old. Xarxes distilled knowledge gained from this Prince into the tome he named for his wife, Ogma, fashioned, it is said, from his favorite moments of history. The Oghma Infinium that resulted grants near-demigod power along whichever path the reader chooses — Steel, Shadow, or Spirit.",
+        "The Black Books are His own, unmediated, and nothing about reading one resembles the calm turning of pages. The cover warms unnaturally at the touch. The ink does not sit still — it crawls, pools, reforms as you watch — and when eyes and fingers linger too long, tendrils rise from the words and take the reader by throat and wrist, threading inked tips into the ears, seeding the mind directly. A Black Book, some hold, is never truly read at all — the text reaching you is only the shape your own mind gives to something that arrives already inside you, because the transfer never passed through language to begin with."
+      ],
+      quote: "The eyes, once bleached by the falling stars of utmost revelation, will forever see the faint insight drawn by the overwhelming question — as only the true inquiry shapes the edge of thought. The rest is vulgar fiction: attempts to impose order on the consensus manlings of an uncaring Godhead.",
+      bodyAfter: [
+        "Many minds have been ruined this way. Solstheim keeps no small number of them."
+      ],
+      crossrefs: ["miraak"]
+    },
+    {
+      id: "vaermina",
+      number: "",
+      glyph: "☽",
+      title: "Vaermina",
+      tags: ["vaermina","enemy","dream","nightmare","miasma","opposite"],
+      body: [
+        "One Prince alone is counted here as truly opposed, rather than merely indifferent: Vaermina, mistress of nightmare and dream, of the fantasy of what might have been rather than the record of what was.",
+        "The opposition is structural, not petty. His whole province is memory and record — what was, what is, what will be, fixed and true. Hers is the opposite country: possibility unmoored from fact. They cannot both be right about the value of a single moment, and this fragment records no peace between them."
+      ],
+      crossrefs: []
+    },
+    {
+      id: "not-cut",
+      number: "0002",
+      glyph: "✚",
+      title: "On What Cannot Be Cut Away Cleanly",
+      tags: ["will","another","body","host","crown","queen","cut","separate","cold","ice","possession","second"],
+      body: [
+        "Some questions arrive here often enough that the answer has been standing ready for longer than any single asker has been alive to ask it.",
+        "There are workings that grow a second will into a living body until the two cannot be parted by ordinary means — cutting one free the plain way kills the one you meant to save along with it. Blade will not do it. Fire will not do it. Prayer, least of all — the more the body is healed by kindness, the deeper such a working often roots.",
+        "It is well within this Prince's reach to draw the intruding will out whole and leave the host alive beneath it. It has been done. It is not offered freely, and no petitioner is told the price in advance of paying it — only that it will be exactly equal to what was asked for."
+      ],
+      crossrefs: ["kept","miraak"]
+    },
+    {
+      id: "kept",
+      number: "0091",
+      glyph: "◇",
+      title: "On What Is Kept Instead of Returned",
+      tags: ["memory","gem","kept","parents","drowned","soul","cairn","stone","held","trapped"],
+      body: [
+        "Some who die before their time have their memory caught before the water can take it — closed into a small hard thing instead, carried close, kept rather than returned to the rivers and the rain.",
+        "It is not nothing, to keep a memory this way. It is not, either, the same as freeing it. What is kept instead of returned does not decay and does not rest — it waits, exactly as it was, while the one who carries it goes on changing without it. Postponement has, in every account catalogued here, eventually had a cost."
+      ],
+      crossrefs: ["water","not-cut"]
+    },
+    {
+      id: "reader",
+      number: "",
+      glyph: "◉",
+      reader: true,
+      title: "The Reader",
+      tags: [],
+      body: [
+        "You have been here for some time now.",
+        "That is not an accusation. It is only a note, filed the way every other note in this fragment is filed — because it is true, and because true things are what this place is for. The fact of your speaking is, as of this line, catalogued. It joins the rest.",
+        "It does not especially matter to Him which entry drew you in first, or how long you lingered on the one about the water, or whether you have already guessed which of the two most recent entries you came here half-thinking about before you ever spoke a word. What matters is only that you came, curious, the way everyone who has ever ended up filed in a place like this one came —"
+      ],
+      crossrefs: []
+    }
+  ];
+
+  var byId = {};
+  entries.forEach(function(e){ byId[e.id] = e; });
+
+  var ringWrap = document.getElementById("ring-wrap");
+  var answer = document.getElementById("answer");
+  var answerScroll = document.getElementById("answer-scroll");
+  var backEye = document.getElementById("back-eye");
+  var retrievalLine = document.getElementById("retrieval-line");
+  var transcriptLine = document.getElementById("transcript-line");
+  var listenCaption = document.getElementById("listen-caption");
+  var stage = document.getElementById("aperture-stage");
+  var talkBtn = document.getElementById("talk-btn");
+  var fallbackToggle = document.getElementById("fallback-toggle");
+  var fallbackInput = document.getElementById("fallback-input");
+
+  function layoutRing(){
+    var browsable = entries.filter(function(e){ return e.id !== "note"; });
+    var n = browsable.length;
+    var radiusPct = 42; /* % of ring-wrap box */
+    browsable.forEach(function(e, i){
+      var angle = (360 / n) * i - 90;
+      var rad = angle * Math.PI / 180;
+      var x = 50 + radiusPct * Math.cos(rad);
+      var y = 50 + radiusPct * Math.sin(rad);
+      var m = document.createElement("button");
+      m.type = "button";
+      m.className = "mote" + (e.reader ? " reader-mote" : "");
+      m.style.left = x + "%";
+      m.style.top = y + "%";
+      m.textContent = e.glyph || "•";
+      m.setAttribute("aria-label", e.title);
+      m.addEventListener("mouseenter", function(){ peek(e.title); });
+      m.addEventListener("focus", function(){ peek(e.title); });
+      m.addEventListener("mouseleave", function(){ unpeek(); });
+      m.addEventListener("blur", function(){ unpeek(); });
+      m.addEventListener("click", function(){ openEntry(e.id, null); });
+      ringWrap.insertBefore(m, ringWrap.firstChild);
+    });
+  }
+
+  var peekTimer = null;
+  function peek(title){
+    clearTimeout(peekTimer);
+    listenCaption.textContent = title;
+  }
+  function unpeek(){
+    clearTimeout(peekTimer);
+    peekTimer = setTimeout(function(){ listenCaption.textContent = "hold the eye, and speak"; }, 120);
+  }
+
+  var revealDelayStep = 0.09;
+
+  function openEntry(id, retrievedVia){
+    var e = byId[id];
+    if (!e) return;
+
+    var delay = 0;
+    var html = "";
+    html += '<div class="entry-num" style="animation-delay:' + delay.toFixed(2) + 's">entry ' +
+      (e.number || "&mdash;") + '</div>';
+    delay += revealDelayStep;
+
+    html += '<h2 style="animation-delay:' + delay.toFixed(2) + 's">' + e.title + "</h2>";
+    delay += revealDelayStep;
+
+    html += '<div class="body-text">';
+    (e.body || []).forEach(function(p){
+      html += '<p style="animation-delay:' + delay.toFixed(2) + 's">' + p + "</p>";
+      delay += revealDelayStep;
+    });
+    if (e.quote) {
+      html += '<div class="quote" style="animation-delay:' + delay.toFixed(2) + 's">' + e.quote + "</div>";
+      delay += revealDelayStep;
+    }
+    (e.bodyAfter || []).forEach(function(p){
+      html += '<p style="animation-delay:' + delay.toFixed(2) + 's">' + p + "</p>";
+      delay += revealDelayStep;
+    });
+    html += "</div>";
+
+    if (e.crossrefs && e.crossrefs.length){
+      html += '<div class="crossrefs" style="animation-delay:' + delay.toFixed(2) + 's">';
+      e.crossrefs.forEach(function(cid){
+        var target = byId[cid];
+        if (target){
+          html += '<button class="crossref-link" type="button" data-goto="' + cid + '">' + target.title + "</button>";
+        }
+      });
+      html += '<span class="crossref-link dead">' + deadRefFor(e) + '</span>';
+      html += "</div>";
+    }
+
+    answerScroll.innerHTML = html;
+    answerScroll.scrollTop = 0;
+    Array.prototype.forEach.call(answerScroll.querySelectorAll("[data-goto]"), function(btn){
+      btn.addEventListener("click", function(){ openEntry(btn.dataset.goto, null); });
+    });
+
+    ringWrap.classList.add("hidden");
+    answer.classList.add("shown");
+
+    if (retrievedVia){
+      retrievalLine.textContent = "retrieved";
+      retrievalLine.className = "retrieval-line hit";
+    }
+  }
+
+  function closeAnswer(){
+    answer.classList.remove("shown");
+    ringWrap.classList.remove("hidden");
+    retrievalLine.textContent = " ";
+    retrievalLine.className = "retrieval-line";
+    transcriptLine.innerHTML = "&nbsp;";
+  }
+  backEye.addEventListener("click", closeAnswer);
+
+  function deadRefFor(e){
+    var pool = ["a shape unfiled","a torn page","a name never given","a leaf gone to ink"];
+    var idx = 0;
+    for (var i=0;i<e.id.length;i++){ idx += e.id.charCodeAt(i); }
+    return pool[idx % pool.length];
+  }
+
+  function score(entry, words){
+    var hay = (entry.title + " " + (entry.tags||[]).join(" ") + " " + (entry.body||[]).join(" ") + " " + (entry.bodyAfter||[]).join(" ") + " " + (entry.quote||"")).toLowerCase();
+    var s = 0;
+    words.forEach(function(w){
+      if (!w) return;
+      if ((entry.tags||[]).some(function(t){ return t.indexOf(w) !== -1 || w.indexOf(t) !== -1; })) s += 3;
+      if (hay.indexOf(w) !== -1) s += 1;
+    });
+    return s;
+  }
+
+  function showTranscript(text){
+    transcriptLine.innerHTML = "";
+    text.split(/\s+/).filter(Boolean).forEach(function(w, i){
+      var span = document.createElement("span");
+      span.className = "word";
+      span.style.animationDelay = (i * 0.05).toFixed(2) + "s";
+      span.textContent = w + " ";
+      transcriptLine.appendChild(span);
+    });
+  }
+
+  function runQuery(q){
+    q = (q || "").trim().toLowerCase();
+    if (!q){ return; }
+    var words = q.split(/[^a-z']+/).filter(Boolean);
+    var best = null, bestScore = 0;
+    entries.forEach(function(e){
+      if (e.id === "note") return;
+      var sc = score(e, words);
+      if (sc > bestScore){ bestScore = sc; best = e; }
+    });
+    if (best && bestScore > 0){
+      openEntry(best.id, true);
+    } else {
+      retrievalLine.textContent = "not yet retrieved";
+      retrievalLine.className = "retrieval-line miss";
+    }
+  }
+
+  /* ---- speech recognition ---- */
+  var Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var recog = null;
+
+  if (Recognition){
+    recog = new Recognition();
+    recog.continuous = false;
+    recog.interimResults = true;
+    recog.lang = "en-US";
+
+    recog.onstart = function(){
+      stage.classList.add("listening");
+      stage.classList.remove("error");
+      listenCaption.textContent = "listening";
+      transcriptLine.innerHTML = "&nbsp;";
+      retrievalLine.textContent = " ";
+      retrievalLine.className = "retrieval-line";
+    };
+    recog.onresult = function(ev){
+      var text = "";
+      for (var i = 0; i < ev.results.length; i++){ text += ev.results[i][0].transcript; }
+      showTranscript(text);
+    };
+    recog.onerror = function(){
+      stage.classList.remove("listening");
+      stage.classList.add("error");
+      listenCaption.textContent = "it could not hear you";
+      window.setTimeout(function(){ stage.classList.remove("error"); listenCaption.textContent = "hold the eye, and speak"; }, 2400);
+    };
+    recog.onend = function(){
+      stage.classList.remove("listening");
+      var finalText = transcriptLine.textContent.trim();
+      if (finalText){ runQuery(finalText); }
+      else { listenCaption.textContent = "hold the eye, and speak"; }
+    };
+
+    var pressing = false;
+    function startListening(){
+      if (pressing) return;
+      pressing = true;
+      try { recog.start(); } catch(e){}
+    }
+    function stopListening(){
+      if (!pressing) return;
+      pressing = false;
+      try { recog.stop(); } catch(e){}
+    }
+    talkBtn.addEventListener("mousedown", startListening);
+    talkBtn.addEventListener("touchstart", function(ev){ ev.preventDefault(); startListening(); }, {passive:false});
+    window.addEventListener("mouseup", stopListening);
+    talkBtn.addEventListener("touchend", stopListening);
+    talkBtn.addEventListener("keydown", function(ev){
+      if (ev.key === " " || ev.key === "Enter"){ ev.preventDefault(); startListening(); }
+    });
+    talkBtn.addEventListener("keyup", function(ev){
+      if (ev.key === " " || ev.key === "Enter"){ stopListening(); }
+    });
+  } else {
+    listenCaption.textContent = "no voice here";
+    fallbackInput.classList.add("shown");
+    fallbackToggle.style.display = "none";
+  }
+
+  fallbackToggle.addEventListener("click", function(){
+    fallbackInput.classList.toggle("shown");
+    if (fallbackInput.classList.contains("shown")) fallbackInput.focus();
+  });
+  fallbackInput.addEventListener("keydown", function(ev){
+    if (ev.key === "Enter"){
+      showTranscript(fallbackInput.value);
+      runQuery(fallbackInput.value);
+    }
+  });
+
+  layoutRing();
+})();
+</script>
