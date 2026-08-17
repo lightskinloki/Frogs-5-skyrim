@@ -555,7 +555,7 @@ Pillars: Full cover. Guardian can smash them (3 damage in 5ft, Agility Standard 
 Calixto's amulet: HP 5, DR 0. Called shot (-2 penalty) to target, or remove in melee (contested Agility vs Calixto's Guile 14). Destroyed/removed = Guardian turns on Calixto immediately.
 Bound drifter: Agility Standard to free while adjacent. He will flee.
 
-Boss: Calixto Vividius — Apprentice TL 2 Controller pick up here!!!!!! Start!!!! Frank!!!
+Boss: Calixto Vividius — Novice TL 2 Controller pick up here!!!!!! Start!!!! Frank!!!
 Stat
 Value
 Might
@@ -567,11 +567,11 @@ Magic
 Guile
 14
 HP
-__ / 22
+__ / 63 (see scaling; ORIGINAL WAS 22)
 FP
 __ / 16
 DR
-1 (Fine Clothes)
+3 (Fine Clothes)
 Immune
 Nothing
 Weak
@@ -609,7 +609,7 @@ Amulet breaks: One round of frozen panic (does nothing). Then tries to flee. Wil
 Loot (on body): Fine clothes (ruined), 30 gold, House of Curiosities key, personal journal (references "her" without naming — see below).
 Calixto's Motivation — GM Only: Do not define who "her" is before the session. If pressed: "She was — she understood what I was trying to do. She believed in it. And then she was gone." He does not name her. A lover, a mentor, a collaborator, a daughter — whatever lands hardest at the table is correct.
 
-Boss: Draugr Crypt Guardian — Apprentice TL 3 Boss
+Boss: Draugr Crypt Guardian — Novice TL 3 Boss
 Stat
 Value
 Might
@@ -621,11 +621,11 @@ Magic
 Guile
 8
 HP
-__ / 48 (see scaling)
+__ / 180 (see scaling; ORIGINAL WAS 48)
 FP
 — (does not use FP)
 DR
-5 (Ancient Ceremonial Plate) — reduced by 1 per lit brazier (min 1)
+4 (Ancient Ceremonial Plate) — reduced by 1 per lit brazier (min 1)
 Immune
 Fear, Poison, Disease, Cold
 Weak
@@ -639,7 +639,7 @@ Effect
 Black Iron Greatsword
 Major Action
 Melee (10ft reach)
-8 damage. Critical (roll of 1): target knocked prone.
+10 damage. Critical (roll of 1): target knocked prone.
 Frost Storm (1/combat)
 Major Action
 20ft radius centered on self
@@ -651,30 +651,33 @@ Destroys 1 pillar. 3 damage within 5ft. Agility Standard halves.
 
 Passive — Frost Aura (10ft): 2 cold damage to anyone starting their turn within 10ft. Suppressed within 15ft of a lit brazier.
 Passive — Undead Resilience: Immune to fear, poison, disease, effects targeting the living.
-Passive — Ancient Plate: DR 5 base. Each lit brazier reduces DR by 1 (minimum 1).
-Phase Transition at 24 HP (half health):
+Passive — Ancient Plate: DR 4 base. Each lit brazier reduces DR by 1 (minimum 1).
+Phase Transition at half HP (max HP varies by party size — see scaling):
 Immediately uses Frost Storm, even if already used. This is a second use.
 Frost Storm extinguishes 1 brazier.
 After this round: prioritizes destroying lit braziers with Pillar Smash. Attacks highest-damage party member otherwise.
 Behavior (amulet intact): Follows Calixto's commands reluctantly. Attacks designated target. Moves slowly. Eyes flick to Calixto between every swing.
 Behavior (amulet broken): Immediately attacks Calixto. Ignores all other targets until he is dead. Then turns on party. No longer reluctant.
-Phase 2 (24 HP and below): Frost Storm triggers. Prioritizes destroying braziers and pillars. Attacks highest-damage dealer otherwise.
-Scaling:
+Phase 2 (half HP and below): Frost Storm triggers. Prioritizes destroying braziers and pillars. Attacks highest-damage dealer otherwise.
+Scaling (Novice tier, true numbers per GM Guide/Reference tables — original HP values in
+brackets for live reference; if those were meant as a hit-count system rather than a damage
+pool, use the bracketed numbers instead. GM: adjust live at the table either way if the fight
+runs long or short):
 Party Size
 Guardian HP
 Calixto HP
 Additional
 4 players
-35
-18
+130 [was 35]
+52 [was 18]
 —
 5 players
-48
-22
+180 [was 48]
+63 [was 22]
 —
 6 players
-55
-22
+205 [was 55]
+63 [was 22]
 1 Frost Draugr (Section 1 stats) emerges on Round 3
 
 
@@ -705,7 +708,7 @@ Around the sarcophagus.
 
 Every round remember:
 Frost Aura: 2 cold, 10ft, suppressed near lit braziers
-DR = 5 minus lit braziers (minimum 1)
+DR = 4 minus lit braziers (minimum 1)
 Command Guardian as Minor Action if amulet intact
 Drifter on the altar
 FP drain: 1/hour still active
@@ -746,12 +749,20 @@ Hrolf (Hugo) finds them before they've finished breakfast.
 "Three more. Overnight." He looks tired. "Same marks. Helgrid says — after you killed him. After you cleared the catacombs. She says whatever put those marks on the dockworker wasn't in those catacombs."
 He doesn't know what to do with that. Neither does anyone else.
 Report this as fact. Don't frame it. The Pale Fever continues. They solved a real crime. The thing they were hired to stop was never what they thought it was.
-Award: "You each gain 1 Advancement Point."
-The Rumor Mill
-Bjorn has heard things. He presents these at breakfast or on the way out of the city.
-Path of Prophecy: "Pale road's got people standing in the fields. Not travelers — standing. Just standing there. Word is it's not just here."
-Path of Steel: "Ulfric's pushing toward Whiterun. Roads west are going to be complicated."
-Path of Fortune: "Jarl of Morthal's offering a bounty. Disappearances in the marshes. Locals say vampires."
+Award: "You each gain 1 Advancement Point." pick up here next time!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Bjorn's Offer
+Bjorn's got Mable hitched, humming some old road-tune under his breath while he works the strap. He looks up when they come over. The humming stops. He smiles.
+"There you are." He sets down what he's holding. "Whole and walking, both — I'll take that as a good sign."
+He waves them over, in no hurry at all.
+"Sit a minute. Tell me — the museum man, what was down in those old stones, the girl you got out of there. All of it. I've heard the shape of it from folk in the street, but I'd rather hear it from you."
+[GM note: Let them actually tell it — give it real room. This is the best part of his day, and it should feel that way at the table too.]
+When they're done, he turns back to the strap, slower than before.
+"Rough way for the rest of it to go, though. Whatever's still putting those marks on people." He shakes his head. "Windhelm knows your names now, at least. Word travels fast in a city that scared."
+His hands go still on the strap.
+"I've been thinking." A pause. "Come with me," he says, easy about it, like it's already decided. "Same road as always, this time of year. Pale first, then Morthal, then out along the coast to Solitude before the passes shut."
+"Won't lie to you about the road, though." He goes back to the buckle, working again. "Word out of the Pale is there's folk standing in the fields who oughtn't be — just standing, out past the road, like they walked out there and forgot to keep walking. Ulfric's pushing men toward Whiterun too, so there'll be soldiers on top of that. And Morthal's Jarl is putting coin on the table for whatever's been taking people in the marsh — the ones who'll say anything about it are calling it vampires."
+He finishes the strap and looks at them properly, for the first real pause in the whole morning.
+"I'm not much good in a fight anymore — too old, too slow, and we both know it. But I've come to like your company more than I probably let on. I'd be glad of it, if you'd come with me."
 Ismara, at some point during the morning, produces a note and holds it out to whoever is nearest.
 It says: "West."
 Living World Note — Windhelm After the Party Leaves: Ulfric's intelligence operation continues — his agents are moving through three other holds by the time the party reaches the Pale. The Pale Fever continues and Windhelm's response worsens: the quarantine is enforced against the Gray Quarter despite the disease showing no preference for Dunmer. Brunwulf's position becomes untenable. The dock network starts moving information about the frozen people along its existing channels — by Adventure 3 there is a whisper network about the phenomenon that has no accurate information but has very good geographic coverage. The party will hear echoes of Windhelm's situation in cities they haven't visited yet, carried by people they never met.
@@ -856,7 +867,7 @@ After:
 [ ] Note Orc's Namira level
 [ ] Note Khajiit's Ismara scenes
 [ ] Note what other players gravitated toward
-[ ] Which rumor chosen? Prep accordingly.
+[ ] Note whether the party accepts Bjorn's offer to travel with him.
 [ ] Record Pale Fever reaction post-Calixto
 
 
