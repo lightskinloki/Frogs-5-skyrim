@@ -1188,6 +1188,18 @@
    "type": "claimed",
    "dst": "throat",
    "why": "The old, pre-Windcaller route up the mountain was abandoned when the peak-monastery tradition took over - the root was holy before the peak was. Hircine took the unclaimed ground for his own hunting grounds, the same move Mehrunes Dagon is making on the undercroft itself, gentler and older. His Wolf-face was never one of the Nine to begin with (Daedric, never on the path to being civilized the way the Hawk became Kyne), which is why it was there to claim. Everything living on this route now runs apex-tier because he deals in dangerous prey - true independent of, and older than, the Dagon corruption (FIRE B redraft.rtf, Section 2, THE OLD WAY)."
+  },
+  {
+   "src": "varon",
+   "type": "remade-by",
+   "dst": "hist-sap",
+   "why": "The Root-Husk Colony's surgery (Npcs/Varon:27-33,79-91) rebuilds his bone structure and face by hand - no anesthesia, Argonian chirurgeons. Hist-sap is what makes that survivable and repeatable rather than a one-time mutilation: a Bosmer body remade into a working disguise on command, redeployable face to face across an elf's long lifespan (potentially dozens over his life), not a single fixed transformation. GM ruling, 2026-08-19."
+  },
+  {
+   "src": "varon",
+   "type": "inverts",
+   "dst": "saijah",
+   "why": "Both are being remade into something else by a force outside themselves, but on opposite terms. Saijah's reshaping (Kynareth's claim, Hircine's courtship toward Alpha Lycanthropy) runs on tree-sap corruption she can't fully see or consent to - she's the one who doesn't know she's clay. Varon's runs on Hist-sap, and he was awake for every session on the table, knows exactly whose hands did it and why, and complies again on command for the next face the mission needs. He is the finished, knowing version of the thing she's still being offered. GM-named connection, 2026-08-19."
   }
  ],
  "secrets": [

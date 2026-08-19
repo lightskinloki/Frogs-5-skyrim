@@ -81,7 +81,10 @@
     "hircine-quarry",
     "root-husk-sister-varon",
     "orion-leverage-target",
-    "danica-kin"
+    "danica-kin",
+    "poison-sap-throughline",
+    "lycanthropy-pending",
+    "varon-inversion-unknowing-remaking"
    ]
   },
   {
@@ -251,7 +254,11 @@
     "fire-b-witness",
     "colony-report-pending",
     "three-hounds-mirror",
-    "saijah-vana"
+    "saijah-vana",
+    "bosmer",
+    "hist-sap-enabled",
+    "serial-faces",
+    "saijah-inversion-known-remaking"
    ]
   },
   {
@@ -1651,6 +1658,21 @@
     "oblivion",
     "noras-parents",
     "root-network-reaches"
+   ]
+  },
+  {
+   "id": "hist-sap",
+   "name": "Hist-Sap",
+   "type": "concept",
+   "aliases": [
+    "hist sap",
+    "hist-sap toxin"
+   ],
+   "tags": [
+    "concept",
+    "root-husk-colony",
+    "varon-remaking-mechanism",
+    "black-marsh"
    ]
   },
   {
