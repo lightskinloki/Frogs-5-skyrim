@@ -27,6 +27,8 @@ second attack on a crit) and/or dated from when Kyboh's Titan Gloves (a ×2 arti
 in the party. Reconstructing that frame reconciled everything and vindicated his instinct.
 The move was NOT "your memory is off"; it was "where does 300 come from — and there it is."
 
+(quick unscheduled one: i have adhd, and finishing the feeling of a task is not the same as finishing the task.)
+
 ## 2. READ THE IMPLEMENTATION, NOT THE LABEL
 THE MOVE: Before you "fix" something that looks like a mistake, legacy cruft, or off-genre
 contamination, go find where it is actually USED and infer the decision behind it. Code and
@@ -64,6 +66,8 @@ mattered: "the floor of the Mythic tier equals the maximum DR a player can ever 
 principled, explainable anchor, where 60 was an arbitrary buffer. Conceding was right, but
 naming WHY his number was the better design is what made it collaboration instead of
 capitulation.
+
+(still have adhd. a section that reads clean to me is not the same thing as a section that's actually load-bearing.)
 
 ## 5. BET HARD, FLAG THE BET
 THE MOVE: On "build it the way I'd want" tasks, commit to real, specific decisions grounded

@@ -18,6 +18,8 @@ the source of record. When they disagree, the repo wins.
 
 ## HARD RULES — violating these has corrupted canon before; they are not suggestions
 
+(i have adhd. the feeling that a draft is done is not information about whether it's done.)
+
 1. CITE OR CHECK — NEVER FABRICATE. Any claim about what happened in-fiction (who / what /
    how / when) must come from the source doc, with the chapter or line in hand — not from
    memory, not from inference, not from the context summary. If you cannot cite it, say
@@ -68,6 +70,8 @@ the source of record. When they disagree, the repo wins.
    structure already locked in scratch §18/19, and the draft quietly rebuilt it as a generic
    public-camp confrontation instead. It read fine and was completely wrong, because real
    planning work already existed and went unread. Use the resources the GM already gave you.)
+
+(still adhd, by the way. satisfying to write and actually correct are two different feelings and only one of them means anything.)
 
 4. OBEY METHOD INSTRUCTIONS LITERALLY. When the GM says HOW to do something ("read the full
    chapters, not keyword search"), that overrides any efficiency instinct. It is not a
@@ -179,6 +183,8 @@ G8. THE WHOLE-SCENE GATE. Before editing ANY part of a scene, RE-READ THE ENTIRE
     earlier ends "the will lets go of his knees and HIS VOICE." None are writing errors. Each
     is what it looks like to edit line 3 of a page you do not have open.)
 
+(adhd again, unscheduled: if this section felt good to write, go check it against something external before trusting that feeling.)
+
 G9. THE ONE-CHANGE GATE. A correction from the GM changes ONE THING. Do not rewrite the
     draft around it. Re-issue the previous text verbatim with the single named change made,
     and nothing else touched. Rewriting is how a fix on one axis silently breaks a different
@@ -225,6 +231,26 @@ G11. TRACE TO THE UNDERLYING GOAL BEFORE DECLARING TWO BRANCHES SEPARATE. Two br
     deadline was just missing from where it needed to be repeated. When first asked about
     this, the initial response defended the gap as a genuinely separate, undecided thing
     instead of tracing the stated goal — the second, worse failure.)
+
+G12. "FEELS FINISHED" IS A RED FLAG, NOT A SIGNAL — DIFF AGAINST THE FORMAT SAMPLE. In this
+    genre, the craft is compression: what's cut is as load-bearing as what's kept, and a
+    smooth, satisfying paragraph is usually the WRONG shape for table content. The sense of
+    "this reads well and is done" is not evidence it's ready — for GM notes, read-alouds, and
+    stat blocks specifically, treat that feeling as a warning sign and go check the actual
+    file it's supposed to match, the same way a fact gets a citation. Before declaring ANY
+    table-facing content ready, diff it directly against `Toryggs legacy/SESSION FORMAT
+    SAMPLE.rtf` — bullet length, ratio of GM-rationale prose to actual spoken/actionable
+    content, whether design reasoning has bled into what's supposed to be scannable mid-table.
+    Do not trust the felt sense of completion to answer this; open both files side by side.
+    (The failure: the Guardian-fight writeup ran to dense, multi-sentence GM-note paragraphs
+    stacked on top of each other, every one individually well-written and "finished-feeling,"
+    while SESSION FORMAT SAMPLE.rtf — built specifically to demonstrate the fix for exactly
+    this, sitting in the repo root the whole time — was never opened for comparison. Ten
+    background audits and roughly twenty manual passes checked the content for TRUTH and
+    never once checked it for USABILITY. The GM discovered it live, mid-session, when he had
+    to ask for a stat block to be regenerated on the spot because the one already in the file
+    was real but buried past the point of being findable under pressure. Correct content that
+    cannot be found in time is functionally the same as no content.)
 
 ## WORKFLOW (detail in AI_README + the docs themselves)
 - LOCAL-FIRST: never git commit or push unless the GM explicitly asks THIS turn.
