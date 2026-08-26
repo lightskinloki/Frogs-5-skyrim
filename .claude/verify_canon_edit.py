@@ -235,7 +235,35 @@ def run_pass(spec: dict, path: str) -> tuple[str, bool, str]:
     return run_pass_opencode(spec, path)
 
 
+def run_cli(file_path: str) -> int:
+    """Plain CLI entry point for any driver that isn't Claude Code's own hook
+    plumbing (the PostToolUse auto-trigger in .claude/settings.json only fires
+    inside Claude Code). Any agent/tool can run this directly after editing a
+    canon file: `python .claude/verify_canon_edit.py "<path>"`. Prints a plain
+    report and exits 1 if any pass fails, 0 if all pass -- treat a nonzero
+    exit the same way the Claude Code hook treats decision:block: the edit
+    needs review before it stands as canon."""
+    print("Running %d independent cross-model review passes against: %s" % (len(PASSES), file_path))
+    print("This takes 20-40 minutes (four separate model invocations, sequential by design). Normal, not a hang.\n")
+    results = [run_pass(spec, file_path) for spec in PASSES]
+    failures = [(name, txt) for (name, passed, txt) in results if not passed]
+    for name, passed, txt in results:
+        print("=== %s: %s ===" % (name, "PASS" if passed else "FAIL"))
+        if not passed:
+            print(txt)
+        print()
+    if not failures:
+        print("All %d passes clean." % len(PASSES))
+        return 0
+    print("%d/%d pass(es) flagged problems -- see above before trusting this edit as canon." % (
+        len(failures), len(PASSES)))
+    return 1
+
+
 def main() -> int:
+    if len(sys.argv) > 1:
+        return run_cli(sys.argv[1])
+
     raw = sys.stdin.read()
     try:
         hook_input = json.loads(raw)

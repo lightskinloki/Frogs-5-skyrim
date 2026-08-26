@@ -252,6 +252,28 @@ G12. "FEELS FINISHED" IS A RED FLAG, NOT A SIGNAL — DIFF AGAINST THE FORMAT SA
     was real but buried past the point of being findable under pressure. Correct content that
     cannot be found in time is functionally the same as no content.)
 
+G13. THE LITERAL TRANSCRIPT GATE. A /compact summary, and any of your own prior in-session
+    claims about "what happened earlier," are NEVER sufficient grounds for a procedural or
+    task-state claim — same standing Rule 2 already gives story canon, extended to
+    everything else. When the GM asks what happened, what he said, or which file/target an
+    instruction referred to, the answer comes from opening the actual session .jsonl file(s)
+    under `C:\Users\fbrown\.claude\projects\...` and reading them directly, sequentially, in
+    order — not from grep/keyword search on them, and not from a tail slice of only the most
+    recent N lines. Grep finds isolated string matches with no surrounding order; a short
+    tail misses context established earlier in the same conversation that resolves an
+    otherwise-ambiguous later instruction. This is G8 (whole-scene) applied to the
+    conversation itself, not just to a scene draft.
+    (The failure: mid-session, asked to run a verification test against "the real module,"
+    defaulted to whichever file was already open from momentum — when the word "real" had
+    been used minutes earlier in that same conversation specifically to distinguish the
+    current redraft from a known-bad archived file being used as a deliberate test target.
+    The disambiguating context was sitting right there and went unread. When told afterward
+    to "reread the actual jsonl transcripts instead of using the summarizer," the first two
+    attempts were a keyword grep across the file and a 150-line tail read — both still
+    substitutes for reading, and both missed context sitting outside their narrow window.
+    Only a full sequential read from the start of the session surfaced the actual
+    disambiguating line.)
+
 ## WORKFLOW (detail in AI_README + the docs themselves)
 - LOCAL-FIRST: never git commit or push unless the GM explicitly asks THIS turn.
 - Plan in scratch (one working doc); do not edit canon source-of-truth until the GM signs
@@ -259,6 +281,18 @@ G12. "FEELS FINISHED" IS A RED FLAG, NOT A SIGNAL — DIFF AGAINST THE FORMAT SA
 - Maintain THE WEB as canon is written: author edges, then run `python _build_web.py`.
 - FROGS 5 is d20-ONLY. The GM never sets a target number — the only lever is the DIFFICULTY
   MODIFIER applied to the player's own TN.
+- CANON-EDIT VERIFICATION HARNESS: `.claude/verify_canon_edit.py` runs four independent,
+  non-self models (OpenCode: fabrication/citation, table-format, dialogue/craft; Antigravity's
+  `agy` CLI on Gemini: lore consistency) against an edited canon file, fail-closed. Inside
+  Claude Code it fires automatically via the PostToolUse hook in `.claude/settings.json` —
+  that auto-trigger is Claude-Code-specific plumbing and will NOT fire under a different
+  driver. Any other tool/model working this repo should invoke it manually after editing
+  anything under `Toryggs legacy/` or `web/`: `python .claude/verify_canon_edit.py "<path>"`
+  (20-40 min real runtime, four sequential model calls — not a hang). Nonzero exit means a
+  pass flagged a problem; read the printed report before trusting the edit as canon. Requires
+  OpenCode (`opencode-cli.exe`) and the Antigravity CLI (`agy.exe`, already authenticated via
+  the GUI login) present on the machine — if unavailable, fall back to manual G1 citation
+  discipline instead.
 
 These rules exist so that a new session, or switching models within Claude Code, can NEVER
 again degrade the work. They are the insulation. Read them; hold them.

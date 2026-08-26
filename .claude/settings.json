@@ -24,6 +24,20 @@
         ]
       }
     ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "python \"C:\\Users\\fbrown\\Projects\\Frogs-5-skyrim\\.claude\\verify_canon_edit.py\"",
+            "timeout": 7200,
+            "statusMessage": "Running 4 independent cross-model canon review passes (this can take 20-40 min)..."
+          }
+        ]
+      }
+    ],
     "UserPromptSubmit": [
       {
         "hooks": [
