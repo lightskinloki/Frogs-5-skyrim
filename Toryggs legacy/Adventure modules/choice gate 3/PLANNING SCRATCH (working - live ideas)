@@ -1681,3 +1681,78 @@ NEXT STEPS
   Name kept by GM decision (the D&D collision is inverted — D&D's bonus is on-turn-only —
   but the table speaks it fluently; the fix was WRITING IT DOWN). Now defined in the
   players guide (Combat > Actions) and flagged in AI_README's mechanics section.
+
+=====================================================================
+14. FIRE B REDRAFT — 4-DIMENSIONAL AUDIT (2026-08-26 session), Section 2 through Section 5
+    [FINDINGS ONLY — nothing applied yet; fix on GM go-ahead, one at a time per G9]
+=====================================================================
+CONTEXT: ran the verify_canon_edit.py harness (Fabrication/Citation, Table & Format,
+Dialogue & Craft, Lore) PLUS a fourth pass this session invented for completeness: read
+the redraft cold, player-POV, zero meta-knowledge, only what's read-aloud or described —
+does each area set up and pay off, and does flavor text actually have interactive content
+behind it, or does it describe what would be cool without regard for what it does to the
+story. Scope of the completeness pass: Section 2 (l.834) through Section 5 (l.1212) of
+`FIRE B - THE ROAD & THE BLEEDING STAIR (redraft).rtf` — i.e. everything AFTER the played
+Guardian ambush (Ch.27). Findings below are UPCOMING-CONTENT ONLY; the harness also flagged
+issues in already-played scenes (Ivarstead, camp vignettes, the Reckoning) which are moot
+for fixing (already run at table) and are not repeated here.
+
+HARNESS RESULTS (full file):
+  - Fabrication & Citation: FAILED TO RUN (model returned no parseable output — fail-closed,
+    NOT a finding. Needs a rerun before trusting citations in this file are clean.)
+  - Table & Format Usability: FAIL (mixed already-played + upcoming; upcoming items below)
+  - Dialogue & Craft: FAIL (mixed already-played + upcoming; upcoming items below)
+  - Lore Consistency: PASS
+
+--- COMPLETENESS PASS FINDINGS (upcoming content, Section 2-5) ---
+[OPEN — real content gaps, need either a design decision or a short draft]
+  1. THE SAP HAS NO FIRST DESCRIPTION. Emblem IV (l.874) is the first drowned stone a
+     player encounters — "sap standing in the lower cuts" — but "black sap" is never
+     visually introduced before this point. The GM has no read-aloud prompt to describe
+     what it looks like the first time it appears. Needs one short sensory beat at Emblem
+     IV: what it looks like in the cuts, whether it moves/glistens/smells.
+  2. JASPER'S RECOGNITION BEAT HAS NO TRIGGER DESCRIPTION (l.1165). The module tells the
+     GM to "present the recognition to Davinia's player first and plainly" but gives no
+     physical description of what Jasper looks like now (vessel condition, anything off
+     about him). The GM has nothing to describe FROM — recognition is currently just
+     announced rather than discovered through a detail. Needs a short physical beat the
+     GM can show before naming what it means.
+  3. ESBERN'S LIBRARY FIND AT HIGH HROTHGAR IS UNSPECIFIED (l.1117): "Give him one real
+     find and let his player decide what to do with it." Every other payoff in the
+     monastery scene is exact and written; this one delegates content entirely to GM prep
+     with nothing given. GENUINE OPEN DESIGN QUESTION for the GM — what does Esbern find?
+     (Blades record predating their own archive; something about the Dragonstone;
+     something about a past False-Dragonborn; GM's call.)
+
+[Smaller — beat exists in a GM note but has no read-aloud/script, can evaporate at table]
+  4. NORA'S GEMS (l.891) — strong, loaded image (the two black soul gems stuttering,
+     doubled light) but written as a GM instruction, not a read-aloud. Promote to a
+     scripted read-aloud so it survives a GM who doesn't think to deliver it live.
+  5. DEN LOOT HAS NO DISCOVERY STAGING (l.1042-1047) — frozen pilgrim packs in the troll's
+     den are mentioned in a GM note only; no sensory prompt for players to actually notice
+     them after the fight. One sentence would fix it.
+  6. NORA WANTING THE TIDE-SHARDS (l.1195) is told to happen ("NORA wants them badly and
+     says so out loud") rather than scripted. Needs one G6-checked line, not an instruction.
+
+--- TABLE & FORMAT FAIL — upcoming-content items only ---
+  7. Line 863: puzzle resolution note says "Full solution... is in THE HIDDEN LAYER above —
+     do not duplicate" — a GM running the loop puzzle live has to flip back to resolve it.
+  8. Lines 875/946 (and the rest of the masked-fragment hand-outs): each says "per THE
+     SEVEN MASKED LINES above" instead of inlining the actual fragment text at the point of
+     use. GM must scroll back at the table to hand out each mask.
+  9. Line 1038: the Gaelen-doctrine meta-note ("this is Gaelen's doctrine performed in
+     front of the party before he ever gets to pitch it...") is a multi-sentence design
+     essay sitting inside what should be a scannable post-fight block — bleeds GM-rationale
+     into runnable content, per SESSION FORMAT SAMPLE.rtf's own standard (G12).
+
+--- DIALOGUE & CRAFT FAIL — upcoming-content item only ---
+  10. Line 1195 (Section 5 reward read-aloud): "Not quite a smile. Not quite grief." —
+      same negation-tic pattern flagged 8x elsewhere in the file (defines by what a moment
+      ISN'T instead of committing to what it IS). One-change fix per G9: commit to one
+      image instead.
+
+PROPOSED FIX ORDER (nothing applied — awaiting GM go-ahead, one beat at a time per G4/G9):
+  #1 sap description -> #4 Nora's gems promoted -> #5 den loot staging -> #6 Nora tide-shard
+  line -> #10 l.1195 negation fix -> #7/#8 inline the masked-line/puzzle lookups -> #9 trim
+  the Gaelen meta-note -> #2 Jasper physical beat (needs a short design pass) -> #3 Esbern's
+  find (GENUINE OPEN QUESTION — ask the GM what it is before drafting).
