@@ -1,0 +1,133 @@
+Caelan, the Twilight Fox — EARLY STATE (Ismara's Doom, Adventure 2 companion)
+=======================================================
+PROPOSED BUILD -- GM APPROVAL PENDING
+=======================================================
+This is NOT the Toryggs Legacy Caelan (Apex, Master Thief + 8 AP -- see
+`Toryggs legacy/Npcs/Caelan the fox`). Same person, much earlier point in his
+own life -- pre-"Master Thief" reputation, years before the Apex build he
+becomes. Built from a clean 0-AP character creation per `players guide`, then
+3 AP spent, matching the Parks Group's own AP total once they finish
+Adventure 2 (Overview line 265: Adventure 2 ends at Party AP 3).
+
+Personality, the Gray Fox rivalry, and the Daughters of Solitude backstory are
+UNCHANGED from the Toryggs Legacy doc -- those are who he is, not how strong
+he is. Not reproduced in full here; read the original for roleplay voice.
+Recruitment hook NOT designed here -- this is stats only. The Toryggs Legacy
+hook ("The Impossible Lock," a Dwemer vault) is Solitude-incompatible on its
+face; a Solitude-appropriate hook (his daughters, Radiant Raiment) is a
+separate, undesigned task.
+
+=======================================================
+I. Core Mechanics
+=======================================================
+Race: High Elf -- +1 Magic, Highborn (+2 max FP). (players guide lines 57-59)
+Standing Stone: The Tower -- Might 7, Agility 12, Magic 4, Guile 17.
+  Unique Benefit, Infiltrator's Edge: re-roll any single failed Lockpicking or
+  Trap Disarming attempt once per dungeon; once per adventure, declare a
+  "secret passage" that bypasses one non-boss encounter or puzzle entirely.
+  (players guide lines 171-177; same Stone as his Apex sheet cites as base)
+
+Final Stat Scores (Target Numbers):
+  Might: 7
+  Agility: 12
+  Magic: 5 (4 Tower + 1 High Elf)
+  Guile: 17
+
+=======================================================
+II. Character Creation (0 AP) + Progression (3 AP)
+=======================================================
+0 AP baseline (players guide Step 3, lines 246-250):
+  Adept Skill: Lockpicking (his one constant, at every stage of his life)
+  Apprentice Skills: Sneak, Speech, Illusion
+  All else Novice.
+
+3 AP spent (Overview line 54: campaign starts at 1 AP from Pale Lady's Tomb;
+Caelan enters at Adventure 2, matching where the PARTY sits: 2 AP going in,
+built here at the 3 AP they'll have BY Adventure 2's end):
+  1 AP -- Skill Focus: Sneak, Apprentice -> Adept
+  2 AP -- Skill Specialization: Lockpicking, Adept -> Expert
+  (This is a real subset of his eventual "Master Thief" 6-AP progression --
+  Lockpicking Expert is already his known state at that stage. Sneak reaching
+  Adept before Speech or Illusion do is the one judgment call here: he's
+  built as a burglar first, a face and a hedge-mage second, matching "the
+  finest locksmith in Skyrim" being the one throughline the GM has never
+  varied on.)
+
+Final Skills: Lockpicking (Expert), Sneak (Adept), Speech (Apprentice),
+Illusion (Apprentice).
+
+=======================================================
+III. Skills & Perks
+=======================================================
+Lockpicking (Expert) -- Governing Stat: Guile
+  Apprentice -- Quick Hands: re-roll a single failed Lockpicking attempt per
+    adventure.
+  Adept -- Wax Key: once per adventure, after successfully picking a lock,
+    create a key for it, bypassing it automatically later.
+  Expert -- Treasure Hunter: whenever the GM determines loot, find 50% more
+    gold or an extra minor item.
+  (players guide lines 355-360)
+
+Sneak (Adept) -- Governing Stat: Agility
+  Apprentice -- Silent Roll: (Reaction, 3 FP) when detected, move to a new
+    location and re-roll Agility to remain Hidden. / Vigilant: while Hidden,
+    Advantage on Guile rolls to spot enemies, traps, or hidden doors.
+  Adept -- Deadly Aim: any successful attack made while Hidden is
+    automatically a Critical Success. / Light Foot: does not trigger
+    pressure plates or tripwires while Sneaking.
+  (players guide lines 338-347)
+
+Speech (Apprentice) -- Governing Stat: Guile
+  Apprentice -- Persuasion: once per social encounter, make his Guile roll
+    with a +2 bonus to his Target Number.
+  (players guide line 365)
+
+Illusion (Apprentice) -- Governing Stat: Magic
+  Apprentice -- Casts Apprentice Illusion spells (Fear, Muffle). Perk --
+    Animage: Advantage when casting mind-affecting spells on animals.
+  (players guide lines 316-317)
+
+=======================================================
+IV. Resources
+=======================================================
+HP = 8 + floor(Might / 4) = 8 + floor(7/4) = 8 + 1 = 9
+  No Combat Skill trained (he has never taken One-Handed, Two-Handed, or
+  Archery) -- no Combat Prowess bonus applies. Matches his Apex sheet, which
+  also carries no Combat Prowess line.
+FP = floor((Agility + Magic) / 2) + Highborn
+   = floor((12 + 5) / 2) + 2 = floor(8.5) + 2 = 8 + 2 = 10
+DR = 0. He wears no armor at this stage either -- flagged below.
+
+HP: 9   FP: 10   DR: 0
+
+=======================================================
+V. Equipment
+=======================================================
+FLAGGED, not sourced: his Apex sheet's "Twilight Weave Finery" (enchanted
+dark silk, Supple property) reads as an acquired-reputation item, not
+starting gear -- nothing dates it, but "expertly tailored" and "rare" imply
+money and time he hasn't had yet. Proposed for this state: plain traveler's
+clothes (DR 0, no property) instead.
+His "master-crafted lockpicks... he carries them the way a retired duelist
+carries his first sword" (Apex sheet, Section VI) reads as long-carried and
+sentimental -- kept unchanged here; nothing suggests he acquired them late.
+Weapon: an ordinary Elven dagger (Damage 3), unchanged from his Apex sheet --
+a last resort either way, not his method.
+
+=======================================================
+VI. Roleplaying
+=======================================================
+Unchanged from `Toryggs legacy/Npcs/Caelan the fox` Section VII -- the
+Cheerful Daredevil, the Art of the Game, the Gray Fox lodestar, the Daughters
+of Solitude secret. Read that doc for voice; nothing about his personality is
+being aged backward here, only his skill.
+
+=======================================================
+FLAGGED FOR APPROVAL
+=======================================================
+1. AP-spend order (Sneak to Adept before Speech/Illusion move at all) is a
+   judgment call, not a sourced fact -- easy to swap if a different skill
+   should lead.
+2. Equipment downgrade (no Twilight Weave Finery yet) is inferred from the
+   item's described craftsmanship/rarity, not stated outright.
+3. No recruitment scene is designed here. This file is stats only.

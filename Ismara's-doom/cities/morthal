@@ -1,0 +1,151 @@
+Adventure 2 Companion: Morthal City Profile & Reference
+Main Document: Adventure 2: The Long Road West — Morthal is a required
+stop (Idgrod's Court, and the optional coven thread) in the module.
+
+SOURCE NOTE: No precedent exists for a Morthal profile anywhere in this
+repo (confirmed by search alongside Dawnstar's — see that file's source
+note). The coven, Idgrod, Aslfur, Alva, and Hroggar below are sourced
+from `Ismara's-doom/living-world.md`, Hjaalmarch section — cited inline.
+Named locations and generic townsfolk are pulled from base-game Skyrim
+knowledge, per your direction this session, flagged as such — no
+file:line citation is possible for that the way there is for repo docs;
+verify against the game if precision matters at the table.
+
+Morthal — City Profile
+Pillar 1: Structure
+Name & High Concept: Morthal — a small hold in a cold marsh (living-
+world.md, Hjaalmarch section, verbatim).
+Atmosphere & Core Conflict: A town that has been quietly hollowing out
+for months and doesn't have the words for what it's watching happen to
+itself. Living-world.md, verbatim: "Vacant-eyed townspeople who don't
+remember certain nights. A Jarl who speaks in oblique terms about
+something ancient and patient moving through her hold... This describes
+both vampire predation and the early stages of Ismara's work in a hold.
+The party will hear this as a description of Ismara. They are both right
+and wrong." Small enough that everyone genuinely knows everyone, which is
+exactly why nobody has caught what's happening yet — familiarity reads
+as safety here.
+[BASE-GAME, flagged] Points of Interest:
+Service          | Name              | Notes
+Jarl's longhouse | Highmoon Hall     | Small, plain — no throne room
+                 |                   | grandeur. Idgrod holds court here.
+Inn              | Moorside Inn      | Run by Jonna. The town's one
+                 |                   | gathering place.
+Alchemist/Mage   | (Falion's house)  | Falion — a conjurer who also
+                 |                   | performs the vampire-cure ritual
+                 |                   | in vanilla Skyrim; his presence
+                 |                   | and exact role are NOT confirmed
+                 |                   | for this campaign — flagged as
+                 |                   | genuinely uncertain, not asserted.
+General Goods    | Thonnir's house   | A local farmer/carpenter, per
+                 |                   | base-game texture; low confidence
+                 |                   | on exact shop function — verify.
+
+Unique Locations:
+Location            | Key NPC        | Notes
+Highmoon Hall       | Idgrod, Aslfur | The oblique-line scene lives here
+                    |                | (see adventure2, "Idgrod's Court").
+Hroggar's house     | Hroggar        | Burned once already, per living-
+                    |                | world.md — his wife and daughter
+                    |                | died in the fire Alva set.
+Movarth's Lair      | Movarth Piquine| [BASE-GAME name, flagged] The old
+                    | (dead), one    | fort in the marsh. ALREADY FALLEN
+                    | surviving      | as of this adventure — see
+                    | thrall         | adventure2, "The Marsh — the
+                    |                | Coven," the Valerius addition.
+
+RECENT DEVELOPMENT — the coven has already fallen, this session (see
+adventure2, "The Marsh — the Coven," for the full scene). Valerius
+Caelus (Toryggs legacy/Npcs/Valerius) — the apex vampire lord who works
+Solitude's Pale Court — eliminated Movarth as a rival power center. A
+surviving thrall at the fort will name him if questioned. This is the
+party's first exposure to Valerius, well before any Toryggs Legacy
+timeline; nothing in his own file rules out a long-running Solitude
+operation already underway this early. Play his account exactly to his
+established voice: courteous, unhurried, no raised voice, consequences
+stated as fact.
+
+Pillar 2: Inhabitants
+Persistent NPC 1: Jarl Idgrod Ravencroft
+Sourced: living-world.md, Hjaalmarch section, verbatim — "a woman who has
+visions, who is regarded as eccentric by the court and quietly respected
+by her people." Her steward Aslfur "is more practically-minded and
+handles most of what passes for administration."
+Core Motivation: To protect her hold from something she can sense the
+texture of but cannot name or prove. Sourced: "Her visions don't give her
+specifics but they give her the texture of it — a wrongness that has
+been building for months and cannot yet confront directly without
+evidence."
+Current State: Delivers the oblique "patient... now it is moving" line
+(adventure2, already built) when the party arrives. She is talking about
+the coven — she does not know about Ismara and will not resolve which
+one she means.
+Potential Evolution: living-world.md's stated outcome — "the vampire
+coven can be resolved by the party or by Morthal's own slow process of
+investigation eventually producing enough evidence for a response." If
+resolved, "the townspeople gradually recover. Morthal's general
+wrongness lifts." The frozen people from Ismara's nodes do not unfreeze
+either way — the two threads never actually touch.
+
+Persistent NPC 2: Alva
+Sourced: living-world.md, Hjaalmarch section, verbatim — "a local woman
+[who] is a vampire who has been feeding Hroggar false affection while
+feeding on his family — she burned his house with his wife and daughter
+inside to eliminate complications and has been using his grief as cover
+for her continued presence."
+Core Motivation: Continued, undetected feeding. Hroggar's grief is
+useful cover, not a relationship she values on its own terms.
+Current State: Embedded in town, not at the fort — this is the actual
+thread that connects to Movarth's coven if the party investigates
+Hroggar's burned house or asks who doesn't sleep at night (adventure2,
+"The Marsh — the Coven," already built). UPDATED this session: Movarth
+is dead and his coven fallen to Valerius Caelus (see adventure2's
+Valerius addition); Alva was judged worth keeping and now answers to
+his network instead of an independent coven. Her actual behavior toward
+Hroggar is unchanged — nothing about the con on him is different.
+Potential Evolution: If exposed or fought as an isolated local vampire,
+treat as a standard vampire encounter — pull generic stats from GM
+Guide/Reference tables. If the party ever connects her to Valerius
+directly, that thread goes nowhere yet this adventure — it's a seed for
+later, not a resolution owed this session.
+
+Pillar 3: Events
+Roll on this table for downtime in Morthal, or texture entering a new
+part of town.
+d10 | Event
+1   | Someone Who Doesn't Remember: An NPC mentions, offhand, that they
+    | "must have slept through" something everyone else in town is
+    | talking about. They don't find this alarming. Nobody does yet.
+2   | Idgrod's Visions: The Jarl is heard muttering something half-
+    | prophetic to Aslfur, who nods like he's used to it. If the party
+    | asks Aslfur to explain, he can't — "she sees what she sees."
+3   | Hroggar, Grieving: Hroggar is seen at the site of his burned
+    | house, or drinking alone at the Moorside Inn. He does not know
+    | Alva is the reason. Play his grief as real, not suspicious.
+4   | A Light in the Marsh: Something moves with purpose out past the
+    | edge of town, toward the old fort, after dark. Nobody who lives
+    | here goes looking. [This is Movarth's coven's activity, or
+    | Ismara placing a node — GM's call which, or leave ambiguous.]
+5   | The Frost Pattern: A standing figure is found on the marsh road,
+    | further out than the Windhelm cases were. This one is Ismara's,
+    | unambiguously (living-world.md's node-network geometry) — but
+    | nobody in Morthal has the context to read it that way.
+6   | A Missed Night: A townsperson can't account for where they were
+    | the previous evening and brushes it off with visible unease
+    | before changing the subject. A concrete instance of the "hollowed
+    | out" texture, not just a description of it.
+7   | Aslfur's Administration: The steward is handling some mundane
+    | hold business — a grain dispute, a boundary complaint — with the
+    | harried competence of a man doing two jobs because his Jarl's
+    | attention is elsewhere. Texture, not plot.
+8   | Quiet Day: The marsh is still. Order-of-business material.
+9   | Idgrod's Direct Address: If the party has been in town more than
+    | a day, Idgrod seeks them out herself rather than waiting for
+    | them to return to Highmoon Hall — still oblique, still unwilling
+    | to name a cause, but visibly aware they're the kind of people who
+    | go looking at things.
+10  | A Body, Drained: If the coven thread is live and unresolved,
+    | someone turns up exsanguinated, blamed locally on "wild animals."
+    | This is the concrete evidence Idgrod's own investigation would
+    | eventually produce with or without the party (living-world.md's
+    | stated ongoing-resolution path).

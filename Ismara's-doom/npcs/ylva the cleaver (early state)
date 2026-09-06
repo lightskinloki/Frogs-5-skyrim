@@ -1,0 +1,157 @@
+Ylva the Cleaver — EARLY STATE (Ismara's Doom, Adventure 3 companion)
+=======================================================
+PROPOSED BUILD -- GM APPROVAL PENDING
+=======================================================
+This is NOT the Toryggs Legacy Ylva (Master Hero, 6 AP -- see `Toryggs
+legacy/Npcs/ylva the cleaver`). Same person, an earlier point in her own
+timeline: the two years she spent wandering alone after Kodlak exiled her
+from Jorrvaskr, before she ever hears about a dragon dying at Kynesgrove
+(Toryggs Legacy doc, Section VII-B, "Hunting the Lanterns" -- "For two years
+after Jorrvaskr, Ylva wandered alone, taking contracts no one else wanted,
+bored of hunting without a fire to share"). She has already taken the Beast
+Blood at the Underforge (same section) -- she is already a werewolf here.
+Built from a clean 0-AP character creation per `players guide`, then 4 AP
+spent, matching where the Parks Group sits by the end of Adventure 3
+(Overview line 299: Adventure 3 ends at Party AP 4).
+
+Personality, the Doctrine of the Fair Chase, Hircine's theology, and the
+Jorrvaskr exile backstory are UNCHANGED -- read the Toryggs Legacy doc for
+voice. Recruitment hook NOT designed here -- stats only.
+
+=======================================================
+I. Core Mechanics
+=======================================================
+Race: Nord -- +1 Might, Frost Resistance (1 less frost damage; once/adventure
+  halve damage from a frost attack via Reaction). (players guide lines 45-47)
+Standing Stone: The Warrior -- Might 16, Agility 12, Magic 4, Guile 8.
+  Unique Benefit, Fighter's Rush: once per combat, after taking damage, gain
+  3 FP. (players guide lines 95-101; same Stone as her Toryggs Legacy sheet)
+
+Werewolf modifiers -- ALREADY ACTIVE (her lycanthropy predates this state by
+years, per the Underforge timeline above; these are innate to the Beast
+Blood, not AP-purchased, so they carry over unchanged from her full sheet):
+  +2 Might (Wolf's Strength), +2 Agility (Wolf's Grace), +1 Magic (Daedric
+  Resistance), -1 Guile (Bestial Nature). (Toryggs Legacy sheet, Section I)
+
+Final Stat Scores (Target Numbers):
+  Might: 19 (16 Warrior + 1 Nord + 2 Wolf's Strength)
+  Agility: 14 (12 Warrior + 2 Wolf's Grace)
+  Magic: 5 (4 Warrior + 1 Daedric Resistance)
+  Guile: 7 (8 Warrior - 1 Bestial Nature)
+
+=======================================================
+II. Character Creation (0 AP) + Progression (4 AP)
+=======================================================
+0 AP baseline -- taken directly from her own sheet's "Starting Character (0
+AP)" section (Toryggs Legacy doc, Section II), not reconstructed:
+  Adept Skill: Two-Handed
+  Apprentice Skills: Heavy Armor, Speech, Archery
+
+4 AP spent (her own doc's eventual 6-AP spend order was: 2 AP Specialization,
+3 AP Mastery, 1 AP Resource Training, Section II. At 4 AP she is partway down
+that SAME road, one step short of Mastery):
+  2 AP -- Skill Specialization: Two-Handed, Adept -> Expert
+  1 AP -- Skill Focus: Heavy Armor, Apprentice -> Adept
+  1 AP -- Resource Training: +2 max FP
+  (FLAGGED: in her full sheet, Heavy Armor reaches Adept for FREE via the
+  Master-tier Combat Prowess benefit, Section III -- "Promoted Heavy Armor
+  from Apprentice to Adept (free)." She hasn't reached Two-Handed Master yet
+  at 4 AP, so that free promotion hasn't triggered. Reaching Heavy Armor
+  Adept here costs an actual AP instead -- a judgment call on which of her
+  eventual traits she'd rather have early, not a sourced fact.)
+
+Final Skills: Two-Handed (Expert), Heavy Armor (Adept), Speech (Apprentice),
+Archery (Apprentice).
+
+Combat Prowess (players guide lines 462-466):
+  Adept Benefit triggered (Two-Handed reached Adept at 0 AP): +2 max HP.
+  Expert Benefit triggered (Two-Handed reached Expert via the 2 AP above):
+    +2 max FP.
+  Master Benefit: not yet triggered.
+
+=======================================================
+III. Skills & Perks
+=======================================================
+Two-Handed (Expert) -- Governing Stat: Might
+  Apprentice -- Cleave: on a successful hit, spend 3 FP to deal half damage
+    to another enemy standing directly next to the target within 5ft.
+  Adept -- Devastating Charge: as a Major Action (also spending her Minor
+    Action), a single focused attack at +2 Might for the roll and +2 damage
+    on a hit. Cannot move the turn she uses this.
+  Expert -- Devastating Blow: two-handed Power Attacks deal +3 damage instead
+    of +1; after a two-handed Power Attack, cannot be staggered or knocked
+    prone until the start of her next turn.
+  (players guide lines 263-266)
+
+Heavy Armor (Adept) -- Governing Stat: n/a (passive)
+  Apprentice -- Well Fitted: +2 max HP.
+  Adept -- Tower of Strength: once per combat, automatically resist being
+    staggered or knocked down.
+  (players guide lines 279-281)
+
+Speech (Apprentice): Persuasion, +2 Guile TN once per social encounter.
+Archery (Apprentice): Eagle Eye -- spend 3 FP to aim as a Minor Action; next
+  bow attack this turn at +2 Agility for the roll.
+  (players guide lines 271, 365)
+
+=======================================================
+IV. Resources
+=======================================================
+HP = 8 + floor(Might/4) + Combat Prowess (Adept) + Well Fitted
+   = 8 + floor(19/4=4.75->4) + 2 + 2 = 8 + 4 + 2 + 2 = 16
+FP = floor((Agility+Magic)/2) + Combat Prowess (Expert) + Resource Training
+   = floor((14+5)/2=9.5->9) + 2 + 2 = 9 + 2 + 2 = 13
+DR = 3. Plain Steel Armor, unupgraded -- her full sheet's DR 8 is "3 base + 3
+  forge upgrades + 2 custom reinforcement" (Section I), and the forge
+  relationship implied by "upgrades" and "a hundred joyous battles" of wear
+  hasn't happened yet at this stage. FLAGGED: this drops the upgrades, keeps
+  the base.
+
+HP: 16   FP: 13   DR: 3
+
+=======================================================
+V. Equipment
+=======================================================
+Weapon: The Butcher's Axe (Steel Battleaxe, Damage 8, Deep Wounds -- Power
+  Attacks inflict 2 Bleed at the start of the target's next turn). Kept
+  unchanged: her own doc frames its broken second blade as backstory
+  ("during a duel with a cheating hedge-knight," Section XIII) with no date
+  attached, and nothing suggests she fights with a different weapon before
+  this one. If the duel is meant to be LATER than this point in her life,
+  that's a correction, not an assumption made here.
+Armor: Steel Armor, unupgraded (DR 3, see above).
+
+=======================================================
+VI. Werewolf Transformation ("The Blood Moon Rises")
+=======================================================
+Kept from her full sheet UNCHANGED (Toryggs Legacy doc, Section IV) -- this
+is Hircine's claim on her, not a function of her human AP, and nothing in
+her documented history suggests the wolf itself was ever weaker:
+  If reduced to 0 HP in human form with the transformation unused this
+  adventure, she automatically shifts instead of dying. Must be reduced to 0
+  HP again in wolf form to actually die.
+  Werewolf Form Stats: Might 21 (auto success), Agility 18, Magic 8, Guile 2.
+    HP 54 (triple total HP). DR 10 (natural hide). Claws deal 12 damage,
+    Hack & Slash property. Vulnerable: 4x damage from silver weapons.
+  Fearful Presence, Savage Leap: unchanged from her full sheet.
+
+ONE SOURCED DIFFERENCE, not invented: her own doc states the shift itself
+used to take "the full minute" before Mzinchaleft, and only became "faster
+and more controlled" afterward (Section IV, "Post-Resurrection Changes").
+Mzinchaleft hasn't happened yet at this stage. Ruling: outside the automatic
+0-HP death-save trigger (which is always instant, per the base rule), a
+voluntary transformation here takes roughly a full minute of in-fiction time
+to complete, not an instant Major Action. She cannot casually pop in and out
+of wolf form mid-fight the way she can post-Mzinchaleft.
+
+=======================================================
+FLAGGED FOR APPROVAL
+=======================================================
+1. Heavy Armor reaching Adept via a spent AP (rather than staying Apprentice
+   until the free Master-tier promotion) is a judgment call.
+2. Steel Armor's forge upgrades dropped; DR 3 base assumed unupgraded.
+3. The Butcher's Axe assumed already in her possession, already broken --
+   flagged in case that duel is meant to postdate this era.
+4. Werewolf Form stats kept at full canon strength (no sourced reason to
+   weaken them); only the shift's SPEED is rolled back, and that IS sourced.
+5. No recruitment scene designed here. Stats only.

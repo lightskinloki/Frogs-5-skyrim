@@ -1,0 +1,795 @@
+Adventure 2: The Long Road West
+Campaign: Ismara's Doom — The Parks Group
+ Tier: Apprentice (2 AP -> 3 AP)
+ Players: 4-6
+ Estimated Play Time: 2-3 Sessions
+ Reward: 1 Advancement Point
+ New Companion: Caelan the Fox, recruited at the Atmoran Scholar's Ruin,
+ on the road to Solitude (see `Ismara's-doom/npcs/caelan the fox (early
+ state)`)
+ Companion Documents: `Ismara's-doom/cities/solitude`, `Ismara's-doom/
+ cities/morthal`, `Ismara's-doom/cities/dawnstar` — city profiles
+ (services, shops, background NPCs, downtime event tables) for the three
+ holds this adventure touches. For prep and downtime reference; none
+ needed mid-scene.
+
+Adventure Summary
+Bjorn's own trade circuit takes the party west out of Windhelm — the
+Pale, then Morthal, then Solitude, before the mountain passes shut for
+the season. Ismara's single-word note, "West," rides on top of a reason
+that was never about her. She needs nodes across three holds. The party
+is about to watch that happen in the open, at a scale they can no
+longer mistake for background noise.
+The Pale Fever pattern from Windhelm repeats on the road: frozen
+people, standing, alive, eyes tracking. In Morthal it reads as
+something else entirely — a vampire coven's slow predation, which looks
+like Ismara's work and isn't, already ended by someone else entirely.
+On the road to Solitude, Caelan the Fox joins them at a locked door. In
+Solitude, Ismara makes her most direct persuasion move yet, and a man
+who runs the city's shadows quietly notices something about her that
+should worry everyone. In a village outside the city, Ismara makes her
+first demand with real moral weight: two people, or she chooses
+herself. The truth they still don't have: what happens to the nodes
+when the ritual completes. That doesn't arrive until Riften, Adventure
+4.
+
+============================================================
+SESSION DASHBOARD
+============================================================
+Review in prep. Glance at during play.
+
+The Clock: Ismara's Network
+Ritual moves from 15% to 40% this adventure. She places nodes across
+three holds. Track loosely by hold, not by hour — this isn't Windhelm's
+compressed 3-day Fever clock, it's a multi-week road trip.
+Hold           | Status
+The Pale       | Erik (Bersi's son) already frozen when the party arrives —
+               | weeks old, not fresh. Road has other standing figures.
+Morthal        | Ismara places nodes quietly while the party is distracted
+               | by the coven. Nobody connects the two while they're here.
+The Village    | The ultimatum. Two nodes, placed with the party's direct
+               | knowledge either way.
+Solitude       | Nodes placed openly now — she is past hiding this from
+               | them, only from the city.
+
+Player Status Board
+WARLA, THE KHAJIIT (The Consort)
+ Condition: Rotjoint, managed. -1 Agility TN on fine motor tasks with
+ salve.
+ Ongoing: Ismara's attention continues to sharpen on her specifically.
+Y'DROJ, THE ARGONIAN
+ Continues mapping node positions.
+SHELOB, THE ORC (The Hungry One)
+ Condition: Rotjoint, contracted in the Windhelm catacombs. Namira
+ thread live, player-driven.
+THE WOOD ELF
+ Unnamed in the record. No stated arc yet — watch what she engages with.
+NEW: CAELAN THE FOX
+ Joins on the road to Solitude. Not present for the Pale, Morthal, or
+ the Village.
+
+NPC Voice Reference
+NPC              | Voice                              | Opening Line
+Ismara           | Silent. Writes three words. Precise.| "West." (written,
+                 |                                      | already delivered)
+Bjorn            | Warm, unhurried, pragmatic storyteller.
+Bersi            | Exhausted, quietly hoping someone will tell him
+                 | something he can act on.
+Idgrod Ravencroft| Oblique, patient, speaks in half-omens she can't fully
+                 | resolve herself.
+The Village      | Collective — no single named spokesperson.
+ (unnamed)       |
+Caelan           | Delighted, theatrical, treats every lock like a
+                 | compliment.
+Valerius Caelus  | Courteous, unhurried, never raises his voice, states
+                 | things as fact. Solitude only, one scene.
+
+Where Things Are
+Location                    | What Happens There
+The Road, Windhelm to Pale  | First standing figures. Pattern becomes visible.
+Bersi's Farm                | Erik frozen in the yard. Bersi asks what's
+                             | happening. Moral weight, personal register.
+Morthal                     | Idgrod's oblique line. The coven, already
+                             | fallen to Valerius.
+The Atmoran Scholar's Ruin  | Between Morthal and Solitude. Translatable
+                             | inscription. Caelan's recruitment.
+The Village                 | Ismara's ultimatum. Two, or she chooses.
+Solitude, the street        | Valerius notices the party — and Ismara.
+Solitude, an inn            | Ismara's most direct persuasion move.
+
+============================================================
+SCENES IN PLAY ORDER
+============================================================
+
+Scene: Bjorn's Offer — Leaving Windhelm
+Function: Opens the session. Bjorn asks them to come west with him, and
+tells them what's on the road. Ismara answers with one word. This is
+where the adventure actually starts.
+Location: Outside Candlehearth Hall, morning. Bjorn has Mable hitched
+and is working a strap on the harness.
+
+Read Aloud
+"Bjorn's got Mable hitched, humming some old road-tune under his breath
+while he works the strap. He looks up when you come over. The humming
+stops. He smiles.
+'There you are.' He sets down what he's holding. 'Whole and walking,
+both — I'll take that as a good sign.'
+He waves you over, in no hurry at all.
+'Sit a minute. Tell me — the museum man, what was down in those old
+stones, the girl you got out of there. All of it. I've heard the shape
+of it from folk in the street, but I'd rather hear it from you.'"
+
+GM note: Let them actually tell it — give it real room. This is the best
+part of his day, and it should feel that way at the table too.
+
+When they're done, he turns back to the strap, slower than before.
+"Rough way for the rest of it to go, though. Whatever's still putting
+those marks on people." He shakes his head. "Windhelm knows your names
+now, at least. Word travels fast in a city that scared."
+
+His hands go still on the strap.
+"I've been thinking." A pause. "Come with me," he says, easy about it,
+like it's already decided. "Same road as always, this time of year.
+Pale first, then Morthal, then out along the coast to Solitude before
+the passes shut."
+
+"Won't lie to you about the road, though." He goes back to the buckle,
+working again. "Word out of the Pale is there's folk standing in the
+fields who oughtn't be — just standing, out past the road, like they
+walked out there and forgot to keep walking. Ulfric's pushing men
+toward Whiterun too, so there'll be soldiers on top of that. And
+Morthal's Jarl is putting coin on the table for whatever's been taking
+people in the marsh — the ones who'll say anything about it are calling
+it vampires."
+
+He finishes the strap and looks at them properly, for the first real
+pause in the whole morning.
+"I'm not much good in a fight anymore — too old, too slow, and we both
+know it. But I've come to like your company more than I probably let
+on. I'd be glad of it, if you'd come with me."
+
+Ismara, at some point during the morning, produces a note and holds it
+out to whoever is nearest.
+It says: "West."
+
+Exit -> The Order of Business.
+
+============================================================
+THE ORDER OF BUSINESS — ON THE ROAD
+============================================================
+Run the Seize the Day roll: every player rolls a straight d20, no
+modifiers. Highest goes first. 10-20 minutes each.
+These are framed on the road, over the first two days out of Windhelm,
+before the frozen figures start appearing. Bjorn drives. Mable walks.
+There is nothing to fight and nowhere to be yet — that's the point.
+Do not fire any patron/divine beats here. Those need in-world triggers,
+not a scheduled slot.
+
+WARLA
+
+Read Aloud:
+"The cart lurches into motion, Windhelm's walls already shrinking
+behind you before anyone's properly settled into the ride. Mable finds
+her pace. Three days to the Pale border, and nothing to do about any
+of it but be on the road."
+
+Ask the player directly: what is Warla doing as the cart gets moving?
+Let her describe it, however long she wants. Whatever she says, what
+follows happens regardless — not contingent on the content.
+
+Read Aloud (fires unconditionally — the salve schedule, not anything
+she described):
+"Somewhere in the first hour, your hands start reminding you it's time
+— the salve works twice a day, and this is one of those times whether
+you'd settled into anything else or not. You've barely got the tin
+open when Ismara closes her notebook, crosses the cart, and sits down
+across from you. She takes your hand — the one with the salve half
+worked in — and turns it over, tracing one line of the scarring with a
+single finger.
+Then she writes, and holds the page out:
+'Do you regret it?'
+She waits for an actual answer. This isn't rhetorical. She wants it."
+
+What the player can do: answer honestly (yes, no, or something in
+between), ask her what she means, turn the question back on her, or
+refuse to answer at all. All four are real options with a real reaction
+waiting.
+  If Warla says no: Ismara looks at you for a moment. Writes nothing
+    back. Puts the notebook away — closer to satisfaction than
+    anything she's shown before.
+  If Warla says yes: no visible reaction. She writes: "Noted." Nothing
+    more. This is filed, not dismissed.
+  If Warla turns the question back on her ("do you?"): a long pause,
+    longer than her pauses usually run. Then: "I have considered it."
+  If Warla refuses to answer: Ismara accepts that instantly and
+    completely — takes her hand back, and doesn't raise it again this
+    adventure.
+Track after: what Warla actually said, and whether she told the rest
+of the party what Wulfgar found about the notation.
+
+Y'DROJ
+
+Read Aloud:
+"Bjorn gets the fire going before full dark, the way he always does,
+and there's stew enough for seconds tonight — some trade from Windhelm
+still holding out. A skin of something gets passed hand to hand around
+the flames. Nobody's in a hurry to move. The road's been quiet enough
+that quiet itself starts to feel like something to sit inside."
+
+Ask the player directly: what does Y'droj do with the evening? Let him
+describe it, however long he wants. Whatever he says, what follows
+happens regardless — not contingent on the content.
+
+Read Aloud (fires unconditionally, after his description):
+"You're looking at the fire, and you start to notice the actual path of
+things — a spark's whole arc from the log to the dark, an ember's exact
+instant of catching, the way heat moves through the coals like
+something with a shape. All of it, together, at once, further than
+you've ever followed it before.
+Followed all the way through, the paths draw three lines. The lines
+close. There's a shape held inside the fire — three sides, peaked — for
+exactly as long as you can hold the whole of it in view. Then it's a
+fire again."
+
+New ability, granted here, unconditionally, permanent:
+READ THE STRUCTURE | Minor Action | 0 FP
+Y'droj may spend a Minor Action to read the current HP and DR of any
+one target he can see.
+
+SHELOB
+
+Read Aloud:
+"Midday, and the road's cutting past the first scattered farms since
+Windhelm — fence lines, a hayrick, someone's laundry strung between
+two posts. Bjorn doesn't stop, just slows enough for Mable to pick her
+way past a rut."
+
+Ask the player directly: what is Shelob doing as you pass through? Let
+her describe it, however long she wants. Whatever she says, what
+follows happens regardless — not contingent on the content.
+
+Read Aloud (fires unconditionally, after her description):
+"Ismara steps down from the cart without a word — nothing announced,
+she does this sometimes. You happen to be positioned to see where she
+goes: a hand on the shoulder of a farmhand splitting wood at the
+roadside, brief, plain, over before it would register to someone not
+already looking. She's back on the cart like nothing happened. Nobody
+else saw this.
+The strip of dried meat in your hand tastes different for exactly as
+long as her hand is on his shoulder — richer, the way yesterday's kill
+tastes different from today's. Then, plain, in your own head:
+'Help her.'"
+
+GM notes on why (for you, not to be read as a script): Namira has no
+stake in the ritual itself — nothing here dies, nothing rots, it isn't
+her domain. Her stake is Shelob: she wants her staying exactly what she
+already is, appetite-driven and unbothered, rather than drifting toward
+the horror the rest of the party will eventually feel. "Help her" is a
+real, open, ongoing instruction — not a one-time errand. What it
+actually means in practice is genuinely open and should develop through
+play, not be decided here. Answer honestly and specifically if the
+player asks Namira follow-up questions in the moment; do not deflect
+the way Ismara would. Namira has no reason to be cagey with her own.
+Track after: whether Shelob acted on this at all, and what she decided
+"helping" means on her own terms.
+
+THE WOOD ELF
+
+Read Aloud:
+"By the time the fire's down to embers and the rest of camp has gone
+quiet, you're not in camp anymore — not far, but far enough that the
+low shapes around the fire could be sleeping shapes, or could be
+nothing at all, from here."
+
+Ask the player directly: why is she out here, alone, tonight? Let her
+answer however she wants — it doesn't need a reason assigned to it.
+Whatever she says, what follows happens regardless.
+
+Read Aloud (fires unconditionally, after her answer):
+"It's gone quiet in a way that takes a moment to place — no insects.
+No settling-in rustle from the treeline.
+At the edge of where the firelight used to reach, there's a shape that
+wasn't there before. It should resolve into a stump, a bush, some
+trick the dark plays, the longer you look at it. It doesn't. The
+longer you look, the more of it there is to see.
+It's tall. Too tall for the trees around it. Eyes open across where a
+face would be — not all at once. One, then another. They stay open.
+When it speaks, the sound isn't coming from where the eyes are.
+'You already do this. You see something, and you decide not to say
+it.'
+A silence.
+'I want to give you more to not say.
+Open your eyes, and you'll have it — souls. Wards. The truth under
+anything written, whatever the words on it claim. Whenever you choose
+to look.
+Some of what you don't say, after tonight, I'll already know that too.
+That's the price. I'm not going to pretend otherwise.'"
+
+New ability, granted here, unconditionally, permanent:
+THE WOODLAND SIGHT | Free Action to open, 2 FP | toggle
+While open: souls (shape, size, visible condition), auras, leylines,
+invisibility defeated, magical effects on objects/people, and written
+language read as true intent rather than symbol — no roll required for
+any of it. Closes when she chooses; the 2 FP is the cost of opening
+it, not a per-turn drain.
+
+GM notes: he never names Ismara here — that's a live thread for later,
+not resolved tonight. What "some of what you don't say" actually costs
+her, and when it's collected, is genuinely open; track it the way the
+Davinia ledger tracks an unpaid debt, not as something the player
+spends or rolls against.
+Track after: whether she opened her eyes at all, what she used it on,
+whether she said anything back to him.
+
+Exit -> The road. The figures start appearing.
+
+Scene: The Road — First Pattern
+Function: The frozen-people pattern the party saw once in Windhelm (a
+handful of victims, city-contained) becomes something they see from a
+moving cart, repeatedly, over days. Scale before specificity.
+Location: The road between Windhelm and the Pale border.
+Read Aloud
+"The road runs three days through country that gets colder and emptier
+the further you go. On the second day, someone spots a shape in a field
+a distance off the road — too still for a person doing anything, too
+upright for a scarecrow. By the time anyone thinks to get a closer
+look, the cart has carried you past it. There's another an hour later,
+closer to the road this time. A woman, from the shape of her, arms
+loose at her sides, facing away from the road entirely, toward nothing
+in particular."
+This is not a discovery scene — nobody is meant to solve anything here.
+It is meant to accumulate. If the party stops to investigate one:
+The figure is alive. Eyes track movement. Skin cold to the touch but
+not frostbitten — this isn't exposure. No response to speech, touch, or
+attempts to move them (they do not resist; they simply do not move).
+No visible marks yet, if fewer than 3-4 days have passed since
+placement — the marking process takes hours to complete under
+clothing, and these are each at a different stage. If someone examines
+skin under clothing on an older one: geometric notation, the same
+system as Windhelm, still forming.
+Ismara's behavior: she doesn't react to being asked about this, if
+asked. Written response, if pressed: "Necessary." If pressed again:
+nothing — she has already answered.
+Exit -> Bersi's Farm.
+
+Scene: Bersi's Farm
+Function: The campaign's moral weight becomes personal for the first
+time. Erik is not a stranger in a field. He has a name, a father, and a
+father who trusts this specific party by name.
+Location: A farmhouse and yard just off the Pale road.
+Read Aloud
+"The farm sits close enough to the road that you'd have missed it only
+if you weren't looking — a low house, a fenced yard, smoke from the
+chimney still going. In the yard, a boy stands facing the fence, one
+hand resting on the top rail like he stopped mid-reach. He hasn't moved
+in what looks like a long time.
+A man comes out of the house before you've stopped the cart. He's
+already moving toward you, and there's something in the way he's
+walking — too fast for approaching strangers, too controlled for
+panic."
+Bersi's Dialogue
+He knows who they are — "the Frostmere heroes" — word travels fast down
+a road this quiet. He trusts them because of that reputation, not
+because he has any reason to.
+Opening: "You're them, aren't you. The ones from Winterhold." He
+doesn't wait for confirmation. "My boy's been standing in that yard for
+two weeks. I've tried moving him. Tried everything. He doesn't fall
+over, he doesn't wake up, he just — stands there. Eyes go where you go."
+If asked what happened: "Nothing happened. That's the thing. He was
+helping me mend the fence and then he wasn't helping anymore. Just
+standing. Looking at nothing." A beat. "You fixed whatever was wrong at
+Winterhold. Can you fix this?"
+If they don't know how to answer honestly: let the silence sit. Bersi
+will fill it himself, badly: "That's — right. Of course. You'd need to
+look at him first." He is asking them to be capable of something they
+aren't sure they can do, and he doesn't know he's asking a group that
+is, at minimum, complicit in why this is happening to his son. He does
+not rage. He's past that — he's been standing with this for two weeks
+already.
+If Ismara is present and asked about Erik directly: "His position is
+necessary." She does not apologize.
+GM note: this is the one node the party can directly compare against a
+name, a father, a specific farmhouse — not an anonymous figure in a
+field. Let the table sit in that difference before moving on. Don't
+resolve it for them; there is no cure available here, and Bersi doesn't
+expect one today. He expects them to keep looking, because he doesn't
+have anyone else to ask.
+Exit -> The road continues toward Morthal.
+
+Scene: Morthal — Arrival
+Function: A hold that reads as Ismara-adjacent and isn't. Real vampire
+predation produces the exact texture the party has learned to associate
+with her — vacant-eyed townspeople, missing nights, a leader speaking
+in half-omens about something patient and moving. It's a mirror, not a
+problem the party is required to solve.
+Location: Morthal, a small hold in a cold marsh.
+Read Aloud
+"Morthal doesn't announce itself the way Windhelm did. A scatter of
+houses on stilts over black marsh water, a longhouse at the center,
+peat smoke sitting low over the reeds because the air here doesn't move
+much. A few people are outside despite the cold — moving through their
+day with the particular carefulness of people who stopped trusting the
+night some time ago and haven't said so to each other yet."
+What's Actually Happening (GM only):
+Movarth Piquine's coven operated near Morthal for months from an old
+fort in the marsh. Alva, a local woman, has been feeding Hroggar false
+affection while feeding on his family — she burned his house with his
+wife and daughter inside to remove complications and has used his grief
+as cover ever since. Several townspeople are hollowed out from regular
+feeding: functional, present, missing specific nights they can't
+account for. Jarl Idgrod Ravencroft knows something is wrong. Her
+visions give her texture, not specifics — a wrongness she has been
+watching build for months and cannot yet confront with evidence.
+None of this is Ismara. Ismara places nodes here quietly while the
+party is occupied with the coven, and nobody connects the two while
+they're in town.
+
+Scene: Idgrod's Court
+Function: The line that will read, to the party, as being about
+Ismara. It isn't. This is deliberate — let it land both ways.
+Location: Morthal's longhouse.
+Read Aloud
+"Jarl Idgrod Ravencroft receives you with the particular attention of
+someone who has been expecting a very specific kind of visitor and
+isn't sure you're it. Her steward Aslfur hovers with the practical
+impatience of a man who handles the parts of governance his Jarl finds
+beneath her notice. Idgrod's eyes go past you, once, to the wrapped
+shape that traveled in with your cart — and something in her expression
+is not quite recognition. Not quite anything else, either."
+Idgrod's Line:
+"Whatever is building has been patient. Four thousand years of
+patience. And now it is moving."
+GM note: she is talking about the coven — months of watching her people
+hollow out one by one, unable to move without proof. She does not know
+about Ismara, does not mean Ismara, and will not clarify which she
+means if asked directly: "I say what I see. What it means is for you
+to find out." Don't let her resolve the ambiguity for the table either
+way.
+If pressed about specifics: she describes the texture, never the cause
+— neighbors who don't remember certain nights, a wrongness with no
+single face to it yet. She will not name Alva or the coven; she doesn't
+have that piece.
+Exit -> The party may investigate the coven (optional, below) or move
+on toward Solitude.
+
+Scene: The Marsh — the Coven (OPTIONAL, not required)
+Function: A real thread the party can pull if they choose. Resolving it
+is not required to continue the adventure.
+What's there: Movarth Piquine's coven in an old fort in the marsh.
+Alva is embedded in town, not at the fort, running the long con on
+Hroggar. If the party investigates Hroggar's burned house, or asks
+around about who doesn't sleep at night, Alva is the thread that
+connects to the fort.
+The coven has already been dealt with — not by the party. Valerius
+Caelus, an apex vampire lord who works Solitude's Pale Court and Jarl
+Elisif's confidence, eliminated Movarth as a rival power center on his
+own initiative, well before the party arrived.
+Read Aloud (if the party reaches the fort):
+"The fort's gate stands open on its own hinges — nobody forced it.
+Inside, the great room holds bodies arranged with the care of a man
+clearing a table after a meal: seated, hands folded, throats opened in
+a single motion each. Movarth Piquine is among them, in the chair at
+the room's head. Whatever ruled this fort a week ago answers to someone
+else now."
+The Survivor: one coven thrall remains, alive, docile in a way that
+reads as recent rather than natural. If questioned (a Standard Guile
+roll, or simple patience — he wants to talk):
+"He didn't raise his voice. Didn't have to. Told Movarth what he'd done
+wrong, like a man going over a ledger. Then he was finished talking,
+and Movarth wasn't answering anymore. He asked for a name before he
+left. I gave him mine. He didn't want it. He wanted to know who was
+worth keeping."
+If pressed for the visitor's name: "Valerius. He said it like he
+expected us to already know it."
+GM note: play the survivor's account exactly to Valerius's voice —
+courteous, unhurried, stating consequences as fact, no cruelty
+performed, no raised voice. The horror is in how reasonable it all
+sounds secondhand.
+Alva, Afterward: still in town, still running the same grief-cover con
+on Hroggar — she was judged "worth keeping." Nothing about her demeanor
+announces this. One detail if the party watches her closely enough to
+have a baseline to compare against: she is more careful now, in a way
+that wasn't there before. The party has no way to know careful of what.
+If the party fights whatever remains: the coven no longer exists as an
+active threat by the time they'd reach it. If the table wants a fight
+here anyway, pull generic vampire stat blocks from GM Guide/Reference
+tables — don't improvise numbers from nothing.
+If resolved: the party now has Valerius's name, Movarth's fate, and
+Alva's continued presence — three threads with nowhere to go yet this
+adventure.
+If ignored: Morthal's own slow investigation eventually produces enough
+evidence for its own response, with or without the party ever learning
+what actually happened.
+Exit -> The road continues toward Solitude.
+
+Scene: The Atmoran Scholar's Ruin
+Function: A real, gated clue with real content behind it — not a
+thematic image. This is the first documentary hint at what Ismara's
+notation actually describes, available to anyone who does the work.
+Location: A ruined structure beside the road, between Morthal and
+Solitude.
+Read Aloud
+"The ruin sits close enough to the road that generations of travelers
+must have passed it without stopping — a few standing walls, half a
+roof, Atmoran stonework worn soft at every edge that still faces the
+weather. Carved lines run the length of one interior wall, the same
+geometric system the party has been looking at since Windhelm, denser
+here, older."
+The Inscription: describes a territorial sovereignty ritual. With
+context from Wulfgar's Windhelm translation work, a character who has
+been tracking the notation can go further: this notation describes a
+SUBSTRATE, not a territory. The caster is not claiming the land. The
+caster is becoming the land. One term recurs throughout, translating
+roughly as: "the anchor that becomes the sea."
+Difficulty: Standard Guile or Magic roll (anyone who has handled
+Wulfgar's notation before, or spent time with Ismara's notebook, rolls
+this at Easy (+2) instead — they already have the vocabulary).
+On success: the translation above, in full. On failure: the party
+recognizes the notation system but can't extract the substrate/
+territory distinction yet — they can return to this later, or bring a
+rubbing to someone who reads Atmoran (Wulfgar, in Windhelm).
+If Ismara is present and asked about it directly: she reads it in
+seconds — she wrote systems like this herself, four thousand years ago.
+Written response: "Old work. Recognizable." She does not elaborate
+further unless pressed a second time, and if pressed a second time:
+nothing.
+
+Scene: The Sealed Door (Caelan's Recruitment)
+Function: Recruit Caelan. This keeps his usual pattern — a beautiful,
+complex lock, delighted admiration, then the pitch — just here, at
+this ruin, rather than a vault.
+Location: A second chamber within the Scholar's Ruin, past the
+inscribed wall. A sealed door.
+Read Aloud
+"Past the inscribed wall, the ruin doesn't end so much as narrow — a
+short passage to a door that isn't Nordic stone at all. Interlocking
+brass discs, each one a different size, set into a frame that has held
+for longer than anyone would guess to look at it.
+A man is already crouched in front of it. High Elf, dark traveling
+clothes, a deep blue scarf, a set of lockpicks turning in one hand like
+he's deciding which one deserves the honor. He doesn't look up."
+Caelan's Voice:
+"Would you look at that! A triple-cog tumbler with a tonal resonance
+counter-lock. Whoever cut these discs was a true artist. This is the
+most fun I've had all week!"
+He picks it, narrating his own process with cheerful enthusiasm. The
+door opens. He steps back and gestures at it like he's presenting a
+gift.
+His Pitch:
+"There we go! Now — it seems to me you lot find your way into the most
+interesting, heavily-guarded places, usually for the best of reasons.
+That's a much better game than the one I've been playing lately. Mind
+if I join your team? You handle the big, noisy problems, and I'll
+handle the locks, the traps, and whatever's impossible between you and
+where you're going."
+If asked who he is / what he wants: he answers plainly and cheerfully —
+Caelan, a locksmith by trade and inclination, headed toward Solitude
+anyway. He does not mention his daughters. This isn't evasion; it's
+simply not what the question was about.
+GM note: what's actually behind the door is unbuilt — this scene is
+about the recruitment, not a treasure room. If the party wants
+contents, build them at the table.
+Exit -> Solitude, with or without Caelan.
+
+============================================================
+SOLITUDE
+============================================================
+The party's stated goal here: understand the political landscape.
+Ismara's stated goal: her most direct persuasion move yet. What's
+actually happening: the Thalmor notice them, not for Ismara's sake but
+because a group traveling with someone visibly unusual draws routine
+attention; the Bards College has an unrelated, completely petty
+internal crisis (the Burning of King Olaf, banned by Elisif); none of
+it is connected to the plot, and it should read that way.
+
+Scene: Arrival — the Shopfront
+Function: One silent beat for Caelan, if he's traveling with the
+party. His private wound — his daughters, Taarie and Endarie, run
+Radiant Raiment in Solitude; he sends them money anonymously — stays
+exactly that: private.
+Location: A market street, on the way to lodging.
+Read Aloud (Caelan present only)
+"The street opens onto the market district, storefronts bright even in
+the grey light. Caelan's route to the inn cuts down this street and
+not the shorter one past the docks. Outside a tailor's shop with gold
+lettering — RADIANT RAIMENT — he slows half a step. He doesn't stop. He
+doesn't look at the door. He looks at the window display for exactly as
+long as it takes to pass it, then he's talking again about something
+else entirely."
+GM note: do not narrate why. If a player asks him about the shop
+directly, he says something true and small — "Good tailors. Expensive."
+— and changes the subject with the same warmth he changes any subject.
+The party does not learn who runs it this adventure.
+Exit -> The inn.
+
+Scene: A Man Who Notices Things
+Function: Valerius Caelus, already a fixture of Solitude's court, takes
+a passing, private interest in the party. This time it lands on
+something bigger than his usual angle: he clocks Ismara for what she
+IS, not who.
+Location: A quiet street between the market and the inn.
+Read Aloud
+"The street isn't crowded, which is why the man keeping pace with you
+is easy to notice once he's decided to be noticed. He's dressed well
+enough that no guard gives him a second look, and he closes the last of
+the distance like an old acquaintance."
+His Introduction:
+"Valerius Caelus. You've been the subject of some conversation since
+you arrived — a barrow cleared in Winterhold tends to travel."
+[He looks at Warla's hands.]
+"That scarring isn't old, and it isn't frostbite. I collect a great
+many small mysteries. Where did it come from?"
+GM note — voice: courteous, unhurried, precise, never raised. If Warla
+or anyone answers honestly or deflects, he accepts either without
+pressing — he asked once; he does not repeat himself out of need.
+The Beat:
+"His eyes move once, past Warla's shoulder to the wrapped shape at the
+back of the group, and hold there — the specific stillness of a man
+re-reading a ledger entry he didn't expect to find. Then he's looking
+at Warla again, and whatever he meant to ask about the scarring goes
+unasked."
+His Exit:
+"'Solitude's rarely dull when Frostmere's heroes are in it.' He's
+already stepping back into the street. 'Enjoy the city.'"
+GM note, eyes only — what actually happened: he has not identified
+Ismara, and has no reference point that could. What he recognized is
+the mode of what she is — an entity organized entirely around
+permanence, at a scale that dwarfs his own decades of patient political
+consolidation. He is, in his own domain, an apex predator of stasis.
+This is the first time in his operation he's recognized something
+working the same principle at an order of magnitude beyond him. His
+default is restraint over execution — an unknown this large gets
+watched, not approached. He does not act on this further this
+adventure. This is a long-fuse thread — not owed a payoff soon.
+Ismara's Reciprocal Beat:
+Whenever the Khajiit next looks her way — at the inn, or once Valerius
+is gone — Ismara has already written something and holds it out:
+"Old hunger. Patient hunger."
+She writes nothing else. If asked who or what she means: nothing. She
+has already answered.
+GM note: she is not alarmed — she is never surprised. She has
+recognized the same thing he did, from the other direction, and filed
+it the same way she files everything. The campaign never confirms
+whether either of them is right to be interested in the other. Let it
+sit exactly there.
+Exit -> The inn, later that evening.
+
+Scene: Ismara's Note (Her Most Direct Argument)
+Function: Her most direct persuasion move of the campaign so far. Do
+not add to this note at the table — it's already complete in her
+voice.
+Location: An inn in Solitude. Evening, a fire, the party settling for
+the night.
+Read Aloud
+"The common room empties out by degrees — the fire banked low, one
+table left with a candle burned halfway down. Ismara has been still in
+the corner all evening, notebook open, writing longer than she usually
+does. When she's done she doesn't hand the book to anyone. She sets it
+open on the table, turns it to face you, and sits back."
+The Note (hand this to the table, do not summarize it):
+"I could not stop any of it. I watched every piece of what I had
+protected become ash. I watched it rebuild. I am not trying to restore
+the old. I am trying to make it so nothing can unmake this one.
+Alduin ends everything. There is no negotiation with the World Eater. I
+am the only solution anyone has ever found.
+I know what I am asking of you is not simple. I am asking you to trust
+that I am right about what comes next. I have thought about nothing
+else for four thousand years."
+She puts the book away and does not press for a response.
+GM note — running the silence: this is the same discipline as the
+village scene that follows. She does not elaborate, does not repeat,
+does not watch for a reaction the way a person angling for one would.
+If asked a direct question afterward, she answers what she chooses to
+answer, once, in writing, and does not repeat an answered question.
+Exit -> The Village.
+
+Scene: The Village
+Function: The campaign's first true moral-weight scene. No correct
+answer.
+Placement: runs last, right after Ismara's inn note — the party's
+heaviest choice lands immediately after her clearest case for herself,
+not before it.
+Location: A small settlement — twenty-five people, farms and a mill.
+No source names this place or gives it a spokesperson; the miller below
+is invented for texture and can be renamed or cut freely.
+Read Aloud
+"The road drops toward a mill wheel turning in a creek, a scatter of
+houses, fields cut down to stubble for the season. No wall. No gate. A
+man steps out of the mill door, flour pale on his forearms, and
+straightens up to look at the cart the way anyone here looks at an
+armed cart on the road."
+The Contact — Skeggi, the Miller
+Read Aloud
+"'Late in the season for the west road,' he says. 'Passes'll shut
+before you're back through, unless you've business that won't wait.'"
+GM note: give the party a few minutes here — the barley crop, a
+brewery customer, a bad wheel-axle he's been meaning to fix. Nothing
+plot-bearing. This is the only texture the scene needs: a face and a
+trade, so that losing two people later means something more than a
+number. He does not know anything is wrong.
+
+The Demand
+Read Aloud
+"Ismara has been still in the cart the whole exchange. Now she isn't.
+She steps down and walks to open ground at the edge of the village,
+where the mill and the fields and the lane can all see her. She stands
+there, completely still. Then she opens her notebook, writes, and holds
+the page out flat toward whoever is nearest:
+'I need two from here. Choose, or I will.'
+She closes the book. She waits."
+GM note — running the silence: she does not elaborate, does not repeat
+herself if asked twice, does not press. Let the table sit in it. Don't
+resolve it for them.
+If asked whether the two will die: she writes "This will not kill
+them." — and nothing more.
+If asked why two, why here: "Position. Necessary."
+Pressed again: nothing. She has already answered.
+
+The Branches
+The party names two. Ismara does not react — no nod, no thanks, no
+visible acknowledgment beyond registering it. Nothing happens to the
+two chosen that night, or the next. The mark forms from within over
+hours, unnoticeable under clothing; the person lives completely
+normally for days or weeks; then, one morning, they walk to a specific
+position and freeze. The village does not connect it to the party's
+visit when it happens, because by then the party is gone and so is the
+reason to suspect them.
+The party refuses to choose. Ismara does not argue. She waits an
+appropriate span, then walks into the village herself and chooses — the
+same invisible touch, the same delayed mechanic above. The party's
+refusal changed who does the choosing. It did not change the outcome.
+A single refusal like this doesn't itself register as an objection or
+interference — she treats them no differently afterward for this
+alone.
+The party warns the village and helps them scatter or flee. She does
+not chase, does not punish the attempt. She still needs nodes on this
+hold's geometry — if this village becomes inaccessible, she finds two
+people elsewhere on the road, people the party never met and will not
+see marked. This is the branch where the party can believe they won
+cleanly. They saved the faces they could name. Someone else, unnamed,
+pays instead. Don't explain this to the table; let it surface later, if
+it surfaces at all. This DOES register as real interference with her
+work — this is the branch that can start to change how she treats them
+going forward.
+The party attacks her outright. She is reconstructible; this does not
+kill her, and a sudden violent escalation here can burn the
+relationship immediately and completely, skipping any warning period.
+Don't run this as a winnable fight against her body — run it as the
+party learning what "reconstructible" actually means at the table.
+Something else the party thinks of: run it. The one constant across
+every branch: she needs nodes at specific positions in this hold's
+geometry. The only thing any branch actually changes is who chooses
+and who is chosen — never whether.
+Exit -> Ending.
+
+============================================================
+ENDING
+============================================================
+Three holds crossed. The frozen people on the roads are a pattern now,
+not a curiosity. Ismara has made her most direct argument for herself.
+The party has made at least one choice about the village that they will
+carry forward into everything that follows. Award: 1 Advancement Point
+per player.
+Caelan, if recruited, travels with them from here.
+
+============================================================
+ADVENTURE 2 CHECKLIST
+============================================================
+Before running:
+[ ] Decide the village's name/contact, or keep it collective
+[ ] Know Ismara's ritual-progress state at each hold (Session Dashboard)
+[ ] Have the inn note (Ismara's Scene, above) ready as a physical
+    handout, not a summary
+[ ] If the party may fight the Morthal coven, pull generic vampire
+    stats from GM Guide/Reference tables in advance — none are built
+    here
+During:
+[ ] Track which branch the village scene took (comply / refuse / warn /
+    negotiate / attack) — this affects how Ismara treats the party
+    going forward
+[ ] Track whether Caelan was recruited
+[ ] Note the daughters beat landing or not landing (Caelan, Solitude)
+After:
+[ ] Record which two villagers were chosen/taken, and by whom
+[ ] Note the party's reaction to Ismara's inn note — this seeds
+    Adventure 3's escalation

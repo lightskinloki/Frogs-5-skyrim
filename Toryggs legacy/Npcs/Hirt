@@ -1,0 +1,205 @@
+HIRT, "THE NEPHEW" -- COMPLETE CHARACTER SHEET
+High Concept: The Failed Daywalker. A living biological reactor built by
+Valerius Caelus to test the limits of mortality. He is a man burning alive
+from the inside, seeking the one thing that can cool his blood: the death
+of his maker.
+Role: Tank / Sustain / Damage Soak
+Tier: Adept Companion (4 AP Equivalent)
+
+Origin (see also oneshots/feast of fools line 441, oneshots/false flags):
+a "Nephew of Cold Harbor" -- a vampire thrall/vampire lord hybrid Valerius
+Caelus made through experiments in Falkreath. A failed experiment left to
+fester. Joined the B-Team (Kyboh, Zach, Ava, Megan) after the Falkreath gala
+massacre, then traveled with them north from Falkreath in "The False Flags."
+
+============================================================
+I. CORE MECHANICS
+============================================================
+Race: Nord (Modified)
+Standing Stone: The Lady (+2 HP)
+
+Stat Scores (Target Numbers):
+Might: 16 (Hulking lumberjack strength, amplified by pain spasms)
+Agility: 10 (Sluggish, weighted down by his own density)
+Magic: 10 (Incapable of casting; uses blood-magic instinctively)
+Guile: 4 (Shell-shocked and singular in purpose)
+
+Resources:
+Health Points (HP): 42 (Base) / Uncapped (Temporary HP Capacity)
+  Calculation: Unnaturally resilient base physiology.
+Focus Points (FP): 20
+  Calculation: His blood boils with excess energy.
+Damage Reduction (DR): 2 (Natural Toughness, +2 DR stacks with armor)
+
+============================================================
+II. SKILLS & PERKS
+============================================================
+One-Handed (Adept)
+He fights with a woodcutter's axe, using the choppy, brutal swings of a man
+used to felling trees.
+  Fighting Stance: Can make an extra attack as a Minor Action for 3 FP.
+  Hack and Slash: Attacks inflict Bleeding (1 damage/turn) on a successful
+    hit.
+
+Heavy Armor (Apprentice)
+He doesn't wear plate, but his skin has hardened into a callous-like hide
+from the constant cycle of burning and healing.
+  Juggernaut: Grants intrinsic DR bonuses as if wearing armor.
+
+Restoration (Innate/Corrupted)
+He cannot cast healing spells, but his body naturally channels blood magic
+to fuel his mutation.
+  Avoid Death: Once per adventure, if reduced to 0 HP, he immediately heals
+    for 10 HP. Note: this is different from the Restoration spell version.
+    A death-blow of more than 10 excess damage would still down him.
+
+============================================================
+III. SPECIAL ABILITIES & TRAITS
+============================================================
+Unique Mechanic: The Overcharge Engine
+Hirt does not function like a normal living being. He is a furnace.
+
+1. Hyper-Metabolism (The Burn): Hirt loses energy violently. He must feed
+   twice as often as a normal vampire (every 12 hours). If he fails to
+   feed, he enters Critical Burn:
+     Effect: Disadvantage on all rolls. Takes 1 Irreducible Damage every
+     10 minutes.
+
+2. The Sanguine Battery: Hirt does not heal normally from feeding. When he
+   uses Bio-Siphon or bites a target, the healing he receives is converted
+   into Temporary HP.
+     Uncapped: There is NO LIMIT to his Temporary HP. He can stack health
+     indefinitely during a fight.
+     Decay: He loses 5 Temporary HP per 10 minutes out of combat as his
+     body consumes itself.
+     Note: he cannot truly heal by any means other than rest. When Hirt
+     rests, his Temp HP is converted into true HP; the excess is vented
+     as heat.
+
+3. Burning: his blood is boiling hot. He takes half damage from sources of
+   fire and is immune to frost effects.
+
+Combat Abilities
+
+Bio-Siphon (Major Action -- 10 FP)
+  Range: 30ft.
+  Effect: Hirt screams as he vents the reactor, firing a raw, jagged beam
+    of red energy from his chest/hands.
+  Roll: Magic.
+  Damage: 5 Irreducible Damage and 5 Fire damage.
+  Benefit: Hirt gains 20 Temporary HP.
+
+Mist Form (Unstable) (Reaction -- 8 FP)
+  Trigger: When hit by a physical attack.
+  Effect: Hirt dissolves into a cloud of boiling red steam. He is Immune
+    to Physical Damage until the start of his next turn.
+  Hazard: Any creature standing in the mist (adjacent to him) takes 4 Fire
+    Damage (his blood is boiling hot).
+
+Sanguine Overload (Passive)
+  Trigger: When Hirt has 84+ Total HP including Temporary HP.
+  Effect: His blood runs so hot it heats his weapon. His melee attacks
+    deal an additional +2 Fire Damage.
+
+The Failed Serum (Daywalker)
+  Effect: Hirt takes 0 Damage from Sunlight. He appears human, if sickly.
+    This was Valerius's only success.
+  The Cost: He gains NO standard Vampire attribute bonuses (Strength/
+    Speed/Charm). He is just a man in pain.
+
+============================================================
+IV. EQUIPMENT
+============================================================
+Weapon: The Headsman's Axe
+  Type: Woodcutter's Axe (Two-Handed stats for flavor, One-Handed use due
+    to size).
+  Damage: 10.
+  Property: Hack & Slash (Inflicts Bleed).
+
+Armor: The Tattered Rags
+  DR: 0 (His DR comes from his natural toughness).
+  Flavor: Stained with old blood and sawdust. He refuses to wear fine
+    clothes; they chafe his boiling skin.
+
+============================================================
+V. ROLEPLAYING PROFILE
+============================================================
+Personality: The Broken Machine
+Hirt is quiet, but not out of stoicism -- out of exhaustion. He is
+constantly managing a low-level agony that would cripple a normal man. He
+apologizes when he kills out of habit. "Sorry. Hungry. Sorry."
+
+Core Motivation: Euthanasia via Homicide
+He does not want to live forever. He wants to stop hurting. He believes the
+only way to cure his condition is to kill the man who engineered it:
+Valerius Caelus. He joins the party because they claim to have a possible
+connection to his target and even better possible help.
+
+Voice & Mannerisms:
+  Voice: Ragged, breathy, like he has just finished running a mile.
+  Tick: He scratches his arms constantly. His skin feels tight.
+  Eating: He eats constantly -- raw meat, scraps, bones. Anything to keep
+    the furnace fed without resorting to people (until the battle starts).
+
+============================================================
+VI. COMBAT TACTICS
+============================================================
+Role: The Ablative Meat Shield
+Hirt is designed to be hit. He has low DR but a massive, replenishable
+health pool.
+  Opening: He charges the biggest threat to draw aggro.
+  Sustain: He uses Bio-Siphon every other turn to keep his Temp HP high.
+  Panic Button: If he takes a massive hit, he uses Mist Form to negate it
+    and burn anyone close to him.
+  The Bomb: If he is fully Overloaded (84+ Total HP), he fights recklessly,
+    using his Fire damage bonus to shred armor.
+
+============================================================
+ADDENDUM: HIRT'S BLOOD ARTS
+============================================================
+GM Note: Hirt cannot learn new spells from tomes. His "Magic" is
+biological. All of these abilities count as Spells for the purpose of
+Action Economy (Major Actions) but rely on his unique physiology.
+
+1. BIO-SIPHON (The Primary Engine)
+   Type: Destruction / Restoration Hybrid
+   Cost: 10 FP
+   Action: Major Action
+   Range: 30ft (Red beam of jagged energy)
+   Effect: Hirt tears the life force out of a target to fuel his reactor.
+   Damage: 5 Irreducible Damage + 5 Fire Damage.
+   Heal: Hirt gains 20 Temporary HP.
+
+2. MIST FORM (UNSTABLE) (The Panic Button)
+   Type: Restoration / Alteration Hybrid
+   Cost: 8 FP
+   Action: Reaction (Trigger: Being hit by an attack)
+   Effect: Hirt's body destabilizes into a cloud of boiling, red steam. He
+     becomes Immune to Physical Damage until the start of his next turn.
+   Hazard: Any creature standing in the mist (adjacent to him) takes 4
+     Fire Damage because his blood is boiling hot.
+
+3. VAMPIRIC GRIP (The Tether)
+   Type: Alteration (Telekinesis variant)
+   Cost: 6 FP
+   Action: Minor Action
+   Range: 40ft
+   Effect: Hirt extends a hand, and a tendril of black-and-red energy
+     lashes out. He makes a Magic check against a target.
+   Success: The target is pulled 20 feet directly toward Hirt and Held in
+     place, requiring a roll to escape his grip, otherwise paralyzed as
+     long as he holds the enemy.
+
+4. EQUILIBRIUM (Reactor Vent)
+   Type: Alteration (Blood Magic)
+   Cost: 0 FP (Costs Health)
+   Action: Minor Action
+   Effect: Hirt forces his metabolism into overdrive, burning his own
+     flesh to generate energy.
+   Trade: Hirt takes 10 Irreducible Damage (to his True HP, bypassing Temp
+     HP) and regains 20 Focus Points (FP).
+
+Sanguine Overload (Passive)
+  Trigger: When Hirt has 84+ Total HP including Temporary HP.
+  Effect: His blood runs so hot it heats his weapon. His melee attacks
+    deal an additional +2 Fire Damage.

@@ -1,0 +1,132 @@
+Adventure 2 Companion: Dawnstar City Profile & Reference
+Main Document: Adventure 2: The Long Road West — the Pale is optional
+territory this adventure (the party's actual required stops are Bersi's
+Farm on the Pale road, then Morthal, then Solitude). This profile exists
+for if/when the party detours into Dawnstar itself, chasing the
+Vaermina/nightmare thread `living-world.md` establishes as a deliberate
+red herring — a real, unrelated crisis that only READS as Ismara-adjacent.
+
+SOURCE NOTE: No precedent exists for a Dawnstar profile anywhere in this
+repo (confirmed by search — city profiles exist for Riften, Whiterun,
+Solitude, and Falkreath; none for Dawnstar or Morthal). Everything about
+the Pale Fever thread, Erandur, Skald, and the Skull of Corruption below
+is sourced from `Ismara's-doom/living-world.md`, The Pale section — cited
+inline. Everything else (named shops, generic townsfolk, the temple's
+actual name) is pulled from base-game Skyrim knowledge, per your direction
+this session, and flagged as such — I can't give a file:line citation for
+that the way I can for repo docs, so verify names against the game itself
+if precision matters at the table.
+
+Dawnstar — City Profile
+Pillar 1: Structure
+Name & High Concept: Dawnstar — a mining and shipping town on the
+northern coast, perpetually cold, perpetually underfunded (living-
+world.md, The Pale section, verbatim: "a hard, remote hold... perpetually
+cold and perpetually underfunded").
+Atmosphere & Core Conflict: A town running on too little sleep. The real
+crisis (below) has nothing to do with Ismara, but every symptom of it —
+sleeplessness, irritability, a shared vivid dream of something vast, cold,
+and watching — reads exactly like the thing the party has actually been
+tracking since Windhelm. That resemblance is coincidence, not design
+(living-world.md: "This is coincidence. Vaermina is not tracking Ismara.
+Vaermina is amplifying what's already in people's heads.")
+[BASE-GAME, flagged] Points of Interest:
+Service          | Name              | Notes
+Inn              | Windpeak Inn      | Run by Thoring. The town's social
+                 |                   | hub and warmest room in Dawnstar.
+Mine             | Iron-Breaker Mine | The hold's economic backbone.
+Alchemist        | The Mortar and    | Small stock; a nightmare-plagued
+                 | Pestle            | town buys a lot of sleeping draughts.
+Temple           | Nightcaller Temple| On a cliff outside town. Where
+                 |                   | Erandur is working, and where the
+                 |                   | Skull of Corruption is kept.
+
+Unique Locations:
+Location              | Key NPC     | Notes
+Nightcaller Temple    | Erandur     | Vaermina's old seat. The actual
+                      |             | site of the Skull of Corruption.
+Jarl's longhouse      | Skald the   | Small, tense, defensive.
+                      | Elder       |
+The roads out of town | —           | Frozen people, standing, further
+                      |             | out than in Windhelm — this IS
+                      |             | Ismara, not Vaermina. See below.
+
+Pillar 2: Inhabitants
+Persistent NPC 1: Jarl Skald the Elder
+Sourced: living-world.md, The Pale section, verbatim — "a Stormcloak
+sympathizer so committed to the cause that he has become politically
+useless, seeing Imperial agents in every shadow."
+Core Motivation: To protect his hold from an Empire he's convinced is
+actively working against it. He cannot separate this conviction from the
+actual crisis in front of him.
+Current State: His response to the nightmares and the frozen people on
+his roads is to blame Imperial sabotage (living-world.md, verbatim: "his
+response is to blame Imperial sabotage"). He is not lying to the party —
+he genuinely believes it.
+Potential Evolution: Nothing the party does changes his framework easily.
+Direct evidence of Erandur's work might shift him toward taking the
+nightmares seriously as a real (non-Imperial) threat; nothing shifts his
+read on the frozen people, since Ismara is a shape he has no category
+for at all.
+
+Persistent NPC 2: Erandur
+Sourced: living-world.md, The Pale section, verbatim — "A priest of Mara
+named Erandur — who was once Vaermina's priest and is trying to undo what
+he did — has arrived in Dawnstar and is working quietly to destroy the
+artifact."
+Core Motivation: To destroy the Skull of Corruption and end what he
+started. Genuine, private guilt, not performed.
+Current State: Working alone, quietly, without Skald's knowledge or
+help.
+Potential Evolution: Sourced — "Erandur eventually destroys the Skull of
+Corruption with or without the party's help — he has been working toward
+this for months and doesn't need them." If the party helps: faster
+resolution, possibly a combat encounter at the Skull's cave (unbuilt —
+GM's call whether this becomes Adventure 2's optional fight instead of
+the Morthal coven, since only one is likely to happen at a real table).
+If ignored: resolves off-screen; "the nightmares in Dawnstar stop. The
+frozen people on the road remain."
+
+Pillar 3: Events
+Roll on this table for a full day of downtime in Dawnstar, or texture
+entering a new part of town.
+d10 | Event
+1   | Sleepless Crowd: A knot of townsfolk outside the Windpeak Inn,
+    | hollow-eyed, comparing the same dream — something vast, cold,
+    | watching. None of them have connected it to the figures on the
+    | road. Neither should the party, necessarily — that's the point.
+2   | Skald's Watch: Skald has doubled the gate watch against
+    | "Imperial saboteurs." The guards are exhausted and jumpy, not
+    | actually looking for anything real.
+3   | The Mine Slows: Iron-Breaker Mine's foreman reports workers too
+    | tired to make quota. Nobody's connected this to the Skull either.
+4   | A Standing Figure, Closer Than Expected: One of Ismara's frozen
+    | people is visible from the town wall — the first one anyone in
+    | Dawnstar has seen this close. Reactions are panic, not
+    | recognition; nobody here has the Windhelm context the party has.
+5   | Erandur, Glimpsed: A robed man moves toward Nightcaller Temple
+    | alone, at an hour nobody else is awake for. If followed (Guile
+    | Standard to track him without being noticed), the party can find
+    | him before he'd choose to introduce himself.
+6   | Thoring's Complaint: The innkeeper is out of sleeping draughts
+    | again — third time this week. Good opening to ask what's
+    | actually keeping the town up.
+7   | A Nightmare, Described: Any NPC willing to talk describes the
+    | same dream, unprompted, in slightly different words each time —
+    | frozen in place, something vast overhead, being watched. [GATED
+    | CONTENT NOTE: this is real, usable information — the dream
+    | content genuinely describes Ismara's phenomenology, per living-
+    | world.md, even though its actual cause is Vaermina amplifying
+    | ordinary anxiety. Don't withhold this from a player who asks; the
+    | confusion is the design, not a lock without a key behind it.]
+8   | Quiet Day: Nothing unusual, just cold and tired. Order-of-business
+    | scene material.
+9   | Skald's Accusation: Skald corners the party (or a visibly
+    | Imperial-coded member of it) about "Legion business" in his hold.
+    | Suspicious, not violent — he wants them gone, or wants answers he
+    | won't get.
+10  | The Skull's Reach: Someone in town has a violent episode —
+    | screaming awake, lashing out — clearly worse than ordinary bad
+    | sleep. This is the spore effect intensifying; a concrete beat if
+    | the party needs a reason to take the "just nightmares" thread
+    | seriously.

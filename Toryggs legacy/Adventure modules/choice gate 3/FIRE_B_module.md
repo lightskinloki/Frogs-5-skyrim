@@ -1314,14 +1314,74 @@ GM -- THE OTHERS AT THE MONASTERY (each routed through a player, each short):
 - GEAR (only if he made the ledge crossing at Emblem VII -- if the party sent him back, skip this entirely): he climbed, because everyone climbed. He measures the distortion in this hall and reports the figure flatly to whoever is listening. Keep him brief and keep the joke off it.
 - THE THREE WHO DO NOT SPEAK: Einarth, Borri and Wulfgar are present in every beat of this scene and say nothing in any of them. They eat if fed. They do not rise, do not gesture, and do not acknowledge the party leaving. Do not give any of them a line -- not one word, not for any reason. Their silence is the scene.
 
-EXIT -> THE BLOCK: the summit is sealed, and the way down is not in this monastery at all -- it is back at the wind-tunnel, where they fought the troll. Everything they climbed for is behind them. They go back down. -> 21 The Return Visit
+EXIT -> THE BLOCK: the summit is sealed, and the way down is not in this monastery at all -- it is back at the wind-tunnel, where the troll's den sits. Everything they climbed for is behind them. They go back down. -> 21 The Descent -- Ylva & Saijah
 
-# 21 The Return Visit
+# 21 The Descent -- Ylva & Saijah
 
-SUBTITLE: After 3C -- the same ground, silent
+SUBTITLE: The main 7,000 Steps ridge -- before the troll's den
 
-GM: They come back down here with the assembled message and Arngeir's directions. The troll is dead where they left it. The wind is still running. Nothing attacks them. Run the recitation (full solution, failure consequences and hint tiers are in Scene 14) in the quiet, standing in the blood and the snow of a fight they already won -- everyone present, every voice, Emblem X's line spoken at once. Do not add a second encounter here. The contrast is the payoff.
-GM -- BATTLEMAP: see map_3B_wind_tunnel.svg in this folder (GM copy, door labeled; for player dry-erase copy omit the JURGEN'S DOOR label from the den's far wall).
+>> READ ALOUD
+The stone archway of High Hrothgar drops behind you, and the summit wind hits immediately -- crosscut and freezing over the exposed stone. The steps are slick grey slabs under crusted snow, tilted from centuries of frost-heave. The blood-furrow where Mable fell is visible below on the approach -- frozen dark in the snow. Down at the bend, steam rises steady from the mouth of the Frost Troll's den where the path narrows into the shelf.
+
+Saijah leads down the ridge, bow slung, hands free.
+
+Halfway down the exposed stretch, Ylva breaks out of file. Her boots crunch on the frozen crust. She drags the head of her battleaxe along the stone step -- iron screeching on granite, throwing faint sparks into the wind -- and cuts hard across Saijah's line, planting her boots sideways across the slab to block the descent. Her breath comes fast in the cold; her knuckles are white on the haft.
+
+She leans in on the exposed rock, blocking the drop, and looks directly at Saijah.
+
+GM: This is a social confrontation. Saijah is a PC -- NEVER script her lines, thoughts, or actions. React to whatever the player gives you. Ylva is restless, manic, and sharp. She smells Hircine's interest on Saijah from the climb and is probing whether Saijah is an Alpha stepping into the hunt, a rival claiming the god's eye, or a coward wasting His attention.
+
+>> YLVA:
+"You walked us off the steps onto a road none of us could read. Who gave you the scent?"
+
+--- REACTION BRANCHES (4) ---
+
+BRANCH 1 -- If Saijah deflects / dismisses / gives a short cold brush-off ("Nothing," "Lucky," tries to step past):
+Ylva doesn't yield the slab. She leans her weight into the block, scraping the axe louder against the stone:
+>> YLVA:
+"Lucky doesn't read Atmoran. I spent twelve years in Jorrvaskr before they threw me out. I know what He leaves on people. You didn't find that stairway. It was put in front of you, and you walked up it like you were on a leash. Decide if you're running or being run."
+(Leaves the probe open. Saijah now knows Ylva smells Hircine's interest. No resolution.)
+
+BRANCH 2 -- If Saijah admits the supernatural scent / White Stag / the path:
+Ylva's jaw tightens, then the manic tension eases into fierce recognition. She crowds half a step closer, eyes wide:
+>> YLVA:
+"The stag. You saw it. I've followed that scent for fifteen years and never caught it. He leads you straight to it and you don't even know what it was. So are you taking it? An Alpha doesn't get shown a road and leave it empty."
+(Puts Saijah on the spot regarding Hircine's courtship. Leaves the crossroads unresolved.)
+
+BRANCH 3 -- If Saijah pushes back aggressively / asserts pack leadership ("Move," "Know your place"):
+Ylva answers with matching pressure -- chest out, teeth showing. She slams the axe butt against the stone slab and laughs once, sharp:
+>> YLVA:
+"There it is. That's the throat I was listening for. I've been under Alphas. Real ones. They don't explain themselves, and they don't flinch. Lead, then. Show me what teeth you use."
+(Ylva deliberately gives one step, yielding movement but establishing rival respect.)
+
+BRANCH 4 -- If Saijah stays completely silent / walks past:
+Ylva lets her step around without grabbing. She turns as Saijah passes, calling flat into the wind:
+>> YLVA:
+"Silence won't make Him look away. Hircine doesn't wait. Whatever that stairway was, it was an invitation. And invitations expire."
+(Ylva falls in directly behind Saijah, matching stride, shadowing her in silence down to the bend.)
+
+--- THE COMBAT PIVOT ---
+
+Before any branch can settle or resolve -- a massive, wet ROAR rips up the slabs from the cave mouth on the bend below. Steam bursts into the freezing air, and the frozen blood-furrow from Mable points straight into the dark.
+
+Alfonso's 206 crystal bones lock facing the cave. Nora's staff pulses, hands coming free of her sleeves. 
+Ylva snaps away from Saijah instantly -- mid-word or mid-stare, her hips turn down-slope, her axe comes up two-handed, and she charges down the slick slabs, screaming into the wind:
+
+>> YLVA:
+"I'm taking the first hit! Nobody steal it!"
+
+Encounter snaps to initiative. -> 21B The Frost Troll & The Threshold
+
+# 21B The Frost Troll & The Threshold
+
+SUBTITLE: The Wind Tunnel & Jurgen's Door
+
+GM: Run the Frost Troll combat at the den mouth. The troll is the owed fight from the ascent (Ch.28:43, 53). Ylva charges the front-line aggro; Alfonso's crystal bones provide flanking; Nora holds 20 banked charges; Saijah snipes.
+
+AFTER THE TROLL FALLS:
+The far wall of the sheltered cave is Jurgen Windcaller's door. The wind is running. Run the recitation (full solution, failure consequences and hint tiers are in Scene 14) in the quiet, standing in the blood and the snow of a fight they just won -- everyone present, every voice, Emblem X's line spoken at once:
+"TAH JOOR NIR, THU'UM VEN SU'UM" (or the full True Need recitation).
+GM -- BATTLEMAP: see map_3B_wind_tunnel.svg in this folder.
 
 EXIT -> The door opens. -> 22 The Climax -- The Undercroft
 

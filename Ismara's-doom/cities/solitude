@@ -1,0 +1,226 @@
+Adventure 2 Companion: Solitude City Profile & Reference
+Main Document: Adventure 2: The Long Road West — runs the session.
+This document is for prep and between-scene reference: the city profile,
+district-by-district points of interest, and a city events table.
+
+SOURCE NOTE: This is a PORT, not a fresh build. The source is Toryggs
+Legacy's `Adventure modules/5- echoes of a fallen king` (lines 30-320),
+its own Solitude city profile for "Echoes of a Fallen King" — an ACT 1
+adventure, set before Torygg's assassination and before the civil war,
+which is exactly the peacetime state this prequel needs. Every location,
+merchant, and background NPC below is running their ordinary business,
+untouched by that campaign's later plot, so it carries over directly.
+Three things are cut or changed, flagged where they occur:
+  1. Every "Vampire Hunt Assessment" line is REMOVED — that's Orion and
+     Alfonso's hunger-stage mechanic (Toryggs legacy/vampire tracking),
+     which doesn't exist for this party. Not replaced with an equivalent;
+     Overview/Adventure 2 already establishes Ismara places nodes openly
+     in Solitude by this point, so a parallel "how hidden can she be here"
+     table wouldn't reflect anything this campaign actually does.
+  2. The Blue Palace's "Player Opportunities" are REFRAMED — the source
+     has the party scouting the palace to prepare for a royal audience
+     with High King Torygg that never happens here. The Parks Group has
+     no summons. Reframed below as ordinary sightseeing/rumor access.
+  3. Two City Events entries reference Toryggs Legacy's specific
+     political beats (a Stormcloak recruit in chains, a decree about
+     "disturbances in other holds") — replaced with generic equivalents,
+     flagged inline.
+
+Solitude — City Profile
+Atmosphere & Core Conflict (source, unchanged — this describes Skyrim's
+general political temperature before any civil war, which is exactly
+where this prequel sits): Solitude is a city at its peak — majestic,
+orderly, prosperous. The air is crisp with sea salt and clean stone. The
+core conflict is Imperial Order vs. Nordic Heart: the city's public face
+is law and discipline, but beneath it, Nords grumble about the Thalmor
+and the ban on Talos worship. Held in check by deep respect for the
+young High King.
+
+THE MARKET DISTRICT
+Atmosphere: The vibrant heart of Solitude — fresh bread, spices, clean
+leather, a Bards College student strumming somewhere nearby, calm
+professional guard patrols.
+Key NPCs: Sayma (proprietor, Bits and Pieces, general goods — prefers
+gossip and road-news over extra coin). Angeline Morrard (elderly Breton
+alchemist, Angeline's Aromatics — worried about her daughter in the
+Legion, grateful for reassurance). Fihada (Bosmer master bowyer,
+Fletcher — respects fellow artisans, better prices for demonstrated
+skill). Lisette (ambitious bard, often near the Winking Skeever, wants a
+new story). Evette San (nervous spiced-wine merchant, convinced a rival
+sabotaged her shipment).
+Opportunities: Shopping and upgrades at the three shops above. Gathering
+rumors from Lisette or Evette San.
+
+THE TEMPLE DISTRICT
+Atmosphere: The Temple of the Divines — quiet reverence, incense, a
+single struggling Gildergreen sapling in the garden.
+Key NPCs: Freir (head priestess), assorted priests and acolytes.
+Opportunities: Blessings at any of the eight shrines. Research on
+religious history, the undead, or Daedric lore — dogma-filtered; library
+access requires real persuasion.
+
+CASTLE DOUR (THE MILITARY DISTRICT)
+Atmosphere: A grim, functional Imperial Legion fortress. Sharper,
+colder air; marching feet, steel on steel from the training yard.
+Key NPCs: General Tullius and Legate Rikke (observed at drills or in
+strategy). Disciplined Imperial soldiers and officers throughout.
+Opportunities: Reporting a crime (bureaucratic, skeptical without
+proof). Observing drills (insight into Legion tactics and discipline).
+
+THE SOLITUDE DOCKS
+Atmosphere: Salt, fish, gulls, sailors hauling cargo, trade-company
+banners on the piers.
+Key NPCs: Sailors and dockworkers (rough, transient, good for rumors
+from other ports). Addvar (local fisherman, mending nets).
+Opportunities: Rumors of coastal raids, strange weather, news from other
+provinces.
+
+THE HALL OF THE DEAD
+Atmosphere: Solitude's catacombs, set into the rock face. Cool, still,
+somber.
+Key NPCs: Priests of Arkay.
+Opportunities: Burial rites, local disease patterns, any unusual recent
+deaths.
+
+THE BLUE PALACE
+Atmosphere: Imperial grandeur — polished stone, soaring arches,
+stained-glass light, courtiers in fine silks, Legionnaires at attention.
+Key NPCs: Jarl Elisif the Fair (the High King's wife, often holding
+court). Falk Firebeard (her steward, busy, serious). Sybille Stentor
+(court wizard, reclusive, usually in her chambers). Assorted thanes,
+courtiers, servants. ADDED this session: Valerius Caelus (full
+character: Toryggs legacy/Npcs/Valerius) — a Caelus-line noble working
+Elisif's confidence and the Pale Court. Nothing in his own file dates
+when this began; present here as an already-established fixture of the
+court, well before any Toryggs Legacy timeline. He does not need to be
+IN the palace to be encountered — see adventure2, "A Man Who Notices
+Things," for where the party actually meets him.
+Opportunities [REFRAMED — source ties this to preparing for a royal
+audience that doesn't happen in this campaign; below is the palace as
+ordinary sightseeing]: The palace is open to visitors during the day.
+Glean courtly gossip from courtiers or servants (Guile roll) — political
+tension, Elisif's private worries, Tullius's frustration with the
+Thalmor. Consult Sybille Stentor on magical matters if she can be
+bothered — she's curt with people who waste her time.
+
+THE BARDS COLLEGE
+Atmosphere: Flute from an upper window, a boisterous tavern song in the
+courtyard, a practice drum. Old books, lute wood, beeswax.
+Key NPCs: Viarmo (Headmaster, Altmer, dramatic, always hunting new
+stories for the annual festival). Pantea Ateia, Giraud Gemane, Inge Six
+Fingers (instructors and loremasters). Numerous bard students.
+Opportunities: The best historical/mythological research in Solitude —
+ancient symbols, forgotten legends, Dragon Cult history (a character
+tracking Atmoran notation could plausibly come here for cross-reference,
+though Wulfgar in Windhelm remains the established primary resource).
+Commissioning a song to spread information. Impressing an instructor for
+a reward or a piece of lore.
+
+THE WINKING SKEEVER (INN)
+Atmosphere: The social heart of the market district — warm, cozy,
+off-duty Legionnaires, sailors' tall tales, Lisette's music.
+Key NPCs: Corpulus Vinius (cheerful, well-connected innkeeper). Lisette
+(resident bard). Off-duty Legionnaires. Traveling merchants.
+Opportunities: The single best general rumor mill in Solitude. Hiring
+short-term help or a distraction. Resting, rooms, gear storage — the
+party's likely base of operations, and the location for Ismara's inn
+scene (adventure2, "Ismara's Note").
+
+RADIANT RAIMENT (TAILOR & FINE GOODS)
+Atmosphere: High fashion, Imperial taste — expensive perfume, dyed
+silks, mannequins, appraising eyes.
+Key NPCs: Taarie (public-facing, haughty, appearance-obsessed). Endarie
+(the true artist, meticulous, less patient than her sister).
+[NOTE — Ismara's Doom cross-reference: this is Caelan the Fox's
+daughters' shop, per `Toryggs legacy/Npcs/Caelan the fox`, Section VII.
+He does not reveal this connection this adventure — see adventure2,
+"Arrival — the Shopfront."]
+Opportunities: The only place in the city for Fine Clothes. Taarie is a
+conduit for court gossip (a difficult Guile roll, flattery-gated).
+Haggling only responds to flattery about their craft and taste.
+
+THE LONELY TROLL (DOCKSIDE TAVERN)
+Atmosphere: The docks' drunken, salty gut — cheap ale, unwashed
+sailors, spilled fish stew, sticky floor, frequent fights.
+Key NPCs: Gulum-Ei (shifty Argonian informant, low-level Thieves Guild
+contact). A motley crew of sailors.
+Opportunities: Underworld rumors — smuggling routes, Thieves Guild
+activity, ships with "problems" in their cargo. Starting a distraction-
+brawl cheaply.
+
+THE EAST EMPIRE COMPANY WAREHOUSE
+Atmosphere: A massive wooden fortress of commerce — foreign spices,
+tanned leather, armed guards, scribes checking manifests.
+Key NPCs: Orthus Endario (stressed Imperial officer, no time for
+anyone without an appointment). East Empire Wardens (private security,
+better-equipped than City Guard).
+Opportunities: Shipment records (very high Guile roll or a real bribe).
+Infiltration — a major stealth challenge, well-guarded day and night.
+
+THE FOUR SHIELDS TAVERN
+Atmosphere: Old Skyrim transplanted into the Imperial capital —
+woodsmoke, roasting meat, strong mead, hunting trophies, almost
+exclusively Nord patrons.
+Key NPCs: Odfel (one-eyed proprietor, lost his eye in the Great War,
+traditionalist, resentful of Imperial weakness). Rotating traditionalist
+Nord regulars.
+Opportunities: The best place in the city for anti-Imperial sentiment,
+Thalmor grievances, pro-Stormcloak sympathy (background texture only —
+no civil war exists yet in this timeline; play as grumbling, not
+recruitment). Cold reception for openly pro-Imperial characters; warmer
+for anyone who respects Nord tradition. Haggling favors demonstrated
+Nord loyalty/respect.
+
+THE GILDED SCROLL (MAGICAL GOODS & ENCHANTING)
+Atmosphere: A quiet side street near the Blue Palace — dim, old
+parchment, exotic reagents, a humming Arcane Enchanter.
+Key NPCs: Horatius (anxious Imperial apprentice, terrified of his
+master). Sybille Stentor (rarely present in person; felt through
+Horatius's nervous mentions of "the Mistress").
+Opportunities: Soul gems, enchanting materials, a limited selection of
+low-tier spell tomes. Recharging and basic enchanting for a fee; custom
+work requires "consultation with the Mistress." Haggling favors
+demonstrated arcane knowledge.
+
+CASTLE DOUR DUNGEON (THE CONSEQUENCE)
+Atmosphere: Cold, damp cells beneath Castle Dour — mildew, a single
+sputtering torch, distant groans.
+Key NPCs: A grim, silent jailor.
+Opportunities (how to get out): Paying a bounty. Lockpicking (Hard -2
+Guile). Serving a minor sentence (costs the rest of the day's actions).
+A full jailbreak (stealth and combat against dungeon guards; marks the
+party as wanted in Haafingar).
+
+City Events Table (d20)
+GM Note: roll once during downtime if the party is unsure what to do or
+you want a complication.
+1-5   Quiet Day — calm, orderly, maximum freedom for personal business.
+6-7   Legion Drill — a full cohort drilling in the main square. Crosses
+      the city are harder; stealth is harder near the square.
+8-9   Thalmor Presence — three Justiciars moving toward the Blue Palace,
+      arrogant, watched with open hatred. City tension spikes.
+10-11 Dockside Brawl — a ship's crew and local Nords fighting at the
+      port; guards struggling to contain it. Good cover for slipping
+      away unnoticed.
+12-13 Market Day — a Khajiit caravan sets up temporary stalls. Rare
+      alchemical ingredients and one minor enchanted item, today only.
+14    [ADAPTED from source's Stormcloak-recruit event, which presumes a
+      civil war not yet underway here] A Traveler's Warning — a farmer
+      newly arrived from the Pale is telling anyone who'll listen about
+      people standing frozen in fields on the road north. Most of the
+      crowd treats it as a drunk's story. A few don't laugh.
+16    Bards College Recital — an open-air recital in the palace garden;
+      nobles in attendance; Advantage on Persuasion rolls made there.
+17    A Desperate Plea — an NPC (a child, an elderly person) asks the
+      party directly for help with something small and immediate.
+18    Public Execution — a criminal executed in Castle Dour's courtyard;
+      a large, somber crowd; a reminder of Imperial justice.
+19    Famous Visitor — a renowned figure visiting the Jarl adds
+      complexity or opportunity to a palace interaction.
+20    Sudden Storm — a fierce storm off the sea forces everyone indoors
+      for a few hours; inns packed; good setup for an all-in-one-room
+      social scene.
+[REMOVED from source: "Royal Decree" (referenced specific Toryggs
+Legacy political events — "disturbances in other holds" — with no
+equivalent here to reference); no replacement needed, roll again or
+treat as Quiet Day if it comes up.]
