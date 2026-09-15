@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FROGS 5 — Fire B: The Bleeding Stair (Session Sheet)</title>
+<style>
+  :root {
+    --bg-dark: #0d1117;
+    --bg-card: #161b22;
+    --bg-surface: #1f242c;
+    --border: #30363d;
+    --border-accent: #8b263e;
+    --text-main: #e6edf3;
+    --text-muted: #8b949e;
+    --maroon: #e55368;
+    --maroon-dark: #7a1d2e;
+    --gold: #d29922;
+    --gold-bright: #f0883e;
+    --blue-read: #58a6ff;
+    --blue-bg: #0d1e36;
+    --blue-border: #1f4273;
+    --brown-label: #bc8c58;
+    --red-danger: #f85149;
+    --red-bg: #2d1217;
+    --green-accent: #3fb950;
+    --font-serif: "Iowan Old Style", "Sitka Text", Palatino, "Palatino Linotype", Georgia, serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    display: flex;
+    min-height: 100vh;
+  }
+
+  /* SIDEBAR NAVIGATION */
+  #sidebar {
+    width: 280px;
+    background: var(--bg-card);
+    border-right: 1px solid var(--border);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 100;
+  }
+
+  #sidebar h2 {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+  }
+
+  .nav-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .nav-item {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.15s ease;
+    border-left: 3px solid transparent;
+  }
+
+  .nav-item:hover {
+    background: var(--bg-surface);
+    color: var(--text-main);
+    border-left-color: var(--maroon);
+  }
+
+  .nav-item.active {
+    background: var(--bg-surface);
+    color: var(--gold);
+    border-left-color: var(--gold);
+    font-weight: 600;
+  }
+
+  .nav-item span {
+    display: block;
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+
+  /* QUICK TOOLS WIDGET */
+  .sidebar-widget {
+    background: var(--bg-dark);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.75rem;
+    margin-top: auto;
+  }
+
+  .sidebar-widget h3 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+  }
+
+  .btn-row {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  button.tool-btn {
+    flex: 1;
+    background: var(--bg-surface);
+    color: var(--text-main);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.35rem 0.5rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+    font-family: var(--font-mono);
+  }
+
+  button.tool-btn:hover {
+    background: var(--border);
+    color: #fff;
+  }
+
+  /* MAIN CONTENT AREA */
+  #main-content {
+    margin-left: 280px;
+    flex: 1;
+    padding: 2.5rem 3.5rem;
+    max-width: 1000px;
+  }
+
+  header.masthead {
+    border-bottom: 2px solid var(--maroon-dark);
+    padding-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .badge-tag {
+    display: inline-block;
+    background: var(--maroon-dark);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+
+  h1.campaign-title {
+    font-family: var(--font-serif);
+    font-size: 2.2rem;
+    color: var(--gold);
+    line-height: 1.2;
+    margin-bottom: 0.3rem;
+  }
+
+  p.campaign-meta {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-family: var(--font-mono);
+  }
+
+  /* SCENE BLOCKS */
+  section.scene-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    scroll-margin-top: 2rem;
+  }
+
+  .scene-header {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1rem;
+  }
+
+  .scene-number {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--maroon);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  h2.scene-title {
+    font-family: var(--font-serif);
+    font-size: 1.7rem;
+    color: var(--text-main);
+    margin: 0.2rem 0 0.4rem 0;
+  }
+
+  p.scene-subtitle {
+    font-style: italic;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  /* READ ALOUD BLOCKS */
+  .read-aloud {
+    background: var(--blue-bg);
+    border-left: 4px solid var(--blue-read);
+    border-right: 1px solid var(--blue-border);
+    border-top: 1px solid var(--blue-border);
+    border-bottom: 1px solid var(--blue-border);
+    border-radius: 0 6px 6px 0;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+    position: relative;
+  }
+
+  .read-aloud-tag {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: var(--blue-read);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .read-aloud p {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-style: italic;
+    color: #c9dff7;
+    line-height: 1.65;
+    margin-bottom: 0.8rem;
+  }
+
+  .read-aloud p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* DIALOGUE & SPOKEN BEATS */
+  .spoken-block {
+    background: rgba(210, 153, 34, 0.08);
+    border-left: 4px solid var(--gold);
+    border-radius: 0 6px 6px 0;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
+  }
+
+  .speaker-label {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.3rem;
+  }
+
+  .spoken-text {
+    font-family: var(--font-serif);
+    font-size: 1.02rem;
+    color: #fce7ba;
+    line-height: 1.55;
+  }
+
+  /* GM NOTES & INSTRUCTIONS */
+  .gm-note {
+    background: var(--bg-surface);
+    border-left: 3px solid var(--maroon);
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    font-size: 0.88rem;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .gm-tag {
+    font-weight: 700;
+    color: var(--maroon);
+    font-family: var(--font-mono);
+    margin-right: 0.4rem;
+  }
+
+  .gm-alert {
+    background: rgba(248, 81, 73, 0.1);
+    border-left: 3px solid var(--red-danger);
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    font-size: 0.88rem;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .gm-alert .gm-tag {
+    color: var(--red-danger);
+  }
+
+  /* REACTION BRANCHES ACCORDION */
+  .branch-box {
+    margin: 1.2rem 0;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg-surface);
+    overflow: hidden;
+  }
+
+  .branch-header {
+    background: rgba(255,255,255,0.03);
+    padding: 0.6rem 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--brown-label);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .branch-body {
+    padding: 0.9rem 1rem;
+  }
+
+  /* COMPANION STATIONS GRID */
+  .stations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1.2rem 0;
+  }
+
+  .station-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+  }
+
+  .station-card h4 {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    padding-bottom: 0.3rem;
+  }
+
+  .station-card p {
+    font-size: 0.84rem;
+    color: var(--text-main);
+    line-height: 1.45;
+  }
+
+  /* STAT CARDS */
+  .stat-card {
+    background: #11151c;
+    border: 2px solid var(--border);
+    border-radius: 6px;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    font-family: var(--font-mono);
+  }
+
+  .stat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .stat-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--red-danger);
+  }
+
+  .stat-meta {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  .stat-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed var(--border);
+  }
+
+  .stat-item strong {
+    color: var(--gold);
+  }
+
+  .stat-section {
+    margin: 0.75rem 0;
+  }
+
+  .stat-section-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--brown-label);
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+  }
+
+  /* EXIT FOOTER */
+  .scene-exit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(139, 38, 62, 0.15);
+    border: 1px solid var(--border-accent);
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    margin-top: 2rem;
+  }
+
+  .exit-label {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    color: var(--maroon);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .exit-dest {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    color: var(--gold);
+    font-size: 0.95rem;
+    text-decoration: none;
+  }
+
+  .exit-dest:hover {
+    text-decoration: underline;
+  }
+
+  /* UTILITY TAGS */
+  .roll-check {
+    background: rgba(88, 166, 255, 0.15);
+    color: var(--blue-read);
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 0.85em;
+  }
+
+  /* PRINT ADJUSTMENTS */
+  @media print {
+    #sidebar { display: none; }
+    #main-content { margin-left: 0; padding: 0; }
+    body { background: #fff; color: #000; }
+    section.scene-card { border: 1px solid #ccc; box-shadow: none; page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<nav id="sidebar">
+  <div>
+    <h2>FROGS 5 Consoles</h2>
+    <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 3px;">Gate 3: Fire B Live Session</div>
+  </div>
+
+  <div class="nav-group">
+    <a href="#scene-0" class="nav-item active">
+      0. Session Recap
+      <span>The climb, Mable, Arngeir</span>
+    </a>
+    <a href="#scene-20" class="nav-item">
+      20. The Cold Hearth
+      <span>3-Stage Relay & Strategy</span>
+    </a>
+    <a href="#scene-21" class="nav-item">
+      21. The Descent Ridge
+      <span>Ylva & Saijah confrontation</span>
+    </a>
+    <a href="#scene-21b" class="nav-item">
+      21B. The Frost Troll & Door
+      <span>3-Phase Boss & Unison Words</span>
+    </a>
+    <a href="#scene-21c" class="nav-item">
+      21C. The Lost Vault of the Return
+      <span>National Treasure Reveal & Pre-Boss Gear</span>
+    </a>
+    <a href="#scene-22" class="nav-item">
+      22. The Undercroft Climax
+      <span>Gaelen, Jasper, 5 Anchors</span>
+    </a>
+    <a href="#scene-23" class="nav-item">
+      23. Resolution & Seeds
+      <span>Rewards, Danica, Road Out</span>
+    </a>
+  </div>
+
+  <!-- INTERACTIVE ROLLER & FONT CONTROLLER -->
+  <div class="sidebar-widget">
+    <h3>Quick Tools</h3>
+    <div class="btn-row" style="margin-bottom: 0.4rem;">
+      <button class="tool-btn" onclick="rollD20()">Roll d20</button>
+      <button class="tool-btn" onclick="rollTempo()">Zone 3 Tempo</button>
+    </div>
+    <div id="quick-roll-result" style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--gold); text-align: center; min-height: 1.2rem;"></div>
+  </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main id="main-content">
+
+  <header class="masthead">
+    <div class="badge-tag">Table-Ready Session Sheet</div>
+    <h1 class="campaign-title">FIRE B: The Bleeding Stair</h1>
+    <p class="campaign-meta">Act III: The Mortal Limit | High Hrothgar Aftermath & The Undercroft Climax</p>
+  </header>
+
+  <!-- SCENE 0: SESSION OPENING RECAP -->
+  <section id="scene-0" class="scene-card">
+    <div class="scene-header">
+      <div class="scene-number">Scene 0</div>
+      <h2 class="scene-title">Session Opening: The Bleeding Stair & The Threshold</h2>
+      <p class="scene-subtitle">Previously on Torygg's Legacy — Factual table recap of Chapter 28</p>
+    </div>
+
+    <div class="gm-note">
+      <span class="gm-tag">GM:</span> Use this read-aloud to re-ground the players at the opening of tonight's session. It gives them the exact sequence of what happened on the climb and the hard facts Arngeir delivered before returning to silence.
+    </div>
+
+    <div class="read-aloud">
+      <div class="read-aloud-tag">>> READ ALOUD -- SESSION START</div>
+      <p>Last session, on the climb up the Seven Thousand Steps:</p>
+      <p>• The mountain's time-distortion aged Saijah five years, aged Mila to ten, and left Bjorn completely untouched.</p>
+      <p>• Mable's front leg gave out from arthritis on the steep slabs. Saijah fed her salted meat and a honey sweet, but the wear could not be healed.</p>
+      <p>• Saijah followed a White Stag off the main road and found a second basalt stairway lined with ancient animal totems. An Atmoran waystone stated that an ancient door beneath the mountain answers only to "every voice bent to one need, never to one voice alone."</p>
+      <p>• Near the summit, where the stair rejoined the main path, a Frost Troll ambushed the company.</p>
+      <p>• Ismara used telekinesis to push Bjorn and Mable clear, but the furrow in the snow gave away their position. The troll hit them for forty-one damage, killing Mable in the drift.</p>
+      <p>• The company threw decoys, broke scent, and retreated up to High Hrothgar, leaving Mable in the snow.</p>
+      <p>Inside High Hrothgar, Master Arngeir accepted Klimmek's supplies but refused to intervene in the war below, stating the Way of the Voice forbids it.</p>
+      <p>Arngeir gave you the following facts:<br>
+      — The Throat of the World is a cosmic pillar holding up reality, and something at its root is unmaking it from below.<br>
+      — The door to that undercroft is sealed inside the Frost Troll's den twenty minutes down the path.<br>
+      — Opening that door requires every member of the company to stand together at the threshold and speak as one in True Need: <em>"TAH JOOR NIR, THU'UM VEN SU'UM."</em><br>
+      — Arngeir observed Bjorn's unaged throat in silence, then traded healing draughts and FP restoratives for your gathered mountain goods.</p>
+      <p>The trade is finished. The four Greybeards have returned to silent meditation across the hall. The central hearth is swept bare, and the company is packing gear to head back down to the troll's den.</p>
+    </div>
+
+    <div class="scene-exit">
+      <span class="exit-label">Transition:</span>
+      <a href="#scene-20" class="exit-dest">20 High Hrothgar — The Cold Hearth & Strategic Recap &rarr;</a>
+    </div>
+  </section>
+
+  <!-- SCENE 20: HIGH HROTHGAR AFTERMATH -->
+  <section id="scene-20" class="scene-card">
+    <div class="scene-header">
+      <div class="scene-number">Scene 20</div>
+      <h2 class="scene-title">High Hrothgar — The Cold Hearth & Strategic Recap</h2>
+      <p class="scene-subtitle">The swept hearth, the four silent monks, and the strategic recap before the descent</p>
+    </div>
+
+    <div class="gm-note">
+      <span class="gm-tag">GM CORE ANCHOR:</span> The firepit in the center of the hall holds no fire and no ash — swept clean and left that way. The Greybeards are at peace; they view the unmaking of Skyrim as the natural turning of a Kalpa. Mortal intervention without a Dragonborn is a category error to them. The scene opens on the cold reality: no institution is coming to save the world, and the party is standing alone around an empty hearth.
+    </div>
+
+    <div class="read-aloud">
+      <div class="read-aloud-tag">>> READ ALOUD</div>
+      <p>The monastery hall is colder than the mountain wind outside. At the center of the flagstones, the great firepit holds no fire and no ash — swept clean to the bare stone.</p>
+      <p>Four old men in grey robes sit on the floor at wide intervals, none near another, none near the empty hearth. Their eyes are closed; their breathing is slow and shallow. The trade is done, the warnings have been given, and the silence has closed back over them like water over stone. They do not look up. They do not move.</p>
+    </div>
+
+    <h3 style="color: var(--brown-label); font-family: var(--font-mono); font-size: 0.95rem; text-transform: uppercase; margin: 1.5rem 0 0.5rem 0;">--- THE 3-STAGE DUAL-TARGETED RELAY ---</h3>
+
+    <!-- STAGE 1 -->
+    <div class="branch-box">
+      <div class="branch-header">
+        <span>STAGE 1: THE MACRO-STAKES & THE MORTAL LIMIT</span>
+        <span style="color: var(--gold);">Targets: DAVINIA / ISMARA & ORION</span>
+      </div>
+      <div class="branch-body">
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.5rem;">While packing his satchel, Esbern looks over at the four silent monks, clutching his journals to his chest. He turns directly to Davinia and Orion:</p>
+        <div class="spoken-block">
+          <div class="speaker-label">ESBERN:</div>
+          <div class="spoken-text">
+            "Thirty years I hid in the dark thinking if we reached this mountain, there'd be an order waiting. Masters who would stand with us. And they're just... sitting in the dust, letting the world crack under their knees.<br><br>
+            Jurgen Windcaller chose silence because the Voice humbled him — and these four view Alduin as a natural end. They will not lift a finger without a Dragonborn. And without a Dragonborn, we are standing against the Mortal Limit!<br><br>
+            Alduin is raising dragons from their mounds across Skyrim. Mortal iron cannot kill them permanently — they knit back whole when he calls their names. And our mortal throats will burst if we try to speak dragon words.<br><br>
+            Davinia, you carry the charter. Orion, you map the strikes. What is our strategy when we walk back out that door? How are we supposed to fight a dragon war with ordinary mortal steel?"
+          </div>
+        </div>
+        <div class="gm-note" style="margin-top: 0.5rem;">
+          <span class="gm-tag">GM STOP:</span> Turn to Davinia and Orion's players: <em>"How do the two of you answer Esbern?"</em> (Let them debate strategy or loop in the table).
+        </div>
+      </div>
+    </div>
+
+    <!-- STAGE 2 -->
+    <div class="branch-box">
+      <div class="branch-header">
+        <span>STAGE 2: THE HUMAN COST & FALSE WISDOM</span>
+        <span style="color: var(--gold);">Targets: SAIJAH & DAVINIA</span>
+      </div>
+      <div class="branch-body">
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.5rem;">Bjorn stands by the cold hearth, staring down at his rough hands. Once Davinia and Orion finish, Bjorn cuts across the room, his voice flat, heavy, and exhausted:</p>
+        <div class="spoken-block">
+          <div class="speaker-label">BJORN:</div>
+          <div class="spoken-text">
+            "Stop talking about thirty years of prophecies, Esbern.<br><br>
+            <em>(He looks up at Saijah, then Davinia, his eyes tired and red-rimmed.)</em><br>
+            Mable knew the road down that mountain better than any of us, and her guts are frozen to the floor of a troll den twenty minutes down the path. Four holy men watched us walk in here half-frozen, and not one of them moved to light a fire or said 'take the safer pass.'<br><br>
+            Saijah... Davinia... you two know what this road costs. If the wisdom that's supposed to save the world couldn't spare a word to save an old horse, what are we doing marching back down there? We couldn't even protect Mable. How are we supposed to protect anyone else?"
+          </div>
+        </div>
+        <div class="gm-note" style="margin-top: 0.5rem;">
+          <span class="gm-tag">GM STOP:</span> Turn to Saijah and Davinia's players: <em>"How do you answer Bjorn?"</em> (Let them address his grief and define what they fight for).
+        </div>
+      </div>
+    </div>
+
+    <!-- STAGE 3 -->
+    <div class="branch-box">
+      <div class="branch-header">
+        <span>STAGE 3: THE HUNTER'S CREED & PRIMAL DEFIANCE</span>
+        <span style="color: var(--gold);">Targets: ALFONSO & SAIJAH</span>
+      </div>
+      <div class="branch-body">
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.5rem;">Ylva pushes off her pillar, resting her battleaxe across her shoulder. She steps into the circle, locking eyes squarely on Alfonso and Saijah:</p>
+        <div class="spoken-block">
+          <div class="speaker-label">YLVA:</div>
+          <div class="spoken-text">
+            "Mable's dead. An old horse died on a cold hill, and crying into an empty hearth won't put breath back in her lungs. The beast that took her is sitting right on top of our door.<br><br>
+            <em>(She gestures with her chin toward Alfonso, then turns her gaze onto Saijah:)</em><br>
+            And look around this circle, scribe. Alfonso is riding crystal bones. Davinia is wearing stasis. Saijah has a goddess in her chest, and Bjorn stopped aging. You're the only ordinary mortal shivering in this room. We'll find a way.<br><br>
+            The monks chose dead stone. We are living teeth. The wild doesn't wait for dragon-kings or holy men to give permission to hunt. If it bleeds, we kill it. If it gets back up, we kill it twice.<br><br>
+            Alfonso... Saijah... tell this scribe what we are. Are we ready to go down and take our meat, or are we sitting here in the cold?"
+          </div>
+        </div>
+        <div class="gm-note" style="margin-top: 0.5rem;">
+          <span class="gm-tag">GM STOP:</span> The floor belongs to the players. Let Alfonso and Saijah answer and align the table for the descent.
+        </div>
+      </div>
+    </div>
+
+    <h3 style="color: var(--brown-label); font-family: var(--font-mono); font-size: 0.95rem; text-transform: uppercase; margin: 1.5rem 0 0.5rem 0;">--- COMPANION STATIONS (Packing & Textures) ---</h3>
+
+    <div class="stations-grid">
+      <div class="station-card">
+        <h4>OLD BJORN (Unaged Throat & Debt)</h4>
+        <p>"The old man looked at my throat like he was trying to remember a song he hadn't heard in two hundred years. Didn't ask my name. Just looked."<br><br><em>(He looks to the doors)</em> "Mable's still out on that ledge. We have a debt to pay that beast."</p>
+      </div>
+
+      <div class="station-card">
+        <h4>ALFONSO (Acoustic Horn)</h4>
+        <p>Alfonso's 206 crystal bones click dryly:<br>"This entire hall is an acoustic horn. The monks feel the unmaking in their teeth every second they sit there. Their peace isn't holiness — it's anesthesia."</p>
+      </div>
+
+      <div class="station-card">
+        <h4>ORION (Tonal Threshold)</h4>
+        <p>"Arngeir said the door opens to voices speaking in True Need at the threshold. That means we don't just kill the troll — we have to stand in that den and speak as one. If one voice is out of tune, the stone stays sealed."</p>
+      </div>
+
+      <div class="station-card">
+        <h4>NORA (NPC Banked Firepower)</h4>
+        <p>Packing draughts into her satchel, hands tucked into sleeves holding her <strong>20 banked fireball charges</strong>.<br><br><em>(GM: Nora holds the silver bullet against the Frost Troll's cold regeneration.)</em></p>
+      </div>
+
+      <div class="station-card">
+        <h4>SAIJAH (Kyne's Wordless Sensation)</h4>
+        <p>Hand her PLAYER directly: The two sources of her migraine line up like two struck notes making a third — feeling that the root under this mountain and under Eldergleam are the <strong>SAME KIND OF THING (Towers)</strong>. Then the pain doubles.</p>
+      </div>
+
+      <div class="station-card">
+        <h4>MILA & GEAR (Planar Shear)</h4>
+        <p>Mila (aged to 10) stays close to Bjorn. GEAR reports flatly:<br>"Monastery planar shear within acceptable tolerances. External descent exceeds structural safety parameters by 412%."</p>
+      </div>
+    </div>
+
+    <div class="scene-exit">
+      <span class="exit-label">Transition:</span>
+      <a href="#scene-21" class="exit-dest">21 The Descent — Ylva & Saijah &rarr;</a>
+    </div>
+  </section>
+
+  <!-- SCENE 21: THE DESCENT -->
+  <section id="scene-21" class="scene-card">
+    <div class="scene-header">
+      <div class="scene-number">Scene 21</div>
+      <h2 class="scene-title">The Descent — Ylva & Saijah</h2>
+      <p class="scene-subtitle">The main 7,000 Steps ridge -- walking the descent before the troll's den</p>
+    </div>
+
+    <div class="read-aloud">
+      <div class="read-aloud-tag">>> READ ALOUD</div>
+      <p>The heavy timber doors of High Hrothgar close behind you, and the summit wind hits immediately — crosscut and freezing over the bare stone slabs. Down at the bend, steam rises steady from the Frost Troll's cave where the path narrows onto the shelf. Mable's blood-furrow is frozen dark in the drift below.</p>
+      <p>Saijah takes the lead down the ridge, bow slung, keeping her center low on the iced steps.</p>
+      <p>Ylva drops into stride beside her. Her boots match Saijah's pace on the rock, battleaxe resting across her shoulder. For a while there is only the wind and the crunch of crusted snow under their soles.</p>
+      <p>Ylva looks down at the trail, then sideways at Saijah:</p>
+    </div>
+
+    <div class="spoken-block">
+      <div class="speaker-label">YLVA:</div>
+      <div class="spoken-text">
+        "How close did he get?<br><br>
+        <em>(A beat. She watches Saijah's footing on the ice.)</em><br>
+        The stag. When you followed it off the road. How close did it let you walk?"
+      </div>
+    </div>
+
+    <div class="gm-note">
+      <span class="gm-tag">GM:</span> This conversation happens <strong>in motion as they descend</strong>. Do not stop their movement. Ylva is walking beside Saijah, watching how Saijah holds herself. Her voice is quiet, carrying over the wind — laced with raw, bitter jealousy, but grounded in what waits for them at the bottom of this ridge.
+    </div>
+
+    <div class="spoken-block">
+      <div class="speaker-label">YLVA:</div>
+      <div class="spoken-text">
+        "Fifteen years since Jorrvaskr, Saijah. I tracked that scent through the Reach and the Rift every winter of my life. He never let me within three hundred yards before the wind turned.<br><br>
+        And you walked right behind him on an Atmoran stair like you were sharing a cart.<br><br>
+        <em>(She looks down toward the steam rising from the troll den below.)</em><br>
+        Arngeir told us what's down there. That door doesn't open to a spell or a key. It opens when all of us stand in that cave and speak in True Need with one throat. The stone knows if one voice is out of tune.<br><br>
+        So don't walk down to that threshold pretending you're just a lost ranger who found a shortcut. My god is in your skull, Saijah. What are you going to say when we reach that door?"
+      </div>
+    </div>
+
+    <div class="gm-note">
+      <span class="gm-tag">GM STOP:</span> Turn to Saijah's player. Ylva has laid the truth out on the snow: the jealousy, the god's attention, and the requirement of the threshold below. How does Saijah answer her?
+    </div>
+
+    <!-- 4 REACTION BRANCHES -->
+    <div class="branch-box">
+      <div class="branch-header">BRANCH 1 -- If Saijah admits the terror / migraine / pressure</div>
+      <div class="branch-body">
+        <p style="font-size: 0.88rem; color: var(--text-muted);">Ylva looks at her, the jealousy softening into hard, grim understanding:</p>
+        <div class="spoken-block">
+          <div class="speaker-label">YLVA:</div>
+          <div class="spoken-text">"He doesn't leave. He corners you until you take His teeth or break. I wanted that attention my whole life, and He gave it to someone who hates the taste of blood. But if you're hurting, don't hide it from the line. When we stand in that blood below, bring that pain to the door. The stone will hear that."</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="branch-box">
+      <div class="branch-header">BRANCH 2 -- If Saijah pushes back / tells Ylva to stay out of her head</div>
+      <div class="branch-body">
+        <p style="font-size: 0.88rem; color: var(--text-muted);">Ylva's eyes narrow, a sharp predator smile cutting across her face:</p>
+        <div class="spoken-block">
+          <div class="speaker-label">YLVA:</div>
+          <div class="spoken-text">"There are the fangs. If you're going to carry His scent in front of me, you better keep those teeth bared. Just make sure when we hit that cave, your voice is pointing at the same door as mine."</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="branch-box">
+      <div class="branch-header">BRANCH 3 -- If Saijah denies it / brushes it off as an accident</div>
+      <div class="branch-body">
+        <p style="font-size: 0.88rem; color: var(--text-muted);">Ylva stops looking at her and stares straight down at the troll den, jaw tight:</p>
+        <div class="spoken-block">
+          <div class="speaker-label">YLVA:</div>
+          <div class="spoken-text">"You can lie to yourself, and you can lie to me. But you can't lie to the mountain. If you stand at that door pretending you're untouched, the stone stays shut. Own what walked with you on that stair."</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="branch-box">
+      <div class="branch-header">BRANCH 4 -- If Saijah stays silent and keeps walking</div>
+      <div class="branch-body">
+        <p style="font-size: 0.88rem; color: var(--text-muted);">Ylva matches her stride in silence for several paces:</p>
+        <div class="spoken-block">
+          <div class="speaker-label">YLVA:</div>
+          <div class="spoken-text">"Keep it quiet if you want. But I know what you smell like now. And when the beast comes out of that cave, don't hold back."</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="read-aloud" style="border-left-color: var(--red-danger); background: var(--red-bg);">
+      <div class="read-aloud-tag" style="color: var(--red-danger);">>> THE COMBAT PIVOT</div>
+      <p>As the path narrows into the shelf — a massive, wet ROAR rips up from the cave mouth. Steam billows into the gale, and the stench of the troll's den hits your faces.</p>
+      <p>The conversation ends instantly. Ylva's battleaxe whips off her shoulder in both hands, her combat fury surging as she lunges down the icy slabs:</p>
+      <p style="font-style: normal; font-weight: bold; color: #fff;">YLVA: "I'm taking the first hit! Nobody steal it!"</p>
+    </div>
+
+    <div class="scene-exit">
+      <span class="exit-label">Transition:</span>
+      <a href="#scene-21b" class="exit-dest">21B The Frost Troll & The Threshold &rarr;</a>
+    </div>
+  </section>
+
+  <!-- SCENE 21B: FROST TROLL & THRESHOLD -->
+  <section id="scene-21b" class="scene-card">
+    <div class="scene-header">
+      <div class="scene-number">Scene 21B</div>
+      <h2 class="scene-title">The Frost Troll & The Threshold</h2>
+      <p class="scene-subtitle">The Wind Tunnel & Jurgen's Door -- Combat & the Unison Recitation</p>
+    </div>
+
+    <div class="read-aloud">
+      <div class="read-aloud-tag">>> READ ALOUD</div>
+      <p>The 7,000 Steps narrow into a high mountain gap between a sheer wall of rock on your left and a long overhang on your right. The summit wind howls through it like a flume, driving snow sideways. Visibility past twenty feet is a wall of moving white.</p>
+      <p>Under the overhang, the wind drops. Snow lies undisturbed on the floor of a shallow cave where dark steam rises.</p>
+      <p>Something in that sheltered dark stands up. It keeps standing up until its head brushes the stone roof — nine feet of matted white fur crusted with black sap, three milky eyes, and forearms thick as tree trunks.</p>
+      <p>Across the cave floor, Mable's frozen blood-furrow leads directly between its feet.</p>
+    </div>
+
+    <div class="gm-note">
+      <span class="gm-tag">TERRAIN RULES:</span><br>
+      • <strong>The Open Gap:</strong> Visibility ~20 ft (ranged past 20 ft is <span class="roll-check">Hard Agility -4</span>). High wind: Burning effects last <strong>HALF duration</strong> (round up).<br>
+      • <strong>The Overhang / Den:</strong> Out of wind. Burning effects last <strong>FULL duration</strong>. Enclosed close-quarters. Back wall is Jurgen's Door.
+    </div>
+
+    <!-- LIVE COMBAT TRACKER -->
+    <div style="background: rgba(210, 153, 34, 0.15); border: 1px solid var(--gold); border-radius: 6px; padding: 0.75rem 1rem; margin-bottom: 1rem;">
+      <div style="font-weight: bold; color: var(--gold); font-size: 0.95rem; margin-bottom: 0.35rem;">⚡ LIVE COMBAT TRACKER — RESUMING HERE</div>
+      <div style="font-size: 0.85rem; line-height: 1.5;">
+        <strong>BOSS STATUS:</strong> 536 / 900 HP (Bar 2: "Too Much Arm", 600 &rarr; 301 HP) | <strong>DR 12</strong> | <em>Poisoned with Hist Sap (erratic swings)</em><br>
+        <strong>INITIATIVE ORDER:</strong> 1. Zach (Orion) [CURRENT] &bull; 2. Arric (Alfonso) &bull; 3. Frank (GM / Troll & Ylva) &bull; 4. Ava (Saijah) &bull; 5. Nic (Davinia/Ismara)
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-header">
+        <span class="stat-title">FROST TROLL, DAGON-WARPED</span>
+        <span class="stat-meta">TL 3 BOSS | Expert Tier | AP ~12</span>
+      </div>
+
+      <div class="stat-row">
+        <div class="stat-item">Might: <strong>19 (P)</strong></div>
+        <div class="stat-item">Agility: <strong>17</strong></div>
+        <div class="stat-item">Magic: <strong>13</strong></div>
+        <div class="stat-item">Guile: <strong>8</strong></div>
+        <div class="stat-item">Total HP: <strong>900 (3x 300)</strong></div>
+        <div class="stat-item">Base Dmg: <strong>41</strong></div>
+      </div>
+
+      <p style="font-size: 0.8rem; color: var(--gold-bright); margin-bottom: 0.5rem;">
+        ★ <strong>VILLAIN ACTION:</strong> 1 extra action at end of every 2nd player's turn.<br>
+        ★ <strong>FIRE VULNERABILITY:</strong> ALL fire damage is <strong>DOUBLED</strong> in every bar (Nora's 20 banked charges!).<br>
+        ★ <strong>NO REGEN TURN-BY-TURN:</strong> Its regeneration IS the phase transition when a bar breaks.
+      </p>
+
+      <!-- PHASE 1 -->
+      <div class="stat-section" style="border-top: 1px solid var(--border); padding-top: 0.5rem;">
+        <div class="stat-section-title" style="color: var(--green-accent);">BAR 1: 900 &rarr; 601 HP -- THE TROLL</div>
+        <p style="font-size: 0.82rem;">DR 22 | Immune Frost | 1 Attack/turn (41 dmg, grabs & mauls toward den). Fights like an animal defending its lair.</p>
+      </div>
+
+      <!-- PHASE 2 -->
+      <div class="stat-section" style="border-top: 1px solid var(--border); padding-top: 0.5rem;">
+        <div class="stat-section-title" style="color: var(--gold);">BAR 2: 600 &rarr; 301 HP -- TOO MUCH ARM</div>
+        <p style="font-size: 0.82rem; font-style: italic; color: var(--text-muted); margin-bottom: 0.2rem;">"The wound closes and keeps going -- a pale, hairless arm pushes out beneath its shoulder, another from its spine..."</p>
+        <p style="font-size: 0.82rem;">DR drops to 12 (flesh has no thick hide) | Immune Frost | <strong>2 Attacks/turn</strong> (41 dmg each). Highly lethal & coordinated.</p>
+      </div>
+
+      <!-- PHASE 3 -->
+      <div class="stat-section" style="border-top: 1px solid var(--border); padding-top: 0.5rem;">
+        <div class="stat-section-title" style="color: var(--red-danger);">BAR 3: 300 &rarr; 1 HP -- THE BROKEN LOOP</div>
+        <div class="read-aloud" style="margin: 0.5rem 0; border-left-color: var(--red-danger);">
+          <p><em>"The creature's back splits open. A sliding mass of pale, unfinished limbs spills down into the snow. The three milky eyes cloud over as two wet, lidless eyes tear open along its ribs. It plunges its lower forearms into the bloody furrow on the cave floor—drawing Mable’s frozen remains directly into its flank, equine ribs and grey hide knitting into its meat like raw dough. It rises on a tangle of flailing limbs, swinging blindly with everything it has."</em></p>
+        </div>
+        <div class="gm-note" style="border-left-color: var(--gold-bright); margin-bottom: 0.5rem;">
+          <span class="gm-tag" style="color: var(--gold-bright);">BJORN'S TRIGGER:</span> Seeing Mable defiled breaks his 40-year vow of non-violence. Uses <strong>"The Running Shoulder"</strong> (Might 16 / Agility 17) to hit the flank, tear Mable free, and put her head to rest. <strong>Effect:</strong> Staggers troll, cancels next villain action, exposes underbelly.
+        </div>
+        <p style="font-size: 0.82rem;">DR 10 | ALL Immunities GONE | <strong>3 Attacks/turn</strong> (41 dmg each) | No Morale / No Flanking.<br>
+        <strong>d20 TARGETING TABLE (Roll for EACH attack):</strong><br>
+        &nbsp;&nbsp;[11+] Hits intended target.<br>
+        &nbsp;&nbsp;[6-10] Different limb strikes a RANDOM creature in reach (friend, foe, companion).<br>
+        &nbsp;&nbsp;[1-5] Hits rock/snow/itself (0 dmg).</p>
+      </div>
+    </div>
+
+    <div class="gm-note">
+      <span class="gm-tag">LOOT (The Frozen Den):</span> 30-60 gold per player in frozen purses; 2x Draughts of Resist Frost; 2x Standard Healing Draughts.
+    </div>
+
+    <!-- AFTER THE TROLL FALLS -->
+    <div class="read-aloud">
+      <div class="read-aloud-tag">>> AFTER THE TROLL FALLS: THE THRESHOLD</div>
+      <p>The mutated mass collapses into the snow, the black sap hissing as it cools. The wind roars through the gap outside, but inside the cave, the air goes dead and still.</p>
+      <p>At the back of the den, the rock wall is flat and seamless — ancient stone covered in faint, weathered Atmoran runes beneath the ice. There is no latch, no keyhole, and no seam.</p>
+    </div>
+
+    <div class="gm-note">
+      <span class="gm-tag">GM:</span> The party stands in the quiet of the cave where Mable died. To open the door, every member present must stand together at the threshold and speak in unison:
+    </div>
+
+    <div class="spoken-block">
+      <div class="speaker-label">THE PARTY (Spoken in True Need):</div>
+      <div class="spoken-text">
+        "TAH JOOR NIR, THU'UM VEN SU'UM."<br>
+        <span style="font-size: 0.85rem; color: var(--text-muted); font-style: italic;">(Or: "The Voice is worship. Follow the Inner path. Speak only in True Need.")</span>
+      </div>
+    </div>
+
+    <div class="read-aloud">
+      <p>The words leave your mouths at once, catching the acoustic hollow of the cave. For a second, nothing happens.</p>
+      <p>Then a deep, resonant tone vibrates through the floorstones — not stone grinding on stone, but the mountain itself unlocking. The solid rock wall shivers, turns translucent like thin ice over water, and parts down the center.</p>
+      <p>A draft of hot, mineral-heavy air washes over your boots. Beyond lies a descending stair of dark living rock, bathed in the pulsing crimson glow of the undercroft below.</p>
+    </div>
+
+    <div class="scene-exit">
+      <span class="exit-label">Transition:</span>
+      <a href="#scene-21c" class="exit-dest">21C The Lost Vault of the Return &rarr;</a>
+    </div>
+  </section>
+
+  <!-- SCENE 21C: THE ANTECHAMBER / THE LOST VAULT OF THE RETURN -->
+  <section id="scene-21c" class="scene-card">
+    <div class="scene-header">
+      <div class="scene-number">Scene 21C</div>
+      <h2 class="scene-title">The Antechamber of the Earth-Bone: The Lost Vault of the Return</h2>
+      <p class="scene-subtitle">Untouched Merethic sanctuary — pre-boss prep, ancient relics, and the metaphysical truth</p>
+    </div>
+
+    <div class="gm-note">
+      <span class="gm-tag">GM STAGING:</span> This chamber sits directly between the troll den and the inner amphitheater where Gaelen is working at the root. It was sealed during the Dragon War when Felldir, Hakon, and Gormlaith cast Alduin through time with the Elder Scroll at the summit. No pilgrim has ever walked here. No modern coins or glass potions exist here. This is an untouched Merethic vault that gives the party their pre-boss breath, pre-Dragon War equipment, and total metaphysical clarity before crossing the inner bronze doors into Gaelen’s chamber.
+    </div>
+
+    <div class="read-aloud">
+      <div class="read-aloud-tag">>> READ ALOUD — THE NATIONAL TREASURE REVEAL: THE LOST VAULT OF THE RETURN</div>
+      <p>The steps bring you down into an immense, vaulted subterranean expanse cut directly from the mountain’s dark living basalt. Your lantern light hits the gloom—and as the shadows pull back, the breath is knocked clean out of your chest.</p>
+      <p>This is not a crypt. This is the lost treasury and historical archive of the First Men—the Library of Alexandria of the Nordic race, sealed away from the world before the Dragon Cult burned human history.</p>
+      <p>Titanic pillars of polished black basalt and petrified mammoth-ivory rise fifty feet into the darkness, holding aloft arches draped in sheets of beaten ancient bronze. As your light catches the walls, vast carved panoramas leap out of the dark:</p>
+      <ul style="margin: 0.5rem 0 0.5rem 1.5rem; font-size: 0.9rem;">
+        <li>Not the frozen, dead waste of modern Atmora, but the legendary <strong>Green Atmora</strong> of the Dawn—sunlit coasts, rolling tundra, and great timber-halls beneath a golden sky, before the Frostfall froze the north into silence.</li>
+        <li>Carved mammoth-ivory friezes recording the <strong>Landing at Hsaarik Head</strong> and the roster of the <strong>Five Hundred Companions</strong>, with the names of the legendary longships (<em>Jorrvaskr</em>, <em>Krilot Lok</em>, <em>Kaal Kaaz</em>, <em>Fallowfire</em>) etched in the original, sharp wedge-runes invented by <strong>Ysgramor's</strong> own hand so that man's memory could never be erased by the elves.</li>
+        <li>At the center of the hall, resting upon stone plinths of black sea-rock, are rows of stone chests holding petrified mammoth-hide scrolls, bronze tablets, ancient sea-axes, and the pure, unperverted totems of the Old Gods: the <strong>Hawk of Kyne</strong> crowning the sky-vault, the <strong>Whale of Stuhn</strong>, the <strong>Bear of Tsun</strong>, and the <strong>Wolf of Mara</strong>—honored centuries before the Dragon Priests corrupted the animal pantheon and made the Dragon king.</li>
+      </ul>
+      <p>At the far end of the vast gallery stand a pair of colossal bronze doors hanging slightly ajar, where the pulsing crimson light and the wet thumping of the corrupted mountain-root bleed through from the ritual chamber beyond.</p>
+    </div>
+
+    <!-- RELIGIOUS ECSTASY OF THE NORDS -->
+    <div style="background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px; padding: 1rem; margin-bottom: 1rem;">
+      <h3 style="color: var(--gold); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem;">✦ The Sacred Impact: Religious Ecstasy of the Nords</h3>
+      
+      <div style="margin-bottom: 0.75rem;">
+        <strong style="color: var(--maroon);">YLVA THE CLEAVER (Complete Spiritual Rapture):</strong>
+        <p style="font-size: 0.85rem; color: var(--text-main); margin-top: 0.2rem;">
+          Ylva takes two steps into the chamber and stops dead. Her face goes completely slack. For the first time since anyone has known her, <strong>Ylva drops her battleaxe</strong>—it hits the flagstones with a dull clatter, and she doesn't even notice.<br>
+          Her hands tremble. Her feral fury—the resentment toward Saijah, the venom over Hircine—drowns completely in sacred awe. She falls to both knees before a colossal carved mammoth-ivory relief of the <strong>Atmoran Wolf Totem</strong>—not the bloody beast of Hircine, but the holy Wolf of the Pack that ran beside ancient hunters in Atmora. Tears cut clean lines through the soot and frost on her face. Pressing her forehead to the ivory:<br>
+          <em style="color: var(--gold-bright);">"It's here... Shor's blood, it's all here. The songs were true. We weren't born into dirt and iron... we were kings of the sea."</em>
+        </p>
+      </div>
+
+      <div style="margin-bottom: 0.75rem;">
+        <strong style="color: var(--gold);">BJORN (Ancestral Memory & The Heir of the Sky):</strong>
+        <p style="font-size: 0.85rem; color: var(--text-main); margin-top: 0.2rem;">
+          Bjorn walks down the central aisle like a man in a dream. The dragon souls in his chest do not thrash—they harmonize. The mountain hums against his boots. He stops before the carved tablet of the <strong>Pact of the Sky</strong> (Kyne breathing upon the mountain to form the first men). Standing in this light, he realizes who he actually is.
+        </p>
+      </div>
+
+      <div style="margin-bottom: 0.5rem;">
+        <strong style="color: var(--blue-read);">ESBERN & MILA:</strong>
+        <p style="font-size: 0.85rem; color: var(--text-main); margin-top: 0.2rem;">
+          <strong>Esbern</strong> weeps with scholar's ecstasy: <em>"The Library of Alexandria of the Nords! Pre-Dragon Cult annals! The genuine words of Ysgramor, written before the Dragon Priests burned our history!"</em><br>
+          <strong>Mila</strong> traces her fingers over the carved ivory waves of the longships, whispering the words of the cradle songs her mother sang in Morthal.
+        </p>
+      </div>
+    </div>
+
+    <!-- METAPHYSICAL TRUTH -->
+    <div style="background: var(--bg-card); border-left: 3px solid var(--blue-read); padding: 0.75rem 1rem; margin-bottom: 1rem;">
+      <h4 style="color: var(--blue-read); font-size: 0.9rem; margin-bottom: 0.35rem;">THE METAPHYSICAL TRUTH (What the Party Learns Here)</h4>
+      <ul style="font-size: 0.84rem; margin-left: 1.2rem; line-height: 1.5;">
+        <li><strong>Snow-Throat is an Earth-Bone and a Cosmic TOWER</strong> holding Mundus and linear time upright.</li>
+        <li>The temporal distortion outside is merely a surface leak from Alduin's ancient Time-Wound at the summit.</li>
+        <li>Gaelen and the New Mythic Dawn are NOT trying to widen the Time-Wound—they are attacking the <strong>ROOT of the Tower</strong> down here to dissolve reality back into the Dawn Era.</li>
+        <li><strong>Three Cosmic Forces at War:</strong> (1) <em>Stasis</em> (Akatosh / The Dragon / Pale Lady: freezing time/form to prevent death), (2) <em>Entropy / Unmaking</em> (Mehrunes Dagon: boiling reality into formless chaos), (3) <em>Mortality & Consumption</em> (Kyne / Earth-Bones / Namira: the living wheel of breath and decay feeding life).</li>
+      </ul>
+    </div>
+
+    <!-- PRE-BOSS GEAR & FINDS -->
+    <div style="background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px; padding: 1rem; margin-bottom: 1rem;">
+      <h3 style="color: var(--gold); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem;">✦ Pre-Boss Discoveries & Gear</h3>
+      
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; font-size: 0.83rem;">
+        <div style="background: var(--bg-card); padding: 0.6rem; border-radius: 4px; border: 1px solid var(--border);">
+          <strong style="color: var(--gold);">BJORN:</strong> Found on an honored plinth: <strong>The Sky-Tempered Atmoran Hauberk</strong> and <strong>Basalt-Weighted Star-Iron Cleaver</strong> (unadorned pre-dragon heavy gear scaling to his mass). De-aging explained: dragon souls are timeless shards of Akatosh dragging his mortal biology backward toward his prime (age 30).
+        </div>
+        <div style="background: var(--bg-card); padding: 0.6rem; border-radius: 4px; border: 1px solid var(--border);">
+          <strong style="color: var(--maroon);">ALFONSO:</strong> Embalming alcoves show Rot is life continuing through consumption, not Dagon's sterile void. Relic: <strong>Dragon-Marrow Resin & Kyne-Ash</strong> (applying to obsidian chassis grants permanent <strong>+2 DR vs Fire and Daedric spells</strong>).
+        </div>
+        <div style="background: var(--bg-card); padding: 0.6rem; border-radius: 4px; border: 1px solid var(--border);">
+          <strong style="color: var(--blue-read);">DAVINIA / ISMARA:</strong> On a basalt lectern: <strong>The Slate of the Unyielding Queen</strong>. Grants Davinia's submerged soul the <strong>Frost-Core Mantra</strong>, shielding her from being permanently eroded by sovereign Crown use.
+        </div>
+        <div style="background: var(--bg-card); padding: 0.6rem; border-radius: 4px; border: 1px solid var(--border);">
+          <strong style="color: var(--green-accent);">SAIJAH:</strong> Blinding migraine resolves into Kyne's clear heartbeat inside her consecrated hall. In an offering font: <strong>12 Gale-Tempered Broadheads</strong> (+4 Radiant/Wind damage to Daedric/corrupted foes; ignores non-magical DR).
+        </div>
+        <div style="background: var(--bg-card); padding: 0.6rem; border-radius: 4px; border: 1px solid var(--border); grid-column: span 2;">
+          <strong style="color: var(--gold-bright);">ORION:</strong> Acoustic mapping reveals the 5 obsidian anchors in the next room are acoustic dampeners holding the ritual together. Tool: <strong>Atmoran Sky-Iron Tuning Rod</strong> (gives <strong>Advantage on checks to crack anchors at range</strong>).
+        </div>
+      </div>
+
+      <div style="margin-top: 0.75rem; padding-top: 0.5rem; border-top: 1px solid var(--border); font-size: 0.83rem;">
+        <strong>ANCIENT TREASURY & SACRED UNGUENTS:</strong><br>
+        &bull; <strong>350 Atmoran Electrum & Silver Tokens</strong> (stamped with Hawk, Whale, Bear; ~800 Septims trade value; zero modern coin).<br>
+        &bull; <strong>3x Ceramic Flasks of Kyne’s Distilled Breath:</strong> Minor Action to consume. Completely restores all spent Focus Points (FP) and clears fatigue/poison.
+      </div>
+    </div>
+
+    <div class="read-aloud" style="border-left-color: var(--maroon);">
+      <div class="read-aloud-tag">>> THE INNER DOORS</div>
+      <p>The heavy bronze doors shudder with every pulse of the mountain. Beyond them, the Bosmer's voice calls out warmly into the dark:</p>
+      <p style="font-style: italic; color: var(--gold-bright);">"Come in, come in. The mountain was kind enough to let you through... don't stand out there in the cold."</p>
+    </div>
+
+    <div class="scene-exit">
+      <span class="exit-label">Transition:</span>
+      <a href="#scene-22" class="exit-dest">22 The Climax — The Undercroft &rarr;</a>
+    </div>
+  </section>
+
+  <!-- SCENE 22: THE CLIMAX -->
+  <section id="scene-22" class="scene-card">
+    <div class="scene-header">
+      <div class="scene-number">Scene 22</div>
+      <h2 class="scene-title">The Climax — The Undercroft</h2>
+      <p class="scene-subtitle">Gaelen at the root. Zone 3 temporal chaos. Objective: DISRUPT THE RITUAL.</p>
+    </div>
+
+    <div class="gm-note">
+      <span class="gm-tag">GM WIN CONDITION:</span> Frame the objective out loud as <strong>DISRUPTING THE RITUAL</strong> (break 3 of the 5 obsidian anchors). Gaelen defends the work, not himself; Jasper Avalon defends Gaelen. Gaelen does NOT fight to the death — at 3 anchors destroyed, he phases into the Time-Wound and escapes back to the Eldergleam plan.
+    </div>
+
+    <div class="read-aloud">
+      <div class="read-aloud-tag">>> READ ALOUD</div>
+      <p>The undercroft is older than the monastery above it — a vaulted root-cellar of the world, columns of living rock, wide as your cart, running down into shadow. Red light comes up out of channels carved into the floor with repeating Daedric script, all running inward to a central well where the mountain's root stands exposed — a pillar as wide as High Hrothgar's front wall, rock too dense to have grain or seam, veined now with fresh black cracks where sap climbs toward an array of obsidian shards arranged in a blooming spiral.</p>
+      <p>A Bosmer moves through the array unhurried, crimson chitin catching the light, one arm a grafted mass of charred heartwood and obsidian that gestures at things he is not looking at. He is adjusting each shard with the care of a man tuning an instrument he loves.</p>
+      <p>Without turning, in a voice that is warm and genuinely pleased: "Oh — visitors. Good. I hoped the mountain would manage to be heard. Come in, come in. You are not interrupting; nothing can interrupt this. But company is rare, and I have wanted to meet you for the longest time."</p>
+    </div>
+
+    <!-- ZONE 3 TEMPO & MECHANICS -->
+    <div class="gm-alert">
+      <span class="gm-tag">ZONE 3 TEMPO (Roll d20 each round / ~6 min timer):</span><br>
+      <strong>1-4: Frozen</strong> (lost actions) | <strong>5-8: Dragging</strong> (disadvantage) | <strong>9-12: In Step</strong> (normal) | <strong>13-17: Quickened</strong> (+1 action) | <strong>18-20: Unmoored</strong> (teleport/double action).<br>
+      <em>Natural 1 or 20 triggers Secondary Temporal Horror (retroactive damage / initiative shuffle).</em>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-header">
+        <span class="stat-title">THE 5 OBSIDIAN ANCHORS</span>
+        <span class="stat-meta">Win Condition: 3 of 5 Destroyed</span>
+      </div>
+      <p style="font-size: 0.85rem;">Each Anchor: <strong>25 HP | DR 10</strong><br>
+      • <span class="roll-check">Hard Might (-4)</span> to topple one bodily.<br>
+      • <span class="roll-check">Hard Magic (-4)</span> (Orion's tonal counter-note) to crack one at range.<br>
+      • <strong>Every anchor down weakens the weather by 1 Zone</strong> (Zone 3 &rarr; 2 &rarr; 1). At 3 down, ritual collapses.</p>
+    </div>
+
+    <!-- ENEMIES STATS -->
+    <div class="stations-grid">
+      <div class="station-card" style="border-color: var(--maroon);">
+        <h4 style="color: var(--maroon);">GAELEN THE ROOT-TWISTER (Apex Villain)</h4>
+        <p style="font-size: 0.82rem; font-family: var(--font-mono);">
+          Magic 21 (auto success) | Agility 17 | Guile 15 | Might 8<br>
+          HP 40 (Paradise Mantle Regen) | FP 35 | DR 22 (23 vs spells)<br>
+          <strong>DOES NOT ATTACK:</strong> Spends turns preaching and adjusting anchors. At 3 anchors broken, he phases into the Time-Wound and escapes.
+        </p>
+      </div>
+
+      <div class="station-card" style="border-color: var(--red-danger);">
+        <h4 style="color: var(--red-danger);">JASPER AVALON (Dunmer Mage / Lieutenant)</h4>
+        <p style="font-size: 0.82rem; font-family: var(--font-mono);">
+          Magic 19 | Guile 12 | Agility 6 | Might 4<br>
+          HP 9 (Glass) | FP 16 | DR 8 (Ebonyflesh)<br>
+          <strong>Spell Absorption (1/combat):</strong> Negates hostile spell, gains FP.<br>
+          <strong>Casts:</strong> Incinerate (12 dmg), Ash Shell (Might roll or encased 2 rds), Lightning Bolt (3 FP). <strong>FIGHTS TO THE DEATH.</strong>
+        </p>
+      </div>
+    </div>
+
+    <!-- SPECIAL DIALOGUE BEATS -->
+    <div class="branch-box">
+      <div class="branch-header">SPECIAL DIALOGUE: ALFONSO'S THEOLOGICAL DUEL</div>
+      <div class="branch-body">
+        <p style="font-size: 0.88rem; color: var(--text-muted);">Gaelen looks directly at Alfonso (finding the sentient rapier in the room without being shown it):</p>
+        <div class="spoken-block">
+          <div class="speaker-label">GAELEN:</div>
+          <div class="spoken-text">"You of all things know the cage, brother. Rot is the door. Help me open it."</div>
+        </div>
+        <div class="gm-note"><span class="gm-tag">GM:</span> Let Alfonso's player answer live. Peryite's pestilence is decay with divine order; Gaelen's Unmaking is decay as pure negation.</div>
+      </div>
+    </div>
+
+    <div class="branch-box">
+      <div class="branch-header">SPECIAL DIALOGUE: THE JASPER AVALON REVEAL (DAVINIA)</div>
+      <div class="branch-body">
+        <div class="gm-note"><span class="gm-tag">GM:</span> Davinia knew Jasper in life (dead in Pale Lady's tomb; Ismara holds the memory).</div>
+        <div class="spoken-block">
+          <div class="speaker-label">GAELEN (Mild, without pausing work):</div>
+          <div class="spoken-text">"It seems you were familiar with this vessel... that is unfortunate, for he is gone. As for his flesh -- he gave it to the Dawn."</div>
+        </div>
+        <p style="font-size: 0.82rem; color: var(--text-muted);">Jasper was a secret Dagon devotee in life. Nothing was stolen. He gave himself willingly because it was the first time anything wanted him.</p>
+      </div>
+    </div>
+
+    <!-- SAIJAH'S TEMPTATION -->
+    <div class="branch-box" style="border-color: var(--gold);">
+      <div class="branch-header" style="color: var(--gold);">STATION 6: SAIJAH & THE TWO GODS</div>
+      <div class="branch-body">
+        <div class="gm-note"><span class="gm-tag">GM:</span> Hand this sequence directly to Saijah's player while the doubled migraine is hammering her (-2 Guile, -2 Agility, +2 damage taken):</div>
+        
+        <p style="font-size: 0.85rem; font-weight: bold; color: var(--gold); margin-top: 0.4rem;">1. HIRCINE'S VOICE (The Daedric Relief):</p>
+        <div class="spoken-block">
+          <div class="speaker-label">HIRCINE (Whispered directly in her skull):</div>
+          <div class="spoken-text">"Little sentinel. That noise in your head... I can make it stop."</div>
+        </div>
+        <p style="font-size: 0.82rem; color: var(--text-muted);">For two seconds, the pressure vanishes. Vision sharpens, senses flare with predatory clarity. (The hidden cost: silencing the pain silences Kynareth forever).</p>
+
+        <p style="font-size: 0.85rem; font-weight: bold; color: var(--blue-read); margin-top: 0.6rem;">2. KYNARETH'S ANSWER (The Aedric Breath):</p>
+        <p style="font-size: 0.82rem; color: #c9dff7; font-style: italic;">Kynareth does not use words. A sudden, freezing draft of clean summit wind cuts down through the cavern ceiling, filling her burning lungs with pure mountain air and the scent of snow. She provides the breath; Saijah must choose how to spend it.</p>
+
+        <p style="font-size: 0.85rem; font-weight: bold; color: var(--maroon); margin-top: 0.6rem;">3. YLVA'S GAZE:</p>
+        <p style="font-size: 0.82rem; color: var(--text-muted);">Ylva smells Hircine's presence flaring on Saijah. Her knuckles whiten on her axe, watching to see if Saijah surrenders or fights through the pain.</p>
+      </div>
+    </div>
+
+    <!-- GAELEN ESCAPE -->
+    <div class="read-aloud" style="margin-top: 1.5rem;">
+      <div class="read-aloud-tag">>> GAELEN'S ESCAPE (At 3 Anchors Broken)</div>
+      <p>The third anchor cracks and the whole undercroft LURCHES — the red light guttering, the sap-lines withering back out of the root like ivy burned at the stem. Gaelen watches it happen with his head tilted, the way a man watches weather ruin a picnic.</p>
+      <p>"Hm. Unfinished, then." He looks at you — genuinely, unhurriedly interested. "You finally showed up. Do you know, I had begun to think no one was coming, all these years. How wonderful. Something new."</p>
+      <p>The broken time reaches for him and he steps INTO it, the way you would step into a doorway — and he is a half-second behind himself, and then a full second, and then he is an afterimage the room forgets to keep.</p>
+    </div>
+
+    <div class="scene-exit">
+      <span class="exit-label">Transition:</span>
+      <a href="#scene-23" class="exit-dest">23 The Reward & Resolution &rarr;</a>
+    </div>
+  </section>
+
+  <!-- SCENE 23: REWARD & RESOLUTION -->
+  <section id="scene-23" class="scene-card">
+    <div class="scene-header">
+      <div class="scene-number">Scene 23</div>
+      <h2 class="scene-title">The Reward & Resolution</h2>
+      <p class="scene-subtitle">Staunched, not sealed -- the curtain and the road ahead</p>
+    </div>
+
+    <div class="read-aloud">
+      <div class="read-aloud-tag">>> READ ALOUD</div>
+      <p>The masters come down the inner stair when the shaking stops — slowly, holding the walls, men walking after weeks at an oar. Arngeir stands a long time at the wounded root, where the black lines have withered to scars in the stone.</p>
+      <p>"Staunched," he says at last. "A cut finger, bound. The body of the thing that attacked this mountain is still out there, and still working." He looks at each of you in turn, and bows — the full bow, to all of you. "The Way of the Voice is open to you. It is a small thing to offer the people who held up the sky. It is what we have."</p>
+    </div>
+
+    <div class="stations-grid" style="margin-top: 1.5rem;">
+      <div class="station-card">
+        <h4 style="color: var(--green-accent);">REWARDS EARNED</h4>
+        <p>• <strong>1 AP each</strong> for completing a full Choice Gate fire.<br>
+        • <strong>The Way of the Voice:</strong> High Hrothgar open for scholarship; monks know Word Wall locations for specific shouts.<br>
+        • <strong>Loot:</strong> Zealots' inert tide-shards (crystallized wrong-time, priceless to researchers; Nora wants them).</p>
+      </div>
+
+      <div class="station-card">
+        <h4 style="color: var(--gold);">SEEDS FOR THE ROAD OUT</h4>
+        <p>• <strong>Saijah's Realization (Station 7):</strong> On the road out, she realizes the gildergreens + Throat + word TOWER = one tree, TWO Towers under attack, and a hidden Heart.<br>
+        • <strong>The Danica Braid:</strong> Finding the true Eldergleam requires the chosen sisters of Kynareth — and the road runs straight through Danica.</p>
+      </div>
+
+      <div class="station-card">
+        <h4 style="color: var(--red-danger);">CONSEQUENCE LEDGER</h4>
+        <p>• <strong>Fire A (Windhelm):</strong> Krusp & Danica fought the plague to a standstill at great cost (Danica's lungs damaged by attrition).<br>
+        • <strong>Fire C (Bleak Falls):</strong> Ignored — Antoine rebuilds on top of the Dragonstone. The Strain 2.0 clock runs.</p>
+      </div>
+    </div>
+
+    <div class="gm-note" style="margin-top: 1.5rem;">
+      <span class="gm-tag">SESSION COMPLETE:</span> The cart rolls down out of the grey hills with the mountain quiet behind it, heading toward the Dragonstone pressure and the road ahead.
+    </div>
+  </section>
+
+</main>
+
+<script>
+  // Quick d20 Roller
+  function rollD20() {
+    const roll = Math.floor(Math.random() * 20) + 1;
+    const resultDiv = document.getElementById('quick-roll-result');
+    resultDiv.innerHTML = `Rolled: <strong>${roll}</strong>`;
+    if (roll === 20) resultDiv.innerHTML += ' <span style="color:var(--green-accent);">(NAT 20!)</span>';
+    if (roll === 1) resultDiv.innerHTML += ' <span style="color:var(--red-danger);">(NAT 1!)</span>';
+  }
+
+  // Zone 3 Tempo Roller
+  function rollTempo() {
+    const roll = Math.floor(Math.random() * 20) + 1;
+    const resultDiv = document.getElementById('quick-roll-result');
+    let effect = "";
+    if (roll <= 4) effect = "FROZEN (1-4)";
+    else if (roll <= 8) effect = "DRAGGING (5-8)";
+    else if (roll <= 12) effect = "IN STEP (9-12)";
+    else if (roll <= 17) effect = "QUICKENED (13-17)";
+    else effect = "UNMOORED (18-20)";
+    resultDiv.innerHTML = `Tempo [${roll}]: <strong>${effect}</strong>`;
+  }
+
+  // Smooth Active Nav Highlighting on Scroll
+  window.addEventListener('scroll', () => {
+    const sections = document.querySelectorAll('section.scene-card');
+    const navItems = document.querySelectorAll('.nav-item');
+    let current = '';
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      if (pageYOffset >= sectionTop - 150) {
+        current = section.getAttribute('id');
+      }
+    });
+
+    navItems.forEach(item => {
+      item.classList.remove('active');
+      if (item.getAttribute('href') === `#${current}`) {
+        item.classList.add('active');
+      }
+    });
+  });
+</script>
+</body>
+</html>

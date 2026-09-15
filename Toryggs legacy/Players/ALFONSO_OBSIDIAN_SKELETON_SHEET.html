@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alfonso Duet — The 206 Obsidian Bones of Mehrunes</title>
+<style>
+  :root {
+    --bg-main: #0a0d12;
+    --bg-card: #121820;
+    --bg-surface: #1a222d;
+    --bg-highlight: #222d3d;
+    --border: #283344;
+    --border-accent: #8b263e;
+    
+    --text-primary: #e6edf3;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    
+    --obsidian-black: #080a0e;
+    --obsidian-border: #3b4252;
+    
+    --peryite-green: #38bdf8;
+    --peryite-glow: #10b981;
+    --peryite-dark: #064e3b;
+    --toxic-green: #4ade80;
+    
+    --dagon-red: #f43f5e;
+    --dagon-glow: #e11d48;
+    --dagon-bg: #4c0519;
+    
+    --namira-purple: #a855f7;
+    --namira-dark: #3b0764;
+    
+    --gold-ancient: #d97706;
+    --gold-bright: #fbbf24;
+    
+    --font-serif: "Iowan Old Style", "Sitka Text", Palatino, "Palatino Linotype", Georgia, serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sheet-container {
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+
+  /* HEADER BANNER */
+  .header-card {
+    background: linear-gradient(135deg, #16121e 0%, #0d1a18 50%, #1f0d14 100%);
+    border: 1px solid var(--border);
+    border-top: 4px solid var(--dagon-red);
+    border-radius: 12px;
+    padding: 2rem 2.25rem;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+
+  .header-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid currentColor;
+  }
+
+  .badge-peryite { color: var(--toxic-green); background: rgba(16, 185, 129, 0.12); border-color: rgba(16, 185, 129, 0.3); }
+  .badge-namira { color: var(--namira-purple); background: rgba(168, 85, 247, 0.12); border-color: rgba(168, 85, 247, 0.3); }
+  .badge-dagon { color: var(--dagon-red); background: rgba(244, 63, 94, 0.12); border-color: rgba(244, 63, 94, 0.3); }
+  .badge-tier { color: var(--gold-bright); background: rgba(217, 119, 6, 0.12); border-color: rgba(217, 119, 6, 0.3); }
+
+  .char-title {
+    font-family: var(--font-serif);
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 0.25rem;
+    letter-spacing: -0.02em;
+  }
+
+  .char-subtitle {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-bottom: 1.25rem;
+  }
+
+  .fluff-quote {
+    background: rgba(0, 0, 0, 0.4);
+    border-left: 3px solid var(--toxic-green);
+    padding: 0.85rem 1.25rem;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.92rem;
+    color: #cbd5e1;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  /* STATS ROW */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  @media (max-width: 680px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem 1rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+    cursor: pointer;
+  }
+
+  .stat-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--toxic-green);
+  }
+
+  .stat-card.stat-magic {
+    border-top: 3px solid var(--toxic-green);
+    background: linear-gradient(180deg, rgba(16, 185, 129, 0.08) 0%, var(--bg-card) 100%);
+  }
+  .stat-card.stat-might { border-top: 3px solid #ef4444; }
+  .stat-card.stat-agility { border-top: 3px solid #38bdf8; }
+  .stat-card.stat-guile { border-top: 3px solid var(--gold-bright); }
+
+  .stat-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-bottom: 0.35rem;
+  }
+
+  .stat-score {
+    font-size: 2.25rem;
+    font-family: var(--font-mono);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 0.35rem;
+  }
+
+  .stat-sub {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+  }
+
+  /* VITALS & DEFENSES */
+  .vitals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .vitals-grid { grid-template-columns: 1fr; }
+  }
+
+  .vital-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+
+  .vital-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.4rem;
+  }
+
+  .vital-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+  }
+
+  .vital-val {
+    font-family: var(--font-mono);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .vital-list {
+    list-style: none;
+    font-size: 0.83rem;
+    color: var(--text-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .vital-list strong { color: var(--text-primary); }
+
+  /* DOOM CLOCKS & TRACKERS */
+  .tracker-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5rem;
+  }
+
+  .tracker-title {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    color: var(--gold-bright);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .track-row {
+    margin-bottom: 1.25rem;
+  }
+
+  .track-label-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.82rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .pip-container {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .pip {
+    flex: 1;
+    height: 18px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .pip:hover { border-color: var(--text-secondary); }
+
+  .pip.filled-surface {
+    background: var(--toxic-green);
+    border-color: #22c55e;
+    box-shadow: 0 0 6px rgba(34, 197, 94, 0.4);
+  }
+
+  .pip.filled-deep {
+    background: var(--dagon-red);
+    border-color: #e11d48;
+    box-shadow: 0 0 6px rgba(225, 29, 72, 0.4);
+  }
+
+  /* DICE ROLLER INTERACTIVE WIDGET */
+  .roller-widget {
+    background: linear-gradient(135deg, #182232 0%, #111a24 100%);
+    border: 1px solid #2d415b;
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .roller-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #38bdf8;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .roller-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .roll-btn {
+    background: #1f2c3f;
+    border: 1px solid #3b506e;
+    color: #e2e8f0;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .roll-btn:hover {
+    background: #2b3d56;
+    color: #fff;
+    border-color: #60a5fa;
+  }
+
+  .roll-output {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    background: rgba(0,0,0,0.35);
+    border-radius: 6px;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* SECTION HEADERS */
+  .section-heading {
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+    color: #fff;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  /* ACTION CARDS */
+  .action-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .action-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem 1.4rem;
+  }
+
+  .action-card.major { border-left-color: var(--dagon-red); }
+  .action-card.bonus { border-left-color: var(--toxic-green); }
+  .action-card.reaction { border-left-color: #38bdf8; }
+  .action-card.passive { border-left-color: var(--namira-purple); }
+
+  .action-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .action-name {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .action-meta {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+  }
+
+  .action-type {
+    background: var(--bg-surface);
+    color: var(--text-secondary);
+    padding: 0.15rem 0.45rem;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+  }
+
+  .action-cost {
+    background: rgba(244, 63, 94, 0.15);
+    color: var(--dagon-red);
+    padding: 0.15rem 0.45rem;
+    border-radius: 3px;
+    border: 1px solid rgba(244, 63, 94, 0.3);
+    font-weight: 700;
+  }
+
+  .action-body {
+    font-size: 0.88rem;
+    color: #cbd5e1;
+    line-height: 1.5;
+  }
+
+  .action-body p + p { margin-top: 0.4rem; }
+
+  .damage-pill {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    color: #fca5a5;
+    background: rgba(239, 68, 68, 0.15);
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+  }
+
+  .heal-pill {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    color: #86efac;
+    background: rgba(34, 197, 94, 0.15);
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+  }
+
+  /* FOOTER */
+  .footer-note {
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<div class="sheet-container">
+
+  <!-- HEADER -->
+  <header class="header-card">
+    <div class="header-badges">
+      <span class="badge badge-peryite">Peryite (Living Rot)</span>
+      <span class="badge badge-namira">Namira (Devouring Void)</span>
+      <span class="badge badge-dagon">Mehrunes Dagon (Tide-Shard Matrix)</span>
+      <span class="badge badge-tier">Master Tier (AP 15–25)</span>
+    </div>
+    <h1 class="char-title">ALFONSO DUET</h1>
+    <div class="char-subtitle">The Crystalline Vessel &bull; 206 Obsidian Bones of Mehrunes</div>
+    <div class="fluff-quote">
+      "He was never a man wearing a sword. He was a sword dreaming a man. Now stripped of meat, 206 crystal bones click dryly in the summit draft — a Lich of Peryite and Namira piloting a Dagonite skeleton through Skyrim's holiest shrine."
+    </div>
+  </header>
+
+  <!-- INTERACTIVE DICE ROLLER -->
+  <div class="roller-widget">
+    <div class="roller-title">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line></svg>
+      FROGS 5 Quick Roller (Roll Under Own TN)
+    </div>
+    <div class="roller-btns">
+      <button class="roll-btn" onclick="rollStat('Magic', 19)">Roll Magic (TN 19)</button>
+      <button class="roll-btn" onclick="rollStat('Might', 14)">Roll Might (TN 14)</button>
+      <button class="roll-btn" onclick="rollStat('Agility', 14)">Roll Agility (TN 14)</button>
+      <button class="roll-btn" onclick="rollStat('Guile', 13)">Roll Guile (TN 13)</button>
+      <button class="roll-btn" onclick="rollRawD20()" style="border-color: var(--gold-bright);">Raw d20</button>
+    </div>
+    <div class="roll-output" id="roll-display">
+      <span>Ready to roll. Select a stat or roll a raw d20.</span>
+      <span style="font-size:0.75rem; color:var(--text-muted);">Nat 1 = Lethal Crit (x2 Total Dmg)</span>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <section class="stats-grid">
+    <div class="stat-card stat-might" onclick="rollStat('Might', 14)">
+      <div class="stat-label">Might</div>
+      <div class="stat-score">14</div>
+      <div class="stat-sub">Dense Volcanic Glass</div>
+    </div>
+    <div class="stat-card stat-agility" onclick="rollStat('Agility', 14)">
+      <div class="stat-label">Agility</div>
+      <div class="stat-score">14</div>
+      <div class="stat-sub">Articulated Crystal</div>
+    </div>
+    <div class="stat-card stat-magic" onclick="rollStat('Magic', 19)">
+      <div class="stat-label">Magic</div>
+      <div class="stat-score">19</div>
+      <div class="stat-sub">Sovereign Archmage</div>
+    </div>
+    <div class="stat-card stat-guile" onclick="rollStat('Guile', 13)">
+      <div class="stat-label">Guile</div>
+      <div class="stat-score">13</div>
+      <div class="stat-sub">Tactical Daedric Scholar</div>
+    </div>
+  </section>
+
+  <!-- VITALS & DEFENSES -->
+  <section class="vitals-grid">
+    <div class="vital-box">
+      <div class="vital-header">
+        <span class="vital-title">Physical Vessel</span>
+        <span class="vital-val" style="color:var(--toxic-green);">0 HP (Empty)</span>
+      </div>
+      <ul class="vital-list">
+        <li><strong>Empty Vessel:</strong> No flesh to bleed. Conventional physical attacks, wounds, falls, and poisons deal 0 HP damage.</li>
+        <li><strong>True Anchor:</strong> Soul is seated in the Corroded Rapier inside the ribcage.</li>
+      </ul>
+    </div>
+
+    <div class="vital-box">
+      <div class="vital-header">
+        <span class="vital-title">Damage Reduction</span>
+        <span class="vital-val" style="color:#38bdf8;">DR 12</span>
+      </div>
+      <ul class="vital-list">
+        <li><strong>DR 16 vs Slash/Pierce:</strong> Razor-honed obsidian deflects blades and arrows with ease.</li>
+        <li><strong>FP Pool:</strong> <strong style="color:#fff;">24 FP</strong> (Renewable through feeding or rest).</li>
+      </ul>
+    </div>
+
+    <div class="vital-box">
+      <div class="vital-header">
+        <span class="vital-title">Vulnerabilities & Traits</span>
+        <span class="vital-val" style="color:var(--dagon-red); font-size: 1rem;">Glass Core</span>
+      </div>
+      <ul class="vital-list">
+        <li><strong>Blunt/Resonance:</strong> Heavy bludgeoning & tonal sonic strikes bypass 4 DR (brittle glass).</li>
+        <li><strong>Dragonfire:</strong> Stone-melting apocalyptic heat destroys the vessel permanently.</li>
+        <li><strong>Immunities:</strong> Disease, Poison, Bleed, Cold, Pain.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- DOOM CLOCK & RUST TRACKER -->
+  <section class="tracker-card">
+    <div class="tracker-title">
+      <span>PHYLACTERY FRACTURE &amp; RUST TRACKER</span>
+      <span style="font-size:0.75rem; font-family:var(--font-mono); color:var(--text-secondary); font-weight:normal;">Click pips to toggle</span>
+    </div>
+
+    <!-- SURFACE RUST -->
+    <div class="track-row">
+      <div class="track-label-row">
+        <span><strong>Surface Rust &amp; Stress</strong> (Recoverable Pool: 10)</span>
+        <span id="surface-count" style="color:var(--toxic-green); font-family:var(--font-mono);">0 / 10 Active</span>
+      </div>
+      <div class="pip-container" id="surface-pips">
+        <!-- 10 Pips -->
+      </div>
+      <p style="font-size:0.75rem; color:var(--text-muted); margin-top:0.35rem;">
+        Gained from <em>Transmutation of Life</em> and spell strain. Scrubbed by feeding (clears 2) or Long Rest. Overflow above 10 converts 1:1 into Deep Rust.
+      </p>
+    </div>
+
+    <!-- DEEP RUST -->
+    <div class="track-row" style="margin-bottom:0;">
+      <div class="track-label-row">
+        <span><strong style="color:var(--dagon-red);">Deep Rust — The Doom Clock</strong> (10 Permanent Segments)</span>
+        <span id="deep-count" style="color:var(--dagon-red); font-family:var(--font-mono);">3 / 10 Segments (Stage 1: First Bloom)</span>
+      </div>
+      <div class="pip-container" id="deep-pips">
+        <!-- 10 Pips -->
+      </div>
+      <p style="font-size:0.75rem; color:var(--text-muted); margin-top:0.35rem;">
+        Irreversible structural corrosion. At Segment 10, the rapier shatters and Alfonso permanently ceases to exist.
+      </p>
+    </div>
+  </section>
+
+  <!-- PASSIVE TRAITS -->
+  <section>
+    <h2 class="section-heading">Passive Anatomical Gifts</h2>
+    <div class="action-grid">
+      <div class="action-card passive">
+        <div class="action-top">
+          <span class="action-name">The 206 Acoustic Bones</span>
+          <span class="action-meta"><span class="action-type">Passive</span></span>
+        </div>
+        <div class="action-body">
+          <p>The skeleton acts as an acoustic horn tuned to the frequencies of unmaking. Alfonso automatically perceives tonal dissonance, leylines, planar shear, and Daedric ritual anchors within 60 feet as resonant vibrations rattling in his jaw and ribs.</p>
+        </div>
+      </div>
+
+      <div class="action-card passive">
+        <div class="action-top">
+          <span class="action-name">Tempo Synchronization (Dagonite Tide-Shards)</span>
+          <span class="action-meta"><span class="action-type">Passive</span></span>
+        </div>
+        <div class="action-body">
+          <p>Forged from the obsidian shards of the Dagonite cult, Alfonso's bones vibrate in harmony with temporal distortion. Inside Zone 3 temporal weather or planar shear zones, he rolls Tempo checks with <strong>Advantage</strong> (or may choose <em>In Step</em> on a standard roll).</p>
+        </div>
+      </div>
+
+      <div class="action-card passive">
+        <div class="action-top">
+          <span class="action-name">Pestilent Joint-Seepage (Peryite's Blessing)</span>
+          <span class="action-meta"><span class="action-type">Passive</span></span>
+        </div>
+        <div class="action-body">
+          <p>Virulent green-black bile and spore-veins weep continuously between the obsidian joints. Any melee attacker striking Alfonso with unarmed strikes or natural weapons must make a <strong>Hard Might Save (-4)</strong> or contract the <em>Forelhost Living Strain</em>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAJOR ACTIONS -->
+  <section>
+    <h2 class="section-heading">Major Actions (Combat)</h2>
+    <div class="action-grid">
+
+      <div class="action-card major">
+        <div class="action-top">
+          <span class="action-name">The Corridor Lance</span>
+          <div class="action-meta">
+            <span class="action-type">Major Action &bull; 40ft Line</span>
+            <span class="action-cost">4 FP</span>
+          </div>
+        </div>
+        <div class="action-body">
+          <p>Alfonso aligns his skeletal arm with the rapier and discharges a concentrated beam of black-green pestilence and razor-wind.</p>
+          <p><strong>Roll Magic (TN 19).</strong> Deals <span class="damage-pill">22 Magic/Disease Damage</span> to all creatures in the line. Targets who fail an Agility roll are knocked prone.</p>
+        </div>
+      </div>
+
+      <div class="action-card major">
+        <div class="action-top">
+          <span class="action-name">Razor Claw / Bone-Cleave</span>
+          <div class="action-meta">
+            <span class="action-type">Major Action &bull; Melee</span>
+            <span class="action-cost">0 FP</span>
+          </div>
+        </div>
+        <div class="action-body">
+          <p>Sweeps with razor-honed obsidian talons that chip volcanic glass into the wound.</p>
+          <p><strong>Roll Agility (TN 14) or Might (TN 14).</strong> Deals <span class="damage-pill">12 Slashing/Piercing Damage</span>. Ignores 3 points of enemy DR (Razor Sharp) and inflicts <span class="damage-pill">2 Bleed/round for 2 rounds</span>.</p>
+        </div>
+      </div>
+
+      <div class="action-card major">
+        <div class="action-top">
+          <span class="action-name">Devouring of the Marrow (Namira's Maw)</span>
+          <div class="action-meta">
+            <span class="action-type">Major Action &bull; Melee Touch</span>
+            <span class="action-cost">3 FP</span>
+          </div>
+        </div>
+        <div class="action-body">
+          <p>The obsidian ribcage unhinges like a bear trap, clamping down onto an adjacent living or freshly slain target to siphon essence directly into the iron soul.</p>
+          <p><strong>Roll Might (TN 14) or Magic (TN 19).</strong> Deals <span class="damage-pill">14 Irreducible Entropic Damage</span>. Alfonso recovers <span class="heal-pill">+4 FP</span> and scrubs <span class="heal-pill">2 Surface Rust</span>.</p>
+        </div>
+      </div>
+
+      <div class="action-card major">
+        <div class="action-top">
+          <span class="action-name">Lightning Discharge</span>
+          <div class="action-meta">
+            <span class="action-type">Major Action &bull; 60ft Range</span>
+            <span class="action-cost">3 FP</span>
+          </div>
+        </div>
+        <div class="action-body">
+          <p>Channels raw galvanic arc energy through the crystalline lattice of his spine.</p>
+          <p><strong>Roll Magic (TN 19).</strong> Deals <span class="damage-pill">10 Shock Damage</span>. Bypasses target DR completely.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BONUS ACTIONS & REACTIONS -->
+  <section>
+    <h2 class="section-heading">Bonus Actions &amp; Reactions (FROGS 5)</h2>
+    <div class="action-grid">
+
+      <div class="action-card bonus">
+        <div class="action-top">
+          <span class="action-name">Transmutation of Life</span>
+          <div class="action-meta">
+            <span class="action-type">Bonus Action / Free &bull; 1/Turn</span>
+            <span class="action-cost" style="color:var(--toxic-green); background:rgba(34,197,94,0.15); border-color:rgba(34,197,94,0.3);">0 FP (Free)</span>
+          </div>
+        </div>
+        <div class="action-body">
+          <p>Before casting any spell, Alfonso may bypass the FP cost entirely by voluntarily taking <strong>Surface Rust / Fracture</strong> equal to the spell's FP cost. Allows limitless casting at the cost of the vessel's structural integrity.</p>
+        </div>
+      </div>
+
+      <div class="action-card reaction">
+        <div class="action-top">
+          <span class="action-name">Shatter-Guard</span>
+          <div class="action-meta">
+            <span class="action-type">Reaction &bull; On Struck</span>
+            <span class="action-cost">2 FP</span>
+          </div>
+        </div>
+        <div class="action-body">
+          <p>Alfonso angles his crystalline forearm to catch an incoming physical blow. Gains <strong>+6 DR</strong> against the strike. If the weapon is non-magical metal, the attacker must roll <strong>Standard Might (+0)</strong> or their weapon notches (-1 weapon damage).</p>
+        </div>
+      </div>
+
+      <div class="action-card reaction">
+        <div class="action-top">
+          <span class="action-name">Corrosive Parry</span>
+          <div class="action-meta">
+            <span class="action-type">Reaction &bull; On Targeted</span>
+            <span class="action-cost">1 FP</span>
+          </div>
+        </div>
+        <div class="action-body">
+          <p>Parries an incoming melee attack with the rapier. Contested roll: <strong>Alfonso's Magic (TN 19) vs. Attacker's Might/Agility</strong>. On success, the attack misses and acidic bile splashes the attacker's weapon/armor, reducing their DR by 2 for the rest of the encounter.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer-note">
+    FROGS 5 System &bull; Choice Gate 3: Fire B &bull; The Obsidian Lanterns Campaign
+  </footer>
+
+</div>
+
+<script>
+  // Dice Roller Logic
+  function rollStat(statName, tn) {
+    const roll = Math.floor(Math.random() * 20) + 1;
+    const display = document.getElementById('roll-display');
+    const isCrit = (roll === 1);
+    const isFumble = (roll === 20);
+    const isSuccess = (roll <= tn);
+
+    let resultHtml = `<span><strong>${statName} Roll:</strong> Rolled <span style="font-size:1.15rem; color:#fff;">${roll}</span> against TN ${tn} &rarr; `;
+    
+    if (isCrit) {
+      resultHtml += `<strong style="color:var(--toxic-green);">CRITICAL SUCCESS (Nat 1)! x2 Total Damage!</strong></span>`;
+    } else if (isFumble) {
+      resultHtml += `<strong style="color:var(--dagon-red);">CRITICAL FAILURE (Nat 20)!</strong></span>`;
+    } else if (isSuccess) {
+      resultHtml += `<strong style="color:#38bdf8;">SUCCESS (Margin: ${tn - roll})</strong></span>`;
+    } else {
+      resultHtml += `<strong style="color:#f87171;">FAILURE (Miss by ${roll - tn})</strong></span>`;
+    }
+
+    display.innerHTML = resultHtml;
+  }
+
+  function rollRawD20() {
+    const roll = Math.floor(Math.random() * 20) + 1;
+    const display = document.getElementById('roll-display');
+    display.innerHTML = `<span><strong>Raw d20 Roll:</strong> <span style="font-size:1.2rem; color:#fff;">${roll}</span></span>`;
+  }
+
+  // Pip Tracker Setup
+  const surfaceContainer = document.getElementById('surface-pips');
+  const deepContainer = document.getElementById('deep-pips');
+  let surfaceCount = 0;
+  let deepCount = 3; // Narrative starting position: Stage 1 (3 segments)
+
+  function renderPips() {
+    surfaceContainer.innerHTML = '';
+    for (let i = 1; i <= 10; i++) {
+      const pip = document.createElement('div');
+      pip.className = `pip ${i <= surfaceCount ? 'filled-surface' : ''}`;
+      pip.onclick = () => {
+        surfaceCount = (surfaceCount === i) ? i - 1 : i;
+        document.getElementById('surface-count').innerText = `${surfaceCount} / 10 Active`;
+        renderPips();
+      };
+      surfaceContainer.appendChild(pip);
+    }
+
+    deepContainer.innerHTML = '';
+    for (let i = 1; i <= 10; i++) {
+      const pip = document.createElement('div');
+      pip.className = `pip ${i <= deepCount ? 'filled-deep' : ''}`;
+      pip.onclick = () => {
+        deepCount = (deepCount === i) ? i - 1 : i;
+        let stageName = "Stage 0 (Pitted Iron)";
+        if (deepCount >= 3 && deepCount <= 4) stageName = "Stage 1 (First Bloom)";
+        else if (deepCount >= 5 && deepCount <= 6) stageName = "Stage 2 (Stiffening)";
+        else if (deepCount >= 7 && deepCount <= 8) stageName = "Stage 3 (Tarnished Husk)";
+        else if (deepCount === 9) stageName = "Stage 4 (Iron Shroud)";
+        else if (deepCount === 10) stageName = "Stage 5 (SHATTER / DEATH)";
+        document.getElementById('deep-count').innerText = `${deepCount} / 10 Segments (${stageName})`;
+        renderPips();
+      };
+      deepContainer.appendChild(pip);
+    }
+  }
+
+  renderPips();
+</script>
+
+</body>
+</html>

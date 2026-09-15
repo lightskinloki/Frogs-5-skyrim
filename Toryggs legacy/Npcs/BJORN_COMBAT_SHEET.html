@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bjorn — The War-Hound (Combat Sheet)</title>
+<style>
+  :root {
+    --bg-main: #0a0d12;
+    --bg-card: #121820;
+    --bg-surface: #1a222d;
+    --border: #283344;
+    
+    --text-primary: #e6edf3;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    
+    --gold: #fbbf24;
+    --gold-glow: #d97706;
+    --red-danger: #f43f5e;
+    --red-bg: #4c0519;
+    --green-accent: #4ade80;
+    --blue-accent: #38bdf8;
+    
+    --nord-blue: #60a5fa;
+    --nord-dark: #1e3a8a;
+    
+    --font-serif: "Iowan Old Style", "Sitka Text", Palatino, "Palatino Linotype", Georgia, serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sheet-container {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  /* HEADER */
+  .header-card {
+    background: linear-gradient(135deg, #131c2b 0%, #0d131a 50%, #1f1412 100%);
+    border: 1px solid var(--border);
+    border-top: 4px solid var(--nord-blue);
+    border-radius: 12px;
+    padding: 2rem 2.25rem;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+
+  .header-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid currentColor;
+  }
+
+  .badge-nord { color: var(--nord-blue); background: rgba(96, 165, 250, 0.12); border-color: rgba(96, 165, 250, 0.3); }
+  .badge-steed { color: var(--green-accent); background: rgba(74, 222, 128, 0.12); border-color: rgba(74, 222, 128, 0.3); }
+  .badge-dragon { color: var(--gold); background: rgba(251, 191, 36, 0.12); border-color: rgba(251, 191, 36, 0.3); }
+
+  .char-title {
+    font-family: var(--font-serif);
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 0.25rem;
+  }
+
+  .char-subtitle {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-bottom: 1.25rem;
+  }
+
+  .fluff-quote {
+    background: rgba(0, 0, 0, 0.4);
+    border-left: 3px solid var(--nord-blue);
+    padding: 0.85rem 1.25rem;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.92rem;
+    color: #cbd5e1;
+    font-style: italic;
+  }
+
+  /* DICE ROLLER */
+  .roller-widget {
+    background: linear-gradient(135deg, #182232 0%, #111a24 100%);
+    border: 1px solid #2d415b;
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .roller-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #38bdf8;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .roller-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .roll-btn {
+    background: #1f2c3f;
+    border: 1px solid #3b506e;
+    color: #e2e8f0;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .roll-btn:hover {
+    background: #2b3d56;
+    color: #fff;
+    border-color: #60a5fa;
+  }
+
+  .roll-output {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    background: rgba(0,0,0,0.35);
+    border-radius: 6px;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* STATS ROW */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  @media (max-width: 680px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+
+  .stat-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--nord-blue);
+  }
+
+  .stat-card.stat-might { border-top: 3px solid #ef4444; }
+  .stat-card.stat-agility { border-top: 3px solid var(--green-accent); }
+  .stat-card.stat-magic { border-top: 3px solid #94a3b8; }
+  .stat-card.stat-guile { border-top: 3px solid var(--gold); }
+
+  .stat-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-bottom: 0.35rem;
+  }
+
+  .stat-score {
+    font-size: 2.25rem;
+    font-family: var(--font-mono);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 0.35rem;
+  }
+
+  .stat-sub {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+  }
+
+  /* VITALS */
+  .vitals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .vitals-grid { grid-template-columns: 1fr; }
+  }
+
+  .vital-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+
+  .vital-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.4rem;
+  }
+
+  .vital-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+  }
+
+  .vital-val {
+    font-family: var(--font-mono);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .vital-list {
+    list-style: none;
+    font-size: 0.83rem;
+    color: var(--text-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .vital-list strong { color: var(--text-primary); }
+
+  /* ACTIONS */
+  .section-heading {
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+    color: #fff;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .action-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .action-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem 1.4rem;
+  }
+
+  .action-card.major { border-left-color: var(--red-danger); }
+  .action-card.bonus { border-left-color: var(--green-accent); }
+  .action-card.reaction { border-left-color: var(--blue-accent); }
+  .action-card.passive { border-left-color: var(--gold); }
+
+  .action-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .action-name {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .action-meta {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+  }
+
+  .action-type {
+    background: var(--bg-surface);
+    color: var(--text-secondary);
+    padding: 0.15rem 0.45rem;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+  }
+
+  .action-cost {
+    background: rgba(244, 63, 94, 0.15);
+    color: var(--red-danger);
+    padding: 0.15rem 0.45rem;
+    border-radius: 3px;
+    border: 1px solid rgba(244, 63, 94, 0.3);
+    font-weight: 700;
+  }
+
+  .damage-pill {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    color: #fca5a5;
+    background: rgba(239, 68, 68, 0.15);
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+  }
+
+  .footer-note {
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<div class="sheet-container">
+
+  <!-- HEADER -->
+  <header class="header-card">
+    <div class="header-badges">
+      <span class="badge badge-nord">Nord Companion</span>
+      <span class="badge badge-steed">Steed Stone Velocity</span>
+      <span class="badge badge-dragon">2 Dragon Souls (De-Aging)</span>
+    </div>
+    <h1 class="char-title">BJORN</h1>
+    <div class="char-subtitle">The War-Hound (Rejuvenated) &bull; Vanguard Skirmisher</div>
+    <div class="fluff-quote">
+      "He moved with liquid, unhurried precision that belonged to someone forty years younger and vastly more dangerous. Forty years of quiet fishing in the Rift, waking up to protect the cart."
+    </div>
+  </header>
+
+  <!-- QUICK ROLLER -->
+  <div class="roller-widget">
+    <div class="roller-title">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line></svg>
+      Bjorn FROGS 5 Roller (Roll Under Own TN)
+    </div>
+    <div class="roller-btns">
+      <button class="roll-btn" onclick="rollStat('Agility', 17)">Roll Agility (TN 17)</button>
+      <button class="roll-btn" onclick="rollStat('Might', 16)">Roll Might (TN 16)</button>
+      <button class="roll-btn" onclick="rollStat('Guile', 12)">Roll Guile (TN 12)</button>
+      <button class="roll-btn" onclick="rollStat('Magic', 8)">Roll Magic (TN 8)</button>
+      <button class="roll-btn" onclick="rollRawD20()" style="border-color: var(--gold);">Raw d20</button>
+    </div>
+    <div class="roll-output" id="roll-display">
+      <span>Ready to roll. Select a stat.</span>
+      <span style="font-size:0.75rem; color:var(--text-muted);">Nat 1 = Lethal Crit (x2 Total Dmg)</span>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <section class="stats-grid">
+    <div class="stat-card stat-might" onclick="rollStat('Might', 16)">
+      <div class="stat-label">Might</div>
+      <div class="stat-score">16</div>
+      <div class="stat-sub">Dragon-Hardened Muscle</div>
+    </div>
+    <div class="stat-card stat-agility" onclick="rollStat('Agility', 17)">
+      <div class="stat-label">Agility</div>
+      <div class="stat-score">17</div>
+      <div class="stat-sub">Steed Stone Kinetic Velocity</div>
+    </div>
+    <div class="stat-card stat-magic" onclick="rollStat('Magic', 8)">
+      <div class="stat-label">Magic</div>
+      <div class="stat-score">8</div>
+      <div class="stat-sub">Dormant Primal Spark</div>
+    </div>
+    <div class="stat-card stat-guile" onclick="rollStat('Guile', 12)">
+      <div class="stat-label">Guile</div>
+      <div class="stat-score">12</div>
+      <div class="stat-sub">Old Soldier Battlefield Grit</div>
+    </div>
+  </section>
+
+  <!-- VITALS -->
+  <section class="vitals-grid">
+    <div class="vital-box">
+      <div class="vital-header">
+        <span class="vital-title">Health Points</span>
+        <span class="vital-val" style="color:var(--green-accent);">38 HP</span>
+      </div>
+      <ul class="vital-list">
+        <li><strong>Constitutional Density:</strong> De-aging tissue rapidly absorbing impacts.</li>
+        <li><strong>Knockdown Immune:</strong> Cannot be knocked prone by non-bosses while braced.</li>
+      </ul>
+    </div>
+
+    <div class="vital-box">
+      <div class="vital-header">
+        <span class="vital-title">Defense &amp; Stamina</span>
+        <span class="vital-val" style="color:var(--blue-accent);">DR 4 / 18 FP</span>
+      </div>
+      <ul class="vital-list">
+        <li><strong>DR 4 (Unarmored):</strong> 2 Base Mass &amp; Toughness + 2 from Dragon Souls (scales +1 per soul). Wears carter's wool.</li>
+        <li><strong>Steed Stone Stride:</strong> +1 Movement Action per turn (Ignores snow/rock penalties).</li>
+      </ul>
+    </div>
+
+    <div class="vital-box">
+      <div class="vital-header">
+        <span class="vital-title">Dragon Blood</span>
+        <span class="vital-val" style="color:var(--gold);">2 Souls</span>
+      </div>
+      <ul class="vital-list">
+        <li><strong>Sahloknir + Krosulhah:</strong> Real-time de-aging. Arthritis vanished.</li>
+        <li><strong>Dragonbone Talisman:</strong> Pocket shard hums when striking heavy hits.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PASSIVE TRAITS -->
+  <section>
+    <h2 class="section-heading">Passive Traits</h2>
+    <div class="action-grid">
+      <div class="action-card passive">
+        <div class="action-top">
+          <span class="action-name">The Steed Stone Stride</span>
+          <span class="action-meta"><span class="action-type">Passive</span></span>
+        </div>
+        <p style="font-size:0.88rem; color:#cbd5e1;">Bjorn sprints through deep drifts, ice rime, and frozen shale at full speed without rolling Agility or paying terrain movement penalties.</p>
+      </div>
+
+      <div class="action-card passive">
+        <div class="action-top">
+          <span class="action-name">Dual Flurry (Expert Perk)</span>
+          <span class="action-meta"><span class="action-type">Passive</span></span>
+        </div>
+        <p style="font-size:0.88rem; color:#cbd5e1;">The FP cost of his Fighting Stance and dual-weapon attacks is permanently reduced to <strong>0 FP</strong>. He can sustain relentless multi-attack tempo every turn without stamina loss.</p>
+      </div>
+
+      <div class="action-card passive">
+        <div class="action-top">
+          <span class="action-name">The Unaged Throat (Latent Surge)</span>
+          <span class="action-meta"><span class="action-type">Passive &bull; At 0 HP</span></span>
+        </div>
+        <p style="font-size:0.88rem; color:#cbd5e1;">If reduced to 0 HP, Bjorn does not collapse immediately. An unvoiced kinetic shockwave (<em>Fus</em> resonance) erupts from his chest, staggering adjacent enemies 10ft and granting 1 final dying turn to shield an ally.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAJOR ACTIONS -->
+  <section>
+    <h2 class="section-heading">Combat Actions</h2>
+    <div class="action-grid">
+
+      <div class="action-card major">
+        <div class="action-top">
+          <span class="action-name">Unarmed Brawler Strike</span>
+          <div class="action-meta">
+            <span class="action-type">Major Action &bull; Melee</span>
+            <span class="action-cost" style="color:var(--green-accent); background:rgba(74,222,128,0.15); border-color:rgba(74,222,128,0.3);">0 FP</span>
+          </div>
+        </div>
+        <p style="font-size:0.88rem; color:#cbd5e1;">
+          Bare-knuckle brawl with dragon-hardened fists.<br>
+          <strong>Roll Might (TN 16) or Agility (TN 17).</strong> Deals <span class="damage-pill">15 Blunt Damage</span>. On <strong>Nat 1 (Crit)</strong>: <span class="damage-pill">30 Damage</span>.<br>
+          <em>Dual Flurry Follow-Up:</em> If the strike hits, make an immediate off-hand jab as a Minor Action for <span class="damage-pill">8 Blunt Damage</span>.
+        </p>
+      </div>
+
+      <div class="action-card major">
+        <div class="action-top">
+          <span class="action-name">The Running Shoulder</span>
+          <div class="action-meta">
+            <span class="action-type">Major Action &bull; 30ft Charge</span>
+            <span class="action-cost">2 FP</span>
+          </div>
+        </div>
+        <p style="font-size:0.88rem; color:#cbd5e1;">
+          Surges across the snow and slams his shoulder with kinetic velocity.<br>
+          <strong>Roll Might (TN 16).</strong> Deals <span class="damage-pill">10 Blunt Damage</span> and knocks man-sized targets prone (or staggers Large beasts like the Frost Troll, canceling its next reaction).
+        </p>
+      </div>
+
+      <div class="action-card bonus">
+        <div class="action-top">
+          <span class="action-name">Vanguard Intercept</span>
+          <div class="action-meta">
+            <span class="action-type">Bonus Action / Reaction &bull; 20ft Range</span>
+            <span class="action-cost">2 FP</span>
+          </div>
+        </div>
+        <p style="font-size:0.88rem; color:#cbd5e1;">
+          <em>Trigger:</em> An enemy targets an ally within 20ft (especially Saijah, Nora, or Mila).<br>
+          Bjorn crosses the snow instantly to place himself between the attacker and ally, taking the hit against his own DR 6.
+        </p>
+      </div>
+
+      <div class="action-card reaction">
+        <div class="action-top">
+          <span class="action-name">Veteran's Parry</span>
+          <div class="action-meta">
+            <span class="action-type">Reaction &bull; On Targeted</span>
+            <span class="action-cost">1 FP</span>
+          </div>
+        </div>
+        <p style="font-size:0.88rem; color:#cbd5e1;">
+          Contested <strong>Agility (TN 17) vs. Attacker's Might/Agility</strong>. On success, deflects the strike entirely and gains Advantage on his next melee attack.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer-note">
+    FROGS 5 System &bull; Choice Gate 3: Fire B &bull; The Obsidian Lanterns Campaign
+  </footer>
+
+</div>
+
+<script>
+  function rollStat(statName, tn) {
+    const roll = Math.floor(Math.random() * 20) + 1;
+    const display = document.getElementById('roll-display');
+    const isCrit = (roll === 1);
+    const isFumble = (roll === 20);
+    const isSuccess = (roll <= tn);
+
+    let resultHtml = `<span><strong>${statName} Roll:</strong> Rolled <span style="font-size:1.15rem; color:#fff;">${roll}</span> against TN ${tn} &rarr; `;
+    
+    if (isCrit) {
+      resultHtml += `<strong style="color:var(--green-accent);">CRITICAL SUCCESS (Nat 1)! x2 Total Damage!</strong></span>`;
+    } else if (isFumble) {
+      resultHtml += `<strong style="color:var(--red-danger);">CRITICAL FAILURE (Nat 20)!</strong></span>`;
+    } else if (isSuccess) {
+      resultHtml += `<strong style="color:var(--blue-accent);">SUCCESS (Margin: ${tn - roll})</strong></span>`;
+    } else {
+      resultHtml += `<strong style="color:#f87171;">FAILURE (Miss by ${roll - tn})</strong></span>`;
+    }
+
+    display.innerHTML = resultHtml;
+  }
+
+  function rollRawD20() {
+    const roll = Math.floor(Math.random() * 20) + 1;
+    const display = document.getElementById('roll-display');
+    display.innerHTML = `<span><strong>Raw d20 Roll:</strong> <span style="font-size:1.2rem; color:#fff;">${roll}</span></span>`;
+  }
+</script>
+
+</body>
+</html>

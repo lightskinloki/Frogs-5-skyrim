@@ -1237,135 +1237,180 @@ GM -- LOOT, THE DEN: Pilgrims have used this path for seven thousand years and t
 EXIT -> The Old Way route rejoins here too -- the same troll, the same den, from the far side. -> 20 High Hrothgar
 EXIT -> Past the ninth tablet, up toward High Hrothgar. -> 20 High Hrothgar
 
-# 20 High Hrothgar
+# 20 High Hrothgar — The Cold Hearth & Strategic Recap
 
-SUBTITLE: 3C -- the order that will not come down. The resupply stop, NOT a rest -- the coldest scene in the module.
+SUBTITLE: 3C Aftermath -- The swept hearth, the four silent monks, and the strategic recap before the descent
 
-GM: FIVE Greybeards: ARNGEIR, EINARTH, BORRI and WULFGAR in the monastery, and PAARTHURNAX their grandmaster at the summit -- sealed behind weather only a Shout clears, unreachable this module. Only ARNGEIR speaks; the other three do not speak at all. The party gets resupply and the WHERE. What they do not get is help.
+GM -- CURRENT STATE AT SCENE OPEN:
+The audience with Arngeir is over (Ch.28:47-53). Arngeir delivered the core lore:
+- The Throat of the World is a cosmic Tower being unmade from its root below.
+- The sealed Undercroft door is inside the Frost Troll's den down the mountain.
+- Opening the door requires unison speech of True Need ("TAH JOOR NIR, THU'UM VEN SU'UM").
+- Arngeir observed Bjorn's unaged throat in silence, traded dried mountain goods for healing draughts and FP restoratives, and returned to the floor.
 
-GM -- THE SPINE OF THIS SCENE (hold it): the order is NOT torn. There is no faction to win over and no argument in progress. They considered whether the unmaking of the mountain constitutes a True Need, they ruled that it does not, and the matter is closed. Arngeir will answer any question the party asks, completely and without evasion -- because TELLING IS NOT DOING. He hands them the door, the words, and the history, and does not move one step toward it himself. Play him calm, not agonized. The horror is that he is at peace.
+All four Greybeards sit motionless in deep meditation across the hall. They are done speaking. The firepit in the center of the hall is swept completely clean of fire and ash. The party is dividing potions and checking packs around the cold pit.
 
->> READ ALOUD
-High Hrothgar is one long block of grey stone set into the mountain where the Steps end, and there are no windows in the face of it. The last tablet stands beside the doors, under a skin of black sap standing in every cut of the carving.
-
-The doors are shut. They are not barred. They swing when pushed.
-
-Inside is a single hall, colder than the open air you just left. A firepit at the center holds no fire and no ash -- swept out, and left that way. Four old men in grey robes sit on the floor at wide intervals, none of them near another, none of them near the pit. They do not look up when the doors open. They do not look up when the doors close.
-
-One of them stands.
-
-GM -- Emblem X, fully drowned (nothing to read aloud from the stone itself -- Arngeir says it aloud in 3C because the mountain no longer can): what the party never gets from the stone: "The Voice is worship. Follow the Inner path. Speak only in True Need." This is the Greybeards' entire doctrine -- the single most drowned stone on the mountain.
-GM: HIDDEN LAYER, this stone (the last of seven) -- hand out Emblem X's masked fragment now (full line: same as above, recovered whole, no other way to get it). If the party has been collecting the hidden layer, the message COMPLETES here, outside, before they ever go in.
-
-GM -- THE ASSEMBLED MESSAGE, read it now if this is when it completes:
+GM -- THE CENTRAL THEME & VISUAL ANCHOR: "ABANDONING THE FIRE"
+The firepit in the center of the hall holds no fire and no ash -- swept clean and left that way. The horror of the Greybeards is that they are at peace; they view the unmaking of Skyrim as the natural turning of a Kalpa. To them, mortal intervention without a Dragonborn is a category error. The scene opens on the cold reality: no institution is coming to save the world, no hero has arrived, and the party is standing alone around an empty hearth.
 
 >> READ ALOUD
-"There is a stair that goes down to the root of this mountain. I did not close it with stone, nor with iron. I closed it with the last stone of the path -- the words cut upon it are the door. Bring every voice you have to that threshold, and let them all speak those words at once, in true need. The Voice is worship. Follow the Inner path. Speak only in True Need."
+The monastery hall is colder than the mountain wind outside. At the center of the flagstones, the great firepit holds no fire and no ash -- swept clean to the bare stone.
 
-GM: They now have the HOW and no idea where to use it.
+Four old men in grey robes sit on the floor at wide intervals, none near another, none near the empty hearth. Their eyes are closed; their breathing is slow and shallow. The trade is done, the warnings have been given, and the silence has closed back over them like water over stone. They do not look up. They do not move.
 
-**ARNGEIR:** "Is that Klimmek's?" (first words; he is looking at the pack, not at their faces)
+--- THE STRATEGIC RECAP: THE 3-STAGE DUAL-TARGETED RELAY ---
 
-GM: He does not greet them and does not ask who they are. If they hand the pack over, he takes it in both hands and carries it to the three seated men before he says anything further; they eat where they sit, without speaking. Only then does he come back. If the party did NOT bring the pack, he says "Then no," sets the matter down, and the scene proceeds -- colder and shorter, and he gives the same information anyway.
+GM PROTOCOL -- DUAL TARGETING:
+In each stage, the NPC addresses TWO specific player characters who share that thematic stake, pulling both into the conversation together before the floor opens to the whole table.
 
-**ARNGEIR:** "Nobody has come up in some weeks. Tell me what is down there."
+STAGE 1 -- ESBERN TRANSLATES THE MACRO-STAKES
+Targeting: DAVINIA / ISMARA (The Charter Leader) & ORION (The Tactical Strategist)
+While packing his satchel, Esbern looks over at the four silent monks, clutching his journals to his chest. He turns directly to Davinia and Orion:
 
-GM: HE IS STARVED FOR NEWS AS WELL AS FOOD. Let the party report Ivarstead, the cultists, the troll, whatever they choose to tell him. He listens all the way through without interrupting. Whatever they say, he receives it the way a man receives weather -- not as a call to action.
+>> ESBERN:
+"Thirty years I hid in the dark thinking if we reached this mountain, there'd be an order waiting. Masters who would stand with us. And they're just... sitting in the dust, letting the world crack under their knees.
 
-GM -- WHAT ARNGEIR GIVES FREELY (he answers everything; asking costs the party nothing):
-- WHAT IS HAPPENING TO THE MOUNTAIN: "The Throat is one of the pillars that hold the world up. Something at its root is cutting into it." If asked how he knows: "We have sat on it our whole lives. You would know too."
-- THE WORD FOR IT (the hard reveal): if asked what such a pillar is properly called: "An old word. Older than the mountain's own name." (a pause) "A Tower." (a pause) "There is more than one. The Throat is only the one beneath us."
-- THE WHERE, the door: "There is a door below you. On the path, where the wind runs between the overhang and the rock." (a pause) "You will have walked past it."
-- THE HOW, he knows the mechanism and says so plainly: "It opens to many voices at once, spoken in true need." (a pause) "We are four, and three of us do not speak at all."
-- THE WORDS (only if the party has not already assembled the full message from the stones): the stone at the door is fully drowned; he recites what it no longer can. **ARNGEIR:** "The Voice is worship. Follow the Inner path. Speak only in True Need." (a pause) "That is the whole of it. That is what opens the door." If the party already has the complete assembled message, skip this -- he has nothing to add.
-- THE SUMMIT: sealed by weather no one here can walk through; only a Shout clears it. Their grandmaster is up there. Arngeir confirms this if asked and will not discuss it further. NO Paarthurnax reveal in this module -- if the party pushes, he stops answering.
-- WHAT THE MASTERS CANNOT DO: no special senses of any kind. They do not see Ismara in Davinia. They sense nothing whatsoever in Bjorn -- nobody can sense a Dragonborn, and no beat in this scene goes near it. They perceive nothing of Hircine's mark on Ylva, and nothing of the stag's attention on Saijah, either -- the same blanket rule, no exceptions for any god's claim on anyone present. They know Word Wall locations and history. That is the whole of their gift.
+Jurgen Windcaller chose silence because the Voice humbled him -- and these four view Alduin as a natural end. They will not lift a finger without a Dragonborn. And without a Dragonborn, we are standing against the Mortal Limit!
 
-GM -- THE REFUSAL (short, calm, final -- do not let him make a speech of it): If the party asks the Greybeards to come down, to fight, to open the door themselves, or to use the Voice at all:
+Alduin is raising dragons from their mounds across Skyrim. Mortal iron cannot kill them permanently -- they knit back whole when he calls their names. And our mortal throats will burst if we try to speak dragon words.
 
-**ARNGEIR:** "No."
+Davinia, you carry the charter. Orion, you map the strikes. What is our strategy when we walk back out that door? How are we supposed to fight a dragon war with ordinary mortal steel?"
 
-If pressed:
+GM: STOP. Turn to Davinia and Orion's players: "How do the two of you answer Esbern?"
+(Let them respond, debate strategy, or loop in the rest of the table.)
 
-**ARNGEIR:** "We will not go down."
+STAGE 2 -- BJORN TRANSLATES THE HUMAN COST
+Targeting: SAIJAH (The Road Companion / Animal Bond) & DAVINIA (Heard his War-Hound trauma in Riften)
+Bjorn stands by the cold, swept hearth, staring down at his rough hands. Once Davinia and Orion finish speaking, Bjorn cuts across the room, his voice flat, heavy, and exhausted, looking directly at Saijah and Davinia:
 
-If asked whether this is a True Need -- the question the whole order turns on:
+>> BJORN:
+"Stop talking about thirty years of prophecies, Esbern. 
 
-**ARNGEIR:** "We considered it. The answer was no."
+(He looks up at Saijah, then Davinia, his eyes tired and red-rimmed.)
+Mable knew the road down that mountain better than any of us, and her guts are frozen to the floor of a troll den twenty minutes down the path. Four holy men watched us walk in here half-frozen, and not one of them moved to light a fire or said 'take the safer pass.'
 
-If asked why, and only if asked directly:
+Saijah... Davinia... you two know what this road costs. If the wisdom that's supposed to save the world couldn't spare a word to save an old horse, what are we doing marching back down there? We couldn't even protect Mable. How are we supposed to protect anyone else?"
 
-**ARNGEIR:** "The Tongues went to Red Mountain with the Voice at its full strength, and they came away humbled. Jurgen sat with that for seven years before he understood it." (a pause) "He chose silence. We keep it."
+GM: STOP. Turn to Saijah and Davinia's players: "How do you answer Bjorn?"
+(Let them address his grief, steady the party's resolve, or define what they are fighting to protect.)
 
-GM: That is as far as he goes. He does not apologize, does not agonize, does not ask them to understand, and does not stop them leaving. If a player calls it cowardice to his face, he does not defend himself -- he waits until they are finished and then answers the next practical question they ask. Nothing the party says moves him and no roll changes it. This is not a persuasion scene; do not offer one.
+STAGE 3 -- YLVA TRANSLATES THE HUNTER'S CREED
+Targeting: ALFONSO (The Living Lich / Defier of Mortals) & SAIJAH (The Fellow Hunter)
+Ylva pushes off her pillar, resting her battleaxe across her shoulder. She steps into the circle, looking at Esbern, then Bjorn, and locks eyes squarely on Alfonso and Saijah:
 
-GM -- RESUPPLY, AND WHY THEY CANNOT STOP HERE: THERE IS NO REST HERE. NONE. NOT EVEN A SHORT ONE. A Short Rest is an HOUR, and the party does not have an hour -- the working in the undercroft is running the entire time they are standing in this hall. If they bed down, if they take a Short Rest, if they sleep: GAELEN FINISHES. The ritual completes, he is gone, and the module's ending changes to a failure state. Say the pressure out loud in fiction if you have to, through Arngeir or through the floor shaking, but do NOT let the table treat this as a safe house. They can walk in, talk, trade, and walk out. That is all this place offers.
+>> YLVA:
+"Mable's dead. An old horse died on a cold hill, and crying into an empty hearth won't put breath back in her lungs. The beast that took her is sitting right on top of our door.
 
-- THE STORES (offered if the party brought the pack, or if they ask): **ARNGEIR:** "There are stores. Pilgrims left things -- remedies, mostly. We have no use for them." What is on the shelves: healing draughts and restoratives left as offerings over years, and dried stores four old men cannot get through. GM: hand out a modest allotment of HEALTH and FP potions priced from your own item tables -- enough to matter going into Section 4, not enough to trivialise it. If the party did NOT bring Klimmek's pack, halve it: what is left is what a hungry monastery can spare.
-- THE TRADE IS THE POINT: the party feeds a starving order and is repaid in medicine and information by men who will not lift a hand for them. Let it sit without comment.
+(She gestures with her chin toward Alfonso, then turns her gaze onto Saijah:)
+And look around this circle, scribe. Alfonso is riding crystal bones. Davinia is wearing stasis. Saijah has a goddess in her chest, and Bjorn stopped aging. You're the only ordinary mortal shivering in this room. We'll find a way.
 
-GM -- KYNARETH (Saijah, station 5; the goddess, NOT the masters, and NOT about anyone else): This is Kyne's own mountain, and it is the first time in the campaign the goddess gives Saijah something that is not an instruction. Hand her PLAYER the sensation and nothing else: standing in this hall, the two sources of her migraine line up for a moment the way two notes struck together make a third -- and for that moment she feels, completely and with no words attached, that the thing under this mountain and the thing under Eldergleam are the SAME KIND OF THING. Then it slips, and the pain comes back doubled. Nothing is named. No conclusion is supplied. What she makes of it is hers, and she may make nothing of it yet -- what this plants does not come due until station 7, on the road out.
-GM -- THE SAME MOMENT, ONE MORE IMAGE: before or after the Tower-parallel sensation above, hand her PLAYER one more wordless image -- a wind carrying a soul upward, toward something vast and cold and crowded with the honored dead, and the sense that whatever she is enduring on this mountain MATTERS to more than the mountain itself. This is the reason to keep enduring the migraine, not a new instruction. If her player ever privately arrives at whose soul it is, that is theirs to reach -- NEVER confirm it, never name him, never let a Word Wall or a master's glance do the work for them (nobody can sense or confirm a Dragonborn, module-wide, no exceptions).
+The monks chose dead stone. We are living teeth. The wild doesn't wait for dragon-kings or holy men to give permission to hunt. If it bleeds, we kill it. If it gets back up, we kill it twice. 
 
-GM -- THE OTHERS AT THE MONASTERY (each routed through a player, each short):
-- DAVINIA/ISMARA, the only eyes that can READ it: hand her player the picture, not a verdict -- the leyline lattice of the Tower, and the shape of the corruption running down into its root. She can also see what her own gift could do here -- freeze the wound locally, stasis set against chaos. Put the option on the table once, plainly, and run whatever she chooses. GM-side only: using it advances the CDI. Do not push it, do not forbid it.
-- ORION, the tonal architect: the corruption is a frequency phenomenon and he is the one person here equipped to read it as MECHANISM. A Diagnostic Song in this hall maps the working's structure -- this is what unlocks his Very Hard (-6) counter-note option at the anchors in Section 4, and it feeds his Severance research. GM-only, say nothing: the Ring has fed Valerius every moment of this climb, live.
-- ESBERN: the first library he has stood in since the Ratway, and these records run back further than the Blades' own. Give him one real find and let his player decide what to do with it. He wants the Dragonstone and will say so again on the road out.
-- GEAR (only if he made the ledge crossing at Emblem VII -- if the party sent him back, skip this entirely): he climbed, because everyone climbed. He measures the distortion in this hall and reports the figure flatly to whoever is listening. Keep him brief and keep the joke off it.
-- THE THREE WHO DO NOT SPEAK: Einarth, Borri and Wulfgar are present in every beat of this scene and say nothing in any of them. They eat if fed. They do not rise, do not gesture, and do not acknowledge the party leaving. Do not give any of them a line -- not one word, not for any reason. Their silence is the scene.
+Alfonso... Saijah... tell this scribe what we are. Are we ready to go down and take our meat, or are we sitting here in the cold?"
 
-EXIT -> THE BLOCK: the summit is sealed, and the way down is not in this monastery at all -- it is back at the wind-tunnel, where the troll's den sits. Everything they climbed for is behind them. They go back down. -> 21 The Descent -- Ylva & Saijah
+GM: STOP. The floor belongs to the players.
+(Let Alfonso and Saijah answer, the party align, and the players give the marching order to descend.)
+
+--- COMPANION STATIONS (Tactical & Emotional Textures) ---
+
+GM: If players speak with companions while packing, hand them these pieces:
+
+- OLD BJORN (The Unaged Throat & Mable's Debt):
+  Bjorn stands near the empty hearth, coat pulled tight against the draft, staring at his rough hands. If spoken to:
+  "The old man looked at my throat like he was trying to remember a song he hadn't heard in two hundred years. Didn't ask my name. Just looked."
+  (A beat. He looks toward the heavy timber doors.)
+  "Mable's still out on that ledge. We have a debt to pay that beast."
+
+- ALFONSO (The Mountain as an Acoustic Horn):
+  Alfonso's 206 crystal bones click dryly in the draft -- a Lich of Peryite and Namira piloting a Dagonite skeleton through Skyrim's holiest shrine:
+  "This entire hall is an acoustic horn. The monks feel the unmaking in their teeth every second they sit there. Their peace isn't holiness -- it's anesthesia."
+
+- ORION (Tonal Mapping & The Unison Threshold):
+  Nursing his amputated left arm inside his coat, listening to the resonance:
+  "Arngeir said the door opens to voices speaking in True Need at the threshold. That means we don't just kill the troll -- we have to stand in that den and speak as one. If one voice is out of tune, the stone stays sealed."
+  (GM note: Diagnostic Song here unlocks Orion's tonal disruption at the undercroft anchors.)
+
+- NORA (NPC Companion / Banked Firepower):
+  Seated on a low stone bench, packing the newly traded draughts into her satchel, hands tucked into her sleeves holding her 20 banked fireball charges. 
+  (GM note: Nora holds the silver bullet against the Frost Troll's cold regeneration.)
+
+- SAIJAH (Station 5 -- Kyne's Wordless Sensation):
+  Hand her PLAYER the sensation directly: Standing in this hall, the two sources of her migraine line up for a moment the way two notes struck together make a third -- and for that moment she feels, completely and with no words attached, that the thing under this mountain and the thing under Eldergleam are the SAME KIND OF THING (Towers). Then it slips, and the pain comes back doubled.
+  (Also hand her the wordless image: wind carrying a soul upward toward something vast, cold, and crowded with honored dead -- the reason to endure the pain.)
+
+- MILA & GEAR (Measuring the Planar Shear):
+  Mila (aged to ~10-12) stays close to Bjorn's flank. GEAR rolls quietly on the flagstones, reporting flatly:
+  "Monastery planar shear within acceptable tolerances. External descent exceeds structural safety parameters by 412%."
+
+EXIT -> THE DESCENT:
+The recap is complete; the resolve is set. The players give the word, unbar the heavy timber doors, and step out into the freezing summit ridge. -> 21 The Descent -- Ylva & Saijah
 
 # 21 The Descent -- Ylva & Saijah
 
-SUBTITLE: The main 7,000 Steps ridge -- before the troll's den
+SUBTITLE: The main 7,000 Steps ridge -- walking the descent before the troll's den
 
 >> READ ALOUD
-The stone archway of High Hrothgar drops behind you, and the summit wind hits immediately -- crosscut and freezing over the exposed stone. The steps are slick grey slabs under crusted snow, tilted from centuries of frost-heave. The blood-furrow where Mable fell is visible below on the approach -- frozen dark in the snow. Down at the bend, steam rises steady from the mouth of the Frost Troll's den where the path narrows into the shelf.
+The heavy timber doors of High Hrothgar close behind you, and the summit wind hits immediately -- crosscut and freezing over the bare stone slabs. Down at the bend, steam rises steady from the Frost Troll's cave where the path narrows onto the shelf. Mable's blood-furrow is frozen dark in the drift below.
 
-Saijah leads down the ridge, bow slung, hands free.
+Saijah takes the lead down the ridge, bow slung, keeping her center low on the iced steps.
 
-Halfway down the exposed stretch, Ylva breaks out of file. Her boots crunch on the frozen crust. She drags the head of her battleaxe along the stone step -- iron screeching on granite, throwing faint sparks into the wind -- and cuts hard across Saijah's line, planting her boots sideways across the slab to block the descent. Her breath comes fast in the cold; her knuckles are white on the haft.
+Ylva drops into stride beside her. Her boots match Saijah's pace on the rock, battleaxe resting across her shoulder. For a while there is only the wind and the crunch of crusted snow under their soles.
 
-She leans in on the exposed rock, blocking the drop, and looks directly at Saijah.
-
-GM: This is a social confrontation. Saijah is a PC -- NEVER script her lines, thoughts, or actions. React to whatever the player gives you. Ylva is restless, manic, and sharp. She smells Hircine's interest on Saijah from the climb and is probing whether Saijah is an Alpha stepping into the hunt, a rival claiming the god's eye, or a coward wasting His attention.
+Ylva looks down at the trail, then sideways at Saijah:
 
 >> YLVA:
-"You walked us off the steps onto a road none of us could read. Who gave you the scent?"
+"How close did he get?"
+
+(A beat. She watches Saijah's footing on the ice.)
+
+"The stag. When you followed it off the road. How close did it let you walk?"
+
+GM: This conversation happens in motion as they descend. Do not stop their movement. Ylva is walking beside Saijah, watching how Saijah holds herself. Her voice is quiet, carrying over the wind -- laced with raw, bitter jealousy, but grounded in what waits for them at the bottom of this ridge.
+
+>> YLVA:
+"Fifteen years since Jorrvaskr, Saijah. I tracked that scent through the Reach and the Rift every winter of my life. He never let me within three hundred yards before the wind turned. 
+
+And you walked right behind him on an Atmoran stair like you were sharing a cart.
+
+(She looks down toward the steam rising from the troll den below.)
+
+Arngeir told us what's down there. That door doesn't open to a spell or a key. It opens when all of us stand in that cave and speak in True Need with one throat. The stone knows if one voice is out of tune. 
+
+So don't walk down to that threshold pretending you're just a lost ranger who found a shortcut. My god is in your skull, Saijah. What are you going to say when we reach that door?"
+
+GM: STOP. Turn to Saijah's player. Ylva has laid the truth out on the snow: the jealousy, the god's attention, and the requirement of the threshold below. How does Saijah answer her?
 
 --- REACTION BRANCHES (4) ---
 
-BRANCH 1 -- If Saijah deflects / dismisses / gives a short cold brush-off ("Nothing," "Lucky," tries to step past):
-Ylva doesn't yield the slab. She leans her weight into the block, scraping the axe louder against the stone:
+BRANCH 1 -- If Saijah admits the terror / the migraine / the god's pressure ("I didn't want this / It hurts / He won't leave my head"):
+Ylva looks at her, the jealousy softening into a hard, grim understanding. She keeps pace down the slab:
 >> YLVA:
-"Lucky doesn't read Atmoran. I spent twelve years in Jorrvaskr before they threw me out. I know what He leaves on people. You didn't find that stairway. It was put in front of you, and you walked up it like you were on a leash. Decide if you're running or being run."
-(Leaves the probe open. Saijah now knows Ylva smells Hircine's interest. No resolution.)
+"He doesn't leave. He corners you until you take His teeth or break. I wanted that attention my whole life, and He gave it to someone who hates the taste of blood. But if you're hurting, don't hide it from the line. When we stand in that blood below, bring that pain to the door. The stone will hear that."
+(Primes Saijah to speak with raw, unmasked truth at the threshold.)
 
-BRANCH 2 -- If Saijah admits the supernatural scent / White Stag / the path:
-Ylva's jaw tightens, then the manic tension eases into fierce recognition. She crowds half a step closer, eyes wide:
+BRANCH 2 -- If Saijah pushes back / tells Ylva to stay out of her head ("Mind your own business / I'm doing what I have to do"):
+Ylva's eyes narrow, a sharp, fierce smile cutting across her wind-chapped face:
 >> YLVA:
-"The stag. You saw it. I've followed that scent for fifteen years and never caught it. He leads you straight to it and you don't even know what it was. So are you taking it? An Alpha doesn't get shown a road and leave it empty."
-(Puts Saijah on the spot regarding Hircine's courtship. Leaves the crossroads unresolved.)
+"There are the fangs. If you're going to carry His scent in front of me, you better keep those teeth bared. Just make sure when we hit that cave, your voice is pointing at the same door as mine."
+(Establishes predator respect; aligns their focus on the threshold.)
 
-BRANCH 3 -- If Saijah pushes back aggressively / asserts pack leadership ("Move," "Know your place"):
-Ylva answers with matching pressure -- chest out, teeth showing. She slams the axe butt against the stone slab and laughs once, sharp:
+BRANCH 3 -- If Saijah denies it / brushes it off as an accident ("It was just a trail / It doesn't mean anything"):
+Ylva stops looking at her and stares straight down at the troll den, her jaw tight:
 >> YLVA:
-"There it is. That's the throat I was listening for. I've been under Alphas. Real ones. They don't explain themselves, and they don't flinch. Lead, then. Show me what teeth you use."
-(Ylva deliberately gives one step, yielding movement but establishing rival respect.)
+"You can lie to yourself, and you can lie to me. But you can't lie to the mountain. If you stand at that door pretending you're untouched, the stone stays shut. Own what walked with you on that stair."
+(Leaves the warning heavy in the air as they approach the bend.)
 
-BRANCH 4 -- If Saijah stays completely silent / walks past:
-Ylva lets her step around without grabbing. She turns as Saijah passes, calling flat into the wind:
+BRANCH 4 -- If Saijah stays silent and keeps walking:
+Ylva matches her stride in silence for several paces, watching the steady grip of Saijah's hands:
 >> YLVA:
-"Silence won't make Him look away. Hircine doesn't wait. Whatever that stairway was, it was an invitation. And invitations expire."
-(Ylva falls in directly behind Saijah, matching stride, shadowing her in silence down to the bend.)
+"Keep it quiet if you want. But I know what you smell like now. And when the beast comes out of that cave, don't hold back."
+(They descend side-by-side into the shelf in heavy, focused silence.)
 
 --- THE COMBAT PIVOT ---
 
-Before any branch can settle or resolve -- a massive, wet ROAR rips up the slabs from the cave mouth on the bend below. Steam bursts into the freezing air, and the frozen blood-furrow from Mable points straight into the dark.
+As the path narrows into the shelf -- a massive, wet ROAR rips up from the cave mouth. Steam billows into the gale, and the stench of the troll's den hits their faces.
 
-Alfonso's 206 crystal bones lock facing the cave. Nora's staff pulses, hands coming free of her sleeves. 
-Ylva snaps away from Saijah instantly -- mid-word or mid-stare, her hips turn down-slope, her axe comes up two-handed, and she charges down the slick slabs, screaming into the wind:
+The conversation ends instantly. Ylva's battleaxe whips off her shoulder in both hands, her combat fury surging as she lunges down the icy slabs:
 
 >> YLVA:
 "I'm taking the first hit! Nobody steal it!"
@@ -1374,16 +1419,167 @@ Encounter snaps to initiative. -> 21B The Frost Troll & The Threshold
 
 # 21B The Frost Troll & The Threshold
 
-SUBTITLE: The Wind Tunnel & Jurgen's Door
+SUBTITLE: The Wind Tunnel & Jurgen's Door -- Combat & the Unison Recitation
 
-GM: Run the Frost Troll combat at the den mouth. The troll is the owed fight from the ascent (Ch.28:43, 53). Ylva charges the front-line aggro; Alfonso's crystal bones provide flanking; Nora holds 20 banked charges; Saijah snipes.
+>> READ ALOUD
+The 7,000 Steps narrow into a high mountain gap between a sheer wall of rock on your left and a long overhang on your right. The summit wind howls through it like a flume, driving snow sideways. Visibility past twenty feet is a wall of moving white.
 
-AFTER THE TROLL FALLS:
-The far wall of the sheltered cave is Jurgen Windcaller's door. The wind is running. Run the recitation (full solution, failure consequences and hint tiers are in Scene 14) in the quiet, standing in the blood and the snow of a fight they just won -- everyone present, every voice, Emblem X's line spoken at once:
-"TAH JOOR NIR, THU'UM VEN SU'UM" (or the full True Need recitation).
-GM -- BATTLEMAP: see map_3B_wind_tunnel.svg in this folder.
+Under the overhang, the wind drops. Snow lies undisturbed on the floor of a shallow cave where dark steam rises.
 
-EXIT -> The door opens. -> 22 The Climax -- The Undercroft
+Something in that sheltered dark stands up. It keeps standing up until its head brushes the stone roof -- nine feet of matted white fur crusted with black sap, three milky eyes, and forearms thick as tree trunks. 
+
+Across the cave floor, Mable's frozen blood-furrow leads directly between its feet.
+
+GM: Roll initiative.
+
+--- TERRAIN: THE WIND TUNNEL ---
+
+- THE OPEN GAP (Most of the battleground):
+  - Width: 4-5 can stand abreast.
+  - Visibility: ~20 ft. Ranged attacks beyond 20 ft are made blind (Hard Agility -4).
+  - High Wind: Burning effects last HALF duration (round up). A 3-round burn lasts 2 rounds out here.
+
+- THE OVERHANG / THE DEN (The Troll's sheltered ground):
+  - Sheltered: Out of the wind. Burning effects last their FULL duration.
+  - Enclosed: Only ground where fire behaves normally, but puts the party in close quarters with nowhere to retreat.
+  - The Door: The flat stone wall at the back of the cave is Jurgen's sealed door.
+
+--- BOSS STAT BLOCK ---
+
+FROST TROLL, DAGON-WARPED -- TL 3 BOSS (Expert Tier, AP ~12)
+Stats: Might 19 (P) | Agility 17 | Magic 13 | Guile 8
+HP: 900 (Three Phase Bars of 300 HP each) | Base Dmg: 41
+Villain Action: 1 bonus action at the end of every second player's turn. Damage does not carry over between bars.
+FIRE: ALL fire damage against it is DOUBLED in every bar (Nora's banked fireballs are devastating here).
+No Turn-by-Turn Regen: Its regeneration IS the phase transition when a bar breaks.
+
+[BAR 1: 900 -> 601 HP] -- THE TROLL
+- DR: 22 | Immune: Frost | Weakness: Fire (x2)
+- Attacks: 1 attack per turn, Dmg 41. Grabs and mauls; drags targets toward the den.
+- Behavior: Fights like an animal defending its lair; prioritizes closest targets and protects the cave mouth.
+
+>> READ ALOUD -- When Bar 1 Breaks (Transitions to Bar 2):
+The troll drops to one knee in the drift. The wound does not just close -- it keeps growing. A pale, hairless arm pushes out beneath its left shoulder. Another erupts from its spine, the unfinished flesh the color of the inside of a mouth. It plants all four arms in the snow and rises.
+
+[BAR 2: 600 -> 301 HP] -- TOO MUCH ARM
+- DR: 14 (New flesh has no thick hide) | Immune: Frost | Weakness: Fire (x2)
+- Attacks: 2 attacks per turn, Dmg 41 each.
+- Behavior: Highly dangerous. Doubled damage output with full coordination and aim.
+
+>> READ ALOUD -- When Bar 2 Breaks (Transitions to Bar 3):
+The creature's back splits open. A sliding mass of pale limbs reaches down into the snow. The three eyes cloud over as two new eyes tear open along its ribs. It turns toward you with an unbroken, continuous roar and reaches forward with a leg.
+
+[BAR 3: 300 -> 1 HP] -- THE BROKEN LOOP
+- DR: 10 | Resistances/Immunities: NONE (Cannot hold form long enough to resist anything) | Weakness: Fire (x2)
+- Attacks: 3 attacks per turn, Dmg 41 each (GM dial: reduce to 2 attacks if party DR is low).
+- No Morale / No Facing: Never staggers or flinches; cannot be flanked.
+- THE BODY ANSWERS WRONG -- Roll 1d20 for EACH attack:
+  - 11+: Hits intended target.
+  - 6-10: Different limb strikes a RANDOM creature in reach (ally, enemy, or companion).
+  - 1-5: Hits rock or snow (0 damage).
+
+--- LOOT (The Frozen Den) ---
+- 30-60 gold per player in frozen pilgrim purses.
+- Consumables: 2x Draughts of Resist Frost, 2x Standard Healing Draughts.
+
+--- AFTER THE TROLL FALLS: THE THRESHOLD ---
+
+>> READ ALOUD
+The mutated mass collapses into the snow, the black sap hissing as it cools. The wind roars through the gap outside, but inside the cave, the air goes dead and still.
+
+At the back of the den, the rock wall is flat and seamless -- ancient stone covered in faint, weathered Atmoran runes beneath the ice. There is no latch, no keyhole, and no seam.
+
+GM: The party stands in the quiet of the cave where Mable died. To open the door, every member present must stand together at the threshold and speak in unison:
+
+>> THE PARTY (Spoken in True Need):
+"TAH JOOR NIR, THU'UM VEN SU'UM."
+(Or: "The Voice is worship. Follow the Inner path. Speak only in True Need.")
+
+>> READ ALOUD -- When Spoken Together:
+The words leave your mouths at once, catching the acoustic hollow of the cave. For a second, nothing happens. 
+
+Then a deep, resonant tone vibrates through the floorstones -- not stone grinding on stone, but the mountain itself unlocking. The solid rock wall shivers, turns translucent like thin ice over water, and parts down the center.
+
+A draft of hot, mineral-heavy air washes over your boots. Beyond lies a descending stair of dark living rock, bathed in the pulsing crimson glow of the undercroft below.
+
+EXIT -> The door is open. -> 21C The Antechamber of the Earth-Bone
+
+# 21C The Antechamber of the Earth-Bone (The Pre-Dragon Vault)
+
+SUBTITLE: The sealed Merethic sanctuary — pre-boss prep, ancient relics, and the metaphysical truth
+
+GM: This chamber sits directly between the troll den and the inner amphitheater where Gaelen is working at the root. It was sealed during the Dragon War when Felldir, Hakon, and Gormlaith cast Alduin through time with the Elder Scroll at the summit. The pre-cult breath-priestesses of Kyne sang this door shut to protect the mountain's foundational Earth-Bone. No pilgrim has ever walked here. No modern coins or glass potions exist here. This is an untouched Merethic vault that gives the party their pre-boss breath, pre-Dragon War equipment, and total metaphysical clarity before crossing the inner bronze doors into Gaelen’s chamber.
+
+>> READ ALOUD — THE NATIONAL TREASURE REVEAL: THE LOST VAULT OF THE RETURN
+The steps bring you down into an immense, vaulted subterranean expanse cut directly from the mountain’s dark living basalt. Your lantern light hits the gloom—and as the shadows pull back, the breath is knocked clean out of your chest.
+
+This is not a crypt. This is the lost treasury and historical archive of the First Men—the Library of Alexandria of the Nordic race, sealed away from the world before the Dragon Cult burned human history.
+
+Titanic pillars of polished black basalt and petrified mammoth-ivory rise fifty feet into the darkness, holding aloft arches draped in sheets of beaten ancient bronze. As your light catches the walls, vast carved panoramas leap out of the dark:
+- Not the frozen, dead waste of modern Atmora, but the legendary **Green Atmora** of the Dawn—sunlit coasts, rolling tundra, and great timber-halls beneath a golden sky, before the Frostfall froze the north into silence.
+- Carved mammoth-ivory friezes recording the **Landing at Hsaarik Head** and the roster of the **Five Hundred Companions**, with the names of the legendary longships (*Jorrvaskr*, *Krilot Lok*, *Kaal Kaaz*, *Fallowfire*) etched in the original, sharp wedge-runes invented by **Ysgramor's** own hand so that man's memory could never be erased by the elves.
+- At the center of the hall, resting upon stone plinths of black sea-rock, are rows of stone chests holding petrified mammoth-hide scrolls, bronze tablets, ancient sea-axes, and the pure, unperverted totems of the Old Gods: the **Hawk of Kyne** crowning the sky-vault, the **Whale of Stuhn**, the **Bear of Tsun**, and the **Wolf of Mara**—honored centuries before the Dragon Priests corrupted the animal pantheon and made the Dragon king.
+
+At the far end of the vast gallery stand a pair of colossal bronze doors hanging slightly ajar, where the pulsing crimson light and the wet thumping of the corrupted mountain-root bleed through from the ritual chamber beyond.
+
+--- THE SACRED IMPACT: RELIGIOUS ECSTASY OF THE NORDS ---
+
+GM: This is a religious rapture for every Nord in the room. The legends, the cradle songs, the campfire sagas every Nord child grew up hearing are not myth—they are standing in the physical, unbroken dawn of their entire civilization.
+
+- YLVA THE CLEAVER (Complete Spiritual Rapture):
+  * Ylva takes two steps into the chamber and stops dead. Her face goes completely slack.
+  * For the first time since anyone has known her, **Ylva drops her battleaxe**. It hits the flagstones with a dull clatter. She doesn't notice.
+  * Her hands tremble. Her feral, furious energy—the resentment toward Saijah, the venom over Hircine—drowns completely in a wave of overwhelming, sacred awe. Her breath catches in a sob.
+  * She falls to both knees before a colossal carved mammoth-ivory relief of the **Atmoran Wolf Totem**—not the bloody, diseased beast of Hircine, but the ancient, holy Wolf of the Pack, the protector of men who ran beside the hunters in Atmora.
+  * Tears cut bright, clean lines through the soot, blood, and frost on her face. She reaches out with shaking, blood-stained fingers and presses her palms and forehead directly against the cold ivory:
+    *"It's here... Shor's blood, it's all here. The songs were true. We weren't born into dirt and iron... we were kings of the sea."*
+  * For several minutes, Ylva is inconsolable in the purest sense—overcome with religious rapture, weeping in reverent disbelief, completely spiritually anchored.
+
+- BJORN (Ancestral Memory & The Heir of the Sky):
+  * Bjorn walks down the central aisle like a man wandering through a dream he had four hundred years ago.
+  * The dragon souls in his chest do not thrash—they harmonize. The mountain hums against his boots, the stone singing to the blood in his veins.
+  * He stops before the carved tablet of the **Pact of the Sky**—where Kyne breathed upon the Throat of the World and formed the first men, and where the ancient kings first learned to shout.
+  * The mystery of his de-aging is laid bare before his eyes: a mortal body decays forward along linear time, but a **dragon's soul is an immortal, timeless shard of Akatosh**. Absorbing two dragon souls in close succession has seized his biology and dragged it violently backward toward his physical prime (age 30, the apex of the Dovahkiin).
+  * He reaches out and touches an Atmoran sea-shield. For forty years he thought he was a failed soldier who couldn't protect anyone; standing in this light, he realizes who he actually is.
+
+- ESBERN (The Scholar's Nirvana):
+  * Esbern is shaking, touching the bronze tablets with trembling scholar's fingers, tears in his eyes:
+    *"The original rune-plates of Ysgramor... preserved before the Dragon War! Esbern, you old fool, you are standing in the womb of Tamriel. This predates the Dragon Cult's rewrite of our history! Everything we know about the First Era came from copies of copies... these are the first cuts!"*
+
+- MILA (The Cradle Song Made Real):
+  * Mila walks beside Bjorn, wide-eyed, tracing her small fingers over the carved ivory waves of the longships, whispering the words of the songs her mother used to sing to put her to sleep in Morthal.
+
+- BJORN (Pre-Boss Armory Find):
+  * On an honored warrior's plinth, Bjorn finds **The Sky-Tempered Atmoran Hauberk** and a **Basalt-Weighted Star-Iron Cleaver**—heavy, unadorned pre-dragon gear scaled to his immense mass, outfitting him before the battle.
+
+- ALFONSO (Rot vs. The Void):
+  * Alfonso examines the embalming alcoves, observing the pre-cult Atmoran rites where bodies decayed naturally to feed Kyne's soil.
+  * He realizes Gaelen's "unmaking" is a fraud: Rot (Namira/Peryite) is life continuing through consumption; Dagon's unmaking leaves no feast and no rot—it is sterile annihilation. Alfonso serves consumption, not the void.
+  * Pre-Boss Relic Find: In a sealed stone urn, Alfonso collects **Crystallized Dragon-Marrow Resin & Kyne-Ash**. Applying it to his obsidian chassis grants a permanent **+2 DR against Fire and Daedric spells**.
+
+- DAVINIA / ISMARA (Stasis vs. Oblivion):
+  * Ismara's Sovereign Sight reads the soul-anchor runes on the pillars. The Crown of the Pale Lady is absolute Stasis—freezing the will to prevent death. In the next room waits Jasper Avalon, who chose absolute surrender to Dagon's void to be erased.
+  * Pre-Boss Discovery: On a basalt lectern lies **The Slate of the Unyielding Queen**. Reading it grants Davinia's submerged soul the **Frost-Core Mantra**, shielding her identity from being permanently consumed by the Crown.
+
+- SAIJAH (The Mother's Heartbeat):
+  * Crossing into Kyne's consecrated hall, Saijah's blinding migraine shifts into a clear, rhythmic pulse—the heartbeat of the goddess.
+  * She connects the two Towers: the dying Gildergreens across Skyrim and the bleeding root of Snow-Throat are one nervous system.
+  * Pre-Boss Cache: In an offering font, Saijah finds **12 Gale-Tempered Broadheads** (+4 Radiant/Wind damage to Daedric/corrupted creatures; ignores non-magical DR).
+
+- ORION (Tonal Physics & The Anchor Weakness):
+  * Orion's acoustic mapping reveals the hall is an acoustic resonator. Sound funnels carved into the pillars direct vibrations to the root.
+  * He realizes the five obsidian anchors in the next room are acoustic dampeners holding the ritual together.
+  * Pre-Boss Tool: Orion finds an **Atmoran Sky-Iron Tuning Rod**, granting **Advantage on his checks to crack the anchors at range** during the fight.
+
+--- ANCIENT TREASURY & SACRED UNGUENTS ---
+- **Pre-Cult Treasury Chest:** In a floor recess sealed with pine-resin: 350 heavy Atmoran electrum and silver tokens (stamped with the Hawk, Whale, Bear; worth ~800 Septims to collectors/colleges; zero modern currency).
+- **Kyne’s Distilled Breath (3x Ceramic Flasks):** Sacred uncorrupted sky-nectar. Consuming one as a Minor Action completely restores all spent Focus Points (FP) and clears physical fatigue or poison.
+
+>> THE INNER DOORS
+The heavy bronze doors shudder with every pulse of the mountain. Beyond them, the Bosmer's voice calls out warmly into the dark:
+"Come in, come in. The mountain was kind enough to let you through... don't stand out there in the cold."
+
+EXIT -> Step through the bronze doors. -> 22 The Climax -- The Undercroft
 
 # 22 The Climax -- The Undercroft
 

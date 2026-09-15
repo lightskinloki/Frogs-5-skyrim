@@ -44,7 +44,7 @@ three holds. Track loosely by hold, not by hour — this isn't Windhelm's
 compressed 3-day Fever clock, it's a multi-week road trip.
 Hold           | Status
 The Pale       | Erik (Bersi's son) already frozen when the party arrives —
-               | weeks old, not fresh. Road has other standing figures.
+               | a few days old, not fresh. Road has other standing figures.
 Morthal        | Ismara places nodes quietly while the party is distracted
                | by the coven. Nobody connects the two while they're here.
 The Village    | The ultimatum. Two nodes, placed with the party's direct
@@ -148,8 +148,10 @@ pause in the whole morning.
 know it. But I've come to like your company more than I probably let
 on. I'd be glad of it, if you'd come with me."
 
-Ismara, at some point during the morning, produces a note and holds it
-out to whoever is nearest.
+Bjorn's still got his hand out, waiting, when Ismara crosses the space
+between them. She doesn't look at him. She's already writing as she
+walks, the same steady hand as always. She holds the page out to
+whoever's nearest.
 It says: "West."
 
 Exit -> The Order of Business.
@@ -207,6 +209,8 @@ waiting.
 Track after: what Warla actually said, and whether she told the rest
 of the party what Wulfgar found about the notation.
 
+she asked what ismara was doing ismara was honesr and openly explained wih proper jargon her plan in a way where she didnt admit to killing people as they techincally dont die
+
 Y'DROJ
 
 Read Aloud:
@@ -218,7 +222,7 @@ that quiet itself starts to feel like something to sit inside."
 
 Ask the player directly: what does Y'droj do with the evening? Let him
 describe it, however long he wants. Whatever he says, what follows
-happens regardless — not contingent on the content.
+happens regardless — not contingent on the content. he went hunting to train crossbow. he learned double shot 
 
 Read Aloud (fires unconditionally, after his description):
 "You're looking at the fire, and you start to notice the actual path of
@@ -242,7 +246,7 @@ Read Aloud:
 "Midday, and the road's cutting past the first scattered farms since
 Windhelm — fence lines, a hayrick, someone's laundry strung between
 two posts. Bjorn doesn't stop, just slows enough for Mable to pick her
-way past a rut."
+way past a rut." they are debating killing ismara again shelob wen tto interogate ismara immediatly and she refused to engage called warla to explain to shelob. 
 
 Ask the player directly: what is Shelob doing as you pass through? Let
 her describe it, however long she wants. Whatever she says, what
@@ -274,7 +278,7 @@ Track after: whether Shelob acted on this at all, and what she decided
 "helping" means on her own terms.
 
 THE WOOD ELF
-
+syndlwyn mossweaver
 Read Aloud:
 "By the time the fire's down to embers and the rest of camp has gone
 quiet, you're not in camp anymore — not far, but far enough that the
@@ -357,6 +361,9 @@ Function: The campaign's moral weight becomes personal for the first
 time. Erik is not a stranger in a field. He has a name, a father, and a
 father who trusts this specific party by name.
 Location: A farmhouse and yard just off the Pale road.
+
+SECTION 1 — APPROACH & GUARDIAN
+
 Read Aloud
 "The farm sits close enough to the road that you'd have missed it only
 if you weren't looking — a low house, a fenced yard, smoke from the
@@ -367,13 +374,14 @@ A man comes out of the house before you've stopped the cart. He's
 already moving toward you, and there's something in the way he's
 walking — too fast for approaching strangers, too controlled for
 panic."
+
 Bersi's Dialogue
 He knows who they are — "the Frostmere heroes" — word travels fast down
 a road this quiet. He trusts them because of that reputation, not
 because he has any reason to.
 Opening: "You're them, aren't you. The ones from Winterhold." He
 doesn't wait for confirmation. "My boy's been standing in that yard for
-two weeks. I've tried moving him. Tried everything. He doesn't fall
+a few days now. I've tried moving him. Tried everything. He doesn't fall
 over, he doesn't wake up, he just — stands there. Eyes go where you go."
 If asked what happened: "Nothing happened. That's the thing. He was
 helping me mend the fence and then he wasn't helping anymore. Just
@@ -384,16 +392,181 @@ will fill it himself, badly: "That's — right. Of course. You'd need to
 look at him first." He is asking them to be capable of something they
 aren't sure they can do, and he doesn't know he's asking a group that
 is, at minimum, complicit in why this is happening to his son. He does
-not rage. He's past that — he's been standing with this for two weeks
+not rage. He's past that — he's been standing with this for days
 already.
 If Ismara is present and asked about Erik directly: "His position is
 necessary." She does not apologize.
 GM note: this is the one node the party can directly compare against a
 name, a father, a specific farmhouse — not an anonymous figure in a
-field. Let the table sit in that difference before moving on. Don't
-resolve it for them; there is no cure available here, and Bersi doesn't
-expect one today. He expects them to keep looking, because he doesn't
-have anyone else to ask.
+field. Let the table sit in that difference before moving on.
+
+SECTION 2 — THE PUZZLE: WHAT'S ACTUALLY ON HIS SKIN
+Bersi's own line sets this up: "You'd need to look at him first." Any
+player can examine Erik's marking directly.
+
+Read Aloud
+"Bersi takes his boy's wrist and works the cuff back the way you'd
+clear a tarp off something you were showing a buyer. Under the cuff,
+his forearm carries the marking — geometric, angular, the same system
+you've been seeing since Windhelm. Blue-white. It lies under the skin
+like it grew there."
+
+Roll (Guile or Magic, Standard; Easy +2 if they've handled Wulfgar's
+notation or Ismara's notebook before). One or two characters at most —
+this belongs to whoever actually looks, not the whole table.
+
+On success, read:
+"You've seen this system before — on the road, in Windhelm — and every
+time, it was still at work: lines spreading at their edges, gaps where
+the pattern hadn't closed. This one is finished. Every line has run to
+its full depth and stopped. Nothing is moving, nothing is growing,
+nothing has anywhere left to grow. This is the first completed marking
+you've seen."
+(GM-only: this is the new data point — the process terminates, and a
+person can stand, complete, long after it does. Don't attach a specific
+number of days to how long completion takes; that's not known yet and
+shouldn't be invented here.)stopped with ismara crouched in a feild near erik looking at proof of dragon cultists
+
+On failure, read:
+"You get the collar open and hold the lamp where it counts. Same
+system, same placement, blue-white under the skin like it grew there.
+What doesn't settle is how far along it is. Nothing pushes past the
+read you came in with — marks still forming, mid-work."
+(GM-only: wrong — his marking is complete. Don't correct them at the
+table; this surfaces naturally later, at the Scholar's Ruin.)
+
+SECTION 3 — EXPLORATION & SETBACK: WHAT THEY TRY
+No rolls — every attempt fails the same regardless, so don't call for
+dice. Run as many as the table tries, any order.
+
+Move him: "You take hold under his arms. He does not resist; he simply
+does not move. You set your heels and put your back into it like a
+gate that's sunk in mud. His boots do not lift. Bersi watches without a
+word."
+
+Restoration magic, or any healing spell/prayer: "Whatever the party has
+that fixes a hurt stranger forms and goes into him and finds nothing to
+answer. There is no wound to close, no poison to draw, no fever to
+break. The power doesn't fail. It lands and holds the way light holds
+on a stone, and fades. The marks are exactly as they were."
+
+Warmth, or checking for cold/frostbite: "An hour in, the skin under his
+collar is cold the way it was when you started. A man who'd stood days
+in a Pale yard would show frostbite at his ears and knuckles —
+his skin hasn't done that. It doesn't take cold, and it doesn't take
+warmth."
+
+The Woodland Sight, if the Wood Elf opens it: "The marking lights the
+whole way down. It is not a pattern on a man; it threads through him
+the way roots run under a yard, and every line of it is complete and
+seated. His soul is in there, whole, and held. It has the look of work
+finished, not work being done to him."
+
+Anything else the party tries: it succeeds at doing what it sets out to
+do and still doesn't reach him. Whatever is holding him is deeper than
+anything reachable from outside.
+
+SECTION 3B — THE ACTUAL FIGHT: A SPECIMEN, ALREADY BEING WATCHED
+Ismara's nodes are a ward, not a wound — the network she's building is
+what she believes stands between the world and everything Alduin's
+return is only one symptom of (Overview:71; dev-recordsV1:1037). This
+is the first proof that the danger she's guarding against is real and
+already active, in miniature: something already circling Erik before
+the party ever arrived, for reasons that have nothing to do with her.
+
+What's actually happening (GM only): Antoine, well before his Bleak
+Falls/Forelhost operations (factions/dragon cult), is testing an early
+prototype of what will become his "Breakers" (GM Guide/False Draugr
+Reference) — cruder, weaker, same design principle: alchemical
+constructs built to look like Draugr, animated by chemistry, not
+death-energy. A frozen, permanently-marked subject is exactly the kind
+of specimen his research can't pass up. He is watching from the
+treeline and withdraws if approached directly — a long-fuse thread,
+not owed a payoff tonight.
+
+Read Aloud
+"A shape by the treeline resolves into a man in a stained coat,
+watching Erik through a spyglass with the unhurried attention of
+someone cataloguing, not threatening. He doesn't run when he's seen.
+He simply steps back into the trees — but what he sent ahead of him is
+already in the yard, and it makes no sound at all."
+
+COMBAT — EARLY BREAKER x2 (Antoine's prototype, pre-Forelhost — scaled
+to Apprentice tier from the full False Draugr Reference)
+HP 40 each | DR 4 | Dmg 6 (Alchemical Blade)
+Might 14   Agility 8   Magic 6   Guile 4
+Silent — no moans, no breath, just clicking joints and venting steam.
+Immune: fire, poison, disease, fear. Weak: cold, lightning (x2 damage
+each, and stops its regen). Regens 3 HP/turn unless it took cold or
+lightning damage since its last turn. Detect Undead/Detect Life both
+return nothing — to magic, it isn't there.
+It goes for Erik specifically — a sample, not a kill — ignoring the
+party unless blocked. The party has to physically get between it and
+him.
+If it ever reaches melee range of Erik before the party gets there:
+the marking on his skin flares blue-white, and the strike never
+lands — it recoils off him a half-second before contact, like it hit
+something the party can't see. Read this plainly, no commentary: the
+ward is real, and it is working. Let the table sit with that.
+Win it: kill it or drive it off before it reaches him. Without cold or
+lightning this is a slow grind (3 HP/turn regen on a 40 HP frame) —
+with either, it drops fast.
+
+If they win: Erik is untouched — whatever holds him in place held
+through the attack. The man in the treeline is already gone. Bersi,
+who never got a clear look at him: "Someone was out there. Watching."
+He doesn't have the words for what that means. Neither does the party,
+yet.
+
+SECTION 4 — CLIMAX & CONFRONTATION: WHAT DO THEY TELL HIM
+Read Aloud
+"Through all of it Bersi has watched without a word. When the last
+attempt stops, he is still standing where he stood when you arrived.
+'Can you fix this?'"
+
+Decision point, no roll on the choice itself. Four shapes:
+- Truth (they know it's a marking, don't know how to stop it): Bersi
+  doesn't rage — "Then when you know — you'll tell me."
+- False hope (a specific lie spoken aloud): optional Guile "spot a
+  liar" (Reference tables) if you want his belief to hinge on
+  something — his resistance is low, he wants to believe it.
+  Believed: "Then I'll have the cart ready." Not believed: "You're
+  lying. Days now I've been standing out here thinking up what I'd
+  say to make it right. When you know — you'll tell me."
+- True errand (bound for Morthal/Solitude, will ask, will return): no
+  roll. "Then when you know — you'll tell me."
+- Unsaid: let the silence sit, per his existing tree. Same line comes
+  anyway.
+Same closing line on purpose, every branch — the words don't change,
+the weight is the party's.
+
+SECTION 5 — REWARD & RESOLUTION: WHAT A MAN WITH NO GOLD GIVES
+Read Aloud
+"When they're ready to go, Bersi isn't trying to stop them. He's
+working. He rerigs the spare strap against the cart side, checks
+Mable's harness twice, and into the cart he puts what a Pale farm holds
+back against a thin season: a half-smoked ham in a sack, a net of root
+vegetables, a wrapped loaf, a skin of hard cider from last fall. He
+doesn't offer gold. He gives what he has and what he can do with his
+hands."
+
+Then, read:
+"He stands by the gate and tells them what a man hears who has been
+rooted to one yard for days. Three more farms along the road
+toward the border have someone standing in a field the same way. And
+the thing he's noticed, staring at their backs these last few days: none of
+them stand anywhere a person would stop. They stand in the middle of
+fields, facing away from the road, at distances that mean nothing to
+walking. They look like they were set where they could see the
+country."
+(GM-only: "placed, not stopped" is his observation, and it's right —
+this is the first in-fiction acknowledgment of node positioning on the
+Pale. It feeds Y'droj's mapping.)
+
+Track after: whether the completion fact was registered (and by whom);
+which of the four things they told Bersi; whether Ismara's "necessary"
+was spoken to his face.
+
 Exit -> The road continues toward Morthal.
 
 Scene: Morthal — Arrival
