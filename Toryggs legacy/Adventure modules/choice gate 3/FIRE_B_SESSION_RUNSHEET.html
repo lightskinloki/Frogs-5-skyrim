@@ -370,6 +370,153 @@
     padding: 1.15rem 1.25rem;
   }
 
+  /* GAELEN DIALOGUE DIRECTOR */
+  .director-shell {
+    background: #111820;
+    border: 1px solid #5d2635;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+  }
+
+  .director-title {
+    color: var(--gold);
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.75rem;
+  }
+
+  .director-shape {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0.45rem;
+    margin: 0.75rem 0 1.1rem;
+  }
+
+  .director-shape span {
+    background: rgba(88, 166, 255, 0.12);
+    border: 1px solid var(--blue-border);
+    border-radius: 5px;
+    color: #c9dff7;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    padding: 0.5rem 0.35rem;
+    text-align: center;
+  }
+
+  .director-status {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.55rem;
+    margin: 0.8rem 0 1.2rem;
+  }
+
+  .director-status label {
+    color: var(--text-muted);
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+  }
+
+  .director-status input {
+    background: var(--bg-dark);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text-main);
+    margin-top: 0.2rem;
+    padding: 0.4rem;
+    width: 100%;
+  }
+
+  .director-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    gap: 0.5rem;
+  }
+
+  button.director-btn {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    color: var(--text-main);
+    cursor: pointer;
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    padding: 0.65rem 0.7rem;
+    text-align: left;
+  }
+
+  button.director-btn:hover,
+  button.director-btn.active {
+    background: rgba(210, 153, 34, 0.16);
+    border-color: var(--gold);
+    color: #ffe7a3;
+  }
+
+  .director-panel {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    display: none;
+    margin-top: 1rem;
+    padding: 1rem 1.15rem;
+  }
+
+  .director-panel.active { display: block; }
+
+  .director-panel h4 {
+    color: var(--gold);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    margin: 0.9rem 0 0.3rem;
+    text-transform: uppercase;
+  }
+
+  .director-panel h4:first-child { margin-top: 0; }
+
+  .director-panel ul {
+    margin-left: 1.25rem;
+    line-height: 1.55;
+  }
+
+  .director-panel .anchor-line {
+    border-left: 3px solid var(--gold);
+    color: #fce7ba;
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0.35rem 0;
+    padding-left: 0.75rem;
+  }
+
+  .director-next {
+    border-top: 1px solid var(--border);
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+  }
+
+  .director-next button {
+    background: transparent;
+    border: 1px solid var(--border-accent);
+    border-radius: 4px;
+    color: var(--maroon);
+    cursor: pointer;
+    font-size: 0.76rem;
+    margin: 0.2rem;
+    padding: 0.35rem 0.5rem;
+  }
+
+  .director-next button:hover { color: var(--gold); border-color: var(--gold); }
+
+  @media (max-width: 720px) {
+    .director-shape, .director-status { grid-template-columns: 1fr 1fr; }
+  }
+
   /* UTILITY TAGS */
   .roll-check {
     background: rgba(88, 166, 255, 0.18);
@@ -442,58 +589,26 @@
 <nav id="sidebar">
   <div>
     <h2>FROGS 5 Consoles</h2>
-    <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 3px;">Tonight's Live Session Sheet (Full Verbatim)</div>
+    <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 3px;">Tonight's Live Session Sheet</div>
   </div>
 
-  <div class="nav-group-title">ACT I: THE TROLL DEN</div>
+  <div class="nav-group-title">TONIGHT: VAULT → SCENE 22</div>
   <div class="nav-group">
-    <a href="#scene-den-state" class="nav-item active">
-      0. Den Aftermath & Loot
-      <span>Immediate Den State (Ch. 29)</span>
+    <a href="#scene-vault-bridge" class="nav-item active">
+      Vault of the Return: Gather
+      <span>Resume before the bronze doors</span>
     </a>
-    <a href="#scene-saijah-hircine" class="nav-item">
-      1. Saijah & Hircine's Hook
-      <span>Free Trial, Crash vs Claws</span>
-    </a>
-    <a href="#scene-bjorn-carter" class="nav-item">
-      2. The Carter's Road
-      <span>Guile Roll, Mila, Broken Vow</span>
-    </a>
-    <a href="#scene-unison-chant" class="nav-item">
-      3. The Threshold Chant
-      <span>"TAH JOOR NIR" & The Basalt Door</span>
-    </a>
-  </div>
-
-  <div class="nav-group-title">ACT II: PRE-DRAGON VAULT</div>
-  <div class="nav-group">
-    <a href="#scene-vault-reveal" class="nav-item">
-      4. The Lost Vault
-      <span>National Treasure Reveal</span>
-    </a>
-    <a href="#scene-stations-prep" class="nav-item">
-      5. Prep Stations & Relics
-      <span>Alchemy, Jasper, Dakhma, Stele, Broadhead</span>
-    </a>
-  </div>
-
-  <div class="nav-group-title">ACT III: ENSEMBLE & CURTAIN</div>
-  <div class="nav-group">
-    <a href="#scene-ensemble" class="nav-item">
-      6. Ensemble Reckonings
-      <span>Bjorn, Mila, Esbern, Ylva, Varon</span>
-    </a>
-    <a href="#scene-bronze-doors" class="nav-item">
-      7. The Inner Bronze Doors
-      <span>Gaelen's Voice & Session Cliffhanger</span>
-    </a>
-  </div>
-
-  <div class="nav-group-title">APPENDIX: BOSS (IF REACHED)</div>
-  <div class="nav-group">
     <a href="#scene-boss-appendix" class="nav-item">
-      8. Scene 22: The Undercroft
-      <span>Gaelen, Jasper, 5 Anchors, Escape</span>
+      Scene 22: The Undercroft
+      <span>Gaelen, Jasper, dialogue director, ritual</span>
+    </a>
+    <a href="#scene-endings" class="nav-item">
+      Endings: pick the outcome
+      <span>Disrupt / staunch / cornered / stood aside / TPK / retreat</span>
+    </a>
+    <a href="#scene-23" class="nav-item">
+      Scene 23: Reward &amp; Resolution
+      <span>Arngeir, rewards, seeds</span>
     </a>
   </div>
 
@@ -513,8 +628,8 @@
 
   <header class="masthead">
     <div class="badge-tag">Table-Ready Session Sheet — Unabridged</div>
-    <h1 class="campaign-title">FIRE B: The Threshold & The Lost Vault</h1>
-    <p class="campaign-meta">Act III: The Mortal Limit | Continuation from Chapter 29 lines 195–214 & Scene 21C</p>
+    <h1 class="campaign-title">FIRE B: The Undercroft</h1>
+    <p class="campaign-meta">Tonight's starting point: the party is still inside the Vault of the Return, before the bronze doors.</p>
   </header>
 
   <!-- SCENE 0: IMMEDIATE DEN STATE & LOOT -->
@@ -1367,62 +1482,732 @@
     </div>
   </section>
 
-  <!-- APPENDIX: SCENE 22 THE UNDERCROFT (IF REACHED) -->
-  <section id="scene-boss-appendix" class="scene-card" style="border-top: 3px solid var(--gold);">
+  <!-- TONIGHT'S OPENING BRIDGE: VAULT OF THE RETURN -->
+  <section id="scene-vault-bridge" class="scene-card" style="border-top: 3px solid var(--gold);">
     <div class="scene-header">
-      <div class="scene-number">Appendix — Scene 22</div>
-      <h2 class="scene-title">Scene 22: The Climax -- The Undercroft (Prepped Backup)</h2>
-      <p class="scene-subtitle">Section 4 — the ritual, Gaelen at the root. Zone 3, the worst weather. The boss. Objective: DISRUPT THE RITUAL.</p>
+      <div class="scene-number">Tonight's Opening — Scene 21C Continuation</div>
+      <h2 class="scene-title">The Vault of the Return: Before the Bronze Doors</h2>
+      <p class="scene-subtitle">Resume the last session, let the party finish any immediate business, then follow them through the threshold.</p>
     </div>
 
-    <div class="gm-note">
-      <span class="gm-tag">GM:</span> Gaelen escapes by design; Jasper does not. This is the party's FIRST contact with Gaelen -- face to face, as an invitation.
+    <div class="gm-alert">
+      <span class="gm-tag">START HERE:</span>
+      The party has not entered the undercroft. Do not begin with Gaelen speaking. Begin in the vault, with everyone gathered among the discoveries they made last session.
     </div>
 
     <div class="read-aloud">
-      <div class="read-aloud-tag">>> READ ALOUD</div>
+      <div class="read-aloud-tag">&gt;&gt; READ ALOUD — RESUME THE VAULT</div>
+      <p>The vault has gone quiet around you.</p>
+      <p>The old carvings, the bronze tablets, and the figures of the first Companions remain where you found them. Esbern's notes lie open in his hands. Ylva is still surrounded by the history of the people she was cast out of. Mila wears the ancient armor Davinia fitted to her and carries the stone spear she found here.</p>
+      <p>Across the chamber, the bronze doors stand a hand's width open on the dark beyond them.</p>
+      <p>No one has gone near them yet.</p>
+    </div>
+
+    <div class="gm-alert">
+      <span class="gm-tag">OPEN THE TABLE:</span>
+      Ask: <strong>“What does everyone do before we go through the doors?”</strong> Then run the choices below as player-led scenes. This is not a recap to read aloud; it is the complete state you need while the party decides.
+    </div>
+
+    <details open class="director-status">
+      <summary><strong>Everyone present and their current state</strong></summary>
+      <ul>
+        <li><strong>Davinia / Ismara:</strong> DAVINIA is fronting -- Ch.30 ends with Davinia talking to Alfonso at the doors, looking at his ember under her skin. Ismara can take back over when the player chooses. The ember-mark under Davinia's skin glows when Ismara works on her mind. Ismara has the rubbing from the Greybeard translation and harvested three Blisterwort Caps and three Blue Mountain Flowers.</li>
+        <li><strong>Orion:</strong> He has the rubbing from the chained stele. He learned that the right counter-tone can break Molag Bal's focus and stun the holder up the sympathetic thread. Molag Bal warned him not to break the ring. Nora knows the ring can be broken; Orion has not explained the voice in his head.</li>
+        <li><strong>Nora:</strong> She helped test the chained stele and is learning Orion's basic horn-song. The song has advanced, but she needs one more study session to have it fully down.</li>
+        <li><strong>Saijah:</strong> Hircine offered silence from the migraine and unlimited Skooma in exchange for the Hawk Talon. She refused, keeping Kynareth's gifts. The crash left her with convulsions, nausea, cold sweats, exhaustion, and the returning migraine until a Long Rest. She now carries the Gale Broadhead of Kyne.</li>
+        <li><strong>Alfonso:</strong> His obsidian body is present again. He took the Runic Slates of the First Feast and has not yet treated Varon.</li>
+        <li><strong>Ylva:</strong> She learned that the first Companions were her history and stood in religious awe before their friezes. At the dakhma, she accepted Alfonso's excarnation theology: “You clean the bone. I'll tear the meat. We can hunt together.”</li>
+        <li><strong>Varon:</strong> The mountain's aging has locked his surgical face in place and reopened the old pain. He told Alfonso the whole truth about the damage and accepted the cost of Alfonso's help. Alfonso said, “Not right now. But I've got you.” The treatment is still pending.</li>
+        <li><strong>Esbern:</strong> He translated the door's words, wrote constantly in the vault, and told Saijah that the Lanterns are the Companions Skyrim needs now. He agreed to tutor Mila.</li>
+        <li><strong>Bjorn:</strong> He stayed with the company after they stopped him from taking Mable to Morthal alone. Mable is sealed in Ismara's ice casket in the den. Bjorn asked them to keep her cold and not let the rot take her.</li>
+        <li><strong>Mila:</strong> The mountain aged her to sixteen. Davinia fitted her with Ancient Nord armor and found her a stone spear. Alfonso taught her magic; she cast Shock instead of fire and singed herself, while the armor absorbed the damage. She is frightened by Saijah's Skooma use and has been keeping her distance.</li>
+        <li><strong>GEAR:</strong> Ismara built him a mechanical harness from gears and springs modeled on her boots' grip. He can cross the ice without slipping. The whole company learned the door phrase in GEAR's cadence.</li>
+        <li><strong>Balthazzar:</strong> He is with Bjorn and the company.</li>
+      </ul>
+    </details>
+
+    <details class="director-status">
+      <summary><strong>What the party found in the vault</strong></summary>
+      <ul>
+        <li><strong>Detect Life:</strong> nothing answered. The vault had been sealed since before Ismara existed.</li>
+        <li><strong>The First Men:</strong> the chamber contains Green Atmora, the Landing at Hsaarik Head, the Five Hundred Companions, and the names of their longships, including Jorrvaskr, Krilot Lok, Kaal Kaaz, and Fallowfire.</li>
+        <li><strong>The old gods:</strong> the ceiling bears the Hawk of Kyne, Whale of Stuhn, Bear of Tsun, and Wolf of Mara, from before the Dragon Cult's animal pantheon.</li>
+        <li><strong>The chests:</strong> petrified scrolls, bronze tablets, sea-axes, and old-god totems. The weapons are too rusted to use. The gold predates the Empire and has no ordinary market value; the party decided to tell no one about the vault.</li>
+        <li><strong>GEAR's map attempt:</strong> Ismara tried to route his scanner into a map of the vault. No result was established. Do not invent one.</li>
+        <li><strong>Runic Slates of the First Feast:</strong> Alfonso found the dakhma and the excarnation liturgy. The slates also contain a biological catalyst formula using geothermal fungus to stabilize decaying matter.</li>
+        <li><strong>Chained stele:</strong> Orion found a huge lute-like instrument set into the wall. Its inscriptions describe counter-tones that can shatter a vampire's focus. The instrument is tied to a pillar of reality; songs learned through it may do extraordinary things.</li>
+        <li><strong>Gale Broadhead of Kyne:</strong> a pale petrified mountain-ash arrow with meteoric iron and storm-hawk feathers. It deals Saijah's normal bow damage, returns to her current position after a hit, can strike along the return path, holds five enchantment charges, and shatters permanently only on a natural 20.</li>
+      </ul>
+    </details>
+
+    <details class="director-status">
+      <summary><strong>Jasper's journal — exact information available to the players</strong></summary>
+      <div class="anchor-line">“The Pale Lady's crypt is empty — everyone fled when the sword was moved and they barred the outer grate behind them. Left me in the dark. Three days crawling the frost-rifts. Ate dried lichen off the barrow floor. The cold isn't an absence; it has teeth. Prayed to Arkay until my throat cracked. No warmth. No light. Nobody answers.”</div>
+      <div class="anchor-line">“The Master pulled me from a snow-drift in Winterhold. He did not give me bread. He gave me the fire that cleanses the slate! The cold was never the enemy — the cold was only the fear of being unmade. Once you understand that the mountain itself wants to burn, the hunger stops. The dread stops. There is only the dawn.”</div>
+      <div class="anchor-line">“The work at the root goes smoothly. Five great needles of volcanic glass — the anchors of the First Father — driven into the dragon's throat to pin the wound open. The master sings the loop, and the stone obeys. Five anchors form the circle, but three keystones hold the tension true. If three shatter, the whole glorious knot unravels and the fire spills across the sky!”</div>
+      <p><strong>GM meaning:</strong> Jasper was rescued in Winterhold after the tomb. The journal does not say who the Master is. It does not reveal Gaelen's appearance, the undercroft's occupants, or Jasper's present condition.</p>
+    </details>
+
+    <details class="director-status">
+      <summary><strong>Available last-session NPC beats</strong></summary>
+      <ul>
+        <li><strong>Varon and Alfonso:</strong> Varon can return to the request for help. His plea was desperation, not casual curiosity. If Alfonso engages, let the player decide what the treatment costs and when it begins; the treatment itself is not already done.</li>
+        <li><strong>Bjorn and Mable:</strong> Bjorn can remain with the casket, ask about burial in Morthal, or speak about the group keeping him from leaving. Do not reveal who his late wife was; the party does not know.</li>
+        <li><strong>Saijah and Mila:</strong> Mila may keep distance, ask questions, or say she is frightened. She watched Skooma destroy her mother, but Mila and the party do not know that her mother is dead.</li>
+        <li><strong>Ylva and Alfonso:</strong> Ylva's new bond with Alfonso is available as a real relationship, not a speech about her theology. She can ask what the slates mean or simply remain close to him.</li>
+        <li><strong>Esbern and Mila:</strong> Esbern has accepted the tutoring arrangement. He may begin with letters, history, or basic magical instruction if the players choose to spend the time.</li>
+        <li><strong>Davinia and Ismara:</strong> Davinia can be surfaced by Ismara. Davinia is currently loyal to the cultivated relationship Ismara has built with her; she and Bjorn already shared a quiet moment in the vault.</li>
+        <li><strong>Nora and Orion:</strong> Nora can ask again about the ring or continue the horn-song lesson. Orion decides what he tells her about Molag Bal's warning.</li>
+      </ul>
+    </details>
+
+    <div class="gm-note" style="border-left-color: var(--gold-bright);">
+      <span class="gm-tag">DO NOT AUTOMATE THE PARTY:</span>
+      Let the players choose whether to finish one of these conversations, inspect the journal or relics, prepare for the threshold, or go straight to the doors. The next scene does not begin until they approach or cross them.
+    </div>
+
+    <div class="director-actions">
+      <button class="director-btn" onclick="showGaelenNode('vault-last-business')">They do one last thing</button>
+      <button class="director-btn" onclick="showGaelenNode('vault-journal')">They revisit the journal</button>
+      <button class="director-btn" onclick="showGaelenNode('vault-doors')">They approach the doors</button>
+      <button class="director-btn" onclick="showGaelenNode('vault-direct')">They go straight through</button>
+    </div>
+
+    <div id="gd-vault-last-business" class="director-panel">
+      <h4>Run the chosen beat from the cards above</h4>
+      <p>Stay with the character the players chose. Do not turn this into a montage. When that conversation or action ends, ask again: <strong>“What does everyone do before the bronze doors?”</strong></p>
+    </div>
+
+    <div id="gd-vault-journal" class="director-panel">
+      <h4>Use the exact journal text above</h4>
+      <p>Answer questions from the quoted material. The party knows Winterhold, the Dawn, the five anchors, and the three-keystone condition. They do not yet know what waits beyond the doors.</p>
+    </div>
+
+    <div id="gd-vault-doors" class="director-panel">
+      <h4>They approach the bronze doors</h4>
+      <p>Let them decide who goes first and whether anyone remains in the vault. When they cross the threshold, open <strong>Scene 22 — The Undercroft</strong> and read its opening description. Do not have Gaelen speak until the party has entered and seen the chamber.</p>
+    </div>
+
+    <div id="gd-vault-direct" class="director-panel">
+      <h4>They enter without another scene</h4>
+      <p>Open <strong>Scene 22 — The Undercroft</strong>. The next beat is the full undercroft description, followed by Gaelen's welcome. The party's first response belongs to them.</p>
+    </div>
+
+    <div class="scene-exit">
+      <span class="exit-label">EXIT:</span>
+      <a href="#scene-boss-appendix" class="exit-dest">Approach or cross the bronze doors &rarr; Scene 22: The Undercroft</a>
+    </div>
+  </section>
+
+  <!-- SCENE 22: INTERACTIVE GAELEN DIALOGUE DIRECTOR -->
+  <section id="scene-boss-appendix" class="scene-card" style="border-top: 3px solid var(--gold);">
+    <div class="scene-header">
+      <div class="scene-number">Scene 22 — Live Dialogue Director</div>
+      <h2 class="scene-title">The Undercroft: Gaelen at the Root</h2>
+      <p class="scene-subtitle">A responsive conversation inside an active ritual. Use the router after every player response.</p>
+    </div>
+
+    <div class="gm-alert">
+      <span class="gm-tag">SCENE SHAPE:</span> Gaelen welcomes them. The players respond. Choose the closest player-intent card. Give Gaelen's response, use the voice anchors to speak naturally, show one room reaction, then return to the router. The ritual continues throughout.
+    </div>
+
+    <div class="read-aloud">
+      <div class="read-aloud-tag">>> READ ALOUD — THE UNDERCROFT</div>
       <p>The undercroft is older than the monastery above it -- a vaulted root-cellar of the world, columns of living rock, wide as their cart, running down into shadow. Red light comes up out of channels carved into the floor with repeating Daedric script, all of them running inward to a central well where the mountain's root stands exposed -- a pillar as wide as High Hrothgar's whole front wall, rock too dense to have grain or seam, veined now with fresh black cracks where the sap has forced its way through, climbing toward an array of obsidian shards arranged in a blooming spiral.</p>
-      <p>A Bosmer moves through the array unhurried, crimson chitin catching the light, one arm a grafted mass of charred heartwood and obsidian that gestures at things he is not looking at. He is adjusting each shard with the care of a man tuning an instrument he loves.</p>
-      <p>Without turning, in a voice that is warm and genuinely pleased: <em>"Oh -- visitors. Good. I hoped the mountain would manage to be heard. Come in, come in. You are not interrupting; nothing can interrupt this. But company is rare, and I have wanted to meet you for the longest time."</em></p>
+      <p>At the center of the spiral, a man stands before the exposed root.</p>
+      <p>He is tall and slender beneath layered crimson vestments. A deep hood frames his red face, and bands of gold-edged Daedric script run from his shoulders to his waist. His eyes shine blue-white beneath the hood.</p>
+      <p>His features do not remain entirely still. The line of his jaw shifts by a fraction. His cheekbones draw higher, then settle. The shape of his mouth changes when he breathes. Every alteration is small enough to doubt, but constant enough that no single detail holds in the mind for long. He is recognizably Bosmeri. Beyond that, his face refuses to become a portrait.</p>
+      <p>His left arm is enormous. Black wood and obsidian have grown together from shoulder to fingertips, branching into a clawed graft with blue light shining through its seams. The arm reaches past him into the array and turns one of the anchor-shards.</p>
+      <p>The shard answers. Red light moves through the channels beneath your feet and disappears into the root.</p>
+      <p>Without turning, in a voice that is warm and genuinely pleased: "Oh -- visitors. Good. I hoped the mountain would manage to be heard. Come in, come in. You are not interrupting; nothing can interrupt this. But company is rare, and I have wanted to meet you for the longest time."</p>
     </div>
 
     <div class="gm-note">
-      <span class="gm-tag">GM DAEDRIC SCRIPT:</span> If a player can read Daedric or thinks to try: the carved script repeats one line -- <em>"THE TOWER TOUCHES ALL THE MANTLES OF HEAVEN"</em> -- lifted straight from the Mysterium Xarxes commentary (The Dawn Is Yours, Section VIII). Confirms, in the players' own hands rather than Esbern's mouth, that this ritual and the doctrine he described are the same order, two hundred years apart.
+      <span class="gm-tag">GM:</span> Stop after the welcome. Ask the table: <strong>"What do you do?"</strong> Do not begin a second speech until someone responds.
     </div>
 
-    <div style="background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.15rem; margin: 1rem 0;">
-      <h3 style="color: var(--gold); font-size: 0.95rem; text-transform: uppercase; font-family: var(--font-mono); margin-bottom: 0.5rem;">
-        ✦ GAELEN: HOW HE PLAYS (Unsettling, Never Evil)
-      </h3>
-      <ul style="font-size: 0.88rem; margin-left: 1.4rem; line-height: 1.6; color: var(--text-main);">
-        <li><strong>GAELEN DOES NOT FIGHT THIS ENCOUNTER.</strong> He spends the whole scene trying to bring them over, not defending himself -- Jasper is the one who fights, and the anchors are the only obstacle. If a player attacks him directly, he does not retaliate. He keeps talking.</li>
-        <li><strong>The warm, sincere, reasonable CENTER of an apocalypse.</strong> He talks like an ally trying to get compatriots to stop suffering for a stagnant world: the Aedra gave mortals a CELL -- linear time, fragile flesh; Dagon offers the KEY; the Unmaking is HEALING.</li>
-        <li><strong>THE QUIET WISH:</strong> (Plant it -- overheard when he thinks no one listens, to no one): <em>"I want it to be perfect. Please... let it be perfect."</em> Not a plea, not a crack in a mask -- the closest thing his altered architecture has to hope.</li>
-        <li><strong>THE YLVA EXCHANGE:</strong> <strong>GAELEN:</strong> <em>"Rules are the bars, hunter. I am unbending them."</em> <strong>YLVA:</strong> <em>"The rules are what make the hunt HOLY. Prey runs, hunter chases, the fastest wins -- that is the whole church. You are not freeing anything. You are pissing on the game."</em> (shaking with fury).</li>
-        <li><strong>ALFONSO:</strong> <strong>GAELEN:</strong> <em>"You of all things know the cage, brother. Rot is the door. Help me open it."</em> That is Gaelen addressing Alfonso directly -- give his player the moment and let him answer it live.</li>
-        <li><strong>IF A PLAYER NAMES MYTHIC DAWN / CAMORAN TO HIM:</strong> <strong>GAELEN:</strong> <em>"Mythic Dawn. Yes."</em> A beat. <em>"Does the name trouble you more than anything I've actually said?"</em></li>
+    <div class="gm-alert"><span class="gm-tag">CONVERSATION DIRECTOR:</span> Run the talk from the flowchart below. <a href="GAELEN_CONVERSATION_DIRECTOR.html" target="_blank" style="color:var(--gold)">Open it full-screen</a></div>
+    <iframe src="GAELEN_CONVERSATION_DIRECTOR.html" style="width:100%;height:88vh;border:1px solid var(--border);border-radius:8px;background:#0d1117" title="Gaelen conversation director"></iframe>
+    <details style="margin-top:1rem"><summary style="cursor:pointer;color:var(--text-muted)">Old card router (backup only)</summary>
+    <div class="director-shell" id="gaelen-director">
+      <div class="director-title">Live Scene Controller</div>
+      <div class="director-shape">
+        <span>PLAYER ACTION</span><span>CHOOSE INTENT</span><span>GAELEN / NPC RESPONSE</span><span>RITUAL BEAT</span><span>RETURN TO ROUTER</span>
+      </div>
+      <div class="director-status">
+        <div><label>Ritual</label><input id="gd-status-ritual" value="TALKING" aria-label="Ritual status"></div>
+        <div><label>Anchors down</label><input id="gd-anchors" value="0 / 5" aria-label="Anchors destroyed"></div>
+        <div><label>Current focus</label><input id="gd-focus" value="The party" aria-label="Current focus"></div>
+        <div><label>NPC movement</label><input id="gd-npcs" value="None yet" aria-label="NPC movement"></div>
+      </div>
+      <div class="gm-alert"><span class="gm-tag">MUST-SAY (only three):</span> (1) The welcome, in the read-aloud above. (2) The Quiet Wish, mid-fight, to whoever is near him: <em>"I want it to be perfect. Please... let it be perfect."</em> (3) The escape read-aloud at three anchors down (in the Run-the-fight card and the combat manager). Everything else: speak in your own words from the cards. Gaelen never lies, never fights, never threatens.</div>
+      <div class="director-title" id="gd-router">What did the players do?</div>
+      <div class="director-actions">
+        <button class="director-btn" onclick="showGaelenNode('question')">Asked Gaelen a question</button>
+        <button class="director-btn" onclick="showGaelenNode('accusation')">Accused him / named Mythic Dawn</button>
+        <button class="director-btn" onclick="showGaelenNode('moral')">Made a moral objection</button>
+        <button class="director-btn" onclick="showGaelenNode('jasper')">Asked about or addressed Jasper</button>
+        <button class="director-btn" onclick="showGaelenNode('personal')">Raised a personal wound</button>
+        <button class="director-btn" onclick="showGaelenNode('npc')">Spoke to an NPC</button>
+        <button class="director-btn" onclick="showGaelenNode('ritual')">Inspected the ritual</button>
+        <button class="director-btn" onclick="showGaelenNode('silence')">Hesitated / said nothing</button>
+        <button class="director-btn" onclick="showGaelenNode('attack-gaelen')">Attacked Gaelen directly</button>
+        <button class="director-btn" onclick="showGaelenNode('combat')">Moved against the ritual</button>
+        <button class="director-btn" onclick="showGaelenNode('agree')">Agreed with Gaelen</button>
+        <button class="director-btn" onclick="showGaelenNode('refuse')">Refused and chose to stop him</button>
+        <button class="director-btn" onclick="showGaelenNode('combat-card')">Combat mechanics</button>
+      </div>
+
+      <div id="gd-default" class="director-panel active">
+        <h4>Use this every time</h4>
+        <p>Choose the closest intent above. The selected card gives you Gaelen's purpose, voice anchors, information, performance, room reaction, and next routes. It is a speaking aid, not a line-reading script.</p>
+        <h4>Gaelen's constant performance</h4>
+        <ul><li>He continues working while he talks.</li><li>He answers the actual person and the actual objection.</li><li>He gives true points their due instead of pretending every objection is foolish.</li><li>He wants them to understand and stop suffering; he does not threaten them.</li><li>If attacked personally, he keeps talking. The ritual side reacts only when the work is threatened.</li></ul>
+      </div>
+
+      <div id="gd-question" class="director-panel">
+        <h4>Gaelen's aim</h4><p>Answer the question honestly and keep the players looking at the real choice in front of them.</p>
+        <h4>Voice anchors</h4><div class="anchor-line">"Ask me plainly."</div><div class="anchor-line">"That is a fair question. The answer matters."</div><div class="anchor-line">"I will tell you what I know, and where I am uncertain."</div>
+        <h4>Information to draw from</h4><ul><li>The Dawn is corrupting the Tower to release the world from Aedric stasis.</li><li>He believes this will reduce suffering, not create it for its own sake.</li><li>He will answer limits and consequences truthfully.</li></ul>
+        <h4>Performance</h4><p>Turn enough to meet the speaker's eyes. Keep the graft working on the shard. Let the answer be measured and complete.</p>
+        <h4>Room response</h4><p>After the answer, describe one assistant continuing the ritual. Return to the player action menu.</p>
+      </div>
+
+      <div id="gd-accusation" class="director-panel">
+        <h4>Gaelen's aim</h4><p>Separate the name and history of the Mythic Dawn from the truth of what he is offering now.</p>
+        <h4>Voice anchors</h4><div class="anchor-line">"Mythic Dawn. Yes."</div><div class="anchor-line">"You know the name. I want you to look at the work."</div><div class="anchor-line">"Judge what I have said by what it does, not only by the name attached to it."</div>
+        <h4>Information to draw from</h4><ul><li>He is openly part of the Dawn.</li><li>The Dawn’s purpose is the Unmaking and the release of Skyrim from imposed stasis.</li><li>He is not claiming innocence or asking them to forget the order’s history.</li></ul>
+        <h4>Performance</h4><p>Let the accusation land. Do not defend his pride. Answer it as a factual question, then return to the people suffering under the current world.</p>
+        <h4>Room response</h4><p>Esbern recognizes the enemy and hardens. Jasper continues the work. If the party names Camoran, use the established Mythic Dawn exchange from the module.</p>
+      </div>
+
+      <div id="gd-moral" class="director-panel">
+        <h4>Gaelen's aim</h4><p>Make the players confront the cost of preserving the existing world without pretending the Unmaking has no cost.</p>
+        <h4>Voice anchors</h4><div class="anchor-line">"You are asking whether the cure can hurt. It can."</div><div class="anchor-line">"I have counted that cost. I am still here."</div><div class="anchor-line">"The world you are defending hurts people every day. That cost is real as well."</div>
+        <h4>Information to draw from</h4><ul><li>He is not offering a harmless reform.</li><li>He believes the present system is already an engine of suffering.</li><li>He considers the Dawn’s risk preferable to endless maintenance of that system.</li></ul>
+        <h4>Performance</h4><p>Do not wince, smirk, or turn the objection back as a gotcha. Acknowledge the danger directly.</p>
+        <h4>Room response</h4><p>Allow the players to decide whether the admission makes him more trustworthy or more dangerous. Advance one ritual beat if the conversation continues.</p>
+      </div>
+
+      <div id="gd-jasper" class="director-panel">
+        <h4>Gaelen's aim</h4><p>Tell the truth about Jasper: the Dawn rescued him in Winterhold, and Jasper gave himself to it willingly.</p>
+        <h4>Voice anchors</h4><div class="anchor-line">"He made his choice after the Dawn found him."</div><div class="anchor-line">"You are asking whether he was taken. He was not."</div><div class="anchor-line">"He was suffering. The Dawn answered him."</div>
+        <h4>Information to draw from</h4><ul><li>Jasper’s conversion happened after the tomb.</li><li>He was rescued in Winterhold.</li><li>He is content and speaks from genuine conviction.</li><li>There is no rescue arc because Jasper believes he has already been rescued.</li></ul>
+        <h4>Performance</h4><p>Give the recognition to Davinia/Ismara’s player first. Gaelen does not claim ownership of Jasper. Jasper is a person who chose the Dawn.</p>
+        <h4>Room response</h4><p>Let Jasper answer if addressed. If the party threatens him or the ritual, go to the combat transition. Otherwise return to the router.</p>
+      </div>
+
+      <div id="gd-personal" class="director-panel">
+        <h4>Choose the person the player has brought forward</h4>
+        <p>Open the relevant NPC card below. Gaelen does not give a general speech about that character. He speaks to the wound the player has placed in the room.</p>
+        <div class="director-next"><button onclick="showGaelenNode('gear')">Gear</button><button onclick="showGaelenNode('varon')">Varon</button><button onclick="showGaelenNode('ylva')">Ylva</button><button onclick="showGaelenNode('bjorn')">Bjorn</button><button onclick="showGaelenNode('mila')">Mila</button><button onclick="showGaelenNode('esbern')">Esbern</button><button onclick="showGaelenNode('saijah')">Saijah</button><button onclick="showGaelenNode('alfonso')">Alfonso</button><button onclick="showGaelenNode('davinia')">Davinia / Ismara</button><button onclick="showGaelenNode('orion')">Orion</button></div>
+      </div>
+
+      <div id="gd-npc" class="director-panel"><h4>NPC conversation</h4><p>Open the NPC card below for the person addressed. Let the NPC answer in their own voice, then give the players a chance to respond before Gaelen speaks again.</p><div class="director-next"><button onclick="showGaelenNode('gear')">Gear</button><button onclick="showGaelenNode('varon')">Varon</button><button onclick="showGaelenNode('ylva')">Ylva</button><button onclick="showGaelenNode('bjorn')">Bjorn</button><button onclick="showGaelenNode('mila')">Mila</button><button onclick="showGaelenNode('esbern')">Esbern</button><button onclick="showGaelenNode('jasper')">Jasper</button></div></div>
+
+      <div id="gd-ritual" class="director-panel"><h4>Ritual observation</h4><p>Give only what the character's action reveals. The assistants keep working. If the party studies or questions without interfering, remain in the conversation.</p><h4>Ritual beat</h4><div class="anchor-line">One assistant turns an anchor. Red light runs beneath the party's feet and disappears into the root.</div><h4>Pressure</h4><p>The hidden alarm is approximately six minutes in Zone 3. When it fires, describe a stronger physical change and update the status box. Talking provides information; it does not stop the working.</p></div>
+
+      <div id="gd-silence" class="director-panel"><h4>Gaelen's aim</h4><p>Give the room enough space for the players to choose without filling every silence.</p><h4>Voice anchors</h4><div class="anchor-line">"You do not have to answer quickly."</div><div class="anchor-line">"Take the time you need. The work will continue."</div><div class="anchor-line">"I know what it costs to decide while everyone is watching."</div><h4>Performance</h4><p>Let the silence sit. Continue one small piece of the ritual. If the party remains stalled, address one visible person rather than delivering a monologue.</p></div>
+
+      <div id="gd-attack-gaelen" class="director-panel"><h4>Gaelen is attacked directly</h4><p>He does not retaliate or defend himself. He continues working and speaking. Do not start combat solely because Gaelen was struck; combat begins when the ritual, Jasper, or an assistant is threatened, or when the party refuses and moves to stop the working.</p><h4>Performance</h4><p>Let the blow happen. He looks at the attacker only if needed to answer them. His followers put themselves between him and the attacker WITHOUT being asked; they are willing to die for him and his message. If they fight, roll initiative.</p><p>Gaelen's numbers (his sheet, "new mythic dawn leader"): HP 40. DR 22 (23 vs spells). Magic 21 / Agility 17 / Guile 15 / Might 8. Paradise Mantle: regenerates 5 HP at the start of his turn; Cold/Frost damage switches it off for his next turn; Burning DOUBLES it. Saijah's Purifying Strike also stops it. Avoid Death: first time he hits 0 HP he resets to 5. He never attacks this encounter. Cornered: he spends everything to phase early (module 1934).</p></div>
+
+      <div id="gd-combat" class="director-panel"><h4 class="gm-alert">COMBAT TRANSITION</h4><p>Initiative begins when a player attacks or moves against an anchor, enters the spiral or touches an anchor, attacks Jasper or an assistant, or explicitly refuses Gaelen and moves to stop the ritual.</p><ul><li>Gaelen works and talks. He never attacks.</li><li>Jasper fights to the death defending the ritual.</li><li>Assistants protect the working because they believe in it.</li><li>Five anchors: 300 HP each, DR 10.</li><li>Orion's tonal counter-note: <strong>Hard Magic (-4)</strong>, 100 damage to one anchor, ignores DR.</li><li>Three anchors destroyed disrupts the ritual and triggers Gaelen's escape.</li></ul><div class="director-next"><button onclick="showGaelenNode('fight-round')">Run the fight</button></div></div>
+
+      <div id="gd-fight-round" class="director-panel"><h4>During the fight</h4><p>Keep Gaelen present as a speaking noncombatant. He may answer questions, address a character, or continue trying to change their minds while Jasper and the assistants defend the array.</p><h4>Required beat</h4><p>Deliver the Quiet Wish when attention is on Jasper and someone is near Gaelen:</p><div class="anchor-line">"I want it to be perfect. Please... let it be perfect."</div><h4>At three anchors down</h4><p>The ritual is disrupted. Read this exactly:</p><div class="read-aloud"><div class="read-aloud-tag">&gt;&gt; READ ALOUD — GAELEN'S ESCAPE (3 anchors down, run it exactly)</div><p>The third anchor cracks and the whole undercroft LURCHES -- the red light guttering, the sap-lines withering back out of the root like ivy burned at the stem. Gaelen watches it happen with his head tilted, the way a man watches weather ruin a picnic.</p><p>"Hm. Unfinished, then." He looks at you -- genuinely, unhurriedly interested. "You finally showed up. Do you know, I had begun to think no one was coming, all these years. How wonderful. Something new."</p><p>The broken time reaches for him and he steps INTO it, the way you would step into a doorway -- and he is a half-second behind himself, and then a full second, and then he is an afterimage the room forgets to keep.</p></div><div class="gm-note"><span class="gm-tag">GM:</span> He falls back to the ELDERGLEAM -- the primary plan the party has never touched, still running perfectly. They did not beat him; they interrupted a man who reached for a second prize. He recurs with a grievance now attached -- curious, not vengeful. Scarier.</div><div class="scene-exit"><span class="exit-label">EXIT:</span><a href="#scene-23" class="exit-dest">The weather stills. The mountain stops shaking. It is not healed. -&gt; 23 The Reward &amp; Resolution</a></div></div>
+
+      <div id="gd-agree" class="director-panel"><h4>Agreement branch</h4><p>Do not reveal a trick. Gaelen and the Dawn mean what they have said.</p><h4>Ask the players</h4><ul><li>What does your character physically do?</li><li>Do you stand aside, help, or try to negotiate limits?</li><li>What do you do about the companions who disagree?</li></ul><h4>Room response</h4><p>Resolve each NPC on camera. Esbern resists. Mila protects people she loves. Gear may move toward the work. Varon may choose relief. Bjorn protects Mila and the company. Nobody changes sides because of a hidden meter.</p></div>
+
+      <div id="gd-refuse" class="director-panel"><h4>Explicit refusal</h4><p>Gaelen accepts that they have chosen. He returns to the work. Jasper engages. Begin the combat transition even if no anchor has been struck yet.</p><div class="anchor-line">Use the refusal as the moment the conversation ends; do not make Gaelen plead or become angry.</div></div>
+
+      <div id="gd-gear" class="director-panel"><h4>Gear — recognition and purpose</h4><p><strong>Truth (GM-approved angle):</strong> Ismara already gave GEAR purpose, so Gaelen does NOT offer purpose. He targets the Dwemer disappearance: GEAR is the fragment that remained after his makers vanished, and treats his own continued existence as an unresolved error. Gaelen asks questions: what did your makers discover, what do you think happened at the Zero-Tone, why do you count remaining as a problem? The offer: the Dawn may be the first experiment that can answer the question his makers left behind. He asks to let GEAR observe and analyze the working, not to join.</p><div class="anchor-line">"You were made to study the world. Do they ask you to understand it, or do they ask you to carry it?"</div><div class="anchor-line">"Your readings are useful here. You know what the others keep calling a mystery."</div><h4>Performance</h4><p>Gaelen crouches to Gear's level and speaks as a colleague. He does not touch or pat him.</p><h4>Movement</h4><p>Gear may move toward the array to assist. That movement is visible and gives Ismara or the party a chance to speak to him.</p></div>
+
+      <div id="gd-varon" class="director-panel"><h4>Varon — the manufactured frame</h4><p><strong>Truth:</strong> Varon is living inside an imposed identity, physical pain, and obligations that do not release him.</p><div class="anchor-line">"You have spent years carrying a face that was made for a task."</div><div class="anchor-line">"Pain became the proof that you were still yourself. What would remain if it stopped?"</div><h4>Performance</h4><p>Gaelen recognizes the wound without claiming to own it. He does not promise Varon a cure he cannot provide.</p><h4>Movement</h4><p>Varon may go still, touch the scar behind his ear, or ask Alfonso for help. Saijah is one of the few people who may interrupt his movement toward relief.</p></div>
+
+      <div id="gd-esbern" class="director-panel"><h4>Esbern — the enemy he cannot recruit</h4><p><strong>Truth:</strong> Esbern is a Blade. The Mythic Dawn is an ancient enemy of the Blades. Gaelen does not expect him to join.</p><div class="anchor-line">"You have spent your life preserving a world that already proved it would abandon you."</div><div class="anchor-line">"I know what you fought. I know what you think I am."</div><h4>Performance</h4><p>Gaelen speaks with respect and mourns the limits of Esbern's allegiance, not Esbern's morality. Esbern remains himself: opposed, practical, and ready to act.</p><h4>Movement</h4><p>Esbern begins moving toward resistance if the party hesitates. If someone stops him, that is a player choice, not a persuasion roll.</p></div>
+
+      <div id="gd-ylva" class="director-panel"><h4>Ylva — judgment and the hunt</h4><p><strong>Truth:</strong> Gaelen's argument about freeing people from rules sounds like a judgment on the rules that make Ylva's hunt meaningful. She also knows Alfonso is the one person who has never judged her.</p><div class="anchor-line">"You know the difference between a rule that gives a hunt meaning and a rule that keeps a creature in a cage."</div><div class="anchor-line">"I am not asking you to become smaller. I am asking what you believe the world owes the hunted."</div><h4>Performance</h4><p>He treats her theology seriously. He does not insult the hunt or try to dominate her.</p><h4>Movement</h4><p>Ylva may challenge him, then look to Alfonso. Alfonso's treatment of her is the strongest rebuttal available to Gaelen's claim that all order is judgment.</p></div>
+
+      <div id="gd-bjorn" class="director-panel"><h4>Bjorn — the end of loss</h4><p><strong>Truth:</strong> Bjorn has just lost Mable and carries the memory of Serana and other losses. Gaelen offers a world where no one has to suffer another loss.</p><div class="anchor-line">"You could put Mable down and never feel the ground open beneath you again."</div><div class="anchor-line">"No one would take another person you love. No child would learn this grief from you."</div><h4>Performance</h4><p>Gaelen does not exploit the grief theatrically. He speaks softly and leaves Bjorn room to reject the promise.</p><h4>Movement</h4><p>Bjorn resists, especially if Mila is threatened or frightened. His first action is protection, not philosophical debate.</p></div>
+
+      <div id="gd-mila" class="director-panel"><h4>Mila — the concrete truth</h4><p><strong>Truth:</strong> Mila does not care about Gaelen's cosmic argument. She cares whether the people around her are safe and whether the Dawn will take them away.</p><div class="anchor-line">"You do not have to understand all of this to decide what you will protect."</div><div class="anchor-line">"Stay close to the people whose hands you know."</div><h4>Performance</h4><p>Gaelen does not give her a grand doctrine. He speaks plainly and does not pressure her to agree.</p><h4>Movement</h4><p>Mila watches hands, weapons, and Bjorn. She may move to protect someone, but she does not become a Dawn convert.</p></div>
+
+      <div id="gd-saijah" class="director-panel"><h4>Saijah — pain and change</h4><p><strong>Truth:</strong> Saijah has felt the cost of Kynareth's voice, the Skooma crash, and Hircine's offer of silence. Gaelen sees her pain without pretending to be her god.</p><div class="anchor-line">"You have been told to preserve a wound because someone called it sacred."</div><div class="anchor-line">"If healing means change, why must change be the thing you fear?"</div><h4>Performance</h4><p>Gaelen does not mock Kynareth or compete with Hircine. He speaks to the burden Saijah is carrying.</p><h4>Movement</h4><p>She already refused Hircine (Ch.30). Gaelen can name that refusal as proof she chooses pain over relief, and ask why.</p></div>
+
+      <div id="gd-alfonso" class="director-panel"><h4>Alfonso — outside the body</h4><p><strong>Truth:</strong> Alfonso already moved his soul outside the mortal body and survives as an obsidian form. Gaelen recognizes the choice without claiming they are identical.</p><div class="anchor-line">"You already know that flesh is a shape a soul can leave behind."</div><div class="anchor-line">"You did it to survive. I went farther because survival was not enough."</div><h4>Performance</h4><p>Give Alfonso's player the floor. Gaelen does not explain Alfonso to him.</p><h4>Movement</h4><p>Ylva watches Alfonso's answer. Her own experience with him can break Gaelen's claim that every relationship is another judgment.</p></div>
+
+      <div id="gd-davinia" class="director-panel"><h4>Davinia / Ismara — the crown and the self</h4><p><strong>Truth:</strong> Gaelen sees the cost of the Crown and the division between Davinia and Ismara. He should address whoever is presently driving.</p><div class="anchor-line">"You gave up pieces of yourself to carry a power that still asks for more."</div><div class="anchor-line">"How much of the burden belongs to you, and how much did you inherit from the people who needed you to carry it?"</div><h4>Performance</h4><p>He does not reduce either identity to a victim. He speaks to the cost of continued sacrifice.</p><h4>Movement</h4><p>Ismara may value the architecture of the Dawn while Davinia reacts to the human cost. Let the player decide which voice answers.</p></div>
+
+      <div id="gd-orion" class="director-panel"><h4>Orion — the chain</h4><p><strong>Truth:</strong> Orion is bound by the Ring, Valerius, the Brotherhood, and Molag Bal. Gaelen offers a world in which those fixed tethers lose their anchor.</p><div class="anchor-line">"How many masters can one person serve before the word choice stops meaning anything?"</div><div class="anchor-line">"You are defending the laws that make your leash possible."</div><h4>Performance</h4><p>Gaelen does not threaten to remove the Ring. He describes the consequence of the Unmaking as something Orion must decide whether to risk.</p><h4>Movement</h4><p>Nora may notice the danger in what Gaelen is saying. Let Orion answer for himself.</p></div>
+
+      <div id="gd-combat-card" class="director-panel">
+        <h4>Combat mechanics</h4>
+        <ul><li>Five anchors: <strong>300 HP, DR 10</strong> each.</li><li>Orion's counter-note: <strong>Hard Magic (-4)</strong>, 100 damage to one anchor, ignores DR.</li><li>Three anchors down: ritual disrupted; Gaelen phases toward the Eldergleam.</li><li>Gaelen never attacks. Jasper fights to the death. Assistants protect the ritual.</li></ul>
+      </div>
+    </div>
+
+    </details>
+    <section id="jasper-combat-manager" class="director-shell" style="margin-top: 1.5rem; border-top: 3px solid var(--red-danger);">
+      <div class="director-title">Combat Manager — Jasper and the Dawn Stations</div>
+      <details style="margin: 0.75rem 0 1rem; border: 1px solid var(--border); border-radius: 5px; padding: 0.75rem 1rem;">
+        <summary style="cursor: pointer; color: var(--gold-bright); font-family: var(--font-mono); font-weight: 700;">PLAYER HANDOUT — GIVE TO JASPER'S PLAYER</summary>
+        <p style="margin-top: 0.75rem;">Full spoilers are intentional. Open the interactive player dashboard: <a href="JASPER_PLAYER_DASHBOARD.html">JASPER_PLAYER_DASHBOARD.html</a>. The printable reference brief remains in <a href="JASPER_PLAYER_BRIEF.md">JASPER_PLAYER_BRIEF.md</a>.</p>
+        <div class="gm-note">Jasper was genuinely rescued by the Dawn in Winterhold and chose it after the tomb. He is not mind-controlled and is not waiting to be rescued. He can love the Lanterns, speak honestly to them, and still defend the anchors to the death.</div>
+        <ul>
+          <li>Once combat begins, Jasper's player is pursuing a TPK.</li>
+          <li>Priority: 1) the mission (anchors), 2) Gaelen, with his life, 3) hunt the best kill target.</li>
+          <li>Use Ash Shell to remove the strongest party member from the fight.</li>
+          <li>Use Spell Absorption on the largest hostile spell.</li>
+          <li>Protect Gaelen with your life if the Lanterns go for him. Gaelen himself does not fight.</li>
+          <li>First 0 HP: Avoid Death resets him to 5. Second 0 HP: he dies in the ritual space.</li>
+        </ul>
+      </details>
+      <div class="director-status" id="live-advisor-panel">
+        <div>
+          <label>Live advisor</label>
+          <strong id="live-advisor-status" style="color: var(--text-muted);">Connecting to Jev + Gemini...</strong>
+        </div>
+        <div>
+          <label>Last heard</label>
+          <span id="live-advisor-transcript">No live transcript received.</span>
+        </div>
+        <div style="grid-column: 1 / -1;">
+          <label>Suggested move / target</label>
+          <div id="live-advisor-suggestion" class="anchor-line">Start the existing transcription listener and the FROGS advisor service.</div>
+        </div>
+      </div>
+      <div class="gm-alert">
+        <span class="gm-tag">OBJECTIVE:</span>
+        The players are disrupting the ritual, not trying to win a conventional boss fight. Track the anchors first. Gaelen keeps working and speaking. Jasper fights. The Dawn assistants keep the working alive and protect their stations.
+      </div>
+
+      <div class="director-status">
+        <div><label>Round</label><input id="cm-round" value="1" aria-label="Combat round"></div>
+        <div><label>Tempo zone</label><input id="cm-zone" value="Zone 3" aria-label="Tempo zone"></div>
+        <div><label>Alarm</label><input id="cm-alarm" value="Not fired" aria-label="Real world alarm status"></div>
+        <div><label>Jasper</label><input id="cm-jasper-hp" value="1000 / 1000 · DR 0 until Daedra Flesh (then 50, 51 vs spells)" aria-label="Jasper HP"></div>
+      </div>
+
+      <div class="director-grid">
+        <div class="director-status">
+          <h3>Anchor tracker</h3>
+          <p>Five waist-high obsidian anchor-shards. Each has <strong>300 HP and DR 10</strong>. Orion's tonal counter-note deals <strong>100 damage, ignoring DR</strong>, on a <strong>Hard Magic (-4)</strong> roll. The removed Hard Might wrench is not available.</p>
+          <div class="anchor-tracker">
+            <div class="anchor-track"><label>A — <input id="cm-a" value="300" aria-label="Anchor A HP"></label><button class="tool-btn" onclick="damageAnchor('cm-a',10)">−10</button><button class="tool-btn" onclick="damageAnchor('cm-a',100)">−100</button><button class="tool-btn" onclick="destroyAnchor('cm-a')">Down</button></div>
+            <div class="anchor-track"><label>B — <input id="cm-b" value="300" aria-label="Anchor B HP"></label><button class="tool-btn" onclick="damageAnchor('cm-b',10)">−10</button><button class="tool-btn" onclick="damageAnchor('cm-b',100)">−100</button><button class="tool-btn" onclick="destroyAnchor('cm-b')">Down</button></div>
+            <div class="anchor-track"><label>C — <input id="cm-c" value="300" aria-label="Anchor C HP"></label><button class="tool-btn" onclick="damageAnchor('cm-c',10)">−10</button><button class="tool-btn" onclick="damageAnchor('cm-c',100)">−100</button><button class="tool-btn" onclick="destroyAnchor('cm-c')">Down</button></div>
+            <div class="anchor-track"><label>D — <input id="cm-d" value="300" aria-label="Anchor D HP"></label><button class="tool-btn" onclick="damageAnchor('cm-d',10)">−10</button><button class="tool-btn" onclick="damageAnchor('cm-d',100)">−100</button><button class="tool-btn" onclick="destroyAnchor('cm-d')">Down</button></div>
+            <div class="anchor-track"><label>E — <input id="cm-e" value="300" aria-label="Anchor E HP"></label><button class="tool-btn" onclick="damageAnchor('cm-e',10)">−10</button><button class="tool-btn" onclick="damageAnchor('cm-e',100)">−100</button><button class="tool-btn" onclick="destroyAnchor('cm-e')">Down</button></div>
+          </div>
+          <p id="cm-anchor-status" class="gm-note"><strong>0 / 5 anchors down.</strong> Three down disrupts the working.</p>
+        </div>
+
+        <div class="director-status">
+          <h3>Tempo this round</h3>
+          <p>Zone 3: roll at the start of each combat turn. <strong>1–4 Frozen</strong> (0 actions), <strong>5–8 Dragging</strong> (Major or Minor), <strong>9–12 In Step</strong> (normal), <strong>13–17 Quickened</strong> (+1 Minor), <strong>18–20 Unmoored</strong> (full extra turn after this one).</p>
+          <p>On a natural 1 or 20, also trigger a secondary horror. The Dagonites with tide-shards may choose their Tempo result instead of rolling; the party does not.</p>
+          <button class="director-btn" onclick="combatTempo()">Roll current turn's Tempo</button>
+          <div id="cm-tempo-result" class="anchor-line">No combat Tempo rolled yet.</div>
+        </div>
+      </div>
+
+      <div class="director-grid">
+        <div class="director-status">
+          <h3>Jasper: the guest player runs him (priorities from his dashboard)</h3>
+          <ol>
+            <li><strong>1. The mission:</strong> anyone attacking or reaching an anchor is his first target. He knows Gaelen would want the work protected even before himself (your words).</li>
+            <li><strong>2. Gaelen:</strong> he protects Gaelen with his life.</li>
+            <li><strong>3. Otherwise go for the kill</strong> that removes the party's strongest engine: healer, protector, controller, or top damage.</li>
+            <li><strong>Use the room:</strong> spiral, Dawn members, Hollow Heart, Tempo to split the party and deny rescue.</li>
+            <li><strong>Never attacks Gaelen. Never retreats.</strong> Dies here at his second 0 HP.</li>
+          </ol>
+          <p><strong>Jasper (guest player):</strong> HP 1000. DR 0 until he casts Daedra Flesh (25 FP): then DR 50, 51 vs spells. FP 30 + Hollow Heart. Dawn Obsidian lets him set his own Tempo (1x-4x, paid in HP). Full sheet: JASPER_PLAYER_DASHBOARD.html. When Jasper is first recognized, give Davinia/Ismara's player the moment before rolling initiative.</p>
+          <div class="anchor-line">Jasper is not a hostage. The Dawn rescued him in Winterhold after the tomb, and he is fighting because he believes the Dawn already saved him.</div>
+        </div>
+
+        <div class="director-status">
+          <h3>Dawn assistants: station tracker</h3>
+          <p>The current source establishes assistants helping Gaelen but does not give them canonical names or stat blocks. Track the actual pieces on the map here; do not stop to build a new stat block during the fight.</p>
+          <div class="anchor-track"><label>Station 1 <input id="cm-assist-1" value="Active — anchor keeper" aria-label="Assistant station one"></label></div>
+          <div class="anchor-track"><label>Station 2 <input id="cm-assist-2" value="Active — anchor keeper" aria-label="Assistant station two"></label></div>
+          <div class="anchor-track"><label>Station 3 <input id="cm-assist-3" value="Active — anchor keeper" aria-label="Assistant station three"></label></div>
+          <div class="anchor-track"><label>Station 4 <input id="cm-assist-4" value="Active — anchor keeper" aria-label="Assistant station four"></label></div>
+          <p><strong>Default behavior:</strong> maintain the nearest working station; intercept anyone who reaches an anchor; protect one another only when necessary. They believe they are saving Skyrim and will die to protect Gaelen and his message, though he never asked them to.</p><p><strong>Stats (reference table, GM Guide/Reference tables, MASTER tier, TL1 Minion row; not locked by you):</strong> 18 / 16 / 14 / 8, HP 160, Damage 33, DR 16. Several in the room; four stations tracked here.</p>
+        </div>
+      </div>
+
+      <div class="director-grid">
+        <div class="director-status">
+          <h3>Gaelen during combat</h3>
+          <ul>
+            <li>He does not attack.</li>
+            <li>He does not defend himself when struck.</li>
+            <li>He continues the ritual as long as the array remains viable.</li>
+            <li>He keeps talking to the party and to the person whose action just changed the room.</li>
+            <li>At three anchors down, run the escape block below. If the party somehow corners him before then, he spends everything to phase early.</li>
+          </ul>
+          <div class="director-actions"><button class="director-btn" onclick="showGaelenNode('fight-round')">Gaelen's next combat beat</button><button class="director-btn" onclick="showGaelenNode('combat')">Review transition rules</button></div>
+        </div>
+        <div class="director-status">
+          <h3>Round log</h3>
+          <textarea id="cm-log" rows="7" placeholder="Round 1: who moved, who is threatened, what changed..."></textarea>
+          <button class="director-btn" onclick="advanceCombatRound()">Advance round</button>
+        </div>
+      </div>
+
+      <div id="cm-hircine" class="gm-alert" style="border-left-color:#b45309">
+        <span class="gm-tag">SAIJAH HITS 0 HP &rarr; HIRCINE'S NEXT OFFER (your call: the offer comes at 0 HP)</span>
+        <div class="read-aloud"><div class="read-aloud-tag">&gt;&gt; READ ALOUD (to Saijah's player)</div>
+          <p>The noise in your skull stops. The migraine, the shaking, all of it: gone, the same quiet he gave you at the wall. A voice you know, close, amused.</p>
+          <p>"Little sentinel. See how quiet it gets? I can make it stay like this."</p></div>
+        <p><strong>Voice source:</strong> his lines at the door (PLANNING SCRATCH, [LOCKED] 3: "Little sentinel. See how quiet it gets? That ringing in your head -- I can make it stay like this."). <strong>Price:</strong> the same trade as the door -- give him the Hawk Talon.</p>
+        <p><strong>If she ACCEPTS</strong> (PLANNING SCRATCH [LOCKED] 3, "What Saijah receives if she accepts"):</p>
+        <ul>
+          <li>Migraine silenced -- and Kynareth's voice with it (the channel that screams is the one the goddess speaks through; he does not say that part).</li>
+          <li>Skooma mastery: she can take Skooma without the addiction worsening.</li>
+          <li>Half-beast body: permanent razor beast claws (lethal melee natural weapons) and a permanent +2 Might.</li>
+          <li>The Hawk Talon becomes Hircine's hunting trophy: once per encounter, point it at a target to <strong>Mark Quarry</strong> -- +2 damage to all attacks against that target by her and her allies.</li>
+          <li>The Long Fuse: the Talon becomes the ritual vessel. Later in Act III, Hircine forces Ylva to open her own veins and bleed into the Talon to awaken Saijah's full Alpha Weredog form.</li>
+          <li>Precedent for getting up: Ylva at Mzinchaleft -- "when she hit 0 HP, Hircine's claim kicked in and she became the wolf" (Ylva's sheet). How much HP she rises with is your call.</li>
+          <li>Kynareth's altar beat after the anchors break does NOT happen (it only happens "because Saijah refused Hircine").</li>
+        </ul>
+        <p><strong>If she REFUSES:</strong> he doesn't curse her -- he smiles ("He courts what runs") and lets go. The quiet ends. She stays at 0 HP under the normal rules, and Kynareth's altar beat stays on for after the anchors fall.</p>
+      </div>
+
+      <div class="gm-note"><span class="gm-tag">JASPER'S DEATH (his second 0 HP):</span> Give his player the last words -- they are his. Then:</div>
+      <div class="read-aloud"><div class="read-aloud-tag">&gt;&gt; READ ALOUD</div><p>The fire in the hole in his chest gutters and goes out. He is still warm when he falls.</p></div>
+      <p class="small">Source: Dagon's gift, "a burning hole where his heart was" (weapon debate, locked gift 3). Jasper dies here; he does not escape (module 1935).</p>
+
+      <div id="cm-three-down" class="gm-alert" hidden>
+        <span class="gm-tag">THREE ANCHORS DOWN — DISRUPTION:</span>
+        The ritual is disrupted. Jasper does not escape.
+      </div>
+      <div id="cm-escape"><div class="read-aloud"><div class="read-aloud-tag">&gt;&gt; READ ALOUD — GAELEN'S ESCAPE (3 anchors down, run it exactly)</div><p>The third anchor cracks and the whole undercroft LURCHES -- the red light guttering, the sap-lines withering back out of the root like ivy burned at the stem. Gaelen watches it happen with his head tilted, the way a man watches weather ruin a picnic.</p><p>"Hm. Unfinished, then." He looks at you -- genuinely, unhurriedly interested. "You finally showed up. Do you know, I had begun to think no one was coming, all these years. How wonderful. Something new."</p><p>The broken time reaches for him and he steps INTO it, the way you would step into a doorway -- and he is a half-second behind himself, and then a full second, and then he is an afterimage the room forgets to keep.</p></div><div class="gm-note"><span class="gm-tag">GM:</span> He falls back to the ELDERGLEAM -- the primary plan the party has never touched, still running perfectly. They did not beat him; they interrupted a man who reached for a second prize. He recurs with a grievance now attached -- curious, not vengeful. Scarier.</div><div class="scene-exit"><span class="exit-label">EXIT:</span><a href="#scene-23" class="exit-dest">The weather stills. The mountain stops shaking. It is not healed. -&gt; 23 The Reward &amp; Resolution</a></div></div>
+    </section>
+
+    <div class="gm-alert"><span class="gm-tag">QUIET WISH — DURING THE FIGHT:</span> When attention is on Jasper and someone is near Gaelen, let the party overhear: <em>"I want it to be perfect. Please... let it be perfect."</em></div>
+
+    <div class="scene-exit">
+      <span class="exit-label">EXIT:</span>
+      <a href="#scene-23" class="exit-dest">Three anchors down &rarr; Gaelen phases &rarr; Scene 23</a>
+    </div>
+  </section>
+
+  <section id="scene-endings" class="scene-card" style="border-top: 3px solid var(--red-danger);">
+    <div class="scene-header">
+      <div class="scene-number">How Scene 22 Ends</div>
+      <h2 class="scene-title">Pick the ending they reached</h2>
+      <p class="scene-subtitle">Click the outcome. Each card says what happens and where to go next.</p>
+    </div>
+    <div class="director-actions">
+      <button class="director-btn" onclick="showGaelenNode('end-disrupt')">A. Three anchors down (disrupted)</button>
+      <button class="director-btn" onclick="showGaelenNode('end-staunch')">B. All five anchors down (staunched)</button>
+      <button class="director-btn" onclick="showGaelenNode('end-cornered')">C. They corner / try to kill Gaelen</button>
+      <button class="director-btn" onclick="showGaelenNode('end-unopposed')">D. They stand aside / join / stall (ritual completes)</button>
+      <button class="director-btn" onclick="showGaelenNode('end-tpk')">E. The party falls (TPK)</button>
+      <button class="director-btn" onclick="showGaelenNode('end-retreat')">F. They retreat / leave (ritual completes)</button>
+    </div>
+
+    <div id="gd-end-disrupt" class="director-panel">
+      <h4>A. Disrupted: three anchors down (PLANNED: module 1943-1954)</h4>
+      <ul>
+        <li>Read Gaelen's escape exactly (below / in the combat manager). He phases into broken time and falls back to the Eldergleam.</li>
+        <li>Jasper does not escape. He fights to the end and dies here (module 1935).</li>
+        <li>Frame it: they did not beat Gaelen. They interrupted him. He recurs curious, not vengeful: "you finally showed up."</li>
+        <li>Every anchor down weakens the weather one step in here (Zone 3 &rarr; 2 &rarr; 1) (module 1928).</li>
+        <li><strong>Then Kynareth answers -- ONLY if Saijah refused Hircine</strong> (PLANNING SCRATCH [LOCKED] 4): when the anchors are disrupted and the sap withers from the root, Kynareth's voice answers through the mountain thaw -- the smell of rain breaking through the Daedric sulfur. She directs Saijah to build a stone altar at the cleansed root and rededicate the mountain by offering ONE of her two holy items:
+          <ul>
+            <li><strong>The Hawk Talon &rarr; "The Raptor's Stoop":</strong> Saijah's bonus movement (Spirit of the Hawk flight / air-dash) IS an attack if it ends on an enemy -- dive-strike damage like a hawk hitting quarry. Her full action economy stays intact.</li>
+            <li><strong>The Hawk Feather &rarr; "Kyne's Vantage":</strong> when she uses Spirit of the Hawk to reach high ground, she gains Advantage on her next attack.</li>
+          </ul></li>
+        <li>Then: <a href="#scene-23" style="color:var(--gold)">Scene 23: Reward &amp; Resolution</a>.</li>
       </ul>
     </div>
 
-    <div style="background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.15rem; margin: 1rem 0;">
-      <h3 style="color: var(--red-danger); font-size: 0.95rem; text-transform: uppercase; font-family: var(--font-mono); margin-bottom: 0.5rem;">
-        ✦ THE FIGHT: DISRUPT THE WORKING
-      </h3>
-      <p style="font-size: 0.88rem; margin-bottom: 0.5rem;">
-        <strong>Objective:</strong> DISRUPT THE RITUAL. The spiral array feeds the sap-lines into the root. Break enough of it and the working collapses. Gaelen defends the work, not himself; Jasper defends GAELEN.
-      </p>
-      <ul style="font-size: 0.88rem; margin-left: 1.4rem; line-height: 1.6; color: var(--text-main);">
-        <li><strong>THE ARRAY:</strong> 5 anchor-shards (obsidian, waist-high). Each: <strong>25 HP, DR 10</strong> -- or a <span class="roll-check" style="background: rgba(248, 81, 73, 0.2); color: var(--red-danger);">Hard Might (-4)</span> wrench to topple one bodily, or Orion's tonal counter-note (<span class="roll-check" style="background: rgba(248, 81, 73, 0.2); color: var(--red-danger);">Hard Magic -4</span>, guided by his Section 3C mapping) to crack one at range.</li>
-        <li>Every anchor down weakens the weather one step in here (Zone 3 &rarr; 2 &rarr; 1...); at <strong>THREE down the working is DISRUPTED</strong> (win condition); all five down = staunched as clean as this ever gets.</li>
-        <li><strong>JASPER AVALON:</strong> Lieutenant, does NOT retreat. Fights to the end defending the ritual space. Dies here. One-and-done.</li>
-        <li><strong>GAELEN'S ESCAPE (At 3 anchors down):</strong> The third anchor cracks and the undercroft lurches. Gaelen: <em>"Hm. Unfinished, then. You finally showed up... How wonderful. Something new."</em> Steps into broken time and phases away to the Eldergleam.</li>
+    <div id="gd-end-staunch" class="director-panel">
+      <h4>B. Staunched: all five anchors down (PLANNED: module 1928)</h4>
+      <ul>
+        <li>"All five down = staunched as clean as this ever gets." (module 1928)</li>
+        <li>Gaelen has already phased at three down; the last two finish the job.</li>
+        <li>Same aftermath as A. Arngeir's word in Scene 23 is literally "Staunched."</li>
+        <li>Kynareth's altar beat: same as A (only if Saijah refused Hircine).</li>
+        <li>Then: <a href="#scene-23" style="color:var(--gold)">Scene 23</a>.</li>
       </ul>
     </div>
+
+    <div id="gd-end-cornered" class="director-panel">
+      <h4>C. They corner him or go for the kill (PLANNED: module 1934, Gaelen sheet)</h4>
+      <ul>
+        <li>"If somehow cornered before that, he spends everything to phase early." (module 1934)</li>
+        <li>Gaelen sheet: he should SURVIVE this introduction "unless the party truly earns the kill." Whether they earned it is your call at the table.</li>
+        <li>Gaelen's numbers (his sheet, "new mythic dawn leader"): HP 40. DR 22 (23 vs spells). Magic 21 / Agility 17 / Guile 15 / Might 8. Paradise Mantle: regenerates 5 HP at the start of his turn; Cold/Frost damage switches it off for his next turn; Burning DOUBLES it. Saijah's Purifying Strike also stops it. Avoid Death: first time he hits 0 HP he resets to 5. He never attacks this encounter. Cornered: he spends everything to phase early (module 1934).</li>
+        <li>If he phases early: read the escape now, even if fewer than three anchors are down. The ritual is still running, so the fight against Jasper and the anchors continues.</li>
+      </ul>
+    </div>
+
+    <div id="gd-end-unopposed" class="director-panel">
+      <h4>D. They stand aside, join him, or talk too long: the ritual completes (PLANNED: gate 3 Fire B failure + Scene 22 design doc)</h4>
+      <p><strong>Ritual clock</strong> (Scene 22 design doc, "The Fork": failure to act lets the ritual advance):</p>
+      <ul>
+        <li><strong>Beat 1 (entry):</strong> sap reaches the base of the anchors.</li>
+        <li><strong>Beat 2 (personal pitches):</strong> sap climbs halfway up the obsidian; temporal ripples start leaking into the wider mountain.</li>
+        <li><strong>Beat 3 (unopposed):</strong> if no anchor has been attacked, the three keystones lock into resonance. Linear time fractures across the Throat.</li>
+      </ul>
+      <p><strong>Before Beat 3 the NPCs act on their own</strong> (design doc): Esbern advances on an anchor ("Different robes. Same butcher."). GEAR rolls toward the array. Ylva moves only on Alfonso's word. Bjorn steps between Mila and the shards. If any of them strikes an anchor, combat starts and this ending is off the table.</p>
+      <p><strong>If they agree:</strong> no trick. Ask each player what their character physically does, then resolve each NPC on camera.</p>
+      <div class="read-aloud" style="border-left-color:var(--red-danger)"><div class="read-aloud-tag">&gt;&gt; READ ALOUD -- THE KEYSTONES LOCK (ritual clock Beat 3)</div>
+        <p>The sap reaches the tops of the three keystones. The shards stop humming and ring together, one note, held.</p>
+        <p>The red light in the floor goes white. The root splits along every black crack at once, and the cracks keep climbing into the stone overhead. Across the chamber a Dawn member lifts a hand to her face, and the gesture happens again, and again, the same hand a half-second apart.</p>
+        <p>Gaelen takes his hand off the anchor. Fire rises around him from the floor, a column of it, and when it drops he is gone.</p></div>
+        <p class="small">Sources: Beat 3 "the three keystones lock into resonance. Linear time fractures across the Throat" (Scene 22 design doc); Gaelen leaves "in a column of fire ... moving to the next garden" (gate 1 line 28).</p>
+        <div class="read-aloud" style="border-left-color:var(--red-danger)"><div class="read-aloud-tag">&gt;&gt; WHAT HAPPENS WHEN THE RITUAL COMPLETES (gate 3, lines 180-184, Fire B failure)</div>
+        <p>"The Dagon Cult corrupts the Throat of the World (the Tower); the temporal distortion worsens and spreads. The Greybeards are cut off or fall; the Way of the Voice closes to the party. The Unmaking accelerates catastrophically. Dagon Cult Clock makes a major jump. Saijah's migraine becomes permanent and worsening -- the source she failed to stop is now unreachable. This is the most cosmically dangerous fire to leave burning."</p></div>
+        <ul>
+          <li><strong>Delivery</strong> (gate 3, "Unchosen Consequences Delivery"): next session, rumors and refugees; two sessions later a direct consequence lands (e.g. "a corrupted-time refugee from the mountain"); long-term it becomes an Act IV problem and the Dagon clock advances per its own document.</li>
+          <li><strong>Campaign rule</strong> (plan update, line 471): "The consequences of Ignored Fires are permanent. Mark them on your world map."</li>
+          <li><strong>Gaelen</strong> leaves as he always does: gate 1 line 28, "If defeated or if the ritual succeeds, Gaelen does not flee on foot. He Ascends -- teleporting away... viewing this as moving to the next 'garden.'"</li>
+        </ul>
+    </div>
+
+    <div id="gd-end-tpk" class="director-panel">
+      <h4>E. The party falls (PLANNED: your module's TPK rule + Fire B failure)</h4>
+      <div class="read-aloud"><div class="read-aloud-tag">&gt;&gt; READ ALOUD -- THE PARTY IS DOWN (opening line verbatim from your road TPK, module 350)</div><p>You are down. From where you are lying, this is what you can see.</p></div>
+      <p><strong>Then describe the NPCs still standing, one at a time,</strong> from what they do in this scene (design doc): Bjorn between Mila and the shards. Esbern at an anchor. Ylva with Alfonso. GEAR at the array. Then read THE KEYSTONES LOCK (in ending D).</p>
+      <ul>
+        <li><strong>Your TPK rule for this module</strong> (FIRE_B_module.md line 348): "If the party dies in this cut the campaign continues with NEW Lanterns, and the jump forward is real." (Written for the road-dragon branch; it's the only TPK ruling in the module.)</li>
+        <li><strong>The last thing they see</strong> (line 350, same branch): "The PCs are down. Everyone still standing is an NPC." Run it the same way here: the NPCs still standing (Bjorn, Mila, Esbern, Ylva, Varon, GEAR, Nora) are what the players watch.</li>
+        <li><strong>With nobody stopping it, the ritual completes.</strong> Jasper and the Dawn are left holding the room. Use the Fire B failure below for the world the new Lanterns inherit.</li>
+        <li><strong>If only some PCs die</strong> (your guide, "Character Death Options"): Heroic Sacrifice, The Mortal Wound, Divine Intervention (death leads to transformation), The Ghost in the Machine. Legacy: gear, contacts and unfinished business stay behind.</li>
+      </ul>
+      <div class="read-aloud" style="border-left-color:var(--red-danger)"><div class="read-aloud-tag">&gt;&gt; WHAT HAPPENS WHEN THE RITUAL COMPLETES (gate 3, lines 180-184, Fire B failure)</div>
+        <p>"The Dagon Cult corrupts the Throat of the World (the Tower); the temporal distortion worsens and spreads. The Greybeards are cut off or fall; the Way of the Voice closes to the party. The Unmaking accelerates catastrophically. Dagon Cult Clock makes a major jump. Saijah's migraine becomes permanent and worsening -- the source she failed to stop is now unreachable. This is the most cosmically dangerous fire to leave burning."</p></div>
+        <ul>
+          <li><strong>Delivery</strong> (gate 3, "Unchosen Consequences Delivery"): next session, rumors and refugees; two sessions later a direct consequence lands (e.g. "a corrupted-time refugee from the mountain"); long-term it becomes an Act IV problem and the Dagon clock advances per its own document.</li>
+          <li><strong>Campaign rule</strong> (plan update, line 471): "The consequences of Ignored Fires are permanent. Mark them on your world map."</li>
+          <li><strong>Gaelen</strong> leaves as he always does: gate 1 line 28, "If defeated or if the ritual succeeds, Gaelen does not flee on foot. He Ascends -- teleporting away... viewing this as moving to the next 'garden.'"</li>
+        </ul>
+    </div>
+
+    <div id="gd-end-retreat" class="director-panel">
+      <h4>F. They retreat or leave: the ritual completes (PLANNED: same as D)</h4>
+      <ul>
+        <li>Gaelen does not pursue and does not attack (module 1912). Jasper and the Dawn let them go; they are there to protect the work.</li>
+        <li>Leaving means nobody stops the working: the ritual clock runs to Beat 3 and Fire B's failure applies.</li>
+        <li>The Greybeards are above them; "cut off or fall" is what the party finds if they climb back.</li>
+      </ul>
+      <div class="read-aloud" style="border-left-color:var(--red-danger)"><div class="read-aloud-tag">&gt;&gt; READ ALOUD -- THE KEYSTONES LOCK (ritual clock Beat 3)</div>
+        <p>The sap reaches the tops of the three keystones. The shards stop humming and ring together, one note, held.</p>
+        <p>The red light in the floor goes white. The root splits along every black crack at once, and the cracks keep climbing into the stone overhead. Across the chamber a Dawn member lifts a hand to her face, and the gesture happens again, and again, the same hand a half-second apart.</p>
+        <p>Gaelen takes his hand off the anchor. Fire rises around him from the floor, a column of it, and when it drops he is gone.</p></div>
+        <p class="small">Sources: Beat 3 "the three keystones lock into resonance. Linear time fractures across the Throat" (Scene 22 design doc); Gaelen leaves "in a column of fire ... moving to the next garden" (gate 1 line 28).</p>
+        <div class="read-aloud" style="border-left-color:var(--red-danger)"><div class="read-aloud-tag">&gt;&gt; WHAT HAPPENS WHEN THE RITUAL COMPLETES (gate 3, lines 180-184, Fire B failure)</div>
+        <p>"The Dagon Cult corrupts the Throat of the World (the Tower); the temporal distortion worsens and spreads. The Greybeards are cut off or fall; the Way of the Voice closes to the party. The Unmaking accelerates catastrophically. Dagon Cult Clock makes a major jump. Saijah's migraine becomes permanent and worsening -- the source she failed to stop is now unreachable. This is the most cosmically dangerous fire to leave burning."</p></div>
+        <ul>
+          <li><strong>Delivery</strong> (gate 3, "Unchosen Consequences Delivery"): next session, rumors and refugees; two sessions later a direct consequence lands (e.g. "a corrupted-time refugee from the mountain"); long-term it becomes an Act IV problem and the Dagon clock advances per its own document.</li>
+          <li><strong>Campaign rule</strong> (plan update, line 471): "The consequences of Ignored Fires are permanent. Mark them on your world map."</li>
+          <li><strong>Gaelen</strong> leaves as he always does: gate 1 line 28, "If defeated or if the ritual succeeds, Gaelen does not flee on foot. He Ascends -- teleporting away... viewing this as moving to the next 'garden.'"</li>
+        </ul>
+    </div>
+  </section>
+
+  <section id="scene-23" class="scene-card" style="border-top: 3px solid var(--gold);">
+    <div class="scene-header"><div class="scene-number">Scene 23</div><h2 class="scene-title">The Reward &amp; Resolution</h2><p class="scene-subtitle">Staunched, not sealed -- the curtain</p></div>
+    <div class="gm-alert"><span class="gm-tag">VAULT SECRET:</span> the vault secret. RESOLVED from source: Ch.30 line 232, the company agreed "they were not going to tell the Greybeards about any of this. Or anyone." The module has the masters come down the INNER STAIR to the wounded root (line 1961), not through the vault. The secret holds unless a player chooses to tell.</div>
+    <div class="read-aloud"><div class="read-aloud-tag">&gt;&gt; READ ALOUD</div>
+    <p>The masters come down the inner stair when the shaking stops -- slowly, holding the walls, men walking after weeks at an oar. Arngeir stands a long time at the wounded root, where the black lines have withered to scars in the stone.</p>
+    <p>"Staunched," he says at last. "A cut finger, bound. The body of the thing that attacked this mountain is still out there, and still working." He looks at each of you in turn, and bows -- the full bow, to all of you. "The Way of the Voice is open to you. It is a small thing to offer the people who held up the sky. It is what we have."</p>
+    </div>
+    <div class="gm-note"><span class="gm-tag">GM -- REWARDS:</span></div>
+    <ul>
+    <li>1 AP each (a full fire completed) -- plus dragon-kill AP if any dragon somehow died this module (it should not have).</li>
+    <li>The Way of the Voice: High Hrothgar open as sanctuary + scholarship; the masters know WHERE Word Walls are for specific shouts a seeker might want (they cannot shout them; reference, not power).</li>
+    <li>Loot: the zealots' tide-shards, inert now -- crystallized wrong-time, priceless to a researcher and mildly unwholesome to carry. NORA wants them badly and says so out loud. Whether ISMARA wants them is her player's business -- just make sure the player knows what they are. Ivarstead half-returns as word spreads the mountain has quieted.</li>
+    </ul>
+    <div class="gm-note"><span class="gm-tag">GM -- SEEDS PLANTED (they finish growing AFTER the module -- do not harvest early):</span></div>
+    <ul>
+    <li>Saijah's realization (station 7, ON THE ROAD OUT, days later): gildergreens + the Throat + the word TOWER + TWO migraines finally assemble -- one tree, it is a Tower, TWO Towers are under attack, and there is a HEART she has never found. The module plants; the realization grows. Let her player say it first if they get there.</li>
+    <li>The heart-hunt -&gt; DANICA: the true Eldergleam's location is the chosen sisters' deepest secret (a women's mystery -- no man may ever know). Three living sisters: Danica, one in Whiterun (cold to the Lanterns -- Danica's letters made the party the temple's cautionary tale), one visiting Solitude. The road to the cure runs through the reconciliation. The braid is now load-bearing.</li>
+    <li>The two cure-routes (set up, never forced): KYNARETH -- heal the heart (needs Danica). HIRCINE -- no Danica needed at all: the Alpha and the cull. If reconciliation looks impossible, Hircine's road becomes the shortcut priced in Saijah's soul.</li>
+    <li>Node-saving (the standing open door): every gildergreen node is SAVEABLE; the party has simply kept not going. From here on, offer node-defense chances on the road; the Solitude node (slow, strong, a chosen sister already present) is the best first savable win.</li>
+    <li>Valerius knows everything the Ring saw -- the Tower, the apocalypse, the party's capabilities. File it; spend it later.</li>
+    <li>Gaelen, unfinished: "you finally showed up." The Eldergleam campaign continues off-screen. He is curious about them now. That is worse.</li>
+    </ul>
+    <div class="gm-note"><span class="gm-tag">GM -- CONSEQUENCE LEDGER (what the OTHER fires did while they climbed):</span></div>
+    <ul>
+    <li>Fire A (Krusp &amp; Danica at Windhelm): rumor arrives -- the plague fought to a standstill at a cost. Danica's cough, when they finally hear her again, has teeth in it. [Attrition canon: her lungs.]</li>
+    <li>Fire C (ignored -- Bleak Falls): Antoine rebuilds unobserved on top of the Dragonstone. The 6-8 week Strain 2.0 clock RUNS. Esbern says the Dragonstone line again on the road out. He will keep saying it.</li>
+    </ul>
+    <div class="scene-exit"><span class="exit-label">EXIT:</span><span class="exit-dest">The cart rolls down out of the grey hills with the mountain quiet behind it -- and the Dragonstone pressure, the Dirge reckoning, and the road to Bleak Falls ahead. -&gt; NEXT MODULE: FIRE C / BLEAK FALLS</span></div>
   </section>
 
 </main>
 
 <script>
+  // Tonight begins at Scene 22. Earlier scenes remain in the file as archive
+  // material, but the live dashboard hides them so the GM starts in the right place.
+  const completedSceneIds = [
+    'scene-den-state', 'scene-saijah-hircine', 'scene-bjorn-carter',
+    'scene-unison-chant', 'scene-vault-reveal', 'scene-stations-prep',
+    'scene-ensemble', 'scene-bronze-doors'
+  ];
+  completedSceneIds.forEach(id => {
+    const section = document.getElementById(id);
+    if (section) section.hidden = true;
+  });
+
+  // Each scene (vault bridge / Scene 22) keeps its own set of panels: opening a
+  // card closes only the other cards in the same scene, and scrolls to the card.
+  function showGaelenNode(nodeId) {
+    const target = document.getElementById(`gd-${nodeId}`);
+    if (!target) return;
+    const scope = target.closest('.scene-card') || document;
+    scope.querySelectorAll('.director-panel').forEach(panel => panel.classList.remove('active'));
+    scope.querySelectorAll('.director-btn, .director-next button').forEach(button => {
+      const onclick = button.getAttribute('onclick') || '';
+      button.classList.toggle('active', onclick.includes(`'${nodeId}'`));
+    });
+    target.classList.add('active');
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function backToRouter() {
+    const router = document.getElementById('gd-router');
+    if (router) router.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+
+  const DIRECTOR_EXTRA = {
+    'must': '',
+    'question': `<h4>Likely player replies &rarr; what Gaelen has</h4><ul><li><strong>"What happens to Skyrim if you finish?"</strong> The Tower loosens; linear time and fragile flesh stop being fixed. He does not claim it is painless.</li><li><strong>"Why do you want to meet us?"</strong> They are living the suffering he means: patron costs, bodies changed to keep functioning, every win preserving the same machine.</li><li><strong>"Can you be stopped?"</strong> He answers honestly: three anchors.  He does not hide it.</li></ul><div class="director-next"><button onclick="showGaelenNode('moral')">They object morally</button><button onclick="showGaelenNode('ritual')">They look at the ritual</button><button onclick="showGaelenNode('jasper')">They look at Jasper</button><button onclick="showGaelenNode('personal')">It turns personal</button></div>`,
+    'accusation': `<h4>Likely player replies &rarr; what Gaelen has</h4><ul><li><strong>"You serve Dagon."</strong> Yes, openly. He does not dress it up.</li><li><strong>"The Mythic Dawn murdered an emperor / opened Oblivion."</strong> He does not deny the order's history. He asks whether that history answers anything he has said about this mountain.</li><li><strong>Esbern names the ancient enemy.</strong> Gaelen mourns that Esbern is bound to the Blades' worldview. Esbern does not waver.</li></ul><div class="director-next"><button onclick="showGaelenNode('moral')">They argue the cost</button><button onclick="showGaelenNode('esbern')">Esbern</button><button onclick="showGaelenNode('refuse')">They refuse</button></div>`,
+    'moral': `<h4>Likely player replies &rarr; what Gaelen has</h4><ul><li><strong>"You'd end the world to end suffering."</strong> He concedes the cost is real. He believes the present world is already an engine of suffering.</li><li><strong>"People won't be themselves / we'd forget."</strong> He cannot promise memory or separate selves survive, and he will not lie that they do. This is the argument that actually lands against him (Mila, Bjorn).</li><li><strong>"You're choosing for everyone."</strong> So are the Lanterns, every time they save Skyrim for people who never asked. He is their mirror, and he says so plainly.</li></ul><div class="director-next"><button onclick="showGaelenNode('personal')">It turns personal</button><button onclick="showGaelenNode('agree')">They agree</button><button onclick="showGaelenNode('refuse')">They refuse</button></div>`,
+    'jasper': `<h4>Likely player replies &rarr; what they get</h4><ul><li><strong>"We thought you were dead."</strong> They left him in the Pale Lady's crypt (journal). Jasper's player answers.</li><li><strong>"Come back with us."</strong> Nothing to rescue: the Dawn actually rescued him in Winterhold. It is true, not a trick.</li><li><strong>"Were you forced?"</strong> No. Gaelen does not claim him; Jasper gave himself to the Dawn, not to Gaelen.</li></ul><div class="director-next"><button onclick="showGaelenNode('moral')">They argue</button><button onclick="showGaelenNode('combat')">They threaten Jasper / the ritual</button></div>`,
+    'ritual': `<h4>Ritual beat menu (pick one per exchange)</h4><ul><li>An assistant tightens a wire around an anchor; the shard gives a low note.</li><li>Black sap moves another inch through a crack in the root.</li><li>Red light reaches farther along the floor.</li><li>One assistant takes over another's station.</li><li>Jasper checks the next anchor's alignment.</li><li>The chamber grows warmer; the vibration gets harder to ignore.</li></ul>`,
+    'varon': `<h4>What resolves it</h4><ul><li>Varon is the exact prison Gaelen describes: a body cut apart and rebuilt to serve other people's purposes.</li><li>His plea to Alfonso was desperation; he knows dealing with Alfonso is dealing with the devil.</li><li><strong>Probably only Saijah can stop him from defecting.</strong> Whether she does is her player's choice.</li></ul>`,
+    'ylva': `<h4>What resolves it</h4><ul><li><strong>Ylva refutes Gaelen herself.</strong> Alfonso is the only one who has never judged her, and Gaelen condemning the whole world is itself a judgment.</li><li>She watches Alfonso; if he rejects Gaelen she moves with him.</li></ul>`,
+    'bjorn': `<h4>What resolves it</h4><ul><li>The promise: he never has to lose anyone again, not Mable, not Serana; no one ever does.</li><li><strong>Bjorn resists even if nobody says anything.</strong> He protects Mila first.</li></ul>`,
+    'mila': `<h4>Mila's questions (her rebuttal)</h4><ul><li>"Does Mable come with us?"</li><li>"Do we remember?"</li><li>"Who takes care of us?"</li></ul><p>Gaelen will not lie in answering. Never mention her mother's death; nobody knows it.</p>`,
+    'esbern': `<h4>What resolves it</h4><ul><li>Esbern is not recruitable. He condemns the ancient enemy and does not mourn Gaelen.</li><li>Gaelen is the one who mourns: Esbern chose the Blades' prison over freedom.</li></ul>`
+  };
+  Object.entries(DIRECTOR_EXTRA).forEach(([id, markup]) => {
+    const panel = document.getElementById('gd-' + id);
+    if (panel && markup) panel.insertAdjacentHTML('beforeend', markup);
+  });
+  // Every Scene 22 card ends with a way back to the player-action router.
+  document.querySelectorAll('#gaelen-director .director-panel').forEach(panel => {
+    const back = document.createElement('div');
+    back.className = 'director-next';
+    back.innerHTML = '<button onclick="backToRouter()">&larr; Back to "What did the players do?"</button>';
+    panel.appendChild(back);
+  });
+
+  function damageAnchor(id, amount) {
+    const field = document.getElementById(id);
+    if (!field) return;
+    const current = Math.max(0, Number(field.value) || 0);
+    field.value = Math.max(0, current - amount);
+    updateAnchorStatus();
+  }
+
+  function destroyAnchor(id) {
+    const field = document.getElementById(id);
+    if (!field) return;
+    field.value = 0;
+    updateAnchorStatus();
+  }
+
+  function updateAnchorStatus() {
+    const ids = ['cm-a', 'cm-b', 'cm-c', 'cm-d', 'cm-e'];
+    const down = ids.filter(id => Number(document.getElementById(id)?.value || 0) <= 0).length;
+    const status = document.getElementById('cm-anchor-status');
+    if (status) {
+      status.innerHTML = `<strong>${down} / 5 anchors down.</strong> ${down >= 3 ? 'The working is disrupted; run Gaelen\'s escape.' : 'Three down disrupts the working.'}`;
+    }
+    const trigger = document.getElementById('cm-three-down');
+    if (trigger) trigger.hidden = down < 3;
+    pushAdvisorState();
+  }
+
+  function combatTempo() {
+    const roll = Math.floor(Math.random() * 20) + 1;
+    let result = '';
+    if (roll <= 4) result = 'Frozen — 0 actions';
+    else if (roll <= 8) result = 'Dragging — Major OR Minor';
+    else if (roll <= 12) result = 'In Step — normal';
+    else if (roll <= 17) result = 'Quickened — +1 Minor';
+    else result = 'Unmoored — full extra turn after this one';
+    const horror = roll === 1 || roll === 20 ? ' SECONDARY HORROR also triggers.' : '';
+    const target = document.getElementById('cm-tempo-result');
+    if (target) target.innerHTML = `<strong>Tempo ${roll}:</strong> ${result}.${horror}`;
+  }
+
+  function advanceCombatRound() {
+    const field = document.getElementById('cm-round');
+    if (!field) return;
+    field.value = (Number(field.value) || 0) + 1;
+    combatTempo();
+    pushAdvisorState();
+  }
+
+  async function pushAdvisorState() {
+    const anchors = {};
+    ['a', 'b', 'c', 'd', 'e'].forEach(letter => {
+      const field = document.getElementById(`cm-${letter}`);
+      if (field) anchors[letter.toUpperCase()] = Number(field.value) || 0;
+    });
+    try {
+      await fetch('http://127.0.0.1:3112/api/advisor/state', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          round: document.getElementById('cm-round')?.value,
+          zone: document.getElementById('cm-zone')?.value,
+          jasper_hp: document.getElementById('cm-jasper-hp')?.value,
+          log: document.getElementById('cm-log')?.value,
+          anchors
+        })
+      });
+    } catch (_) {
+      // The live advisor is optional; the offline combat manager remains usable.
+    }
+  }
+
+  function renderAdvisor(payload) {
+    const advisor = payload?.advisor || {};
+    const status = document.getElementById('live-advisor-status');
+    const transcript = document.getElementById('live-advisor-transcript');
+    const suggestion = document.getElementById('live-advisor-suggestion');
+    if (!status || !transcript || !suggestion) return;
+    const colors = { ready: 'var(--green-accent)', asking_gemini: 'var(--gold)', triaging: 'var(--gold)', error: 'var(--red-danger)' };
+    status.textContent = `Advisor: ${advisor.status || 'waiting'}`;
+    status.style.color = colors[advisor.status] || 'var(--text-muted)';
+    if (advisor.last_transcript) {
+      transcript.textContent = `${advisor.last_transcript.speaker || 'Table'}: ${advisor.last_transcript.text || ''}`;
+    }
+    if (advisor.latest) {
+      const move = advisor.latest.recommendation || 'No recommendation returned.';
+      const target = advisor.latest.target ? ` Target: ${advisor.latest.target}.` : '';
+      const reason = advisor.latest.reason ? ` ${advisor.latest.reason}` : '';
+      const track = advisor.latest.next_track ? ` Track: ${advisor.latest.next_track}.` : '';
+      suggestion.textContent = move + target + reason + track;
+    } else if (advisor.error) {
+      suggestion.textContent = `Advisor error: ${advisor.error}`;
+    }
+  }
+
+  async function pollLiveAdvisor() {
+    try {
+      await pushAdvisorState();
+      const response = await fetch('http://127.0.0.1:3112/api/advisor');
+      if (response.ok) renderAdvisor(await response.json());
+    } catch (_) {
+      const status = document.getElementById('live-advisor-status');
+      if (status) {
+        status.textContent = 'Advisor offline (combat manager still active)';
+        status.style.color = 'var(--text-muted)';
+      }
+    }
+  }
+
   function rollD20() {
     const roll = Math.floor(Math.random() * 20) + 1;
     const res = document.getElementById('quick-roll-result');
@@ -1468,6 +2253,9 @@
       }
     });
   });
+
+  setInterval(pollLiveAdvisor, 2500);
+  pollLiveAdvisor();
 </script>
 </body>
 </html>
