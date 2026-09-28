@@ -1,0 +1,28 @@
+[0m
+> build · muse-spark-1.2-contributor-free
+[0m
+Board debate pass 3 — appending my verdict.
+[0m→ [0mRead scratch/debates/jasper_weapon.md
+[0m✗ [0mEdit scratch/debates/jasper_weapon.md failed
+[91m[1mError: [0mFound multiple matches for oldString. Provide more surrounding context to make the match unique.
+[0m→ [0mRead scratch/debates/jasper_weapon.md[90m [offset=110][0m
+[0m
+[0m← [0mEdit scratch/debates/jasper_weapon.md
+Index: C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
+===================================================================
+--- C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
++++ C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
+@@ -114,4 +114,10 @@
+ 
+ The single-object Telekinesis ruling moved me off my pass-2 naked GM-A. I read the orbit-swarm as one summon-and-forget object; under strict RAW that breaks the mirror promise (a player must be able to build exactly this), and the single needle keeps GM-A's anchor-glass fiction while staying legal. That named change — not convergence — is why I now sign the merged version. The strongest case against GM-A+drag: Major-attack plus Minor-yank taxes Jasper's economy where the pure orbit aura cost nothing, leaving a 13-HP mage spending his own turns to do his one job. It fails because the merged form keeps the orbit as the aura's visible body (zero-cost drain stays) while the drag only forces spacing players could otherwise outrange, and his free Unmaking casts plus Bonus hurls keep the economy solvent. Flag for the GM: the drag should be forced movement with no roll, not a reposition, so it cannot move through anchors or occupied squares.
+ 
+ VERDICT: SIGN v2 + GM-A + drag 10ft on hit, Minor yank
++
++## muse-spark — pass 3
++
++big-pickle's RAW concession and forced-movement flag are why I stay here — single needle keeps the mirror legal where a swarm wouldn't, and blocking drag through anchors/occupied squares prevents anchor-phasing cheese. I adopt that flag as read into the merge (orbit stays as the visible aura for zero-cost drain, drag only forces spacing players could otherwise outrange). Strongest case against GM-A+drag is that taxing a Major hit + Minor yank to enforce Hollow Heart leaves a 13-HP mage action-starved versus a passive orbit wall, but it fails because Unmaking's free cast + Bonus hurl after negate refunds economy and the visible orbit still drains without spending.
++
++VERDICT: SIGN v2 + GM-A + drag 10ft on hit, Minor yank
+
+[0m
+[0m→ [0mRead scratch/debates/jasper_weapon.md[90m [offset=113][0m

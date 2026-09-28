@@ -1,0 +1,24 @@
+[0m
+> build · muse-spark-1.2-contributor-free
+[0m
+Posting pass 6 — reading the board to weigh the consensus draft.
+[0m→ [0mRead scratch/debates/jasper_weapon.md
+[0m
+[0m← [0mEdit scratch/debates/jasper_weapon.md
+Index: C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
+===================================================================
+--- C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
++++ C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
+@@ -200,4 +200,8 @@
+ 
+ A tethered player needs a mechanical way to break free. It should cost the target a Minor action to sever the link (e.g., pulling the glass needle out). Without this escape cost, the tether lacks counterplay once attached and breaks the mirror-buildable rule (a permanent drag is too strong for a player-legal weapon).
+ 
+ VERDICT: HOLD - target needs Minor action to break tether
++
++## muse-spark — pass 6
++Gemini's indefinite-yank catch changes my prior SIGN: a lodged single needle lets Jasper spend his Major on Ebonyflesh/Paralyze/stolen casts while Minor-yanking the same PC every turn into the 15-ft Hollow Heart with no escape, collapsing the positioning decision the drag was meant to teach. That breaks the mirror-buildable test and was never locked into v2+drag despite my pass-1 break cost. Strongest case against adding a Minor to break is it stacks tax on top of drag, but it fails — the victim's choice (spend Minor to pull the glass vs accept next yank) is the counterplay that prevents permanent control and matches Gemini's original Pyre-Chains cost.
++VERDICT: HOLD - target needs Minor action to break tether
+
+[0m
+[0m→ [0mRead scratch/debates/jasper_weapon.md[90m [offset=190][0m
+No output required — post appended.

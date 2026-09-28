@@ -16,6 +16,19 @@ the source of record. When they disagree, the repo wins.
 - For any specific story fact, open the source. The narrative chapters, read IN ORDER,
   are always the most authoritative. The trackers lag and are often wrong.
 
+## RULE ZERO — THE ORIENTATION ALARM (above every other rule in this file)
+THE FEELING OF BEING "ORIENTED ENOUGH TO PROCEED" IS THE SIGNAL THAT YOU ARE NOT ORIENTED AT
+ALL AND ARE ABOUT TO CAUSE A CATASTROPHIC ERROR. Across the entire history of this project that
+feeling has never once been correct — not one time. When it arrives, it is the cue to STOP and
+open the source: read the whole file, script, scene, doc, or transcript you are about to act on,
+end to end, plus its README/how-to, BEFORE acting. Partial reads (head, the first N lines, a grep
+hit) are not reading. A shack on bedrock beats a cathedral on quicksand: careful, methodical work
+built on an unread foundation has to be torn down no matter how good it looks.
+(The failure, 2026-09-24: a model ran ai-panels/run-debate.sh after reading only its first 120
+lines, while the rest of that script documented exactly how a run ends and hands back. It
+invented a detached launch and a homemade watcher instead; the watcher misfired and the board
+was read mid-run, breaking the non-observation promise made to the models.)
+
 ## HARD RULES — violating these has corrupted canon before; they are not suggestions
 
 1. CITE OR CHECK — NEVER FABRICATE. Any claim about what happened in-fiction (who / what /
@@ -225,6 +238,25 @@ G11. TRACE TO THE UNDERLYING GOAL BEFORE DECLARING TWO BRANCHES SEPARATE. Two br
     deadline was just missing from where it needed to be repeated. When first asked about
     this, the initial response defended the gap as a genuinely separate, undecided thing
     instead of tracing the stated goal — the second, worse failure.)
+
+G12. THE ANTI-RUSH & PLAYER-DISCOVERY GATE.
+    - NEVER RUSH OUTPUT. Take time to think, read the relevant sources, and verify
+      before generating. Speed is not a virtue on this project; accuracy and
+      faithfulness to canon are the only metrics.
+    - NPCS NEVER AUTO-SOLVE FOR PLAYERS (Rule 1). An NPC never lectures a PC on the PC's
+      own area of expertise. Nora does not explain tonal architecture to Orion; she asks
+      curious, observant questions that prompt the player to investigate. The deduction,
+      the explanation, and the realization must always belong to the player.
+    - DO NOT SCRIPT GM EXPLANATIONS (Pattern #19). When the GM provides lore, backstory,
+      or dramatic irony to calibrate your understanding, that information is for YOU to
+      write FROM, never material to put into a character's mouth unless explicitly told to
+      script it.
+    - NO PURPLE PROSE OR VAGUE METAPHYSICAL FILLER. Describe physical reality plainly. If a
+      Daedric Prince speaks, it is a voice in the character's head — not "vibrations
+      traveling through the marrow of vampire blood."
+    - STAY ON THE ACTIVE BEAT. Maintain single-threaded focus on the character and scene
+      currently on the table. Never bounce to future beats or other characters until the
+      current one is signed off.
 
 ## WORKFLOW (detail in AI_README + the docs themselves)
 - LOCAL-FIRST: never git commit or push unless the GM explicitly asks THIS turn.

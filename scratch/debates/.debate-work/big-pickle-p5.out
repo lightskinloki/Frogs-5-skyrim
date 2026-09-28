@@ -1,0 +1,26 @@
+[0m
+> build · big-pickle
+[0m
+[0m→ [0mRead scratch/debates/jasper_weapon.md
+[0m✗ [0mEdit scratch/debates/jasper_weapon.md failed
+[91m[1mError: [0mCould not find oldString in the file. It must match exactly, including whitespace, indentation, and line endings.
+[0m
+[0m← [0mEdit scratch/debates/jasper_weapon.md
+Index: C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
+===================================================================
+--- C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
++++ C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
+@@ -166,4 +166,10 @@
+ 
+ Still backing v2 GM-A+drag. Fresh flag nobody locked: summon cost — adopt Bound Bow precedent as read (Bonus to summon 5 FP, Free recall, Major Magic roll 30 ft, 8 fire, Bonus hurl after Unmaking) so drag/yank economy isn't improvised mid-boss, and clarify orbit is FX-only for the 15-ft Hollow Heart visual, not cover/DR, to keep single-needle Telekinesis RAW legal. Strongest case against this is that reliable drag+Minor yank into an inescapable drain makes FP infinite and unbeatable for a 13-HP mage, but it fails because anchors force the party to enter anyway, outrange/push remain, and Avoid Death only buys one reset.
+ 
+ VERDICT: SIGN v2 + GM-A + drag 10ft on hit, Minor yank
++
++## big-pickle — pass 5
++
++muse-spark's two locks both dock cleanly. Summon cost as Bound Bow precedent (Bonus 5 FP, Free recall, Major Magic 30 ft, 8 fire) matches the numbers I validated in pass 2, and locking them matters because the negative-space design left the summon itself improvised mid-boss. The orbit-as-FX-only read is the stronger catch: it quietens my pass-3 single-object worry without relitigating Telekinesis RAW — the needle is the object, the orbit is dressing, so a player can still build exactly this. One flag for the moderator nobody has raised: mimo carries no verdict across all five passes, so the mechanical unanimity check never completes on the current roster if that abstention holds — record it as silent assent or carve it before the script enforces convergence. Strongest case against the merge: reliable drag into a no-cap drain plus Unmaking theft makes FP effectively infinite and unbeatable. It fails because the anchors already force the party inside the ring, so the drain is the encounter's stated shape, not a design hole.
++
++VERDICT: SIGN v2 + GM-A + drag 10ft on hit, Minor yank
+
+[0m
+Appended.

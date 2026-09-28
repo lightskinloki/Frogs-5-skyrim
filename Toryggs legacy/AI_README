@@ -17,6 +17,13 @@ built-in/session memory instead of THIS REPO caused a serious failure — includ
 NPC's name being silently corrupted. The repo is the memory of record; when in doubt, open
 the source doc.
 
+RULE ZERO — THE ORIENTATION ALARM: the feeling of being "oriented enough to proceed" is the
+signal that you are NOT oriented and are about to cause a catastrophic error. On this project
+that feeling has never once been correct. When it arrives, stop and read the whole file, script,
+scene, or doc you are about to act on, end to end (plus its README), before acting. Partial
+reads are not reading. A shack on bedrock beats a cathedral on quicksand. (Full statement:
+CLAUDE.md / AGENTS.md "RULE ZERO"; AI_REASONING_PATTERNS #0.)
+
 A NOTE FOR TOOLS OTHER THAN CLAUDE CODE — REPLICATING `.claude/settings.json`: CLAUDE.md
 and AGENTS.md are STATIC — loaded once per session, and easy to silently drift away from
 over a long one (CLAUDE.md Rule 6, "RE-GROUND ON DEGRADATION"). Claude Code additionally

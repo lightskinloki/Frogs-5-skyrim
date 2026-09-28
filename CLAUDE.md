@@ -16,6 +16,19 @@ the source of record. When they disagree, the repo wins.
 - For any specific story fact, open the source. The narrative chapters, read IN ORDER,
   are always the most authoritative. The trackers lag and are often wrong.
 
+## RULE ZERO — THE ORIENTATION ALARM (above every other rule in this file)
+THE FEELING OF BEING "ORIENTED ENOUGH TO PROCEED" IS THE SIGNAL THAT YOU ARE NOT ORIENTED AT
+ALL AND ARE ABOUT TO CAUSE A CATASTROPHIC ERROR. Across the entire history of this project that
+feeling has never once been correct — not one time. When it arrives, it is the cue to STOP and
+open the source: read the whole file, script, scene, doc, or transcript you are about to act on,
+end to end, plus its README/how-to, BEFORE acting. Partial reads (head, the first N lines, a grep
+hit) are not reading. A shack on bedrock beats a cathedral on quicksand: careful, methodical work
+built on an unread foundation has to be torn down no matter how good it looks.
+(The failure, 2026-09-24: ran ai-panels/run-debate.sh after reading only its first 120 lines,
+while the rest of that script and run-board.sh's header documented exactly how a run ends and
+hands back. Invented a detached launch and a homemade watcher instead; the watcher misfired and
+the board was read mid-run, breaking the non-observation promise made to the models.)
+
 ## HARD RULES — violating these has corrupted canon before; they are not suggestions
 
 (i have adhd. the feeling that a draft is done is not information about whether it's done.)

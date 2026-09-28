@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mini-forge",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "C:/Users/fbrown/Projects/mini-forge/app"],
+      "port": 5190,
+      "url": "http://localhost:5190"
+    }
+  ]
+}

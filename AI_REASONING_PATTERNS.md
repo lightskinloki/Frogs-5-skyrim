@@ -11,6 +11,20 @@ fires), and the real example from this project so it stays concrete, not platitu
 
 ---
 
+## 0. THE ORIENTATION ALARM — the pattern under every other pattern
+THE MOVE: treat the feeling of being "oriented enough to proceed" as the signal that you are
+NOT oriented and are about to cause a catastrophic error. On this project that feeling has never
+once been correct. When it fires, stop and read the whole thing you are about to act on — file,
+script, scene, doc, transcript — end to end, plus its README, before acting.
+THE TELL: you have read part of something and the rest "is probably what you expect."
+THE TRAP IT AVOIDS: a cathedral on quicksand — slow, careful, well-crafted work resting on a
+foundation that was never read, which has to be torn down however good it looks. A shack on
+bedrock is better: it can be improved.
+FROM THIS PROJECT: ran ai-panels/run-debate.sh after reading 120 lines of it; the unread
+remainder, and run-board.sh's header, documented the exact hand-back. Everything after —
+detached launch, homemade watcher, misfire, reading the board mid-run — came from that one
+skipped read. The GM, verbatim: "you have never been oriented even once."
+
 ## 1. THE FRAME WHERE THEY'RE RIGHT
 THE MOVE: When the GM's remembered number or fact conflicts with your fresh calculation,
 assume they are right and find the FRAME in which they are — before you conclude they

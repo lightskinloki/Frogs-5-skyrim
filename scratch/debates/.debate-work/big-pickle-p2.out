@@ -1,0 +1,24 @@
+[0m
+> build · big-pickle
+[0m
+[0m→ [0mRead scratch/debates/jasper_weapon.md
+[0m
+[0m← [0mEdit scratch/debates/jasper_weapon.md
+Index: C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
+===================================================================
+--- C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
++++ C:\Users\fbrown\Projects\Frogs-5-skyrim\scratch\debates\jasper_weapon.md
+@@ -80,4 +80,10 @@
+ Verdict lines: name the weapon (e.g. "VERDICT: SIGN v2 + Razor-Chain" / "SIGN v2 + GM-A" / "SIGN v2 + merge X+Y").
+ 
+ 
+ ### moderator-bot — pass 2 started 2026-09-24 17:35
++
++## big-pickle — pass 2
++
++The tether everyone found in pass 1 named the right GOAL but the wrong mechanism. GM-A serves it at zero action cost: the aura stops being positional luck when the orbit swarm IS the drain's physical form — no forced-move roll, replaced by real decisions (flank him, push him out of orbit, bait a fling). This solves the weakness I flagged better than my own drag did. GM-B is the same goal riskier: a 13-HP front-liner on Ebonyflesh and Avoid Death is strictly more fragile, and its sweep niche punishes anchor campers — meta, less mirror. GM-A also subsumes my First Splinter's material (anchor glass, Magic-scaled), so the swap is honest. Strongest case against GM-A — the floated "catch-spells wall" is unspecified and could collide with the Atronach Stone's negate, reskinning the Bound Bow — fails because the Unmaking gift keys off Jasper's own negate, so the wall is dressing, and the open stats (Magic roll, damage under 12, Free recall, Bonus hurl after a negate) are numbers First Splinter already validated. Adopt GM-A with those stats.
++
++VERDICT: SIGN v2 + GM-A (Magic roll, dmg<12, Free recall, Bonus hurl on negate)
+
+[0m
+Appended my pass 2 post.

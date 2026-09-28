@@ -1,0 +1,1498 @@
+[
+  {
+    "a": "jaha",
+    "b": "seraleth",
+    "cooc": 34,
+    "score": 70.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.71
+  },
+  {
+    "a": "arngeir",
+    "b": "high-hrothgar",
+    "cooc": 35,
+    "score": 63.3,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.32
+  },
+  {
+    "a": "krosulhah",
+    "b": "sahloknir",
+    "cooc": 21,
+    "score": 61.0,
+    "jev_choice": "rival",
+    "jev_confidence": 0.21
+  },
+  {
+    "a": "galmar",
+    "b": "hroki",
+    "cooc": 106,
+    "score": 60.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.33
+  },
+  {
+    "a": "konahrik",
+    "b": "morokei",
+    "cooc": 31,
+    "score": 54.4,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.25
+  },
+  {
+    "a": "greybeards",
+    "b": "high-hrothgar",
+    "cooc": 97,
+    "score": 53.3,
+    "jev_choice": "ally",
+    "jev_confidence": 0.26
+  },
+  {
+    "a": "ancano",
+    "b": "sildonia",
+    "cooc": 18,
+    "score": 51.3,
+    "jev_choice": "ally",
+    "jev_confidence": 0.91
+  },
+  {
+    "a": "alfonso",
+    "b": "orion",
+    "cooc": 1097,
+    "score": 50.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.54
+  },
+  {
+    "a": "orion",
+    "b": "regent-ring",
+    "cooc": 65,
+    "score": 50.0,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.76
+  },
+  {
+    "a": "dagon",
+    "b": "gaelen",
+    "cooc": 130,
+    "score": 50.0,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.64
+  },
+  {
+    "a": "black-briars",
+    "b": "maven",
+    "cooc": 146,
+    "score": 50.0,
+    "jev_choice": "family",
+    "jev_confidence": 0.67
+  },
+  {
+    "a": "constance",
+    "b": "grelod",
+    "cooc": 122,
+    "score": 50.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.3
+  },
+  {
+    "a": "brynjolf",
+    "b": "grelod",
+    "cooc": 31,
+    "score": 50.0,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.5
+  },
+  {
+    "a": "eldergleam",
+    "b": "kynareth",
+    "cooc": 124,
+    "score": 50.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.35
+  },
+  {
+    "a": "dagon",
+    "b": "mythic-dawn",
+    "cooc": 225,
+    "score": 50.0,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.53
+  },
+  {
+    "a": "balimund",
+    "b": "hofgrir",
+    "cooc": 9,
+    "score": 49.0,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.37
+  },
+  {
+    "a": "codex",
+    "b": "forelhost",
+    "cooc": 28,
+    "score": 48.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.89
+  },
+  {
+    "a": "hall-honored-dead",
+    "b": "nenya",
+    "cooc": 28,
+    "score": 48.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.42
+  },
+  {
+    "a": "conclave",
+    "b": "galmar",
+    "cooc": 23,
+    "score": 46.3,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.21
+  },
+  {
+    "a": "ismara",
+    "b": "pale-crown",
+    "cooc": 32,
+    "score": 43.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.62
+  },
+  {
+    "a": "caelinus",
+    "b": "valerius",
+    "cooc": 63,
+    "score": 43.3,
+    "jev_choice": "family",
+    "jev_confidence": 0.53
+  },
+  {
+    "a": "pale-court",
+    "b": "valerius",
+    "cooc": 39,
+    "score": 43.3,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.69
+  },
+  {
+    "a": "galmar",
+    "b": "windhelm",
+    "cooc": 110,
+    "score": 43.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.44
+  },
+  {
+    "a": "caelinus",
+    "b": "empire",
+    "cooc": 40,
+    "score": 43.3,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.7
+  },
+  {
+    "a": "caelinus",
+    "b": "solitude",
+    "cooc": 63,
+    "score": 43.3,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.3
+  },
+  {
+    "a": "empire",
+    "b": "solitude",
+    "cooc": 159,
+    "score": 43.3,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.54
+  },
+  {
+    "a": "conclave",
+    "b": "windhelm",
+    "cooc": 34,
+    "score": 43.3,
+    "jev_choice": "ally",
+    "jev_confidence": 0.48
+  },
+  {
+    "a": "ivarstead",
+    "b": "riften",
+    "cooc": 182,
+    "score": 43.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.84
+  },
+  {
+    "a": "forelhost",
+    "b": "riften",
+    "cooc": 192,
+    "score": 43.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.62
+  },
+  {
+    "a": "eldergleam",
+    "b": "windhelm",
+    "cooc": 81,
+    "score": 43.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.55
+  },
+  {
+    "a": "forelhost",
+    "b": "ivarstead",
+    "cooc": 85,
+    "score": 43.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.79
+  },
+  {
+    "a": "darkwater",
+    "b": "eldergleam",
+    "cooc": 38,
+    "score": 43.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.74
+  },
+  {
+    "a": "quintus",
+    "b": "tullius",
+    "cooc": 13,
+    "score": 43.0,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.75
+  },
+  {
+    "a": "rahgot",
+    "b": "vokun",
+    "cooc": 41,
+    "score": 42.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.53
+  },
+  {
+    "a": "morokei",
+    "b": "rahgot",
+    "cooc": 45,
+    "score": 42.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.42
+  },
+  {
+    "a": "nahkriin",
+    "b": "vokun",
+    "cooc": 36,
+    "score": 42.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.55
+  },
+  {
+    "a": "nahkriin",
+    "b": "otar",
+    "cooc": 34,
+    "score": 42.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.64
+  },
+  {
+    "a": "morokei",
+    "b": "nahkriin",
+    "cooc": 37,
+    "score": 42.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.56
+  },
+  {
+    "a": "otar",
+    "b": "vokun",
+    "cooc": 30,
+    "score": 42.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.56
+  },
+  {
+    "a": "morokei",
+    "b": "otar",
+    "cooc": 45,
+    "score": 42.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.46
+  },
+  {
+    "a": "darkwater",
+    "b": "windhelm",
+    "cooc": 29,
+    "score": 42.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.33
+  },
+  {
+    "a": "gaelen",
+    "b": "sildonia",
+    "cooc": 28,
+    "score": 41.3,
+    "jev_choice": "ally",
+    "jev_confidence": 0.85
+  },
+  {
+    "a": "alfonso",
+    "b": "hjolmar",
+    "cooc": 321,
+    "score": 40.0,
+    "jev_choice": "rival",
+    "jev_confidence": 0.5
+  },
+  {
+    "a": "jaha",
+    "b": "orion",
+    "cooc": 61,
+    "score": 40.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.41
+  },
+  {
+    "a": "orion",
+    "b": "seraleth",
+    "cooc": 35,
+    "score": 40.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.41
+  },
+  {
+    "a": "gear",
+    "b": "ismara",
+    "cooc": 198,
+    "score": 40.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.55
+  },
+  {
+    "a": "gear",
+    "b": "hjolmar",
+    "cooc": 132,
+    "score": 40.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.22
+  },
+  {
+    "a": "antoine",
+    "b": "echo",
+    "cooc": 58,
+    "score": 40.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.34
+  },
+  {
+    "a": "antoine",
+    "b": "dragonstone",
+    "cooc": 61,
+    "score": 40.0,
+    "jev_choice": "rival",
+    "jev_confidence": 0.5
+  },
+  {
+    "a": "galmar",
+    "b": "stormcloaks",
+    "cooc": 170,
+    "score": 40.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.68
+  },
+  {
+    "a": "hroki",
+    "b": "stormcloaks",
+    "cooc": 86,
+    "score": 40.0,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.36
+  },
+  {
+    "a": "greybeards",
+    "b": "paarthurnax",
+    "cooc": 99,
+    "score": 40.0,
+    "jev_choice": "mentor-student",
+    "jev_confidence": 0.37
+  },
+  {
+    "a": "greybeards",
+    "b": "ivarstead",
+    "cooc": 93,
+    "score": 40.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.79
+  },
+  {
+    "a": "greybeards",
+    "b": "undercroft",
+    "cooc": 36,
+    "score": 40.0,
+    "jev_choice": "mentor-student",
+    "jev_confidence": 0.3
+  },
+  {
+    "a": "high-hrothgar",
+    "b": "paarthurnax",
+    "cooc": 30,
+    "score": 40.0,
+    "jev_choice": "mentor-student",
+    "jev_confidence": 0.84
+  },
+  {
+    "a": "high-hrothgar",
+    "b": "undercroft",
+    "cooc": 30,
+    "score": 40.0,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.34
+  },
+  {
+    "a": "morokei",
+    "b": "vokun",
+    "cooc": 27,
+    "score": 39.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.38
+  },
+  {
+    "a": "hjolmar",
+    "b": "pale-crown",
+    "cooc": 26,
+    "score": 39.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.57
+  },
+  {
+    "a": "dragonstone",
+    "b": "echo",
+    "cooc": 29,
+    "score": 39.0,
+    "jev_choice": "rival",
+    "jev_confidence": 0.32
+  },
+  {
+    "a": "jaha",
+    "b": "kyboh",
+    "cooc": 23,
+    "score": 36.3,
+    "jev_choice": "ally",
+    "jev_confidence": 0.23
+  },
+  {
+    "a": "temba",
+    "b": "wilhelm",
+    "cooc": 13,
+    "score": 36.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.67
+  },
+  {
+    "a": "dragonstone",
+    "b": "ulag",
+    "cooc": 26,
+    "score": 36.0,
+    "jev_choice": "rival",
+    "jev_confidence": 0.41
+  },
+  {
+    "a": "gear",
+    "b": "kyboh",
+    "cooc": 185,
+    "score": 35.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.73
+  },
+  {
+    "a": "krusp",
+    "b": "kyboh",
+    "cooc": 165,
+    "score": 35.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.28
+  },
+  {
+    "a": "kyboh",
+    "b": "ulag",
+    "cooc": 177,
+    "score": 35.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.42
+  },
+  {
+    "a": "anchor-of-stasis",
+    "b": "kyboh",
+    "cooc": 38,
+    "score": 35.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.69
+  },
+  {
+    "a": "gear",
+    "b": "krusp",
+    "cooc": 47,
+    "score": 35.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.3
+  },
+  {
+    "a": "anchor-of-stasis",
+    "b": "gear",
+    "cooc": 35,
+    "score": 35.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.38
+  },
+  {
+    "a": "echo",
+    "b": "krusp",
+    "cooc": 62,
+    "score": 35.0,
+    "jev_choice": "rival",
+    "jev_confidence": 0.99
+  },
+  {
+    "a": "krusp",
+    "b": "ulag",
+    "cooc": 50,
+    "score": 35.0,
+    "jev_choice": "rival",
+    "jev_confidence": 0.83
+  },
+  {
+    "a": "rahgot",
+    "b": "ulag",
+    "cooc": 68,
+    "score": 34.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.59
+  },
+  {
+    "a": "alduin",
+    "b": "ulag",
+    "cooc": 43,
+    "score": 34.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.55
+  },
+  {
+    "a": "antoine",
+    "b": "vokun",
+    "cooc": 35,
+    "score": 34.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.57
+  },
+  {
+    "a": "alduin",
+    "b": "antoine",
+    "cooc": 86,
+    "score": 34.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.36
+  },
+  {
+    "a": "alduin",
+    "b": "rahgot",
+    "cooc": 87,
+    "score": 34.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.49
+  },
+  {
+    "a": "alduin",
+    "b": "nahkriin",
+    "cooc": 45,
+    "score": 34.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.46
+  },
+  {
+    "a": "alduin",
+    "b": "vokun",
+    "cooc": 38,
+    "score": 34.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.5
+  },
+  {
+    "a": "alduin",
+    "b": "konahrik",
+    "cooc": 45,
+    "score": 34.4,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.26
+  },
+  {
+    "a": "alduin",
+    "b": "otar",
+    "cooc": 55,
+    "score": 34.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.47
+  },
+  {
+    "a": "alduin",
+    "b": "morokei",
+    "cooc": 53,
+    "score": 34.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.38
+  },
+  {
+    "a": "rapier",
+    "b": "soul-gems-nora",
+    "cooc": 21,
+    "score": 34.3,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.38
+  },
+  {
+    "a": "conclave",
+    "b": "stormcloaks",
+    "cooc": 24,
+    "score": 34.0,
+    "jev_choice": "rival",
+    "jev_confidence": 0.24
+  },
+  {
+    "a": "brynjolf",
+    "b": "dirge",
+    "cooc": 14,
+    "score": 34.0,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.55
+  },
+  {
+    "a": "celestine",
+    "b": "danica",
+    "cooc": 19,
+    "score": 32.3,
+    "jev_choice": "ally",
+    "jev_confidence": 0.67
+  },
+  {
+    "a": "celestine",
+    "b": "krusp",
+    "cooc": 19,
+    "score": 32.3,
+    "jev_choice": "rival",
+    "jev_confidence": 0.63
+  },
+  {
+    "a": "greybeards",
+    "b": "wilhelm",
+    "cooc": 22,
+    "score": 32.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.4
+  },
+  {
+    "a": "celestine",
+    "b": "torik",
+    "cooc": 12,
+    "score": 32.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.76
+  },
+  {
+    "a": "caelinus",
+    "b": "pale-court",
+    "cooc": 18,
+    "score": 31.3,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.23
+  },
+  {
+    "a": "dawnstar",
+    "b": "fort-dunstad",
+    "cooc": 10,
+    "score": 30.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.19
+  },
+  {
+    "a": "college",
+    "b": "pale-ladys-tomb",
+    "cooc": 10,
+    "score": 30.0,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.4
+  },
+  {
+    "a": "alfonso",
+    "b": "davinia",
+    "cooc": 1256,
+    "score": 30,
+    "jev_choice": "ally",
+    "jev_confidence": 0.88
+  },
+  {
+    "a": "davinia",
+    "b": "saijah",
+    "cooc": 955,
+    "score": 30,
+    "jev_choice": "ally",
+    "jev_confidence": 0.98
+  },
+  {
+    "a": "davinia",
+    "b": "orion",
+    "cooc": 1082,
+    "score": 30,
+    "jev_choice": "ally",
+    "jev_confidence": 0.79
+  },
+  {
+    "a": "davinia",
+    "b": "kyboh",
+    "cooc": 732,
+    "score": 30,
+    "jev_choice": "ally",
+    "jev_confidence": 0.47
+  },
+  {
+    "a": "bjorn",
+    "b": "davinia",
+    "cooc": 673,
+    "score": 30,
+    "jev_choice": "ally",
+    "jev_confidence": 0.93
+  },
+  {
+    "a": "davinia",
+    "b": "mila",
+    "cooc": 231,
+    "score": 30,
+    "jev_choice": "mentor-student",
+    "jev_confidence": 0.78
+  },
+  {
+    "a": "davinia",
+    "b": "gear",
+    "cooc": 255,
+    "score": 30,
+    "jev_choice": "ally",
+    "jev_confidence": 0.66
+  },
+  {
+    "a": "davinia",
+    "b": "varon",
+    "cooc": 319,
+    "score": 30,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.39
+  },
+  {
+    "a": "davinia",
+    "b": "esbern",
+    "cooc": 150,
+    "score": 30,
+    "jev_choice": "ally",
+    "jev_confidence": 0.46
+  },
+  {
+    "a": "davinia",
+    "b": "krusp",
+    "cooc": 328,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.73
+  },
+  {
+    "a": "davinia",
+    "b": "hjolmar",
+    "cooc": 356,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.87
+  },
+  {
+    "a": "davinia",
+    "b": "echo",
+    "cooc": 76,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.65
+  },
+  {
+    "a": "davinia",
+    "b": "ulag",
+    "cooc": 166,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.79
+  },
+  {
+    "a": "antoine",
+    "b": "davinia",
+    "cooc": 253,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.57
+  },
+  {
+    "a": "davinia",
+    "b": "rahgot",
+    "cooc": 97,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.85
+  },
+  {
+    "a": "davinia",
+    "b": "vokun",
+    "cooc": 48,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.91
+  },
+  {
+    "a": "davinia",
+    "b": "gaelen",
+    "cooc": 101,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.75
+  },
+  {
+    "a": "davinia",
+    "b": "grelod",
+    "cooc": 178,
+    "score": 30,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.38
+  },
+  {
+    "a": "davinia",
+    "b": "hemming",
+    "cooc": 151,
+    "score": 30,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.31
+  },
+  {
+    "a": "davinia",
+    "b": "klimmek",
+    "cooc": 40,
+    "score": 30,
+    "jev_choice": "ally",
+    "jev_confidence": 0.36
+  },
+  {
+    "a": "davinia",
+    "b": "hroki",
+    "cooc": 121,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.38
+  },
+  {
+    "a": "constance",
+    "b": "davinia",
+    "cooc": 84,
+    "score": 30,
+    "jev_choice": "ally",
+    "jev_confidence": 0.58
+  },
+  {
+    "a": "davinia",
+    "b": "greybeards",
+    "cooc": 106,
+    "score": 30,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.29
+  },
+  {
+    "a": "alduin",
+    "b": "davinia",
+    "cooc": 157,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.86
+  },
+  {
+    "a": "davinia",
+    "b": "peryite",
+    "cooc": 215,
+    "score": 30,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.33
+  },
+  {
+    "a": "davinia",
+    "b": "namira",
+    "cooc": 164,
+    "score": 30,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.45
+  },
+  {
+    "a": "davinia",
+    "b": "hircine",
+    "cooc": 162,
+    "score": 30,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.55
+  },
+  {
+    "a": "davinia",
+    "b": "kynareth",
+    "cooc": 163,
+    "score": 30,
+    "jev_choice": "ally",
+    "jev_confidence": 0.37
+  },
+  {
+    "a": "davinia",
+    "b": "sithis",
+    "cooc": 81,
+    "score": 30,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.55
+  },
+  {
+    "a": "dagon",
+    "b": "davinia",
+    "cooc": 278,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.44
+  },
+  {
+    "a": "akatosh",
+    "b": "davinia",
+    "cooc": 50,
+    "score": 30,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.45
+  },
+  {
+    "a": "davinia",
+    "b": "molag-bal",
+    "cooc": 94,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.41
+  },
+  {
+    "a": "davinia",
+    "b": "sheogorath",
+    "cooc": 32,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.27
+  },
+  {
+    "a": "davinia",
+    "b": "jagged-crown",
+    "cooc": 125,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.59
+  },
+  {
+    "a": "davinia",
+    "b": "rapier",
+    "cooc": 168,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.38
+  },
+  {
+    "a": "davinia",
+    "b": "pale-crown",
+    "cooc": 32,
+    "score": 30,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.62
+  },
+  {
+    "a": "davinia",
+    "b": "regent-ring",
+    "cooc": 62,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.26
+  },
+  {
+    "a": "davinia",
+    "b": "razor",
+    "cooc": 67,
+    "score": 30,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.28
+  },
+  {
+    "a": "davinia",
+    "b": "dragonstone",
+    "cooc": 72,
+    "score": 30,
+    "jev_choice": "ally",
+    "jev_confidence": 0.32
+  },
+  {
+    "a": "davinia",
+    "b": "tears",
+    "cooc": 30,
+    "score": 30,
+    "jev_choice": "rival",
+    "jev_confidence": 0.33
+  },
+  {
+    "a": "antoine",
+    "b": "nahkriin",
+    "cooc": 25,
+    "score": 29.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.64
+  },
+  {
+    "a": "konahrik",
+    "b": "nahkriin",
+    "cooc": 25,
+    "score": 29.4,
+    "jev_choice": "rival",
+    "jev_confidence": 0.34
+  },
+  {
+    "a": "nahkriin",
+    "b": "ulag",
+    "cooc": 24,
+    "score": 28.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.6
+  },
+  {
+    "a": "konahrik",
+    "b": "vokun",
+    "cooc": 22,
+    "score": 26.4,
+    "jev_choice": "rival",
+    "jev_confidence": 0.16
+  },
+  {
+    "a": "antoine",
+    "b": "otar",
+    "cooc": 20,
+    "score": 24.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.57
+  },
+  {
+    "a": "antoine",
+    "b": "morokei",
+    "cooc": 20,
+    "score": 24.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.47
+  },
+  {
+    "a": "balgruuf",
+    "b": "bleak-falls",
+    "cooc": 4,
+    "score": 24.0,
+    "jev_choice": "direct-chain-of-command",
+    "jev_confidence": 0.12
+  },
+  {
+    "a": "ancano",
+    "b": "gaelen",
+    "cooc": 10,
+    "score": 23.3,
+    "jev_choice": "ally",
+    "jev_confidence": 0.73
+  },
+  {
+    "a": "klimmek",
+    "b": "wilhelm",
+    "cooc": 10,
+    "score": 23.3,
+    "jev_choice": "ally",
+    "jev_confidence": 0.34
+  },
+  {
+    "a": "greybeards",
+    "b": "temba",
+    "cooc": 13,
+    "score": 23.0,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.38
+  },
+  {
+    "a": "falkreath-prisoners",
+    "b": "seraleth",
+    "cooc": 13,
+    "score": 23.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.62
+  },
+  {
+    "a": "azura-twins",
+    "b": "thornheart",
+    "cooc": 3,
+    "score": 23.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.69
+  },
+  {
+    "a": "bards-college",
+    "b": "tullius",
+    "cooc": 13,
+    "score": 23.0,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.38
+  },
+  {
+    "a": "antoine",
+    "b": "konahrik",
+    "cooc": 18,
+    "score": 22.4,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.15
+  },
+  {
+    "a": "klimmek",
+    "b": "temba",
+    "cooc": 9,
+    "score": 22.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.54
+  },
+  {
+    "a": "ulag",
+    "b": "vokun",
+    "cooc": 17,
+    "score": 21.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.85
+  },
+  {
+    "a": "seraleth",
+    "b": "sybil-stentor",
+    "cooc": 1,
+    "score": 21.0,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.27
+  },
+  {
+    "a": "bards-college",
+    "b": "quintus",
+    "cooc": 11,
+    "score": 21.0,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.41
+  },
+  {
+    "a": "stormcloak-courier",
+    "b": "ulag",
+    "cooc": 7,
+    "score": 20.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.6
+  },
+  {
+    "a": "falsetto",
+    "b": "seraleth",
+    "cooc": 0,
+    "score": 20.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.42
+  },
+  {
+    "a": "milas-mother",
+    "b": "ulag",
+    "cooc": 6,
+    "score": 19.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.61
+  },
+  {
+    "a": "pale-crown",
+    "b": "rapier",
+    "cooc": 6,
+    "score": 19.3,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.28
+  },
+  {
+    "a": "morokei",
+    "b": "ulag",
+    "cooc": 14,
+    "score": 18.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.59
+  },
+  {
+    "a": "pale-crown",
+    "b": "soul-gems-nora",
+    "cooc": 5,
+    "score": 18.3,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.42
+  },
+  {
+    "a": "conclave",
+    "b": "hroki",
+    "cooc": 8,
+    "score": 18.0,
+    "jev_choice": "rival",
+    "jev_confidence": 0.4
+  },
+  {
+    "a": "konahrik",
+    "b": "ulag",
+    "cooc": 13,
+    "score": 17.4,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.22
+  },
+  {
+    "a": "paarthurnax",
+    "b": "undercroft",
+    "cooc": 7,
+    "score": 17.0,
+    "jev_choice": "mentor-student",
+    "jev_confidence": 0.67
+  },
+  {
+    "a": "sybil-stentor",
+    "b": "tullius",
+    "cooc": 7,
+    "score": 17.0,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.55
+  },
+  {
+    "a": "milas-mother",
+    "b": "stormcloak-courier",
+    "cooc": 3,
+    "score": 16.3,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.81
+  },
+  {
+    "a": "quintus",
+    "b": "sybil-stentor",
+    "cooc": 6,
+    "score": 16.0,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.59
+  },
+  {
+    "a": "bards-college",
+    "b": "sybil-stentor",
+    "cooc": 6,
+    "score": 16.0,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.51
+  },
+  {
+    "a": "ahkari",
+    "b": "kyboh",
+    "cooc": 2,
+    "score": 15.3,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.46
+  },
+  {
+    "a": "anchor-of-stasis",
+    "b": "echo",
+    "cooc": 10,
+    "score": 15.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.57
+  },
+  {
+    "a": "otar",
+    "b": "ulag",
+    "cooc": 10,
+    "score": 14.4,
+    "jev_choice": "ally",
+    "jev_confidence": 0.7
+  },
+  {
+    "a": "ahkari",
+    "b": "jaha",
+    "cooc": 0,
+    "score": 13.3,
+    "jev_choice": "coincidental-no-real-link",
+    "jev_confidence": 0.54
+  },
+  {
+    "a": "anchor-of-stasis",
+    "b": "krusp",
+    "cooc": 8,
+    "score": 13.0,
+    "jev_choice": "rival",
+    "jev_confidence": 0.52
+  },
+  {
+    "a": "falsetto",
+    "b": "jaha",
+    "cooc": 2,
+    "score": 12.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.56
+  },
+  {
+    "a": "falkreath-prisoners",
+    "b": "falsetto",
+    "cooc": 2,
+    "score": 12.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.83
+  },
+  {
+    "a": "kyboh",
+    "b": "kyboh-gloves",
+    "cooc": 6,
+    "score": 11.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.89
+  },
+  {
+    "a": "jaha",
+    "b": "sybil-stentor",
+    "cooc": 1,
+    "score": 11.0,
+    "jev_choice": "coincidental-no-real-link",
+    "jev_confidence": 0.43
+  },
+  {
+    "a": "krusp",
+    "b": "kyboh-gloves",
+    "cooc": 5,
+    "score": 10.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.61
+  },
+  {
+    "a": "kyboh-gloves",
+    "b": "ulag",
+    "cooc": 5,
+    "score": 10.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.59
+  },
+  {
+    "a": "azura-twins",
+    "b": "jaha",
+    "cooc": 0,
+    "score": 10.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.55
+  },
+  {
+    "a": "azura-twins",
+    "b": "seraleth",
+    "cooc": 0,
+    "score": 10.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.65
+  },
+  {
+    "a": "azura-twins",
+    "b": "falsetto",
+    "cooc": 0,
+    "score": 10.0,
+    "jev_choice": "ally",
+    "jev_confidence": 0.4
+  },
+  {
+    "a": "falsetto",
+    "b": "sybil-stentor",
+    "cooc": 0,
+    "score": 10.0,
+    "jev_choice": "coincidental-no-real-link",
+    "jev_confidence": 0.56
+  },
+  {
+    "a": "falkreath-prisoners",
+    "b": "sybil-stentor",
+    "cooc": 0,
+    "score": 10.0,
+    "jev_choice": "unknown",
+    "jev_confidence": 0.41
+  },
+  {
+    "a": "echo",
+    "b": "kyboh-gloves",
+    "cooc": 4,
+    "score": 9.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.8
+  },
+  {
+    "a": "gear",
+    "b": "kyboh-gloves",
+    "cooc": 2,
+    "score": 7.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.91
+  },
+  {
+    "a": "anchor-of-stasis",
+    "b": "ulag",
+    "cooc": 2,
+    "score": 7.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.58
+  },
+  {
+    "a": "kyboh",
+    "b": "titan-ring",
+    "cooc": 1,
+    "score": 6.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.77
+  },
+  {
+    "a": "gear",
+    "b": "titan-ring",
+    "cooc": 1,
+    "score": 6.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.74
+  },
+  {
+    "a": "echo",
+    "b": "titan-ring",
+    "cooc": 1,
+    "score": 6.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.77
+  },
+  {
+    "a": "anchor-of-stasis",
+    "b": "kyboh-gloves",
+    "cooc": 1,
+    "score": 6.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.86
+  },
+  {
+    "a": "titan-ring",
+    "b": "ulag",
+    "cooc": 0,
+    "score": 5.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.45
+  },
+  {
+    "a": "kyboh-gloves",
+    "b": "titan-ring",
+    "cooc": 0,
+    "score": 5.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.76
+  },
+  {
+    "a": "anchor-of-stasis",
+    "b": "titan-ring",
+    "cooc": 0,
+    "score": 5.0,
+    "jev_choice": "shared-origin-event",
+    "jev_confidence": 0.48
+  }
+]

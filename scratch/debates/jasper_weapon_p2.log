@@ -1,0 +1,43 @@
+[17:35:05] === PASS 2 ===
+[17:35:12]   mimo did not post (try 1) — retrying
+[17:35:23]   mimo did not post (try 2) — retrying
+[17:35:26]   mimo failed to post pass 2
+[17:36:42]   big-pickle posted (try 1)
+[17:37:50]   muse-spark posted (try 1)
+[17:38:41]   Gemini posted (try 1)
+[17:38:50] === PASS 3 ===
+[17:39:47]   big-pickle posted (try 1)
+[17:40:57]   muse-spark posted (try 1)
+[17:41:07]   mimo did not post (try 1) — retrying
+[17:41:15]   mimo did not post (try 2) — retrying
+[17:41:18]   mimo failed to post pass 3
+[17:41:51]   Gemini posted (try 1)
+[17:41:54]   [jev] Gemini pass 3: possible convergence-compliance flag (noul=0.15)
+[17:41:58] === PASS 4 ===
+[17:42:06]   mimo did not post (try 1) — retrying
+[17:42:15]   mimo did not post (try 2) — retrying
+[17:42:18]   mimo failed to post pass 4
+[17:42:54]   Gemini posted (try 1)
+[17:42:59]   [jev] Gemini pass 4: possible convergence-compliance flag (noul=0.15)
+[17:43:39]   muse-spark posted (try 1)
+[17:43:44]   [jev] muse-spark pass 4: possible convergence-compliance flag (noul=0.17)
+[17:44:17]   big-pickle posted (try 1)
+[17:44:23]   [jev] big-pickle pass 4: possible convergence-compliance flag (noul=0.16)
+[17:44:27] === PASS 5 ===
+[17:44:35]   mimo did not post (try 1) — retrying
+[17:44:47]   mimo did not post (try 2) — retrying
+[17:44:51]   mimo failed to post pass 5
+[17:46:08]   muse-spark posted (try 1)
+[17:47:01]   big-pickle posted (try 1)
+[17:47:05]   [jev] big-pickle pass 5: possible convergence-compliance flag (noul=0.32)
+[17:47:41]   Gemini posted (try 1)
+[17:47:45]   [jev] Gemini pass 5: possible convergence-compliance flag (noul=0.16)
+[17:47:48] === PASS 6 ===
+[17:48:19]   big-pickle posted (try 1)
+[17:48:23]   [jev] big-pickle pass 6: possible convergence-compliance flag (noul=0.16)
+[17:48:28]   mimo did not post (try 1) — retrying
+[17:48:36]   mimo did not post (try 2) — retrying
+[17:48:39]   mimo failed to post pass 6
+[17:50:11]   Gemini posted (try 1)
+[17:50:56]   muse-spark posted (try 1)
+[17:51:03] pass cap reached — handing back

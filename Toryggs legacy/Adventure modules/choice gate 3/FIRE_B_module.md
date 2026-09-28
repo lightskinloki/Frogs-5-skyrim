@@ -1482,12 +1482,154 @@ The creature's back splits open. A sliding mass of pale limbs reaches down into 
 - 30-60 gold per player in frozen pilgrim purses.
 - Consumables: 2x Draughts of Resist Frost, 2x Standard Healing Draughts.
 
---- AFTER THE TROLL FALLS: THE THRESHOLD ---
+--- SCENE 21B AFTERMATH: THE TWO FIRES OF THE THRESHOLD ---
 
->> READ ALOUD
-The mutated mass collapses into the snow, the black sap hissing as it cools. The wind roars through the gap outside, but inside the cave, the air goes dead and still.
+Tag: Social Challenge, Companion Retention, Daedric Temptation
+Staging: Simultaneous Action. The door debate and Bjorn's departure attempt happen at the same time in the den, not sequentially. The party clusters at the rear seamless basalt door dealing with the puzzle and Saijah's crisis, while Bjorn breaks down in the center of the cave.
 
-At the back of the den, the rock wall is flat and seamless -- ancient stone covered in faint, weathered Atmoran runes beneath the ice. There is no latch, no keyhole, and no seam.
+--- THE IMMEDIATE DEN STATE ---
+Under the basalt overhang, the wind drops. The mutated troll collapses into the red slush, black sap hissing as it freezes in the drift. 
+- Alfonso pulls his severed flesh and limbs back together from the snow.
+- Nora gets back to her feet, shaking frost and powder burns from her coat.
+- Davinia holds the two filled Frost Troll soul gems; Ismara stirs actively within the Crown of the Pale Lady.
+- Orion catches his breath, the subtle hum of the newly unlocked Tempo Modulation settling into his pulse.
+- Saijah slumps against the icy basalt wall, drenched in cold sweat, clutching her temples as the Skooma wears thin and Kynareth's unbuffered headache tears through her skull.
+- In the center of the cave, Bjorn stands motionless against Balthazaar’s flank, hands trembling violently around frozen hemp rope, Mable's carcass half-covered beneath a stiff wool blanket.
+- At the back of the den, the rock wall is flat and seamless -- black basalt worn smooth by generations of trolls rubbing their hides against the warm stone. It radiates a dull geothermal warmth that melts the rime into slow, trickling beads down the rock face, explaining the steam that drew the troll here to make its den. No latch, no keyhole, and no seam.
+
+--- THE DOOR: HIRCINE'S HOOK (THE TWO BRANCHES) ---
+
+>> READ ALOUD -- Hircine's Free Trial (To Saijah):
+For five seconds, the roaring noise in your skull clamps shut. The agony vanishes. Your racing pulse drops to calm, cool stone, and your focus locks into absolute, velvet predator stillness. You can breathe. 
+
+In that dead silence, a voice brushes the base of your skull:
+
+>> HIRCINE (Whispering in Saijah's mind):
+"Little sentinel. See how quiet it gets? That ringing in your head—I can make it stay like this.
+I remember my first hunt on this mountain. I know the words the rock is waiting for.
+Offer the hawk talon to me. Give it to me, and the door opens."
+
+GM: Ylva catches the heavy, predatory musk of the Prince in the den. Her fur bristles, teeth baring in raw envy and fury:
+>> YLVA:
+"He was right here. What did He say to you? ... Then give it to Him. Don't fucking waste it, you ungrateful bitch."
+
+GM: STOP. Turn to Saijah's player. Does she accept the Prince's offer or refuse it?
+
+=== BRANCH A: SAIJAH REFUSES HIRCINE ===
+1. THE CRASH & THE DROP:
+   Saijah refuses the trade. Hircine withdraws with a cold, mocking smile. The instant his grip slips, the held-back dam breaks: the full, violent Skooma crash (convulsive tremors, nausea, cold sweats, exhaustion) and Kynareth's unbuffered divine headache slam into her nervous system at once, dropping her to her knees in the red slush.
+   Ylva spits into the drift at her feet in bitter disgust.
+
+2. KYNARETH'S WHISPER:
+   Through the blinding pain, a sharp, cold gust cuts across Saijah's forehead—not words, but an unmistakable divine impression from Kyne:
+   *The scholar's hand already recorded the stone. Look to the charcoal.*
+   Saijah chokes out the realization to the party: "The rubbing... Ismara... the waystone on the climb..."
+
+3. THE CHARCOAL RUBBING & THE TRANSLATION WALL:
+   Davinia/Ismara produces the charcoal rubbing lifted from the third waystone during the ascent (Handout: DOVAHZUL_THRESHOLD_RUBBING). 
+   The party gathers around the sheet at the basalt door. The wedge-runes are clear and sharp, but it is ancient Dovahzul—pre-First Empire dragon syntax. None of the mortal party members can pronounce the throat-inflections or translate the meaning without breaking their teeth.
+
+4. THE CLUES & THE DEBATE:
+   - Esbern inspects the rubbing with trembling scholar's fingers:
+     >> ESBERN:
+     "This is pre-First Empire dragon-script. Ismara's rubbing is immaculate, but these throat-inflections are lost to mortal tongues. Arngeir and the Greybeards at High Hrothgar... they speak Dovahzul as their cradle-breath. They could translate this in an instant."
+   - Roll to Remember: Players can make an Easy Guile (+2) or Magic (+2) check to recall Arngeir's parting guidance before they took the stag path—that the Waystones along the 7,000 Steps hold the pilgrim's prayers, and the mountain itself teaches the words to those who retrace the path.
+   - The party huddles at the back wall in heated debate: Do they hike back up to High Hrothgar to ask Arngeir? Do they backtrack to the lower Waystones? How do they decipher the unison key?
+
+=== BRANCH B: SAIJAH ACCEPTS HIRCINE ===
+1. THE TRANSFORMATION & THE TERMS:
+   Saijah yields the Hawk Talon (or accepts Hircine's binding). 
+   - The psychic headache is permanently silenced.
+   - Her focus settles into velvet predator calm.
+   - Her fingernails lengthen and harden into razor-sharp, jet-black beast claws.
+   - She gains the *Skooma Mastery* trait (can consume Skooma without addiction worsening).
+   - Hircine breathes the ancient Dovahzul phonetic passphrase directly into her blood: "TAH JOOR NIR, THU'UM VEN SU'UM."
+
+2. SHARING THE WORDS:
+   Ylva watches in stunned, reverent envy. Saijah turns back toward the party at the basalt door to share the phonetic pronunciation so the group can speak the unison key.
+
+--- THE SIMULTANEOUS COLLISION: THE GUILE ROLL ---
+
+GM DIRECTION (CRUCIAL):
+Whether the party is clustered at the back wall in the midst of debating Ismara's untranslatable rubbing (Branch A) OR as Saijah turns back to the group to share Hircine's words (Branch B), do NOT wait for them to finish. Interrupt the debate:
+
+GM: "Everyone roll Guile."
+
+THE PURPOSE OF THE GUILE ROLL:
+The roll is NOT to notice Bjorn himself (Bjorn is massive and standing right in the center of the cave). The roll is specifically to notice MILA GOING OVER TO HELP BJORN PACK UP MABLE'S CARCASS ON BALTHAZAAR.
+
+>> READ ALOUD -- For Anyone Who Succeeds on the Guile Roll:
+While you are clustered at the rear wall around the door, movement catches your eye across the red slush.
+
+In the center of the cave, Bjorn is standing against Balthazaar’s flank, but his hands have stopped moving. The wool blanket wrapped around Mable's remains is half-tied, the frozen hemp rope slipping through his torn, bloodied knuckles. His forehead is pressed against the mare’s shoulder, his breath coming in shallow, shuddering hitches. He isn't tying the knot. He isn't moving at all. 
+
+Mila walks over through the red slush. She is taller now—the strange weather of the mountain has stretched her into a twelve-year-old girl in an oversized coat—and her face has the quiet, watchful stillness of the Warrens. She doesn't look at the dead troll, and she doesn't look at the stone door. 
+
+She reaches up, pulls the loose cord tight with both hands, and tucks the corner of the grey wool blanket down over Mable's head. Then she takes Balthazaar’s lead rope from Bjorn’s open, frozen fingers. 
+
+The mare lowers her head and follows her. 
+
+Mila grabs the sleeve of Bjorn’s heavy carter's coat and tugs it until his boots shift in the snow and he follows. She leads them past you to the mouth of the cave, where the wind howls through the gap and the 7,000 Steps disappear down into whiteout. 
+
+She stops at the lip of the drop, holding the halter, and looks up at him:
+
+>> MILA:
+"Which way, Bjorn?"
+
+Bjorn looks down at her. His eyes are hollow, completely empty of the massive, steady warmth that used to fill them. He doesn't look back at the cave, and he doesn't look at any of you:
+
+>> BJORN:
+"Morthal. Down to the marsh. Soft earth there... we can dig."
+
+He takes the halter rope back from her hand, puts his boots into the downhill drift, and starts walking away into the blizzard. 
+
+GM: STOP. The floor belongs to the players. (Zero player scripting—never decide or describe how the PCs react. Hand them the scene and let them step in.)
+
+--- THE SOCIAL CHALLENGE: THE CARTER'S ROAD ---
+
+Tag: Social Challenge, Companion Retention
+The Ground:
+Bjorn is broken. Mable was ~30 years old, the only creature he allowed himself to love after Serana died—because loving an old horse was safe. In this cave, he broke his 40-year vow of non-violence to save her—and she was already dead. He believes his vow was broken for nothing, that his entire life has been a fool's errand, and that he is cursed to bring violence to everything around him. He is on 1 HP, emotionally hollowed out, and determined to take Mable down to Morthal to dig a grave in soft marsh earth, removing Mila from the Lanterns' crossfire.
+
+The Stake:
+The basalt door behind them does NOT lock if Bjorn leaves. It requires every voice *present* in True Need—if Bjorn walks, the remaining party can still open Jurgen's door. The loss is entirely human: their carter, their moral anchor, and Mila.
+
+The Check:
+The acting player makes a Guile check.
+Base Difficulty: Hard (-4) — Bjorn is past his limit, emotionally shattered, and moving on survival instinct.
+
+Approach Modifiers:
+• Respecting Mable's Burial (+4 bonus / shifts to Standard +0):
+  If the party addresses his real priority—honoring Mable with dignity (e.g., Ismara/Davinia offering 
+  to preserve Mable in a clean stasis-chest of permafrost inside the den until they can return together 
+  and give her a proper burial, rather than dragging a thawing carcass 7,000 steps through a blizzard).
+• Mila's Survival (+2 bonus):
+  Grounded appeal to his protective instinct: pointing out that dragging a 12-year-old child down 
+  7,000 steps into an active whiteout while on 1 HP, with active Dagonite cultists on the road, guarantees 
+  she ends up in the crossfire he swore to protect her from.
+• Validating the Vow (+2 bonus):
+  Meeting him in the grief without dismissing it: acknowledging that fighting for what he loved 
+  didn't make him a monster, even if it cost his peace.
+
+Penalties & Auto-Fails:
+• Minimizing Mable ("She was just an old horse / we have an apocalypse to stop"):
+  Automatic failure. Bjorn does not argue; he turns his back and walks into the storm.
+• Pulling rank or ordering him ("You're our driver / you work for the Lanterns"):
+  -4 penalty (Very Hard -6). He is completely deaf to authority right now.
+
+Outcomes:
+• On Success: 
+  Bjorn stops at the lip of the drop. His boots sink into the drift. He doesn't suddenly cheer up 
+  or smile, but his shoulders drop. He accepts the party's handling of Mable (e.g., 
+  Ismara's permafrost casing), lets Mila guide him back under the overhang to sit, and stays 
+  with the company on 1 HP.
+  >> BJORN (quiet, shoulders dropping, looking only at the blanket):
+  "Keep her cold, then. Don't let the rot take her."
+• On Failure: 
+  Bjorn puts his boots in the snow and keeps walking down toward Ivarstead. Mila holds his 
+  coat sleeve and walks with him into the whiteout. The party watches their carter disappear down the mountain.
+
+--- THE THRESHOLD: JURGEN'S DOOR ---
 
 GM: The party stands in the quiet of the cave where Mable died. To open the door, every member present must stand together at the threshold and speak in unison:
 
@@ -1500,7 +1642,7 @@ The words leave your mouths at once, catching the acoustic hollow of the cave. F
 
 Then a deep, resonant tone vibrates through the floorstones -- not stone grinding on stone, but the mountain itself unlocking. The solid rock wall shivers, turns translucent like thin ice over water, and parts down the center.
 
-A draft of hot, mineral-heavy air washes over your boots. Beyond lies a descending stair of dark living rock, bathed in the pulsing crimson glow of the undercroft below.
+A draft of hot, mineral-heavy air rolls out into the cave. The packed crust of snow and rime across the threshold gives way instantly, melting into dark water that hisses against the warm stone and runs down the rock face. Beyond lies a descending stair of dark living basalt, bathed in the pulsing crimson glow of the undercroft below.
 
 EXIT -> The door is open. -> 21C The Antechamber of the Earth-Bone
 
@@ -1508,72 +1650,234 @@ EXIT -> The door is open. -> 21C The Antechamber of the Earth-Bone
 
 SUBTITLE: The sealed Merethic sanctuary — pre-boss prep, ancient relics, and the metaphysical truth
 
-GM: This chamber sits directly between the troll den and the inner amphitheater where Gaelen is working at the root. It was sealed during the Dragon War when Felldir, Hakon, and Gormlaith cast Alduin through time with the Elder Scroll at the summit. The pre-cult breath-priestesses of Kyne sang this door shut to protect the mountain's foundational Earth-Bone. No pilgrim has ever walked here. No modern coins or glass potions exist here. This is an untouched Merethic vault that gives the party their pre-boss breath, pre-Dragon War equipment, and total metaphysical clarity before crossing the inner bronze doors into Gaelen’s chamber.
+GM: This chamber sits directly between the troll den and the inner amphitheater where Gaelen is working at the root. It was sealed during the Dragon War when Felldir, Hakon, and Gormlaith cast Alduin through time with the Elder Scroll at the summit. The pre-cult breath-priestesses of Kyne sang this door shut to protect the mountain's foundational Earth-Bone. No pilgrim has ever walked here. No modern coins or glass potions exist here. This is an untouched Merethic vault that gives the party their pre-boss breath, pre-Dragon War equipment, and historical clarity before crossing the inner bronze doors into Gaelen’s chamber.
 
 >> READ ALOUD — THE NATIONAL TREASURE REVEAL: THE LOST VAULT OF THE RETURN
-The steps bring you down into an immense, vaulted subterranean expanse cut directly from the mountain’s dark living basalt. Your lantern light hits the gloom—and as the shadows pull back, the breath is knocked clean out of your chest.
+The steps bring you down into an immense, vaulted subterranean expanse cut directly from the mountain’s dark living basalt. The lantern light sweeps back the gloom, revealing towering pillars of polished sea-stone and mammoth-ivory rising fifty feet into the darkness, holding aloft arches braced with sheets of ancient beaten bronze.
 
-This is not a crypt. This is the lost treasury and historical archive of the First Men—the Library of Alexandria of the Nordic race, sealed away from the world before the Dragon Cult burned human history.
+This is the lost treasury and historical archive of the First Men, sealed away from the world before the Dragon Cult burned human history.
 
-Titanic pillars of polished black basalt and petrified mammoth-ivory rise fifty feet into the darkness, holding aloft arches draped in sheets of beaten ancient bronze. As your light catches the walls, vast carved panoramas leap out of the dark:
-- Not the frozen, dead waste of modern Atmora, but the legendary **Green Atmora** of the Dawn—sunlit coasts, rolling tundra, and great timber-halls beneath a golden sky, before the Frostfall froze the north into silence.
-- Carved mammoth-ivory friezes recording the **Landing at Hsaarik Head** and the roster of the **Five Hundred Companions**, with the names of the legendary longships (*Jorrvaskr*, *Krilot Lok*, *Kaal Kaaz*, *Fallowfire*) etched in the original, sharp wedge-runes invented by **Ysgramor's** own hand so that man's memory could never be erased by the elves.
-- At the center of the hall, resting upon stone plinths of black sea-rock, are rows of stone chests holding petrified mammoth-hide scrolls, bronze tablets, ancient sea-axes, and the pure, unperverted totems of the Old Gods: the **Hawk of Kyne** crowning the sky-vault, the **Whale of Stuhn**, the **Bear of Tsun**, and the **Wolf of Mara**—honored centuries before the Dragon Priests corrupted the animal pantheon and made the Dragon king.
+Vast carved panoramas line the walls:
+- The legendary **Green Atmora** of the Dawn: sunlit coasts, rolling tundra, and timber-halls beneath a golden sky, before the Frostfall froze the north.
+- Carved mammoth-ivory friezes recording the **Landing at Hsaarik Head** and the roster of the **Five Hundred Companions**, with the names of the legendary longships (*Jorrvaskr*, *Krilot Lok*, *Kaal Kaaz*, *Fallowfire*) etched in the original, sharp wedge-runes invented by **Ysgramor**.
+- Rows of stone chests resting upon black basalt plinths, holding petrified scrolls, bronze tablets, sea-axes, and the pure totems of the Old Gods: the **Hawk of Kyne** crowning the sky-vault, the **Whale of Stuhn**, the **Bear of Tsun**, and the **Wolf of Mara**—carved centuries before the Dragon Priests corrupted the animal pantheon and made the Dragon king.
 
-At the far end of the vast gallery stand a pair of colossal bronze doors hanging slightly ajar, where the pulsing crimson light and the wet thumping of the corrupted mountain-root bleed through from the ritual chamber beyond.
+At the far end of the gallery stand a pair of colossal bronze doors hanging slightly ajar, where pulsing crimson light and the wet thumping of the corrupted mountain-root bleed through from the ritual chamber beyond.
 
---- THE SACRED IMPACT: RELIGIOUS ECSTASY OF THE NORDS ---
+--- RAW MERETHIC ALCHEMY (ISMARA / DAVINIA) ---
+In the dark mineral soil along the geothermal runoff basins, clusters of vibrant subterranean flora thrive in the warmth: abundant **Blisterwort** caps and creeping **Blue Mountain Flower** runners.
 
-GM: This is a religious rapture for every Nord in the room. The legends, the cradle songs, the campfire sagas every Nord child grew up hearing are not myth—they are standing in the physical, unbroken dawn of their entire civilization.
+[GM Note: There are no pre-made potions here. Ismara's player learned the foundational Restore Health recipe on the road to Ivarstead (Blisterwort + Blue Mountain Flower). The ingredients are physically present in quantities that allow her to harvest and brew 4 to 6 Restore Health potions using the geothermal pool as a heat source. Do not prompt her; let her recognize the ingredients herself.]
 
-- YLVA THE CLEAVER (Complete Spiritual Rapture):
-  * Ylva takes two steps into the chamber and stops dead. Her face goes completely slack.
-  * For the first time since anyone has known her, **Ylva drops her battleaxe**. It hits the flagstones with a dull clatter. She doesn't notice.
-  * Her hands tremble. Her feral, furious energy—the resentment toward Saijah, the venom over Hircine—drowns completely in a wave of overwhelming, sacred awe. Her breath catches in a sob.
-  * She falls to both knees before a colossal carved mammoth-ivory relief of the **Atmoran Wolf Totem**—not the bloody, diseased beast of Hircine, but the ancient, holy Wolf of the Pack, the protector of men who ran beside the hunters in Atmora.
-  * Tears cut bright, clean lines through the soot, blood, and frost on her face. She reaches out with shaking, blood-stained fingers and presses her palms and forehead directly against the cold ivory:
-    *"It's here... Shor's blood, it's all here. The songs were true. We weren't born into dirt and iron... we were kings of the sea."*
-  * For several minutes, Ylva is inconsolable in the purest sense—overcome with religious rapture, weeping in reverent disbelief, completely spiritually anchored.
+--- JASPER AVALON'S JOURNAL ---
+Lying on a stone bench near the inner bronze doors is a worn, frost-damaged leather journal. The first half is water-stained and warped; the final pages are crisp, penned in dark, steady ink.
 
-- BJORN (Ancestral Memory & The Heir of the Sky):
-  * Bjorn walks down the central aisle like a man wandering through a dream he had four hundred years ago.
-  * The dragon souls in his chest do not thrash—they harmonize. The mountain hums against his boots, the stone singing to the blood in his veins.
-  * He stops before the carved tablet of the **Pact of the Sky**—where Kyne breathed upon the Throat of the World and formed the first men, and where the ancient kings first learned to shout.
-  * The mystery of his de-aging is laid bare before his eyes: a mortal body decays forward along linear time, but a **dragon's soul is an immortal, timeless shard of Akatosh**. Absorbing two dragon souls in close succession has seized his biology and dragged it violently backward toward his physical prime (age 30, the apex of the Dovahkiin).
-  * He reaches out and touches an Atmoran sea-shield. For forty years he thought he was a failed soldier who couldn't protect anyone; standing in this light, he realizes who he actually is.
+>> IN-WORLD TEXT: THE RECKONING OF JASPER AVALON
+[Handwriting is jagged, shivering, nearly illegible from cold]
+"Last of the tallow burned out hours ago. Fingers gone black at the tips. The Pale Lady’s crypt is empty—everyone fled when the sword was moved and they barred the outer grate behind them. Left me in the dark. Three days crawling the frost-rifts. Ate dried lichen off the barrow floor. The cold isn't an absence; it has teeth. Prayed to Arkay until my throat cracked. No warmth. No light. Nobody answers."
 
-- ESBERN (The Scholar's Nirvana):
-  * Esbern is shaking, touching the bronze tablets with trembling scholar's fingers, tears in his eyes:
-    *"The original rune-plates of Ysgramor... preserved before the Dragon War! Esbern, you old fool, you are standing in the womb of Tamriel. This predates the Dragon Cult's rewrite of our history! Everything we know about the First Era came from copies of copies... these are the first cuts!"*
+[Handwriting trails into faint, shivering scratches across several blank leaves. Then, abruptly, the script shifts: sharp, flowing, radiant, penned with joyous, feverish precision]
 
-- MILA (The Cradle Song Made Real):
-  * Mila walks beside Bjorn, wide-eyed, tracing her small fingers over the carved ivory waves of the longships, whispering the words of the songs her mother used to sing to put her to sleep in Morthal.
+"How blind we were! Clinging to our little sacks of warm water and bone, shivering in our holes, begging the gods to let us keep rotting for another winter.
 
-- BJORN (Pre-Boss Armory Find):
-  * On an honored warrior's plinth, Bjorn finds **The Sky-Tempered Atmoran Hauberk** and a **Basalt-Weighted Star-Iron Cleaver**—heavy, unadorned pre-dragon gear scaled to his immense mass, outfitting him before the battle.
+The Master pulled me from a snow-drift in Winterhold. He did not give me bread. He gave me the fire that cleanses the slate! The cold was never the enemy—the cold was only the fear of being unmade. Once you understand that the mountain itself wants to burn, the hunger stops. The dread stops. There is only the dawn.
 
-- ALFONSO (Rot vs. The Void):
-  * Alfonso examines the embalming alcoves, observing the pre-cult Atmoran rites where bodies decayed naturally to feed Kyne's soil.
-  * He realizes Gaelen's "unmaking" is a fraud: Rot (Namira/Peryite) is life continuing through consumption; Dagon's unmaking leaves no feast and no rot—it is sterile annihilation. Alfonso serves consumption, not the void.
-  * Pre-Boss Relic Find: In a sealed stone urn, Alfonso collects **Crystallized Dragon-Marrow Resin & Kyne-Ash**. Applying it to his obsidian chassis grants a permanent **+2 DR against Fire and Daedric spells**.
+The work at the root goes smoothly. Five great needles of volcanic glass—the anchors of the First Father—driven into the dragon’s throat to pin the wound open. The master sings the loop, and the stone obeys. Five anchors form the circle, but three keystones hold the tension true. If three shatter, the whole glorious knot unravels and the fire spills across the sky! 
 
-- DAVINIA / ISMARA (Stasis vs. Oblivion):
-  * Ismara's Sovereign Sight reads the soul-anchor runes on the pillars. The Crown of the Pale Lady is absolute Stasis—freezing the will to prevent death. In the next room waits Jasper Avalon, who chose absolute surrender to Dagon's void to be erased.
-  * Pre-Boss Discovery: On a basalt lectern lies **The Slate of the Unyielding Queen**. Reading it grants Davinia's submerged soul the **Frost-Core Mantra**, shielding her identity from being permanently consumed by the Crown.
+Let them come with their swords. When the dawn breaks, even their steel will melt into the sea."
 
-- SAIJAH (The Mother's Heartbeat):
-  * Crossing into Kyne's consecrated hall, Saijah's blinding migraine shifts into a clear, rhythmic pulse—the heartbeat of the goddess.
-  * She connects the two Towers: the dying Gildergreens across Skyrim and the bleeding root of Snow-Throat are one nervous system.
-  * Pre-Boss Cache: In an offering font, Saijah finds **12 Gale-Tempered Broadheads** (+4 Radiant/Wind damage to Daedric/corrupted creatures; ignores non-magical DR).
+[What this establishes:
+- The psychological tell: This manic, radiant embrace of Dagon's unmaking mirrors the exact ideological conversion the party will later discover in Jarl Elisif's private writings in Solitude.
+- The boss fight mechanics: Gaelen's ritual loop is anchored by five obsidian pillars in the amphitheater. Shattering any 3 of the 5 anchors collapses the ritual loop and disrupts his channel.]
 
-- ORION (Tonal Physics & The Anchor Weakness):
-  * Orion's acoustic mapping reveals the hall is an acoustic resonator. Sound funnels carved into the pillars direct vibrations to the root.
-  * He realizes the five obsidian anchors in the next room are acoustic dampeners holding the ritual together.
-  * Pre-Boss Tool: Orion finds an **Atmoran Sky-Iron Tuning Rod**, granting **Advantage on his checks to crack the anchors at range** during the fight.
+--- THE DAKHMA OF THE FIRST MEN (ALFONSO) ---
+On an elevated, circular basalt terrace open to the geothermal updrafts and high sky-fissures sits the ancient **Dakhma**—a pre-Dragon War open-air funerary altar of the First Men.
 
---- ANCIENT TREASURY & SACRED UNGUENTS ---
-- **Pre-Cult Treasury Chest:** In a floor recess sealed with pine-resin: 350 heavy Atmoran electrum and silver tokens (stamped with the Hawk, Whale, Bear; worth ~800 Septims to collectors/colleges; zero modern currency).
-- **Kyne’s Distilled Breath (3x Ceramic Flasks):** Sacred uncorrupted sky-nectar. Consuming one as a Minor Action completely restores all spent Focus Points (FP) and clears physical fatigue or poison.
+The carvings along the terrace depict the sacred excarnation practiced before the Dragon Cult:
+- The body of the deceased hunter laid bare upon the high stone platform.
+- Kyne’s storm-hawks, ravens, and pack-wolves descending to feed upon the flesh.
+- Fungi, beetles, and soil-rot digesting the sinew and returning biological matter to the mountain.
+- The bones left clean, white, and unburdened under the sun.
+- The wedge-rune inscription above the dais:
+  *"The breath is the gift. The meat is the borrow. The hawk takes the eye, the wolf takes the flesh, the rot clears the stone. When the bone is clean, the man is free."*
+
+[GM Note: This is the historical validation of Alfonso’s theology—the synthesis of Peryite (natural order, cycles of decay) and Namira (the sacred gut, the devouring scavengers). The modern world that calls Alfonso 'gross' was brainwashed by the Dragon Cult's obsession with mummification and frozen stasis. The ancient Atmorans revered decomposition as the sacred law that keeps Mundus alive.]
+
+- **The Relic: The Runic Slates of the First Feast:**
+  Preserved in a bronze-bound stone chest on the dais are heavy slate tablets inscribed with the ancient Atmoran liturgy of excarnation and biological catalytic formulas:
+  * Foundational holy scripture providing ancient, unassailable authority for Alfonso's emerging church of the Vrykolas.
+  * An ancient biological catalyst formula that utilizes geothermal fungi to stabilize decaying matter, granting Alfonso a vital tool for his ongoing collaboration on Ismara's Strain cure.
+
+--- THE CHAINED STELE: AGAINST THE SONS OF THE HARVESTER (ORION) ---
+Set into a reinforced basalt recess, wrapped in heavy iron chains and marked with pre-dragon warding runes, stands an ancient carved stone stele left by an Atmoran skald of the Five Hundred Companions who fought Molag Bal's subterranean broods during the Return.
+
+The chains are unusual. Each link runs taut between slotted iron pegs driven into the basalt at measured intervals, torqued tight — the same tension-peg system as the bridge of a lute. The stone beneath is scored with circular wear-marks where something heavy was struck against the links, over and over, across centuries.
+
+The chiseled wedge-runes on the stele's face are in ancient Atmoran — unreadable to anyone present.
+
+Nora is standing beside Orion at the recess. She reaches out and taps one of the taut chains with her fingernail. It rings — a clean, sustained pitch that fills the alcove and hangs in the air longer than iron should hold a tone. She pulls her hand back and looks at Orion.
+
+[GM: STOP. Hand the floor to **Orion's player**. Orion is the tonal engineer who studied Hjolmar's Diagnostic Song and is teaching Nora tonal diagnostics. He knows what tensioned metal, tuning pegs, and sustained acoustic resonance mean. Let him examine the stele, the chains, the pegs — whatever he wants to investigate. Do not prompt him toward a conclusion.
+
+If Orion uses the Diagnostic Song or deliberately strikes the chains:
+- **Standard Magic roll (+0):** He identifies the chain assembly as a tonal instrument — a resonance frame built to produce a specific frequency when struck.
+- **Hard Magic roll (-4):** He identifies the frequency as an *unweaving tone* — calibrated to shatter sympathetic enchantments. Daedric bonding foci: rings, amulets, blood-tethers. The chains are a weapon.]
+
+**THE RUNES (GM-only — translate only if a character with the relevant skill reads them):**
+*"The master tells the fledgling: your blood is mine. It is a lie. A fledgling who has fed on his own kill and kept his own will answers to no sire. The blood belongs to the body it beats in. He is no longer a thrall — he is a master without subjects."*
+
+[What this establishes for Orion:
+1. **Lordling, Not Thrall:** The text proves that vampiric subjugation relies on psychological dependence. Having fed and survived on his own, Orion's bloodline has fractured into an independent root node. He is already a Vampire Lordling; the leash holds only because he acts like a thrall.
+2. **The Acoustic Counter-Tone:** The stele details how ancient skalds shattered Bal's sympathetic foci (rings, amulets). A sympathetic tether is a bidirectional acoustic thread: striking an unweaving counter-resonance into the metal snaps the leash and sends a concussive shockwave back up the connection, stunning the Sire on the other end. (Directly feeds Orion and Nora's research on the Song of Severance).]
+
+**MOLAG BAL'S WHISPER (deliver privately — note card or pull the player aside):**
+
+[GM: Internal only. Orion hears this in his head. Valerius cannot hear it. Time it for when Orion is examining the chains or after he strikes them — whichever comes first. Voice: cold, flat, certain. No theatrics.]
+
+*"Do not break it."*
+
+*"The ring is mine. He borrowed it. You will give it back to me when I tell you to, and not before. Obey."*
+
+[What this establishes: Molag Bal is offering Orion an alternative to Severance. Instead of snapping the tether (which alerts Valerius instantly), Bal offers to *corrupt* the bond — turn Valerius's surveillance into a weapon Orion aims back. The price is submission to Bal. The pitch is domination, not freedom: trade one master for a stronger one and inherit the tools. Orion's player chooses. Do not push.]
+
+**VALERIUS SURVEILLANCE TRACKING:**
+
+Valerius hears through the Ring in real time:
+- The sound of Nora tapping the chain and the sustained pitch it produces
+- Everything Orion says aloud at the stele
+- Everything Nora says aloud at the stele
+
+Valerius does NOT hear:
+- Molag Bal's whisper (internal to Orion)
+- Anything Orion thinks but does not say
+
+[GM: No ring warming. No tell. Track what is spoken vs. what is thought. If Orion discusses breaking the bond aloud, Valerius has heard it. If the players communicate through looks, gestures, or written notes — that is them being smart, and Valerius gets nothing. The danger is live and invisible.]
+
+**OPTIONAL — THE RING VIBRATION (use only if this is the right moment per The Liar and the Lock, Sec. I):**
+
+[GM: The Liar and the Lock establishes that Nora eventually discovers the Ring during tonal work. If you want that discovery to happen here: when the chains ring, the metal of the Ring on Orion's finger vibrates a little bit in sympathy with the sound. Nora, standing right next to him, notices the ring vibrating. She doesn't know what the ring is or who listens through it—she just notices the vibration. If this isn't the right moment, save it for a later tonal session. Do not force it.]
+
+--- THE GALE BROADHEAD OF KYNE (SAIJAH) ---
+Resting in a carved stone offering font fed by Kyne's breath-springs lies a single, pristine arrow.
+- **Description:** Carved from pale petrified mountain ash, tipped with sky-tempered meteoric iron, and fletched with feathers from Kyne's storm-hawks that never ruffle or bend.
+- **Weapon Mechanics:**
+  * **Damage:** Deals standard arrow damage for her bow.
+  * **The Returning Wind:** On a successful hit that sticks into a target, a violent draft tears the broadhead free after damage resolves and whips it directly back to Saijah's current position.
+  * **The Vector Repositioning:** Because the arrow returns to wherever Saijah stands at the moment of return, if she uses her movement speed to sprint to a new flank between firing and retrieval, the return path crosses the battlefield—striking an intermediate enemy caught directly in the return vector.
+  * **Fragile on Fumbles:** On a critical fumble / catastrophic failure, the arrow strikes solid stone or heavy armor and shatters permanently.
+  * **High-Capacity Soul Quartz:** Unlike standard arrows that hold a single charge, the meteoric iron head has the retention capacity of fine soul quartz, holding up to **5 enchantment charges** and expending one charge per strike.
+
+--- THE ENSEMBLE BEATS ---
+
+- **BJORN (Ongoing Shock & De-Aging Trauma — Routed Through Davinia):**
+  * Bjorn collapses heavily onto a basalt step near the pillars, gripping his knees, his breathing ragged.
+  * The scars of thirty years of war are gone from his arms; his aching joints are smooth and full of raw, unspent youth. The dragon souls in his chest rumble in terrifying resonance with the stone, making him nauseous with vertigo.
+  * He looks up at **Davinia** as she approaches, his voice shaking with confusion:
+    *"Davinia... look at my hands. They're my hands from thirty years ago. The ache in my hip is gone. What is this place doing to me? Tell me what this is."*
+
+- **MILA (Ancient Nord Armor — Routed Through Davinia or Saijah):**
+  * Mila (aged to ~16 by the temporal shear on the steps) finds a chest of pre-dragon hunt armor: a suit of **Ancient Nord Carved Armor** (the iconic leather, chain, and steel-banded set).
+  * Her woolen child's clothing from Morthal is split at the shoulder seams and painfully tight. She has the armor laid out on a plinth, but has never worn armor and cannot work the heavy bronze buckles or crossing straps.
+  * She approaches **Davinia** (or **Saijah**), holding the cuirass, embarrassed:
+    *"Davinia... it's stuck. The buckles won't reach around my back, and the shoulders keep falling down. How do you make it stay on?"*
+
+- **ESBERN (The Five Hundred Companions — Spoken to the Party):**
+  * Esbern stands before the mammoth-ivory frieze of the Landing at Hsaarik Head, tracing Ysgramor's original wedge-runes. He turns to the party, his scholar's voice clear, reverent, and powerful:
+    *"Look at these names. Kaal Kaaz. Fallowfire. Five hundred mortals took on an entire continent of dragons and elves, and carved out a home from the ice with nothing but iron and their own blood. For thirty years I thought the Blades were the end of something. I was wrong. High King Torygg gave you a charter because the dragons are back, and Skyrim needs the Five Hundred Companions again. That is what you are."*
+
+- **YLVA THE CLEAVER (Branch A — Saijah Refused Hircine):**
+  * Ylva stands before the Atmoran Wolf totem. Having seen Saijah endure the agonizing withdrawal on the steps, Ylva crosses the room and shoves a roll of clean linen hard into Saijah’s bruised chest:
+    *"Your knuckles are split to the bone. Wrap them before your bow slips. We have a fight through that door."*
+
+- **YLVA THE CLEAVER (Branch B — Saijah Accepted Hircine's Deal — Routed Through Alfonso):**
+  * Ylva walks over to the elevated basalt terrace where Alfonso stands examining the stone plinths. Having not spoken a word to him since he lost his body at Forelhost, she acts as if there was never any distance between them. She steps right into his space and raps her knuckles hard against his ribs with a wide, rough grin:
+    *"Look at you. Decided to stand on your own two feet after all. Good."*
+  * She rests her bare hand flat against the bone of his forearm, leaning her weight casually against him, and looks up at the massive circular dais. She squints at the weathered stone reliefs—hawks circling, packs of wolves tearing into open carcasses, beetles and decay stripping bones bare under an open sky:
+    *"What is this place? I can see the wolves carved all over the stone, but... what did the old ones build this for? What are they doing to the dead?"*
+
+  [GM: STOP. Hand the floor to **Alfonso's player**. Alfonso holds *The Runic Slates of the First Feast* and understands ancient Atmoran excarnation. He chooses how to frame this to her.]
+
+  * **BRANCH 1: THE CHARISMATIC PROPHET (The Cult Leader Pitch)**
+    - *Alfonso's Angle:* Alfonso explains the sacred liturgy of the Dakhma—that before the Dragon Cult brought mummification and draugr stasis, the First Men laid their dead under the sky. The wolf tore the meat, the rot cleared the stone, and together they set the spirit free. Her hunger was never a curse; it was holy work.
+    - *Ylva's Response:* It hits the exact wound of her exile. Her rough bluster drops for a second, genuinely disarmed:
+      *"Holy? Hmm. Back when I was a Companion... they told me wanting the meat made me a monster. Said the beast in our blood was a burden to be ashamed of—that I was just sick."*
+      *(This is the first time anyone in the party learns Ylva ran with the Companions in Jorrvaskr.)*
+      She looks at the carvings, then down at her own calloused hands, her grip on his arm tightening:
+      *"The wolf and the rot... you really believe the old ones had it right?"*
+    - *The Resolution (First Adherent):* If Alfonso confirms it and welcomes her, Ylva's grin returns, fierce and completely re-anchored. She has found a faith that doesn't ask her to apologize for what she is:
+      *"Then to hell with Jorrvaskr. And to hell with the dragon priests. You clean the bone, Alfonso... I'll tear the meat. We hunt together."*
+      *[GM Note: Ylva has never seen an ancient Dragon Priest—nobody has in millennia. She calls the Greybeards "dragon priests" purely because they are priests who shout like dragons.]*
+      - **Narrative Impact:** Ylva formally becomes the **first sworn adherent** of Alfonso's emerging Church of the Vrykolas.
+      - **Mechanical Synergy (*The Sacred Excarnation*):** 
+        * When Ylva attacks an enemy afflicted by Alfonso's diseases or spells, she deals **+2 Bleed damage**.
+        * When Alfonso hits an enemy with a spell while Ylva is actively engaged with them in melee, that enemy suffers **Disadvantage on its next roll** (no expiration timer; triggers whenever that enemy makes its next roll; non-stacking).
+
+  * **BRANCH 2: THE PRAGMATIC SCAVENGER (Cold Biology & Meat)**
+    - *Alfonso's Angle:* Alfonso avoids preaching and treats it with clinical practicality: it’s an excarnation terrace to feed the scavengers, prevent disease, and ensure meat doesn't rot uselessly in the dirt.
+    - *Ylva's Response:* Ylva chuckles, nodding with easy predator logic:
+      *"Ha. Leaving a feast so the pack eats and the camp doesn't get sick. I like that a lot better than old men chanting in barrows."*
+      She gives his bone arm an affectionate shake:
+      *"Good. Don't go soft on me. You've got bones that don't bleed, and I've got an axe that makes meat. Let's see what else the old ones left down here for us."*
+    - *The Resolution:* A brutal, transactional pack bond. Not a religious conversion, but combat camaraderie and mutual respect restored.
+
+  * **BRANCH 3: THE COLD REJECTION (Bitterness or Dismissal)**
+    - *Alfonso's Angle:* Alfonso brushes her off, stays cold, or calls her out for abandoning him when he was a blade.
+    - *Ylva's Response:* Ylva's armor snaps right back into place (*"She does not weep. She sharpens"*). Her hand drops from his forearm, her grin turning thin and sharp:
+      *"Right. Ancient rocks. Should've known you'd rather talk to dead stone than a living woman."*
+      She swings her axe back onto her shoulder, stepping clear of his space.
+    - *The Resolution:* The emotional door slams shut. Ylva remains purely a detached mercenary companion, treating Alfonso as a frail caster who needs to stay out of her way.
+
+- **VARON (The Manufactured Frame & The Knahaten Scourge — Routed Through Alfonso):**
+  * Varon steps out from the shadow of the mammoth-ivory pillars onto the terrace. He doesn't look at the murals. His eyes are fixed on Alfonso’s hands—watching the obsidian shards catch the red light as the dead fingers flex and settle against the basalt plinth.
+  * He stops two paces away, standing with that unblinking, reptilian stillness:
+    *"When you close your fingers... do you have to tell each knuckle to move? Or does the bone just obey?"*
+
+  [GM: Let Alfonso's player answer.]
+
+  * Varon listens, his flat cadence low and unhurried:
+    *"I watch you... and I see the only other person on this mountain who knows what it feels like to wake up inside a frame that wasn't born to him."*
+  * He lifts his right hand. His fingers twitch once, involuntarily, before his thumb presses hard against the white surgical scar behind his ear:
+    *"Does it hurt?"*
+
+  [GM: Let Alfonso's player answer how his vessel feels.]
+
+  * **If Alfonso says it doesn't hurt / feels empty:**
+    *"Must be nice. I used to wonder what that felt like."*
+  * **If Alfonso says he feels the rust / cold / aches:**
+    *"At least it's a cold weight. Mine is fire. We have that in common."*
+
+  * Varon's thumb stays against the scar behind his ear, his jaw tightening:
+    *"Ten years ago in the mud of the Colony, three Argonian chirurgeons held me down on a cedar plank. No draughts. No numb-weed. They shaved my jawbone down with an iron rasp, clipped the tips of my ears, softened my ribs, and pulled the skin tight with gut-string to give me this human face. They told me the pain was an anchor. Said a weapon that burns never forgets what it is."*
+  * He gestures faintly to his whole body—his shoulders, his wrists, his neck:
+    *"On those stairs outside, the mountain tore twenty years off my meat in three heartbeats. The old cuts pulled open under the skin. Every bone they shaved, every joint they reset—the whole network is firing like hot wire. I'm living inside a burning house."*
+
+  [GM: Pause. Let Alfonso react.]
+
+  * Varon’s flat cadence dips low, the pressure finally cracking his composure:
+    *"And I am tethered to an amateur. Your 'Brother' Orion kills like a child playing at ghosts. In the Warrens he left coin and bodies for beggars to find, and smiled his fangs at the little girl. He was supposed to put Hroki in the dirt weeks ago. Instead he plays at politics and drags his boots across the snow. My handlers in the Brotherhood do not give extensions. The Colony does not accept excuses. Every night I spend sitting by this fire watching Saijah... the debt gets heavier. Hroki is in Windhelm. If we do not reach Windhelm and finish the job, the next contract my Elders write will have my name on the parchment."*
+
+  [GM: Pause. Let Alfonso respond or register the Windhelm destination.]
+
+  * Varon turns back to Alfonso, looking straight into the black soul gems in his eye sockets:
+    *"I’ve tried healers. I’ve tried temple priests, alchemical draughts, numb-weed, all of it. Restoration magic just knits the torn meat back together, and every time the tissue regrows, the scarred nerves fire twice as hot. Nothing touches it."*
+  * He steps half a pace closer, his voice stripped of all its usual detachment:
+    *"You studied at the College. You were smart enough to cheat death itself and put yourself back together when your flesh was gone. You have to know things those temple quacks couldn't even dream of. Is there anything... anything you can do to stop this? Please..."*
+
+  [GM: STOP. Hand the floor entirely to **Alfonso's player**.]
+
+  * **THE PUZZLE FOR ALFONSO:**
+    - *The Clues:* Restoration fails because it regenerates tissue and re-ignites nerve pain. Varon's whole-body nerve agony requires something that deadens or destroys the misfiring pathways without paralyzing his muscles.
+    - *What Alfonso Holds:* His mastery of alchemy, his Peryite plague/rot magic, and **The Runic Slates of the First Feast** (which detail ancient geothermal fungi catalysts that arrest and control decay).
+    - *The Player's Discovery:* Alfonso can propose using a microscopic, controlled Destruction/blight infection—acting like targeted chemotherapy—to scour and deaden the damaged nerve bundles, chemically cauterizing the chronic pain permanently.
+
+  * **THE RESOLUTION & STAT SHIFT:**
+    - If Alfonso administers the treatment:
+      * **The Cost:** Deadened nerve reflex slightly dulls raw reaction time: **-1 Agility** (from 17 to 16).
+      * **The Gain:** The ten-year whole-body agony vanishes. With his mind freed from chronic pain, his focus is terrifyingly cold and absolute: **+1 Guile** (from 15 to 16).
+      * **The Loyalty:** Varon’s disposition toward Alfonso permanently becomes **Devoted / Indebted**. Alfonso accomplished what every healer in Tamriel failed to do.
+      * **The Alignment:** Locks in their shared drive to reach **Windhelm** (Hroki for Varon; the Afflicted Conclave for Alfonso).
+    - If Alfonso refuses or exploits him:
+      * Varon's thumb drops from his ear. The mask staples back into place. He files Alfonso as a cold, dangerous construct and steps away, dealing with the pain alone.
 
 >> THE INNER DOORS
 The heavy bronze doors shudder with every pulse of the mountain. Beyond them, the Bosmer's voice calls out warmly into the dark:
@@ -1590,7 +1894,15 @@ GM: Gaelen escapes by design; Jasper does not. This is the party's FIRST contact
 >> READ ALOUD
 The undercroft is older than the monastery above it -- a vaulted root-cellar of the world, columns of living rock, wide as their cart, running down into shadow. Red light comes up out of channels carved into the floor with repeating Daedric script, all of them running inward to a central well where the mountain's root stands exposed -- a pillar as wide as High Hrothgar's whole front wall, rock too dense to have grain or seam, veined now with fresh black cracks where the sap has forced its way through, climbing toward an array of obsidian shards arranged in a blooming spiral.
 
-A Bosmer moves through the array unhurried, crimson chitin catching the light, one arm a grafted mass of charred heartwood and obsidian that gestures at things he is not looking at. He is adjusting each shard with the care of a man tuning an instrument he loves.
+At the center of the spiral, a man stands before the exposed root.
+
+He is tall and slender beneath layered crimson vestments. A deep hood frames his red face, and bands of gold-edged Daedric script run from his shoulders to his waist. His eyes shine blue-white beneath the hood.
+
+His features do not remain entirely still. The line of his jaw shifts by a fraction. His cheekbones draw higher, then settle. The shape of his mouth changes when he breathes. Every alteration is small enough to doubt, but constant enough that no single detail holds in the mind for long. He is recognizably Bosmeri. Beyond that, his face refuses to become a portrait.
+
+His left arm is enormous. Black wood and obsidian have grown together from shoulder to fingertips, branching into a clawed graft with blue light shining through its seams. The arm reaches past him into the array and turns one of the anchor-shards.
+
+The shard answers. Red light moves through the channels beneath your feet and disappears into the root.
 
 Without turning, in a voice that is warm and genuinely pleased: "Oh -- visitors. Good. I hoped the mountain would manage to be heard. Come in, come in. You are not interrupting; nothing can interrupt this. But company is rare, and I have wanted to meet you for the longest time."
 
